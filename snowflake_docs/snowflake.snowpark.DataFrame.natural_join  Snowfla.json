@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.natural_join",
+    "title": "snowflake.snowpark.DataFrame.natural_join | Snowflake Documentation",
+    "paragraphs": [
+        "Performs a natural join of the specified type (how) with the\ncurrent DataFrame and another DataFrame (right).",
+        "right \u2013 The other DataFrame to join.",
+        "how \u2013",
+        "We support the following join types:",
+        "Inner join: \u201cinner\u201d (the default value)",
+        "Left outer join: \u201cleft\u201d, \u201cleftouter\u201d",
+        "Right outer join: \u201cright\u201d, \u201crightouter\u201d",
+        "Full outer join: \u201cfull\u201d, \u201couter\u201d, \u201cfullouter\u201d",
+        "You can also use join_type keyword to specify this condition.\nNote that to avoid breaking changes, currently when join_type is specified,\nit overrides how.",
+        "",
+        "Was this page helpful?"
+    ]
+}

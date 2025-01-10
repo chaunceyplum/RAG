@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/client-connectivity-troubleshooting/browser-test",
+    "title": "Browser test | Snowflake Documentation",
+    "paragraphs": [
+        "For a successful connection to Snowflake, the URLs listed in the Snowflake allowlist should be accessible via the browser. To verify, you should try to access the URLs in your browser. The results of this browser test can help Snowflake understand the possible root causes of your issue.",
+        "For the Snowflake URL, you should be able to access the login page in the browser.",
+        "For a Stage URL, you should expect some sort of 403 error, but still succeed in connecting. See the examples below:",
+        "AWS stage successful connection example:",
+        "Azure stage successful connection example:",
+        "GCP stage successful connection example:",
+        "OCSP URL (http://ocsp.snowflakecomputing.com/ocsp_response_cache.json) successful connection example:",
+        "You should see a progress bar for downloading the ocsp_response_cache.json file to the location specified in your browser.",
+        "If the test is unsuccessful, you would see an error similar to the following:",
+        "After completing these steps, continue with follow-up actions.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

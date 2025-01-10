@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cert-cjis",
+    "title": "CJIS (Criminal Justice Information Services) | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes how Snowflake supports customers with CJIS compliance requirements.",
+        "Snowflake\u2019s U.S. Regions Supporting Public Sector Workloads are ready and able to support customer compliance with the\nFBI\u2019s Criminal Justice Information Services (CJIS) Security Policy. The CJIS Security Policy provides federal and state agencies with a unified set of standards for\nthe protection and safeguarding of Criminal Justice Information (CJI) in the cloud. Snowflake recognizes the importance of protecting CJI\nand works collaboratively with customers to satisfy CJIS requirements. Customers interested in learning more about how they can use\nSnowflake in connection with CJI can learn more here:\nCriminal Justice Information at Snowflake.",
+        "Note",
+        "If your Snowflake account is in a U.S. government region and you want to access data products that are\noffered privately or on the Snowflake Marketplace, or offer listings either privately or on the Snowflake Marketplace, you must review and\nacknowledge a cross-region disclaimer for your organization.",
+        "For details, see:",
+        "Prepare to provide listings from accounts in U.S. government regions",
+        "Prepare to access listings from accounts in U.S. government regions",
+        "Limitations for accessing listings from accounts in U.S. government regions",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

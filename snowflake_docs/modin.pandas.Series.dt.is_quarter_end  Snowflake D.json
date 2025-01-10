@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.dt.is_quarter_end",
+    "title": "modin.pandas.Series.dt.is_quarter_end | Snowflake Documentation",
+    "paragraphs": [
+        "Indicator for whether the date is the last day of a quarter.",
+        "is_quarter_end \u2013 The same type as the original data with boolean values. Series will have the same name and index. DatetimeIndex will have the same name.",
+        "Series or DatetimeIndex",
+        "See also",
+        "Return the quarter of the date.",
+        "Similar property indicating the quarter start.",
+        "Examples",
+        "This method is available on Series with datetime values under the .dt accessor, and directly on DatetimeIndex.",
+        "Was this page helpful?"
+    ]
+}

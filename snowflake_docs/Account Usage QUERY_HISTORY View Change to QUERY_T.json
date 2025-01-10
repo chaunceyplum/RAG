@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_03/bcr-1571",
+    "title": "Account Usage QUERY_HISTORY View: Change to QUERY_TAG | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The output of the QUERY_HISTORY view, when returning information related to a Streamlit in Snowflake query, displays as follows:",
+        "The QUERY_TAG column contains a free form value resembling:",
+        "With a child query tag content resembling:",
+        "The QUERY_TAG column contains a JSON value resembling:",
+        "With a child query tag content resembling:",
+        "When parsing query history or tracking the Streamlit app, refer to the fully-qualified name of the Streamlit app, for example \"StreamlitName\": \"STREAMLIT_DB.STREAMLIT_SCHEMA.OBJECT_NAME\".",
+        "Ref: 1571",
+        "Was this page helpful?"
+    ]
+}

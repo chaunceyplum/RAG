@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.cast",
+    "title": "snowflake.snowpark.functions.cast | Snowflake Documentation",
+    "paragraphs": [
+        "Converts a value of one data type into another data type.\nThe semantics of CAST are the same as the semantics of the corresponding to datatype conversion functions.\nIf the cast is not possible, a SnowparkSQLException exception is thrown.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

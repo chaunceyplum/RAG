@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_08/bcr-1719-1807",
+    "title": "SHOW TASKS/DESC TASK commands: New columns in output (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, the SHOW TASKS / DESCRIBE TASK commands include the following new column:",
+        "Column name",
+        "Description",
+        "SUCCESS_INTEGRATION",
+        "Name of the notification integration used to access Amazon Simple Notification Service (SNS), Google Pub/Sub, or Microsoft Azure Event Grid to relay success notifications for the task.",
+        "SCHEDULING_MODE",
+        "Displays whether the serverless task is FIXED or FLEXIBLE.",
+        "When the scheduling mode is FIXED, the task execution is based on the user-specified schedule for the task.",
+        "When the scheduling mode is FLEXIBLE, the task execution is based on the user-specified schedule and target completion interval for the task.",
+        "TARGET_COMPLETION_INTERVAL",
+        "Displays the target completion interval that the user wants, which the serverless task uses to determine the size of the compute resources to use to complete execution.",
+        "Ref: 1719 1807",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-function-spcs",
+    "title": "DESCRIBE FUNCTION (Snowpark Container Services) | Snowflake Documentation",
+    "paragraphs": [
+        "Describes the specified service function, including the signature (arguments), return value, language, and body (path to the Snowpark Container Services service).",
+        "Service functions, CREATE FUNCTION, ALTER FUNCTION, DROP FUNCTION",
+        "Specifies the identifier for the service function to describe. If the identifier contains spaces or special characters, the entire string must be enclosed in double quotes. Identifiers enclosed in double quotes are also case sensitive.",
+        "Specifies the arguments/inputs for the service function. These should correspond to the arguments that the\nservice expects.",
+        "If there are no arguments, then include the parentheses without any argument name(s) and data type(s).",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "USAGE",
+        "Service function",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "In Tutorial-1, you create a service function (my_echo_udf). The following DESC FUNCTION command returns the service function description:",
+        "Example output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/editdistance",
+    "title": "EDITDISTANCE | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Matching/Comparison)",
+        "Computes the Levenshtein distance between two input strings. It is the number\nof single-character insertions, deletions, or substitutions needed to convert\none string to another.",
+        "Note",
+        "Unlike some other metrics (for example, Damerau-Levenshtein distance), character\ntranspositions aren\u2019t considered.",
+        "Required:",
+        "The input strings.",
+        "Optional:",
+        "Integer expression that specifies the maximum distance to compute.",
+        "When the distance between the strings exceeds this number, the function stops computing the distance and just returns the\nmaximum distance.",
+        "Specifying this argument has the same effect as calling\nLEAST( EDITDISTANCE( string_expr1, string_expr2 ), max_distance ).",
+        "If you specify a negative number (that is, -n), the function uses 0 as the maximum distance and returns 0.",
+        "The execution time of the EDITDISTANCE function is proportional to the product of the lengths of the input strings.",
+        "For better performance, Snowflake recommends using input strings not longer than 4096 characters.",
+        "Input strings longer than 16 MB might result in an error.",
+        "You can also use the optional max_distance argument to set an upper bound for the distance computed.",
+        "No impact.\nIn languages where the alphabet contains digraphs or trigraphs (such as \u201cDz\u201d and \u201cDzs\u201d in Hungarian), each character in each digraph and trigraph is treated as an independent character, not as part of a single multi-character letter.",
+        "The result is based solely on the characters in the strings, not on the collation specifications of the strings.",
+        "The following example computes the distance between the strings in the columns s and t in the table ed.",
+        "The last two columns use the max_distance argument to specify the maximum distance to compute:",
+        "When max_distance is 3, the function returns 3 if the distance between the strings is greater than or equal to\n3 (as shown below).",
+        "If max_distance is a negative number (for example, -1, as shown below), the function uses 0 as the maximum distance\nand returns 0.",
+        "The next example returns FALSE if the distance between two strings is at least 2. Because max_distance is\nspecified as 2, the function stops calculating the distance once the distance is determined to be at least 2. (The actual\ndistance between the input strings is 6.)",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_05/bcr-1635",
+    "title": "SHOW REGIONS command: Changes to region display names in output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_05 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In a future release, display names for specific regions in the output of the SHOW REGIONS command will be updated for VPS customers.\nThe SHOW REGIONS command behaves as follows:",
+        "",
+        "The DISPLAY_NAME column for VPS customers is defined only based on the region the account is located in.\nFor example, for a VPS account VPSAccount, in region us-east-1, DISPLAY_NAME\nwould show as: US East (N. Virginia).",
+        "",
+        "The DISPLAY_NAME column for VPS customers includes a customer specific identifier.\nFor example, for a VPS account VPSAccount, in region us-east-1, DISPLAY_NAME would show as: US East (VPSAccount - N. Virginia).",
+        "Ref: 1635",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/comment",
+    "title": "COMMENT | Snowflake Documentation",
+    "paragraphs": [
+        "Adds a comment or overwrites an existing comment for an existing object.",
+        "Comments can be added to all objects (users, roles, warehouses, databases, tables, etc.). You can use this command to add comments\nto individual table columns, but not to constraints on columns.",
+        "You can also add comments when you are creating or altering objects:",
+        "Specify the COMMENT parameter in the CREATE <object> or ALTER <object> command.",
+        "The COMMENT parameter can also be used in the ALTER <object> command to change an existing comment at any time.",
+        "A slightly different syntax is used for adding comments to table columns:",
+        "A comment can be added at creation by following the column declaration with the COMMENT keyword (not property).",
+        "The comment can then be changed using this command.",
+        "To add a comment to a constraint, use the CREATE TABLE or CREATE | ALTER TABLE \u2026 CONSTRAINT commands.",
+        "The DESCRIBE TABLE output does not show comments for table constraints, such as multi-column primary keys. To see these comments,\nquery the TABLE_CONSTRAINTS view.",
+        "Regarding metadata:",
+        "Attention",
+        "Customers should ensure that no personal data (other than for a User object), sensitive data, export-controlled data, or other regulated data is entered as metadata when using the Snowflake service. For more information, see Metadata fields in Snowflake.",
+        "Initially create a schema with a comment, then overwrite the comment:",
+        "Create a table with a comment on a table column, then overwrite the comment:",
+        "Create a view with a comment, then overwrite the comment:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

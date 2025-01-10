@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/email_integration_config",
+    "title": "EMAIL_INTEGRATION_CONFIG | Snowflake Documentation",
+    "paragraphs": [
+        "Notification functions (Integration Configuration)",
+        "Returns a JSON object that specifies the email notification integration, recipients, and subject line to use for an email\nnotification. This is a helper function that you use to construct an integration configuration object for the\nSYSTEM$SEND_SNOWFLAKE_NOTIFICATION stored procedure.",
+        "Using SYSTEM$SEND_SNOWFLAKE_NOTIFICATION to send notifications ,\nSYSTEM$SEND_SNOWFLAKE_NOTIFICATION ,\nINTEGRATION",
+        "Name of the email notification integration to use.",
+        "Subject of the email message.",
+        "The subject cannot exceed 256 characters in length.",
+        "ARRAYs of the email addresses to include in the \u201cTo:\u201d, \u201cCc:\u201d, and \u201cBcc:\u201d lines of the message.",
+        "You must specify email addresses of users in the current account. These users must\nverify their email addresses.",
+        "If the ALLOWED_RECIPIENTS property is set to a list of email addresses in the\nemail notification integration, the email addresses must be in that list.",
+        "Call the ARRAY_CONSTRUCT function to construct each ARRAY.",
+        "Note",
+        "You cannot send an email notification if you only specify the \u201cBcc:\u201d line.",
+        "A JSON-formatted string that specifies a notification integration for the\nSYSTEM$SEND_SNOWFLAKE_NOTIFICATION stored procedure to send.",
+        "For example, suppose that you pass in the notification integration name 'my_email_int' with the following subject line and\nlist of email addresses for the \u201cTo:\u201d line:",
+        "The function returns the following JSON-formatted string:",
+        "The following example sends the same notification with an additional list of email addresses for the \u201cCc:\u201d line. Note that this\nexample passes NULL for the \u201cBcc:\u201d addresses to exclude the bccAddress property from the returned object.",
+        "The function returns the following JSON-formatted string:",
+        "The following example sends the same notification with an additional list of email addresses for the \u201cBcc:\u201d line:",
+        "The function returns the following JSON-formatted string:",
+        "See Using SYSTEM$SEND_SNOWFLAKE_NOTIFICATION to send notifications.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

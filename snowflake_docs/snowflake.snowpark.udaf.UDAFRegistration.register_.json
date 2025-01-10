@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.udaf.UDAFRegistration.register_from_file",
+    "title": "snowflake.snowpark.udaf.UDAFRegistration.register_from_file | Snowflake Documentation",
+    "paragraphs": [
+        "Registers a Python class as a Snowflake Python UDAF from a Python or zip file,\nand returns the UDAF. Apart from file_path and handler_name, the input arguments\nof this method are the same as register(). See examples in\nUDAFRegistration.",
+        "file_path \u2013 The path of a local file or a remote file in the stage. See\nmore details on path argument of\nsession.add_import().\nNote that unlike path argument of\nsession.add_import(),\nhere the file can only be a Python file or a compressed file\n(e.g., .zip file) containing Python modules.",
+        "handler_name \u2013 The Python class name in the file that will be created\nas a UDAF.",
+        "return_type \u2013 A DataType representing the return data\ntype of the UDAF. Optional if type hints are provided.",
+        "input_types \u2013 A list of DataType\nrepresenting the input data types of the UDAF. Optional if\ntype hints are provided.",
+        "name \u2013 A string or list of strings that specify the name or fully-qualified\nobject identifier (database name, schema name, and function name) for\nthe UDAF in Snowflake, which allows you to call this UDAF in a SQL\ncommand or via agg() or\ngroup_by().\nIf it is not provided, a name will be automatically generated for the UDAF.\nA name must be specified when is_permanent is True.",
+        "is_permanent \u2013 Whether to create a permanent UDAF. The default is False.\nIf it is True, a valid stage_location must be provided.",
+        "stage_location \u2013 The stage location where the Python file for the UDAF\nand its dependencies should be uploaded. The stage location must be specified\nwhen is_permanent is True, and it will be ignored when\nis_permanent is False. It can be any stage other than temporary\nstages and external stages.",
+        "imports \u2013 A list of imports that only apply to this UDAF. You can use a string to\nrepresent a file path (similar to the path argument in\nadd_import()) in this list, or a tuple of two\nstrings to represent a file path and an import path (similar to the import_path\nargument in add_import()). These UDAF-level imports\nwill override the session-level imports added by\nadd_import(). Note that an empty list means\nno import for this UDAF, and None or not specifying this parameter means using\nsession-level imports.",
+        "packages \u2013 A list of packages that only apply to this UDAF. These UDAF-level packages\nwill override the session-level packages added by\nadd_packages() and\nadd_requirements(). Note that an empty list means\nno package for this UDAF, and None or not specifying this parameter means using\nsession-level packages. To use Python packages that are not available in Snowflake,\nrefer to custom_package_usage_config().",
+        "replace \u2013 Whether to replace a UDAF that already was registered. The default is False.\nIf it is False, attempting to register a UDAF with a name that already exists\nresults in a SnowparkSQLException exception being thrown. If it is True,\nan existing UDAF with the same name is overwritten.",
+        "if_not_exists \u2013 Whether to skip creation of a UDAF when one with the same signature already exists.\nThe default is False. if_not_exists and replace are mutually exclusive\nand a ValueError is raised when both are set. If it is True and a UDAF with\nthe same signature exists, the UDAF creation is skipped.",
+        "parallel \u2013 The number of threads to use for uploading UDAF files with the\nPUT\ncommand. The default value is 4 and supported values are from 1 to 99.\nIncreasing the number of threads can improve performance when uploading\nlarge UDAF files.",
+        "statement_params \u2013 Dictionary of statement level parameters to be set while executing this action.",
+        "source_code_display \u2013 Display the source code of the UDAF func as comments in the generated script.\nThe source code is dynamically generated therefore it may not be identical to how the\nfunc is originally defined. The default is True.\nIf it is False, source code will not be generated or displayed.",
+        "skip_upload_on_content_match \u2013 When set to True and a version of source file already exists on stage, the given source\nfile will be uploaded to stage only if the contents of the current file differ from the remote file on stage. Defaults\nto False.",
+        "immutable \u2013 Whether the UDAF result is deterministic or not for the same input.",
+        "external_access_integrations \u2013 The names of one or more external access integrations. Each\nintegration you specify allows access to the external network locations and secrets\nthe integration specifies.",
+        "secrets \u2013 The key-value pairs of string types of secrets used to authenticate the external network location.\nThe secrets can be accessed from handler code. The secrets specified as values must\nalso be specified in the external access integration and the keys are strings used to\nretrieve the secrets using secret API.",
+        "comment \u2013 Adds a comment for the created object. See\nCOMMENT",
+        "copy_grants \u2013 Specifies to retain the access privileges from the original function when a new function is\ncreated using CREATE OR REPLACE FUNCTION.",
+        "The type hints can still be extracted from the local source Python file if they\nare provided, but currently are not working for a zip file or a remote file. Therefore,\nyou have to provide return_type and input_types when path\npoints to a zip file or a remote file.",
+        "See also",
+        "udaf()",
+        "register()",
+        "Was this page helpful?"
+    ]
+}

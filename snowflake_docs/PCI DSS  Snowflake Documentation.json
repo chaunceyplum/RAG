@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cert-pci-dss",
+    "title": "PCI DSS | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes how Snowflake supports customers with PCI-DSS compliance requirements.",
+        "The Payment Card Industry Data Security Standards are a set of requirements prescribed by the Payment Card Industry Security Standards\nCouncil. Snowflake is a Level 1 Service Provider compliant under PCI DSS version 3.2.1 and undergoes a third party assessment from a QSA\n(Qualified Security Assessor) on an annual basis. The AoC (Attestation of Compliance) is available upon request. Snowflake\u2019s PCI DSS\ncompliance allows customers to store, process, or transmit cardholder data utilizing the Snowflake Service. However, there are PCI\ncompliance responsibilities that fall to customers outside of those managed by Snowflake, for a breakdown of these responsibilities\ncustomers can request the Snowflake PCI Shared Responsibility Matrix.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

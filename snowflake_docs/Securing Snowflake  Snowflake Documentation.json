@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/guides-overview-secure",
+    "title": "Securing Snowflake | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake provides industry-leading features that ensure the highest levels of security for your account and users, as well as all the data you store in Snowflake.",
+        "These topics are intended primarily for administrators (i.e. users with the ACCOUNTADMIN, SYSADMIN, or SECURITYADMIN roles).",
+        "Topics related to federated authentication to Snowflake.",
+        "Using key-pair authentication to Snowflake.",
+        "Using multi-factor authentication with Snowflake.",
+        "Topics related to using Snowflake OAuth to connect to Snowflake.",
+        "Topics using External OAuth to connect to Snowflake.",
+        "Using authentication policies to restrict account and user authentication by client, authentication methods, and more.",
+        "Using network policies to restrict access to Snowflake.",
+        "Using network rules with other Snowflake features to restrict access to and from Snowflake.",
+        "Using private connectivity to connect to Snowflake internal stages on AWS.",
+        "Using private connectivity to connect to Snowflake internal stages on Azure.",
+        "Using private connectivity to connect to your Snowflake account on AWS.",
+        "Using private connectivity to connect to your Snowflake account on Azure.",
+        "Using private connectivity to connect to your Snowflake account on Google Cloud Platform.",
+        "Using session policies to manage your Snowflake session.",
+        "Topics related to using SCIM to provision users and groups to Snowflake.",
+        "Topics related to role-based access control (RBAC) in Snowflake.",
+        "Using end-to-end encryption in Snowflake.",
+        "Using encryption key management in Snowflake.",
+        "Using Tri-Secret Secure in Snowflake.",
+        "Using the Trust Center to evaluate and monitor your account for security risks.",
+        "Was this page helpful?"
+    ]
+}

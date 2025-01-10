@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-11-08-grouped-query-history",
+    "title": "November 08, 2024 \u2014 Grouped Query History \u2014 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake is pleased to announce the preview of Grouped Query History, a view in Snowsight to monitor usage\nand performance of critical and frequently run queries. This graphical view is based on information\nthat is recorded in the AGGREGATE_QUERY_HISTORY view and is particularly useful for\nmonitoring and analyzing Unistore workloads.",
+        "For more information, see:",
+        "Use the Grouped Query History view in Snowsight",
+        "Monitor workloads for hybrid tables",
+        "Was this page helpful?"
+    ]
+}

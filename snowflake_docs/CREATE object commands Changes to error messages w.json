@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_05/bcr-1623",
+    "title": "CREATE <object> commands: Changes to error messages when creating an object in a share | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_05 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When you execute a CREATE <object> command to create an object in a\nshare, if an error occurs during the type-checking phase of the command, the command\nprints an error message.",
+        "This error message is changing in the following way:",
+        "The command fails with the following error message, regardless of the cause of the error:",
+        "The command fails with an error message that describes the specific problem that occurred.",
+        "For example, if you do not have the privilege to operate on the schema, the command fails with the following error message:",
+        "Ref: 1623",
+        "Was this page helpful?"
+    ]
+}

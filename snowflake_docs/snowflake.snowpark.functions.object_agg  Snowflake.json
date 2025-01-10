@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.object_agg",
+    "title": "snowflake.snowpark.functions.object_agg | Snowflake Documentation",
+    "paragraphs": [
+        "Returns one OBJECT per group. For each key-value input pair, where key must be a VARCHAR\nand value must be a VARIANT, the resulting OBJECT contains a key-value field.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

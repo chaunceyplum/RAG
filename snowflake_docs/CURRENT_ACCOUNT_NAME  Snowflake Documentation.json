@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/current_account_name",
+    "title": "CURRENT_ACCOUNT_NAME | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (Session)",
+        "Returns the name of the current account.",
+        "The preferred account identifier for the account consists of this account name along with the organization of the account (orgname-account_name).",
+        "None.",
+        "Returns the name of the current account.",
+        "The data type of the returned value is VARCHAR.",
+        "This shows how to call the CURRENT_ACCOUNT_NAME function:",
+        "Output:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

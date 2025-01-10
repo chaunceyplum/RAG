@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.isna",
+    "title": "modin.pandas.isna | Snowflake Documentation",
+    "paragraphs": [
+        "Detect missing values for an array-like object.",
+        "Was this page helpful?"
+    ]
+}

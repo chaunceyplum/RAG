@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-managed-account",
+    "title": "DROP MANAGED ACCOUNT | Snowflake Documentation",
+    "paragraphs": [
+        "Provider sharing not enabled for all accounts",
+        "Provider sharing is enabled by default for most, but not all accounts.",
+        "If you encounter errors when attempting to share data with consumers, the feature may not be enabled for your account. To inquire\nabout enabling it, please contact Snowflake Support.",
+        "Removes a managed account, including all objects created in the account, and immediately restricts access to the account. Currently\nused by data providers to create reader accounts for their consumers. For more details, see Manage reader accounts.",
+        "CREATE MANAGED ACCOUNT , SHOW MANAGED ACCOUNTS",
+        "This command can be executed by users with the ACCOUNTADMIN role (or a role that has been granted the CREATE ACCOUNT global privilege).",
+        "This operation can not be undone.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/native-apps/requesting-about",
+    "title": "Request access to objects in a consumer account | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "The Snowflake Native App Framework is generally available on supported cloud platforms. For additional information, see\nSupport for private connectivity, VPS, and government regions.",
+        "This topic provides general information about how a provider can request privileges or access to objects\nin the consumer account after a Snowflake Native App is installed.",
+        "In a simple Snowflake Native App, all of the required objects are created inside the\nAPPLICATION object when the setup script runs during installation. In this context, all of the objects\nrequired by the app are created and accessible within the APPLICATION object. The consumer is not required\nto perform any actions. All of the necessary privileges required are managed by the app using\napplication roles.",
+        "However, a more complex Snowflake Native App may need to create new objects or access objects\nin the consumer account that are outside the APPLICATION object. In this case, the consumer must\ngrant the necessary privileges or authorize access to allow the Snowflake Native App to create or access these\nobjects.",
+        "The Snowflake Native App Framework allows providers to do the following:",
+        "Check for account-level privileges in the consumer account.",
+        "Request account-level privileges to perform tasks, for example creating a database.",
+        "Use references to access existing objects in the consumer account.",
+        "Providers request access to a consumer account by requesting the following:",
+        "Global privileges allow the Snowflake Native App to perform actions in the consumer account.\nRefer to Privileges the provider can request from the consumer for details.",
+        "References allow the app to access existing objects in the\nconsumer account. A provider defines the references that the app requests in the manifest.yml\nfile.",
+        "After installation, the consumer allows access to the object by providing a reference that is created\nwith the fully qualified name of the object.",
+        "References allow the app to access objects using a logical name. A reference allows a provider\nto create the app without having to know the specific name of the object or its parent database and\nschema.",
+        "See references for more information.",
+        "For each request for access that provider defines in the app, the consumer must allow access\nto the app. How a consumer allows access is different for global privileges and references.",
+        "When a provider configures an app to request specific privileges or access to specific objects,\nthere are two ways a consumer can grant these privileges to the app:",
+        "If a provider implements a user interface using the Python Permission SDK, the consumer uses\nSnowsight to grant the permissions that are requested by the app. The Python Permission SDK\nautomatically runs the required GRANT statements in the consumer account.",
+        "If a provider does not implement a user interface, the provider must communicate to the consumer\nwhat privileges the app requires. For example, the provide must communicate to the consumer information\nabout the SQL statements that the consumer must run to grant the necessary privileges to the app.",
+        "Snowflake recommends including this information in the README file of the app, which the consumer\ncan view as part of listing for the Snowflake Native App.",
+        "When a provider defines a reference to an object in the consumer account that is outside of the\nAPPLICATION object, there are two ways a consumer can create references on these objects and associate\nthem to the application.",
+        "If a provider implements a user interface with the Python Permission SDK, the consumer uses Snowsight to\nassociate the references to the objects required by the app. See\nManaging Access Requests using Snowsight",
+        "If a provider does not implement a user interface, the consumer must manually create the reference, then\nassociate it with the Snowflake Native App.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

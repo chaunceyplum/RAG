@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.subtract",
+    "title": "snowflake.snowpark.DataFrame.subtract | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a new DataFrame that contains all the rows from the current DataFrame\nexcept for the rows that also appear in the other DataFrame. Duplicate rows are eliminated.",
+        "Example:",
+        "minus() and subtract() are aliases of except_().",
+        "other \u2013 The DataFrame that contains the rows to exclude.",
+        "Was this page helpful?"
+    ]
+}

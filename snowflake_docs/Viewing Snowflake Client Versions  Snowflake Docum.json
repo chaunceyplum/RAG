@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/snowflake-client-version-check",
+    "title": "Viewing Snowflake Client Versions | Snowflake Documentation",
+    "paragraphs": [
+        "To view the version of the Snowflake client used to execute SQL statements in Snowflake, you can use the Client Driver column on\nthe Query History page in Snowsight or the Client Info column on the History page in Classic Console.",
+        "Use this information to determine if the client versions actively used by users in your account meet the\nminimum requirements. You can also use this information, if applicable, to identify the\nclient version when submitting cases to Snowflake Support.",
+        "To view the versions of Snowflake clients used recently in your account:",
+        "Sign in to Snowsight or the Classic Console.",
+        "Switch to the ACCOUNTADMIN role.",
+        "Open the user menu and select your active role, and then select \u00bb ACCOUNTADMIN.",
+        "Select the dropdown menu in the upper right (next to your login name) \u00bb Switch Role \u00bb ACCOUNTADMIN.",
+        "Open the Query History page:",
+        "Select Monitoring \u00bb Query History.",
+        "Select the History  tab.",
+        "Locate the column containing the version of the client or driver that submitted the query:",
+        "Use the Client Driver column.",
+        "Use the Client Info column.",
+        "If the column is not visible, select Columns and choose the column to display.",
+        "Note the client version in the row for each SQL statement.",
+        "For clients and drivers, the column includes an icon that indicates if the client version is supported,\nunsupported, or nearing the end of support. You can hover over the icon to display a tooltip that indicates the\ncurrent status of the client version.",
+        "Snowflake updates the information on which versions are supported every three months. See Client versions & support policy.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

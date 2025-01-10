@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.log",
+    "title": "snowflake.snowpark.functions.log | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the logarithm of a numeric expression.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

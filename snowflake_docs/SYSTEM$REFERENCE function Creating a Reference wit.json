@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1315",
+    "title": "SYSTEM$REFERENCE function: Creating a Reference with Mismatched Object Types Fails | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "You can create a reference to an object using the SYSTEM$REFERENCE\nfunction. A reference authorizes access on an object to a stored procedure, class instance, or application that cannot otherwise access\nthe object. The reference is passed as an identifier to an owner\u2019s rights stored procedure, class instance, or application with specific\nand limited privileges on an object.",
+        "The object_type argument of the SYSTEM$REFERENCE function should match the type of the object the reference identifies. In\nthe following example, t1 is a table and matches the TABLE object type:",
+        "The SYSTEM$REFERENCE function behaves as follows:",
+        "If you create a reference using the SYSTEM$REFERENCE function and the object_type argument is TABLE, and the object\nname resolves to any table-like object type (that is to say, TABLE, VIEW, EXTERNAL TABLE, or MATERIALIZED VIEW), the function\nsucceeds.",
+        "If you try to create a reference using the SYSTEM$REFERENCE function and the object_type argument is TABLE, but the object\nname resolves to a table-like object type other than TABLE (that is to say, VIEW, EXTERNAL TABLE, or MATERIALIZED VIEW), the function\nfails.",
+        "For example, if you use the TABLE object type for view v1 with the following statement:",
+        "The statement results in the following error:",
+        "Ref: 1315",
+        "Was this page helpful?"
+    ]
+}

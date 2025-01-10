@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/collaboration/listings/organizational/org-listing-about",
+    "title": "About organizational listings | Snowflake Documentation",
+    "paragraphs": [
+        "Organizational listings in Snowflake allow you to share data products securely within your organization, making it easier for internal consumers to discover and use trusted resources in the Internal Marketplace. Providers can create and manage listings with the Snowflake API or Provider Studio in Snowsight.",
+        "The Internal Marketplace in Snowflake is a curated, secure space for collaborative data sharing within\nyour organization. It centralizes internally-available data products, allowing teams to discover,\ntrust, and apply resources without needing to navigate external marketplaces. By offering an organized\nway to discover data products in the Internal Marketplace supports collaboration and data-driven\ndecision-making across your company.",
+        "The Internal Marketplace is similar to the public Snowflake Marketplace, but it is exclusively for your organization.\nIt allows you to easily discover and use vetted data shared within your internal teams. Access can be managed\nby account targeting and Role-Based Access Control (RBAC), ensuring that data remains secure and accessible\nonly to authorized users.",
+        "For those creating and sharing data products, the Internal Marketplace provides a secure platform to publish data products\ninternally. Providers can create and manage organizational listings using Provider Studio in Snowsight or\nvia the API. Publishing data products in the Internal Marketplace ensures teams access consistent datasets, reducing\nredundancy and supporting unified, data-driven initiatives.",
+        "Centralizing data offerings in the Internal Marketplace helps you manage access to sensitive information, maintaining data security\nand integrity while enabling the organization to innovate with trusted data.",
+        "Providers can create and manage organizational listings by using Provider Studio or the API.",
+        "For team members and data consumers, organizational listings provide a way to discover and access internal-only data resources. The\nInternal Marketplace lets users locate data products without having to browse through externally-shared listings\nfrom the broader Snowflake Marketplace (Snowflake Marketplace). Each organizational listings can be curated to meet your organizational\nstandards, so consumers can use these data products confidently for their analytics and projects.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-08-29-dcr",
+    "title": "August 29, 2024 \u2014 Snowflake Data Clean Rooms Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the availability of the following new features and enhancements in this update to Snowflake\nData Clean Rooms.",
+        "The service account user that the web app uses to interact with the Snowflake account now authenticates using Snowflake\u2019s key-pair\nauthentication instead of username/password authentication, which provides a more secure method of authentication.",
+        "If the Snowflake account uses authentication policies to control which methods of authentication can be used to access the account, an\nadministrator must ensure that these authentication policies allow the service account user to authenticate with key-pair authentication.\nFor more information, see Allow key-pair authentication.",
+        "Providers can now push the results of a provider-run analysis to their own Snowflake account, where it can be used for activation. A\nconsumer who has shared data in the clean room can control whether the provider can push the results of the provider-run analysis.",
+        "For more information, see Run an analysis as a provider.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

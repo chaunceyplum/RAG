@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/budget/methods/remove_notification_integration",
+    "title": "<budget_name>!REMOVE_NOTIFICATION_INTEGRATION | Snowflake Documentation",
+    "paragraphs": [
+        "Removes a queue or webhook notification integration from a custom budget or the account budget.",
+        "<budget_name>!ADD_NOTIFICATION_INTEGRATION,\n<budget_name>!GET_NOTIFICATION_INTEGRATIONS",
+        "The name of the queue or webhook notification integration to remove from the budget.",
+        "Returns a VARCHAR value that indicates whether or not the notification integration was successfully removed.",
+        "If the notification integration was removed successfully, the method returns Integration removed successfully.",
+        "Otherwise, the method returns an error message.",
+        "The following minimum privileges and roles are required to call this method on a budget:",
+        "ADMIN instance role for the budget instance.",
+        "USAGE privilege on the database and schema that contains the budget instance.",
+        "For more information, see Budgets roles and privileges.",
+        "Calling this method does not return the object. Because of this, you can\u2019t use method chaining to call another method on the\nreturn value of this method. Instead, call each method in a separate SQL statement.",
+        "Remove the notification integration budgets_notification_integration from custom budget my_budget in schema\nbudget_db.budget_schema:",
+        "Remove the notification integration budgets_notification_integration from the account budget:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

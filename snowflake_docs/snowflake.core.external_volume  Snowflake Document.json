@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.external_volume",
+    "title": "snowflake.core.external_volume | Snowflake Documentation",
+    "paragraphs": [
+        "Manages Snowpark Container External Volume.",
+        "Example",
+        "Refer to snowflake.core.Root to create the root.",
+        "Classes",
+        "ExternalVolume(*,\u00a0name,\u00a0storage_locations[,\u00a0...])",
+        "A model object representing the ExternalVolume resource.",
+        "ExternalVolumeCollection(root)",
+        "Represents the collection operations of the Snowflake External Volume resource.",
+        "ExternalVolumeResource(name,\u00a0collection)",
+        "Represents a reference to a Snowflake external volume.",
+        "StorageLocationS3(*,\u00a0name,\u00a0...[,\u00a0...])",
+        "A model object representing the StorageLocationS3 resource.",
+        "StorageLocationAzure(*,\u00a0name,\u00a0...)",
+        "A model object representing the StorageLocationAzure resource.",
+        "StorageLocationGcs(*,\u00a0name,\u00a0storage_base_url)",
+        "A model object representing the StorageLocationGcs resource.",
+        "Encryption(*,\u00a0type[,\u00a0kms_key_id])",
+        "A model object representing the Encryption resource.",
+        "StorageLocationS3Gov(*,\u00a0name,\u00a0...[,\u00a0...])",
+        "A model object representing the StorageLocationS3Gov resource.",
+        "Was this page helpful?"
+    ]
+}

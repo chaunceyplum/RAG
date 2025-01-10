@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_03/bcr-1042",
+    "title": "Roles and Privileges: Changes to Secondary Roles and the REPLICATE Privilege | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The REPLICATE privilege grants the ability to refresh a secondary replication or failover group. A user with the REPLICATE privilege granted to a primary role (the current role activated by executing the USE ROLE command) or any secondary role (activated by executing the USE SECONDARY ROLES command) can successfully refresh a secondary replication or failover group.",
+        "A secondary replication or failover group can be refreshed by executing the respective command:",
+        "ALTER REPLICATION GROUP group_name REFRESH",
+        "ALTER FAILOVER GROUP group_name REFRESH",
+        "Secondary replication or failure behaves as follows:",
+        "A user with a role that is granted the REPLICATE privilege activated as either the primary or secondary role can successfully refresh a secondary replication or failover group.",
+        "A user with a role that is granted the REPLICATE privilege must have the role activated as the primary role to successfully refresh a secondary replication or failover group.",
+        "Otherwise, executing the refresh command will fail.",
+        "Ref: 1042",
+        "Was this page helpful?"
+    ]
+}

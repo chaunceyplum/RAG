@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.QueryRecord.query_id",
+    "title": "snowflake.snowpark.QueryRecord.query_id | Snowflake Documentation",
+    "paragraphs": [
+        "Alias for field number 0",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/tables-iceberg-open-catalog-query",
+    "title": "Query a table in Snowflake Open Catalog using Snowflake | Snowflake Documentation",
+    "paragraphs": [
+        "To query a table registered in Snowflake Open Catalog using Snowflake,\nyou can create an Apache Iceberg\u2122 table that uses an external catalog.",
+        "The table represents the Iceberg table in Snowflake Open Catalog and provides read-only access.",
+        "Before you start, you need the following:",
+        "An Iceberg table registered with Open Catalog.",
+        "A service connection that Snowflake can use to connect to Open Catalog.\nYou can use an existing service connection that you\u2019ve set up roles and privileges for,\nor Configure a service connection for Snowflake. If you configure a new service connection, you must also configure access control for it.",
+        "If you don\u2019t have one already, start by creating an external volume in Snowflake that provides access to the\ncloud storage location where you store your table data and metadata.",
+        "Complete the instructions for your cloud storage service:",
+        "Amazon S3",
+        "Google Cloud Storage",
+        "Azure Storage",
+        "Next, use the CREATE CATALOG INTEGRATION command to\ncreate a catalog integration in Snowflake that uses OAuth to connect to Open Catalog using your service connection credentials.",
+        "Note",
+        "To find your Snowflake organization name (<orgname>), follow the steps in Finding the organization and account name for an account.",
+        "To find <my-snowflake-open-catalog-account-name,\nsee Find the account name for a Snowflake Open Catalog account in\nthe Snowflake Open Catalog documentation.",
+        "Create an Iceberg table in Snowflake using the external volume and catalog integration that you previously configured.",
+        "For CATALOG_TABLE_NAME, specify the table name as it appears in Open Catalog.",
+        "You can optionally enable automated refreshes of the table metadata by specifying AUTO_REFRESH = TRUE.\nFor more information, see Automatically refresh Apache Iceberg\u2122 tables.",
+        "Note",
+        "To retrieve a list of tables or namespaces in your remote catalog, you can use the following functions:",
+        "SYSTEM$LIST_ICEBERG_TABLES_FROM_CATALOG",
+        "SYSTEM$LIST_NAMESPACES_FROM_CATALOG",
+        "You can now use Snowflake to query the table in Open Catalog. You can also join the query results with other Snowflake tables.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

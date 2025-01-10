@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-ml/model-registry/warehouse",
+    "title": "Inference in Snowflake Warehouses | Snowflake Documentation",
+    "paragraphs": [
+        "The Snowflake Model Registry runs model methods in a warehouse\nby default. Running models in a warehouse is appropriate for small-to-medium size CPU-only models whose dependencies can\nbe satisfied by packages available in the Snowflake conda channel.",
+        "Note",
+        "You can also run models on a Snowpark Container Services (SPCS) compute pool. This approach is more appropriate for large models that can\nbenefit from distributed inference. See Model Serving in Snowpark Container Services for more information.",
+        "To get started, log the model in the model registry. Only models that\nhave been logged in the registry are available for inference. Logging a model, or loading an existing model from the\nregistry by means of registry.get_model(...).version(...), returns a ModelVersion object on which you can call\nthe run method.",
+        "To call a method of a model version, use mv.run, where mv is a ModelVersion object. Specify the name of the\nfunction to be called and pass a Snowpark or pandas DataFrame that contains the inference data, along with any required\nparameters. The method is executed in a Snowflake warehouse.",
+        "The return value of the method is a Snowpark or pandas DataFrame, matching the type of DataFrame passed in.\nSnowpark DataFrames are evaluated lazily, so the method is run only when the DataFrame\u2019s collect, show,\nor to_pandas method is called.",
+        "Note",
+        "Invoking a method runs it in the warehouse specified in the session you\u2019re using to connect to the registry.\nSee Specifying a Warehouse.",
+        "The following example illustrates running the predict method of a model. This model\u2019s predict method does not\nrequire any parameters besides the inference data (test_features here). If it did, they would be passed as\nadditional arguments after the inference data:",
+        "To see what methods can be called on a given model, call mv.show_functions. The return value of this method is a\nlist of ModelFunctionInfo objects. Each of these objects includes the following attributes:",
+        "name: The name of the function that can be called from Python or SQL.",
+        "target_method: The name of the Python method in the original logged model.",
+        "Tip",
+        "You can also call model methods in SQL. See Model methods.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.sequence",
+    "title": "snowflake.snowpark.functions.sequence | Snowflake Documentation",
+    "paragraphs": [
+        "Generate a sequence of integers from start to stop, incrementing by step.\nIf step is not set, incrementing by 1 if start is less than or equal to stop, otherwise -1.",
+        "start \u2013 the column that contains the integer to start with (inclusive).",
+        "stop \u2013 the column that contains the integer to stop (inclusive).",
+        "step \u2013 the column that contains the integer to increment.",
+        "Was this page helpful?"
+    ]
+}

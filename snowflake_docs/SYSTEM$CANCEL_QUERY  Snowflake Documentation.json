@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_cancel_query",
+    "title": "SYSTEM$CANCEL_QUERY | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Cancels the specified query (or statement) if it is currently active/running.",
+        "SYSTEM$CANCEL_ALL_QUERIES",
+        "Identifier for the query to cancel. To obtain the ID for a query executed within the last 14 days, log into the web interface and go to the History  page.",
+        "A user can cancel their own running SQL operations using this SQL function. Canceling running operations executed by another user\nrequires a role with one of the following privileges:",
+        "OWNERSHIP on the user who executed the operation.",
+        "OPERATE or OWNERSHIP on the warehouse that is running the operation (if applicable).",
+        "Note that the ACCOUNTADMIN role is not necessarily granted any of these privileges.",
+        "Snowflake query IDs are UUID text strings with hyphens, which are special characters, so the strings must be escaped using single quotes.",
+        "This function is not intended for canceling queries for a particular warehouse or user. Instead, use:",
+        "ALTER WAREHOUSE \u2026 ABORT ALL QUERIES",
+        "ALTER USER \u2026 ABORT ALL QUERIES",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

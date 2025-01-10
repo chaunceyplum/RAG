@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.mask",
+    "title": "modin.pandas.DataFrame.mask | Snowflake Documentation",
+    "paragraphs": [
+        "Replace values where the condition is True.",
+        "cond \u2013 bool Series/DataFrame, array-like, or callable\nWhere cond is False, keep the original value. Where True, replace with corresponding value from other.\nIf cond is callable, it is computed on the Series/DataFrame and should return boolean Series/DataFrame\nor array. The callable must not change input Series/DataFrame (though pandas doesn\u2019t check it).",
+        "other \u2013 scalar, Series/DataFrame, or callable\nEntries where cond is True are replaced with corresponding value from other. If other is callable,\nit is computed on the Series/DataFrame and should return scalar or Series/DataFrame. The callable must\nnot change input Series/DataFrame (though pandas doesn\u2019t check it).",
+        "inplace \u2013 bool, default False\nWhether to perform the operation in place on the data.",
+        "axis \u2013 int, default None\nAlignment axis if needed. For Series this parameter is unused and defaults to 0.",
+        "level \u2013 int, default None\nAlignment level if needed.",
+        "Same type as caller or None if inplace=True.",
+        "See also",
+        "DataFrame.where : Replace values where the condition is False.",
+        "Notes",
+        "The mask method is an application of the if-then idiom. For each element in the calling DataFrame, if cond\nis False the element is used; otherwise the corresponding element from the DataFrame other is used. If the\naxis of other does not align with axis of cond Series/DataFrame, the misaligned index positions will be\nfilled with True.",
+        "The signature for DataFrame.where() differs from numpy.where(). Roughly df1.where(m, df2) is equivalent to\nnp.where(m, df1, df2).",
+        "For further details and examples see the mask documentation in indexing.",
+        "The dtype of the object takes precedence. The fill value is cast to the object\u2019s dtype, if this can be\ndone losslessly.",
+        "Examples::\n>>> df = pd.DataFrame(np.arange(10).reshape(-1, 2), columns=[\u2018A\u2019, \u2018B\u2019])\n>>> df   # doctest: +NORMALIZE_WHITESPACE\nA  B\n0  0  1\n1  2  3\n2  4  5\n3  6  7\n4  8  9",
+        "Snowpark pandas DataFrame.mask behaves the same as numpy.where.",
+        "Was this page helpful?"
+    ]
+}

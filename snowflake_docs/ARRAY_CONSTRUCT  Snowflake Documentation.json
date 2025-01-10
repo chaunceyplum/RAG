@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/array_construct",
+    "title": "ARRAY_CONSTRUCT | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Array/Object)",
+        "Returns an array constructed from zero, one, or more inputs.",
+        "For more information about constructing and using arrays, see ARRAY.",
+        "ARRAY_CONSTRUCT_COMPACT",
+        "The arguments are values (or expressions that evaluate to values). The argument values can be\ndifferent data types.",
+        "The data type of the returned value is ARRAY.",
+        "If the function is called with N arguments, the size of the resulting array is N.",
+        "In many contexts, you can use an ARRAY constant (also called an ARRAY literal) instead of\nthe ARRAY_CONSTRUCT function.",
+        "Construct a basic array consisting of numeric data types:",
+        "Construct a basic array consisting of different data types:",
+        "Construct an empty array:",
+        "Create a table and insert arrays into an ARRAY column:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

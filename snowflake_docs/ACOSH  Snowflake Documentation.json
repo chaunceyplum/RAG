@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/acosh",
+    "title": "ACOSH | Snowflake Documentation",
+    "paragraphs": [
+        "Numeric functions (Trigonometric)",
+        "Computes the inverse (arc) hyperbolic cosine of its input.",
+        "This expression should evaluate to a FLOAT number greater than or equal to\n1.0.",
+        "The data type of the returned value is FLOAT.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

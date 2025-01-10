@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/collaboration/listings/organizational/org-listing-configure",
+    "title": "Configure organizational listings | Snowflake Documentation",
+    "paragraphs": [
+        "This page introduces configurations for organizational listings in Snowflake. You\u2019ll find details on targeting accounts, adding roles, access regions, and auto-fulfillment settings.",
+        "The Uniform Listing Locator (ULL) is a unique identifier that represents the listing and its data product, treating them as one.\nThe listing name is different from the title of the listing: multiple listings can have the same title, but each listing must have\na unique listing name or ULL. The complete ULL is formed by three elements delimited by the symbol \u2018$\u2019.\nThe first element is the provider\u2019s organization name, the second element is the provider profile\nINTERNAL, and the third element is the listing name. The ULL cannot be changed after the listing is published.\nAlthough it has three parts, the ULL is treated as a single name in queries. For example, you can query a table in a listing like this:",
+        "When creating a listing, give it a clear, descriptive name. Consumers can find listings faster by name rather than title,\nand a descriptive name is easier to use in queries.",
+        "The target audience of your organizational listings is always your internal marketplace.",
+        "Despite the restriction of an internal listing, you can still control who can discover and access the listing.\nYou can mark a listing discoverable and accessibly individually.  That is you may be able to discover an listing but not access it.",
+        "In general you can specify access or discovery at the following levels:",
+        "Everyone in your account",
+        "Specific accounts",
+        "Specific accounts, but limited by specific roles",
+        "For example the access element defines who can access a listing.\nLikewise, the discovery element defines who can discover a listing.",
+        "Allow all accounts to access the listing.",
+        "Allow specific accounts to access the listing.",
+        "Allow specific accounts to access the listing, but only for the given roles.",
+        "Allow all accounts to discover the listing.",
+        "Allow specific accounts to discover the listing.",
+        "Allow specific accounts to discover the listing, but only for the given roles.",
+        "In a similar way, regions are set up the access regions_attribute:",
+        "Optionally, you can specify an email address or link to internal ticketing system for both approver and support contact.",
+        "Organizational listings that have attached data shares and apps both use auto-fulfillment, however they each\nuse different methods. For this reason, the refresh schedules for each are different. For shares, the refresh\nschedule is set on the database level. For apps, it\u2019s set on the account level.",
+        "If you need to use auto-fulfillment, you can set it when your run CREATE ORGANIZATIONAL LISTING OR\nALTER LISTING by changing the auto_fulfillment attribute in the listing manifest\nfields.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

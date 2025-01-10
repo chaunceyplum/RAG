@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions-encryption",
+    "title": "Encryption functions | Snowflake Documentation",
+    "paragraphs": [
+        "Encryption functions encrypt or decrypt VARCHAR or BINARY values.",
+        "Function",
+        "Notes",
+        "ENCRYPT",
+        "Encrypts VARCHAR or BINARY values using a passphrase.",
+        "DECRYPT",
+        "Decrypts VARCHAR or BINARY values using a passphrase.",
+        "TRY_DECRYPT",
+        "Error-handling version of DECRYPT.",
+        "ENCRYPT_RAW",
+        "Encrypts BINARY values using a binary key and an initialization vector.",
+        "DECRYPT_RAW",
+        "Decrypts BINARY values using a binary key and an initialization vector.",
+        "TRY_DECRYPT_RAW",
+        "Error-handling version of DECRYPT_RAW.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_05/bcr-1134",
+    "title": "File Formats: Validation of Format Options | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_05 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the current release, Snowflake has strict validation against invalid file format options and will return an error on use of invalid stages and file format options. Creation of new invalid stage or file formats are not allowed.",
+        "When a stage, table, or file format is created with a named file format and some other invalid file format type options, there is currently no validation error thrown. This results in stages or file formats to be created with invalid file format options.",
+        "Error messages occur when a stage, table, or file format is created with a named file format and some other invalid file format options. Queries that use such invalid stages, table stages, or file formats will fail.",
+        "We recommend the following:",
+        "Check your stages and file formats to ensure you don\u2019t have any unsupported options. For example, an invalid stage may have a named CSV file format with a parquet type option, such as BINARY_AS_TEXT.",
+        "Recreate the stage or file format with only the supported file format options.",
+        "Note that existing invalid stages or file formats used by Snowpipe will not be affected by this change.",
+        "Ref: 1134",
+        "Was this page helpful?"
+    ]
+}

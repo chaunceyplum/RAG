@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.ndim",
+    "title": "modin.pandas.DataFrame.ndim | Snowflake Documentation",
+    "paragraphs": [
+        "Return the number of dimensions of the underlying data, by definition 2.",
+        "Was this page helpful?"
+    ]
+}

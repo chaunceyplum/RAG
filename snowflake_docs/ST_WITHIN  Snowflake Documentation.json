@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_within",
+    "title": "ST_WITHIN | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns true if the first geospatial object is fully contained by the second geospatial object. In other words:",
+        "The first GEOGRAPHY object g1 is fully contained by the second GEOGRAPHY object\ng2.",
+        "The first GEOMETRY object g1 is fully contained by the second GEOMETRY object\ng2.",
+        "Calling ST_WITHIN(g1, g2) is equivalent to calling ST_CONTAINS(g2, g1).",
+        "Although ST_COVEREDBY and ST_WITHIN might seem similar, the two functions have subtle differences. For details on the differences\nbetween \u201ccovered by\u201d and \u201cwithin\u201d, see the\nDimensionally Extended 9-Intersection Model (DE-9IM).",
+        "Note",
+        "This function does not support using a GeometryCollection or FeatureCollection as input values.",
+        "Tip",
+        "You can use the search optimization service to improve the performance of queries that call this function.\nFor details, see Search Optimization Service.",
+        "ST_CONTAINS , ST_COVEREDBY",
+        "A GEOGRAPHY object that is not a GeometryCollection or FeatureCollection.",
+        "A GEOGRAPHY object that is not a GeometryCollection or FeatureCollection.",
+        "A GEOMETRY object that is not a GeometryCollection or FeatureCollection.",
+        "A GEOMETRY object that is not a GeometryCollection or FeatureCollection.",
+        "BOOLEAN.",
+        "This shows a simple use of the ST_WITHIN function:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

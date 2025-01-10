@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.role.Role",
+    "title": "snowflake.core.role.Role | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: object",
+        "A model object representing the Role resource.",
+        "Constructs an object of type Role with the provided properties.",
+        "name (str) \u2013 Name of the role.",
+        "comment (str, optional) \u2013 Comment of the role.",
+        "created_on (datetime, optional) \u2013 Date and time when the role was created.",
+        "owner (str, optional) \u2013 Specifies the role that owns this role.",
+        "is_default (bool, optional) \u2013 Specifies whether the role being fetched is the user\u2019s default role.",
+        "is_current (bool, optional) \u2013 Specifies whether the role being fetched is the user\u2019s current role.",
+        "is_inherited (bool, optional) \u2013 Specifies whether the role used to run the command inherits the specified role.",
+        "assigned_to_users (int, optional) \u2013 The number of users to whom this role has been assigned.",
+        "granted_to_roles (int, optional) \u2013 The number of roles to which this role has been granted.",
+        "granted_roles (int, optional) \u2013 The number of roles that have been granted to this role.",
+        "Methods",
+        "Creates an instance of Role from a dict.",
+        "This method constructs a Role object from a dictionary with the key-value pairs of its properties.",
+        "obj (dict) \u2013 A dictionary whose keys and values correspond to the properties of the resource object.",
+        "A Role object created using the input dictionary; this will fail if the required properties are missing.",
+        "Role",
+        "Creates a dictionary of the properties from a Role.",
+        "This method constructs a dictionary with the key-value entries corresponding to the properties of the Role object.",
+        "A dictionary object created using the input model.",
+        "dict",
+        "Was this page helpful?"
+    ]
+}

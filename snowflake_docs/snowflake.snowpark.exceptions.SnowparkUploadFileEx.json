@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.exceptions.SnowparkUploadFileException",
+    "title": "snowflake.snowpark.exceptions.SnowparkUploadFileException | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SnowparkServerException",
+        "Exception for when we are trying to upload files to the server.",
+        "Includes error codes: 1408.",
+        "Was this page helpful?"
+    ]
+}

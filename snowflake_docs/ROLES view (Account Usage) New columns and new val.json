@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1229-1240",
+    "title": "ROLES view (Account Usage): New columns and new value for ROLE_TYPE column | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The Account Usage ROLES view in the shared SNOWFLAKE database behaves as follows:",
+        "The ROLES view does not include the ROLE_ID and ROLE_INSTANCE_ID columns.",
+        "Additionally, the ROLE_TYPE column does not support INSTANCE_ROLE as a possible value.",
+        "The output from a query on the ROLES view includes the ROLE_ID and ROLE_INSTANCE_ID columns.",
+        "Column",
+        "Data type",
+        "Description",
+        "Notes",
+        "ROLE_ID",
+        "NUMBER",
+        "Internal/system-generated identifier for the role.",
+        "This is the first ordinal column in the output.",
+        "ROLE_INSTANCE_ID",
+        "NUMBER",
+        "Internal/system-generated identifier for the class instance that the role belongs to.",
+        "This is the last ordinal column in the output.",
+        "Additionally, the ROLE_TYPE column includes a new value, INSTANCE_ROLE, to indicate that the role is associated with a particular class\ninstance.",
+        "For details about classes, instances, and the associated roles, see Snowflake classes.",
+        "Ref: 1229 , 1240",
+        "Was this page helpful?"
+    ]
+}

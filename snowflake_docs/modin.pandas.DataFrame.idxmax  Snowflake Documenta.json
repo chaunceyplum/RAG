@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.idxmax",
+    "title": "modin.pandas.DataFrame.idxmax | Snowflake Documentation",
+    "paragraphs": [
+        "Return index of first occurrence of maximum over requested axis.",
+        "axis ({0 or 1}, default 0) \u2013 The axis to use. 0 for row-wise, 1 for column-wise.",
+        "skipna (bool, default True) \u2013 Exclude NA/null values. If an entire row/column is NA, the result will be NA.",
+        "numeric_only (bool, default False:) \u2013 Include only float, int or boolean data.",
+        "Series if DataFrame input, Index if Series input",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

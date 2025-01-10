@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.dense_rank",
+    "title": "snowflake.snowpark.functions.dense_rank | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the rank of a value within a group of values, without gaps in the ranks.\nThe rank value starts at 1 and continues up sequentially.\nIf two values are the same, they will have the same rank.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

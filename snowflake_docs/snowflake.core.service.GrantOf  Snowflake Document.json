@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.service.GrantOf",
+    "title": "snowflake.core.service.GrantOf | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: BaseModel",
+        "A model object representing the GrantOf resource.",
+        "Constructs an object of type GrantOf with the provided properties.",
+        "created_on (datetime, optional) \u2013 Date and time when the grant was created",
+        "role (str, optional) \u2013 The name of the service role",
+        "granted_to (str, optional) \u2013 The type of the grantee, can be USER or ROLE",
+        "grantee_name (str, optional) \u2013 The name of the grantee",
+        "granted_by (str, optional) \u2013 The name of role that granted the service role to the grantee",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of GrantOf from a dict.",
+        "Create an instance of GrantOf from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.dtypes",
+    "title": "modin.pandas.DataFrame.dtypes | Snowflake Documentation",
+    "paragraphs": [
+        "Return the dtypes in the DataFrame.\nThis returns a Series with the data type of each column.\nThe result\u2019s index is the original DataFrame\u2019s columns. Columns\nwith mixed types are stored with the  object dtype.",
+        "The returned dtype for each label is the \u2018largest\u2019 numpy type for the\nunderlying data.",
+        "For labels with integer-type data, int64 is returned.",
+        "For floating point and decimal data, float64 is returned.",
+        "For boolean data, numpy.bool is returned.",
+        "For datetime or timestamp data, datetime64[ns] is returned.",
+        "For all other data types, including string, date, binary or snowflake variants,\nthe dtype object is returned.",
+        "This function is lazy and does NOT trigger evaluation of the underlying\nDataFrame.",
+        "Note that because the returned dtype(s) may be of a larger type than the underlying\ndata, the result of this function may differ from the dtypes of the output of the\nto_pandas() function.\nCalling to_pandas() triggers materialization into a native\npandas DataFrame. The dtypes of this materialized result are the narrowest\ntype(s) that can represent the underlying data (like int16, or int32).",
+        "Native pandas (not Snowpark pandas) Series with the dtype for each label.",
+        "pandas.Series",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

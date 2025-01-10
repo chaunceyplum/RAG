@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/h3_is_valid_cell",
+    "title": "H3_IS_VALID_CELL | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns TRUE if the input represents a valid H3 cell.",
+        "An INTEGER value that represents the H3 cell ID (index), or a VARCHAR value that represents the cell ID\nin hexadecimal format.",
+        "Returns a BOOLEAN or NULL.",
+        "The value is TRUE if the input represents a valid H3 cell. Otherwise, returns FALSE.",
+        "If the input is NULL, returns NULL without reporting an error.",
+        "The following example specifies an integer that represents a valid H3 cell.",
+        "The following example specifies a string that does not represent a valid H3 cell.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

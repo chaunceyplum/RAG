@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/cot",
+    "title": "COT | Snowflake Documentation",
+    "paragraphs": [
+        "Numeric functions (Trigonometric)",
+        "Computes the cotangent of its argument; the argument should be expressed in\nradians.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

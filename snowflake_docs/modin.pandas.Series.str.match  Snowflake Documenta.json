@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.str.match",
+    "title": "modin.pandas.Series.str.match | Snowflake Documentation",
+    "paragraphs": [
+        "Determine if each string starts with a match of a regular expression.",
+        "pat (str) \u2013 Character sequence.",
+        "case (bool, default True) \u2013 If True, case sensitive.",
+        "flags (int, default 0 (no flags)) \u2013 Regex module flags, e.g. re.IGNORECASE.",
+        "na (scalar, optional) \u2013 Fill value for missing values. The default depends on dtype of the array. For object-dtype, numpy.nan is used. For StringDtype, pandas.NA is used.",
+        "Series/Index/array of boolean values",
+        "See also",
+        "Stricter matching that requires the entire string to match.",
+        "Analogous, but less strict, relying on re.search instead of re.match.",
+        "Extract matched groups.",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

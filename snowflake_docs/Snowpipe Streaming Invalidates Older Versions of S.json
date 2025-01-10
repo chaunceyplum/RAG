@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-1102",
+    "title": "Snowpipe Streaming Invalidates Older Versions of Snowflake Ingest SDK and the Kafka Connector | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "You can use Snowpipe Streaming with only the following versions of Snowflake Ingest SDK and the Kafka connector:",
+        "Snowflake Ingest SDK version 1.1.0 and later.",
+        "Kafka connector version 1.9.0 and later.",
+        "Any previous versions of Snowflake Ingest SDK and the Kafka connector will no longer work with Snowpipe Streaming and will be disabled preventing\ningestion into Snowflake. Previous versions were only available as beta versions used for private preview, and they do not contain all the bug\nfixes and dependency upgrades required to continue working.",
+        "Note",
+        "This change only applies to the Kafka connector with Snowpipe Streaming and does not apply to the older versions of the Kafka connector that\nutilizes file-based Snowpipe.",
+        "We recommend that you always use the latest versions of Snowflake Ingest SDK and the Kafka connector with Snowpipe Streaming because the\nlatest versions always include the most recent security updates and issue fixes.",
+        "Ref: 1102",
+        "Was this page helpful?"
+    ]
+}

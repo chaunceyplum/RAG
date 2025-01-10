@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.lineage.Lineage",
+    "title": "snowflake.snowpark.lineage.Lineage | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: object",
+        "Provides methods for exploring lineage of Snowflake objects.\nTo access an object of this class, use Session.lineage.",
+        "Methods",
+        "trace(object_name,\u00a0object_domain,\u00a0*[,\u00a0...])",
+        "Traces the lineage of an object within Snowflake and returns it as a DataFrame.",
+        "Was this page helpful?"
+    ]
+}

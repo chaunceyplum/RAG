@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.stream.StreamResource",
+    "title": "snowflake.core.stream.StreamResource | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SchemaObjectReferenceMixin[StreamCollection]",
+        "Represents a reference to a Snowflake Stream resource.",
+        "With this stream reference, you can create, update, and fetch information about streams, as well\nas perform certain actions on them.",
+        "Attributes",
+        "Methods",
+        "Drop this stream.",
+        "if_exists (bool, optional) \u2013 Check the existence of this stream before dropping it.\nDefault is None, which is equivalent to False.",
+        "Examples",
+        "Deleting a stream using its reference:",
+        "Deleting a stream using its reference if it exists:",
+        "Fetch the details of a stream.",
+        "Examples",
+        "Fetching a stream reference to print its time of creation:",
+        "Was this page helpful?"
+    ]
+}

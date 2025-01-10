@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_pipe_force_resume",
+    "title": "SYSTEM$PIPE_FORCE_RESUME | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Forces a pipe paused using ALTER PIPE to resume. This is necessary in either of the following scenarios:",
+        "The pipe owner transfers ownership of the pipe to another role while the pipe is paused.",
+        "The paused pipe is allowed to become stale.",
+        "A pipe is considered stale when it is paused for longer than the limited retention period for event messages received for the pipe\n(14 days by default). As each notification reaches the end of this period, Snowflake schedules it to be dropped from the internal\nmetadata. If the pipe is later resumed, Snowpipe may process notifications older than 14 days on a best effort basis. Snowflake cannot\nguarantee that these older notifications are processed.",
+        "This scenario only pertains to pipe objects that leverage cloud messaging to trigger data loads (i.e. where AUTO_INGEST = TRUE in\nthe pipe definition).",
+        "Executing this function resumes the specified pipe.",
+        "To determine how many files are queued, query SYSTEM$PIPE_STATUS.",
+        "For more information, see Snowpipe.",
+        "Pipe to resume running.",
+        "Specifies to resume a stale pipe. A pipe is considered stale when it is paused for longer than the limited retention period for event\nmessages received for the pipe (14 days by default).",
+        "Note",
+        "This argument only pertains to pipe objects that leverage cloud messaging to trigger data loads.",
+        "Specifies to resume a pipe after ownership of the pipe was transferred to another role.",
+        "Note",
+        "To ensure backward compatibility, passing pipe_name as the only input is syntactically equivalent to passing both\npipe_name and OWNERSHIP_TRANSFER_CHECK_OVERRIDE.",
+        "If both STALENESS_CHECK_OVERRIDE and OWNERSHIP_TRANSFER_CHECK_OVERRIDE are required, these arguments can be input in either\norder.",
+        "Only the pipe owner (i.e. the role with the OWNERSHIP privilege on the pipe) or a role with the OPERATE privilege on the pipe can call this SQL\nfunction:",
+        "SQL operations on schema objects also require the USAGE privilege on the database and schema that contain the object.",
+        "pipe_name is a string so it must be enclosed in single quotes:",
+        "Note that the entire name must be enclosed in single quotes, including the database and schema (if the name is fully-qualified), i.e. '<db>.<schema>.<pipe_name>'.",
+        "If the pipe name is case-sensitive or includes any special characters or spaces, double quotes are required to process the case/characters. The double quotes must be enclosed within the single quotes, i.e. '\"<pipe_name>\"'.",
+        "Force a pipe with a case-insensitive name to resume:",
+        "Force a pipe with a case-sensitive name to resume:",
+        "Force a stale pipe to resume after its ownership was transferred to another role:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

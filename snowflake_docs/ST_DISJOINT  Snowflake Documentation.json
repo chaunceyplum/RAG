@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_disjoint",
+    "title": "ST_DISJOINT | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns TRUE if the two GEOGRAPHY objects or the two\nGEOMETRY objects are disjoint (i.e. do not share any portion of space). ST_DISJOINT is\nequivalent to NOT ST_INTERSECTS(expr1, expr2).",
+        "Note",
+        "This function does not support using a GeometryCollection or FeatureCollection as input values.",
+        "ST_INTERSECTS",
+        "A GEOGRAPHY object.",
+        "A GEOGRAPHY object.",
+        "A GEOMETRY object.",
+        "A GEOMETRY object.",
+        "BOOLEAN.",
+        "For GEOMETRY objects, the function reports an error if the two input GEOMETRY objects have different SRIDs.",
+        "The following examples use the ST_DISJOINT function to determine if two geospatial objects are disjoint:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

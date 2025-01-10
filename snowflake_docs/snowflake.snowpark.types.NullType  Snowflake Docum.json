@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.types.NullType",
+    "title": "snowflake.snowpark.types.NullType | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: DataType",
+        "Represents a null type.",
+        "Methods",
+        "Was this page helpful?"
+    ]
+}

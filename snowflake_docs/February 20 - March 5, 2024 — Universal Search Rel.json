@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-02-20",
+    "title": "February 20 - March 5, 2024 \u2014 Universal Search Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the preview of Universal Search in Snowsight.\nWith Universal Search, you can quickly and easily find database objects in your account, data products available to you in the\nSnowflake Marketplace, relevant Snowflake Documentation topics, and relevant Snowflake Community Knowledge Base articles.",
+        "You can use natural language to search because Universal Search understands your query and information about your database objects and\ncan find objects with names that differ from your search terms.",
+        "For more details, see Search Snowflake objects and resources.",
+        "Note",
+        "With this preview release, Universal Search is available to accounts in the following Snowflake regions:",
+        "AWS EU (Zurich)",
+        "GCP Europe West2 (London)",
+        "GCP Europe West4 (Netherlands)",
+        "GCP US Central1 (Iowa)",
+        "GCP US East4 (N. Virginia)",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/snowflake-scripting/break",
+    "title": "BREAK (Snowflake Scripting) | Snowflake Documentation",
+    "paragraphs": [
+        "BREAK (or EXIT) terminates a loop.",
+        "For more information on terminating loops, see Terminating a loop.",
+        "Note",
+        "This Snowflake Scripting construct is valid only within a\nSnowflake Scripting block.",
+        "CONTINUE",
+        "Where:",
+        "An optional label. If the label is specified, the BREAK will jump to the statement immediately after\nthe label.",
+        "You can use this to break out of more than one level of a nested loop or a nested branch.",
+        "BREAK and EXIT are synonymous.",
+        "If the loop is embedded in another loop(s), you can exit out of not only the current loop, but also an\nenclosing loop, by including the enclosing loop\u2019s label as part of the BREAK. For an example, see the examples\nsection below.",
+        "Here is an example of using BREAK to exit not only the current loop, but also an enclosing loop:",
+        "Note: If you are using SnowSQL, the Classic Console, or the\nexecute_stream or execute_string method in Python Connector\ncode, use this example instead (see Using Snowflake Scripting in SnowSQL, the Classic Console, and Python Connector):",
+        "Here is the output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

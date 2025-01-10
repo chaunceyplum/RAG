@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_01/bcr-942",
+    "title": "SHOW ORGANIZATION ACCOUNTS Command: New Column in Output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The following column has been added to the output of the SHOW ORGANIZATION ACCOUNTS command:",
+        "Column Name",
+        "Data Type",
+        "Description",
+        "IS_ORG_ADMIN",
+        "BOOLEAN",
+        "Indicates whether the ORGADMIN role is enabled in an account. An account with the ORGADMIN role enabled is called the ORGADMIN account.",
+        "To help minimize the impact of this addition, the column has been added as the last column in the output.",
+        "Ref: 942",
+        "Was this page helpful?"
+    ]
+}

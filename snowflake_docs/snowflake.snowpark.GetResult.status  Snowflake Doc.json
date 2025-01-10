@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.GetResult.status",
+    "title": "snowflake.snowpark.GetResult.status | Snowflake Documentation",
+    "paragraphs": [
+        "Indicates whether the download is successful.",
+        "Was this page helpful?"
+    ]
+}

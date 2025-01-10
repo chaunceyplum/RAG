@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-06-11-sharing-non-secure-views",
+    "title": "Jun 11, 2024 \u2014 Sharing data in non-secure views \u2013\u2014 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the preview of sharing data in non-secure views. If you need to take full advantage of the performance gains of query\noptimizations on the views that you share, you can\ncreate a share that lets you share non-secure views with other accounts.",
+        "For more information, see Share data in non-secured views.",
+        "Was this page helpful?"
+    ]
+}

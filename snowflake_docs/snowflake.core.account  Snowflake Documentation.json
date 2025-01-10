@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.account",
+    "title": "snowflake.core.account | Snowflake Documentation",
+    "paragraphs": [
+        "Manages Snowflake Accounts.",
+        "Example",
+        "Refer to snowflake.core.Root to create the root.",
+        "Classes",
+        "Account(name,\u00a0edition,\u00a0admin_name,\u00a0email[,\u00a0...])",
+        "A model object representing the Account resource.",
+        "AccountCollection(root)",
+        "Represents the collection operations of the Snowflake Account resource.",
+        "AccountResource(name,\u00a0collection)",
+        "Represents a reference to a Snowflake account.",
+        "Was this page helpful?"
+    ]
+}

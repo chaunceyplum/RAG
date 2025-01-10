@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_06/bcr-1622",
+    "title": "Security: Update dangling network policy references | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Snowflake network policies behave as follows:",
+        "You can specify a network policy in the NETWORK_POLICY parameter and drop the network policy. The result is a\ndangling reference of the network policy because it no longer exists. Subsequently, network traffic is allowed to access Snowflake\nregardless of the definition of the dropped network policy and any network rules added to the dropped network policy.",
+        "Snowflake sends you an automated email with information about how to fix dangling network policy references in the NETWORK_POLICY\nparameter. The email is sent daily until you fix the dangling network policy references.",
+        "Additionally, if you specify a network policy in this parameter, you cannot drop the network policy using a DROP NETWORK POLICY command\nor replace the network policy with a CREATE OR REPLACE NETWORK POLICY command. To do either of these actions, update the parameter value\nto remove the network policy and then execute the desired command.",
+        "Was this page helpful?"
+    ]
+}

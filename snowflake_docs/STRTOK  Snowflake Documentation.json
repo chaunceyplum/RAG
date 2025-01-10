@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/strtok",
+    "title": "STRTOK | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (General)",
+        "Tokenizes a given string and returns the requested part.",
+        "If the requested part does not exist, then NULL is returned. If any parameter is NULL, then NULL is returned.",
+        "SPLIT_PART",
+        "Required:",
+        "Text to be tokenized.",
+        "Optional:",
+        "Text representing the set of delimiters to tokenize on. Each character in the delimiter string is a delimiter.\nIf the delimiter is empty, and the string is empty, then the function returns NULL. If the\ndelimiter is empty, and the string is non empty, then the whole string will be treated as one token.\nThe default value of the delimiter is a single space character.",
+        "Requested token, which is 1-based (i.e. the first token is token number 1, not token number 0).\nIf the token number is out of range, then NULL is returned.\nThe default value is 1.",
+        "The data type of the returned value is VARCHAR.",
+        "If the string starts or is terminated with the delimiter, the system\nconsiders empty space before or after the delimiter, respectively, as a\nvalid token.",
+        "Similar to Linux strtok(), STRTOK never returns an empty string as a\ntoken.",
+        "Here is a simple example of using STRTOK:",
+        "This example shows how to use multiple delimiters to return the first, second, and third tokens when the delimiters\nare \u2018@\u2019 and \u2018.\u2019.",
+        "This demonstrates what happens if you try to index past the last possible token in the string:",
+        "In this example, because the input string is empty, there are 0 elements, and therefore\nelement #1 is past the end of the string, so the function returns NULL rather than an empty string:",
+        "Here is an example with an empty delimiter string:",
+        "Here are examples with NULL values for each of the parameters:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

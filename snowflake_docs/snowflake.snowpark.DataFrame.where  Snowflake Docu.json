@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.where",
+    "title": "snowflake.snowpark.DataFrame.where | Snowflake Documentation",
+    "paragraphs": [
+        "Filters rows based on the specified conditional expression (similar to WHERE\nin SQL).",
+        "Examples:",
+        "expr \u2013 a Column expression or SQL text.",
+        "_ast_stmt \u2013 when invoked internally, supplies the AST to use for the resulting dataframe.",
+        "where() is an alias of filter().",
+        "Was this page helpful?"
+    ]
+}

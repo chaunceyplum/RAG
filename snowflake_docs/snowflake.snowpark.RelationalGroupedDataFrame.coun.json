@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.RelationalGroupedDataFrame.count",
+    "title": "snowflake.snowpark.RelationalGroupedDataFrame.count | Snowflake Documentation",
+    "paragraphs": [
+        "Return the number of rows for each group.",
+        "Was this page helpful?"
+    ]
+}

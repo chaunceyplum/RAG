@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/date_part.html",
+    "title": "DATE_PART | Snowflake Documentation",
+    "paragraphs": [
+        "Date & time functions",
+        "Extracts the specified date or time part from a date, time, or timestamp.",
+        "EXTRACT , HOUR / MINUTE / SECOND , YEAR* / DAY* / WEEK* / MONTH / QUARTER",
+        "The unit of time. Must be one of the values listed in Supported date and time parts (e.g. month).\nThe value can be a string literal or can be unquoted (e.g. 'month' or month).",
+        "When date_or_time_part is week (or any of its variations), the output is controlled by the WEEK_START session parameter.",
+        "When date_or_time_part is dayofweek or yearofweek (or any of their variations), the output is controlled by the WEEK_OF_YEAR_POLICY and WEEK_START session parameters.",
+        "For more details, including examples, see Calendar weeks and weekdays.",
+        "A date, a time, a timestamp, or an expression that can be evaluated to\na date, a time, or a timestamp.",
+        "Returns a value of NUMBER data type.",
+        "Currently, when date_or_timestamp_expr is a DATE value, the following date_or_time_part\nvalues are not supported:",
+        "epoch_millisecond",
+        "epoch_microsecond",
+        "epoch_nanosecond",
+        "Other date and time parts (including epoch_second) are supported.",
+        "This shows a simple example of extracting part of a DATE:",
+        "This shows an example of extracting part of a TIMESTAMP:",
+        "This shows an example of converting a TIMESTAMP to the number of seconds since\nthe beginning of the Unix epoch (midnight January 1, 1970):",
+        "This shows an example of converting a TIMESTAMP to the number of milliseconds since\nthe beginning of the Unix epoch (midnight January 1, 1970):",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

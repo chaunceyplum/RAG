@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/git/setup-git",
+    "title": "Setting up a Git repository | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "You can integrate your remote Git repository with Snowflake so that files from the repository are synchronized to a special kind of stage called a repository stage. The repository stage acts as a local Git repository with a full clone of the remote repository, including branches, tags, and commits.",
+        "For more information, see Using a Git repository in Snowflake.",
+        "Before setting a Git repository, you need the following information:",
+        "URL of the for the remote repository (also called the origin in Git).",
+        "Optional credentials for connecting to Git, including a secret, username, and password.",
+        "Optional API integration ID.",
+        "Role or user with privileges to create API integrations, if you do not already have an API integration.",
+        "For more information about this information, see Create a secret with credentials for authenticating.",
+        "To clone a Git repository into Git repository stage, use the snow git setup command, as shown:",
+        "where:",
+        "<REPO_NAME> is the ID of the repository stage you want to create. Note that if the repository stage already exists, the command fails.",
+        "The snow git setup command provide a series of prompts to collect the necessary information, as shown in the following examples:",
+        "Create a repository that requires a secret and credentials:",
+        "Create a repository without a secret and an existing API integration ID:",
+        "If the role or user specified in your connection has not been granted, executing this command generates an error similar to the following:",
+        "In this situation, you should check your connection configuration or ask your account administrator to give you the necessary privileges or to create the integration for you. For more information, see Create an API integration for interacting with the repository API.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

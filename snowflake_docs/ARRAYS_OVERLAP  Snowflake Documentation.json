@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/arrays_overlap",
+    "title": "ARRAYS_OVERLAP | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Array/Object)",
+        "Compares whether two arrays have at least one element in common. Returns TRUE if there is at least one element in common; otherwise returns FALSE. The function is NULL-safe, meaning it treats NULLs as known values for comparing equality.",
+        "ARRAY_INTERSECTION",
+        "When you compare objects, the objects must be identical to return TRUE. For details, see Examples (in this topic).",
+        "Both arguments must either be structured ARRAYs or\nsemi-structured ARRAYs.",
+        "If you are passing in structured ARRAYs, the ARRAY in the second argument must be\ncomparable to the ARRAY in the first argument.",
+        "Here are some examples:",
+        "The following example shows that NULL values are considered equal to other\nNULL values. If each array contains a NULL value, then the arrays overlap, even\nif no other (non-NULL) values overlap:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

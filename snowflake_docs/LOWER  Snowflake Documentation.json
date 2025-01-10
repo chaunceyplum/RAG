@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/lower",
+    "title": "LOWER | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Case Conversion)",
+        "Returns the input string with all characters converted to lowercase.",
+        "The string expression.",
+        "This function returns a value of type VARCHAR.",
+        "Convert strings in several different languages and character sets to lowercase:",
+        "LOWER supports collation specifications. This LOWER example\nspecifies collation with the tr (Turkish) locale:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-external-table",
+    "title": "DROP EXTERNAL TABLE | Snowflake Documentation",
+    "paragraphs": [
+        "Removes an external table from the current/specified schema. Note that this is a metadata-only operation. None of the files that the\nexternal table refers to are dropped.",
+        "CREATE EXTERNAL TABLE , ALTER EXTERNAL TABLE , SHOW EXTERNAL TABLES , DESCRIBE EXTERNAL TABLE",
+        "Specifies the identifier for the external table to drop. If the identifier contains spaces, special characters, or mixed-case characters,\nthe entire string must be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive\n(e.g. \"My Object\").",
+        "If the external table identifier is not fully-qualified (in the form of db_name.schema_name.table_name or\nschema_name.table_name), the command looks for the external table in the current schema for the session.",
+        "Specifies whether the external table can be dropped if foreign keys exist that reference the table:",
+        "CASCADE drops the external table even if it has primary/unique keys that are referenced by foreign keys in other tables.",
+        "RESTRICT returns a warning about existing foreign key references and does not drop the external table.",
+        "Default: CASCADE",
+        "Unlike a standard table, dropping an external table purges it from the system. An external table cannot be recovered using Time Travel;\nalso, there is no UNDROP EXTERNAL TABLE command. A dropped external table must be recreated.",
+        "After dropping an external table, creating an external table with the same name recreates the table. No history from the old version\nof the external table is retained.",
+        "Before dropping an external table, verify that no views reference the table. Dropping an external table referenced by a view\ninvalidates the view (i.e. querying the view returns an \u201cobject does not exist\u201d error).",
+        "Drop an external table:",
+        "Drop the table again, but don\u2019t raise an error if the table does not exist:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

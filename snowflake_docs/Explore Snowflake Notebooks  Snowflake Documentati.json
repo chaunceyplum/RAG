@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/ui-snowsight/notebooks-explore",
+    "title": "Explore Snowflake Notebooks | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Generally available in Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP) commercial regions.",
+        "This page describes the Snowflake Notebooks toolbar and the controls used to manage the notebook and adjust cell display settings.",
+        "Control",
+        "Description",
+        "Package selector:   Select and install packages for use in the notebook. See Import Python packages to use in notebooks.",
+        "Start: Start the Notebooks session. When the session starts, the image changes to Active.",
+        "Active: Hover over the button to view session details. Select the down arrow to access options to restart or end the session.\nSelect Active to end the current session.",
+        "Run All/Stop: Run all cells or stop cell execution. See Run cells in Snowflake Notebooks.",
+        "Scheduler: Set a schedule to run your notebook as a task in the future. See Schedule your Snowflake Notebook to run.",
+        "Vertical ellipsis menu: Customize notebook settings, clear cell outputs, duplicate, export, or delete the notebook.",
+        "You can collapse the code in a cell to see only the output. For example, collapse a Python cell to show only the visualizations produced\nby your code, or collapse a SQL cell to show only the results table.",
+        "The drop-down offers options to collapse specific parts of the cell.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

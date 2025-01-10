@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/native-apps/event-develop",
+    "title": "Determine information about event sharing in the consumer account | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "The Snowflake Native App Framework is generally available on supported cloud platforms. For additional information, see\nSupport for private connectivity, VPS, and government regions.",
+        "This topic describes how a provider can set up an app to determine if a consumer has enabled\nevent sharing in their account.",
+        "To determine if event sharing is enabled in a consumer account, providers can call the following\nsystem functions within the setup script:",
+        "SYSTEM$IS_APPLICATION_AUTHORIZED_FOR_TELEMETRY_EVENT_SHARING()",
+        "Returns TRUE if the AUTHORIZE_TELEMETRY_EVENT_SHARING property is set, which indicates that\nevent sharing is allowed in the consumer account. Otherwise, this system function returns FALSE.",
+        "SYSTEM$IS_APPLICATION_ALL_MANDATORY_TELEMETRY_EVENT_DEFINITIONS_ENABLED()",
+        "Returns TRUE if all required event definitions have been enabled in the consumer account.\nOtherwise, this system function returns FALSE.",
+        "The following example shows a stored procedure that performs a calculation only if both\nIS_APPLICATION_AUTHORIZED_FOR_TELEMETRY_EVENT_SHARING and\nIS_APPLICATION_ALL_MANDATORY_TELEMETRY_EVENT_DEFINITIONS_ENABLED are set to TRUE.",
+        "The Python Permission SDK provides the following functions to determine if even sharing is enabled\nin a consumer account:",
+        "is_application_authorized_for_telemetry_event_sharing()",
+        "Returns true if the AUTHORIZE_TELEMETRY_EVENT_SHARING property is true. Returns false, otherwise.",
+        "is_application_all_mandatory_telemetry_event_definitions_enabled()",
+        "Returns true if all mandatory event definitions have been enabled in the consumer account.",
+        "The following example shows how to use the is_application_authorized_for_telemetry_event_sharing()\nand is_application_all_mandatory_telemetry_event_definitions_enabled() functions of the\nPython Permission SDK to verify that event sharing is enabled in the consumer account and that mandatory\nevents have been enabled.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

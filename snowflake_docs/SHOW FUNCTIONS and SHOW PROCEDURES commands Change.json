@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_01/bcr-1508",
+    "title": "SHOW FUNCTIONS and SHOW PROCEDURES commands: Changes to output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The output of the SHOW FUNCTIONS and SHOW PROCEDURES commands include optional\narguments in the arguments column. For an example procedure:",
+        "The value in the arguments column for optional arguments is displayed as follows:",
+        "Optional arguments for functions and procedures are surrounded by brackets ([]).",
+        "For example, the value of the arguments column in the output of a SHOW PROCEDURES statement for\nthe example procedure is:",
+        "MY_PROC(VARCHAR [, BOOLEAN]) RETURN VARCHAR",
+        "Optional arguments for functions and procedures are displayed with the DEFAULT keyword.",
+        "For example, the value of the arguments column in the output of a SHOW PROCEDURES statement for\nthe example procedure is:",
+        "MY_PROC(VARCHAR , BOOLEAN DEFAULT) RETURN VARCHAR",
+        "Snowsight correctly displays the definition of functions and procedures with optional arguments.",
+        "Ref: 1508",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/undrop-external-volume",
+    "title": "UNDROP EXTERNAL VOLUME | Snowflake Documentation",
+    "paragraphs": [
+        "Restores the most recent version of a dropped external volume.",
+        "CREATE EXTERNAL VOLUME , ALTER EXTERNAL VOLUME, DESCRIBE EXTERNAL VOLUME , SHOW EXTERNAL VOLUMES ,\nDROP EXTERNAL VOLUME",
+        "Specifies the identifier for the external volume to restore.",
+        "If the identifier contains spaces or special characters, the entire string must be enclosed in double quotes.\nIdentifiers enclosed in double quotes are also case-sensitive.",
+        "For more information, see Identifier requirements.",
+        "If an external volume with the same name already exists, the UNDROP command returns an error.",
+        "UNDROP relies on the Snowflake Time Travel feature. An object can be restored only if\nthe object was deleted within the Data retention period. The default value is 24 hours.",
+        "Restore the most recent version of a dropped external volume named my_external_volume:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

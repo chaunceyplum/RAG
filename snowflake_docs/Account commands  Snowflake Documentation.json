@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/commands-account",
+    "title": "Account commands | Snowflake Documentation",
+    "paragraphs": [
+        "Account commands enable you to manage your account.",
+        "ALTER ACCOUNT",
+        "CREATE ACCOUNT",
+        "DROP ACCOUNT",
+        "SHOW ACCOUNTS",
+        "SHOW GLOBAL ACCOUNTS",
+        "UNDROP ACCOUNT",
+        "ALTER ORGANIZATION ACCOUNT",
+        "CREATE ORGANIZATION ACCOUNT",
+        "SHOW ORGANIZATION ACCOUNTS",
+        "CREATE MANAGED ACCOUNT",
+        "DROP MANAGED ACCOUNT",
+        "SHOW MANAGED ACCOUNTS",
+        "ALTER ACCOUNT",
+        "SHOW FUNCTIONS",
+        "ALTER CONNECTION",
+        "CREATE CONNECTION",
+        "DROP CONNECTION",
+        "SHOW CONNECTIONS",
+        "SHOW REPLICATION ACCOUNTS",
+        "SHOW REPLICATION DATABASES",
+        "SHOW REGIONS",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

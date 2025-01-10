@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.get_fully_qualified_current_schema",
+    "title": "snowflake.snowpark.Session.get_fully_qualified_current_schema | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the fully qualified name of the current schema for the session.",
+        "Was this page helpful?"
+    ]
+}

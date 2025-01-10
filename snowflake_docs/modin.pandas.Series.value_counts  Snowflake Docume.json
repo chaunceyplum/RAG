@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.value_counts",
+    "title": "modin.pandas.Series.value_counts | Snowflake Documentation",
+    "paragraphs": [
+        "Return a Series containing counts of unique values.",
+        "The resulting object will be in descending order so that the\nfirst element is the most frequently-occurring element.\nExcludes NA values by default.",
+        "normalize (bool, default False) \u2013 If True then the object returned will contain the relative\nfrequencies of the unique values. Being different from native pandas,\nSnowpark pandas will return a Series with decimal.Decimal values.",
+        "sort (bool, default True) \u2013 Sort by frequencies when True. Preserve the order of the data when False.\nWhen there is a tie between counts, the order is still deterministic where\nthe order in the original data is preserved, but may be different from the\nresult from native pandas. Snowpark pandas will always respect the order of\ninsertion during ties. Native pandas is not deterministic when sort=True\nsince the original order/order of insertion is based on the Python hashmap\nwhich may produce different results on different versions.\nRefer to: https://github.com/pandas-dev/pandas/issues/15833",
+        "ascending (bool, default False) \u2013 Whether to sort the frequencies in ascending order or descending order.",
+        "bins (int, optional) \u2013 Rather than count values, group them into half-open bins,\na convenience for pd.cut, only works with numeric data.\nThis argument is not supported yet.",
+        "dropna (bool, default True) \u2013 Don\u2019t include counts of NaN.",
+        "Series",
+        "See also",
+        "Number of non-NA elements in a Series.",
+        "Number of non-NA elements in a DataFrame.",
+        "Equivalent method on DataFrames.",
+        "Examples",
+        "With normalize set to True, returns the relative frequency by\ndividing all values by the sum of values.",
+        "dropna",
+        "With dropna set to False we can also see NaN index values.",
+        "Was this page helpful?"
+    ]
+}

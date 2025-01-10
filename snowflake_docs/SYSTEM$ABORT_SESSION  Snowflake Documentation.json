@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_abort_session",
+    "title": "SYSTEM$ABORT_SESSION | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Aborts the specified session.",
+        "Identifier for the session to abort. To obtain the ID for a session, log into the web interface as an account administrator (user with the ACCOUNTADMIN role) and go to:",
+        "Account  \u00bb Sessions",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

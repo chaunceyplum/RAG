@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-03-18-limit-app-functionality",
+    "title": "March 18-20, 2024 \u2014 Snowflake Native App Framework Release Note | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the preview of the ability to limit the functionality of your Snowflake Native App for consumers who\ntrial your data product. You can limit the functionality of a secure view, secure UDF, or a Streamlit app included in your application package\nusing a system function, SYSTEM$IS_LISTING_TRIAL.",
+        "See more information in Limit functionality of your Snowflake Native App for trial consumers.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

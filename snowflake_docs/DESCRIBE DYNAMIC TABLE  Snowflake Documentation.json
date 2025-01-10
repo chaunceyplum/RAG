@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-dynamic-table",
+    "title": "DESCRIBE DYNAMIC TABLE | Snowflake Documentation",
+    "paragraphs": [
+        "Describes the columns in a dynamic table.",
+        "DESCRIBE can be abbreviated to DESC.",
+        "CREATE DYNAMIC TABLE, ALTER DYNAMIC TABLE, DROP DYNAMIC TABLE, SHOW DYNAMIC TABLES",
+        "Specifies the identifier for the dynamic table to describe. If the identifier contains spaces or special characters, the entire\nstring must be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "To DESCRIBE a dynamic table, you must be using a role that has MONITOR privilege on the table.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "Describe the columns in the dynamic table named product:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/array_compact",
+    "title": "ARRAY_COMPACT | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Array/Object)",
+        "Returns a compacted array with missing and null values removed, effectively converting sparse arrays into dense arrays.",
+        "The source array.",
+        "Semi-structured data (e.g. JSON data) can contain explicit null values, which are distinct from SQL NULLs. A null value in semi-structured data indicates a missing value.",
+        "array1 should be either an ARRAY data type or a VARIANT data type containing an array value.",
+        "If the argument is NULL, the result will be NULL.",
+        "When you pass a structured array to the function, the function returns a structured\narray of the same type.",
+        "This example shows how to use ARRAY_COMPACT():",
+        "Create a simple table and data:",
+        "Execute the query:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

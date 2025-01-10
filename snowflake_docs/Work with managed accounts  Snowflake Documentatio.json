@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/managed-account/managed-account-introduction",
+    "title": "Work with managed accounts | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "The Snowflake REST Managed Account API provides the following endpoints to access, update, and perform certain actions on Managed Account resources.",
+        "Endpoint",
+        "Description",
+        "GET /api/v2/managed-accounts",
+        "Lists available managed accounts.",
+        "POST /api/v2/managed-accounts",
+        "Creates a managed account.",
+        "DELETE /api/v2/managed-accounts/name",
+        "Deletes a managed account.",
+        "For reference documentation, see Snowflake Managed Account API reference.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

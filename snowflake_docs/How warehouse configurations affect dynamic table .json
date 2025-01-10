@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/dynamic-tables-performance-warehouses",
+    "title": "How warehouse configurations affect dynamic table performance | Snowflake Documentation",
+    "paragraphs": [
+        "The size of a warehouse doesn\u2019t always correlate to its cost. To pick an optimal warehouse size,\nexperiment and compare the performance of a query on different warehouse sizes.",
+        "Typically, larger warehouses increase query performance through increased memory and parallelism:",
+        "Memory: If a query requires more memory than the warehouse can provide, intermediate data spills to\nlocal storage, increasing the total amount of work the query has to do. A larger warehouse can\nprevent this spilling, significantly speeding up the query.",
+        "Parallelism: Parallelism lets a query run faster by dividing the work into more pieces, each\ncompleting more quickly. As long as the query offers enough parallelism, increasing warehouse size\ntypically reduces query time without raising costs. For example, moving from a small to a medium\nsized warehouse typically doubles the cost and halves the runtime.",
+        "However, beyond a certain point, additional parallelism offers diminishing returns. Thus, the\ncost-optimal warehouse size is typically large enough to prevent spilling but small enough to avoid\nsaturating parallelism. The optimal size for freshness is usually slightly larger.",
+        "If your dynamic tables refresh incrementally, the initial refresh\noften requires a larger warehouse than subsequent refreshes. Adjust your workflow by starting with a\nlarger warehouse size, creating your dynamic tables, and then sizing down the warehouse again.",
+        "For more information about warehouse sizing and associated cost, see Virtual warehouse credit usage.",
+        "Was this page helpful?"
+    ]
+}

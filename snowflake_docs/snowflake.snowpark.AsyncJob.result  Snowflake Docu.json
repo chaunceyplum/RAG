@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.AsyncJob.result",
+    "title": "snowflake.snowpark.AsyncJob.result | Snowflake Documentation",
+    "paragraphs": [
+        "Blocks and waits until the query associated with this instance finishes, then returns query\nresults. This acts like executing query in a synchronous way. The data type of returned\nquery results is determined by how you create this AsyncJob instance. For example,\nif this instance is returned by DataFrame.collect_nowait(), you will get a list of\nRow s from this method.",
+        "result_type \u2013",
+        "Specifies the data type of returned query results. Currently\nit only supports the following return data types:",
+        "\u201drow\u201d: returns a list of Row objects, which is the same as the return\ntype of DataFrame.collect().",
+        "\u201drow_iterator\u201d: returns an iterator of Row objects, which is the same as\nthe return type of DataFrame.to_local_iterator().",
+        "\u201dpandas\u201d: returns a pandas.DataFrame, which is the same as the return type of\nDataFrame.to_pandas().",
+        "\u201dpandas_batches\u201d: returns an iterator of pandas.DataFrame s, which is the same\nas the return type of DataFrame.to_pandas_batches().",
+        "\u201dno_result\u201d: returns None. You can use this option when you intend to execute\nthe query but don\u2019t care about query results (the client will not fetch results\neither).",
+        "When you create an AsyncJob by Session.create_async_job() and\nretrieve results with this method, result_type should be specified to determine\nthe result data type. Otherwise, it will return a list of Row objects by default.\nWhen you create an AsyncJob by action methods in DataFrame and\nother classes, result_type is optional and it will return results with\ncorresponding type. If you still provide a value for it, this value will overwrite\nthe original result data type.",
+        "",
+        "Was this page helpful?"
+    ]
+}

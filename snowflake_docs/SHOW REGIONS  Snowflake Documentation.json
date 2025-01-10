@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/show-regions",
+    "title": "SHOW REGIONS | Snowflake Documentation",
+    "paragraphs": [
+        "Lists all the regions in which accounts can be created. This command returns the Snowflake Region name,\nthe cloud provider (AWS, Google Cloud Platform, or Microsoft Azure) that hosts the account, and the cloud provider\u2019s name for the region.",
+        "CURRENT_REGION",
+        "Optionally filters the command output by object name. The filter uses case-insensitive pattern matching, with support for SQL\nwildcard characters (% and _).",
+        "For example, the following patterns return the same results:",
+        ". Default: No value (no filtering is applied to the output).",
+        "The command does not require a running warehouse to execute.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "The command output provides region properties and metadata in the following columns. The command output for organizations that span multiple region groups includes an additional\nregion_group column.",
+        "Column",
+        "Description",
+        "region_group",
+        "Region group where the account is located. Note: This column is only displayed for organizations that span multiple region groups.",
+        "snowflake_region",
+        "Snowflake Region where the account is located. A Snowflake Region is a distinct location within a cloud platform region that is isolated from other Snowflake Regions. A Snowflake Region can be either multi-tenant or single-tenant (for a Virtual Private Snowflake account).",
+        "cloud",
+        "Name of the cloud provider that hosts the account.",
+        "region",
+        "Region where the account is located; i.e. the cloud provider\u2019s name for the region.",
+        "display_name",
+        "Human-readable cloud region name, e.g. US West (Oregon)",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

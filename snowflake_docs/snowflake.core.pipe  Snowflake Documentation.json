@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.pipe",
+    "title": "snowflake.core.pipe | Snowflake Documentation",
+    "paragraphs": [
+        "Manages Snowflake Pipes.",
+        "Example",
+        "Refer to snowflake.core.Root to create the root.",
+        "Classes",
+        "Pipe(*,\u00a0name[,\u00a0comment,\u00a0auto_ingest,\u00a0...])",
+        "A model object representing the Pipe resource.",
+        "PipeCollection(schema)",
+        "Represents the collection operations of the Snowflake Pipe resource.",
+        "PipeResource(name,\u00a0collection)",
+        "Represents a reference to a Snowflake pipe.",
+        "Was this page helpful?"
+    ]
+}

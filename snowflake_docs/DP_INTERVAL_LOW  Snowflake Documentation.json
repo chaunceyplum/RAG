@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/dp_interval_low",
+    "title": "DP_INTERVAL_LOW | Snowflake Documentation",
+    "paragraphs": [
+        "Differential privacy functions",
+        "Enterprise Edition Feature",
+        "This feature requires Enterprise Edition (or higher). To inquire about upgrading, please contact Snowflake Support.",
+        "Returns the lower bound of the noise interval, which is used by differential privacy to help\nanalysts determine how much noise has been introduced into query results.",
+        "By default, there is a 95% confidence level that the actual value is equal to or larger than the lower bound.",
+        "DP_INTERVAL_HIGH",
+        "Alias of a column that has been aggregated by the query.",
+        "Returns an integer that is the lower bound of the noise interval.",
+        "If the table is not protected by differential privacy, returns NULL.",
+        "To return the lower bound of the noise interval for the aggregation of the column num_claims:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

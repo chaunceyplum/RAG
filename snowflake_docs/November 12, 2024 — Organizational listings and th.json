@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-11-12-organizational-listings",
+    "title": "November 12, 2024 \u2014 Organizational listings and the Internal Marketplace \u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake is pleased to announce the general availability of the Internal Marketplace \u2013 a directory of data products shared across the\ncustomer\u2019s organization. It lets customers discover and access available data and app products from all teams and business units within\ntheir Snowflake Organization.",
+        "To share data products in the Internal Marketplace, you use an organizational listing in Snowsight or in the API.\nYou control access by adding designated roles and/or accounts within the same Snowflake Organization.",
+        "For more information, see About organizational listings.",
+        "Note",
+        "Rolling out a feature is a phased process designed to ensure smooth implementation and proactively address potential issues.\nNew releases are introduced gradually across Snowflake regions, starting with the first region on the initial release date and\ncontinuing over time, typically spanning about a month.",
+        "Documentation is published in alignment with this rollout process. For questions, contact Snowflake Support or your\nSnowflake representative.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.typeof",
+    "title": "snowflake.snowpark.functions.typeof | Snowflake Documentation",
+    "paragraphs": [
+        "Reports the type of a value stored in a VARIANT column. The type is returned as a string.",
+        "For columns where all rows share the same type, the result of typeof is the underlying Snowflake column type.",
+        "Example:",
+        "For columns of VARIANT type, the underlying stored type is returned.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

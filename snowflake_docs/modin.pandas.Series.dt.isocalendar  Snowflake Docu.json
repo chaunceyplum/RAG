@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.dt.isocalendar",
+    "title": "modin.pandas.Series.dt.isocalendar | Snowflake Documentation",
+    "paragraphs": [
+        "Calculate year, week, and day according to the ISO 8601 standard.",
+        "With columns year, week, and day.",
+        "DataFrame",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

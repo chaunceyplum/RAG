@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.dt",
+    "title": "modin.pandas.Series.dt | Snowflake Documentation",
+    "paragraphs": [
+        "Accessor object for datetimelike properties of the Series values.",
+        "Was this page helpful?"
+    ]
+}

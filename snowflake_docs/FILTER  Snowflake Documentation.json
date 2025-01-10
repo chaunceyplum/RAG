@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/filter",
+    "title": "FILTER | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Higher-order)",
+        "Filters an array based on the logic in a lambda expression.",
+        "Use lambda functions on data with Snowflake higher-order functions",
+        "The array that contains the elements to be filtered. The array can be semi-structured or structured.",
+        "A lambda expression that defines the filter\ncondition on each array element.",
+        "The lambda expression must have only one argument specified in the following syntax:",
+        "The return type of this function is an array of the same type as the input array. The returned array contains the elements\nfor which the filter condition returns TRUE.",
+        "If either argument is NULL, the function returns NULL without reporting an error.",
+        "When the data type for the lambda argument is explicitly specified, the array element is coerced into the specified type\nbefore lambda invocation. For information about coercion, see Data type conversion.",
+        "If the filter condition evaluates to NULL, the corresponding array element is filtered out.",
+        "The following examples use the FILTER function.",
+        "Use the FILTER function to return objects in an array that have a value greater than or equal to 50:",
+        "Use the FILTER function to return array elements that are not NULL:",
+        "Assume you have a table named orders with the columns order_id, order_date, and order_detail. The\norder_detail column is an array of the line items, their purchase quantity, and subtotal. The table contains\ntwo rows of data. The following SQL statement creates this table and inserts the rows:",
+        "Use the FILTER function to return orders with subtotals that are greater than or equal to 1500:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

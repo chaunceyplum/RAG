@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/ui/2024-05-01",
+    "title": "May 01, 2024 \u2014 Snowsight Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "This document provides an overview of the new features, enhancements, and other important changes introduced in this update to\nSnowsight.",
+        "If you have additional questions, please feel free to contact Snowflake Support.",
+        "With this improvement you can now suspend and resume your tasks directly in Snowsight. To suspend or resume a task, navigate to the task and choose the Resume or Suspend option from the actions menu.",
+        "When you suspend or resume a child task in a task graph, Snowsight automatically suspends and resumes the task graph\u2019s root task.",
+        "For more information, see View and manage individual tasks.",
+        "With this improvement you can hover over any suspended label or icon to see the most recent time the task was suspended and if it was suspended manually or automatically due to failure. The time and reason for suspension aren\u2019t retained in historical snapshots of task graph runs.",
+        "For more information, see View and manage task graphs.",
+        "With this improvement Snowsight now displays the auto-suspend, auto-retry, and task timeout parameters in the task details page of the task graph\u2019s root task.",
+        "For more information, see View and manage task graphs.",
+        "With this improvement the Snowsight tasks table displays a Serverless Tasks icon and Serverless for the warehouse column for Serverless Tasks. User-managed tasks also show the name of the warehouse that the task ran on in the task graph run history view.",
+        "For more information, see Viewing task history.",
+        "With this improvement you can see the assigned return values in the Task History. Return values are visible both in a single task\u2019s run history and in the task graph run details.",
+        "You can use return values to give you quick insights of what your task run has processed. You can define return values in your tasks to be returned on task completion.",
+        "For more information, see View and manage individual tasks.",
+        "With this improvement Snowsight displays a bar-chart visualization of the duration of task runs to easily see fluctuations and trends. You can also see how long the task was scheduled before it started.",
+        "For more information, see Viewing task history.",
+        "With this improvement Snowsight displays a condition column in your task list. The condition column describes the conditions defined for the task to run. If the condition is a stream, you can see the name of that stream and the condition-logic. If the condition is a return value of a predecessor task, you can see the name of that predecessor task and the condition-logic.",
+        "For more information, see View and manage individual tasks.",
+        "With this improvement Snowsight displays the task graph configuration and the task definition on the task details page. The graph configuration is defined at the root task level but is visible in the details of and applied to all tasks in a task graph.",
+        "For more information, see View and manage task graphs.",
+        "With this improvement you can inspect the definitions of each task in your task graphs from the task graph view. The new side-panel is resizable to show the most important task configurations at a glance and the full definition and graph configuration.",
+        "For more information, see View and manage task graphs.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

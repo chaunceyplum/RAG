@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/array_distinct",
+    "title": "ARRAY_DISTINCT | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Array/Object)",
+        "Returns a new ARRAY that contains only the distinct elements from the input ARRAY. The function\nexcludes any duplicate elements that are present in the input ARRAY.",
+        "The function is not guaranteed to return the elements in the ARRAY in a specific order.",
+        "The function is NULL-safe, which means that it treats NULLs as known values when identifying duplicate elements.",
+        "An array that might contain duplicate elements to be removed.",
+        "This function returns an ARRAY that contains the elements of the input array without any duplicate elements. For example, if the\nvalue 'x' appears multiple times in the input ARRAY, only one element has the value 'x' in the returned ARRAY.",
+        "If the input argument is NULL, the function returns NULL.",
+        "The order of the values within the returned array is unspecified.",
+        "For elements of the type OBJECT, the objects must be identical to be considered duplicate. For\ndetails, see Examples (in this topic).",
+        "When identifying dupicate elements, the function considers NULL to be a known value (i.e. NULL is not a duplicate of any other\nvalue X besides NULL).",
+        "The following example demonstrates how the function returns an ARRAY without the duplicate elements A and NULL from an\ninput ARRAY constant:",
+        "The following example demonstrates how passing in NULL (instead of an ARRAY) returns NULL:",
+        "The following example demonstrates how the function removes duplicate OBJECTs that are elements in the input ARRAY. The example\nuses OBJECT constants and ARRAY constants to construct the OBJECTs and ARRAY.",
+        "As shown in the example, the last element is not considered to be a duplicate because b has a different value (3, not\n2).",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

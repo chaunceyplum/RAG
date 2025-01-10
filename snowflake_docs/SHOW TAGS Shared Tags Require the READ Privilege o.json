@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_05/bcr-1196",
+    "title": "SHOW TAGS: Shared Tags Require the READ Privilege on the Tag | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_05 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of the SHOW TAGS command with respect to data sharing is as follows:",
+        "If a data sharing provider shares a schema that stores tags, the consumer can view all of the shared tags using a SHOW TAGS command\nprovided that the role that executes the SHOW TAGS command has the required privileges to access the shared schema.",
+        "As a consumer, to use the SHOW TAGS command to view shared tags, you must use a role that is granted the READ privilege on each tag. The\nREAD privilege for a tag is new and is only applicable in a data sharing context.",
+        "The provider chooses how to grant the READ privilege on the tag to the share:",
+        "Grant the READ privilege on each tag to the share directly.",
+        "Grant the READ privilege on the tag to a database role and grant the database role to the share.",
+        "The consumer:",
+        "Creates a database from the share and grants privileges on the share to account roles (no changes).",
+        "Grants the database role to an account role (if applicable, no changes).",
+        "Uses SQL to execute the SHOW TAGS command.",
+        "To determine whether you have tags that are affected by the pending behavior, use these commands:",
+        "Ref: 1196",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

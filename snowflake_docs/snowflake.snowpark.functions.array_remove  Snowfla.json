@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.array_remove",
+    "title": "snowflake.snowpark.functions.array_remove | Snowflake Documentation",
+    "paragraphs": [
+        "Given a source ARRAY, returns an ARRAY with elements of the specified value removed.",
+        "array \u2013 name of column containing array.",
+        "element \u2013 element to be removed from the array. If the element is a VARCHAR, it needs\nto be casted into VARIANT data type.",
+        "See also",
+        "ARRAY for more details on semi-structured arrays.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_01/bcr-924",
+    "title": "GET_DDL Function: Tags Set on Streams, Tasks, and Pipes Included in Output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The output of the GET_DDL function now include any tag objects that are set on a stream, task,\nor pipe. The tag associations are specified in the WITH clause of the CREATE OR REPLACE <object> command and allow creating or\nreplacing an object with tags already assigned to the object.",
+        "Ref: 924",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_05/bcr-1146",
+    "title": "SHOW PARAMETERS: Changes to Retention Time Values for Databases Created From a Share | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_05 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The results of the SHOW PARAMETERS IN DATABASE <database_name> command\ninclude default values for parameters that do not apply to a database created from a share.",
+        "The DATA_RETENTION_TIME_IN_DAYS parameter sets the number of days data\nis retained for Time Travel. This\ndata retention time value is 0 for a database created from a share.",
+        "The MAX_DATA_EXTENSION_TIME_IN_DAYS parameter sets the maximum number of days\nSnowflake can extend the data retention period for tables to ingest streaming data to prevent streams from\nbecoming stale. This parameter does not apply to a database created from a share since it is read-only.",
+        "In the current release, this behavior changed as follows:",
+        "For a database created from a share, the results of the SHOW PARAMETERS IN DATABASE database_name command includes the\ndefault values for:",
+        "DATA_RETENTION_TIME_IN_DAYS (1)",
+        "MAX_DATA_EXTENSION_TIME_IN_DAYS (14)",
+        "For a database created from a share, the results of the SHOW PARAMETERS IN DATABASE database_name command will no\nlonger include the parameters:",
+        "DATA_RETENTION_TIME_IN_DAYS",
+        "MAX_DATA_EXTENSION_TIME_IN_DAYS",
+        "Ref: 1146",
+        "Was this page helpful?"
+    ]
+}

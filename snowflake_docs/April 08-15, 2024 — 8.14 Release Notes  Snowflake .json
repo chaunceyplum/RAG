@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/8_14",
+    "title": "April 08-15, 2024 \u2014 8.14 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "The release has completed.",
+        "For differences between the in-advance and final versions of these release notes, see Release notes change log.",
+        "Effective immediately, Snowflake accounts can be provisioned in the following new region(s):",
+        "Cloud Platform",
+        "Region",
+        "Amazon Web Services (AWS)",
+        "EU (Zurich)",
+        "The new region(s) support all Snowflake Editions. You can provision initial accounts in the region through\nself-service or a Snowflake representative.",
+        "With this release, we are pleased to announce the general availability of Python UDTFs (user-defined table functions) with vectorized\nprocess methods. This new feature provides a convenient way to operate over rows in batches when the method returns one output row for\neach input row.",
+        "For more information, see Vectorized Python UDTFs.",
+        "With this release, we are pleased to announce that we have improved the algorithm behind\nTime-Series Forecasting, part of the\nSnowflake Cortex ML Functions suite of analysis tools. The underlying approach remains the same; rather, we have changed\nsome parameters that, for most users, should:",
+        "Reduce the incidence of trend extrapolation errors (incorrect trends)",
+        "Improve accuracy on \u201cnoisy\u201d time series",
+        "These improvements apply only to forecasting models trained with Snowflake 8.14 or later. Forecasting models trained\nwith previous versions continue to use the earlier model parameters.",
+        "Announcement",
+        "Update",
+        "Date",
+        "Release notes",
+        "Initial publication (preview)",
+        "08-Apr-24",
+        "Forecasting improvements in Snwoflake Cortex ML Functions",
+        "Added to Snowflake Cortex updates",
+        "24-Apr-24",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

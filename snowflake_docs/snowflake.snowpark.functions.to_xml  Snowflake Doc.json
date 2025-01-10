@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.to_xml",
+    "title": "snowflake.snowpark.functions.to_xml | Snowflake Documentation",
+    "paragraphs": [
+        "Converts any VARIANT value to a string containing the XML representation of the\nvalue. If the input is NULL, the result is also NULL.",
+        "Was this page helpful?"
+    ]
+}

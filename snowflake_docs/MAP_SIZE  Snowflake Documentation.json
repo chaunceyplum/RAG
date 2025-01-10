@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/map_size",
+    "title": "MAP_SIZE | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Map)",
+        "Returns the size of a MAP.",
+        "The input map.",
+        "Returns the number of entries in the map.",
+        "Determine the number of entries in a map:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

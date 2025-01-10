@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.dayofweek",
+    "title": "snowflake.snowpark.functions.dayofweek | Snowflake Documentation",
+    "paragraphs": [
+        "Extracts the corresponding day (number) of the week from a date or timestamp.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/show-versions",
+    "title": "SHOW VERSIONS | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "The Snowflake Native App Framework is generally available on supported cloud platforms. For additional information, see\nSupport for private connectivity, VPS, and government regions.",
+        "Lists the versions defined in the specified application package.",
+        "ALTER APPLICATION, CREATE APPLICATION, DESCRIBE APPLICATION, DROP APPLICATION",
+        "Optionally filters the command output by object name. The filter uses case-insensitive pattern matching, with support for SQL\nwildcard characters (% and _).",
+        "For example, the following patterns return the same results:",
+        ". Default: No value (no filtering is applied to the output).",
+        "Specifies the identifier for the application package whose versions you want to view.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

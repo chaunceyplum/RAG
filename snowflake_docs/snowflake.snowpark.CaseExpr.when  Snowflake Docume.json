@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.CaseExpr.when",
+    "title": "snowflake.snowpark.CaseExpr.when | Snowflake Documentation",
+    "paragraphs": [
+        "Appends one more WHEN condition to the CASE expression.",
+        "condition \u2013 A Column expression or SQL text representing the specified condition.",
+        "value \u2013 A Column expression or a literal value, which will be returned\nif condition is true.",
+        "Was this page helpful?"
+    ]
+}

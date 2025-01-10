@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/current_ip_address",
+    "title": "CURRENT_IP_ADDRESS | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions",
+        "Returns the IP address of the client that submitted the request.",
+        "None.",
+        "Return the current IP address of the client that is connected to Snowflake:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

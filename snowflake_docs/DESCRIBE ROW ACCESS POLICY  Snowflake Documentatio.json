@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-row-access-policy",
+    "title": "DESCRIBE ROW ACCESS POLICY | Snowflake Documentation",
+    "paragraphs": [
+        "Enterprise Edition Feature",
+        "This feature requires Enterprise Edition (or higher). To inquire about upgrading,\nplease contact Snowflake Support.",
+        "Describes a row access policy, including the creation date, name, data type, and SQL expression.",
+        "DESCRIBE can be abbreviated to DESC.",
+        "Row access policy DDL",
+        "Identifier for the row access policy; must be unique for your account.",
+        "The identifier value must start with an alphabetic character and cannot contain spaces or special characters unless the entire\nidentifier string is enclosed in double quotes (e.g. \"My object\"). Identifiers enclosed in double quotes are also case-sensitive.",
+        "For more details, see Identifier requirements.",
+        "A role used to execute this SQL command must have at least one of the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "APPLY ROW ACCESS POLICY",
+        "Account",
+        "APPLY",
+        "Row access policy",
+        "OWNERSHIP",
+        "Row access policy",
+        "OWNERSHIP is a special privilege on an object that is automatically granted to the role that created the object, but can also be transferred using the GRANT OWNERSHIP command to a different role by the owning role (or any role with the MANAGE GRANTS privilege).",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "For additional details on masking policy DDL and privileges, see Manage row access policies.",
+        "The following example describes a row access policy.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

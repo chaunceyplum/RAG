@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/approximate_jaccard_index",
+    "title": "APPROXIMATE_JACCARD_INDEX | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (Similarity Estimation) , Window functions",
+        "Returns an estimation of the similarity (Jaccard index) of inputs based on their MinHash states. For more information about Jaccard indexes and the related\nfunction MINHASH, see Estimating Similarity of Two or More Sets.",
+        "Alias for APPROXIMATE_SIMILARITY",
+        "The expression(s) should be one or more MinHash states returned by calls to\nthe MINHASH function. In other words, the\nexpressions must be MinHash state information, not the column or\nexpression for which you want the approximate similarity. (The example below\nhelps make this clear.)",
+        "For more information about MinHash states, see\nEstimating Similarity of Two or More Sets.",
+        "A floating point number between 0.0 and 1.0 (inclusive), where 1.0 indicates\nthat the sets are identical, and 0.0 indicates that the sets have no overlap.",
+        "DISTINCT can be included as an argument, but has no effect.",
+        "The input MinHash states must have MinHash arrays of equal length.",
+        "The array length of the input MinHash states is an indicator of the quality of approximation.",
+        "The larger the value of k used in function MINHASH, the better the approximation. However, this value has a linear impact on the computation time for estimating similarity.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

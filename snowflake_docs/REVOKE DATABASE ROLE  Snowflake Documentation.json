@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/revoke-database-role",
+    "title": "REVOKE DATABASE ROLE | Snowflake Documentation",
+    "paragraphs": [
+        "Revokes a database role from an account role or another database role.",
+        "GRANT DATABASE ROLE",
+        "GRANT ROLE , REVOKE ROLE",
+        "GRANT <privileges>",
+        "Specifies the identifier for the database role to revoke. If the identifier contains spaces or special characters, the entire string must\nbe enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Revokes the database role from the specified role.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

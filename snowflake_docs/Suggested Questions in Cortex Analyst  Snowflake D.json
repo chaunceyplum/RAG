@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-analyst/suggested-questions-feature",
+    "title": "Suggested Questions in Cortex Analyst | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to accounts in most Snowflake regions. See Region Availability for a full list.",
+        "The Suggested Questions feature in Cortex Analyst provides relevant suggestions for questions your users can ask while\ninteracting with your Cortex Analyst-powered conversational app. Use this feature to help your users get started.",
+        "Cortex Analyst operates in three modes depending on the configuration of your semantic model.",
+        "Generates questions using Large Language Models (Default mode without Verified Query Repository)",
+        "When your semantic model doesn\u2019t include a Verified Query Repository (VQR), Cortex Analyst uses the\nunderlying Large Language Models (LLMs) to generate up to three suggested questions.\nNote that these questions may not always be answerable; for instance, the system might suggest a question that\nyields no results.",
+        "Suggests questions from the Verified Query Repository (Default mode with VQR)",
+        "If your semantic model has a Verified Query Repository (VQR)\ndefined, Cortex Analyst returns up to five suggested questions from the VQR. These questions are selected based on their similarity to\nthe user\u2019s input. For example, if a user asks, What questions can I ask about revenue?, Cortex Analyst returns up to 5 questions\nthat are most likely about revenue from the VQR repository that are most likely answerable.",
+        "Returns onboarding questions configured in the semantic model (Customizable Mode with VQR)",
+        "For more control over which questions are displayed, you can use the new use_as_onboarding_question flag in your VQR configuration.",
+        "When this flag is set to true, Cortex Analyst will return all questions marked as onboarding questions, regardless of their\nsimilarity to the user\u2019s input.",
+        "This feature is helpful if you want to present a full set of predefined, answerable questions for users, such as in an\nonboarding experience. If you flag more than 5 questions, all of the flagged questions are returned in the response.",
+        "To define onboarding questions, you need to mark specific verified queries in the\nsemantic model with the use_as_onboarding_question flag. The example below shows how to set this up:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

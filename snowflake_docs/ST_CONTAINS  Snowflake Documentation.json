@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_contains",
+    "title": "ST_CONTAINS | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns TRUE if a GEOGRAPHY or GEOMETRY object is\ncompletely inside another object of the same type.",
+        "More strictly, object g1 contains object g2 if and only if no points of g2 lie in the exterior of g1, and at least one\npoint of the interior of B lies in the interior of A. There are certain subtleties in this definition that are not\nimmediately obvious. For more details on what \u201ccontains\u201d means, see the\nDimensionally Extended 9-Intersection Model (DE-9IM).",
+        "Although ST_COVERS and ST_CONTAINS might seem similar, the two functions have subtle differences. For details on the differences\nbetween \u201ccovers\u201d and \u201ccontains\u201d, see the\nDimensionally Extended 9-Intersection Model (DE-9IM).",
+        "Note",
+        "This function does not support using a GeometryCollection or FeatureCollection as input values.",
+        "Tip",
+        "You can use the search optimization service to improve the performance of queries that call this function.\nFor details, see Search Optimization Service.",
+        "ST_WITHIN , ST_COVERS , ST_COVEREDBY",
+        "A GEOGRAPHY object that is not a GeometryCollection or FeatureCollection.",
+        "A GEOGRAPHY object that is not a GeometryCollection or FeatureCollection.",
+        "A GEOMETRY object that is not a GeometryCollection or FeatureCollection.",
+        "A GEOMETRY object that is not a GeometryCollection or FeatureCollection.",
+        "BOOLEAN.",
+        "For GEOMETRY objects, the function reports an error if the two input GEOMETRY objects have different SRIDs.",
+        "This shows a simple use of the ST_CONTAINS function:",
+        "The query below shows several examples of using ST_CONTAINS. Note how ST_CONTAINS determines that:",
+        "The Polygon contains itself.",
+        "The Polygon does not contain the LineString that is on its border.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

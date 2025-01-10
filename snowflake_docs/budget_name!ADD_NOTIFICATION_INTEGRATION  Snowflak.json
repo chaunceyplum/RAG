@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/budget/methods/add_notification_integration",
+    "title": "<budget_name>!ADD_NOTIFICATION_INTEGRATION | Snowflake Documentation",
+    "paragraphs": [
+        "Adds a queue or webhook notification integration to a\ncustom budget or the account budget.",
+        "<budget_name>!GET_NOTIFICATION_INTEGRATIONS,\n<budget_name>!REMOVE_NOTIFICATION_INTEGRATION",
+        "The name of the queue or webhook notification integration to add to the budget.",
+        "Returns a VARCHAR value that indicates whether or not the notification integration was successfully added.",
+        "If the notification integration was added successfully, the method returns Integration added successfully.",
+        "Otherwise, the method returns an error message.",
+        "The following privileges and roles are required to call this method for a custom budget:",
+        "ADMIN instance role for the budget instance.",
+        "USAGE privilege on the database and schema that contain the budget instance.",
+        "For more information, see Budgets roles and privileges.",
+        "In addition, you must grant the following privileges to the SNOWFLAKE application:",
+        "The USAGE privilege on the notification integration.",
+        "If the notification integration is for a webhook that uses a secret object, you must also grant the following privileges to the\nSNOWFLAKE application:",
+        "The READ privilege on that secret.",
+        "The USAGE privilege on the schema containing that secret.",
+        "The USAGE privilege on the database containing that schema.",
+        "For information, see:",
+        "Setting up email notification",
+        "Setting up queue notification",
+        "Setting up webhook notification",
+        "Calling this method does not return the object. Because of this, you can\u2019t use method chaining to call another method on the\nreturn value of this method. Instead, call each method in a separate SQL statement.",
+        "The following example adds the notification integration budgets_notification_integration to the account budget:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

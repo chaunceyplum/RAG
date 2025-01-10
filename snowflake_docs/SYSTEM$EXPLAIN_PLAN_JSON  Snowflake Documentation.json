@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_explain_plan_json",
+    "title": "SYSTEM$EXPLAIN_PLAN_JSON | Snowflake Documentation",
+    "paragraphs": [
+        "System functions",
+        "Given the text of a SQL statement, this function generates the EXPLAIN plan in JSON.",
+        "SYSTEM$EXPLAIN_JSON_TO_TEXT , EXPLAIN_JSON",
+        "A string, or an expression that evaluates to a string, containing the SQL statement for which you want the EXPLAIN\nplan.\nIf a literal string is used, it should be surrounded by single quote characters '.",
+        "A string, or an expression that evaluates to a string, containing the query ID for which you want the EXPLAIN plan.\nIf a literal string is used, it should be surrounded by single quote characters '.",
+        "Snowflake retains historical data for query IDs executed within the previous 14 days. If you specify the query ID\nfor a query executed more than 14 days in the past, an error is returned. For more information, see\nMonitor query activity with Query History.",
+        "The function returns a VARCHAR containing the EXPLAIN output in JSON-compatible format.",
+        "If a string literal is passed as input, the delimiter around the string can be either a single quote ' or a\ndouble dollar sign $$. If the string literal contains single quotes (and does not contain double dollar\nsigns), then delimiting the string with double dollar signs avoids the need to escape the embedded single quote\ncharacters inside the string.",
+        "To post-process the output of this command, you can:",
+        "Use the RESULT_SCAN function, which treats the output as a table that can be\nqueried.",
+        "Insert the JSON-formatted output into a table for analysis later.\nIf you store the output in JSON format, you can use the function\nSYSTEM$EXPLAIN_JSON_TO_TEXT or\nEXPLAIN_JSON to convert the JSON to a more human readable format (either tabular\nor formatted text).",
+        "These examples use the tables shown below:",
+        "This example uses a literal string containing n SQL statement as the input parameter:",
+        "Use $$ to delimit queries that contain single quotes:",
+        "The code below shows how to look at the EXPLAIN plan for a query that you already executed:",
+        "Run the query:",
+        "Run EXPLAIN on the query, calling LAST_QUERY_ID() to look up the query ID:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

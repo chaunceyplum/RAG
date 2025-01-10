@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/helpers-commands/v1-to-v2",
+    "title": "snow helpers v1-to-v2 | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Migrates the Snowpark, Streamlit, and Native App project definition files from V1 to V2.",
+        "None",
+        "Allows the migration of templates. Default: False.",
+        "Merge values in snowflake.local.yml into the main project definition. The snowflake.local.yml file will not be migrated, instead its values will be reflected in the output snowflake.yml file. If unset and snowflake.local.yml is present, an error will be raised.",
+        "Specifies the output format. Default: TABLE.",
+        "Displays log entries for log levels info and higher. Default: False.",
+        "Displays log entries for log levels debug and higher; debug logs contain additional information. Default: False.",
+        "Turns off intermediate output to console. Default: False.",
+        "Displays the help text for this command.",
+        "Snowflake CLI 3.0 introduced support for V2 project definition files. If you have existing V1.x project definition files, you can use the snow helpers v1-to-v2 command to convert the files to the V2 version. The command preserves the original version in a snowflake_V1.yml file.",
+        "You must run this command in the same directory as the snowflake.yml file.",
+        "Attention",
+        "With the change in how Snowflake CLI 3.0 handles project definition templates, Snowflake cannot guarantee that project definition files using\ntemplates will work correctly after conversion. By default, this command generates an error if you try convert a 1.x file that contains templates. You can force the command to convert these types of files by using the --accept-templates option. Then you\nmust manually update any templates to their V2 equivalents.",
+        "Convert a version 1.x project definition file.",
+        "Convert a version 2 project definition file.",
+        "Convert a version 1 project definition that contains templates without the --accept-templates option.",
+        "Convert a version 1 project definition with the --accept-templates option.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

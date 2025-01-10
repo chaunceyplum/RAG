@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-10-04-cortex-search-ga",
+    "title": "October 04, 2024 \u2014 Cortex Search \u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "We are pleased to announce the general availability of Cortex Search.",
+        "Cortex Search is a text search service that simplifies the development of high-quality search and large language model (LLM) chatbot\napplications. Cortex Search is a hybrid search service, leveraging vector and keyword search for optimal quality. You can use Cortex Search\nas the retrieval service in a RAG chatbot or as a standalone search engine.",
+        "For more details, see Cortex Search.",
+        "Was this page helpful?"
+    ]
+}

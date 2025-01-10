@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_query_reference",
+    "title": "SYSTEM$QUERY_REFERENCE | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (Information)",
+        "Preview Feature \u2014 Open",
+        "Available to all accounts.",
+        "Returns a query reference that you can pass to a stored procedure.\nWithin the stored procedure, when you execute the query, the query is performed using the role of the user who created the query\nreference.",
+        "Note",
+        "As an alternative to calling this function, you can use the TABLE keyword, if you want the reference to be valid for the scope\nof the call (rather than for the entire session). See Using the TABLE keyword to create a reference to a table, view, or query.",
+        "SYSTEM$REFERENCE",
+        "Required",
+        "The SELECT statement to pass to the stored procedure. This must be a statement that serves as an inline view.",
+        "Note that if the SELECT statement contains any single quotes or other special characters (e.g. newlines), you must\nescape those characters with backslashes.",
+        "Optional",
+        "If TRUE, specifies that the query reference should be valid for the duration for the session. If this is FALSE\nor omitted, the query reference is valid within the context in which it was created. See Specifying the scope of the reference.",
+        "Default value: FALSE",
+        "A query reference that represents the specified SELECT statement.",
+        "See Using query references.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

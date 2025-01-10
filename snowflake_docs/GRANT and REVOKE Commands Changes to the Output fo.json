@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_05/bcr-515",
+    "title": "GRANT and REVOKE Commands: Changes to the Output for a Failed Grant | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_05 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of these commands is as follows:",
+        "GRANT APPLICATION ROLE",
+        "REVOKE APPLICATION ROLE",
+        "GRANT <privileges> \u2026 TO APPLICATION ROLE",
+        "REVOKE <privileges> FROM APPLICATION ROLE",
+        "GRANT <privileges>",
+        "REVOKE <privileges>",
+        "GRANT <privilege> \u2026 TO SHARE",
+        "REVOKE <privilege> \u2026 FROM SHARE",
+        "GRANT ROLE",
+        "REVOKE ROLE",
+        "GRANT OWNERSHIP",
+        "When you execute any of these commands and the operation does not work for one or more privileges or roles that you specify in the\ncommand, Snowflake formats the response as a \u201csuccessful status message\u201d (i.e. table) and indicates the relevant information.\nFor example:",
+        "This output is a representative example of one of many possible messages when executing any of these commands.",
+        "When you execute either of these commands and the operation does not work for one or more privileges or roles that you specify in the\ncommand, Snowflake formats the response as an error message, with the error code, and indicates the relevant information. For\nexample:",
+        "The actual message text does not change.",
+        "Tip",
+        "If you have workflows that depend on the result of either of these commands, update your scripts to parse the error code information,\nwhich is 003011 (42501) in this example.",
+        "The list of error codes that are affected by this change are:",
+        "The value (42501) in the example reflects the SQL client the user chose to execute the command, which is the\nSnowflake Connector for Python in this example. This value might not show up depending on how you execute\nthe command (e.g. Snowsight does not return this value or the error code value 003011).",
+        "The [ one or more privileges ] value is a placeholder to return information about the statement that caused the error. In the\nexample, these placeholder shows that REFERENCE_USAGE privilege was not granted.",
+        "Ref: 515",
+        "Was this page helpful?"
+    ]
+}

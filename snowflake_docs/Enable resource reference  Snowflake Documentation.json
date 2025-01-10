@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/native-apps/connector-sdk/reference/enable_resource_reference",
+    "title": "Enable resource reference | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to accounts in all regions in all cloud providers (including government regions). For details, contact your Snowflake representative.",
+        "The following database objects are created when the file ingestion/resource_management.sql is executed.",
+        "Entry point procedure available to the ADMIN role. This procedure invokes the Java function EnableResourceHandler.enableResource.",
+        "Procedure used for connector specific validation of enable process. By default, it returns 'response_code': 'OK'.\nIt is invoked by DefaultEnableResourceValidator. Can be overwritten both in SQL and Java.",
+        "Procedure used for adding connector specific logic which is invoked before a resource is enabled.\nBy default, it returns 'response_code': 'OK'.\nIt is invoked by DefaultPreEnableResourceCallback. Can be overwritten both in SQL and Java.",
+        "Procedure used for adding connector specific logic which is invoked after a resource is enabled.\nBy default, it returns 'response_code': 'OK'.\nIt is invoked by DefaultPostEnableResourceCallback. Can be overwritten both in SQL and Java.",
+        "The following Java objects from the com.snowflake.connectors.application.ingestion.enable package and some common components are tightly connected with the above procedures:",
+        "EnableResourceHandler",
+        "EnableResourceHandlerBuilder",
+        "EnableResourceValidator",
+        "PreEnableResourceCallback",
+        "PostEnableResourceCallback",
+        "ConnectorErrorHelper",
+        "The handler and its internals can be customized using the following approaches.",
+        "The following components can be replaced using SQL.",
+        "To provide whole custom implementation of EnableResourceHandler, the PUBLIC.ENABLE_RESOURCE procedure must be replaced. For example:",
+        "Internal procedures ENABLE_RESOURCE_VALIDATE, PRE_ENABLE_RESOURCE and POST_ENABLE_RESOURCE can be also customized through the SQL. These procedures can also invoke other Java handlers:",
+        "EnableResourceHandler can be customized using EnableResourceHandlerBuilder. This builder allows user to provide custom implementations of the following interfaces:",
+        "EnableResourceValidator",
+        "PreEnableResourceCallback",
+        "PostEnableResourceCallback",
+        "ConnectorErrorHelper",
+        "In case a function is not provided the default implementation provided by the SDK will be used.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

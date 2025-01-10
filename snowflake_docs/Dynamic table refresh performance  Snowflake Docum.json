@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/dynamic-tables-performance-refresh",
+    "title": "Dynamic table refresh performance | Snowflake Documentation",
+    "paragraphs": [
+        "Dynamic table refreshes determine the cost and data freshness of your dynamic tables. This topic covers\nhow dynamic table refreshes affect performance and how you can influence refresh performance in the\nfollowing order:",
+        "Workload: Tune your workload by refining your queries and the characteristics of your data.",
+        "Refresh mode: Adjust the refresh mode on your dynamic tables to match your workload.",
+        "Refresh schedule cost: Control the schedule at which your pipeline refreshes.",
+        "Warehouse considerations: Allocate the appropriate warehouse sizing to your refreshes.",
+        "Was this page helpful?"
+    ]
+}

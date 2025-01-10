@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/external-functions-creating-aws-template-gateway-url",
+    "title": "Step 2: Record the Amazon API Gateway URL and the new IAM role ARN | Snowflake Documentation",
+    "paragraphs": [
+        "Step 1: Use the template to create the remote service (AWS Lambda function) and proxy service (API Gateway)",
+        "In the next few steps, you create the API integration and the external function.\nIn order to create these, you need the API Gateway URL and the New IAM Role ARN, which you can find by following the steps below.",
+        "You should be in the AWS Management Console. You should be on the Events tab for the stack you created in the\nprevious step.",
+        "Click on the Outputs tab.",
+        "Copy the value for resourceInvocationUrl to the tracking worksheet field titled Resource Invocation URL.",
+        "Copy the value for awsRoleArn to the tracking worksheet field titled New IAM Role ARN.",
+        "Step 3: Create the API integration for AWS in Snowflake",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

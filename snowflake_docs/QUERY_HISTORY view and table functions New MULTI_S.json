@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1214",
+    "title": "QUERY_HISTORY view and table functions: New MULTI_STATEMENT value in the query_type column for multi-statement queries | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When a query is executed through any interface, you can view details about the executed query in the output of the QUERY_HISTORY table function and in the QUERY_HISTORY view (in the ACCOUNT_USAGE schema). This change addresses an error regarding the type displayed in the query_type column when drivers submit multi-statement queries.",
+        "The behavior of this change is as follows:",
+        "When a driver submitted queries that contained multiple SQL statements, the query_type column in the QUERY_HISTORY view and QUERY_HISTORY table function output incorrectly displayed SELECT as the query type.",
+        "The query_type column correctly displays the query type as MULTI_STATEMENT when a driver submits a multi-statement query.",
+        "Ref: 1214",
+        "Was this page helpful?"
+    ]
+}

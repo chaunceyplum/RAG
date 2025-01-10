@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1249",
+    "title": "Native Apps: Different privileges required to rename APPLICATION and APPLICATION PACKAGE | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the current Snowflake release, the privileges required to run the RENAME clause of the\nALTER DATABASE command have changed for the APPLICATION and\nAPPLICATION PACKAGE databases.",
+        "The RENAME clause of the ALTER DATABASE command requires the\nCREATE DATABASE privilege to be granted on the APPLICATION or APPLICATION PACKAGE to the role\nof the user running the command.",
+        "Running the RENAME clause of the ALTER DATABASE command requires the\nCREATE APPLICATION or CREATE APPLICATION PACKAGE privileges to be granted on the APPLICATION or\nAPPLICATION PACKAGE databases.",
+        "Ref: 1249",
+        "Was this page helpful?"
+    ]
+}

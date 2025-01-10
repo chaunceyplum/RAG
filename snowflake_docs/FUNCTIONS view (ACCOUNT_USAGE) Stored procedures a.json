@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_06/bcr-1671",
+    "title": "FUNCTIONS view (ACCOUNT_USAGE): Stored procedures are no longer included | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "With this behavior change, the FUNCTIONS view in the ACCOUNT_USAGE schema\nchanges as follows:",
+        "The view includes rows for stored procedures.",
+        "The view does not include rows for stored procedures.",
+        "This behavior change makes the FUNCTIONS view in ACCOUNT_USAGE consistent with\nthe FUNCTIONS view in INFORMATION_SCHEMA.",
+        "If you need information about the stored procedures in your account, use\nthe PROCEDURES view in the ACCOUNT_USAGE schema instead.",
+        "Ref: 1671",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.melt",
+    "title": "modin.pandas.melt | Snowflake Documentation",
+    "paragraphs": [
+        "Unpivot a DataFrame from wide to long format, optionally leaving identifiers set.",
+        "id_vars (list of identifiers to retain in the result) \u2013",
+        "value_vars (list of columns to unpivot on) \u2013 defaults to all columns, excluding the id_vars columns",
+        "var_name (variable name, defaults to \"variable\") \u2013",
+        "value_name (value name, defaults to \"value\") \u2013",
+        "col_level (int, not implemented) \u2013",
+        "ignore_index (bool, not implemented) \u2013",
+        "unpivoted on the value columns",
+        "DataFrame",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

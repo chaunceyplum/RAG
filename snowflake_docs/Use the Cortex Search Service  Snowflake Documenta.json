@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/cortex-search/cortex-search-introduction",
+    "title": "Use the Cortex Search Service | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "The SNOWFLAKE REST Cortex Search Service API provides the following endpoints:",
+        "Endpoint",
+        "Description",
+        "POST /api/v2/databases/database/schemas/schema/.cortex-search-services/service_name:query",
+        "Queries a Cortex Search Service to get search results.",
+        "For reference documentation, see Snowflake Cortex Search Service API reference.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/forecast/methods/explain_feature_importance",
+    "title": "<model_name>!EXPLAIN_FEATURE_IMPORTANCE | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the relative feature importance for each feature used by the model.",
+        "If you need to select specific columns from the data returned by this method, you can call the method in the FROM clause of a\nSELECT statement. See Selecting columns from SQL class instance methods that return tabular data.",
+        "Column",
+        "Type",
+        "Description",
+        "SERIES",
+        "VARIANT",
+        "Series value (NULL if model was trained with single time series).",
+        "RANK",
+        "INTEGER",
+        "The importance rank of a feature for a particular series.",
+        "FEATURE_NAME",
+        "VARCHAR",
+        "The name of the feature used to train the model. aggregated_endogenous_features represents all features\nderived as transformations of the target variable.",
+        "IMPORTANCE_SCORE",
+        "FLOAT",
+        "The feature\u2019s importance score: a value in [0, 1], with 0 being the lowest possible importance, and 1 the highest.",
+        "FEATURE_TYPE",
+        "VARCHAR",
+        "The source of the feature. One of:",
+        "user_provided: Feature data provided by the user.",
+        "derived_from_timestamp: Periodic feature (e.g. day, week, or month) derived from timestamp data.",
+        "derived_from_endogenous: Features derived from a transformation of the target variable.",
+        "See Examples.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

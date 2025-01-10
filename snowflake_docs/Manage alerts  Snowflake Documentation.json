@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/alert/alert-introduction",
+    "title": "Manage alerts | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "The Snowflake REST Alert API provides the following endpoints to access, update, and perform certain actions on Alert resources.",
+        "Endpoint",
+        "Description",
+        "GET /api/v2/databases/database/schemas/.schema/alerts",
+        "Lists alerts.",
+        "POST /api/v2/databases/database/schemas/.schema/alerts",
+        "Creates an alert.",
+        "GET /api/v2/databases/database/schemas/.schema/alerts/name",
+        "Fetches an alert.",
+        "DELETE /api/v2/databases/database/schemas/.schema/alerts/name",
+        "Deletes an alert.",
+        "POST /api/v2/databases/database/schemas/.schema/alerts/name:clone",
+        "Creates a new alert by cloning from the specified resource.",
+        "POST /api/v2/databases/database/schemas/.schema/alerts/name:execute",
+        "Executes an alert.",
+        "For reference documentation, see Snowflake Alert API reference.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

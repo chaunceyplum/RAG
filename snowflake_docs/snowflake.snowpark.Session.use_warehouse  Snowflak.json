@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.use_warehouse",
+    "title": "snowflake.snowpark.Session.use_warehouse | Snowflake Documentation",
+    "paragraphs": [
+        "Specifies the active/current warehouse for the session.",
+        "warehouse \u2013 the warehouse name.",
+        "Was this page helpful?"
+    ]
+}

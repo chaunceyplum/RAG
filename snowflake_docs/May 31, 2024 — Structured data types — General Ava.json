@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-05-31-structured-types-ga",
+    "title": "May 31, 2024 \u2014 Structured data types \u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "A structured type is an ARRAY, OBJECT, or MAP that contains elements or key-value pairs with specific\nSnowflake data types. Structured types are now generally available.",
+        "Note",
+        "Currently, tables other than Apache Iceberg\u2122 tables do not support structured types.\nYou cannot add a column of a structured type to a regular table.",
+        "For more information, see Structured data types.",
+        "Was this page helpful?"
+    ]
+}

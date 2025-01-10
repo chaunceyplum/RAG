@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.grant",
+    "title": "snowflake.core.grant | Snowflake Documentation",
+    "paragraphs": [
+        "Manages Snowflake Privileges.",
+        "Example",
+        "Classes",
+        "Grant(grantee,\u00a0securable[,\u00a0privileges,\u00a0...])",
+        "Represents Snowflake Grant Operation.",
+        "Grants(root)",
+        "The entry point of the Snowflake Core Python APIs to manage Snowflake Grants.",
+        "Grantee(name,\u00a0grantee_type)",
+        "Class to represent type of resource that is the privilege grantee.",
+        "Grantees()",
+        "Util Class with static methods to create various Grantee class instances.",
+        "Privileges(value[,\u00a0names,\u00a0module,\u00a0qualname,\u00a0...])",
+        "Enum for Snowflake privileges that can be granted to a role or user.",
+        "Securable(name,\u00a0securable_type[,\u00a0scope])",
+        "Class to represent an snowflake entity that is being secured by a Privileges.",
+        "Securables()",
+        "Util Class with static method to create various Securable class instances.",
+        "Was this page helpful?"
+    ]
+}

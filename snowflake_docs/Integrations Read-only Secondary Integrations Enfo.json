@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_01/bcr-906",
+    "title": "Integrations: Read-only Secondary Integrations Enforced | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "A replication or failover group can include integrations by adding the INTEGRATIONS type to its OBJECT_TYPES list and specifying the\nintegration type in the ALLOWED_INTEGRATION_TYPES list. Object types that are included in a replication or failover group are read-only\nin target accounts. For example, if the USERS type is included, users cannot be created, modified, or deleted in a target account.",
+        "This behavior is now enforced for integration types included in replication or failover groups as follows:",
+        "Integration types that were replicated from a source account to a target account in a replication or failover group could\nbe modified in the target account.",
+        "For example, if INTEGRATIONS was included in the OBJECT_TYPES list for a replication or failover group, and API INTEGRATIONS was\nincluded in the ALLOWED_INTEGRATION_TYPES list, API integrations could be created, modified, or deleted in target accounts.",
+        "Integration types that are replicated from a source account to a target account in a replication or failover group are now\nread-only in the target account.",
+        "For example, if INTEGRATIONS is included in the OBJECT_TYPES list for a replication or failover group, and API INTEGRATIONS is included\nin the ALLOWED_INTEGRATION_TYPES list, API integrations are read-only in target accounts. Consequently, API integrations cannot be\ncreated, modified, or deleted in target accounts.",
+        "Ref: 906",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1246",
+    "title": "CREATE ALERT and ALTER ALERT commands: Some validation checks no longer performed on individual statements in conditions and actions | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the current Snowflake release, when you execute a CREATE ALERT or ALTER ALERT statement,\nsome validation checks are no longer performed on the individual statements in the condition and action, including:",
+        "The resolution of the identifiers for objects.",
+        "The resolution of the data types of expressions.",
+        "The verification of the number and types of arguments in a function call.",
+        "If a SQL statement for a condition or action specifies an invalid identifier, incorrect data type, incorrect number and types of\nfunction arguments, etc., the statement will fail when the alert executes, as opposed to when you execute CREATE ALERT or ALTER\nALERT.",
+        "When you execute the CREATE ALERT or ALTER ALERT command, some validation checks are performed on the condition and action.",
+        "For example, if a statement in the condition or action specifies a non-existent table, the CREATE ALERT or ALTER ALERT command\nfails with an \u201cObject does not exist\u201d error.",
+        "When you execute the CREATE ALERT or ALTER ALERT command, these validation checks will no longer be performed on the condition\nand action.",
+        "For example, if a statement in the condition or action specifies a non-existent table, the CREATE ALERT or ALTER ALERT command\nwill succeed.",
+        "When you resume the alert, the condition or action will fail due to the reference to the non-existent table.",
+        "To check for failures in the alert, use the ALERT_HISTORY table function.",
+        "You should verify the SQL expressions and statements for the condition and action before you specify these in an alert.",
+        "Ref: 1246",
+        "Was this page helpful?"
+    ]
+}

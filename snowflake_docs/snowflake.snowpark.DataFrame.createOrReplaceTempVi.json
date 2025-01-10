@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.createOrReplaceTempView",
+    "title": "snowflake.snowpark.DataFrame.createOrReplaceTempView | Snowflake Documentation",
+    "paragraphs": [
+        "Creates a temporary view that returns the same results as this DataFrame.",
+        "You can use the view in subsequent SQL queries and statements during the\ncurrent session. The temporary view is only available in the session in which\nit is created.",
+        "For name, you can include the database and schema name (i.e. specify a\nfully-qualified name). If no database name or schema name are specified, the\nview will be created in the current database or schema.",
+        "name must be a valid Snowflake identifier.",
+        "name \u2013 The name of the view to create or replace. Can be a list of strings\nthat specifies the database name, schema name, and view name.",
+        "comment \u2013 Adds a comment for the created view. See\nCOMMENT.",
+        "statement_params \u2013 Dictionary of statement level parameters to be set while executing this action.",
+        "Was this page helpful?"
+    ]
+}

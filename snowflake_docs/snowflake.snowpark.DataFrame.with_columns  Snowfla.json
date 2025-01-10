@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.with_columns",
+    "title": "snowflake.snowpark.DataFrame.with_columns | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a DataFrame with additional columns with the specified names\ncol_names. The columns are computed by using the specified expressions\nvalues.",
+        "If columns with the same names already exist in the DataFrame, those columns\nare removed and appended at the end by new columns.",
+        "Example 1:",
+        "Example 2:",
+        "col_names \u2013 A list of the names of the columns to add or replace.",
+        "values \u2013 A list of the Column objects or table_function.TableFunctionCall object\nto add or replace.",
+        "Was this page helpful?"
+    ]
+}

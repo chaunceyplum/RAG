@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_behavior_change_bundle_status",
+    "title": "SYSTEM$BEHAVIOR_CHANGE_BUNDLE_STATUS | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Returns the status of the specified behavior change release bundle for the current account.",
+        "SYSTEM$ENABLE_BEHAVIOR_CHANGE_BUNDLE,\nSYSTEM$DISABLE_BEHAVIOR_CHANGE_BUNDLE,\nSYSTEM$SHOW_ACTIVE_BEHAVIOR_CHANGE_BUNDLES",
+        "Name of the behavior change bundle, specified as a string. To obtain the name for a bundle, see\nBehavior change log.",
+        "Returns one of the following VARCHAR values:",
+        "ENABLED (if the specified bundle is enabled for the current account)",
+        "DISABLED (if the specified bundle is disabled for the current account)",
+        "RELEASED (if the specified bundle is\ngenerally enabled for the current account and thus permanently enabled)",
+        "The following example returns the status of the 2020_08 behavior change bundle for the current account.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

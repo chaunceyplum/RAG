@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/querying-distinct-counts",
+    "title": "Computing the Number of Distinct Values | Snowflake Documentation",
+    "paragraphs": [
+        "To compute the number of rows that have distinct values, you can use one of the following approaches:",
+        "Call the SQL COUNT function with the DISTINCT keyword.",
+        "If you just need an approximate count of distinct values, you can use the HyperLogLog functions\n(e.g. APPROX_COUNT_DISTINCT). For details, see Estimating the Number of Distinct Values.",
+        "If you are counting distinct values for hierarchical aggregations (e.g. multiple grouping sets, rollups, or cubes), you can\nimprove performance by using one of the following approaches (rather than using COUNT(DISTINCT <expr>)):",
+        "Use bitmaps to identify the number of distinct values.",
+        "With this approach, you use the bitmap functions to produce bitmaps that identify the distinct integer values in a column.\nBecause a bitmap can represent at most 32,768 distinct values, this approach requires \u201cbucketizing\u201d (using multiple bitmaps)\nif the number of distinct values exceeds 32,768.",
+        "For details, see Using Bitmaps to Compute Distinct Values for Hierarchical Aggregations.",
+        "Produce arrays that contain the distinct values.",
+        "With this approach, you use the aggregate functions that produce arrays containing the unique values in a column. You can then\ncall ARRAY_SIZE to get the count of values.",
+        "This approach works for values of any data type (e.g. VARIANT) and does not require\n\u201cbucketizing\u201d, unless the size of the data in the ARRAY exceeds the maximum size of an ARRAY.",
+        "For details, see Using Arrays to Compute Distinct Values for Hierarchical Aggregations.",
+        "Next Topics:",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/decode",
+    "title": "DECODE | Snowflake Documentation",
+    "paragraphs": [
+        "Conditional expression functions",
+        "Compares the select expression to each search expression in order. As soon as\na search expression matches the selection expression, the corresponding result\nexpression is returned.",
+        "Note",
+        "DECODE in Snowflake is different from the DECODE function in PostgreSQL,\nwhich converts data into different encodings.",
+        "This is the \u201cselect expression\u201d. The \u201csearch expressions\u201d are compared to\nthis select expression, and if there is a match then DECODE\nreturns the result that corresponds to that search expression. The select\nexpression is typically a column, but can be a subquery, literal, or other\nexpression.",
+        "The search expressions indicate the values to compare to the select\nexpression. If one of these search expressions matches, the function returns\nthe corresponding result. If more than one search expression would\nmatch, only the first match\u2019s result is returned.",
+        "The results are the values that will be returned if one of the search\nexpressions matches the select expression.",
+        "If an optional default is specified, and if none of the search expressions\nmatch the select expression, then DECODE returns this default value.",
+        "Note that, contrary to CASE, a NULL value in the select expression\nmatches a NULL value in the search expressions.",
+        "The expr can include set operators, such as UNION,\nINTERSECT, EXCEPT, and MINUS.  When using set operators,\nmake sure that data types are compatible. For details, see the\nGeneral usage notes in the\nSet operators topic.",
+        "The collation specifications of the select expression and the search expressions must all be compatible.",
+        "The value returned from the function retains the collation specification of the result with the\nhighest-precedence collation.",
+        "Create a table and insert rows:",
+        "Example with a default value 'other' (note that NULL equals NULL):",
+        "Example without a default value (note that the non-matching value returns NULL):",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

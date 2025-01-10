@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-09-24-document-ai",
+    "title": "September 24, 2024 \u2014 DOCUMENT_AI_USAGE_HISTORY view \u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the general availability of the DOCUMENT_AI_USAGE_HISTORY view in the\nAccount Usage schema, giving\nyou the ability to query the usage history for Document AI.",
+        "For more information, see DOCUMENT_AI_USAGE_HISTORY view.",
+        "Was this page helpful?"
+    ]
+}

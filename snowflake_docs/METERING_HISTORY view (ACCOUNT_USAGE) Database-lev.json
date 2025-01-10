@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_08/bcr-1728",
+    "title": "METERING_HISTORY view (ACCOUNT_USAGE): Database-level output for COPY_FILES (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The METERING_HISTORY view in the Account Usage schema behaves as follows:",
+        "For the COPY_FILES service type, these columns contain the following information:",
+        "ENTITY_ID: The ID of the stage from which files are copied.",
+        "NAME: The name of the stage from which files are copied.",
+        "Additionally, the BYTES and FILES columns are aggregated at the stage level.",
+        "For the COPY_FILES service type, these columns contain the following information:",
+        "ENTITY_ID: The ID of the database from which files are copied.",
+        "NAME: The name of the database from which files are copied.",
+        "Additionally, the BYTES and FILES columns are aggregated at the database level instead of the stage level.",
+        "Ref: 1728",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-share",
+    "title": "DROP SHARE | Snowflake Documentation",
+    "paragraphs": [
+        "Provider sharing not enabled for all accounts",
+        "Provider sharing is enabled by default for most, but not all accounts.",
+        "If you encounter errors when attempting to share data with consumers, the feature may not be enabled for your account. To inquire\nabout enabling it, please contact Snowflake Support.",
+        "Removes the specified share from the system and immediately revokes access for all consumers\n(i.e. accounts who have created a database from the share).",
+        "CREATE SHARE , ALTER SHARE , SHOW SHARES , DESCRIBE SHARE",
+        "Specifies the identifier for the share to drop. If the identifier contains spaces, special characters, or mixed-case characters, the\nentire string must be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Only the share owner, the role with the OWNERSHIP privilege on the share, has the privileges to drop a share.\nExecuting this command with any other role returns an error.",
+        "Dropped shares cannot be recovered; they must be recreated.",
+        "Dropping a share does not affect the database in the share (or any of the objects in the database).",
+        "Important",
+        "Before dropping a share, consider the downstream impact of performing this operation:",
+        "Consumer accounts that have created databases from the share will no longer be able to query these databases.",
+        "Recreating a share with the same name as a previous share does not restore the databases created (by any consumers) from the share.\nEach consumer must create a new database from the new share.",
+        "A dropped share can not be restored. The share must be created again using the CREATE SHARE command and then\nconfigured using GRANT <privilege> \u2026 TO SHARE and ALTER SHARE.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

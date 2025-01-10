@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_difference",
+    "title": "ST_DIFFERENCE | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Given two input GEOGRAPHY objects, returns a GEOGRAPHY object that represents the points in the first object that are not in the\nsecond object (i.e. the difference between the two objects).",
+        "ST_INTERSECTION , ST_UNION , ST_SYMDIFFERENCE",
+        "A GEOGRAPHY object.",
+        "A GEOGRAPHY object.",
+        "The function returns a value of type GEOGRAPHY.",
+        "If all points of geography_expression_1 are in geography_expression_2 (i.e. the difference is an empty set of\npoints), the function returns NULL.",
+        "If any vertex of one input object is on the boundary of the other input object (excluding the vertices), the output might not be\naccurate.",
+        "The function is not guaranteed to produce normalized and/or minimal results. For example, an output could consist of a\nLineString containing several Points that actually forms just one straight segment.",
+        "The following example returns a GEOGRAPHY object that represents the difference between two input GEOGRAPHY objects:",
+        "This example produces the following output:",
+        "The following images illustrate the differences in the areas that represent the input and output objects:",
+        "Input",
+        "Output",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

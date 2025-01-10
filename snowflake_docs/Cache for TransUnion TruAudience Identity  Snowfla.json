@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cleanrooms/transunion-admin",
+    "title": "Cache for TransUnion TruAudience Identity | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Note",
+        "Snowflake Data Clean Rooms do not currently support data subject consent management. Customers are responsible for ensuring they have\nobtained all necessary rights and consents to use the data linked in their clean rooms. Customers must also ensure compliance with all\napplicable laws and regulations when using Data Clean Rooms, including in connection with third-party connectors.",
+        "Snowflake maintains a cache that maps TransUnion collaborator IDs to values in the source table that uniquely identify records. For example,\nthe cache might map each collaborator ID to a value in the user_id column of the source table. The cache is\nstored in the SAMOOHA_BY_SNOWFLAKE_LOCAL_DB.PUBLIC.SAMOOHA_INTERNAL_TRANSUNION_ID_GENERATION_RECORDS table.",
+        "This table contains the following columns:",
+        "Column",
+        "Data type",
+        "Description",
+        "inputid",
+        "VARCHAR",
+        "Value from the column selected as the Unique Record Column during the integration.",
+        "collaborationid",
+        "VARCHAR",
+        "TransUnion collaboration ID generated based on the input ID and other integration parameters.",
+        "lastprocessed",
+        "TIMESTAMP_NTZ",
+        "Timestamp when TransUnion generated the collaboration ID.",
+        "You can perform the following actions to work with the cache:",
+        "You can delete specific records from the cache by specifying them as a comma-separated list of single-quoted values. For example, to\ndelete the records with input IDs of 123456 and abcedf, execute:",
+        "You can delete multiple records from the cache when the input IDs are present in a column of another table. For example, if the input IDs\nto be deleted are listed in the user_id column of the my_db.my_schema.ref_table table, execute:",
+        "You can add all of the records from a batch that is present in TransUnion\u2019s view to the cache.",
+        "You can merge all of the records from a batch that is present in TransUnion\u2019s view to the cache by overwriting existing input ID records\nwith the corresponding new collaboration IDs and new last-processed timestamps.",
+        "You can add collaborator IDs for input ID records present as a column in a dataset and also present in a specific batch.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

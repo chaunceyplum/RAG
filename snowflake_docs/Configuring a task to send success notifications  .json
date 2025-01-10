@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/tasks-success-integrate",
+    "title": "Configuring a task to send success notifications | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake can push success notifications to a cloud messaging service when a task graph completes successfully. This topic provides instructions for configuring success notification support for tasks using cloud messaging.",
+        "Success notification integration is only specified on a root task of a task graph. Snowflake only sends success notifications when the entire task graph is successfully executed and will not send notifications for any successfully executed standalone task, which is different from error notification integration.",
+        "Note",
+        "The task success notification feature is supported for both serverless tasks and user-managed tasks (that is, tasks that rely on a virtual warehouse to provide the compute resources).",
+        "To enable a task to send success notifications, you must associate the task with a message notification integration. Follow the task documentation to create a notification integration with Amazon Web Services Simple Notification Service (AWS SNS), Microsoft Azure Event Grid, or Google Pub/Sub.",
+        "You can associate the task with a notification integration when running the CREATE TASK command to create a new task, or running the ALTER TASK command to modify an existing task.",
+        "Note",
+        "Creating or modifying a task that references a notification integration requires a role that has the USAGE privilege on the notification integration. In addition, the role must have either the CREATE TASK privilege on the schema or the OWNERSHIP privilege on the task, respectively.",
+        "Where:",
+        "SUCCESS_INTEGRATION = integration_name",
+        "Name of the notification integration created in one of AWS SNS, Microsoft Azure Event Grid, or Google Pub/Sub platform level notifications.",
+        "You can run SHOW TASKS or DESCRIBE TASK to see task success notifications.  Snowflake adds a new column, success_integration, to the output of SHOW TASKS and DESCRIBE TASK. This field displays null for all child tasks. This field displays the name of the graph-level success integration if the notification integration is specified on a root task, and null otherwise.",
+        "The body of success messages includes information that identifies the task graph, such as rootTaskName, rootTaskID, queryID, and attemptNumber. The following is a sample message payload for a task graph success notification.",
+        "Note that you must parse the string into a JSON object to process values in the payload.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

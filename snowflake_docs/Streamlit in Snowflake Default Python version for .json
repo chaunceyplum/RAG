@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_08/bcr-1804",
+    "title": "Streamlit in Snowflake: Default Python version for Streamlit in Snowflake apps changes from 3.8 to 3.11 (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The Streamlit in Snowflake apps behave as follows:",
+        "All Streamlit in Snowflake apps run in Python 3.8.",
+        "Streamlit in Snowflake apps support Python 3.8, 3.9, 3.10, and 3.11. You can either pin the Python version in the environment.yml file or choose the version in the Streamlit editor in Snowsight by selecting Packages.",
+        "Newly created Streamlit in Snowflake apps run in Python 3.11 by default.",
+        "Streamlit in Snowflake apps that do not have a Python version pinned in the environment.yml file, run in Python 3.11 by default.",
+        "Streamlit in Snowflake apps that have a Python version pinned to Python 3.8 in the environment.yml file, continue to run as before.",
+        "Ref: 1804",
+        "Was this page helpful?"
+    ]
+}

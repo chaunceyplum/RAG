@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/organizations-manage-accounts-rename",
+    "title": "Renaming an account | Snowflake Documentation",
+    "paragraphs": [
+        "An organization administrator (i.e. a user granted the ORGADMIN role) can rename an account.",
+        "When an account is renamed, Snowflake creates a new account URL that is used to access the account.\nDuring the renaming, the administrator can accept the default to save the original account URL so users can continue to use it, or they\ncan delete the original URL to force users to use the new URL. Saved URLs can be deleted at a later time. You cannot save the original URL for a reader account.",
+        "Organization administrators cannot rename an account while they are logged in to it, so they must log in to a different account before\nexecuting the renaming command. If your organization consists of a single account that needs to be renamed, contact Snowflake Support.",
+        "Note",
+        "Renaming an account has no effect on replication and failover.",
+        "To rename an account using Snowsight, or SQL:",
+        "Select Admin \u00bb Accounts.",
+        "Find the active account, and select \u2026 \u00bb Edit account name.",
+        "In the Account Name box, enter the new account name.",
+        "If you want to force users to access the account using the new account URL, clear the Save Current URL checkbox. Otherwise,\naccept the default to allow users to continue to use the original account URL.",
+        "Select Save.",
+        "Execute the ALTER ACCOUNT \u2026 RENAME TO command.",
+        "For example, the following command renames an account called original_acctname to new_acctname:",
+        "To force users to access the account with the new account URL, set the optional SAVE_OLD_URL parameter to FALSE when renaming the account.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

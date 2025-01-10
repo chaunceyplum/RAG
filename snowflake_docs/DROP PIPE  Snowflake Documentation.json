@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-pipe",
+    "title": "DROP PIPE | Snowflake Documentation",
+    "paragraphs": [
+        "Removes the specified pipe from the current/specified schema.",
+        "CREATE PIPE , ALTER PIPE , SHOW PIPES , DESCRIBE PIPE",
+        "Specifies the identifier for the pipe to drop. If the identifier contains spaces or special characters, the entire string must\nbe enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Dropped pipes cannot be recovered; they must be recreated.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

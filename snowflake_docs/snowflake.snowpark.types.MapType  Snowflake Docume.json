@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.types.MapType",
+    "title": "snowflake.snowpark.types.MapType | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: DataType",
+        "Map data type. This maps to the OBJECT data type in Snowflake if key and value types are not defined otherwise MAP.",
+        "Methods",
+        "fromJson(json_dict)",
+        "",
+        "from_json(json_dict)",
+        "",
+        "is_primitive()",
+        "",
+        "jsonValue()",
+        "",
+        "json_value()",
+        "",
+        "simpleString()",
+        "",
+        "simple_string()",
+        "",
+        "Attributes",
+        "keyType",
+        "",
+        "valueType",
+        "",
+        "Was this page helpful?"
+    ]
+}

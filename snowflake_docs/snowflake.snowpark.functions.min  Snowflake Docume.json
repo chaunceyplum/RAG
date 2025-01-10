@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.min",
+    "title": "snowflake.snowpark.functions.min | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the minimum value for the records in a group. NULL values are ignored\nunless all the records are NULL, in which case a NULL value is returned.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

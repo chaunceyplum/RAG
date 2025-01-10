@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/8_13",
+    "title": "April 01-03, 2024 \u2014 8.13 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "The release has completed.",
+        "For differences between the in-advance and final versions of these release notes, see Release notes change log.",
+        "With this release, we are pleased to introduce training-time evaluation metrics for Anomaly Detection, a member of the\nSnowflake Cortex ML Functions suite, similar to those supported for the\nForecasting and Classification ML Functions. The Forecasting and Anomaly Detection functions can now also calculate\nevaluation metrics on new data, so that you can easily compare forecasts to actual observations. These tools allow you\nto easily determine how well the model predicts real data. For more information, see:",
+        "Anomaly Detection: Show Evaluation Metrics",
+        "Forecasting: Show Evaluation Metrics",
+        "Previously, the PARSE_IP function would parse the following types of invalid IP addresses:",
+        "IPv4 addresses with less than 4 parts",
+        "IPv6 addresses with more than 4 hex digits in a single part",
+        "For example, the PARSE_IP function returned results for the following queries:",
+        "This issue has been fixed, and the PARSE_IP function now returns an error for these types of invalid IP addresses.",
+        "Previously, the SPLIT_PART function ignored trailing spaces when all of the following conditions were met:",
+        "All inputs were constants.",
+        "The string to split ended with the delimiter.",
+        "The partNumber value was negative.",
+        "For example, the SPLIT_PART function returned the following results:",
+        "This issue has been fixed, and the SPLIT_PART function now returns the correct results under these conditions. For example, the SPLIT_PART function now returns the following results:",
+        "With this release, we are pleased to announce the public preview of access to Git repositories from within Snowflake. After you configure Snowflake to act as a client of your Git repository, you can fetch a full clone of your remote repository to a Snowflake repository stage, which represents a local repository. You can reference these fetched files in procedure and function handler code, execute SQL and Python code in Snowflake, copy file contents into Snowflake worksheets, and more.",
+        "For more information, see Using a Git repository in Snowflake.",
+        "Announcement",
+        "Update",
+        "Date",
+        "Release notes",
+        "Initial publication (preview)",
+        "01-Apr-24",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

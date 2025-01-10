@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/getvariable",
+    "title": "GETVARIABLE | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (Session)",
+        "Returns the value associated with a SQL variable name.",
+        "Session variable functions",
+        "The name of the SQL variable.",
+        "You must specify the name in uppercase letters, even if you used lowercase letters when defining the variable.",
+        "The data type of the return value is VARCHAR.",
+        "This function uses the result cache for the current session if you call the function more than once in the same session. The result cache\napplies wherever you call this function, including the body of policy objects, such as a row access policy.",
+        "This example shows how to use this function and other ways of getting the value of the variable:",
+        "When variables are created with the SET command, the variable names are forced to all upper case. The functions\nGETVARIABLE and SESSION_CONTEXT must pass the uppercase version of the function name. The \u201c$\u201d notation\nworks with either uppercase or lowercase variable names.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

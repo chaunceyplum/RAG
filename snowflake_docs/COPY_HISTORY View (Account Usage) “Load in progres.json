@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_03/bcr-986",
+    "title": "COPY_HISTORY View (Account Usage): \u201cLoad in progress\u201d No Longer Shown in STATUS Column | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The Account Usage COPY_HISTORY view  no longer shows the Load_in_progress status:",
+        "The Load_in_progress status shown in the Account Usage COPY_HISTORY view causes confusion due to the 2-hour latency and append-only nature of the view.",
+        "For example, when you load large files using Snowpipe or COPY INTO, even after the file is loaded, the status of the file in COPY_HISTORY view may show Load_in_progress and Loaded status at the same time.",
+        "The Account Usage COPY_HISTORY view will no longer show Load_in_progress status.",
+        "Ref: 986",
+        "Was this page helpful?"
+    ]
+}

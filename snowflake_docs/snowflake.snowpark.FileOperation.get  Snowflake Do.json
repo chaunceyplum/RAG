@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.FileOperation.get",
+    "title": "snowflake.snowpark.FileOperation.get | Snowflake Documentation",
+    "paragraphs": [
+        "Downloads the specified files from a path in a stage to a local directory.",
+        "References: Snowflake GET command.",
+        "Examples",
+        "stage_location \u2013 A directory or filename on a stage, from which you want to download the files.",
+        "target_directory \u2013 The path to the local directory where the files should be downloaded.\nIf target_directory does not already exist, the method creates the directory.",
+        "parallel \u2013 Specifies the number of threads to use for downloading the files.\nThe granularity unit for downloading is one file.\nIncreasing the number of threads might improve performance when downloading large files.\nSupported values: Any integer value from 1 (no parallelism) to 99 (use 99 threads for downloading files).",
+        "pattern \u2013 Specifies a regular expression pattern for filtering files to download.\nThe command lists all files in the specified path and applies the regular expression pattern on each of the files found.\nDefault: None (all files in the specified stage are downloaded).",
+        "statement_params \u2013 Dictionary of statement level parameters to be set while executing this action.",
+        "A list of GetResult instances, each of which represents the result of a downloaded file.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/stddev_pop",
+    "title": "STDDEV_POP | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (General) , Window function syntax and usage (General)",
+        "Returns the population standard deviation (square root of variance) of non-NULL values.",
+        "See also STDDEV, which returns the sample standard deviation (square root of variance).",
+        "Aggregate function",
+        "Window function",
+        "For detailed window_frame syntax, see Window function syntax and usage.",
+        "An expression that evaluates to a numeric value. This is the expression on which the standard deviation is calculated.",
+        "This is the optional expression to partition by.",
+        "This is the optional expression to order by within each partition.",
+        "The data type of the returned value is DOUBLE.",
+        "If all records inside a group are NULL, this function returns NULL.",
+        "When passed a VARCHAR expression, this function implicitly casts the input to floating point values. If the cast\ncannot be performed, an error is returned.",
+        "When this function is called as a window function and the OVER clause contains an ORDER BY clause:",
+        "The DISTINCT keyword is prohibited and results in a SQL compilation error.",
+        "A window frame must be specified. If you do not specify a window frame, the following implied window frame is used:",
+        "RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW",
+        "For more information about window frames, including syntax, usage notes, and examples, see\nWindow function syntax and usage.",
+        "The following example calculates the standard deviation for a small population of integers:",
+        "Note that the functions STDDEV and STDDEV_SAMP do not return the same result as STDDEV_POP.",
+        "The following example assumes that you have a table named menu that lists food items for sale in a cafe.\nThe following output shows the 6 rows in the table that belong to the Dessert category. Other rows also exist\nfor other categories, such as Main and Beverage.",
+        "To find the population standard deviation for the cost of goods sold and the sale price (for the Dessert rows\nonly), run this query:",
+        "The following example uses the same menu table but runs the STDDEV_POP function as a window function.",
+        "The window function partitions rows by the item_category column. Therefore, the standard deviation is\ncalculated once for each item category, and that value is repeated in the result for each row in the group.\nIn this example, the rows must be grouped by both the item category and the cost of goods sold.\n(Note that the 6 Dessert rows are now grouped into 5 rows because two rows have the same cost of goods value.)",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

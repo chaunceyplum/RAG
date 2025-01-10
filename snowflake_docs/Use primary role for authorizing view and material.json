@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/un-bundled/bcr-1782",
+    "title": "Use primary role for authorizing view and materialized view creation (Canceled) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This BCR is canceled and removed from the 2024_08 Bundle (Disabled by Default).",
+        "When this behavior change bundle is enabled, the creation of a view or materialized view behaves as follows:",
+        "When creating a view or materialized view, the primary and all secondary roles are considered when checking the privileges of the SQL\ndefinition.",
+        "When creating a view or materialized view, only the primary role is considered when checking the privileges of the SQL definition.",
+        "Ref: 1782",
+        "Was this page helpful?"
+    ]
+}

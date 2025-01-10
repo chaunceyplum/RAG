@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.WhenNotMatchedClause",
+    "title": "snowflake.snowpark.WhenNotMatchedClause | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: object",
+        "A not-matched clause for the Table.merge() action. It matches all\nremaining rows in the target Table that do not satisfy join_expr\nbut satisfy condition, if it is provided. You can use\nfunctions.when_not_matched() to instantiate this class.",
+        "condition \u2013 An optional Column object representing the\nspecified condition.",
+        "Methods",
+        "insert(assignments)",
+        "Defines an insert action for the not-matched clause and returns an updated WhenNotMatchedClause with the new insert action added.",
+        "Was this page helpful?"
+    ]
+}

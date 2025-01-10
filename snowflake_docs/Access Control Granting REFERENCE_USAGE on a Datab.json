@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_02/bcr-944",
+    "title": "Access Control: Granting REFERENCE_USAGE on a Database to a Role No Longer Allowed | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_02 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of granting the REFERENCE_USAGE privilege has changed as follows:",
+        "The REFERENCE_USAGE privilege could be granted on the database either individually, in a series of privileges, or with all privileges\nto a role object. For example:",
+        "The output of the SHOW GRANTS command included a row for the REFERENCE_USAGE privilege for each of its grants.",
+        "The REFERENCE_USAGE privilege cannot be granted on a database to a role object. This privilege can only be granted to a share object.",
+        "If a user tries to grant the REFERENCE_USAGE privilege individually, Snowflake returns the following error message:",
+        "REFERENCE_USAGE ON DATABASE can only be granted to share(s).",
+        "If a user specifies the REFERENCE_USAGE privilege in a series of privileges or tries to grant all privileges on a database, Snowflake\nreturns the follow message:",
+        "Grant partially executed: privileges [REFERENCE_USAGE] not granted.",
+        "Snowflake allows privileges that can be granted and prevents granting the REFERENCE_USAGE privilege.",
+        "The output of the SHOW GRANTS command does not include a row for the grant of the REFERENCE_USAGE privilege on a database to a role object.",
+        "Ref: 944",
+        "Was this page helpful?"
+    ]
+}

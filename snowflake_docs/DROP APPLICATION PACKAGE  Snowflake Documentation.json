@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-application-package",
+    "title": "DROP APPLICATION PACKAGE | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "The Snowflake Native App Framework is generally available on supported cloud platforms. For additional information, see\nSupport for private connectivity, VPS, and government regions.",
+        "Removes an application package from the system in the Native Apps Framework.",
+        "ALTER APPLICATION PACKAGE, CREATE APPLICATION PACKAGE, SHOW APPLICATION PACKAGES,",
+        "Specifies the identifier for the application package to drop. If the identifier contains spaces, special characters, or mixed-case characters, the entire string must be enclosed in double quotes. Identifiers\nenclosed in double quotes are also case-sensitive.",
+        "An application package can only be dropped if it is not currently associated with a listing.",
+        "After you run this command, the application package is dropped and becomes unavailable within the\nprovider account.",
+        "Any application created from the application package remains visible to the consumer, but is otherwise inaccessible.\nAny attempt to access the application results in an error indicating the application package has been removed.",
+        "A consumer must explicitly run DROP APPLICATION to ensure that objects owned by the application\nhave been appropriately transferred to other roles or removed.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

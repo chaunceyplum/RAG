@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.window",
+    "title": "snowflake.snowpark.functions.window | Snowflake Documentation",
+    "paragraphs": [
+        "Converts a time column into a window object with start and end times. Window start times are\ninclusive while end times are exclusive. For example 9:30 is in the window [9:30, 10:00), but not [9:00, 9:30).",
+        "time_column \u2013 The column to apply the window transformation to.",
+        "window_duration \u2013 An interval string that determines the length of each window.",
+        "slide_duration \u2013 An interval string representing the amount of time in-between the start of\neach window. Note that this parameter is not supported yet. Specifying it will raise a\nNotImplementedError exception.",
+        "start_time \u2013 An interval string representing the amount of time the start of each window is\noffset. eg. a five minute window with start_time of \u20182 minutes\u2019 will be from [9:02, 9:07)\ninstead of [9:00, 9:05)",
+        "Note",
+        "Interval strings are of the form \u2018quantity unit\u2019 where quantity is an integer and unitis\nis a supported time unit. This function supports the same time units as dateadd. see\nsupported time units\nfor more information.",
+        "Example:",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

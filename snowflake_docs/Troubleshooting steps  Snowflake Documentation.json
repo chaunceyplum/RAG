@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/client-connectivity-troubleshooting/troubleshooting-steps",
+    "title": "Troubleshooting steps | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides additional steps you can take to troubleshoot connectivity issues when the common issues resolutions are not successful. If these resolutions don\u2019t work, you can try the following steps, in order, until the issue is resolved:",
+        "Use Snowflake troubleshooting tools.",
+        "Follow alternative troubleshooting steps.",
+        "Follow-up actions.",
+        "Ensure that all tests are performed directly on the system experiencing connectivity issues. For example, if the issue is occurring in the Tableau server, perform the following troubleshooting steps in that system and not on your own workstation.",
+        "Admin access might be required on systems with connectivity issues, such as a Tableau server.",
+        "Verification of client connectivity before any scheduled production release or network change is recommended to prevent unexpected downtime due to a client\u2019s inability to access one or more of the required endpoints.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

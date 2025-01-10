@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.function.FunctionCollection",
+    "title": "snowflake.core.function.FunctionCollection | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SchemaObjectCollectionParent[FunctionResource]",
+        "Represents the collection operations on the Snowflake Function resource.",
+        "With this collection, you can create, iterate through, and search for function that you have access to in the\ncurrent context.",
+        "Examples",
+        "Creating a function instance:",
+        "Attributes",
+        "Methods",
+        "Create a function in Snowflake.",
+        "function (Function) \u2013 The Function object, together with Function\u2019s properties:\nname, returns, arguments, service, endpoint, path;\nmax_batch_rows is optional",
+        "mode (CreateMode, optional) \u2013",
+        "One of the following enum values.",
+        "CreateMode.error_if_exists: Throw an snowflake.core.exceptions.ConflictError\nif the function already exists in Snowflake.  Equivalent to SQL create function <name> ....",
+        "CreateMode.or_replace: Replace if the function already exists in Snowflake. Equivalent to SQL\ncreate or replace function <name> ....",
+        "CreateMode.if_not_exists: Do nothing if the function already exists in Snowflake.\nEquivalent to SQL create function <name> if not exists...",
+        "Default is CreateMode.error_if_exists.",
+        "",
+        "Examples",
+        "Creating a function, replacing any existing function with the same name:",
+        "Iterate through Function objects from Snowflake, filtering on any optional \u2018like\u2019 pattern.",
+        "like (str, optional) \u2013 A case-insensitive string functioning as a filter, with support for SQL\nwildcard characters (% and _).",
+        "Examples",
+        "Showing all functions that you have access to see:",
+        "Showing information of the exact function you want to see:",
+        "Showing functions starting with \u2018your-function-name-\u2018:",
+        "Using a for loop to retrieve information from iterator:",
+        "Was this page helpful?"
+    ]
+}

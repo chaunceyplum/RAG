@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2025/other/2025-01-07-cortex-llm-playground",
+    "title": "January 7, 2025 \u2014 Snowflake Cortex AI LLM Playground \u2014 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake is pleased to announce the preview of the Cortex LLM Playground,\na no-code chat interface for LLM prompt experimentation.",
+        "The Cortex LLM Playground lets you perform side-by-side comparisons of text completions between any two language models\navailable in Cortex AI or different settings of a single model. You can easily connect a Snowflake table to compare\nlanguage model responses for an individual or multiple records (each in a separate row) across different prompt\nconfigurations. After you are satisfied with the output of the LLM for a given prompt, you can easily copy the generated\nSQL code to a worksheet or integrate it into your pipeline, like any other SQL statement.",
+        "Was this page helpful?"
+    ]
+}

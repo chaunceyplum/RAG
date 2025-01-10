@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-view",
+    "title": "DESCRIBE VIEW | Snowflake Documentation",
+    "paragraphs": [
+        "Describes the columns in a view (or table).",
+        "DESCRIBE can be abbreviated to DESC.",
+        "DROP VIEW , ALTER VIEW , CREATE VIEW , SHOW VIEWS",
+        "DESCRIBE TABLE",
+        "Specifies the identifier for the view to describe. If the identifier contains spaces or special characters, the entire string must be\nenclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "The command output does not include the view definition. Instead, use SHOW VIEWS.",
+        "DESC VIEW and DESCRIBE TABLE are interchangeable. Either command retrieves the details for the table or view that matches the criteria\nin the statement.",
+        "The output returns a POLICY NAME column to indicate the masking policy set on the column.",
+        "If a masking policy is not set on the column or if the Snowflake account is not Enterprise Edition or higher, Snowflake returns\nNULL.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "Example setup:",
+        "Describe the view:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

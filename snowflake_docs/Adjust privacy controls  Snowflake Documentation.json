@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/diff-privacy/differential-privacy-admin-adjust",
+    "title": "Adjust privacy controls | Snowflake Documentation",
+    "paragraphs": [
+        "Enterprise Edition Feature",
+        "This feature requires Enterprise Edition (or higher). To inquire about upgrading, please contact Snowflake Support.",
+        "This topic describes techniques the data owner can use to adjust the privacy controls that Snowflake uses to introduce noise into results.\nSnowflake recommends trying these options in the order in which they\u2019re presented in this topic.",
+        "Snowflake provides parameters to adjust both the privacy budget\u2019s limit on privacy loss and the maximum amount of privacy budget used per\naggregate (collectively known as the epsilon in differential privacy literature).",
+        "Before adjusting the privacy budget, you should consider adjusting the privacy domain set on the columns of the privacy-protected table.\nSnowflake introduces enough noise to obscure all values in a column, so the wider the range of values, the more noise that must be introduced.\nFollow these guidelines:",
+        "If you want to increase the noise, broaden the range to include values that are greater or less than the actual values. Remember, the\nprivacy domain defines all possible values, not actual values.",
+        "If you want to decrease the noise, narrow the privacy domain to exclude or clamp values outside a useful range. For information about how\nvalues outside the privacy domain are treated, see Values outside a privacy domain.",
+        "Note",
+        "The analyst can also narrow a privacy domain to decrease noise. For more information, see\nNarrowing a privacy domain to improve results",
+        "If you\u2019ve adjusted the privacy domain, but still need to fine-tune your privacy controls, you can start modifying settings that affect the\nprivacy budget. Adjusting the MAX_BUDGET_PER_AGGREGATE parameter in the body of a privacy policy controls how much of a privacy\nbudget can be spent on each aggregate in a query (that is, how much privacy loss an aggregate can incur). Adjusting this parameter changes\nthe amount of noise added to each aggregate query, as well as the number of aggregates that can be executed before the privacy budget\nlimit is reached.",
+        "The parameter sets the level for each aggregate, not each query. As an example, the query SELECT COUNT(*), AVG(a) ... has two\naggregates: COUNT(*) and AVG(a).",
+        "To adjust the maximum privacy loss incurred by each aggregate in a query, use the ALTER PRIVACY POLICY command to\nset a new value for the MAX_BUDGET_PER_AGGREGATE parameter. For example:",
+        "If adjusting other privacy controls doesn\u2019t give you the results you\u2019re looking for, you can adjust the privacy budget\u2019s limit on privacy\nloss. While the other privacy controls affect the amount of noise in query results, adjusting the budget limit affects how many queries an\nanalyst can run.",
+        "Each time an analyst runs a query with aggregate functions against a privacy-protected table, the analyst\u2019s cumulative privacy loss is\nincremented, and the estimated number of remaining aggregates is decremented. When the cumulative privacy loss reaches the privacy budget\u2019s\nlimit, the analysts cannot run another query. If you want to maximize the usefulness of your data to the analyst, you can base your budget\nlimit on how many queries you think analysts will run during each budget window.",
+        "Note",
+        "Remember that cumulative privacy loss is reset to 0 on a fixed schedule, as defined by the budget window. When the privacy budget is reset, the analyst can run a fresh set of\nqueries even if they reached the budget limit during the previous budget window.",
+        "The  ESTIMATE_REMAINING_DP_AGGREGATES function helps estimate the number of queries remaining for a privacy\nbudget. In general, this number is based on the number of aggregates in each query and the value of the MAX_BUDGET_PER_AGGREGATE\nparameter that you specified in the body of the privacy policy. For an extended example of using the ESTIMATE_REMAINING_DP_AGGREGATES\nfunction to see the effects of queries on the privacy budget, see Tracking privacy budget spending.",
+        "After you have used the ESTIMATE_REMAINING_DP_AGGREGATES function to get an idea of how much privacy budget is spent on a series of queries,\nyou can adjust the BUDGET_LIMIT parameter in the body of the privacy policy to set a new privacy budget limit. For example:",
+        "Important",
+        "Note that this command includes the MAX_BUDGET_PER_AGGREGATE parameter that was set previously. If you don\u2019t include a parameter\nin the ALTER PRIVACY POLICY statement, it resets to its default value.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

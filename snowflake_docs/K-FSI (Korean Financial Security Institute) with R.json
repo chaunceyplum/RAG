@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cert-kfsi-rseft",
+    "title": "K-FSI (Korean Financial Security Institute) with RSEFT | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes how Snowflake supports customers with KSFI with RSEFT compliance requirements.",
+        "The Korean Financial Security Institute (K-FSI) performs the CSP Safety Evaluation in order to evaluate cloud service provider compliance\nwith the Regulation on Supervision of Electronic Financial Transactions (RSEFT) regulation. They support the financial services industry in\nsecurity assessments and assist in various areas that help create a secure environment for financial institutions. Snowflake\u2019s CSP Safety\nEvaluation is scoped to SaaS service controls. If customers will store or process unique private information (UPI) or protected credit\ninformation (PCI) on Snowflake or safety/reliability of electronic financial transactions are materially impacted by using Snowflake, then\ncustomers must review the CSP Safety Evaluation results and perform an analysis of vendor risk and submit documentation to the Financial\nSupervisory Service prior to utilizing Snowflake for these types of data.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

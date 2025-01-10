@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.stage.StageEncryption",
+    "title": "snowflake.core.stage.StageEncryption | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: BaseModel",
+        "A model object representing the StageEncryption resource.",
+        "Constructs an object of type StageEncryption with the provided properties.",
+        "type (str, optional) \u2013 Specifies the encryption type used.",
+        "master_key (str, optional) \u2013 Specifies the client-side master key used to encrypt the files in the bucket. The master key must be a 128-bit or 256-bit key in Base64-encoded form.",
+        "kms_key_id (str, optional) \u2013 Optionally specifies the ID for the KMS-managed key used to encrypt files unloaded into the bucket.",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of StageEncryption from a dict.",
+        "Create an instance of StageEncryption from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

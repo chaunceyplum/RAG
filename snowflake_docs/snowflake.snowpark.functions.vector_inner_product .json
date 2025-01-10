@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.vector_inner_product",
+    "title": "snowflake.snowpark.functions.vector_inner_product | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the inner product between two vectors of equal dimension and element type.",
+        "Was this page helpful?"
+    ]
+}

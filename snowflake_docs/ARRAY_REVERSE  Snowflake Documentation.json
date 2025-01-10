@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/array_reverse",
+    "title": "ARRAY_REVERSE | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Array/Object)",
+        "Returns an array with the elements of the input array in reverse order.",
+        "The source array.",
+        "An array containing the elements of the input array in reverse order.",
+        "If the argument is NULL, the result will be NULL.",
+        "When you pass a structured array to the function, the function returns a structured\narray of the same type.",
+        "The following example returns an array containing the elements from the input array in reverse order:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

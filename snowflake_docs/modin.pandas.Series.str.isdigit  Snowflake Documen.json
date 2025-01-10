@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.str.isdigit",
+    "title": "modin.pandas.Series.str.isdigit | Snowflake Documentation",
+    "paragraphs": [
+        "Check whether all characters in each string are digits.",
+        "This is equivalent to running the Python string method str.isdigit() for each element of the Series. If a string has zero characters, False is returned for that check.",
+        "Series of boolean values with the same length as the original Series.",
+        "Examples",
+        "The s.str.isdigit method checks for characters used to form numbers in base 10.\nCurrently, special digits like superscripted and subscripted digits in unicode are\nnot checked for.\n>>> s.str.isdigit()\n0     True\n1    False\n2    False\n3    False\ndtype: bool",
+        "Was this page helpful?"
+    ]
+}

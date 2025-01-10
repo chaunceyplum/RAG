@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.network_policy.NetworkPolicyCollection",
+    "title": "snowflake.core.network_policy.NetworkPolicyCollection | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: AccountObjectCollectionParent[NetworkPolicyResource]",
+        "Represents the collection operations on the Snowflake Network Policy resource.",
+        "With this collection, you can create, iterate through, and fetch network policies\nthat you have access to in the current context.",
+        "Examples",
+        "Creating a network policy instance with only a single ip allowed:",
+        "Attributes",
+        "Methods",
+        "Create a network policy in Snowflake.",
+        "network_policy (NetworkPolicy) \u2013 The NetworkPolicy object, together with NetworkPolicy\u2019s properties:\nname; allowed_network_rule_list, blocked_network_rule_list, allowed_ip_list,\nblocked_ip_list, comment are optional",
+        "mode (CreateMode, optional) \u2013",
+        "One of the following enum values:",
+        "CreateMode.error_if_exists: Throw an snowflake.core.exceptions.ConflictError\nif the network policy already exists in Snowflake.  Equivalent to SQL create network policy <name> ....",
+        "CreateMode.or_replace: Replace if the network policy already exists in Snowflake. Equivalent to SQL\ncreate or replace network policy <name> ....",
+        "CreateMode.if_not_exists: Do nothing if the network policy already exists in Snowflake.\nEquivalent to SQL create network policy <name> if not exists...",
+        "Default is CreateMode.error_if_exists.",
+        "",
+        "Examples",
+        "Create a Network Policy instance:",
+        "Iterate through NetworkPolicy objects from Snowflake.",
+        "Examples",
+        "Printing the names of all visible network policies:",
+        "Was this page helpful?"
+    ]
+}

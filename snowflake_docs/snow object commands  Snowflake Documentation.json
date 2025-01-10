@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/object-commands/overview",
+    "title": "snow object commands | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Snowflake CLI supports the following commands to support Snowflake objects:",
+        "snow object create",
+        "snow object describe",
+        "snow object drop",
+        "snow object list",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

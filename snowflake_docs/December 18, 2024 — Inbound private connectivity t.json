@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-12-18-spcs-aws-inbound-private-connectivity",
+    "title": "December 18, 2024 \u2014 Inbound private connectivity to Snowpark Container Services for accounts on AWS \u2014 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce a preview of support for inbound private connectivity to Snowpark Container Services for accounts on AWS.",
+        "For more information, see Inbound connectivity.",
+        "Was this page helpful?"
+    ]
+}

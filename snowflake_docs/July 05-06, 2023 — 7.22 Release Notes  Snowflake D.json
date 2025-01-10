@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2023/7_22",
+    "title": "July 05-06, 2023 \u2014 7.22 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "The following new features and updates (enhancements, fixes, etc.) have been introduced in this release. If you have any\nquestions, please contact Snowflake Support.",
+        "Important",
+        "Each release may include updates that require the web interface to be refreshed.",
+        "As a general practice, to ensure these updates do not impact your usage, we recommend refreshing the web interface after each Snowflake\nrelease has been deployed.",
+        "With this release, we are pleased to announce the preview of self-service account deletion. An organization administrator can now delete an account without contacting Snowflake Support.",
+        "An organization administrator starts the process of deleting an account by dropping it. Once dropped, the account enters a grace period\nduring which the account can be restored (\u201cundropped\u201d). Snowflake automatically deletes the account when the grace period expires.",
+        "To support the process for deleting an account, this release also introduces the preview of a new syntax for the SHOW ORGANIZATION ACCOUNTS command. When the HISTORY keyword is appended to the command, the output contains dropped accounts along with additional columns such as\nscheduled deletion time.",
+        "For more information, see Dropping an account.",
+        "With this release, we are pleased to announce the REPLICATION_GROUP_USAGE_HISTORY view in the Organization Usage schema. The\nREPLICATION_GROUP_USAGE_HISTORY view allows an organization administrator to obtain details about the replication usage in an organization.",
+        "For more information, see REPLICATION_GROUP_USAGE_HISTORY view.",
+        "The following function(s) are now available with this release:",
+        "Function Category",
+        "New Function",
+        "Description",
+        "Context Functions (Session)",
+        "CURRENT_ORGANIZATION_NAME",
+        "Returns the name of the organization to which the current account belongs.",
+        "The GROUP BY clause now supports the ALL keyword, which specifies that all expressions in the SELECT list that do\nnot use aggregate functions should be used for grouping.",
+        "For example, the following two statements yield the same result:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

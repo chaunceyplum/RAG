@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/alter-session",
+    "title": "ALTER SESSION | Snowflake Documentation",
+    "paragraphs": [
+        "Sets parameters that change the behavior for the current session.",
+        "SHOW PARAMETERS",
+        "Where:",
+        "Note",
+        "For readability, the complete list of session parameters that can be set is not included here. For a complete list of all session parameters,\nwith their descriptions, as well as account and object parameters, see Parameters.",
+        "Specifies one (or more) parameters to set for the session (separated by blank spaces, commas, or new lines).",
+        "For descriptions of each of the parameters you can set for a session, see Parameters.",
+        "Specifies one (or more) parameters to unset for the session, which resets them to the defaults.",
+        "You can reset multiple parameters with a single ALTER statement; however, each property must be separated by a comma. When resetting\na property, specify only the name; specifying a value for the property will return an error.",
+        "Parameters are typed. The supported types are BOOLEAN, NUMBER, and STRING.",
+        "To see the current parameter values for the session, use SHOW PARAMETERS.",
+        "Set the lock timeout for statements executed in the session to 1 hour (3600 seconds):",
+        "Set the lock timeout for statements executed in the session back to the default:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

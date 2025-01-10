@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1253",
+    "title": "PUT command on GCP: OVERWRITE parameter must be set to TRUE to overwrite files | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the current Snowflake release, you must set the OVERWRITE parameter equal to TRUE for all PUT commands in order to overwrite files when your Snowflake account is hosted on Google Cloud Platform.",
+        "For Snowflake accounts that are hosted on Google Cloud Platform, PUT statements do not recognize when the OVERWRITE parameter is set to TRUE. A PUT operation always overwrites any existing files in the target stage with the local files you are uploading. This behavior for GCP is different from Azure and AWS.",
+        "For Snowflake accounts that are hosted on Google Cloud Platform, PUT statements will overwrite files only if the OVERWRITE parameter is explicitly set to TRUE. This behavior will be the same across all three platforms: GCP, Azure, and AWS.",
+        "We recommend that you review any code or scripts that use the PUT command. If the intention is to overwrite the file in the target stage, you must change the code or script to set the OVERWRITE parameter to TRUE. If this parameter is not set for the PUT command, and there is an existing file with the same name, the default value of OVERWRITE=FALSE will be used. In this case, the PUT command will complete without error, but will not overwrite the existing file.",
+        "If you are a Google Cloud Platform customer, you must update all clients to a new set of minimum versions by November 1, 2023 to avoid disruptions to your client connectivity. For more information, read this help article.",
+        "Ref: 1253",
+        "Was this page helpful?"
+    ]
+}

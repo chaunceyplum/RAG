@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1233",
+    "title": "Query History: Queries for alert conditions and actions included in history | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the current Snowflake release, the queries for Snowflake alert conditions and actions are included in the\nquery history. This affects the following interfaces:",
+        "The QUERY_HISTORY and\nQUERY_ACCELERATION_ELIGIBLE views in the ACCOUNT_USAGE schema.",
+        "The QUERY_HISTORY and QUERY_HISTORY_BY_* functions in the INFORMATION_SCHEMA\nschema.",
+        "The Query History page in Snowsight.",
+        "The History page in the Classic Console.",
+        "The queries for the conditions and actions in Snowflake alerts do not appear in the query history.",
+        "The queries for the conditions and actions in Snowflake alerts will appear in the query history.",
+        "In the query history, the name of the user who executed the query will be SYSTEM. (The alerts are run by the system service.)",
+        "Ref: 1233",
+        "Was this page helpful?"
+    ]
+}

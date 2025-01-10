@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.select_dtypes",
+    "title": "modin.pandas.DataFrame.select_dtypes | Snowflake Documentation",
+    "paragraphs": [
+        "Return a subset of the DataFrame\u2019s columns based on the column dtypes.\nAt least one of the parameters must be specified, and the include/exclude lists must not overlap.",
+        "include (Optional[ListLike | type], default None) \u2013 A list of dtypes to include in the result.",
+        "exclude (Optional[ListLike | type], default None) \u2013 A list of dtypes to exclude from the result.",
+        "The subset of the frame including the dtypes in include and excluding the dtypes in\nexclude. If a column\u2019s dtype is a subtype of a type in both include and exclude (such\nas if include=[np.number] and exclude=[int]), then the column will be excluded.",
+        "DataFrame",
+        "Examples",
+        "Including all number columns:",
+        "Including only bool columns:",
+        "Excluding int columns:",
+        "Was this page helpful?"
+    ]
+}

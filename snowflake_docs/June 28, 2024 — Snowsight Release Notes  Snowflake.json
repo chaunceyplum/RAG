@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/ui/2024-06-28",
+    "title": "June 28, 2024 \u2014 Snowsight Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "This document provides an overview of the new features, enhancements, and other important changes introduced in this update to\nSnowsight.",
+        "If you have additional questions, please feel free to contact Snowflake Support.",
+        "With this release, we are pleased to announce the general availability of multi-factor authentication (MFA) configuration reminders in\nSnowsight.",
+        "Snowflake takes security seriously, and with that in mind we strongly recommend users enable multi-factor authentication.\nWith the recent release of Snowsight we have enabled a reminder to assist users in enabling MFA.",
+        "If you have a password set and you sign in to Snowsight and you have not yet enabled MFA, a reminder dialog will be presented\nwith a link to enable MFA. You can enable MFA or dismiss the reminder.",
+        "Users who dismiss the reminder will be reminded again in several days\u2019 time.",
+        "For more information, see Enroll in multi-factor authentication (MFA).",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

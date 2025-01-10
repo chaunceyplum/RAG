@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.types.PandasDataFrame",
+    "title": "snowflake.snowpark.types.PandasDataFrame | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: DataFrame, Generic[_TT]",
+        "The type hint for annotating pandas DataFrame data when registering UDFs.\nThe input should be a list of data types for all columns in order.\nIt cannot be used to annotate the return value of a pandas UDF.",
+        "Methods",
+        "Attributes",
+        "Was this page helpful?"
+    ]
+}

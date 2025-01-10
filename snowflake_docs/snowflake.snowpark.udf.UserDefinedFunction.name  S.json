@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.udf.UserDefinedFunction.name",
+    "title": "snowflake.snowpark.udf.UserDefinedFunction.name | Snowflake Documentation",
+    "paragraphs": [
+        "The UDF name.",
+        "Was this page helpful?"
+    ]
+}

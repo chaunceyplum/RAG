@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_03/bcr-1008",
+    "title": "UDFs: Functions with Handler Code That Reads Files from a Stage Execute in the Owner\u2019s Context | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "UDFs whose handler code reads files from a stage will execute in the owner\u2019s context.\nA caller must pass the file location as a scoped URL, whether the handler code is in a UDF or procedure and regardless of whether\nthey are running with caller\u2019s or owner\u2019s rights:",
+        "When Java code in a UDF handler reads a file from a stage, it does so using the caller\u2019s context.",
+        "A caller may pass the file\u2019s location to the function using a form such as select my_function('@stage-name/filename.txt').",
+        "Handler code receives the stage URL and reads the file with SnowflakeFile.newInstance and SnowflakeFile.getInputStream or\nreceives the file as a java.io.InputStream:",
+        "Files read by handler code may be on an external stage or on a user or named internal stage.",
+        "When Java code in a UDF handler reads a file from a stage, it will do so using the owner\u2019s context.",
+        "For both UDFs and procedures, a caller must pass the file\u2019s location in a scoped URL by using the BUILD_SCOPED_FILE_URL function, as in the following function example:",
+        "select my_func(build_scoped_file_url(@my_stage, 'filename.txt'));",
+        "Handler code receives the scoped URL and reads the file as before.",
+        "For files whose locations are specified within handler code (not as scoped URLs passed in by a caller), you can read the staged file in one of two ways: handler code can call the newInstance method with a boolean value for a new requireScopedUrl parameter; or handler code must use a scoped URL when creating an InputStream from the file path.",
+        "The following example uses SnowflakeFile.newInstance:",
+        "In addition, user stages are no longer supported as locations for files read by a handler. Files read by handler code must be on an\nexternal stage or on a named internal stage.",
+        "Ref: 1008",
+        "Was this page helpful?"
+    ]
+}

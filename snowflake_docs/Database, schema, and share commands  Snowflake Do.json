@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/commands-database",
+    "title": "Database, schema, and share commands | Snowflake Documentation",
+    "paragraphs": [
+        "Database, schema, and share commands enable you to manage your databases, schemas, and shares.",
+        "CREATE DATABASE",
+        "ALTER DATABASE",
+        "DESCRIBE DATABASE",
+        "DROP DATABASE",
+        "UNDROP DATABASE",
+        "USE DATABASE",
+        "SHOW DATABASES",
+        "CREATE SCHEMA",
+        "ALTER SCHEMA",
+        "DESCRIBE SCHEMA",
+        "DROP SCHEMA",
+        "UNDROP SCHEMA",
+        "USE SCHEMA",
+        "SHOW SCHEMAS",
+        "CREATE SHARE",
+        "ALTER SHARE",
+        "DESCRIBE SHARE",
+        "DROP SHARE",
+        "SHOW SHARES",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

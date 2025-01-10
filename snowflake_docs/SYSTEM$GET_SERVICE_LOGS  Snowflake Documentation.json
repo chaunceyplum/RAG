@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_get_service_logs",
+    "title": "SYSTEM$GET_SERVICE_LOGS | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Feature \u2014 Generally Available",
+        "Available to accounts in AWS and Microsoft Azure commercial regions, with some exceptions. For more information, see Available regions.",
+        "Retrieves local logs from a\nSnowpark Container Services service container.",
+        "Accessing container logs",
+        "Required:",
+        "Service name.",
+        "ID of the service instance, starting with 0.",
+        "Container name as specified in the service specification file.",
+        "Optional:",
+        "Number of trailing log lines to retrieve.",
+        "Default: Up to 100 KB of the most recent log lines.",
+        "If TRUE, the function retrieves logs from a previously terminated container. You can specify this parameter only if the container has been restarted at least once.",
+        "Default: false (retrieve logs from the currently running container).",
+        "Returns a string consisting of newline-separated log entries from the specified service container.",
+        "The current role must have the MONITOR privilege on the service to access the container logs.",
+        "The function returns a container log as a string. You can use the SPLIT_TO_TABLE function to\nconvert the string into a table containing one row for each newline-separated entry.",
+        "The following statement retrieves the last 10 log lines from the instance 0 of the \u201cecho_service\u201d service that is running in\nthe \u201cecho\u201d container:",
+        "You can also follow Tutorial 1: Create a Snowpark Container Services Service to start a service and execute the\npreceding command to get the service log from a container.",
+        "The function returns a string consisting of newline-separated log entries. You can convert this string into a table using the\nSPLIT_TO_TABLE function and the TABLE() keyword (see Table functions).",
+        "You can further apply a filter to retrieve only specific log entries. The WHERE clause in the following SELECT statement uses the\nCONTAINS function to retrieve only the log lines containing a specific date string:",
+        "The following sample output shows three log entry rows retrieved:",
+        "The following statement retrieves the last 10 log lines from the previously terminated instance of the \u201cecho_service\u201d service that is running in the \u201cecho\u201d container. Here we assume the container restarted at least once:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

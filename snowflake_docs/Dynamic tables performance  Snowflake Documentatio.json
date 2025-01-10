@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/dynamic-table-performance-guide",
+    "title": "Dynamic tables performance | Snowflake Documentation",
+    "paragraphs": [
+        "Dynamic tables are intentionally designed to be simple: easy to create, use, and manage. They simplify\ndata engineering by minimizing configuration complexity, and Snowflake continuously enhances their\nperformance characteristics to benefit users without requiring additional effort.",
+        "Performance engineering involves understanding the system, experimenting with ideas, and iterating based\non what works. The following topics outline steps to optimize your dynamic tables\u2019 performance, which can\nhelp save costs, reduce data lag, and improve response times. These topics also provide guidance on\nmaximizing the use of incremental refresh performance on dynamic tables.",
+        "Best practices for optimizing performance",
+        "Dynamic table query performance",
+        "Dynamic table refresh performance",
+        "How warehouse configurations affect dynamic table performance",
+        "Before you begin, ensure that you have a clear understanding of your requirements for cost, data lag, and\nresponse times.",
+        "Note",
+        "When queried, dynamic tables perform similarly to regular Snowflake tables. For more information, see\nOptimizing performance in Snowflake.",
+        "Was this page helpful?"
+    ]
+}

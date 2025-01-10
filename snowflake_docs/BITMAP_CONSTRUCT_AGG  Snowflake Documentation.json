@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/bitmap_construct_agg",
+    "title": "BITMAP_CONSTRUCT_AGG | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (Counting Distinct Values)",
+        "Returns a bitmap with bits set for each distinct value in a group.",
+        "Using Bitmaps to Compute Distinct Values for Hierarchical Aggregations",
+        "The relative position of a bit for a value (returned by the BITMAP_BIT_POSITION function).",
+        "The function returns a BINARY value that is a bitmap with bits set for each distinct value in a group.",
+        "See Using Bitmaps to Compute Distinct Values for Hierarchical Aggregations.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

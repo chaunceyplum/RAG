@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_04/bcr-1609",
+    "title": "DESC FUNCTION command: New column IS_AGGREGATE in output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, the output of the DESC FUNCTION command includes\nthe following new column(s) when the function has a Python handler:",
+        "Column name",
+        "Data type",
+        "Description",
+        "IS_AGGREGATE",
+        "Boolean",
+        "TRUE if the function is a user-defined aggregate function (UDAF); otherwise, FALSE.",
+        "Ref: 1609",
+        "Was this page helpful?"
+    ]
+}

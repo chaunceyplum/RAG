@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql-ddl-summary",
+    "title": "Data Definition Language (DDL) commands | Snowflake Documentation",
+    "paragraphs": [
+        "DDL commands are used to create, manipulate, and modify objects in Snowflake, such as users, virtual warehouses, databases, schemas,\ntables, views, columns, functions, and stored procedures.",
+        "They are also used to perform many account-level and session operations, such as setting parameters, initializing variables, and\ninitiating transactions.",
+        "The following commands serve as the base for all DDL commands:",
+        "ALTER <object>",
+        "COMMENT",
+        "CREATE <object>",
+        "CREATE OR ALTER <object>",
+        "DESCRIBE <object>",
+        "DROP <object>",
+        "SHOW <objects>",
+        "USE <object>",
+        "Each command takes an object type and identifier, as well as additional parameters and options. The descriptions for the\nindividual commands provide the syntax and full list of parameters that can be specified for each\ncommand. The descriptions also provide detailed usage notes and examples.",
+        "The commands are grouped into the following categories:",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

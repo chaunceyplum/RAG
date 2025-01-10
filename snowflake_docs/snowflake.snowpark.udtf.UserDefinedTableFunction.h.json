@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.udtf.UserDefinedTableFunction.handler",
+    "title": "snowflake.snowpark.udtf.UserDefinedTableFunction.handler | Snowflake Documentation",
+    "paragraphs": [
+        "The Python class or a tuple containing the Python file path and the function name.",
+        "Was this page helpful?"
+    ]
+}

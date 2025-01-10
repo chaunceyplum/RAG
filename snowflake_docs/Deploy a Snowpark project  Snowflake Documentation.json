@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/snowpark/deploy",
+    "title": "Deploy a Snowpark project | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "The snow snowpark deploy command uploads local files to the specified stage and creates procedure and function objects defined in the project. Deploying the project alters all objects defined in it. By default, if any of the objects exist already the commands fails unless you provide the --replace option. All deployed objects use the same artifact, which is uploaded only once.",
+        "When you run snow snowpark deploy, the command does the following:",
+        "Snowflake CLI checks whether any of the defined objects (functions or procedures) already exists.",
+        "If any exist and the --replace flag is not provided, the command exits. The reasoning behind this approach is to be \u201cproduction-safe\u201d by avoiding unintentional changes to existing objects.",
+        "If all objects don\u2019t exist or --replace is provided, the command:",
+        "Uploads the new zip artifact.",
+        "Updates definition of every procedure.",
+        "Updates definition of every function.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

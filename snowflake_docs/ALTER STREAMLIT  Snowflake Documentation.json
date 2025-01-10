@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/alter-streamlit",
+    "title": "ALTER STREAMLIT | Snowflake Documentation",
+    "paragraphs": [
+        "Modifies the properties of an existing Streamlit object.",
+        "CREATE STREAMLIT, SHOW STREAMLITS, DESCRIBE STREAMLIT, DROP STREAMLIT",
+        "Identifier for the Streamlit object. If the identifier contains spaces or special characters, the entire string must be\nenclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Specifies the property to set for the Streamlit object:",
+        "Specifies the root stage name and prefix containing the Streamlit Python files, media files and environment.yml\nfile.",
+        "Note",
+        "This parameter must point to a single directory inside a named internal stage.",
+        "Specifies the filename of the Streamlit Python application. This filename is relative to the value of\nROOT_LOCATION.",
+        "Specifies the warehouse where SQL queries issued by the Streamlit application are run.",
+        "Adds a comment or overwrites an existing comment for the Streamlit object.",
+        "Adds a title for the Streamlit app to display in Snowsight.",
+        "The location (stage), path, and name of the file(s) to import.",
+        "The names of external access integrations needed in order for the\nStreamlit app code to access external networks.",
+        "Specifies the new identifier for the Streamlit object; must be unique for the schema.",
+        "For more details about identifiers, see Identifier requirements.",
+        "If you run the ALTER STREAMLIT command while the Streamlit app is running, the app does not reflect the changes\nthat you made.",
+        "If you want your changes reflected in the app, you must reload or reboot the app.",
+        "Regarding metadata:",
+        "Attention",
+        "Customers should ensure that no personal data (other than for a User object), sensitive data, export-controlled data, or other regulated data is entered as metadata when using the Snowflake service. For more information, see Metadata fields in Snowflake.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

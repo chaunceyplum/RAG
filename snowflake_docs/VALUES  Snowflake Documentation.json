@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/constructs/values",
+    "title": "VALUES | Snowflake Documentation",
+    "paragraphs": [
+        "Query syntax",
+        "In the SELECT statement, the VALUES sub-clause of the FROM clause allows the\nspecification of a set of constants to be used to form a finite set of rows.",
+        "(For information about the VALUES clause in the INSERT statement, see\nthe documentation of the INSERT statement.)",
+        "Each expression must be a constant, or an expression that can be evaluated as a constant during compilation of the\nSQL statement.",
+        "Most simple arithmetic expressions and string functions can be evaluated at compile time, but most other expressions\ncannot.",
+        "An optional alias can be used to give the set of rows a name, as though the set of rows were a table.",
+        "Optional column aliases can be used to give the columns names.",
+        "Inside a FROM clause, a VALUES clause cannot contain the DEFAULT keyword. This is in contrast to a VALUES clause in an INSERT statement, which supports the use\nof DEFAULT (e.g. INSERT INTO table VALUES (10, DEFAULT, 'Name') ...).",
+        "The VALUES clause is limited to 16,384 rows.",
+        "The VALUES clause is useful for generating a fixed, known set of rows:",
+        "Note that the values can be referenced either by column \u201cname\u201d (implicit) or column position.",
+        "If your query uses multiple VALUES clauses, you may use an alias to distinguish between them, for example:",
+        "You can also specify aliases for the column names:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

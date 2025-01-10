@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.types.TimestampTimeZone",
+    "title": "snowflake.snowpark.types.TimestampTimeZone | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: Enum",
+        "Snowflake Timestamp variations.",
+        "Attributes",
+        "DEFAULT",
+        "",
+        "NTZ",
+        "",
+        "LTZ",
+        "",
+        "TZ",
+        "",
+        "Was this page helpful?"
+    ]
+}

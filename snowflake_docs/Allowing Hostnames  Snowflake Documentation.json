@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/hostname-allowlist",
+    "title": "Allowing Hostnames | Snowflake Documentation",
+    "paragraphs": [
+        "All Snowflake clients (SnowSQL, JDBC driver, ODBC driver, etc.) require permanent access to cloud storage (Amazon S3, Google Cloud Storage, or Microsoft Azure), as well as other web-based hosts, to perform various runtime operations. To ensure access, particularly in a secure/private network (e.g. AWS PrivateLink-enabled network), you must allow the hostnames for the required hosts.",
+        "The hostnames that need to be allowed depend on your cloud platform (AWS, Google Cloud Platform, or Microsoft Azure) and the region where your Snowflake account is located.",
+        "Use the SYSTEM$ALLOWLIST function for general accounts or\nSYSTEM$ALLOWLIST_PRIVATELINK function for accounts using private connectivity to the Snowflake service to\nobtain the hostnames for your Snowflake account.",
+        "Use SnowCD to ensure the provided endpoints are allowed.",
+        "Was this page helpful?"
+    ]
+}

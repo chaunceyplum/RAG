@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-1085",
+    "title": "SNOWPIPE Commands: New INVALID_REASON Column in Output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The output of the following commands includes an additional column:",
+        "SHOW PIPES",
+        "DESCRIBE PIPES",
+        "Column Name",
+        "Data Type",
+        "Description",
+        "INVALID_REASON",
+        "TEXT",
+        "Displays some detailed information for your pipes that may have issues. You can use the provided information to troubleshoot your pipes more effectively. If there is no issue with the pipe, the value is NULL.",
+        "To help minimize the impact of this addition, the column was added as the last column in the output.",
+        "Ref: 1085",
+        "Was this page helpful?"
+    ]
+}

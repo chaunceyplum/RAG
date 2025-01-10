@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/bootstrap-commands/init",
+    "title": "snow init | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Creates project directory from template.",
+        "Directory to be initialized with the project. This directory must not already exist.",
+        "which template (subdirectory of \u2013template-source) should be used. If not provided, whole source will be used as the template.",
+        "local path to template directory or URL to git repository with templates. Default: https://github.com/snowflakedb/snowflake-cli-templates.",
+        "String in key=value format. Provided variables will not be prompted for.",
+        "Disable prompting. Default: False.",
+        "Specifies the output format. Default: TABLE.",
+        "Displays log entries for log levels info and higher. Default: False.",
+        "Displays log entries for log levels debug and higher; debug logs contain additional information. Default: False.",
+        "Turns off intermediate output to console. Default: False.",
+        "Displays the help text for this command.",
+        "The snow init command initializes a directory specified in the <path> parameter with a chosen template. It renders all files mentioned in the files_to_render list in the template.yml, resolving all variables enclosed in <! \u2026 !>. If a template.yml file is not present in the template\u2019s root directory, the command finishes with an error. For information about creating project templates, see Bootstrapping a project from a template.",
+        "By default, the command interactively prompts you for each parameter defined in the template.yml file. You can bypass the interactive prompts in the following ways:",
+        "Use the -D option to specify the values for each parameter contained in the project template.",
+        "Use the --no-interactive option to use default values, if defined, for each template parameter in the template.yml file.",
+        "Use a combination of the -D and --no-interactive options to define values for some parameters and use the specified default values for the template.",
+        "Note",
+        "If you do not provide a value using the -D option that does not have a corresponding default value defined, the snow init command terminates with an error.",
+        "Bootstrap a Snowpark project that prompts for the parameters specified in the example_snowpark template contained in the snowflake-cli-templates Git repository.",
+        "Bootstrap a Streamlit project by using the -D option to provide the values for some of the parameters specified in the local ../local_templates/example_streamlit template and prompt for others.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/stored-procedure/python/procedure-python-examples",
+    "title": "Python handler examples for stored procedures | Snowflake Documentation",
+    "paragraphs": [
+        "You can run concurrent tasks using Python worker processes. You might find this useful when you need to run parallel tasks that take\nadvantage of multiple CPU cores on warehouse nodes.",
+        "Note",
+        "Snowflake recommends that you not use the built-in Python multiprocessing module.",
+        "To work around cases where the Python Global Interpreter Lock prevents a\nmulti-tasking approach from scaling across all CPU cores, you can execute concurrent tasks using separate worker processes, rather than threads.",
+        "You can do this on Snowflake warehouses by using the joblib library\u2019s Parallel class, as in the following example.",
+        "Note",
+        "The default backend used for joblib.Parallel differs between Snowflake standard and Snowpark-optimized warehouses.",
+        "Standard warehouse default: threading",
+        "Snowpark-optimized warehouse default: loky (multiprocessing)",
+        "You can override the default backend setting by calling the joblib.parallel_backend function, as in the following example.",
+        "The following examples illustrate how you can use Snowpark APIs to begin asynchronous child jobs, as well as how those jobs behave under\ndifferent conditions.",
+        "In the following example, the checkStatus procedure executes an asynchronous child job that waits 60 seconds. The procedure then\nchecks on the status of the job before it can have finished, so the check returns False.",
+        "The following code calls the procedure.",
+        "In the following example, the cancelJob procedure uses SQL to insert data into the test_tb table with an asynchronous\nchild job that would take 10 seconds to finish. It then cancels the child job before it finishes and the data has been inserted.",
+        "The following code queries the test_tb table, but returns no results because no data has been inserted.",
+        "In the following example, the blockUntilDone procedure executes an asynchronous child job that takes 5 seconds to finish. Using\nthe snowflake.snowpark.AsyncJob.result method, the procedure waits and returns when the job has finished.",
+        "The following code calls the blockUntilDone procedure, which returns after waiting 5 seconds.",
+        "In the following example, the earlyReturn procedure executes an asynchronous child job that takes 60 seconds to finish. The\nprocedure then attempts to return a DataFrame from the job\u2019s result before it can have finished. The result is an error.",
+        "The following code calls the earlyReturn procedure, returning the error.",
+        "In the following example, the earlyCancelJob procedure executes an asynchronous child job to insert data into a table and takes 10\nseconds to finish. However, the parent job \u2014 async_handler \u2014 returns before the child job finishes, which cancels the child job.",
+        "The following code calls the earlyCancelJob procedure. It then queries the test_tb table, which returns no result because\nno data was inserted by the canceled child job.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

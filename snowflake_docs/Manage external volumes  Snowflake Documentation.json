@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/external-volume/external-volume-introduction",
+    "title": "Manage external volumes | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "The Snowflake REST External Volume API provides the following endpoints to access, update, and perform certain actions on External Volume resources.",
+        "Endpoint",
+        "Description",
+        "GET /api/v2/external-volumes",
+        "Lists available external volumes.",
+        "POST /api/v2/external-volumes",
+        "Creates an external volume.",
+        "GET /api/v2/external-volumes/name",
+        "Fetches an external volume.",
+        "DELETE /api/v2/external-volumes/name",
+        "Deletes an external volume.",
+        "POST /api/v2/external-volumes/name:undrop",
+        "Undrops an external volume.",
+        "For reference documentation, see Snowflake External Volume API reference.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

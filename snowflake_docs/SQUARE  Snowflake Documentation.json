@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/square",
+    "title": "SQUARE | Snowflake Documentation",
+    "paragraphs": [
+        "Numeric functions (Exponent and Root)",
+        "Returns the square of a numeric expression (i.e. a numeric expression multiplied by itself).",
+        "Always returns a floating point number, even if the input expression\nis of an integer type.",
+        "More efficient than the expression x*x, so square(x) is preferred\nwhen a floating-point result is acceptable.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

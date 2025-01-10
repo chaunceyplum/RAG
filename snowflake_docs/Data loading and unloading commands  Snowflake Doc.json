@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/commands-data-loading",
+    "title": "Data loading and unloading commands | Snowflake Documentation",
+    "paragraphs": [
+        "Data loading and unloading commands enable you to manage data loading and unloading.",
+        "CREATE STAGE",
+        "ALTER STAGE",
+        "DESCRIBE STAGE",
+        "DROP STAGE",
+        "SHOW STAGES",
+        "CREATE FILE FORMAT",
+        "ALTER FILE FORMAT",
+        "DESCRIBE FILE FORMAT",
+        "DROP FILE FORMAT",
+        "SHOW FILE FORMATS",
+        "CREATE EXTERNAL VOLUME",
+        "ALTER EXTERNAL VOLUME",
+        "DROP EXTERNAL VOLUME",
+        "UNDROP EXTERNAL VOLUME",
+        "SHOW EXTERNAL VOLUMES",
+        "DESCRIBE EXTERNAL VOLUME",
+        "CREATE PIPE",
+        "ALTER PIPE",
+        "DESCRIBE PIPE",
+        "DROP PIPE",
+        "SHOW PIPES",
+        "COPY INTO <table>",
+        "COPY INTO <location>",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_isvalid",
+    "title": "ST_ISVALID | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns TRUE if the specified GEOGRAPHY or GEOMETRY object represents a\nvalid shape.",
+        "The argument must be an expression of type GEOGRAPHY or GEOMETRY.",
+        "Returns a BOOLEAN.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

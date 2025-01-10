@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/un-bundled/bcr-account-usage-and-info-schema-changes",
+    "title": "Dynamic tables: Changes to ACCOUNT_USAGE.TABLES and INFORMATION_SCHEMA.TABLES | Snowflake Documentation",
+    "paragraphs": [
+        "The ACCOUNT_USAGE.TABLES and INFORMATION_SCHEMA.TABLES views include the following new column:",
+        "Column name",
+        "Data type",
+        "Description",
+        "is_dynamic",
+        "Text",
+        "Indicates whether the table is a dynamic table. Valid values are YES or NO.",
+        "Beginning with the 8.9 release, the following changes to ACCOUNT_USAGE.TABLES are enabled:",
+        "Dynamic tables are not included in this view. For rows that represent dynamic tables, the\nvalue for the is_insertable_into column is YES.",
+        "The ACCOUNT_USAGE.TABLES view doesn\u2019t include the is_dynamic column.",
+        "Dynamic tables are included in this view. For rows that represent dynamic tables, the values\nof the table_type and is_insertable_into columns are BASE TABLE and NO,\nrespectively.",
+        "The ACCOUNT_USAGE.TABLES view includes the is_dynamic column, defined above.",
+        "Beginning with the 8.9 release, the following changes to INFORMATION_SCHEMA.TABLES are enabled:",
+        "For rows that represent dynamic tables, the values of the table_type and is_insertable_into\ncolumns are NULL and YES, respectively.",
+        "The INFORMATION_SCHEMA.TABLES view doesn\u2019t include the is_dynamic column.",
+        "For rows that represent dynamic tables, the values of the table_type and is_insertable_into\ncolumns are BASE TABLE and NO, respectively.",
+        "The INFORMATION_SCHEMA.TABLES view includes the is_dynamic column, defined above.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

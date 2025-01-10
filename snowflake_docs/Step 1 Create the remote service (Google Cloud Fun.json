@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/external-functions-creating-gcp-ui-remote-service",
+    "title": "Step 1: Create the remote service (Google Cloud Function) in the console | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides detailed instructions for creating a Google Cloud Function for use as the remote service for your external function.",
+        "Planning an external function for GCP",
+        "Create the function by following Google\u2019s\ninstructions to create a Cloud Function.",
+        "If you are creating the function using the sample Python-language function provided by Snowflake, then choose Python Quickstart;\notherwise, choose the appropriate QuickStart based on the language you are using.",
+        "As you follow Google\u2019s instructions, make sure to do the following:",
+        "Specify that the trigger for the function is HTTP.",
+        "Copy the trigger URL to the Cloud Function Trigger URL field in your tracking worksheet.",
+        "In the Authentication section, select Require authentication.",
+        "The GCP instructions say to select Allow unauthenticated invocations. That is acceptable for sample\nfunctions, including the sample function provided by Snowflake, but most production systems should require authentication.",
+        "If Require HTTPS is not already enabled, then enable it.",
+        "Click Save.",
+        "Select an appropriate Runtime. If you are creating the sample Python function supplied by Snowflake,\nthen choose the Python 3.7 runtime.",
+        "Important",
+        "Select the Runtime value before you paste in the code.",
+        "Replace the default code with either the Snowflake sample code or your own custom code. The Snowflake sample code is provided in\nSample synchronous Google Cloud Function (in this topic).",
+        "Make sure that the Entry point matches the name of the function (in this case, echo).",
+        "After you finish creating the Google Cloud Function, use the Testing tab in the console to call the function to make sure that\nit works as expected.",
+        "For the sample Python function provided by Snowflake, use the following test data (replace any default\ndata in the Testing tab with the data below):",
+        "The execution results should be similar to:",
+        "The results might be displayed in a different format from the example shown above.",
+        "If the test succeeded, you now have a Google Cloud Function that you can use as the remote service for your external function.",
+        "This sample code combines the input parameter values into a single list (array) and returns that list as a single\nvalue of SQL type VARIANT. The code is written in Python 3.7.",
+        "This function accepts and returns data in the same format (JSON) that Snowflake sends and reads.",
+        "For more information about data formats, see Remote Service Input and Output Data Formats .",
+        "Step 2: Create the proxy service (Google Cloud API Gateway) in the console",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

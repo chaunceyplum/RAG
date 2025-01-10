@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/collate",
+    "title": "COLLATE | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions",
+        "Returns a copy of the original string, but with the specified collation_specification property instead of\nthe original collation_specification property.",
+        "This copy can be used in subsequent string comparisons, which will use the new collation_specification.",
+        "The COLLATE function can be called as a normal function:",
+        "The COLLATE function can be used as though it were an infix operator:",
+        "The string to copy.",
+        "The collation to store with the copy of the string. For more information about collation\nspecifiers, see Collation specifications.",
+        "Returns a copy of the original string, but with the specified\ncollation_specification property instead of the original\ncollation_specification.",
+        "Each VARCHAR contains a property that holds the collation specifier to use when comparing that VARCHAR to\nanother VARCHAR. The COLLATE function copies the string, but applies the new collation specification\nrather than the original specification to the copy.",
+        "The string itself is unchanged; only the collation specifier associated with the string is changed.",
+        "When COLLATE is used as an infix operator, the collation_specification must be a constant string,\nnot a general expression.",
+        "The following examples show that calling the COLLATE function returns a copy of the string with a different\ncollation specification.",
+        "Create a table and insert a row. The collation specification of the value in the inserted row is es\n(Spanish).",
+        "This example shows that the COLLATE function does not change the string. The copied string in the third column is\nlowercase, which is the same as the original string in the first column. However, the collation specification\nof the value returned by COLLATE has changed from es to es-ci.",
+        "This example shows that although the value returned by COLLATE is still a lowercase string, the ci collation\nspecifier is used when comparing that string to another string:",
+        "This example sorts the results using German collation.",
+        "The following two queries return the same result. The first uses COLLATE as a function, while the second uses\nCOLLATE as an infix operator:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

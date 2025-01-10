@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.MergeResult.rows_deleted",
+    "title": "snowflake.snowpark.MergeResult.rows_deleted | Snowflake Documentation",
+    "paragraphs": [
+        "The number of rows deleted.",
+        "Was this page helpful?"
+    ]
+}

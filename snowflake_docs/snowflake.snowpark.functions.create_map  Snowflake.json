@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.create_map",
+    "title": "snowflake.snowpark.functions.create_map | Snowflake Documentation",
+    "paragraphs": [
+        "Transforms multiple column pairs into a single map Column where each pair of\ncolumns is treated as a key-value pair in the resulting map.",
+        "*cols \u2013 A variable number of column names or Column objects that can also be\nexpressed as a list of columns.\nThe function expects an even number of arguments, where each pair of arguments represents a key-value\npair for the map.",
+        "A Column where each row contains a map created from the provided column pairs.",
+        "Example",
+        "Was this page helpful?"
+    ]
+}

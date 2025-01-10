@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.get_imports",
+    "title": "snowflake.snowpark.Session.get_imports | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a list of imports added for user defined functions (UDFs).\nThis list includes any Python or zip files that were added automatically by the library.",
+        "Was this page helpful?"
+    ]
+}

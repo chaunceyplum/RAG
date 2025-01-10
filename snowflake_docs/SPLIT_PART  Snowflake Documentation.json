@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/split_part",
+    "title": "SPLIT_PART | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (General)",
+        "Splits a given string at a specified character and returns the requested part.",
+        "To return all characters after a specified character, you can use the POSITION\nand SUBSTR functions. For an example, see\nReturning substrings for email, phone, and date strings.",
+        "Tip",
+        "You can use the search optimization service to improve the performance of queries that call this function.\nFor details, see Search Optimization Service.",
+        "SPLIT",
+        "Text to be split into parts.",
+        "Text representing the delimiter to split by.",
+        "Requested part of the split (1-based).",
+        "If the value is negative, the parts are counted backward from the end of the string.",
+        "This function returns a value of type VARCHAR.",
+        "If any argument is NULL, NULL is returned.",
+        "If the partNumber is out of range, the returned value is an empty string.",
+        "If the string starts or is terminated with the delimiter, the system\nconsiders empty space before or after the delimiter, respectively, as a\nvalid part of the split result. For an example, see the Examples section below.",
+        "If the partNumber is 0, it is treated as 1. In other words, it gets the first element of the split.\nTo avoid confusion over whether indexes are 1-based or 0-based, Snowflake recommends avoiding the use of 0\nas a synonym for 1.",
+        "If the separator is an empty string, then after the split, the returned value is the input string (the\nstring is not split).",
+        "The collation specifications of all input arguments must be compatible.",
+        "This function does not support the following collation specifications:",
+        "pi  (punctuation-insensitive).",
+        "cs-ai (case-sensitive, accent-insensitive).",
+        "This example shows the portions returned by different partNumber values.",
+        "This example returns the first and last parts of the localhost IP address 127.0.0.1:",
+        "This example returns the first and second parts of a string of characters that are separated by vertical bars. The\nseparator is the first part of the input string, so the first element after the split is an empty string.",
+        "This example shows a multi-character separator:",
+        "The following example shows that if the separator is an empty string, then after the split, there is still only one\nstring:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

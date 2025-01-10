@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/compute-pools/cp-introduction",
+    "title": "Manage compute pools | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "The Snowflake REST Compute Pool API provides the following endpoints to access, update, and perform certain actions on Compute Pool resources.",
+        "Endpoint",
+        "Description",
+        "GET /api/v2/compute-pools",
+        "Lists available compute pools.",
+        "POST /api/v2/compute-pools",
+        "Creates a compute pool.",
+        "GET /api/v2/compute-pools/name",
+        "Fetches a compute pool.",
+        "PUT /api/v2/compute-pools/name",
+        "Creates a new, or alters an existing, compute pool.",
+        "DELETE /api/v2/compute-pools/name",
+        "Deletes a compute pool.",
+        "POST /api/v2/compute-pools/name:resume",
+        "Resumes a suspended compute pool.",
+        "POST /api/v2/compute-pools/name:suspend",
+        "Suspends an active compute pool.",
+        "POST /api/v2/compute-pools/.name:stopallservices",
+        "Deprecated. Use the replacement endpoint below.",
+        "POST /api/v2/compute-pools/.name:stop-all-services",
+        "Stops all active services on the compute pool.",
+        "For reference documentation, see Snowflake Compute Pool API reference.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

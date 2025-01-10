@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Column.cast",
+    "title": "snowflake.snowpark.Column.cast | Snowflake Documentation",
+    "paragraphs": [
+        "Casts the value of the Column to the specified data type.\nIt raises an error when  the conversion can not be performed.",
+        "Was this page helpful?"
+    ]
+}

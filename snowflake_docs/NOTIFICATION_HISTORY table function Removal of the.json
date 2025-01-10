@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_07/bcr-1742",
+    "title": "NOTIFICATION_HISTORY table function: Removal of the message column from the output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_07 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the output of the NOTIFICATION_HISTORY table function, the message column is being removed.\nIt was previously announced that this column was deprecated.",
+        "If you need context around a notification (for example, which task sent the notification), you can use the information in the\nmessage_source_info column of the output.",
+        "If you have queries that rely on data from the message column, you should rewrite these queries.",
+        "Ref: 1742",
+        "Was this page helpful?"
+    ]
+}

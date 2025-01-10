@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.builtin",
+    "title": "snowflake.snowpark.functions.builtin | Snowflake Documentation",
+    "paragraphs": [
+        "Function object to invoke a Snowflake system-defined function (built-in function). Use this to invoke\nany built-in functions not explicitly listed in this object.",
+        "function_name \u2013 The name of built-in function in Snowflake.",
+        "A Callable object for calling a Snowflake system-defined function.",
+        "Was this page helpful?"
+    ]
+}

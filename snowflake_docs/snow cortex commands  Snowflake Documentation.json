@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/cortex-commands/overview",
+    "title": "snow cortex commands | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Snowflake CLI provides the following commands to access Snowflake Cortex features:",
+        "snow cortex complete",
+        "snow cortex extract-answer",
+        "snow cortex sentiment",
+        "snow cortex summarize",
+        "snow cortex translate",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

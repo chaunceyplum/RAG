@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-09-01-new-region",
+    "title": "September 01, 2024 \u2014 New Snowflake region | Snowflake Documentation",
+    "paragraphs": [
+        "We are pleased to announce the general availability of the following region, which was previously introduced as a preview\nin June 2024:",
+        "Cloud platform",
+        "Region",
+        "Cloud region ID",
+        "Notes",
+        "Amazon Web Services (AWS)",
+        "China (Ningxia)",
+        "cn-northwest-1",
+        "The China region is a separate region operated by Digital China Cloud Technology Limited (DCC), an authorized operating partner of Snowflake, Inc.",
+        "The China region supports all Snowflake Editions. To create an initial account in the region, please contact\nDCC.",
+        "For more information about the region, see Asia Pacific & China (in Supported Cloud Regions) or visit the\nSnowflake China website.",
+        "Note",
+        "Customers with existing Snowflake accounts are not able to access resources in the China region, and vice versa. Some features may\nnot be available in the China region.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

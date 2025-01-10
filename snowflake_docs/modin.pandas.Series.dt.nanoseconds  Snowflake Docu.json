@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.dt.nanoseconds",
+    "title": "modin.pandas.Series.dt.nanoseconds | Snowflake Documentation",
+    "paragraphs": [
+        "Number of nanoseconds (>= 0 and less than 1 microsecond) for each element.",
+        "Examples",
+        "For Series:",
+        "For TimedeltaIndex:",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/stages/stages-introduction",
+    "title": "Manage stages | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "The Snowflake REST Stage API provides the following endpoints to manage Snowflake stages:",
+        "Endpoint",
+        "Description",
+        "GET /api/v2/databases/database/schemas/.schema/stages",
+        "Lists stages under the database and schema, with show options as query parameters.",
+        "POST /api/v2/databases/database/schemas/.schema/stages",
+        "Creates a stage with standard create modifiers as query parameters.",
+        "GET /api/v2/databases/database/schemas/.schema/stages/name",
+        "Fetches a stage using the describe command output.",
+        "DELETE /api/v2/databases/database/schemas/.schema/stages/name",
+        "Deletes the stage with the specified name.",
+        "GET /api/v2/databases/database/schemas/.schema/stages/name/files",
+        "Lists the files in the specified stage.",
+        "GET /api/v2/databases/database/schemas/.schema/stages/name/files/filePath:presigned-url",
+        "Generates a pre-signed URL.",
+        "For reference documentation, see Snowflake Stage API reference.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-notebook",
+    "title": "DESCRIBE NOTEBOOK | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Generally available in Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP) commercial regions.",
+        "Describes the properties of a notebook.",
+        "DESCRIBE can be abbreviated to DESC.",
+        "Specifies the identifier for the notebook to describe.",
+        "If the identifier contains spaces or special characters, the entire string must be enclosed in double quotes.\nIdentifiers enclosed in double quotes are also case-sensitive.",
+        "For more information, see Identifier requirements.",
+        "The output of the command includes the following columns, which describe the properties and metadata of the object:",
+        "Column",
+        "Description",
+        "created_on",
+        "Date and time when the notebook was created.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "USAGE or OWNERSHIP",
+        "Notebook",
+        "OWNERSHIP is a special privilege on an object that is automatically granted to the role that created the object. Notebook ownerships\ncannot be transferred.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "The following example describes the notebook named mybook:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

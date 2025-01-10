@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/info-schema/applicable_roles",
+    "title": "APPLICABLE_ROLES view | Snowflake Documentation",
+    "paragraphs": [
+        "This Information Schema view displays one row for each role grant. Roles can be granted to individual users and other roles.",
+        "For more information about roles and grants, see Overview of Access Control.",
+        "ENABLED_ROLES view , OBJECT_PRIVILEGES view , TABLE_PRIVILEGES view",
+        "Column Name",
+        "Data Type",
+        "Description",
+        "GRANTEE",
+        "TEXT",
+        "Role or user to whom the privilege is granted",
+        "ROLE_NAME",
+        "TEXT",
+        "Name of the role",
+        "ROLE_OWNER",
+        "TEXT",
+        "Owner of the role",
+        "IS_GRANTABLE",
+        "TEXT",
+        "Whether this role can be granted to others",
+        "The view does not display any information about database roles.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

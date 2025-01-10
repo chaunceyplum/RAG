@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Column.substring",
+    "title": "snowflake.snowpark.Column.substring | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a substring of this string column.",
+        "start_pos \u2013 The starting position of the substring. Please note that the first character has position 1 instead of 0 in Snowflake database.",
+        "length \u2013 The length of the substring.",
+        "substring() is an alias of substr().",
+        "Was this page helpful?"
+    ]
+}

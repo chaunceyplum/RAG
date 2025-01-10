@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.types.DoubleType",
+    "title": "snowflake.snowpark.types.DoubleType | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: _FractionalType",
+        "Double data type. This maps to the DOUBLE data type in Snowflake.",
+        "Methods",
+        "Was this page helpful?"
+    ]
+}

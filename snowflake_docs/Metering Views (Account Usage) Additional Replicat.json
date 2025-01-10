@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-1121",
+    "title": "Metering Views (Account Usage): Additional Replication and Snowpipe Streaming Credit Usage Information Included in Views | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The following ACCOUNT_USAGE metering views provide additional information for service level credit usage for REPLICATION\nand SNOWPIPE STREAMING service types.",
+        "METERING_HISTORY View",
+        "METERING_DAILY_HISTORY View",
+        "For the REPLICATION service type, the METERING_HISTORY and METERING_DAILY_HISTORY views only showed credit usage for database replication.",
+        "For the SNOWPIPE STREAMING service type, the METERING_HISTORY and METERING_DAILY HISTORY views did not provide detailed usage information for\nSnowpipe Streaming clients.",
+        "For the REPLICATION service type, the METERING_HISTORY and METERING_DAILY_HISTORY views show all credit usage for replication including\ndatabase replication and replication and failover groups.",
+        "For the SNOWPIPE STREAMING service type, the METERING_HISTORY and METERING_DAILY HISTORY views show detailed usage information for both\nSnowflake table objects and for Snowpipe Streaming clients.",
+        "Ref: 1121",
+        "Was this page helpful?"
+    ]
+}

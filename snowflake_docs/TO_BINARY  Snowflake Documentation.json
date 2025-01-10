@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/to_binary",
+    "title": "TO_BINARY | Snowflake Documentation",
+    "paragraphs": [
+        "Conversion functions",
+        "Converts the input expression to a binary value. For NULL input, the output is NULL.",
+        "See also:",
+        "TRY_TO_BINARY.",
+        "Binary input and output.",
+        "The return type is BINARY.",
+        "Required:",
+        "A string expression.",
+        "Optional:",
+        "The binary format for conversion: HEX, BASE64, or UTF-8 (see Binary input and output). The default is the value of the\nBINARY_INPUT_FORMAT session parameter. If this parameter is not set, the\ndefault is HEX.",
+        "Returns a value of type BINARY.",
+        "These examples show the output when TO_BINARY is called.",
+        "This example shows how to convert a VARCHAR to BINARY and then get it\nback in its original form (VARCHAR).",
+        "Create and fill a table:",
+        "Convert the VARCHAR to BINARY:",
+        "Run a query and show the output:",
+        "This example shows how to convert a string of UTF-8 characters into\nBINARY. Note that by default SNOWSQL shows BINARY values as a string\nof hexadecimal digits, not in UTF-8 and not in the internal BINARY format.",
+        "This example is the same as the preceding example, except that this example explicitly\nconverts the output to hexadecimal digits so that it is more obvious that the\noutput is a string containing hexadecimal digits:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

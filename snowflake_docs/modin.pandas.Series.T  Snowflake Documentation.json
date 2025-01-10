@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.T",
+    "title": "modin.pandas.Series.T | Snowflake Documentation",
+    "paragraphs": [
+        "Return the transpose, which is by definition self.",
+        "Was this page helpful?"
+    ]
+}

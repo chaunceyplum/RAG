@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/repeat",
+    "title": "REPEAT | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (General)",
+        "Builds a string by repeating the input for the specified number of\ntimes.",
+        "The input string from which the output string is built.",
+        "The number of times the input string should be repeated. The minimum\nvalid number is 0 (which results in an empty string).",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

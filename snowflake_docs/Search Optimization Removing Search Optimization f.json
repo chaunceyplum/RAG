@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_03/bcr-1046",
+    "title": "Search Optimization: Removing Search Optimization from a Table Requires the ADD SEARCH OPTIMIZATION Privilege | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "According to What Access Control Privileges Are Needed For the Search Optimization Service,\nmaking changes to a table\u2019s search optimization configuration requires not only ownership of the table, but also\nthe ADD SEARCH OPTIMIZATION access control privilege on the schema that\ncontains the table.",
+        "However, currently, you can remove search optimization from a table\nyou own without having the ADD SEARCH OPTIMIZATION privilege.",
+        "Snowflake requires the ADD SEARCH OPTIMIZATION privilege to behave as documented:",
+        "The command ALTER TABLE DROP SEARCH OPTIMIZATION succeeds when used on a table you own, even if your role does not have the ADD SEARCH OPTIMIZATION privilege on the schema that contains the table.",
+        "The ALTER TABLE DROP SEARCH OPTIMIZATION command fails when used on a table you own if your role does not have the ADD SEARCH OPTIMIZATION privilege. The error message is as follows:",
+        "If you have this privilege, the command succeeds.",
+        "To grant the required privilege to a role, issue the following command:",
+        "GRANT ADD SEARCH OPTIMIZATION ON SCHEMA <schema_name> TO ROLE <role>;",
+        "Ref: 1046",
+        "Was this page helpful?"
+    ]
+}

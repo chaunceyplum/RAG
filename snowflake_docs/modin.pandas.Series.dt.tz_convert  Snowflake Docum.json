@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.dt.tz_convert",
+    "title": "modin.pandas.Series.dt.tz_convert | Snowflake Documentation",
+    "paragraphs": [
+        "Convert tz-aware Datetime Array/Index from one time zone to another.",
+        "tz (str, pytz.timezone, dateutil.tz.tzfile, datetime.tzinfo or None) \u2013 Time zone for time. Corresponding timestamps would be converted to this time zone of the Datetime Array/Index. A tz of None will convert to UTC and remove the timezone information.",
+        "Array or Index",
+        "TypeError \u2013 If Datetime Array/Index is tz-naive.",
+        "See also \u2013",
+        "DatetimeIndex.tz \u2013 A timezone that has a variable offset from UTC.",
+        "DatetimeIndex.tz_localize \u2013 Localize tz-naive DatetimeIndex to a given time zone, or remove timezone from a tz-aware DatetimeIndex.",
+        "Examples",
+        "With the tz parameter, we can change the DatetimeIndex to other time zones:",
+        "With the tz=None, we can remove the timezone (after converting to UTC if necessary):",
+        "Was this page helpful?"
+    ]
+}

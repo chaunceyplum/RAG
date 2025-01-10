@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_geometryfromwkb",
+    "title": "ST_GEOMETRYFROMWKB | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions, Conversion functions",
+        "Parses a\nWKB (well-known binary) or EWKB\n(extended well-known binary) input and returns a value of type GEOMETRY.",
+        "ST_GEOMFROMWKB , ST_GEOMETRYFROMEWKB , ST_GEOMFROMEWKB",
+        "TO_GEOMETRY",
+        "Required:",
+        "The argument must be a string or binary expression in WKB or EWKB that represents a valid geospatial object.",
+        "A string expression must be in hexadecimal format (without a leading 0x).",
+        "Optional:",
+        "The integer value of the SRID to use.",
+        "If TRUE, specifies that the function should return a GEOGRAPHY or GEOMETRY object, even when the input shape is invalid and\ncannot be repaired. For details, refer to Specifying how invalid geospatial shapes are handled.",
+        "The function returns a value of type GEOMETRY.",
+        "Issues an error if the input cannot be parsed as WKB or EWKB.",
+        "For WKB input, if the srid argument is not specified, the resulting GEOMETRY object has the SRID set to 0.",
+        "The following example returns the GEOMETRY object for a geospatial object described in EWKB format:",
+        "In the next example, the input is in WKB format, which does not specify the SRID:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/budget/methods/get_spending_limit",
+    "title": "<budget_name>!GET_SPENDING_LIMIT | Snowflake Documentation",
+    "paragraphs": [
+        "View the spending limit for a budget.",
+        "<budget_name>!SET_SPENDING_LIMIT",
+        "The number of credits set as the spending limit for the budget.",
+        "-1 if the spending limit is not set.",
+        "The following minimum privileges and roles are required to view results for custom budgets:",
+        "Any instance role for the budget instance.",
+        "USAGE privilege on the database and schema that contains the budget instance.",
+        "The following role is required to view results for the account budget:",
+        "Any application role for the account budget.",
+        "For more information, see Budgets roles and privileges.",
+        "Calling this method does not return the object. Because of this, you can\u2019t use method chaining to call another method on the\nreturn value of this method. Instead, call each method in a separate SQL statement.",
+        "View the spending limit for budget my_budget in schema budget_db.budget_schema:",
+        "View the spending limit for the account budget:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.function.FunctionResource",
+    "title": "snowflake.core.function.FunctionResource | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SchemaObjectReferenceMixin[FunctionCollection]",
+        "Represents a reference to a Snowflake function.",
+        "With this function reference, you can create and fetch information about functions, as well\nas perform certain actions on them.",
+        "Attributes",
+        "Methods",
+        "Delete this function.",
+        "if_exists (bool, optional) \u2013 Whether to error if the function doesn\u2019t exist. Default is False.",
+        "Examples",
+        "Deleting a function using its reference, erroring if it doesn\u2019t exist:",
+        "Deleting a function using its reference, if it exists:",
+        "Drop this function.",
+        "if_exists (bool, optional) \u2013 Whether to error if the function doesn\u2019t exist. Default is False.",
+        "Examples",
+        "Dropping a function using its reference, erroring if it doesn\u2019t exist:",
+        "Dropping a function using its reference, if it exists:",
+        "Execute this function.",
+        "input_args (List[Any], optional) \u2013 A list of arguments to pass to the function. The number of arguments must match the number of arguments\nthe function expects.",
+        "Examples",
+        "Executing a function using its reference:",
+        "Fetch the details of a function.",
+        "Examples",
+        "Fetching a reference to a function to print its name:",
+        "Was this page helpful?"
+    ]
+}

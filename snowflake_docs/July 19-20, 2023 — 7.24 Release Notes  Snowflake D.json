@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2023/7_24",
+    "title": "July 19-20, 2023 \u2014 7.24 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "The following new features and updates (enhancements, fixes, etc.) have been introduced in this release. If you have any\nquestions, please contact Snowflake Support.",
+        "Important",
+        "Each release may include updates that require the web interface to be refreshed.",
+        "As a general practice, to ensure these updates do not impact your usage, we recommend refreshing the web interface after each Snowflake\nrelease has been deployed.",
+        "With this release, we are pleased to announce the preview of a new ALTER ACCOUNT \u2026 SET IS_ORG_ADMIN syntax that allows an organization administrator to enable the ORGADMIN role within a specific account, without contacting Snowflake Support.",
+        "Once the ORGADMIN role is enabled for an account, organization administrators can log in to the account and use the role to perform organization-focused tasks like listing and creating accounts. Enabling the ORGADMIN role in an account also allows queries to access data\nin the ORGANIZATION_USAGE schema.",
+        "For more information, see Enabling the ORGADMIN role in an account.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

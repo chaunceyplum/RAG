@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-02-20-hybrid-tables",
+    "title": "February 20, 2024 \u2014 Hybrid Tables Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "This document provides an introduction to the new feature Hybrid Tables.",
+        "With this release, we are pleased to announce the preview of hybrid tables.\nHybrid tables is a new Snowflake table type that provides optimized\nperformance on row-oriented read and write operations in transactional and\nhybrid workloads. Hybrid tables features include the availability of indexes\nfor faster access to data, and the enforcement of primary, unique, and foreign\nkey constraints.",
+        "With this preview release, hybrid tables is available to accounts in the\nfollowing Amazon Web Services (AWS) regions:",
+        "Cloud Region",
+        "Cloud Region ID",
+        "US West (Oregon)",
+        "us-west-2",
+        "EU (Ireland)",
+        "eu-west-1",
+        "Asia Pacific (Sydney)",
+        "ap-southeast-2",
+        "Hybrid tables will be made available in additional regions in the near future.",
+        "For more information, see Hybrid tables.",
+        "Was this page helpful?"
+    ]
+}

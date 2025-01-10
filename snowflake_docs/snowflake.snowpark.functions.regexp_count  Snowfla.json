@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.regexp_count",
+    "title": "snowflake.snowpark.functions.regexp_count | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the number of times that a pattern occurs in the subject.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

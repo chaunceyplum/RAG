@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_symdifference",
+    "title": "ST_SYMDIFFERENCE | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Given two input GEOGRAPHY objects, returns a GEOGRAPHY object that represents the set of points from both input objects that are\nnot part of the intersection of the objects (i.e. the\nsymmetric difference of the two objects).",
+        "ST_INTERSECTION , ST_UNION , ST_DIFFERENCE",
+        "A GEOGRAPHY object.",
+        "A GEOGRAPHY object.",
+        "The function returns a value of type GEOGRAPHY.",
+        "If geography_expression_1 and geography_expression_2 are equal (i.e. the symmetric difference is an empty set\nof points), the function returns NULL.",
+        "If any vertex of one input object is on the boundary of the other input object (excluding the vertices), the output might not be\naccurate.",
+        "The function is not guaranteed to produce normalized and/or minimal results. For example, an output could consist of a\nLineString containing several Points that actually forms just one straight segment.",
+        "The following example returns a GEOGRAPHY object that represents the symmetric difference between two input GEOGRAPHY objects:",
+        "This example produces the following output:",
+        "The following images illustrate the differences in the areas that represent the input and output objects:",
+        "Input",
+        "Output",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

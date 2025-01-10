@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.udf",
+    "title": "snowflake.snowpark.Session.udf | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a udf.UDFRegistration object that you can use to register UDFs.\nSee details of how to use this object in udf.UDFRegistration.",
+        "Was this page helpful?"
+    ]
+}

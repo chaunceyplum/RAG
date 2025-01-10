@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2023/ui/2023-12-12",
+    "title": "December 12\u201314, 2023 \u2014 Snowsight Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "This document provides an overview of the new features, enhancements, and other important changes introduced in this update to\nSnowsight.",
+        "If you have additional questions, please feel free to contact Snowflake Support.",
+        "With this release, we are pleased to announce the preview of recovering Snowsight worksheets for users that have been dropped\nfrom Snowflake. You can recover up to 500 worksheets for each dropped user.",
+        "For more details, see Recover worksheets owned by a dropped user.",
+        "With this release, we are pleased to announce the general availability of Query History in worksheets in Snowsight.\nWhen you view Query History for a worksheet, you can review the queries run in a Snowsight worksheet, as well as the query results.",
+        "For more information, see View query history.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

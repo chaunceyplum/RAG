@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2025/9_00",
+    "title": "Preview \u2014 9.0 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "Content in this page is available in advance of the completion of the 9.0 release, which is currently either pending\nor in progress.",
+        "The release is scheduled to complete on January 09 (subject to change).",
+        "Features, updates, or behavior changes described in this page might not become\navailable in your account(s) until the completion of the release.",
+        "For updates to these release notes, see Release notes change log.",
+        "With this release, we are pleased to announce the general availability  of support for integrating Tri-Secret Secure (TSS) with AWS external\nkey stores to securely store and manage a customer-managed key (CMK) outside AWS. Snowflake currently only tests and supports Thales HSM and\nThales CCKM data encryption products.",
+        "With this release, we are pleased to announce the general availability of Pinning Private Endpoints. After configuring inbound AWS PrivateLink\nor Azure Private Link, pinning your private endpoint ensures that only an authorized private endpoint is used to send traffic from the\ncustomer network to an authorized Snowflake account. This helps you harden your security posture by reducing the network attack surface to\nyour Snowflake account.",
+        "Announcement",
+        "Update",
+        "Date",
+        "Release notes",
+        "Initial publication (preview)",
+        "07-Jan-25",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

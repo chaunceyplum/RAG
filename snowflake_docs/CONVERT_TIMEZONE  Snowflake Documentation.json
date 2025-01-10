@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/convert_timezone.html#usage-notes",
+    "title": "CONVERT_TIMEZONE | Snowflake Documentation",
+    "paragraphs": [
+        "Date & time functions",
+        "Converts a timestamp to another time zone.",
+        "String specifying the time zone for the input timestamp. Required for timestamps with no time zone (i.e. TIMESTAMP_NTZ).",
+        "String specifying the time zone to which the input timestamp is converted.",
+        "For the 3-argument version, string specifying the timestamp to convert (must be TIMESTAMP_NTZ).",
+        "For the 2-argument version, string specifying the timestamp to convert (can be any timestamp variant, including TIMESTAMP_NTZ).",
+        "Returns a value of type TIMESTAMP_NTZ, TIMESTAMP_TZ, or NULL:",
+        "For the 3-argument version, returns a value of type TIMESTAMP_NTZ.",
+        "For the 2-argument version, returns a value of type TIMESTAMP_TZ.",
+        "If any argument is NULL, returns NULL.",
+        "The display format for timestamps in the output is determined by the\ntimestamp output format for the current\nsession and the data type of the returned timestamp value.",
+        "For the 3-argument version, the \u201cwallclock\u201d time in the result represents the same moment in time as the input \u201cwallclock\u201d\nin the input time zone, but in the target time zone.",
+        "For the 2-argument version, the source_timestamp argument typically includes the time zone. If the value\nis of type TIMESTAMP_TZ, the time zone is taken from its value. Otherwise, the current session time zone is used.",
+        "For source_tz and target_tz, you can specify a time zone name or a link name from release\n2021a of the IANA Time Zone Database (for example, America/Los_Angeles, Europe/London, UTC,\nEtc/GMT, and so on).",
+        "Note",
+        "Time zone names are case-sensitive and must be enclosed in single quotes (e.g. 'UTC').",
+        "Snowflake does not support the majority of timezone abbreviations (e.g. PDT, EST, etc.) because a\ngiven abbreviation might refer to one of several different time zones. For example, CST might refer to Central\nStandard Time in North America (UTC-6), Cuba Standard Time (UTC-5), and China Standard Time (UTC+8).",
+        "To use the default timestamp output format\nfor the timestamps returned in the examples, unset the TIMESTAMP_OUTPUT_FORMAT parameter in the current session:",
+        "The following examples use the 3-argument version of the CONVERT_TIMEZONE function and specify a source_tz\nvalue. These examples return TIMESTAMP_NTZ values.",
+        "Convert a \u201cwallclock\u201d time in Los Angeles to the matching \u201cwallclock\u201d time in New York:",
+        "Convert a \u201cwallclock\u201d time in Warsaw to the matching \u201cwallclock\u201d time in UTC:",
+        "The following examples use the 2-argument version of the CONVERT_TIMEZONE function. These examples return\nTIMESTAMP_TZ values. Therefore, the returned values include an offset that shows the difference between\nthe timestamp\u2019s time zone and Coordinated Universal Time (UTC). For example, the America/Los_Angeles\ntime zone has an offset of -0700 to show that it is seven hours behind UTC.",
+        "Convert a string specifying a TIMESTAMP_TZ value to a different time zone:",
+        "Show the current \u201cwallclock\u201d time in different time zones:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

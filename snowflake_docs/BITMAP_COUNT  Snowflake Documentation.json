@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/bitmap_count",
+    "title": "BITMAP_COUNT | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (Counting Distinct Values)",
+        "Given a bitmap that represents the set of distinct values for a column, returns the number of distinct value.",
+        "Using Bitmaps to Compute Distinct Values for Hierarchical Aggregations",
+        "This expression must evaluate to a bitmap returned by the BITMAP_CONSTRUCT_AGG or BITMAP_OR_AGG functions.",
+        "The function returns the number of distinct values in a column, as represented by the bits set in the input bitmap.",
+        "See Using Bitmaps to Compute Distinct Values for Hierarchical Aggregations.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.to_timestamp",
+    "title": "snowflake.snowpark.functions.to_timestamp | Snowflake Documentation",
+    "paragraphs": [
+        "Converts an input expression into the corresponding timestamp.",
+        "Per default fmt is set to auto, which makes Snowflake detect the format automatically. With to_timestamp strings\ncan be converted to timestamps. The format has to be specified according to the rules set forth in\n<https://docs.snowflake.com/en/sql-reference/functions-conversion#date-and-time-formats-in-conversion-functions>",
+        "Another option is to convert dates into timestamps",
+        "Integers can be converted into a timestamp as well, by providing optionally a scale as an integer as lined out in\n<https://docs.snowflake.com/en/sql-reference/functions/to_timestamp#usage-notes>. Currently Snowpark does support\nintegers in the range of an 8-byte signed integer only.",
+        "Larger numbers stored in a string can be also converted via this approach",
+        "Was this page helpful?"
+    ]
+}

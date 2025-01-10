@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_log",
+    "title": "SYSTEM$LOG, SYSTEM$LOG_<level> (for Snowflake Scripting) | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Logs a message at the specified severity level.",
+        "The severity level at which to log the message. You can specify one of the following strings:",
+        "\u2018trace\u2019",
+        "\u2018debug\u2019",
+        "\u2018info\u2019",
+        "\u2018warn\u2019",
+        "\u2018error\u2019",
+        "\u2018fatal\u2019",
+        "An expression that resolves to the message to log. If the message is not a string, the function converts the message to a string.",
+        "Code in the following example uses the SYSTEM$LOG function to log messages at each of the supported levels. Note that a message logged\nfrom code that processes an input row will be logged for every row processed by the handler. If the handler is executed in a large table,\nthis can result in a large number of messages in the event table.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

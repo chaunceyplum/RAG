@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.generator",
+    "title": "snowflake.snowpark.Session.generator | Snowflake Documentation",
+    "paragraphs": [
+        "Creates a new DataFrame using the Generator table function.",
+        "References: Snowflake Generator function.",
+        "columns \u2013 List of data generation function that work in tandem with generator table function.",
+        "rowcount \u2013 Resulting table with contain rowcount rows if only this argument is specified. Defaults to 0.",
+        "timelimit \u2013 The query runs for timelimit seconds, generating as many rows as possible within the time frame. The\nexact row count depends on the system speed. Defaults to 0.",
+        "When both rowcount and timelimit are specified, then:",
+        "if the rowcount is reached before the timelimit, the resulting table with contain rowcount rows.",
+        "if the timelimit is reached before the rowcount, the table will contain as many rows generated within this time.",
+        "If both rowcount and timelimit are not specified, 0 rows will be generated.",
+        "A new DataFrame with data from calling the generator table function.",
+        "Was this page helpful?"
+    ]
+}

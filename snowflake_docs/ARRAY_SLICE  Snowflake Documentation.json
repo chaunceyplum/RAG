@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/array_slice",
+    "title": "ARRAY_SLICE | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Array/Object)",
+        "Returns an array constructed from a specified subset of elements of the input array.",
+        "The source array of which a subset of the elements are used to construct the resulting array.",
+        "A position in the source array. The position of the first element is 0. Elements from positions less than from\naren\u2019t included in the resulting array.",
+        "A position in the source array. Elements from positions equal to or greater than to are not included in\nthe resulting array.",
+        "This function returns a value of type ARRAY.",
+        "Returns NULL if the any argument is NULL, including the input array, from, or to.",
+        "The output includes elements up to, but not including the element\nspecified by the parameter to.",
+        "If either from or to is negative, it is relative to\nthe end of the array, not the beginning of the array. For example, -2 refers\nto the second-from-the-last position in the array.",
+        "If from and to are both beyond the upper end of the\narray, or are both beyond the lower end of the array, then the result is\nthe empty set.",
+        "When you pass a structured array to the function, the function returns a structured\narray of the same type.",
+        "Note that many of these rules (for example, interpretation of negative numbers as\nindexes from the end of the array, and the rule that the slice is up to, but\nnot including, the to index), are similar to the rules for array\nslices in programming languages such as Python.",
+        "Each of these rules is illustrated in at least one example below.",
+        "These examples use ARRAY constants to construct arrays. Alternatively, you can\nuse the ARRAY_CONSTRUCT function to construct arrays.",
+        "This example shows a simple array slice:",
+        "This example slices an array to the last index by using the ARRAY_SIZE function with the\nARRAY_SLICE function:",
+        "Although the indexes must be numeric, the elements of the array don\u2019t need\nto be numeric:",
+        "This example shows the effect of using NULL as the input array:",
+        "This example shows the effect of using NULL as one of the slice indexes:",
+        "This example shows the effect of using a negative number as an index. The number\nis interpreted as the offset from the end of the array:",
+        "This example shows that both indexes can be negative (that is, both can be relative to the end of\nthe array):",
+        "In this example, both indexes are beyond the end of the array:",
+        "In this example, both indexes are before the start of the array:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

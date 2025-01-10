@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_07/bcr-1294",
+    "title": "SHOW EVENT TABLES command: Add owner_role_type column | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_07 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The SHOW EVENT TABLES command behaves as follows:",
+        "The output of the SHOW EVENT TABLES command does not include an OWNER_ROLE_TYPE column.",
+        "The output of the SHOW EVENT TABLES command includes the OWNER_ROLE_TYPE column, which is defined as follows:",
+        "Column Name",
+        "Data type",
+        "Description",
+        "owner_role_type",
+        "String",
+        "The type of role that owns the object, for example ROLE. . If a Snowflake Native App owns the object, the value is APPLICATION. . Snowflake returns NULL if you delete the object because a deleted object does not have an owner role.",
+        "This column will be added as the last column in the output.",
+        "Ref: 1294",
+        "Was this page helpful?"
+    ]
+}

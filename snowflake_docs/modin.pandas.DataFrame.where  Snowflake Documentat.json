@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.where",
+    "title": "modin.pandas.DataFrame.where | Snowflake Documentation",
+    "paragraphs": [
+        "Replace values where the condition is False.",
+        "cond \u2013 bool Series/DataFrame, array-like, or callable\nWhere cond is True, keep the original value. Where False, replace with corresponding value from other.\nIf cond is callable, it is computed on the Series/DataFrame and should return boolean Series/DataFrame\nor array. The callable must not change input Series/DataFrame (though pandas doesn\u2019t check it).",
+        "other \u2013 scalar, Series/DataFrame, or callable\nEntries where cond is False are replaced with corresponding value from other. If other is callable,\nit is computed on the Series/DataFrame and should return scalar or Series/DataFrame. The callable must\nnot change input Series/DataFrame (though pandas doesn\u2019t check it). If not specified, entries will be\nfilled with the corresponding NULL value (np.nan for numpy dtypes, pd.NA for extension dtypes).",
+        "inplace \u2013 bool, default False\nWhether to perform the operation in place on the data.",
+        "axis \u2013 int, default None\nAlignment axis if needed. For Series this parameter is unused and defaults to 0.",
+        "level \u2013 int, default None\nAlignment level if needed.",
+        "Same type as caller or None if inplace=True.",
+        "Notes",
+        "The where method is an application of the if-then idiom. For each element in the calling DataFrame, if cond\nis True the element is used; otherwise the corresponding element from the DataFrame other is used. If the\naxis of other does not align with axis of cond Series/DataFrame, the misaligned index positions will be\nfilled with False.",
+        "The signature for DataFrame.where() differs from numpy.where(). Roughly df1.where(m, df2) is equivalent to\nnp.where(m, df1, df2).",
+        "For further details and examples see the where documentation in indexing.",
+        "The dtype of the object takes precedence. The fill value is cast to the object\u2019s dtype, if this can be\ndone losslessly.",
+        "Examples:",
+        "Snowpark pandas DataFrame.where behaves the same as numpy.where.",
+        "Was this page helpful?"
+    ]
+}

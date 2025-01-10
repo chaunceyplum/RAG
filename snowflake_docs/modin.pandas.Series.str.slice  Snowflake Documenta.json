@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.str.slice",
+    "title": "modin.pandas.Series.str.slice | Snowflake Documentation",
+    "paragraphs": [
+        "Slice substrings from each element in the Series or Index.",
+        "start (int, optional) \u2013 Start position for slice operation.",
+        "stop (int, optional) \u2013 Stop position for slice operation.",
+        "step (int, optional) \u2013 Step size for slice operation.",
+        "Series or Index from sliced substring from original string object.",
+        "Series or Index of object",
+        "See also",
+        "Replace a slice with a string.",
+        "Return element at position. Equivalent to Series.str.slice(start=i, stop=i+1) with i being the position.",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

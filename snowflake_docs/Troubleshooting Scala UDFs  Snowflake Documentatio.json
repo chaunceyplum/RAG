@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/udf/scala/udf-scala-troubleshooting",
+    "title": "Troubleshooting Scala UDFs | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to all accounts.",
+        "This topic provides troubleshooting information about Scala UDFs (user-defined functions).",
+        "If using a Scala UDF in a masking policy, ensure the data type of the column, UDF, and\nmasking policy match.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

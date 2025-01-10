@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.nunique",
+    "title": "modin.pandas.Series.nunique | Snowflake Documentation",
+    "paragraphs": [
+        "Return number of unique elements in the series.",
+        "Excludes NA values by default.\nSnowpark pandas API does not distinguish between different NaN types like None,\npd.NA, and np.nan, and treats them as the same.",
+        "dropna (bool, default True) \u2013 Don\u2019t include NaN in the count.",
+        "int",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

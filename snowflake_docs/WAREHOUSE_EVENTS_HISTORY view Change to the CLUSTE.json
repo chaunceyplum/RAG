@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/un-bundled/bcr-warehouse-events-history-cluster-number",
+    "title": "WAREHOUSE_EVENTS_HISTORY view: Change to the CLUSTER_NUMBER column output | Snowflake Documentation",
+    "paragraphs": [
+        "The output of the WAREHOUSE_EVENTS_HISTORY view behaves as follows:",
+        "The default value of the CLUSTER_NUMBER column is 0.",
+        "The default value of the CLUSTER_NUMBER column is 1.",
+        "Ref: n/a",
+        "Was this page helpful?"
+    ]
+}

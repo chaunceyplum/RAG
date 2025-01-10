@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.skew",
+    "title": "snowflake.snowpark.functions.skew | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the sample skewness of non-NULL records. If all records inside a group\nare NULL, the function returns NULL.",
+        "Was this page helpful?"
+    ]
+}

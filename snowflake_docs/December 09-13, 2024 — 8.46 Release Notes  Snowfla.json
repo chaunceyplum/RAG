@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/8_46",
+    "title": "December 09-13, 2024 \u2014 8.46 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "The release has completed.\nFor differences between the in-advance and final versions of these release notes, see Release notes change log.",
+        "With this release, we are pleased to announce the preview of restricted caller\u2019s rights. Previously, when an executable like a stored procedure\nran with the privileges of the caller of the executable (caller\u2019s rights), the executable could run with all of the caller\u2019s privileges.\nRestricted caller\u2019s rights allows an executable to run with caller\u2019s rights, but restricts which of the caller\u2019s privileges the executable\nruns with. Administrators use caller grants to specify which of the caller\u2019s privileges the executable can use to perform an operation.",
+        "For more information, see Restricted caller\u2019s rights.",
+        "With this release, a new version of the login screen is now available, offering improved performance and enhanced security. The updated login\nscreen retains the same behavior and appearance as before, requiring no configuration or routing updates.",
+        "For more information, see the Snowflake Knowledge Base.",
+        "The following function(s) are now generally available with this release:",
+        "Function Category",
+        "New Function",
+        "Description",
+        "Information Schema, Table Functions",
+        "AVAILABLE_LISTING_REFRESH_HISTORY",
+        "Returns the past 14 days of refresh history for a database mounted from a listing using cross-cloud auto-fulfillment.",
+        "Announcement",
+        "Update",
+        "Date",
+        "Release notes",
+        "Initial publication (preview)",
+        "06-Dec-24",
+        "AVAILABLE_LISTING_REFRESH_HISTORY",
+        "New function",
+        "13-Dec-24",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

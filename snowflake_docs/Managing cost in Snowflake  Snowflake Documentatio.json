@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cost-management-overview",
+    "title": "Managing cost in Snowflake | Snowflake Documentation",
+    "paragraphs": [
+        "Approaching Snowflake cost using the cost management framework described in this topic allows you to manage costs more effectively.\nEach part of the framework offers powerful features that help minimize total cost of ownership while maximizing the\neconomic value that Snowflake provides.",
+        "Effective Snowflake cost management is divided into three parts: visibility, control, and optimization.",
+        "Visibility includes understanding the different sources of cost and the ability to explore that cost in detail. Visibility also includes\nattributing cost to the right entities within your organization and monitoring costs as they accumulate so you can avoid unexpected costs.",
+        "Gaining visibility into your Snowflake cost begins with understanding the basic concepts of Snowflake cost, including\nthe different usage types that incur cost and the factors that determine the cost of using Snowflake resources.\nLearn More",
+        "Once you have a good understanding of how costs accumulate in Snowflake, you are ready to explore your current Snowflake costs.\nSnowsight provides pre-built dashboards that help you visualize the cost of your Snowflake usage. If you would like to gather\nmore details about your Snowflake cost, you can write custom queries against the Organization Usage and Account Usage schemas, which\ncontain views dedicated to usage and cost.  Learn More",
+        "The ability to chargeback cost to different entities within your organization clarifies who is incurring costs and for what\npurpose. This visibility can inform decisions on how to implement cost-saving measures. Learn More",
+        "When you have understood and attributed spend on Snowflake, you can implement a monitoring strategy that sends\nnotifications when compute cost is approaching a spending limit. These monitoring features can automatically suspend compute resources,\nprotecting you from overspending on compute resources. Learn More",
+        "Snowflake helps you set guardrails and control costs so you never spend more than expected. For example, by\nsetting limits on how long a query can run before it is terminated, you can avoid unexpected costs associated with runaway queries.\nLearn More",
+        "To learn how to optimize Snowflake in order to reduce costs and maximize your spend, see Optimizing cost.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

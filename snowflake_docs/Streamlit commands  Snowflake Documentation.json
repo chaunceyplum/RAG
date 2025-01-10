@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/commands-streamlit",
+    "title": "Streamlit commands | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake provides SQL commands to create and modify a STREAMLIT object.\nStreamlit in Snowflake and the Snowflake Native App Framework support these commands.",
+        "ALTER STREAMLIT",
+        "CREATE STREAMLIT",
+        "DESCRIBE STREAMLIT",
+        "DROP STREAMLIT",
+        "SHOW STREAMLITS",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

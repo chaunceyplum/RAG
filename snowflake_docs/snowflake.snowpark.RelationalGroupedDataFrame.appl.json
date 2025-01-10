@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.RelationalGroupedDataFrame.applyInPandas",
+    "title": "snowflake.snowpark.RelationalGroupedDataFrame.applyInPandas | Snowflake Documentation",
+    "paragraphs": [
+        "Maps each grouped dataframe in to a pandas.DataFrame, applies the given function on\ndata of each grouped dataframe, and returns a pandas.DataFrame. Internally, a vectorized\nUDTF with input func argument as the end_partition is registered and called. Additional\nkwargs are accepted to specify arguments to register the UDTF. Group by clause used must be\ncolumn reference, not a general expression.",
+        "Requires pandas to be installed in the execution environment and declared as a dependency by either\nspecifying the keyword argument packages=[\u201cpandas] in this call or calling add_packages() beforehand.",
+        "func \u2013 A Python native function that accepts a single input argument - a pandas.DataFrame\nobject and returns a pandas.Dataframe. It is used as input to end_partition in\na vectorized UDTF.",
+        "output_schema \u2013 A StructType instance that represents the\ntable function\u2019s output columns.",
+        "input_names \u2013 A list of strings that represents the table function\u2019s input column names. Optional,\nif unspecified, default column names will be ARG1, ARG2, etc.",
+        "kwargs \u2013 Additional arguments to register the vectorized UDTF. See\nregister() for all options.",
+        "Call apply_in_pandas using temporary UDTF:",
+        "Call apply_in_pandas using permanent UDTF with replacing original UDTF:",
+        "See also",
+        "UDTFRegistration",
+        "pandas_udtf()",
+        "Was this page helpful?"
+    ]
+}

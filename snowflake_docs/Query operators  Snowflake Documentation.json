@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/operators",
+    "title": "Query operators | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake supports most of the standard operators defined in SQL:1999.",
+        "These operators include arithmetic operators (such as + and -),\nset operators (such as UNION), subquery operators (such as ANY), etc.",
+        "Category",
+        "Operators",
+        "Arithmetic operators",
+        "+ , - , * , / , %",
+        "Comparison operators",
+        "= , != , <> , < , <= , > , >=",
+        "Logical/Boolean operators",
+        "AND , NOT , OR",
+        "Set operators",
+        "INTERSECT, MINUS, EXCEPT, UNION",
+        "Subquery operators",
+        "[NOT] EXISTS, ANY / ALL, [NOT] IN",
+        "See also Bitwise expression functions.",
+        "Was this page helpful?"
+    ]
+}

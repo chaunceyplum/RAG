@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.object_pick",
+    "title": "snowflake.snowpark.functions.object_pick | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a new OBJECT containing some of the key-value pairs from an existing object.",
+        "To identify the key-value pairs to include in the new object, pass in the keys as arguments,\nor pass in an array containing the keys.",
+        "If a specified key is not present in the input object, the key is ignored.",
+        "Was this page helpful?"
+    ]
+}

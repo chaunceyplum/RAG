@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/bit_length",
+    "title": "BIT_LENGTH | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (General)",
+        "Returns the length of a string or binary value in bits.",
+        "Snowflake doesn\u2019t use fractional bytes so length is always calculated as 8 * OCTET_LENGTH.",
+        "The string or binary value for which the length is returned.",
+        "This shows use of the BIT_LENGTH function on both string and BINARY values:",
+        "Query the data:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

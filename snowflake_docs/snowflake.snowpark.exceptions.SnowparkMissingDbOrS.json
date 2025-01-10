@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.exceptions.SnowparkMissingDbOrSchemaException",
+    "title": "snowflake.snowpark.exceptions.SnowparkMissingDbOrSchemaException | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SnowparkServerException",
+        "Exception for when a schema or database is missing in the session connection.\nThese are needed to run queries.",
+        "Includes error codes: 1400.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-share",
+    "title": "DESCRIBE SHARE | Snowflake Documentation",
+    "paragraphs": [
+        "Provider sharing not enabled for all accounts",
+        "Provider sharing is enabled by default for most, but not all accounts.",
+        "If you encounter errors when attempting to share data with consumers, the feature may not be enabled for your account. To inquire about\nenabling it, please contact Snowflake Support.",
+        "Describes the data objects that are included in a share.",
+        "DESCRIBE can be abbreviated to DESC.",
+        "DROP SHARE , ALTER SHARE , CREATE SHARE , SHOW SHARES",
+        "Providers (outbound share)",
+        "Consumers (inbound share)",
+        "Specifies the identifier for the outbound share to describe. If the identifier contains spaces or special characters, the entire string\nmust be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Specifies the fully-qualified identifier for the inbound share to describe.",
+        "Only the ACCOUNTADMIN role has the privileges to describe a share. Executing this command with any role other than ACCOUNTADMIN returns\nan error.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "The output of the command is different depending on whether you are a provider or consumer:",
+        "For providers, the names of the objects in the share are prefixed with the database name.",
+        "For consumers, the names of the objects in the share are prefixed with a database name only if a database has been created from the share.\nIf a database has not been created from the share, the objects are prefixed with <DB>.",
+        "The kind column in the output displays the type of the objects in the share.",
+        "As a provider, display the objects in the sales_s share:",
+        "As a consumer, display the objects in the sales_s share provided by account ab67890:",
+        "In this example, a database has not yet been created in the consumer\u2019s account from the sales_s share.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

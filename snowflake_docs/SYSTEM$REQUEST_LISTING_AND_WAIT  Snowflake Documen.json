@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/stored-procedures/system_request_listing_and_wait",
+    "title": "SYSTEM$REQUEST_LISTING_AND_WAIT | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Requests a listing and automatically polls for listing availability. To learn more about listings, see About sharing with listings.",
+        "The global name of the listing being requested.",
+        "The time to wait for listing request fulfillment in minutes before timing out. The default is 240 minutes or 4 hours.",
+        "Returns Success: Listing <listing_global_name> is ready to be imported when a requested listing becomes available or is already available.",
+        "Returns Error: Timed out waiting for the listing to be available after <timeout_mins> min(s) when the specified timeout period is exceeded.",
+        "To request a listing without waiting for listing fulfillment, enter 0 (zero) for the timeout_mins value. When the value is 0 and the request is successful, the message Success: Listing <listing_global_name> requested successfully, but not waiting to confirm fulfillment is returned.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

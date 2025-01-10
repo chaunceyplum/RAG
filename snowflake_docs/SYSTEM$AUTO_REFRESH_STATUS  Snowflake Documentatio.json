@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_auto_refresh_status",
+    "title": "SYSTEM$AUTO_REFRESH_STATUS | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Preview Feature \u2014 Open",
+        "Available to all accounts.",
+        "Returns the automated refresh status for an externally managed Iceberg table.",
+        "The name of the Iceberg table for which you want to retrieve the current automated refresh status.",
+        "The entire name must be enclosed in single quotes, including the database and schema if using the fully-qualified name.\nIf the table name is case-sensitive or includes any special characters or spaces, you must use double quotes.\nEnclose the double quotes within the single quotes, for example, '\"Table_Name\"'.",
+        "The function returns a JSON object containing the following name/value pairs:",
+        "Where:",
+        "Current execution state of the pipe that Snowflake uses to automate metadata refreshes for the table.",
+        "Values:",
+        "RUNNING: Automated refresh is running as expected. This status doesn\u2019t indicate whether Snowflake is actively processing\nevent messages for the pipe.",
+        "STALLED: Automated refresh encountered an error and is attempting to recover.",
+        "STOPPED: Automated refresh encountered an unrecoverable error and is stopped unless you take further action. For more information,\nsee Error recovery.",
+        "Error message associated with a STALLED or STOPPED execution state.",
+        "Number of snapshots queued for automated refresh.",
+        "Earliest timestamp among queued snapshots. Snowflake sets the timestamp for a snapshot when the snapshot is added to the queue.",
+        "ID of the current snapshot that Snowflake is tracking. This represents the snapshot that the current table data corresponds to.",
+        "Creation timestamp for the current snapshot according to Iceberg metadata.\nThis timestamp corresponds to when the current snapshot was generated in the external catalog.",
+        "Timestamp that indicates when Snowflake successfully processed the current snapshot.\nThe difference between this value and the lastSnapshotTime indicates the latency between when snapshots\nare created in the external catalog and when Snowflake successfully refreshes the table metadata.",
+        "To decrease the latency, adjust the REFRESH_INTERVAL_SECONDS parameter for the catalog integration associated with the table.",
+        "Calling this function requires a role that has the OWNERSHIP privilege on the Iceberg table.",
+        "Retrieve the automated refresh status for the table my_iceberg_table in the schema db1.schema1:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

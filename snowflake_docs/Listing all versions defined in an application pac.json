@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/native-apps/list-app-package-version",
+    "title": "Listing all versions defined in an application package | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "You must have an existing connection in your config.toml file.",
+        "You must have a snowflake.yml file in your Snowflake Native App project.",
+        "The snow app version list command lists all versions defined in an application package. This command uses the resolved project definition to determine the name of the application package for which the versions will be listed.",
+        "To list the versions of an application package, do the following:",
+        "Create a connection, if necessary.",
+        "Execute the snow app version list command from within your project, similar to the following:",
+        "When successful, the command displays a list of existing versions in the default format or in the format specified by you through the command line.\nFor more information about listing the versions of an application package, see the snow app version list command.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

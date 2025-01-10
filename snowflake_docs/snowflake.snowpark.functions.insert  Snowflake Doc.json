@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.insert",
+    "title": "snowflake.snowpark.functions.insert | Snowflake Documentation",
+    "paragraphs": [
+        "Replaces a substring of the specified length, starting at the specified position,\nwith a new string or binary value.",
+        "Examples:",
+        "Was this page helpful?"
+    ]
+}

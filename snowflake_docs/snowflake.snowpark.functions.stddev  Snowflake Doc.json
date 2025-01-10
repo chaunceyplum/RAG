@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.stddev",
+    "title": "snowflake.snowpark.functions.stddev | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the sample standard deviation (square root of sample variance) of\nnon-NULL values. If all records inside a group are NULL, returns NULL.",
+        "Was this page helpful?"
+    ]
+}

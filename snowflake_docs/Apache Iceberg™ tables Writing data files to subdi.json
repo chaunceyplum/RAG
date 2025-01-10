@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_06/bcr-1706",
+    "title": "Apache Iceberg\u2122 tables: Writing data files to subdirectories in Amazon S3 | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Snowflake writes Parquet data files in Amazon S3 for Snowflake-managed tables as follows:",
+        "Snowflake writes all table data files to a single directory named data/ in your external cloud storage.",
+        "Example path for each data file:",
+        "s3://externalVolumeStorageLocation/tableBaseLocation/data/snow_externalFileId.parquet",
+        "Snowflake supports writing data files for new or existing tables to randomly-named subdirectories\nunder the data/ directory. This helps you avoid S3 throttling and optimize query performance.",
+        "Example path for each data file:",
+        "s3://externalVolumeStorageLocation/tableBaseLocation/data/randomPrefix/snow_externalFileId.parquet",
+        "Ref: 1706",
+        "Was this page helpful?"
+    ]
+}

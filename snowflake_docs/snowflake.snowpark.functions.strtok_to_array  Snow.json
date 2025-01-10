@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.strtok_to_array",
+    "title": "snowflake.snowpark.functions.strtok_to_array | Snowflake Documentation",
+    "paragraphs": [
+        "Tokenizes the given string using the given set of delimiters and returns the tokens as an array.",
+        "If either parameter is a NULL, a NULL is returned. An empty array is returned if tokenization produces no tokens.",
+        "Was this page helpful?"
+    ]
+}

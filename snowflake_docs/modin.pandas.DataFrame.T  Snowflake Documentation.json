@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.T",
+    "title": "modin.pandas.DataFrame.T | Snowflake Documentation",
+    "paragraphs": [
+        "Transpose index and columns.",
+        "Reflect the DataFrame over its main diagonal by writing rows as columns and vice-versa. The property T is an accessor to the method transpose().",
+        "tuple (*args) \u2013 Accepted for compatibility with NumPy.  Note these arguments are ignored in the snowpark pandas\nimplementation unless go through a fallback path, in which case they may be used by the native\npandas implementation.",
+        "optional \u2013 Accepted for compatibility with NumPy.  Note these arguments are ignored in the snowpark pandas\nimplementation unless go through a fallback path, in which case they may be used by the native\npandas implementation.",
+        "bool (copy) \u2013 Whether to copy the data after transposing, even for DataFrames with a single dtype.  The snowpark\npandas implementation ignores this parameter.",
+        "False (default) \u2013 Whether to copy the data after transposing, even for DataFrames with a single dtype.  The snowpark\npandas implementation ignores this parameter.",
+        "DataFrames (Note that a copy is always required for mixed dtype) \u2013",
+        "types. (or for DataFrames with any extension) \u2013",
+        "",
+        "The transposed DataFrame.",
+        "",
+        "Square DataFrame with homogeneous dtype",
+        "When the dtype is homogeneous in the original DataFrame, we get a transposed DataFrame with the same dtype:",
+        "Non-square DataFrame with mixed dtypes",
+        "When the DataFrame has mixed dtypes, we get a transposed DataFrame with the object dtype:",
+        "Was this page helpful?"
+    ]
+}

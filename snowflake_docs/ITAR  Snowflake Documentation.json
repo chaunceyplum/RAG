@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cert-itar",
+    "title": "ITAR | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes how Snowflake supports customers with ITAR compliance requirements.",
+        "Note",
+        "Snowflake supports the ITAR certification in certain regions within each cloud platform.",
+        "For details, refer to SnowGov Regions.",
+        "Business Critical Feature",
+        "Snowflake only offers the Business Critical Edition (or higher) for purchase and use in Snowflake Government Regions supporting customer\nITAR compliance.",
+        "The International Traffic in Arms Regulations\n(ITAR) is a United States\ncompliance standard that controls and restricts access and export of military and defense articles, services, and related technologies.",
+        "Companies that manufacture, provide, or distribute goods and services as specified on the United States Munitions List\n(USML) may be subject\nto ITAR.",
+        "Snowflake supports customer ITAR compliance in the Snowflake SnowGov regions by limiting region access to\nvetted Snowflake employees and contractors who are eligible to support ITAR workloads. For clarity, customers may not use the Snowflake\nService or the Snowflake Government Regions in connection with U.S. \u201cclassified information\u201d (e.g. confidential, secret, or top secret).",
+        "For more information, refer to Supported Cloud Regions.",
+        "Unlike commercial regions, where multiple regions belong to the same region group, each government region\nbelongs to its own region group to maintain similar security controls, isolation, and compliance across that group. This distinction is\nimportant because, by default, certain features and functionality are limited to the boundaries of a region group.",
+        "As an example, replication is only possible to the boundary of a region group. Because a database cannot be replicated to a region outside\nof its region group, this default restriction prevents an organization within a government region from sharing data in a commercial region\nwithout first contacting Snowflake to connect the different region groups. Data sharing is available to customers who\nbelong within the same government region because it is not crossing the boundary of a region group.",
+        "If an organization within a government region needs to replicate a database or share data outside of a government region, it must\ncontact Snowflake Support to gain access to\nother region groups before it can use these features.",
+        "Be aware of entering export-controlled data in any Snowflake metadata fields.",
+        "Note",
+        "If your Snowflake account is in a U.S. government region and you want to access data products that are\noffered privately or on the Snowflake Marketplace, or offer listings either privately or on the Snowflake Marketplace, you must review and\nacknowledge a cross-region disclaimer for your organization.",
+        "For details, see:",
+        "Prepare to provide listings from accounts in U.S. government regions",
+        "Prepare to access listings from accounts in U.S. government regions",
+        "Limitations for accessing listings from accounts in U.S. government regions",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

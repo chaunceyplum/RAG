@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cert-hitrust",
+    "title": "HITRUST CSF | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes how Snowflake supports customers with HITRUST CSF compliance requirements.",
+        "The Health Information Trust Alliance Common Security Framework (HITRUST CSF) serves to unify security controls based on aspects of US\nfederal law (such as HIPAA and HITECH), certain state-specific laws and other industry-standard compliance frameworks into a single\ncomprehensive set of baseline security and privacy controls, built specifically for healthcare needs.",
+        "Snowflake participates in the HITRUST Shared Responsibility and Inheritance Program. With the Shared Responsibility Matrix (SRM), customers\ncan now inherit Snowflake\u2019s HITRUST CSF certification provided that customers apply the controls detailed in the HITRUST Alliance website.\nCustomers should download the Snowflake Custom HITRUST Shared Responsibility Matrix to determine HITRUST controls that they are responsible\nfor implementing as part of the shared responsibility model. Customers should refer to the HITRUST webpage for guidance on how to initiate\nan inheritance request.",
+        "For details, see:",
+        "HITRUST Alliance website.",
+        "Snowflake Custom HITRUST Shared Responsibility Matrix.",
+        "HITRUST user guide.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

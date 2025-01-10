@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.replicate_local_environment",
+    "title": "snowflake.snowpark.Session.replicate_local_environment | Snowflake Documentation",
+    "paragraphs": [
+        "Adds all third-party packages in your local environment as dependencies of a user-defined function (UDF).\nUse this method to add packages for UDFs as installing packages using conda.\nYou can also find examples in UDFRegistration. See details of third-party Python packages in Snowflake.",
+        "If you find that certain packages are causing failures related to duplicate dependencies, try adding\nduplicate dependencies to the ignore_packages parameter. If your local environment contains Python packages\nthat are not available in Snowflake, refer to custom_package_usage_config().",
+        "This function is experimental, please do not use it in production!",
+        "Example:",
+        "ignore_packages \u2013 Set of package names that will be ignored.",
+        "relax \u2013 If set to True, package versions will not be considered.",
+        "Note",
+        "1. This method will add packages for all UDFs created later in the current\nsession. If you only want to add packages for a specific UDF, you can use\npackages argument in functions.udf() or\nsession.udf.register().",
+        "2. We recommend you to setup the local environment with Anaconda,\nto ensure the consistent experience of a UDF between your local environment\nand the Snowflake server.",
+        "This function or method is experimental since 1.7.0.",
+        "Was this page helpful?"
+    ]
+}

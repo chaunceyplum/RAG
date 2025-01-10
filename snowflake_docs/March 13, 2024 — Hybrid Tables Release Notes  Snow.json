@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-03-13-hybrid-tables",
+    "title": "March 13, 2024 \u2014 Hybrid Tables Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the availability of hybrid tables\nin the following additional Amazon Web Services (AWS) regions:",
+        "Cloud Region",
+        "Cloud Region ID",
+        "Canada (Central)",
+        "ca-central-1",
+        "South America (Sao Paulo)",
+        "sa-east-1",
+        "Europe (London)",
+        "eu-west-2",
+        "EU (Paris)",
+        "eu-west-3",
+        "EU (Stockholm)",
+        "eu-north-1",
+        "Asia Pacific (Seoul)",
+        "ap-northeast-2",
+        "Asia Pacific (Osaka)",
+        "ap-northeast-3",
+        "Asia Pacific (Mumbai)",
+        "ap-south-1",
+        "Asia Pacific (Singapore)",
+        "ap-southeast-1",
+        "For a full list of AWS regions where hybrid tables is available, see\nClouds and regions.",
+        "Was this page helpful?"
+    ]
+}

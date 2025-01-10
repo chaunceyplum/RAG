@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.with_column_renamed",
+    "title": "snowflake.snowpark.DataFrame.with_column_renamed | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a DataFrame with the specified column existing renamed as new.",
+        "Example:",
+        "existing \u2013 The old column instance or column name to be renamed.",
+        "new \u2013 The new column name.",
+        "Was this page helpful?"
+    ]
+}

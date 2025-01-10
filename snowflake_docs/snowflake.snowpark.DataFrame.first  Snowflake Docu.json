@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.first",
+    "title": "snowflake.snowpark.DataFrame.first | Snowflake Documentation",
+    "paragraphs": [
+        "Executes the query representing this DataFrame and returns the first n\nrows of the results.",
+        "n \u2013 The number of rows to return.",
+        "statement_params \u2013 Dictionary of statement level parameters to be set while executing this action.",
+        "block \u2013 A bool value indicating whether this function will wait until the result is available.\nWhen it is False, this function executes the underlying queries of the dataframe\nasynchronously and returns an AsyncJob.",
+        "A list of the first n Row objects if n is not None. If n is negative or\nlarger than the number of rows in the result, returns all rows in the\nresults. n is None, it returns the first Row of\nresults, or None if it does not exist.",
+        "Was this page helpful?"
+    ]
+}

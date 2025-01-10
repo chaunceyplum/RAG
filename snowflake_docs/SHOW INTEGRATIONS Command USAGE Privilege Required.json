@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_01/bcr-930",
+    "title": "SHOW INTEGRATIONS Command: USAGE Privilege Required to View Output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "For the most up-to-date details about the version and date in which it will be enabled, as well as other release-related details,\nsee the Behavior Change Log.",
+        "The behavior of the SHOW INTEGRATIONS command has changed as follows:",
+        "Snowflake returned all integrations regardless of the privileges granted to the role in use to run the command.",
+        "Snowflake returns integrations for which the role has the USAGE privilege on the integration or the OWNERSHIP privilege on\nthe integration.",
+        "Ref: 930",
+        "Was this page helpful?"
+    ]
+}

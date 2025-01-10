@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.CaseExpr",
+    "title": "snowflake.snowpark.CaseExpr | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: Column",
+        "Represents a CASE\nexpression.",
+        "To construct this object for a CASE expression, call the functions.when()\nspecifying a condition and the corresponding result for that condition.\nThen, call when() and otherwise() methods to specify additional conditions\nand results.",
+        "Examples:",
+        "Methods",
+        "else_(value)",
+        "Sets the default result for this CASE expression.",
+        "otherwise(value)",
+        "Sets the default result for this CASE expression.",
+        "when(condition,\u00a0value)",
+        "Appends one more WHEN condition to the CASE expression.",
+        "Was this page helpful?"
+    ]
+}

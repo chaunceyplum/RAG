@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.array_append",
+    "title": "snowflake.snowpark.functions.array_append | Snowflake Documentation",
+    "paragraphs": [
+        "Returns an ARRAY containing all elements from the source ARRAY as well as the new element.\nThe new element is located at end of the ARRAY.",
+        "array \u2013 The column containing the source ARRAY.",
+        "element \u2013 The column containing the element to be appended. The element may be of almost\nany data type. The data type does not need to match the data type(s) of the\nexisting elements in the ARRAY.",
+        "Was this page helpful?"
+    ]
+}

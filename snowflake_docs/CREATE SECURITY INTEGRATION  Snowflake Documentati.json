@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/create-security-integration",
+    "title": "CREATE SECURITY INTEGRATION | Snowflake Documentation",
+    "paragraphs": [
+        "Creates a new security integration in the account or replaces an existing integration. An integration is a Snowflake object that provides\nan interface between Snowflake and a third-party service.",
+        "ALTER SECURITY INTEGRATION , DROP INTEGRATION , SHOW INTEGRATIONS",
+        "The syntax varies considerably among security environments (i.e. types of security integrations). For specific syntax, usage notes, and\nexamples, see:",
+        "CREATE SECURITY INTEGRATION (AWS IAM Authentication)",
+        "CREATE SECURITY INTEGRATION (External API Authentication)",
+        "CREATE SECURITY INTEGRATION (External OAuth)",
+        "CREATE SECURITY INTEGRATION (Snowflake OAuth)",
+        "CREATE SECURITY INTEGRATION (SAML2)",
+        "CREATE SECURITY INTEGRATION (SCIM)",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

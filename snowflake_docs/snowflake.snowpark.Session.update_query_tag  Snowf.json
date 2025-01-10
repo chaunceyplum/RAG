@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.update_query_tag",
+    "title": "snowflake.snowpark.Session.update_query_tag | Snowflake Documentation",
+    "paragraphs": [
+        "Updates a query tag that is a json encoded string. Throws an exception if the sessions current query tag is not a valid json string.",
+        "tag \u2013 The dict that provides updates to the current query tag dict.",
+        "Note",
+        "Assigning a value via session.query_tag will remove any current query tag state.",
+        "Was this page helpful?"
+    ]
+}

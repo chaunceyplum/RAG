@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_asewkt",
+    "title": "ST_ASEWKT | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Given a value of type GEOGRAPHY or GEOMETRY, return the\ntext (VARCHAR) representation of that value in EWKT (extended well-known text)\nformat.",
+        "ST_ASWKT",
+        "The argument must be an expression of type GEOGRAPHY or GEOMETRY.",
+        "A VARCHAR.",
+        "For GEOGRAPHY objects, the SRID in the return value is always 4326. See the\nnote on EWKT handling.",
+        "To return the output in WKT format, use ST_ASWKT instead.",
+        "The following example demonstrates the ST_ASEWKT function:",
+        "The example below demonstrates how to use the ST_ASEWKT function. The example returns the EWKT representations of two geometries\nthat have different SRIDs.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

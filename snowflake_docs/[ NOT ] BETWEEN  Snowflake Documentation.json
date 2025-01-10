@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/between",
+    "title": "[ NOT ] BETWEEN | Snowflake Documentation",
+    "paragraphs": [
+        "Conditional expression functions",
+        "Returns TRUE when the input expression (numeric or string) is within the specified lower and upper boundary.",
+        "expr BETWEEN lower_bound AND upper_bound is equivalent to expr >= lower_bound AND expr <= upper_bound.",
+        "The specified upper boundary must be larger/greater than the lower boundary.",
+        "The expression A BETWEEN X AND Y is equivalent to A >= X AND A <= Y. The collations used for comparing\nwith X and Y are independent and do not need to be identical, but both need to be compatible with the\ncollation of A.",
+        "Here are a few simple examples of using BETWEEN with numeric and string values:",
+        "The following examples use COLLATE with BETWEEN:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.trim",
+    "title": "snowflake.snowpark.functions.trim | Snowflake Documentation",
+    "paragraphs": [
+        "Removes leading and trailing characters from a string. Per default only whitespace \u2018 \u2018 characters are removed.",
+        "Example:",
+        "Example:",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

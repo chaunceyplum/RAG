@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/undrop-dynamic-table",
+    "title": "UNDROP DYNAMIC TABLE | Snowflake Documentation",
+    "paragraphs": [
+        "Restores the most recent version of a dropped dynamic table.",
+        "CREATE DYNAMIC TABLE, ALTER DYNAMIC TABLE, DESCRIBE DYNAMIC TABLE,\nSHOW DYNAMIC TABLES, DROP DYNAMIC TABLE",
+        "Specifies the identifier for the dynamic table to restore.",
+        "If the identifier contains spaces or special characters, the entire string must be enclosed in double quotes.\nIdentifiers enclosed in double quotes are also case-sensitive.",
+        "For more information, see Identifier requirements.",
+        "To undrop a dynamic table, you must be using a role that has OWNERSHIP privilege\non that dynamic table.",
+        "If a table with the same name already exists, an error is returned.",
+        "UNDROP relies on the Snowflake Time Travel feature. An object can be restored only if\nthe object was deleted within the Data retention period. The default value is 24 hours.",
+        "Restore the most recent version of a dropped table product:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

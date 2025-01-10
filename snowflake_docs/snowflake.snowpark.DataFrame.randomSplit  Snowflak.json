@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.randomSplit",
+    "title": "snowflake.snowpark.DataFrame.randomSplit | Snowflake Documentation",
+    "paragraphs": [
+        "Randomly splits the current DataFrame into separate DataFrames,\nusing the specified weights.",
+        "weights \u2013 Weights to use for splitting the DataFrame. If the\nweights don\u2019t add up to 1, the weights will be normalized.\nEvery number in weights has to be positive. If only one\nweight is specified, the returned DataFrame list only includes\nthe current DataFrame.",
+        "seed \u2013 The seed for sampling.",
+        "statement_params \u2013 Dictionary of statement level parameters to be set while executing this action.",
+        "Example:",
+        "Note",
+        "1. When multiple weights are specified, the current DataFrame will\nbe cached before being split.",
+        "2. When a weight or a normailized weight is less than 1e-6, the\ncorresponding split dataframe will be empty.",
+        "Was this page helpful?"
+    ]
+}

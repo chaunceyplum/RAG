@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-table",
+    "title": "DROP TABLE | Snowflake Documentation",
+    "paragraphs": [
+        "Removes a table from the current/specified schema, but retains a version of the table so that it can be recovered using\nUNDROP TABLE. For information, see Usage Notes (in this topic).",
+        "CREATE TABLE , ALTER TABLE , SHOW TABLES , TRUNCATE TABLE , DESCRIBE TABLE",
+        "Specifies the identifier for the table to drop. If the identifier contains spaces, special characters, or mixed-case characters, the\nentire string must be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive\n(e.g. \"My Object\").",
+        "If the table identifier is not fully-qualified (in the form of db_name.schema_name.table_name or\nschema_name.table_name), the command looks for the table in the current schema for the session.",
+        "Specifies whether the table can be dropped if foreign keys exist that reference the table:",
+        "CASCADE drops the table even if the table has primary/unique keys that are referenced by foreign keys in other tables.",
+        "RESTRICT returns a warning about existing foreign key references and does not drop the table.",
+        "Default: CASCADE",
+        "Dropping a table does not permanently remove it from the system. A version of the dropped table is retained in\nTime Travel for the number of days specified by the\ndata retention period for the table:",
+        "Within the Time Travel retention period, a dropped table can be restored using the UNDROP TABLE command.",
+        "Changing the Time Travel retention period for the account or for a parent object (that is to say, database or schema) after a\ntable is dropped does not change the Time Travel retention period for the dropped table.\nFor more information, see the note in the Time Travel topic.",
+        "When the Time Travel retention period ends, the next state for the dropped table depends on whether it is permanent, transient, or\ntemporary:",
+        "A permanent table moves into Fail-safe. In Fail-safe (7 days), a dropped table can be recovered,\nbut only by Snowflake. When the table leaves Fail-safe, it is purged.",
+        "A transient or temporary table has no Fail-safe, so it is purged when it moves out of Time Travel.",
+        "Note",
+        "A long-running Time Travel query will delay moving any data and objects (tables, schemas, and databases) in the account into\nFail-safe, until the query completes. The purging of temporary and transient tables will similarly be delayed.",
+        "Once a dropped table has been purged, it cannot be recovered; it must be recreated.",
+        "After dropping a table, creating a table with the same name creates a new version of the table. The dropped version of the previous table\ncan still be restored using the following method:",
+        "Rename the current version of the table to a different name.",
+        "Use the UNDROP TABLE command to restore the previous version.",
+        "Before dropping a table, verify that no views reference the table. Dropping a table referenced by a view invalidates the view\n(i.e. querying the view returns an \u201cobject does not exist\u201d error).",
+        "To drop a table, you must be using a role that has ownership privilege on the table.",
+        "Drop a table:",
+        "Drop the table again, but don\u2019t raise an error if the table does not exist:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

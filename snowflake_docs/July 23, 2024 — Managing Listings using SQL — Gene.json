@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-07-23-pl",
+    "title": "July 23, 2024 \u2014 Managing Listings using SQL \u2014 Generally Available | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake is pleased to announce the general availability of Managing listings using SQL.",
+        "You can now create,\nalter,\ndescribe,\nshow, and\ndrop the contents of a listing using SQL commands.",
+        "For details, see About managing listings using SQL.",
+        "Note",
+        "You cannot use SQL commands to offer paid, personalized listings, or listings on private data exchanges.",
+        "For a complete set of limitations and restrictions see Limitations of managing listings using SQL.",
+        "Was this page helpful?"
+    ]
+}

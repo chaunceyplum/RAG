@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.add_import",
+    "title": "snowflake.snowpark.Session.add_import | Snowflake Documentation",
+    "paragraphs": [
+        "Registers a remote file in stage or a local file as an import of a user-defined function\n(UDF). The local file can be a compressed file (e.g., zip), a Python file (.py),\na directory, or any other file resource. You can also find examples in\nUDFRegistration.",
+        "path \u2013",
+        "The path of a local file or a remote file in the stage. In each case:",
+        "if the path points to a local file, this file will be uploaded to the\nstage where the UDF is registered and Snowflake will import the file when\nexecuting that UDF.",
+        "if the path points to a local directory, the directory will be compressed\nas a zip file and will be uploaded to the stage where the UDF is registered\nand Snowflake will import the file when executing that UDF.",
+        "if the path points to a file in a stage, the file will be included in the\nimports when executing a UDF.",
+        "",
+        "import_path \u2013 The relative Python import path for a UDF.\nIf it is not provided or it is None, the UDF will import the package\ndirectly without any leading package/module. This argument will become\na no-op if the path  points to a stage file or a non-Python local file.",
+        "chunk_size \u2013 The number of bytes to hash per chunk of the uploaded files.",
+        "whole_file_hash \u2013 By default only the first chunk of the uploaded import is hashed to save\ntime. When this is set to True each uploaded file is fully hashed instead.",
+        "Example:",
+        "Note",
+        "1. In favor of the lazy execution, the file will not be uploaded to the stage\nimmediately, and it will be uploaded when a UDF is created.",
+        "2. The Snowpark library calculates a sha256 checksum for every file/directory.\nEach file is uploaded to a subdirectory named after the checksum for the\nfile in the stage. If there is an existing file or directory, the Snowpark\nlibrary will compare their checksums to determine whether it should be re-uploaded.\nTherefore, after uploading a local file to the stage, if the user makes\nsome changes to this file and intends to upload it again, just call this\nfunction with the file path again, the existing file in the stage will be\noverwritten by the re-uploaded file.",
+        "3. Adding two files with the same file name is not allowed, because UDFs\ncan\u2019t be created with two imports with the same name.",
+        "4. This method will register the file for all UDFs created later in the current\nsession. If you only want to import a file for a specific UDF, you can use\nimports argument in functions.udf() or\nsession.udf.register().",
+        "Was this page helpful?"
+    ]
+}

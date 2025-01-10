@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/approx_percentile",
+    "title": "APPROX_PERCENTILE | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (Percentile Estimation) , Window functions",
+        "Returns an approximated value for the desired percentile (that is, if column c has n numbers,\nAPPROX_PERCENTILE(c, p) returns a number such that approximately n * p of the numbers in c\nare smaller than the returned number).",
+        "This function uses an improved version of the t-Digest algorithm. For more information, see\nEstimating Percentile Values.",
+        "APPROX_PERCENTILE_ACCUMULATE , APPROX_PERCENTILE_COMBINE , APPROX_PERCENTILE_ESTIMATE",
+        "Aggregate function",
+        "Window function",
+        "A valid expression, such as a column name, that evaluates to a numeric value.",
+        "A constant real value greater than or equal to 0.0 and less than 1.0.\nThis indicates the percentile (from 0 to 99.999\u2026).\nE.g. The value 0.65 indicates the 65th percentile.",
+        "This is the optional expression used to group rows into partitions.",
+        "The output is returned as a DOUBLE value.",
+        "Percentile works only on numeric values, so expr should produce\nvalues that are numbers or can be cast to numbers.",
+        "The values returned are not necessarily in the data set.",
+        "The value returned is an approximation. The size of the data set and the\nskew in the data set affect the accuracy of the approximation.",
+        "When this function is called as a window function, it does not support:",
+        "An ORDER BY clause within the OVER clause.",
+        "Explicit window frames.",
+        "Demonstrate the APPROX_PERCENTILE function:",
+        "Create and populate a table with values:",
+        "Run queries and show the output:",
+        "Note that the value returned in this case is higher than any value actually\nin the data set:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_02/bcr-1528",
+    "title": "Replication: Skip external and Apache Iceberg\u2122 tables during refresh operation | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_02 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Replication doesn\u2019t currently support\nexternal tables or Apache Iceberg\u2122 tables. The behavior of a\nrefresh operation for a primary database that contains an external table or Iceberg table is as follows:",
+        "If a primary database contains an external table or an Iceberg table, the refresh operation fails.",
+        "If a primary database contains external tables or Iceberg tables, the external tables or Iceberg tables are skipped during the\nrefresh operation and the refresh operation succeeds.",
+        "Ref: 1528",
+        "Was this page helpful?"
+    ]
+}

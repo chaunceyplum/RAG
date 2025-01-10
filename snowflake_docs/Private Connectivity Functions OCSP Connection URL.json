@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-1111",
+    "title": "Private Connectivity Functions: OCSP Connection URLs Added to Output (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The output of the SYSTEM$ALLOWLIST_PRIVATELINK and SYSTEM$GET_PRIVATELINK_CONFIG functions is as follows:",
+        "The output did not include the private connectivity OCSP endpoints for the Client Redirect connection URLs.",
+        "The output of these functions does include the private connectivity OCSP endpoints for the Client Redirect connection URLs.",
+        "The SYSTEM$GET_PRIVATELINK_CONFIG function will contain a new field called privatelink-connection-ocsp-connection-urls, which specifies\na comma-separated list of URL values.",
+        "The SYSTEM$ALLOWLIST_PRIVATELINK function will contain a new TYPE called OCSP_CLIENT_FAILOVER that specifies the host for the OCSP\nconnection URL. Note that there might be multiple hosts of this type in the function output.",
+        "Update your DNS configuration to include the new OCSP endpoints. For details about private connectivity and Client Redirect, refer to\nConfiguring the DNS settings for private connectivity to the Snowflake service.",
+        "Ref: 1111",
+        "Was this page helpful?"
+    ]
+}

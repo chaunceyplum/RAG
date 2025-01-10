@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_06/bcr-1698",
+    "title": "Snowpark Container Services: New stage mount allotment limit per compute pool node | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When choosing a compute pool node on which to run a service instance, Snowflake behavior is:",
+        "Snowflake ensures that the resources requested in the containers.resources field in the specification are available on the specific node.",
+        "Snowflake also ensures that the compute pool nodes do not exceed eight stage mount allotments per node.",
+        "Snowflake supports storage volumes for use by application containers. Snowflake internal stage is one of the supported storage volume types.",
+        "For optimal performance, Snowflake now limits the number of service instances that use a stage volume mount to eight per compute pool node. It does not matter whether these instances belong to the same service or different services.",
+        "When the limit is reached, Snowflake does not use that node to start new service instances that use a stage volume. Instead, Snowflake starts the service instance on a different node in the compute pool.",
+        "To accommodate this stage mount allotment limit on a node, in some cases, you can increase the maximum number of nodes that you request for a compute pool. This ensures that additional nodes are available for Snowflake to start your service instances.",
+        "Ref: 1698",
+        "Was this page helpful?"
+    ]
+}

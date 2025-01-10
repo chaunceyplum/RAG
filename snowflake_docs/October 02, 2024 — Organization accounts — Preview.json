@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-10-01-organization-account",
+    "title": "October 02, 2024 \u2014 Organization accounts \u2014 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the preview of the organization account, which is a new type of account that organization\nadministrators use to perform their tasks. During this preview, organization administrators can continue to use an ORGADMIN-enabled account\nto perform their tasks, but eventually all organization-level tasks for multi-account organizations will be performed using the organization\naccount.",
+        "The ORGANIZATION_USAGE schema in the organization account contains premium views that aggregate account usage across accounts. These premium\nviews are not found in the ORGANIZATION_USAGE schema of a regular account, and incur additional storage and compute costs. For example, the\norganization account allows you to use a single view to track access history across the organization, something you can\u2019t do in a regular\naccount.",
+        "For more information, see Organization accounts.",
+        "Was this page helpful?"
+    ]
+}

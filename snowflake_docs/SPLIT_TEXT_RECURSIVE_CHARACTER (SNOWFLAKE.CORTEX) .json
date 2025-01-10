@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/split_text_recursive_character-snowflake-cortex",
+    "title": "SPLIT_TEXT_RECURSIVE_CHARACTER (SNOWFLAKE.CORTEX) | Snowflake Documentation",
+    "paragraphs": [
+        "Support for this feature is available to accounts in most Snowflake regions.\nSee the Regional availability section for a full list of regions.",
+        "The SPLIT_TEXT_RECURSIVE_CHARACTER function splits a string into shorter stings, recursively, for preprocessing\ntext to be used with text embedding or search indexing functions. The function returns an array of text chunks, where the\nchunks are derived from the original text based on the input parameters provided.",
+        "The splitting algorithm attempts to split text on separators in the order they are provided, either implicitly as defaults based on the\nformat, or explicitly in the separators argument. Splitting is then applied to each chunk that is longer than the specified\nchunk_size, recursively, until all chunks no longer than the specified chunk_size.",
+        "For example, if format is set to 'none', the algorithm first splits on the \u201c\\n\\n\u201d sequences, which represent\nparagraph breaks in most formats. Within any resulting chunk that is still longer than chunk_size characters, the\nfunction splits on the \u201c\\n\u201d characters, which represents line breaks. This process repeats until each of the chunks is less\nthan chunk_size characters.",
+        "Required:",
+        "The text to split.",
+        "The format of your input text, which determines the default separators in the splitting algorithm. Must be one of the following:",
+        "none: No format-specific separators. Only the separators in the separators field are used for splitting.",
+        "markdown: Separates on headers, code blocks, and tables, in addition to any separators in the separators field.",
+        "An integer specifying the maximum number of characters in each chunk. The value must be greater than zero.",
+        "Optional:",
+        "An integer that specifies the number of characters to overlap between consecutive chunks. By default, chunks have no overlap.\nIf overlap is specified, it must be smaller than the chunk_size argument.",
+        "Overlap is useful for ensuring that each chunk has some context about the previous chunk. This can help improve the quality of search\nresults or other processing.",
+        "An ordered list of character sequences to use as boundaries when determining where to split the text, in addition to\nany separators dictated by the format parameter. The last item in this list should be a general separator, such\nas an empty string (which allows a split to be made between any two characters), so that the algorithm is guaranteed to\nbe able to split the text into chunks of the desired size.",
+        "Default: [\u201d\\n\\n\u201d, \u201c\\n\u201d, \u201c \u201c, \u201c\u201d], meaning a paragraph break, a line break, a space, and between any two characters (the empty string).",
+        "Returns an array of strings that contains text chunks extracted from the input string.",
+        "For this preview, error messages may be cryptic. Most error messages are related to argument validation failure. As a first step\nin debugging, make sure that all your arguments have valid values.",
+        "The following example directly calls the SPLIT_TEXT_RECURSIVE_CHARACTER function with the input text hello world are you here.\nThe function splits the text into chunks of 15 characters each, with an overlap of 10 characters between chunks.",
+        "The following example creates a table sample_documents containing a short Markdown document in each row, then\ncalls the SPLIT_TEXT_RECURSIVE_CHARACTER function to split each document. The function splits the text into chunks of 25\ncharacters each, with an overlap of 10 characters between chunks.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

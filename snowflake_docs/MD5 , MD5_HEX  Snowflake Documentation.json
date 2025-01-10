@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/md5",
+    "title": "MD5 , MD5_HEX | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Checksum)",
+        "Returns a 32-character hex-encoded string containing the 128-bit MD5\nmessage digest.",
+        "These functions are synonymous.",
+        "MD5_BINARY, MD5_NUMBER_LOWER64, MD5_NUMBER_UPPER64",
+        "A string expression, the message to be hashed.",
+        "Returns a 32-character hex-encoded string.",
+        "Although the MD5* functions were originally developed as cryptographic functions, they are now\nobsolete for cryptography and should not be used for that purpose. They can be used for other purposes\n(for example, as \u201cchecksum\u201d functions to detect accidental data corruption).",
+        "If you need to encrypt and decrypt data, use the following functions:",
+        "ENCRYPT and DECRYPT",
+        "ENCRYPT_RAW and DECRYPT_RAW",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

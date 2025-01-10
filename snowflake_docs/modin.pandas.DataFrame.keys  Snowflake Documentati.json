@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.keys",
+    "title": "modin.pandas.DataFrame.keys | Snowflake Documentation",
+    "paragraphs": [
+        "Get columns of the DataFrame.",
+        "Was this page helpful?"
+    ]
+}

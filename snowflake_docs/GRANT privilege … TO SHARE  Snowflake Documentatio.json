@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/grant-privilege-share",
+    "title": "GRANT <privilege> \u2026 TO SHARE | Snowflake Documentation",
+    "paragraphs": [
+        "Grants access privileges for databases and other supported database objects (schemas, UDFs, tables, and views) to a share. Granting\nprivileges on these objects effectively adds the objects to the share, which can then be shared with one or more consumer accounts.",
+        "For more details, see About Secure Data Sharing and Create and configure shares.",
+        "REVOKE <privilege> \u2026 FROM SHARE",
+        "GRANT <privileges>",
+        "Where:",
+        "Specifies the identifier for the object for which the specified privilege is granted.",
+        "Specifies the identifier for the schema for which the specified privilege is granted for all tables.",
+        "Specifies the identifier for the share from which the specified privilege is granted.",
+        "The USAGE privilege on only a single database can be granted to a share; however, within that database, privileges on multiple schemas,\nUDFs, tables, and views can be granted to the share.",
+        "Privileges on individual objects must be granted to a share in separate GRANT statements. The only exception is the SELECT privilege on\ntables (including Apache Iceberg\u2122 tables). Using an ALL clause, you can grant SELECT on all tables in a specified schema to a share.",
+        "The SELECT privilege on views can only be granted on secure views. Attempting to grant the SELECT privilege on a non-secure view to a\nshare returns an error.",
+        "The USAGE privilege can only be granted on secure UDFs. Attempting to grant the USAGE privilege on a non-secure UDF to a share returns\nan error.",
+        "Currently, sharing a UDF that references an object from another database is not supported. For example, if you attempt to grant USAGE\non a UDF that references a secure view from another database, an error is returned.",
+        "Use the REFERENCE_USAGE privilege when sharing a secure view that references objects belonging to multiple databases, as follows:",
+        "The REFERENCE_USAGE privilege must be granted individually on each database.",
+        "The REFERENCE_USAGE privilege must be granted on a database before granting the SELECT privilege on a secure view to a share.",
+        "For more details, see Share data from multiple databases.",
+        "Secure Data Sharing: Data providers cannot add new objects to a share automatically using\nfuture grants. That is, data providers cannot grant privileges on future objects to a share using\nGRANT <privilege> \u2026 TO SHARE statements.",
+        "You cannot reshare a database or database objects created from a share. If you attempt to grant the USAGE privilege on a database or\ndatabase objects created from a share to a different share, an error is returned.",
+        "If you specify a TABLE object that is an Iceberg table, the command grants the privilege on that Iceberg table.",
+        "This is an example of sharing objects from a single database:",
+        "This is an example of sharing a secure view that references objects from a different database:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_x",
+    "title": "ST_X | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns the longitude (X coordinate) of a Point represented by a GEOGRAPHY or\nGEOMETRY object.",
+        "The argument must be an expression of the type GEOGRAPHY or GEOMETRY and must contain a Point.",
+        "Returns a REAL value.",
+        "Issues an error if the argument is not a Point.",
+        "This shows a simple use of the ST_X and ST_Y functions with VARCHAR data:",
+        "This shows use of the ST_X and ST_Y functions with NULL values:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

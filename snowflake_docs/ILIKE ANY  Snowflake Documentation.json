@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/ilike_any",
+    "title": "ILIKE ANY | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Matching/Comparison)",
+        "Performs a case-insensitive comparison to match a string against any of one or more specified patterns.\nUse this function in a WHERE clause to filter for matches. For case-sensitive matching, use LIKE ANY\ninstead.",
+        "Tip",
+        "You can use the search optimization service to improve the performance of queries that call this function.\nFor details, see Search Optimization Service.",
+        "[ NOT ] LIKE , [ NOT ] ILIKE , LIKE ANY",
+        "Required:",
+        "The string to compare to the pattern(s).",
+        "The pattern(s) that the string is to be compared to. You must specify at least one pattern.",
+        "Optional:",
+        "Character(s) inserted in front of a wildcard character to indicate that the wildcard should\nbe interpreted as a regular character rather than as a wildcard.",
+        "Returns a BOOLEAN or NULL. The value is TRUE if there is a match. Otherwise, returns FALSE. Returns NULL if any argument is NULL.",
+        "To include single quotes or other special characters in pattern matching, you can use a\nbackslash escape sequence.",
+        "NULL does not match NULL. In other words, if the subject is NULL and one of the patterns is NULL,\nthat is not considered a match.",
+        "You can use the NOT logical operator before the subject\nto perform a case-sensitive comparison that returns TRUE if it does not match any of the specified patterns.",
+        "SQL wildcards are supported in pattern:",
+        "An underscore (_) matches any single character.",
+        "A percent sign (%) matches any sequence of zero or more characters.",
+        "Wildcards in pattern include newline characters (n) in subject as matches.",
+        "The pattern is considered a match if the pattern matches the entire input string (subject). To match a sequence\nanywhere within a string, start and end the pattern with % (e.g. %something%).",
+        "If the function is used with a subquery, the subquery should return a single row.",
+        "For example, the following should be used only if the subquery returns a single row:",
+        "Only the upper, lower, and trim collation specifications are supported. Combinations with upper,\nlower, and trim are also supported (for example, upper-trim and lower-trim), except for locale\ncombinations (for example, en-upper).",
+        "Create a table that contains some strings:",
+        "This query shows how to use patterns with wildcards (%) to find matches:",
+        "For examples of how to escape wildcard characters, see LIKE ANY.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

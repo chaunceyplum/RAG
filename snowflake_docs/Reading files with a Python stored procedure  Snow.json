@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/stored-procedure/python/procedure-python-read-files",
+    "title": "Reading files with a Python stored procedure | Snowflake Documentation",
+    "paragraphs": [
+        "Using the SnowflakeFile class in the Snowpark snowflake.snowpark.files module, your Python handler can dynamically read a\nfile from one of the following Snowflake stages:",
+        "A named internal stage.",
+        "A specified table\u2019s internal stage.",
+        "The current user\u2019s internal stage.",
+        "Snowflake supports reading files with SnowflakeFile for both stored procedures and user-defined functions. For more information\nabout reading files in your handler code, as well as more examples, refer to Reading a File with a Python UDF Handler.",
+        "This example demonstrates how to create and call an owner\u2019s rights stored procedure\nthat reads a file using the SnowflakeFile class.",
+        "Create the stored procedure with an in-line handler, specifying the input mode as binary by passing rb for the mode argument:",
+        "Call the stored procedure:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

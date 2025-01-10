@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/cast",
+    "title": "CAST , :: | Snowflake Documentation",
+    "paragraphs": [
+        "Conversion functions",
+        "Converts a value of one data type into another data type. The semantics of CAST\nare the same as the semantics of the corresponding TO_ datatype conversion\nfunctions. If the cast is not possible, an error is raised. For more details,\nsee the individual TO_ datatype conversion functions. For more information\nabout data type conversion and the TO_ datatype conversion\nfunctions, see Data type conversion.",
+        "The :: operator provides alternative syntax for CAST.",
+        "TRY_CAST",
+        "Expression of any supported data type to be converted into a\ndifferent data type.",
+        "The data type to which to convert the expression. If the data\ntype supports additional properties, such as\nprecision and scale\n(for numbers/decimals), the properties can be included.",
+        "For structured OBJECTs, specifies that you want to change the OBJECT to use\ndifferent key-value pairs. The values in the original object are copied to the new key-value pairs in the order in which\nthey appear.",
+        "For an example, see Example: Changing the key names in an OBJECT value.",
+        "For structured OBJECTs, specifies that you want to add key-value pairs to the\nOBJECT.",
+        "For an example, see Example: Adding keys to an OBJECT value.",
+        "The values for the newly added keys will be set to NULL. If you want to assign a value to these keys, call the\nOBJECT_INSERT function instead.",
+        "If the scale is not sufficient to hold the input value, the function\nrounds the value.",
+        "If the precision is not sufficient to hold the input value, the function\nraises an error.",
+        "When numeric columns are explicitly cast to forms of the integer data type during a data unload to Parquet files, the data type of these\ncolumns in the Parquet files is INT. For more information, see Explicitly converting numeric columns to Parquet data types.",
+        "When you use the :: alternative syntax, you cannot specify the RENAME FIELDS or ADD FIELDS arguments.",
+        "The CAST examples use the data in the following table:",
+        "The examples use the SYSTEM$TYPEOF function to show the data type of the converted value.",
+        "Convert a string to a number with specified scale (2):",
+        "Convert the same string to a number with scale 5, using\nthe :: notation:",
+        "Convert a number to an integer. For an integer, precision and scale cannot be specified, so\nthe default is always NUMBER(38, 0).",
+        "Convert a number to a string:",
+        "Convert a timestamp to a date:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

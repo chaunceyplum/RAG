@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-11-26-data-governance",
+    "title": "November 25, 2024 \u2014 Data governance release notes | Snowflake Documentation",
+    "paragraphs": [
+        "Organization-level access history has been enhanced with columns that provide information about how data provided by\norganizational listings is being queried by consumers. For each query,\ndata governors can determine which account provided the organizational listing and exactly which data object was accessed. They can also\ndetermine if the data object provided by the organizational listing is protected by a policy (such as a masking policy or row access policy)\nin the provider\u2019s account.",
+        "For more information, see Organizational listing governance.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

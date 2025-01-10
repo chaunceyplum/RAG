@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/data-load-considerations-manage",
+    "title": "Managing regular data loads | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides best practices, general guidelines, and important considerations for managing regular data loads.",
+        "When planning regular data loads such as ETL (Extract, Transform, Load) processes or regular imports of machine-generated data, it is important to partition the data in your internal (i.e. Snowflake)\nstage or external locations (S3 buckets or Azure containers) using logical, granular paths. Create a partitioning structure that includes identifying details such as application or location, along\nwith the date when the data was written. You can then copy any fraction of the partitioned data into Snowflake with a single command. You can copy data into Snowflake by the hour, day, month, or even\nyear when you initially populate tables.",
+        "Some examples of partitioned S3 buckets using paths:",
+        "s3://bucket_name/application_one/2016/07/01/11/",
+        "s3://bucket_name/application_two/location_one/2016/07/01/14/",
+        "Where:",
+        "Identifying details for the source of all data in the path. The data can be organized by the date when it was written. An optional 24-hour directory reduces the amount of data in each directory.",
+        "Note",
+        "S3 transmits a directory list with each COPY statement used by Snowflake, so reducing the number of files in each directory improves the performance of your COPY statements. You may even consider\ncreating subfolders of 10-15 minute increments within the folders for each hour.",
+        "Similarly, you can also add a path when you stage files in an internal stage. For example:",
+        "Load organized data files into Snowflake tables by specifying the precise path to the staged files. For more information, see Organizing data by path.",
+        "When data from staged files is loaded successfully, consider removing the staged files to ensure the data is not inadvertently loaded again (duplicated).",
+        "Note",
+        "Do not remove the staged files until the data has been loaded successfully. To check if the data has been loaded successfully, use the COPY_HISTORY command. Check the STATUS column to determine if the data from the file has been loaded. Note that if the status is Load in progress, removing the staged file can result in partial loads and data loss.",
+        "Staged files can be deleted from a Snowflake stage (user stage, table stage, or named stage) using the following methods:",
+        "Files that were loaded successfully can be deleted from the stage during a load by specifying the PURGE copy option in the COPY INTO <table> command.",
+        "After the load completes, use the REMOVE command to remove the files in the stage.",
+        "Removing files ensures they aren\u2019t inadvertently loaded again. It also improves load performance, because it reduces the number of files that COPY commands must scan to verify whether existing files in\na stage were loaded already.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

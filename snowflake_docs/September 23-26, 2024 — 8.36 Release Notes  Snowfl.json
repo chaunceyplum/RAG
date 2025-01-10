@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/8_36",
+    "title": "September 23-26, 2024 \u2014 8.36 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "The release is complete.",
+        "For differences between the in-advance and final versions of these release notes, see Release notes change log.",
+        "With this release, a preview of support for cloning Snowflake-managed Iceberg tables is available.",
+        "For more information, see CREATE <object> \u2026 CLONE.",
+        "Announcement",
+        "Update",
+        "Date",
+        "Release notes",
+        "Initial publication (preview)",
+        "20-Sep-24",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

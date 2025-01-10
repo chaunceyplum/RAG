@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/un-bundled/bcr-show-applications-output-change",
+    "title": "SHOW APPLICATIONS command: Changes to the LABEL column output | Snowflake Documentation",
+    "paragraphs": [
+        "The output of the SHOW APPLICATIONS command behaves as follows:",
+        "The value of the LABEL column for the APPLICATION object is NONE if no label is specified.",
+        "The value of the LABEL column for the APPLICATION object will be empty if no label is specified.",
+        "Ref: n/a",
+        "Was this page helpful?"
+    ]
+}

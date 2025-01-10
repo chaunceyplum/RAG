@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/upper",
+    "title": "UPPER | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Case Conversion)",
+        "Returns the input string with all characters converted to uppercase.",
+        "The string expression.",
+        "This function returns a value of type VARCHAR.",
+        "UPPER supports collation specifications. This UPPER example\nspecifies collation with the tr (Turkish) locale:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

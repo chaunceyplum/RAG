@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_get_classification_result",
+    "title": "SYSTEM$GET_CLASSIFICATION_RESULT | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Enterprise Edition Feature",
+        "This feature requires Enterprise Edition or higher. To inquire about upgrading, please contact Snowflake Support.",
+        "Returns the classification result of the specified object.",
+        "The name of the table, external table, view, or materialized view containing the columns to be classified. If a database and schema are\nnot in use in the current session, the name must be fully-qualified.",
+        "The name must be specified exactly as it is stored in the database. If the name contains special characters, capitalization, or blank\nspaces, the name must be enclosed first in double-quotes and then in single quotes.",
+        "Returns a JSON object in the following format. For example:",
+        "Where:",
+        "If automatic classification is configured, contains the fully qualified name of the configuration profile that was used to generate the\nclassification results.",
+        "Provides details about each column that was classified.",
+        "Provides information about each tag and value to consider other than the recommended tag.",
+        "Provides information about each tag and value as the primary choice based on the classification process.",
+        "These values can appear in both the alternates and recommendation:",
+        "The fully-qualified name of the custom classification instance that was used to tag the classified column.",
+        "This field only appears when using a custom classification instance as the source of the tag to set on a column.",
+        "Provides one of the following values: HIGH, MEDIUM, or LOW. This value indicates the relative confidence that Snowflake\nhas based upon the column sampling process and how the column data aligns with how Snowflake classifies data.",
+        "Provides the percent of sampled cell values that match the rules for a particular category.",
+        "Provides the fields and values that refer to a geographical tag value for the\nSEMANTIC_CATEGORY tag.",
+        "Provides the privacy category tag value.",
+        "The possible values are IDENTIFIER, QUASI-IDENTIFIER and SENSITIVE.",
+        "Provides the semantic category tag value.",
+        "For possible tag values, see System tags and categories and System tags and categories.",
+        "Provides information about the tags that were applied to the column as a result of the classification process.",
+        "Provides the ratio of valid values in the sample size. Invalid values include NULL, an empty string, and a string with more than 256\ncharacters.",
+        "Return the sensitive data classification result for a table:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

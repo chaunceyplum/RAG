@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrameReader.options",
+    "title": "snowflake.snowpark.DataFrameReader.options | Snowflake Documentation",
+    "paragraphs": [
+        "Sets multiple specified options in the DataFrameReader.",
+        "This method is the same as the option() except that you can set multiple options in one call.",
+        "configs \u2013 Dictionary of the names of options (e.g. compression,\nskip_header, etc.) and their corresponding values.",
+        "Was this page helpful?"
+    ]
+}

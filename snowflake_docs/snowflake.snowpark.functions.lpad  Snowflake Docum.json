@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.lpad",
+    "title": "snowflake.snowpark.functions.lpad | Snowflake Documentation",
+    "paragraphs": [
+        "Left-pads a string with characters from another string, or left-pads a\nbinary value with bytes from another binary value.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

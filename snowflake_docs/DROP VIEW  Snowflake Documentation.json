@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-view",
+    "title": "DROP VIEW | Snowflake Documentation",
+    "paragraphs": [
+        "Removes the specified view from the current/specified schema.",
+        "CREATE VIEW , ALTER VIEW , SHOW VIEWS , DESCRIBE VIEW",
+        "Specifies the identifier for the view to drop. If the identifier contains spaces, special characters, or mixed-case characters, the\nentire string must be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "If the view identifier is not fully-qualified (in the form of db_name.schema_name.table_name or\nschema_name.table_name), the command looks for the view in the current schema for the session.",
+        "Dropped views cannot be recovered; they must be recreated.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

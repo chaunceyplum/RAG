@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrameReader.table",
+    "title": "snowflake.snowpark.DataFrameReader.table | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a Table that points to the specified table.",
+        "This method is an alias of table().",
+        "name \u2013 Name of the table to use.",
+        "Was this page helpful?"
+    ]
+}

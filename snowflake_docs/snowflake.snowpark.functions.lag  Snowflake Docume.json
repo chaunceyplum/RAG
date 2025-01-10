@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.lag",
+    "title": "snowflake.snowpark.functions.lag | Snowflake Documentation",
+    "paragraphs": [
+        "Accesses data in a previous row in the same result set without having to\njoin the table to itself.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

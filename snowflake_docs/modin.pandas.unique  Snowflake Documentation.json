@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.unique",
+    "title": "modin.pandas.unique | Snowflake Documentation",
+    "paragraphs": [
+        "Return unique values based on a hash table. Unique values are\nreturned in the order of appearance. This does NOT sort.",
+        "values (ndarray (1-d), list, bytearray, tuple, Series, Index, list-like) \u2013 Non-hashable objects like set, dict, and user defined classes are\ninvalid input.\nValues to perform computation.",
+        "",
+        "ndarray",
+        "The unique values returned as a NumPy array. See Notes.",
+        "",
+        "See also",
+        "Series.unique",
+        "Notes",
+        "Returns the unique values as a NumPy array. This includes",
+        "Datetime with Timezone",
+        "IntegerNA",
+        "See Examples section.",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

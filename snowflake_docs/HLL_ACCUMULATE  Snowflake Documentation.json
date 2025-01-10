@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/hll_accumulate",
+    "title": "HLL_ACCUMULATE | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (Cardinality Estimation) , Window function syntax and usage",
+        "Returns the HyperLogLog state at the end of aggregation.",
+        "For more information about HyperLogLog, see Estimating the Number of Distinct Values.",
+        "HLL discards its intermediate state when the final cardinality estimate is returned. In advanced use cases, such as incremental cardinality estimation during bulk loading, one may want to keep the intermediate state. The\nintermediate state can later be combined (merged) with other intermediate states, or can be exported to external tools.",
+        "In contrast to HLL, HLL_ACCUMULATE does not return a cardinality estimate. Instead, it skips the final estimation step and returns the algorithm state itself. The state is a binary of at most 4096 Bytes. For more information,\nsee Estimating the Number of Distinct Values.",
+        "HLL_COMBINE , HLL_ESTIMATE",
+        "The expression for which you want to estimate cardinality (number of\ndistinct values). This is typically a column name, but can be a more\ngeneral expression.",
+        "DISTINCT can be included as an argument, but has no effect.",
+        "This shows one step towards estimating the number of distinct postal codes in\nprovince(s) of Canada. In this step, we calculate the approximate number of\ndistinct postal codes in Manitoba and store an internal representation\nof the \u201cstate\u201d of the calculation, which we can later combine with similar\ninformation for other provinces:",
+        "Here is another example. This example shows how to use the three related functions\nHLL_ACCUMULATE, HLL_ESTIMATE, and HLL_COMBINE.",
+        "Create a simple table and data:",
+        "Create a table that contains the \u201cstate\u201d that represents the current\napproximate cardinality information for the table named sequence_demo:",
+        "Now create a second table and add data.  (In a more realistic situation,\nthe user could have loaded more data into the first table and divided the\ndata into non-overlapping sets based on the time that the data was loaded.)",
+        "Get the \u201cstate\u201d information for just the new data.",
+        "Combine the \u201cstate\u201d information for the two batches of rows:",
+        "Get the approximate cardinality of the combined set of rows:",
+        "Output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

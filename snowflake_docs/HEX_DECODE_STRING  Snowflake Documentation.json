@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/hex_decode_string",
+    "title": "HEX_DECODE_STRING | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Encoding/Decoding)",
+        "Decodes a hex-encoded string to a string.",
+        "TRY_HEX_DECODE_STRING",
+        "A hex-encoded string expression. Typically the input was created by a\ncall to HEX_ENCODE.",
+        "The returned value is a string (VARCHAR).",
+        "The following decodes a sequence of hexadecimal digits into the corresponding\nword:",
+        "The hexadecimal digits A-F can be uppercase or lowercase. The following\nstatement uses lowercase letters but produces the same result as the\npreceding statement:",
+        "This shows another example of using HEX_DECODE_STRING:",
+        "Create a table and data:",
+        "Now run a query to show that we can retrieve the data:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

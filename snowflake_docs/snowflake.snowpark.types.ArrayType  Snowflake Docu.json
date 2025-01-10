@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.types.ArrayType",
+    "title": "snowflake.snowpark.types.ArrayType | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: DataType",
+        "Array data type. This maps to the ARRAY data type in Snowflake.",
+        "Methods",
+        "fromJson(json_dict)",
+        "",
+        "from_json(json_dict)",
+        "",
+        "is_primitive()",
+        "",
+        "jsonValue()",
+        "",
+        "json_value()",
+        "",
+        "simpleString()",
+        "",
+        "simple_string()",
+        "",
+        "Was this page helpful?"
+    ]
+}

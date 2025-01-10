@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1371",
+    "title": "Dynamic tables: OPERATE privilege on upstream dynamic tables required for initial refresh | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When you create a dynamic table that depends on upstream dynamic tables, you must have the\nfollowing privileges on the upstream dynamic tables in order for the initial refresh to succeed:",
+        "Only SELECT privilege on the upstream dynamic tables is required.",
+        "You must have OPERATE privilege on the upstream dynamic tables.",
+        "If you do not have OPERATE privilege, the initial refresh will fail with the following error:",
+        "Ref: 1371",
+        "Was this page helpful?"
+    ]
+}

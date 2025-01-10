@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.testing.assertDataFrameEqual",
+    "title": "snowflake.snowpark.testing.assertDataFrameEqual | Snowflake Documentation",
+    "paragraphs": [
+        "Asserts that two Snowpark DataFrame objects are equal. This function compares both the schema and the data\nof the DataFrames. If there are differences, an AssertionError is raised with a detailed message including differences.\nThis function is useful for unit testing and validating data transformations and processing in Snowpark.",
+        "actual \u2013 The actual DataFrame to be compared.",
+        "expected \u2013 The expected DataFrame to compare against.",
+        "rtol \u2013 The relative tolerance for comparing float values. Default is 1e-5.",
+        "atol \u2013 The absolute tolerance for comparing float values. Default is 1e-8.",
+        "Examples:",
+        "Note",
+        "1. Data in a Snowpark DataFrame is unordered, so when comparing two DataFrames, this function\nsorts rows based on their values first.",
+        "2. When comparing schemas, types.IntegerType and types.DoubleType are considered different,\neven if the underlying values are equal (e.g., 2 vs 2.0).",
+        "This function or method is experimental since 1.21.0.",
+        "Was this page helpful?"
+    ]
+}

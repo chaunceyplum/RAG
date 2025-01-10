@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.PutResult.source_size",
+    "title": "snowflake.snowpark.PutResult.source_size | Snowflake Documentation",
+    "paragraphs": [
+        "The size in bytes of the source file.",
+        "Was this page helpful?"
+    ]
+}

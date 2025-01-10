@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.shape",
+    "title": "modin.pandas.Series.shape | Snowflake Documentation",
+    "paragraphs": [
+        "Return a tuple of the shape of the underlying data.",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

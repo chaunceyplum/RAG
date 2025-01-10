@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/admin-account-management",
+    "title": "Parameter management | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake provides three types of parameters that can be set for your account:",
+        "Account parameters that affect your entire account.",
+        "Session parameters that default to users and their sessions.",
+        "Object parameters that default to objects (warehouses, databases, schemas, and tables).",
+        "All parameters have default values, which can be overridden at the account level. To override default values at the account level, you must\nbe an account administrator (i.e. user granted the ACCOUNTADMIN role).",
+        "In addition, the default values for session and object parameters can be overridden at each level in the parameter hierarchy.",
+        "To see a list of the parameters and their current values for your account, as well as their default values, use the\nSHOW PARAMETERS command with the following syntax:",
+        "For example, to see a complete list of all account-level parameters:",
+        "In the output, note the value and level columns:",
+        "value specifies the current value for each parameter.",
+        "level specifies where the current value comes from. If the level column is empty for a parameter, the parameter is not\nexplicitly set and the current value is the default value.",
+        "To alter a parameter for your account, log into Snowflake as an account administrator and use the ALTER ACCOUNT\ncommand with the following syntax:",
+        "For example, to set the DATE_OUTPUT_FORMAT session parameter:",
+        "Note that the level column in the output shows the value for the parameter is currently set at the account level.",
+        "This specifies that the default display format for all dates in a session will be DD/MM/YYYY instead of YYYY-MM-DD (e.g. 23/04/2016 instead\nof 2016-04-23). Note that this date display format is only the default and can be overridden for any individual user or session.",
+        "To reset a parameter for your account back to the default, use ALTER ACCOUNT with the following syntax:",
+        "For example, to set the DATE_OUTPUT_FORMAT session parameter back to its default value:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

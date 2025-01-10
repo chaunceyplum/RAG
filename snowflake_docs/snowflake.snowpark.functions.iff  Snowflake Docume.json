@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.iff",
+    "title": "snowflake.snowpark.functions.iff | Snowflake Documentation",
+    "paragraphs": [
+        "Returns one of two specified expressions, depending on a condition.\nThis is equivalent to an if-then-else expression.",
+        "condition \u2013 A Column expression or SQL text representing the specified condition.",
+        "expr1 \u2013 A Column expression or a literal value, which will be returned\nif condition is true.",
+        "expr2 \u2013 A Column expression or a literal value, which will be returned\nif condition is false.",
+        "Examples:",
+        "Was this page helpful?"
+    ]
+}

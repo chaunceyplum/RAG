@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark-ml/reference/latest/feature_store",
+    "title": "snowflake.ml.feature_store | Snowflake Documentation",
+    "paragraphs": [
+        "Classes",
+        "Entity(name,\u00a0join_keys,\u00a0*[,\u00a0desc])",
+        "Entity encapsulates additional metadata for feature definition.",
+        "FeatureStore(session,\u00a0database,\u00a0name,\u00a0...[,\u00a0...])",
+        "FeatureStore provides APIs to create, materialize, retrieve and manage feature pipelines.",
+        "FeatureView(name,\u00a0entities,\u00a0feature_df,\u00a0*[,\u00a0...])",
+        "A FeatureView instance encapsulates a logical group of features.",
+        "Functions",
+        "setup_feature_store(session,\u00a0database,\u00a0...)",
+        "Sets up a new Feature Store including role/privilege setup.",
+        "Was this page helpful?"
+    ]
+}

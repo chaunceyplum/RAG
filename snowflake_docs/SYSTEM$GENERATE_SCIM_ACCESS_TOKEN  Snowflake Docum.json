@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_generate_scim_access_token",
+    "title": "SYSTEM$GENERATE_SCIM_ACCESS_TOKEN | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Returns a new SCIM access token that is valid for six months.",
+        "Name of the security integration where TYPE = SCIM. Note that the integration name is case-sensitive, must be uppercase, and be enclosed in single quotes.",
+        "For more information, see CREATE SECURITY INTEGRATION.",
+        "Generating a new access token does not invalidate an existing token. To invalidate an access token,\nyou must delete the entire SCIM security integration using the DROP INTEGRATION command. At that point, you can\nrecreate the security integration using the CREATE SECURITY INTEGRATION command, and then use this\nfunction to generate a new token.",
+        "The function returns the SCIM access token as a string.",
+        "The following example retrieves the SCIM access token for the specified integration:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

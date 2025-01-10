@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.grant.Securable",
+    "title": "snowflake.core.grant.Securable | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: object",
+        "Class to represent an snowflake entity that is being secured by a Privileges.",
+        "Attributes",
+        "String that specifies the name of resource that is being secured by a privilege.",
+        "This is the scope of the resource that is being secured by a privilege.",
+        "String that specifies the type of resource that is being secured by a privilege.",
+        "Was this page helpful?"
+    ]
+}

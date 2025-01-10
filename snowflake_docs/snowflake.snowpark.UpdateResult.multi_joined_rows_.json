@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.UpdateResult.multi_joined_rows_updated",
+    "title": "snowflake.snowpark.UpdateResult.multi_joined_rows_updated | Snowflake Documentation",
+    "paragraphs": [
+        "The number of multi-joined rows modified. None if ERROR_ON_NONDETERMINISTIC_UPDATE is enabled.",
+        "Was this page helpful?"
+    ]
+}

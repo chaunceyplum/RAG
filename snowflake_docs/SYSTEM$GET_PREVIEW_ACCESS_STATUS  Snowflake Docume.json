@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_get_preview_access_status",
+    "title": "SYSTEM$GET_PREVIEW_ACCESS_STATUS | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Determine if access to all preview features is enabled or disabled.",
+        "See also:",
+        "SYSTEM$DISABLE_PREVIEW_ACCESS, SYSTEM$ENABLE_PREVIEW_ACCESS",
+        "None.",
+        "Returns a VARCHAR status message representing whether preview features are enabled or disabled as shown below:",
+        "Enabled:",
+        "Disabled:",
+        "The SYSTEM$GET_PREVIEW_ACCESS_STATUS function can be executed by any user in the account and does not require special privileges.",
+        "Display the current state of preview features.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/dotnet/dotnet-driver",
+    "title": ".NET Driver | Snowflake Documentation",
+    "paragraphs": [
+        "Note",
+        "This driver currently does not support GCP regional endpoints. Please ensure that any workloads using through this driver do not require support for regional endpoints on GCP. If you have questions about this, please contact Snowflake Support.",
+        "The Snowflake .NET driver provides an interface to the Microsoft .NET open source software framework for developing applications. The driver was developed using Visual Studio.",
+        "For more information, see the .NET website.",
+        "For complete installation and usage instructions, as well as developer notes and the source code, see the GitHub Snowflake .NET driver repo.",
+        "After configuring your driver, you can evaluate and troubleshoot your network connectivity to Snowflake using SnowCD.",
+        "You can use SnowCD during the initial configuration process and on-demand at any time to evaluate and troubleshoot your network connection to Snowflake.",
+        "Important",
+        "Beginning with Snowflake version 8.24, network administrators have the option to require multi-factor authentication (MFA) for all connections to Snowflake. If your administrator decides to enable this feature, you must configure your client or driver to use MFA when connecting to Snowflake. For more information, see the following resources:",
+        "8.24 release notes",
+        "Multi-factor authentication (MFA)",
+        "Troubleshooting service users authentication issues with Snowflake MFA Knowledge Base article",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

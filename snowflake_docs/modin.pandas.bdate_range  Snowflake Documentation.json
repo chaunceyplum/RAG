@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.bdate_range",
+    "title": "modin.pandas.bdate_range | Snowflake Documentation",
+    "paragraphs": [
+        "Return a fixed frequency DatetimeIndex with business day as the default.",
+        "start (str or datetime-like, default None) \u2013 Left bound for generating dates.",
+        "end (str or datetime-like, default None) \u2013 Right bound for generating dates.",
+        "periods (int, default None) \u2013 Number of periods to generate.",
+        "freq (str, Timedelta, datetime.timedelta, or DateOffset, default 'B') \u2013 Frequency strings can have multiples, e.g. \u20185h\u2019. The default is\nbusiness daily (\u2018B\u2019).",
+        "tz (str or None) \u2013 Time zone name for returning localized DatetimeIndex, for example\nAsia/Beijing.",
+        "normalize (bool, default False) \u2013 Normalize start/end dates to midnight before generating date range.",
+        "name (str, default None) \u2013 Name of the resulting DatetimeIndex.",
+        "weekmask (str or None, default None) \u2013 Weekmask of valid business days, passed to numpy.busdaycalendar,\nonly used when custom frequency strings are passed.  The default\nvalue None is equivalent to \u2018Mon Tue Wed Thu Fri\u2019.",
+        "holidays (list-like or None, default None) \u2013 Dates to exclude from the set of valid business days, passed to\nnumpy.busdaycalendar, only used when custom frequency strings\nare passed.",
+        "inclusive ({\"both\", \"neither\", \"left\", \"right\"}, default \"both\") \u2013",
+        "Include boundaries; Whether to set each bound as closed or open.",
+        "New in version 1.4.0.",
+        "",
+        "**kwargs \u2013 For compatibility. Has no effect on the result.",
+        "DatetimeIndex",
+        "Notes",
+        "Of the four parameters: start, end, periods, and freq,\nexactly three must be specified.  Specifying freq is a requirement\nfor bdate_range.  Use date_range if specifying freq is not\ndesired.",
+        "To learn more about the frequency strings, please see this link.",
+        "Examples",
+        "Note how the two weekend days are skipped in the result.",
+        "Was this page helpful?"
+    ]
+}

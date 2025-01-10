@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/begin",
+    "title": "BEGIN | Snowflake Documentation",
+    "paragraphs": [
+        "Begins a transaction in the current session.",
+        "START TRANSACTION is a synonym for BEGIN.",
+        "COMMIT , ROLLBACK , SHOW TRANSACTIONS , DESCRIBE TRANSACTION",
+        "Optional keywords that provide compatibility with other database systems.",
+        "Optional string that assigns a name to the transaction. A name helps identify a transaction, but is not required and does not need to be unique.",
+        "All transactions have a system-generated internal ID. The transaction ID is a signed 64-bit (long) integer. The range of values is\n-9,223,372,036,854,775,808 (-2 63) to 9,223,372,036,854,775,807 (2 63 - 1).",
+        "If you specify a name for a transaction, the NAME keyword is required.",
+        "If a name is not specified, a system-generated name is assigned to the transaction.",
+        "To complete a transaction, a COMMIT or ROLLBACK command must be explicitly executed. Until one of these commands is executed, the transaction\nremains open.",
+        "When a SQL statement queries a stream within an explicit transaction, the stream is queried at the stream advance point (i.e. the timestamp)\nwhen the transaction began rather than when the statement was run. This behavior pertains both to DML statements and\nCREATE TABLE \u2026 AS SELECT (CTAS) statements that populate a new table with rows from an existing stream.",
+        "If two BEGIN statements in a row are executed (within the same scope), the second one is ignored. For\nexample, in the following code, the second and third BEGINs have no effect; the existing open transaction continues.",
+        "The rules can be more complex if you are using\nautonomous scoped transactions and stored procedures.",
+        "Note",
+        "These examples do not include the necessary commands for completing the transactions. For examples of complete transactions, see COMMIT or ROLLBACK.",
+        "Begin a transaction:",
+        "Note the system-assigned name, 56cb9163-77a3-4223-b3e0-aa24a20540a3, for the transaction.",
+        "Begin a transaction with a specified name:",
+        "This example is the same as the previous example, but uses START TRANSACTION instead of BEGIN:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

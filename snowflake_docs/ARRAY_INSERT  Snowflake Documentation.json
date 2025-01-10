@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/array_insert",
+    "title": "ARRAY_INSERT | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Array/Object)",
+        "Returns an array containing all elements from the source array as well as the new element.",
+        "ARRAY_APPEND , ARRAY_PREPEND",
+        "The source array.",
+        "A (zero-based) position in the source array. The new element is inserted at this position. The original element from this position (if any) and all subsequent elements (if any) are shifted by\none position to the right in the resulting array (i.e. inserting at position 0 has the same effect as using ARRAY_PREPEND).",
+        "A negative position is interpreted as an index from the back of the array (e.g. -1 results in insertion before the last element in the array).",
+        "The element to be inserted. The new element is located at position pos. The relative order of the other elements from the source array is preserved.",
+        "The data type of the returned value is ARRAY.",
+        "When you pass a structured array to the function, the function returns a structured\narray of the same type.",
+        "If array is a structured ARRAY, the type of the new element must\nbe coercible to the type of the ARRAY.",
+        "If the absolute value of pos exceeds the number of elements in array, additional empty elements are inserted between the new element and the elements from the source array.",
+        "To append or prepend elements to an array, you should use ARRAY_APPEND or ARRAY_PREPEND instead.",
+        "This shows a simple example of inserting into an array:",
+        "This shows an insert that uses an index larger than the number of existing elements in the array.",
+        "This shows an insert that uses a negative index.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

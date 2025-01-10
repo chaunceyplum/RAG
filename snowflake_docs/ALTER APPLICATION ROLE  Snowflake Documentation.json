@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/alter-application-role",
+    "title": "ALTER APPLICATION ROLE | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "The Snowflake Native App Framework is generally available on supported cloud platforms. For additional information, see\nSupport for private connectivity, VPS, and government regions.",
+        "Modifies the properties for an existing application role.",
+        "CREATE APPLICATION ROLE, GRANT APPLICATION ROLE,\nREVOKE APPLICATION ROLE, SHOW APPLICATION ROLES",
+        "Specifies the identifier for the application role. If the identifier contains spaces or\nspecial characters, the entire string must be enclosed in double quotes. Identifiers enclosed\nin double quotes are also case-sensitive.",
+        "Specifies the new identifier for the application role. The identifier must be unique\nfor within the application.",
+        "For more details, see Identifier requirements.",
+        "Note that when specifying the fully-qualified name of the application role, you cannot specify a\ndifferent application. The name of the application, application_name, must remain the same.\nOnly the application_role_name can change during a rename operation.",
+        "Specifies the properties to set for the application role:",
+        "Adds a comment or overwrites an existing comment for the application role.",
+        "Specifies the properties to unset for the application role, which resets them to the defaults.",
+        "COMMENT",
+        "This command can only be run in the context of an application created using the Native\nApps Framework.",
+        "Only the application role owner (i.e. the role with the OWNERSHIP privilege on the application\nrole), or a higher role, can run this command.",
+        "Renaming an application role is only allowed within the same application.",
+        "Regarding metadata:",
+        "Attention",
+        "Customers should ensure that no personal data (other than for a User object), sensitive data, export-controlled data, or other regulated data is entered as metadata when using the Snowflake service. For more information, see Metadata fields in Snowflake.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

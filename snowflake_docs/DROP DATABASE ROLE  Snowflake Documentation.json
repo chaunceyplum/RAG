@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-database-role",
+    "title": "DROP DATABASE ROLE | Snowflake Documentation",
+    "paragraphs": [
+        "Removes the specified database role from the system.",
+        "Tip",
+        "In addition to SQL, you can also use other interfaces, such as Snowflake REST APIs, Snowflake Python APIs, and Snowflake CLI.\nSee Alternate interfaces.",
+        "CREATE DATABASE ROLE , ALTER DATABASE ROLE , SHOW DATABASE ROLES",
+        "Specifies the identifier (i.e. name) for the database role; must be unique in the database in which the role is created.",
+        "The identifier must start with an alphabetic character and cannot contain spaces or special characters unless the entire identifier\nstring is enclosed in double quotes (e.g. \"My object\"). Identifiers enclosed in double quotes are also case-sensitive.",
+        "If the identifier is not fully qualified (in the form of db_name.database_role_name, the command looks for the database role\nin the current database for the session.",
+        "Dropped database roles cannot be recovered; they must be recreated.",
+        "Ownership of any objects owned by the dropped database role is transferred to the role that executes the DROP DATABASE ROLE\ncommand. To transfer ownership of each of these objects to a different database role, use\nGRANT OWNERSHIP \u2026 COPY CURRENT GRANTS.",
+        "If a database role has a future privilege as a grantor or grantee, the database role can only be dropped by a user with a role\nthat has the MANAGE GRANTS privilege.",
+        "All current and future grants that name the database role as either the grantor or the grantee are removed when the database role is\ndropped.",
+        "Query the GRANTS_TO_ROLES Account Usage view to retrieve the privilege grants\nthat name a specified database role as the grantor or grantee:",
+        "The following example retrieves the grants where d1.dr1 is the grantor or grantee:",
+        "Snowflake REST APIs",
+        "Delete a database role endpoint",
+        "Snowflake Python APIs",
+        "database_role.DatabaseRoleResource.drop method",
+        "Snowflake CLI",
+        "Not supported",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

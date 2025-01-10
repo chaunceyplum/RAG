@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/as_time",
+    "title": "AS_TIME | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Cast)",
+        "Casts a VARIANT value to a TIME value. This function does not convert values of\nother data types, including timestamps, to TIME values.",
+        "AS_<object_type>",
+        "AS_DATE , AS_TIMESTAMP_*",
+        "An expression that evaluates to a value of type VARIANT.",
+        "The function returns a value of type TIME or NULL:",
+        "If the type of the value in the variant_expr argument is TIME, the function returns a value of type TIME.",
+        "If the type of the value in the variant_expr argument doesn\u2019t match the type of the output\nvalue, the function returns NULL.",
+        "If the variant_expr argument is NULL, the function returns NULL.",
+        "Create a table and load data into it:",
+        "Use the AS_TIME function in a query to cast a VARIANT value to a TIME value:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

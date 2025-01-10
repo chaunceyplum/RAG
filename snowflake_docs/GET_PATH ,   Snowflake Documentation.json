@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/get_path",
+    "title": "GET_PATH , : | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Extraction)",
+        "Extracts a value from semi-structured data using a path name.",
+        "GET_PATH is a variation of GET; it takes a VARIANT, OBJECT, or ARRAY column name as the first argument, and extracts the\nvalue of the field or the element according to the path name provided as the second argument.",
+        "An expression that evaluates to an OBJECT, ARRAY, or\nVARIANT column .",
+        "An expression that evaluates to a VARCHAR. This specifies the path to the field or element that you want to extract.",
+        "For structured types, you must specify a string constant.",
+        "The returned value is the specified element of the ARRAY, or the value that corresponds to the specified key of a key-value\npair in the OBJECT.",
+        "If the input object is a semi-structured OBJECT, ARRAY, or VARIANT, the function returns a VARIANT. The data type is VARIANT\nbecause:",
+        "In an ARRAY, each element is of type VARIANT.",
+        "In an OBJECT, the value in each key-value pair is of type VARIANT.",
+        "If the input object is a structured OBJECT, structured ARRAY, or MAP,\nthe function returns a value of the type specified for the object.",
+        "For example, if the type of the input object is ARRAY(NUMBER), the function returns a NUMBER.",
+        "GET_PATH is equivalent to a chain of GET functions. It returns NULL if the path name does not correspond to any element.",
+        "The path name syntax is standard JavaScript notation; it consists of a concatenation of field names (identifiers) preceded by periods (e.g. .) and index operators (e.g. [<index>]):",
+        "The first field name does not require the leading period to be specified.",
+        "The index values in the index operators can be non-negative decimal numbers (for arrays) or single or double-quoted string literals (for object fields).",
+        "For more details, see Querying Semi-structured Data.",
+        "GET_PATH also supports a syntactic shortcut using the : character as the extraction operator separating the column name (which can contain periods) from the path specifier.",
+        "To maintain syntactic consistency, the path notation also supports SQL-style double-quoted identifiers, and use of : as path separators.",
+        "When the : operator is used, any integer or string sub-expressions can be included within [].",
+        "Extract the field name from the vartab table:",
+        "This is the same as the first example, but uses : as the extraction operator:",
+        "The extraction operator : is left-associative. In the example above, using v:attr[0]:name has the same effect as the left-hand :, producing a variant value (containing\nan object) from which the right-hand extraction operator : extracts the value of the name field.",
+        "This is the same as the first example, but uses SQL-style double-quoted identifiers and : as the path separator:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

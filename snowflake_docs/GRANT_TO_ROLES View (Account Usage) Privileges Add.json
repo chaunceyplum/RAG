@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_03/bcr-1040",
+    "title": "GRANT_TO_ROLES View (Account Usage): Privileges Added to View | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of the GRANTS_TO_ROLES Account Usage view in the shared SNOWFLAKE database behaves as follows:",
+        "Grants to a role that include the account-level APPLY MASKING POLICY or APPLY ROW ACCESS policy privilege are not recorded in this view.",
+        "Grants to a role that include the account-level APPLY MASKING POLICY or APPLY ROW ACCESS policy privilege are recorded in this view.",
+        "Ref: 1040",
+        "Was this page helpful?"
+    ]
+}

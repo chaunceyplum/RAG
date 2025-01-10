@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/udf",
+    "title": "User-Defined Functions | Snowflake Documentation",
+    "paragraphs": [
+        "User-defined functions (UDFs) in Snowpark. Please see Python UDFs for details.\nFurthermore, there is vectorized UDF (Please see Python UDF Batch API for details). Compared to the default row-by-row processing pattern of a normal UDF, which sometimes is\ninefficient, a vectorized UDF allows vectorized operations on a dataframe, with the input as a pandas DataFrame or pandas Series. In a\nvectorized UDF, you can operate on a batches of rows by handling pandas DataFrame or pandas Series.",
+        "The potential for better performance if your Python code operates efficiently on batches of rows.",
+        "Less transformation logic is required if you are calling into libraries that operate on pandas DataFrames or pandas arrays.",
+        "Refer to UDFRegistration for sample code on how to create and use regular and vectorized UDF\u2019s using Snowpark Python API.",
+        "Classes",
+        "UserDefinedFunction(func,\u00a0return_type,\u00a0...)",
+        "Encapsulates a user defined lambda or function that is returned by udf(), UDFRegistration.register() or UDFRegistration.register_from_file().",
+        "UDFRegistration(session)",
+        "Provides methods to register lambdas and functions as UDFs in the Snowflake database.",
+        "Methods",
+        "describe(udf_obj)",
+        "Returns a DataFrame that describes the properties of a UDF.",
+        "register(func[,\u00a0return_type,\u00a0input_types,\u00a0...])",
+        "Registers a Python function as a Snowflake Python UDF and returns the UDF.",
+        "register_from_file(file_path,\u00a0func_name[,\u00a0...])",
+        "Registers a Python function as a Snowflake Python UDF from a Python or zip file, and returns the UDF.",
+        "Attributes",
+        "func",
+        "The Python function or a tuple containing the Python file path and the function name.",
+        "name",
+        "The UDF name.",
+        "Was this page helpful?"
+    ]
+}

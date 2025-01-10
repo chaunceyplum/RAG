@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/data-load-bulk-ts",
+    "title": "Troubleshooting bulk data loads | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes a methodical approach to troubleshooting issues with bulk data loads.",
+        "Query the load activity history for a table. For information, see COPY_HISTORY. The STATUS column indicates whether a particular set of files was loaded, partially loaded, or failed to load. The FIRST_ERROR_MESSAGE column provides a reason when an attempt partially loaded or failed.",
+        "Note that if a set of files has multiple issues, the FIRST_ERROR_MESSAGE column only indicates the first error encountered. To view all errors in the files, see Step 2: Validating the Data Load for instructions.",
+        "The VALIDATION_MODE copy option instructs a COPY statement to validate the data to be loaded and return results based on the validation option specified. No data is loaded when this copy option is specified. For more information about the copy option, see COPY INTO <table>.",
+        "Execute a COPY statement with the VALIDATION_MODE copy option set to RETURN_ALL_ERRORS. In the statement, reference the set of files you had attempted to load.",
+        "The following example validates a set of files that contain errors. To facilitate analysis of the errors, a COPY INTO <location> statement then unloads the problematic records into a text file so they could be analyzed and fixed in the original data files. The statement queries the RESULT_SCAN table function to retrieve the records. Note that the statements in this section must be run in succession in order to retrieve the applicable records using the LAST_QUERY_ID function.",
+        "This error can occur when the association between the external stage and the storage\nintegration linked to the stage has been broken. This happens when the storage integration\nobject has been recreated (using\nCREATE OR REPLACE STORAGE INTEGRATION).\nA stage links to a storage integration using a hidden ID rather than the name of the storage\nintegration. Behind the scenes, the CREATE OR REPLACE syntax drops the object and recreates\nit with a different hidden ID.",
+        "If you must recreate a storage integration after it has been linked to one or more stages,\nyou must reestablish the association between each stage and the storage integration by\nexecuting ALTER STAGE\nstage_name SET STORAGE_INTEGRATION = storage_integration_name, where:",
+        "stage_name is the name of the stage.",
+        "storage_integration_name is the name of the storage integration.",
+        "Table designers may add a timestamp column that inserts the current timestamp as the default value as records are loaded into a table. The intent is to capture the time when each record was loaded into the table; however, the timestamps are earlier than the LOAD_TIME column values returned by the COPY_HISTORY function (Information Schema) or the COPY_HISTORY view (Account Usage). The reason is, CURRENT_TIMESTAMP is evaluated when the load operation is compiled in cloud services rather than when the record is inserted into the table (i.e. when the transaction for the load operation is committed).",
+        "It is recommended to include and query METADATA$START_SCAN_TIME instead, which provides a more accurate representation of record loading.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_get_iceberg_table_information",
+    "title": "SYSTEM$GET_ICEBERG_TABLE_INFORMATION | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Returns the location of the root metadata file and status of the latest snapshot for an Apache Iceberg\u2122 table.",
+        "The SYSTEM$GET_ICEBERG_TABLE_INFORMATION function works differently according to table type:",
+        "For an Iceberg table that uses Snowflake as the catalog, calling the function generates metadata for data manipulation language (DML)\noperations or other table updates that have occurred since Snowflake last generated metadata for the table.",
+        "If there are no updates, the function returns the location of the latest metadata file,\nbut does not generate new metadata.",
+        "For an Iceberg table that is not managed by Snowflake, the function returns information about the latest refreshed snapshot.",
+        "The name of the Iceberg table for which you want to retrieve information. The table name is a string, so it must be enclosed in single\nquotes.",
+        "If the Iceberg table name is fully qualified, such as '<db>.<schema>.<iceberg_table_name>',\nthe entire name must be enclosed in single quotes, including the database and schema.",
+        "If the Iceberg table name is case-sensitive or includes any special characters or spaces,\ndouble quotes are required to process the case/characters.\nThe double quotes must be enclosed within the single quotes, for example, '\"<case_sensitive_iceberg_table_name>\"'.",
+        "The function returns a JSON object containing the following name/value pairs:",
+        "{\u201cmetadataLocation\u201d:\u201d<value>\u201d,\u201dstatus\u201d:\u201d<value>\u201d}",
+        "Where:",
+        "Location of the root metadata file updated or retrieved by the function.",
+        "Status of the operation. This field returns a success or failure message.",
+        "Calling this function requires a role that has the OWNERSHIP privilege on the Iceberg table.",
+        "Calling this function isn\u2019t supported for Iceberg tables that use S3-compatible storage.",
+        "Generate a snapshot for the Iceberg table it1 in the schema db1.schema1:",
+        "Output:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

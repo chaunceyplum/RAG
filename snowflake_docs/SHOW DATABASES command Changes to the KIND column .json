@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/un-bundled/bcr-show-databases-kind-column-output",
+    "title": "SHOW DATABASES command: Changes to the KIND column output (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "The output of the SHOW DATABASES command will change as follows:",
+        "The value of the KIND column for the SNOWFLAKE database is IMPORTED DATABASE.",
+        "The value of the KIND column for the SNOWFLAKE database will be APPLICATION.",
+        "Ref: n/a",
+        "Was this page helpful?"
+    ]
+}

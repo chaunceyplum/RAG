@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.exceptions.SnowparkSQLException",
+    "title": "snowflake.snowpark.exceptions.SnowparkSQLException | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SnowparkClientException",
+        "Exception for errors related to the executed SQL statement that was generated\nfrom the Snowflake plan.",
+        "Includes all error codes in range 13XX (where XX is 0-9).",
+        "This exception is specifically raised for error codes: 1300, 1304.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.bround",
+    "title": "snowflake.snowpark.functions.bround | Snowflake Documentation",
+    "paragraphs": [
+        "Rounds the number using HALF_TO_EVEN option. The HALF_TO_EVEN rounding mode rounds the given decimal value to the specified scale (number of decimal places) as follows:\n* If scale is greater than or equal to 0, round to the specified number of decimal places using half-even rounding. This rounds towards the nearest value with ties (equally close values) rounding to the nearest even digit.\n* If scale is less than 0, round to the integral part of the decimal. This rounds towards 0 and truncates the decimal places.",
+        "Note",
+        "1. The data type of the expression must be one of the data types for a fixed-point number.",
+        "Data types for floating point numbers (e.g. FLOAT) are not supported with this argument.",
+        "If the expression data type is not supported, the expression must be explicitly cast to decimal before calling.",
+        "Example",
+        "Was this page helpful?"
+    ]
+}

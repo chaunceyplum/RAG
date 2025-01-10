@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-task",
+    "title": "DROP TASK | Snowflake Documentation",
+    "paragraphs": [
+        "Removes a task from the current/specified schema.",
+        "CREATE TASK , ALTER TASK , SHOW TASKS , DESCRIBE TASK",
+        "Specifies the identifier for the task to drop. If the identifier contains spaces, special characters, or mixed-case characters, the\nentire string must be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive\n(e.g. \"My Object\").",
+        "If the task identifier is not fully-qualified (in the form of db_name.schema_name.task_name or\nschema_name.task_name), the command looks for the task in the current schema for the session.",
+        "When a task is dropped, any current run of the task (i.e. a run with an EXECUTING state in the\nTASK_HISTORY output) is completed. To abort the run of the specified task, execute the\nSYSTEM$USER_TASK_CANCEL_ONGOING_EXECUTIONS function.",
+        "The root task in a task graph must be suspended before any task in the task graph is dropped.",
+        "A standalone task can be dropped by the task owner (i.e. the role that has the OWNERSHIP privilege on the task) or a higher role\nwithout first suspending the task.",
+        "If a predecessor task in a task graph is dropped, then all former child tasks that identified this task as the predecessor become either\nstandalone tasks or root tasks, depending on whether other tasks identify these former child tasks as their predecessor. These former\nchild tasks are suspended by default and must be resumed manually.",
+        "Drop a task:",
+        "Drop the task again, but don\u2019t raise an error if the task does not exist:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

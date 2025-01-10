@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.unique",
+    "title": "modin.pandas.Series.unique | Snowflake Documentation",
+    "paragraphs": [
+        "Return unique values of Series object.",
+        "Uniques are returned in order of appearance. Hash table-based unique,\ntherefore does NOT sort.",
+        "The unique values returned as a NumPy array. See Notes.",
+        "ndarray",
+        "See also",
+        "Return Series with duplicate values removed.",
+        "Top-level unique method for any 1-d array-like object.",
+        "Return Index with unique values from an Index object.",
+        "Notes",
+        "Returns the unique values as a NumPy array. This includes",
+        "Datetime with Timezone",
+        "IntegerNA",
+        "See Examples section.",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

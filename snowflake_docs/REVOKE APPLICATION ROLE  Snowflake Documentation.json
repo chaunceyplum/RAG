@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/revoke-application-role",
+    "title": "REVOKE APPLICATION ROLE | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to all accounts.",
+        "Revokes an application role from an account role or another application role.",
+        "ALTER APPLICATION ROLE, CREATE APPLICATION ROLE, GRANT APPLICATION ROLE,\nSHOW APPLICATION ROLES",
+        "Specifies the identifier for the application role to revoke. If the identifier contains spaces or special\ncharacters, the entire string must be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Revokes the application role from the specified account role.",
+        "Revokes the role from the specified application role.",
+        "Revokes the role from the specified application.",
+        "An application role may only be revoked from another application role within the context of\nthe installed application, for example within the application setup script.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

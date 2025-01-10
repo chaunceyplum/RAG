@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_01/bcr-1453",
+    "title": "Versioned schemas: Disallow policy assignments across schemas | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of versioned schemas, masking policies, and row access policies in a Snowflake Native App is as follows:",
+        "A policy assignment can occur when you create a:",
+        "Policy in the versioned schema and assign the policy to a table or view in a different schema.",
+        "Policy in a non-versioned schema and assign the policy to a table or view in a versioned schema.",
+        "Table or view in the versioned schema and assign a policy to the table or view when the policy exists in a non-versioned schema.",
+        "Table or view in a non-versioned schema and assign a policy to the tables or views when the policy exists in a versioned schema.",
+        "The policy assignment fails with the following error message:",
+        "To prevent the error message, the Snowflake Native App provider should update the setup script to ensure that the policy is set on\nobjects within the same schema as the policy when a versioned schema contains either the policy or the object on which the policy is set.\nIf a non-versioned schema contains either the policy or the object on which the policy is set, it is not necessary to update the setup\nscript.",
+        "If you are a consumer of the Snowflake Native App and you see this error message after installing the app, ask the provider to update\ntheir set up script.",
+        "Ref: 1453",
+        "Was this page helpful?"
+    ]
+}

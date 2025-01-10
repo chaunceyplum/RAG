@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.use_secondary_roles",
+    "title": "snowflake.snowpark.Session.use_secondary_roles | Snowflake Documentation",
+    "paragraphs": [
+        "Specifies the active/current secondary roles for the session.\nThe currently-active secondary roles set the context that determines whether\nthe current user has the necessary privileges to perform SQL actions.",
+        "roles \u2013 \u201call\u201d or \u201cnone\u201d. None means \u201cnone\u201d.",
+        "References: Snowflake command USE SECONDARY ROLES.",
+        "Was this page helpful?"
+    ]
+}

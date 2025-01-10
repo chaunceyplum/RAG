@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/custom_classifier",
+    "title": "CUSTOM_CLASSIFIER (SNOWFLAKE.DATA_PRIVACY) | Snowflake Documentation",
+    "paragraphs": [
+        "Enterprise Edition Feature",
+        "Custom Classification requires Enterprise Edition (or higher). To inquire about upgrading, please contact Snowflake Support.",
+        "Custom sensitive data classification enables data engineers to extend their data classification capabilities based on their own\nknowledge of their data.",
+        "CREATE CUSTOM_CLASSIFIER",
+        "DROP CUSTOM_CLASSIFIER",
+        "SHOW CUSTOM_CLASSIFIER",
+        "custom_classifier!ADD_REGEX",
+        "custom_classifier!DELETE_CATEGORY",
+        "custom_classifier!LIST",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

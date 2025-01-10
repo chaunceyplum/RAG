@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/try_cast",
+    "title": "TRY_CAST | Snowflake Documentation",
+    "paragraphs": [
+        "Conversion functions",
+        "A special version of CAST , :: that is available for a subset of data type conversions. It performs the same operation (i.e. converts a value of one data type into another data type), but returns a NULL value instead of\nraising an error when the conversion can not be performed.",
+        "For more information, see Error-handling conversion functions.",
+        "Only works for string expressions.",
+        "target_data_type must be one of the following:",
+        "VARCHAR (or any of its synonyms)",
+        "NUMBER (or any of its synonyms)",
+        "DOUBLE",
+        "BOOLEAN",
+        "DATE",
+        "TIME",
+        "TIMESTAMP, TIMESTAMP_LTZ, TIMESTAMP_NTZ, or TIMESTAMP_TZ",
+        "The following code samples show how to use the TRY_CAST function with\nvalid and invalid values:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

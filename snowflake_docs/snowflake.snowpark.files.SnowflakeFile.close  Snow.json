@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.files.SnowflakeFile.close",
+    "title": "snowflake.snowpark.files.SnowflakeFile.close | Snowflake Documentation",
+    "paragraphs": [
+        "In UDF and Stored Procedures, the close func closes the IO Stream included in the SnowflakeFile.",
+        "Was this page helpful?"
+    ]
+}

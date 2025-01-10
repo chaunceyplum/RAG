@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/booland",
+    "title": "BOOLAND | Snowflake Documentation",
+    "paragraphs": [
+        "Conditional expression functions",
+        "Computes the Boolean AND of two numeric expressions. In accordance with Boolean semantics:",
+        "Non-zero values (including negative numbers) are regarded as True.",
+        "Zero values are regarded as False.",
+        "As a result, the function returns:",
+        "True if both expressions are non-zero.",
+        "False if both expressions are zero or one expression is zero and the other expression is non-zero or NULL.",
+        "NULL if both expressions are NULL or one expression is NULL and the other expression is non-zero.",
+        "BOOLNOT , BOOLOR , BOOLXOR",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

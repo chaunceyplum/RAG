@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.isin",
+    "title": "modin.pandas.Series.isin | Snowflake Documentation",
+    "paragraphs": [
+        "Whether elements in BasePandasDataset are contained in values.",
+        "Was this page helpful?"
+    ]
+}

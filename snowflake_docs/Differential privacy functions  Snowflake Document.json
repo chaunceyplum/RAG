@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions-differential-privacy",
+    "title": "Differential privacy functions | Snowflake Documentation",
+    "paragraphs": [
+        "The following functions are associated with differential privacy.",
+        "Function",
+        "Description",
+        "DP_INTERVAL_LOW",
+        "Returns the lower bound of the noise interval.",
+        "DP_INTERVAL_HIGH",
+        "Returns the upper bound of the noise interval.",
+        "ESTIMATE_REMAINING_DP AGGREGATES",
+        "Returns the estimated remaining number of aggregation function calls in\nthe current user\u2019s privacy budget.",
+        "Was this page helpful?"
+    ]
+}

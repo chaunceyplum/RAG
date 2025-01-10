@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_03/bcr-991",
+    "title": "SESSIONS View (Account Usage): New Column in View | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of the SESSIONS Account Usage view in the shared SNOWFLAKE database behaves as follows:",
+        "The view does not include the CLOSED_REASON column.",
+        "The view includes the CLOSED_REASON column as the last column in the view. The column contains one of the following values to indicate why the Snowflake session closes:",
+        "UNKNOWN",
+        "DROP_USER",
+        "LOGOUT",
+        "FORCED_LOGOUT",
+        "ABANDONED",
+        "OAUTH_CRITICAL_CHANGE_INTEGRATION",
+        "DROP_ACCOUNT",
+        "OAUTH_CONSENT_REVOKED",
+        "TASK_COMPLETED",
+        "SFC_FORCED_LOGOUT",
+        "Regarding logouts, note the following:",
+        "FORCED_LOGOUT refers to an account administrator in your Snowflake account forcing a user to logout.",
+        "SFC_FORCED_LOGOUT refers to a Snowflake administrator (e.g. Support engineer) forcing a user to logout.",
+        "Ref: 991",
+        "Was this page helpful?"
+    ]
+}

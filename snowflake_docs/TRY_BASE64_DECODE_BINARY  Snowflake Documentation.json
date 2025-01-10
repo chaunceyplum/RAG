@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/try_base64_decode_binary",
+    "title": "TRY_BASE64_DECODE_BINARY | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Encoding/Decoding)",
+        "A special version of BASE64_DECODE_BINARY that\nreturns a NULL value if an error occurs during decoding.",
+        "The base64-encoded string to convert to BINARY data type.",
+        "A string consisting of up to three ASCII characters:",
+        "The first two characters in the string specify the last two characters (indexes 62 and 63) in the alphabet used to encode the input:",
+        "A to Z (indexes 0-25).",
+        "a to z (indexes 26-51).",
+        "0 to 9 (indexes 52-61).",
+        "+ and / (indexes 62, 63).",
+        "Defaults: + and /",
+        "The third character in the string specifies the character used for padding.",
+        "Default: =",
+        "This returns a BINARY value. The value can be inserted into a column of\ntype BINARY, for example.",
+        "For more information about base64 format, see base64.",
+        "This shows how to use the function TRY_BASE64_DECODE_BINARY.  The function\nis used in the INSERT statement to decode a base64-encoded string\ninto a BINARY field; the function is not used in the SELECT\nstatement.",
+        "Create a table and insert data:",
+        "Now run a query to show that we can retrieve the data intact:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

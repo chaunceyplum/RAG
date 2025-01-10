@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/budget/methods/get_notification_mute_flag",
+    "title": "<budget_name>!GET_NOTIFICATION_MUTE_FLAG | Snowflake Documentation",
+    "paragraphs": [
+        "View the status of the notification mute flag for a budget. If the mute\nflag is set to TRUE, no notifications are sent about the budget\u2019s spending limit.",
+        "<budget_name>!GET_NOTIFICATION_EMAIL,\n<budget_name>!GET_NOTIFICATION_INTEGRATION_NAME,\n<budget_name>!SET_EMAIL_NOTIFICATIONS,\n<budget_name>!SET_NOTIFICATION_MUTE_FLAG",
+        "TRUE if notifications are disabled.",
+        "FALSE if notifications are enabled.",
+        "The following minimum privileges and roles are required to view results for custom budgets:",
+        "Any instance role for the budget instance.",
+        "USAGE privilege on the database and schema that contains the budget instance.",
+        "The following role is required to view results for the account budget:",
+        "Any application role for the account budget.",
+        "For more information, see Budgets roles and privileges.",
+        "Calling this method does not return the object. Because of this, you can\u2019t use method chaining to call another method on the\nreturn value of this method. Instead, call each method in a separate SQL statement.",
+        "View the state of the notification mute flag for my_budget in schema budget_db.budget_schema:",
+        "View the state of the notification mute flag for the account budget:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

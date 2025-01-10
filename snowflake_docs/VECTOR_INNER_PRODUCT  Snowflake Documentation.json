@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/vector_inner_product",
+    "title": "VECTOR_INNER_PRODUCT | Snowflake Documentation",
+    "paragraphs": [
+        "Vector similarity functions",
+        "Computes the inner product of two vectors.",
+        "The inner product (also known as the dot or scalar product) multiplies two vectors. The result represents the combined direction\nof the two vectors. Similar vectors result in larger inner products than dissimilar ones.",
+        "VECTOR_COSINE_SIMILARITY , VECTOR_L1_DISTANCE , VECTOR_L2_DISTANCE , Vector Embeddings",
+        "First VECTOR value.",
+        "Second VECTOR value.",
+        "Returns a VECTOR that is the inner product of the two vectors given as inputs.",
+        "Due to computational optimizations in the vector comparison functions, floating-point errors may be slightly\nlarger than usual (e.g. about 1e-4).",
+        "This example uses the VECTOR_INNER_PRODUCT function to determine which vectors in the table\nare closest to each other between columns a and b:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

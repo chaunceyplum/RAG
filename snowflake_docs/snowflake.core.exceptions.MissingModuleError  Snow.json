@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.exceptions.MissingModuleError",
+    "title": "snowflake.core.exceptions.MissingModuleError | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SnowflakePythonError",
+        "Exception for missing modules.",
+        "Was this page helpful?"
+    ]
+}

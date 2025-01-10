@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-04-12-cost",
+    "title": "April 12, 2024 \u2014 Cost Management Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the general availability of the Account Overview page in Snowsight that\nallows you to gain high-level insights into the cost of using Snowflake. It improves visibility into incurred costs and provides information\nthat can be a starting off point for reporting and optimizing your spend. For example, you can view your total spend for a time period in\ndollars and credits, and discover what is contributing to your costs, such as top warehouses by spend and most expensive queries.",
+        "For more details about using the Account Overview page, see Overview of account-level costs.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

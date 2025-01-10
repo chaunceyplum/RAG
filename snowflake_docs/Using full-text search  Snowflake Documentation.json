@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/querying-with-search-functions",
+    "title": "Using full-text search | Snowflake Documentation",
+    "paragraphs": [
+        "You can use search functions to find character data (text) and IPv4 addresses in specified columns from one or\nmore tables, including fields in VARIANT, OBJECT, and ARRAY columns. This function searches the text in specified\ncolumns or strings based on a list of given search terms. The function returns TRUE if the text matches any of the\nspecified search terms.",
+        "In most cases, you call the SEARCH function by specifying it in the SELECT list or the WHERE clause of a SELECT statement.\nIf the function is used as a WHERE clause filter, the query returns rows when the function returns TRUE.",
+        "The SEARCH function requires no setup and no additional privileges. If you\u2019re using a role that has the\nprivileges to access the data in a column, you can search for that data by using the SEARCH function.",
+        "The next sections contain more information about the SEARCH function and about optimizing query performance when you\nuse it:",
+        "Using the SEARCH function",
+        "Using the SEARCH_IP function",
+        "Optimizing queries that use the SEARCH function",
+        "The SEARCH function finds character data (text) in specified columns from one\nor more tables, including fields in VARIANT, OBJECT, and ARRAY columns.",
+        "When you use the SEARCH function, a text analyzer breaks the text into tokens, which are discrete units of text, such\nas words or numbers. A default analyzer is applied if you don\u2019t specify one. The analyzer extracts tokens from both the\nsearch terms and the data. If any token extracted from the search terms exactly matches any token extracted from any\nspecified column or field, the function returns TRUE.",
+        "The following example searches for the string LEOPARD in the text snow leopard:",
+        "The following example searches for the string LION in the text snow leopard:",
+        "The list of search terms is an OR list, so any match on any listed term returns TRUE. If you require different logic\nfor the search, you can modify the query. For example, you can call the SEARCH function multiple times in a query\nwith AND conditions.",
+        "For more information about this function and additional examples, see SEARCH.",
+        "The SEARCH_IP function finds valid IPv4 addresses in specified character-string\ncolumns from one or more tables, including fields in VARIANT, OBJECT, and ARRAY columns. The search is based on a single IP\naddress that you specify. If this IP address exactly matches an IP address in the specified column or field, the function\nreturns TRUE.",
+        "The following example searches for the IP address 10.10.10.1 in the text 192.0.2.146:",
+        "For more information about this function and additional examples, see SEARCH_IP.",
+        "To improve the performance of queries that use the function, you can optionally enable FULL_TEXT search optimization on a specific column or set of columns in a table. When you enable search\noptimization, a new search access path is built and maintained.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

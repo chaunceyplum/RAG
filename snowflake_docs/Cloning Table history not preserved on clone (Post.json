@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_07/bcr-908",
+    "title": "Cloning: Table history not preserved on clone (Postponed) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change was originally in the 2023_07 bundle and intended to become enabled by default in the 2023_08 bundle. However, it has been postponed and a new release date has not been determined. This change is not available for testing.",
+        "Cloning a table also clones the load history associated with the table.",
+        "The load history is not cloned when a table is cloned. Files previously loaded into the source table could be reloaded into the cloned table.",
+        "The load history is also cloned when a table is cloned. As a result, files are not reloaded and data are not duplicated in the cloned table. Note that truncating the table and using the FORCE = TRUE COPY option override the load history in the cloned table.",
+        "It\u2019s recommended to check any existing workloads that require table cloning. If the load history information is not required and you want to bypass this behavior, use the FORCE = TRUE COPY option.",
+        "Ref: 908",
+        "Was this page helpful?"
+    ]
+}

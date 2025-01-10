@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/organizations-manage-accounts-editions",
+    "title": "Working with account editions | Snowflake Documentation",
+    "paragraphs": [
+        "Each account in an organization has a specific Snowflake edition that determines its available features\nand level of service.",
+        "An organization administrator (i.e. a user with the ORGADMIN role) can check the account edition in Snowsight or using SQL:",
+        "Select Admin \u00bb Accounts.",
+        "Execute the SHOW ACCOUNTS command.",
+        "If you would like to change an account\u2019s edition, contact Snowflake Support.",
+        "Note",
+        "If users without the ORGADMIN role want to view the edition of the account, they can:",
+        "Open Snowsight, and then open the user menu.",
+        "Locate and hover over the name of the account to view the edition and other details.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

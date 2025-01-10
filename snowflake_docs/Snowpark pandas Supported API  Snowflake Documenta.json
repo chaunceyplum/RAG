@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/supported/index",
+    "title": "Snowpark pandas Supported API | Snowflake Documentation",
+    "paragraphs": [
+        "For your convenience, we have compiled a list of currently implemented APIs and methods available in Snowpark pandas.\nThis documentation is updated as new methods and APIs are merged into the release branch, and not necessarily correct as\nof the most recent release.",
+        "To view the docs for the most recent release, check that you\u2019re viewing the stable version of the docs.",
+        "Was this page helpful?"
+    ]
+}

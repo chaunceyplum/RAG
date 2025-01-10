@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/check_xml",
+    "title": "CHECK_XML | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Parsing)",
+        "Preview Feature \u2014 Open",
+        "Enabled for all accounts.",
+        "Checks the validity of an XML document. If the input string is NULL or a valid XML document, the output is NULL. In case of an XML parsing error, the output string contains the error message.",
+        "PARSE_XML",
+        "Required:",
+        "This expression should evaluate to a VARCHAR. The VARCHAR should contain valid XML.",
+        "Optional:",
+        "Specify the same value that you pass to the PARSE_XML function.",
+        "Default: FALSE",
+        "The data type of the returned value is VARCHAR.",
+        "You must either specify all arguments by name or by position. You cannot specify some of the arguments by name and other\narguments by position.",
+        "When specifying an argument by name, you cannot use double quotes around the argument name.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

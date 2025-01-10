@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.covar_pop",
+    "title": "snowflake.snowpark.functions.covar_pop | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the population covariance for non-null pairs in a group.",
+        "Example",
+        "Was this page helpful?"
+    ]
+}

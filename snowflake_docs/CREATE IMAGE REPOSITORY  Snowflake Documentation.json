@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/create-image-repository",
+    "title": "CREATE IMAGE REPOSITORY | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Available to accounts in AWS and Microsoft Azure commercial regions, with some exceptions. For more information, see Available regions.",
+        "Creates a new image repository in the\ncurrent schema.",
+        "DROP IMAGE REPOSITORY , SHOW IMAGE REPOSITORIES",
+        "Specifies the identifier (that is, the name) for the image repository; it must be unique for the schema in which the repository is created.",
+        "Quoted names for special characters or case-sensitive names are not supported. The same constraint also applies to database and\nschema names where you create an image repository. That is, database and schema names without quotes are valid when creating an\nimage repository.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "CREATE IMAGE REPOSITORY",
+        "Schema",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "Regarding metadata:",
+        "Attention",
+        "Customers should ensure that no personal data (other than for a User object), sensitive data, export-controlled data, or other regulated data is entered as metadata when using the Snowflake service. For more information, see Metadata fields in Snowflake.",
+        "CREATE OR REPLACE <object> statements are atomic. That is, when an object is replaced, the old object is deleted and the new object is created in a single transaction.",
+        "Create an image repository:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

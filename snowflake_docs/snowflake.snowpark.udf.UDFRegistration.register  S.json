@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.udf.UDFRegistration.register",
+    "title": "snowflake.snowpark.udf.UDFRegistration.register | Snowflake Documentation",
+    "paragraphs": [
+        "Registers a Python function as a Snowflake Python UDF and returns the UDF.\nThe usage, input arguments, and return value of this method are the same as\nthey are for udf(), but register()\ncannot be used as a decorator. See examples in\nUDFRegistration and notes in\nudf().",
+        "func \u2013 A Python function used for creating the UDF.",
+        "return_type \u2013 A DataType representing the return data\ntype of the UDF. Optional if type hints are provided.",
+        "input_types \u2013 A list of DataType\nrepresenting the input data types of the UDF. Optional if\ntype hints are provided.",
+        "name \u2013 A string or list of strings that specify the name or fully-qualified\nobject identifier (database name, schema name, and function name) for\nthe UDF in Snowflake, which allows you to call this UDF in a SQL\ncommand or via call_udf().\nIf it is not provided, a name will be automatically generated for the UDF.\nA name must be specified when is_permanent is True.",
+        "is_permanent \u2013 Whether to create a permanent UDF. The default is False.\nIf it is True, a valid stage_location must be provided.",
+        "stage_location \u2013 The stage location where the Python file for the UDF\nand its dependencies should be uploaded. The stage location must be specified\nwhen is_permanent is True, and it will be ignored when\nis_permanent is False. It can be any stage other than temporary\nstages and external stages.",
+        "imports \u2013 A list of imports that only apply to this UDF. You can use a string to\nrepresent a file path (similar to the path argument in\nadd_import()) in this list, or a tuple of two\nstrings to represent a file path and an import path (similar to the import_path\nargument in add_import()). These UDF-level imports\nwill override the session-level imports added by\nadd_import(). Note that an empty list means\nno import for this UDF, and None or not specifying this parameter means using\nsession-level imports.",
+        "packages \u2013 A list of packages that only apply to this UDF. These UDF-level packages\nwill override the session-level packages added by\nadd_packages() and\nadd_requirements(). Note that an empty list means\nno package for this UDF, and None or not specifying this parameter means using\nsession-level packages. To use Python packages that are not available in Snowflake,\nrefer to custom_package_usage_config().",
+        "replace \u2013 Whether to replace a UDF that already was registered. The default is False.\nIf it is False, attempting to register a UDF with a name that already exists\nresults in a SnowparkSQLException exception being thrown. If it is True,\nan existing UDF with the same name is overwritten.",
+        "if_not_exists \u2013 Whether to skip creation of a UDF when one with the same signature already exists.\nThe default is False. if_not_exists and replace are mutually exclusive\nand a ValueError is raised when both are set. If it is True and a UDF with\nthe same signature exists, the UDF creation is skipped.",
+        "parallel \u2013 The number of threads to use for uploading UDF files with the\nPUT\ncommand. The default value is 4 and supported values are from 1 to 99.\nIncreasing the number of threads can improve performance when uploading\nlarge UDF files.",
+        "max_batch_size \u2013 The maximum number of rows per input pandas DataFrame or pandas Series\ninside a vectorized UDF. Because a vectorized UDF will be executed within a time limit,\nwhich is 60 seconds, this optional argument can be used to reduce the running time of\nevery batch by setting a smaller batch size. Note that setting a larger value does not\nguarantee that Snowflake will encode batches with the specified number of rows. It will\nbe ignored when registering a non-vectorized UDF.",
+        "strict \u2013 Whether the created UDF is strict. A strict UDF will not invoke the UDF if any input is\nnull. Instead, a null value will always be returned for that row. Note that the UDF might\nstill return null for non-null inputs.",
+        "secure \u2013 Whether the created UDF is secure. For more information about secure functions,\nsee Secure UDFs.",
+        "statement_params \u2013 Dictionary of statement level parameters to be set while executing this action.",
+        "source_code_display \u2013 Display the source code of the UDF func as comments in the generated script.\nThe source code is dynamically generated therefore it may not be identical to how the\nfunc is originally defined. The default is True.\nIf it is False, source code will not be generated or displayed.",
+        "external_access_integrations \u2013 The names of one or more external access integrations. Each\nintegration you specify allows access to the external network locations and secrets\nthe integration specifies.",
+        "secrets \u2013 The key-value pairs of string types of secrets used to authenticate the external network location.\nThe secrets can be accessed from handler code. The secrets specified as values must\nalso be specified in the external access integration and the keys are strings used to\nretrieve the secrets using secret API.",
+        "immutable \u2013 Whether the UDF result is deterministic or not for the same input.",
+        "comment \u2013 Adds a comment for the created object. See\nCOMMENT",
+        "copy_grants \u2013 Specifies to retain the access privileges from the original function when a new function is created\nusing CREATE OR REPLACE FUNCTION.",
+        "See Also:\n- udf()\n- register_from_file()",
+        "Was this page helpful?"
+    ]
+}

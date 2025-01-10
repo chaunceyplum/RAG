@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.stream.PointOfTimeOffset",
+    "title": "snowflake.core.stream.PointOfTimeOffset | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: PointOfTime",
+        "A model object representing the PointOfTimeOffset resource.",
+        "Constructs an object of type PointOfTimeOffset with the provided properties.",
+        "reference (str) \u2013 Relation to the point of time.  Currently, the API supports at and before",
+        "offset (str) \u2013 Point of time identified by an offset in reference to the current time, such as 10 min.",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of PointOfTimeOffset from a dict.",
+        "Create an instance of PointOfTimeOffset from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

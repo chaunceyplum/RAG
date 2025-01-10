@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1247",
+    "title": "Dynamic tables: TARGET_LAG parameter set to less than 1 minute for new or modified tables results in error | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Dynamic tables, when TARGET_LAG is defined as < 1 minute, behave as follows:",
+        "In a CREATE DYNAMIC TABLE or ALTER DYNAMIC TABLE statement, you can specify a value of\nless than 1 minute for the TARGET_LAG parameter.",
+        "Dynamic tables with TARGET_LAG defined as less than 1 minute function as if their\nTARGET_LAG was set to 1 minute.",
+        "Executing a CREATE DYNAMIC TABLE or ALTER DYNAMIC TABLE statement with the TARGET_LAG set\nto less than 1 minute results in an error.",
+        "Any existing dynamic tables with TARGET_LAG defined as less than 1 minute continue to\nfunction as if their TARGET_LAG was set to 1 minute. Replacing an existing dynamic table\nwith a new dynamic table that has TARGET_LAG defined as less than 1 minute results in an\nerror.",
+        "Ref: 1247",
+        "Was this page helpful?"
+    ]
+}

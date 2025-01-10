@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.duplicated",
+    "title": "modin.pandas.DataFrame.duplicated | Snowflake Documentation",
+    "paragraphs": [
+        "Return boolean Series denoting duplicate rows.",
+        "Considering certain columns is optional.",
+        "subset (column label or sequence of labels, optional) \u2013 Only consider certain columns for identifying duplicates, by\ndefault use all the columns.",
+        "keep ({'first', 'last', False}, default 'first') \u2013",
+        "Determines which duplicates (if any) to mark.",
+        "first : Mark duplicates as True except for the first occurrence.",
+        "last : Mark duplicates as True except for the last occurrence.",
+        "False : Mark all duplicates as True.",
+        "",
+        "Boolean series for each duplicated rows.",
+        "Series",
+        "See also",
+        "Equivalent method on index.",
+        "Equivalent method on Series.",
+        "Remove duplicate values from Series.",
+        "Remove duplicate values from DataFrame.",
+        "Examples",
+        "Consider dataset containing ramen rating.",
+        "By default, for each set of duplicated values, the first occurrence\nis set on False and all others on True.",
+        "By using \u2018last\u2019, the last occurrence of each set of duplicated values\nis set on False and all others on True.",
+        "By setting keep on False, all duplicates are True.",
+        "To find duplicates on specific column(s), use subset.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/clients-drivers/snowsql-2022",
+    "title": "SnowSQL release notes for 2022 | Snowflake Documentation",
+    "paragraphs": [
+        "This article contains the release notes for the SnowSQL, including the following when applicable:",
+        "Behavior changes",
+        "New features",
+        "Customer-facing bug fixes",
+        "Snowflake uses semantic versioning for SnowSQL updates.",
+        "See SnowSQL (CLI client) for documentation.",
+        "Fixed an issue where a StopIteration exception was raised while using a TAB to complete a command.",
+        "Reverted to the legacy SQL splitter implementation as the default, as the new splitter implementation led to\nunforeseen behavior changes.",
+        "SnowSQL now captures proxies set by environment variables in logs.",
+        "Fixed an issue where SnowSQL returned Unicode characters as escape sequences instead of the actual Unicode characters.",
+        "Removed the deprecation warning when using proxy variables.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

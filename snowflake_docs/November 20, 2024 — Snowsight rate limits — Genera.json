@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-11-20-snowsight-rate-limits",
+    "title": "November 20, 2024 \u2014 Snowsight rate limits \u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the general availability of rate limiting features in Snowsight. This functionality\nenhances platform security and performance under high traffic conditions, such as DDoS attacks or unexpected surges in request volume.\nControlled limits are posed on the number of requests that can be made to Snowsight within specified time frames, ensuring\nconsistent availability and stability across all user sessions. This new capability aligns with Snowflake\u2019s commitment to providing a\nsecure, resilient environment for data operations.",
+        "Was this page helpful?"
+    ]
+}

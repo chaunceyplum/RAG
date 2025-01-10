@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.in_",
+    "title": "snowflake.snowpark.functions.in_ | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a conditional expression that you can pass to the filter or where methods to\nperform the equivalent of a WHERE \u2026 IN query that matches rows containing a sequence of\nvalues.",
+        "The expression evaluates to true if the values in a row matches the values in one of\nthe specified sequences.",
+        "The following code returns a DataFrame that contains the rows in which\nthe columns c1 and c2 contain the values:\n- 1 and \u201ca\u201d, or\n- 2 and \u201cb\u201d\nThis is equivalent to SELECT * FROM table WHERE (c1, c2) IN ((1, 'a'), (2, 'b')).",
+        "Example:",
+        "The following code returns a DataFrame that contains the rows where\nthe values of the columns c1 and c2 in df2 match the values of the columns\na and b in df1. This is equivalent to\nSELECT * FROM table2 WHERE (c1, c2) IN (SELECT a, b FROM table1).",
+        "Example:",
+        "cols: A list of the columns to compare for the IN operation.\nvals: A list containing the values to compare for the IN operation.",
+        "Was this page helpful?"
+    ]
+}

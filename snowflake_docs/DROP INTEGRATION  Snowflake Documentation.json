@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-integration",
+    "title": "DROP INTEGRATION | Snowflake Documentation",
+    "paragraphs": [
+        "Removes an integration from the account.",
+        "CREATE INTEGRATION , ALTER INTEGRATION , SHOW INTEGRATIONS , DESCRIBE INTEGRATION",
+        "CREATE API INTEGRATION",
+        "CREATE CATALOG INTEGRATION",
+        "CREATE EXTERNAL ACCESS INTEGRATION",
+        "CREATE NOTIFICATION INTEGRATION",
+        "CREATE SECURITY INTEGRATION",
+        "CREATE STORAGE INTEGRATION",
+        "Specifies the identifier for the integration to drop. If the identifier contains spaces, special characters, or mixed-case characters,\nthe entire string must be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive\n(e.g. \"My Object\").",
+        "Specifies the integration type.",
+        "Dropped integrations cannot be recovered; they must be recreated.",
+        "Disabling or dropping the integrations may not take effect immediately, since integrations may be cached. It is recommended to remove the integration privilege from the cloud provider to take effect sooner.",
+        "Drop an integration:",
+        "Drop the integration again, but don\u2019t raise an error if the integration does not exist:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

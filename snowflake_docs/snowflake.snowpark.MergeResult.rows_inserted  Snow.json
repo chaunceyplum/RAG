@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.MergeResult.rows_inserted",
+    "title": "snowflake.snowpark.MergeResult.rows_inserted | Snowflake Documentation",
+    "paragraphs": [
+        "The number of rows inserted.",
+        "Was this page helpful?"
+    ]
+}

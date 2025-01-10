@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/account-usage/database_replication_usage_history",
+    "title": "DATABASE_REPLICATION_USAGE_HISTORY view | Snowflake Documentation",
+    "paragraphs": [
+        "ACCOUNT_USAGE",
+        "This Account Usage view can be used to query the database replication history.\nThe returned results include the database name, credits consumed, and bytes transferred for replication.\nUsage data is retained for 365 days (1 year).",
+        "Column Name",
+        "Data Type",
+        "Description",
+        "START_TIME",
+        "TIMESTAMP_LTZ",
+        "The date and beginning of the hour (in the local time zone) in which the replication usage took place.",
+        "END_TIME",
+        "TIMESTAMP_LTZ",
+        "The date and end of the hour (in the local time zone) in which the replication usage took place.",
+        "DATABASE_NAME",
+        "TEXT",
+        "Name of the database.",
+        "DATABASE_ID",
+        "NUMBER",
+        "Internal/system-generated identifier for the database.",
+        "CREDITS_USED",
+        "NUMBER",
+        "Total number of credits used for database replication during the START_TIME and END_TIME window.",
+        "BYTES_TRANSFERRED",
+        "NUMBER",
+        "Number of bytes transferred for database replication during the START_TIME and END_TIME window.",
+        "Latency for the view may be up to 180 minutes (3 hours).",
+        "Results are only returned for secondary databases in the target account.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.read_parquet",
+    "title": "modin.pandas.read_parquet | Snowflake Documentation",
+    "paragraphs": [
+        "Read parquet file(s) into a Snowpark pandas DataFrame. This API can read\nfiles stored locally or on a Snowflake stage.",
+        "Snowpark pandas stages files (unless they\u2019re already staged)\nand then reads them using Snowflake\u2019s parquet reader.",
+        "path (str) \u2013 Local file location or staged file location to read from. Staged file locations\nstarts with a \u2018@\u2019 symbol. To read a local file location with a name starting with @,\nescape it using a @. For more info on staged files, read here.",
+        "engine ({{'auto', 'pyarrow', 'fastparquet'}}, default None) \u2013 This parameter is not supported and will be ignored.",
+        "storage_options (StorageOptions, default None) \u2013 This parameter is not supported and will be ignored.",
+        "columns (list, default None) \u2013 If not None, only these columns will be read from the file.",
+        "use_nullable_dtypes (bool, default False) \u2013 This parameter is not supported and will raise an error.",
+        "dtype_backend ({'numpy_nullable', 'pyarrow'}, default 'numpy_nullable') \u2013 This parameter is not supported and will be ignored.",
+        "filesystem (fsspec or pyarrow filesystem, default None) \u2013 This parameter is not supported and will be ignored.",
+        "filters (List[Tuple] or List[List[Tuple]], default None) \u2013 This parameter is not supported and will be ignored.",
+        "**kwargs (Any, default None) \u2013 This parameter is not supported and will be ignored.",
+        "Snowpark pandas DataFrame",
+        "NotImplementedError if a parameter is not supported. \u2013",
+        "Notes",
+        "Both local files and files staged on Snowflake can be passed into\npath. A single file or a folder that matches\na set of files can be passed into path. The order of rows in the\ndataframe may be different from the order of records in an input file. When reading\nmultiple files, there is no deterministic order in which the files are read.",
+        "Examples",
+        "Read local parquet file.",
+        "Read staged parquet file.",
+        "Read parquet files from a local folder.",
+        "Read parquet files from a staged location.",
+        "Was this page helpful?"
+    ]
+}

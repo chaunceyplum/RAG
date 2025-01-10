@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.procedure.ProcedureResource",
+    "title": "snowflake.core.procedure.ProcedureResource | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SchemaObjectReferenceMixin[ProcedureCollection]",
+        "Represents a reference to a Snowflake procedure.",
+        "With this procedure reference, you can create and fetch information about procedures, as well as\nperform certain actions on them.",
+        "Attributes",
+        "Methods",
+        "Call this procedure.",
+        "Examples",
+        "Calling a procedure with no arguments using its reference:",
+        "Calling a procedure with 2 arguments using its reference:",
+        "Drop this procedure.",
+        "if_exists (bool, optional) \u2013 Whether to error if the procedure doesn\u2019t exist. Default is False.",
+        "Examples",
+        "Dropping a procedure using its reference, erroring if it doesn\u2019t exist:",
+        "Dropping a procedure using its reference, if it exists:",
+        "Fetch the details of a procedure.",
+        "Examples",
+        "Fetching a reference to a procedure to print its name:",
+        "Was this page helpful?"
+    ]
+}

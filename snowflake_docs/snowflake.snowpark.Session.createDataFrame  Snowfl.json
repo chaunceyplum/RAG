@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.createDataFrame",
+    "title": "snowflake.snowpark.Session.createDataFrame | Snowflake Documentation",
+    "paragraphs": [
+        "Creates a new DataFrame containing the specified values from the local data.",
+        "If creating a new DataFrame from a pandas Dataframe, we will store the pandas\nDataFrame in a temporary table and return a DataFrame pointing to that temporary\ntable for you to then do further transformations on. This temporary table will be\ndropped at the end of your session. If you would like to save the pandas DataFrame,\nuse the write_pandas() method instead.",
+        "data \u2013 The local data for building a DataFrame. data can only\nbe a list, tuple or pandas DataFrame. Every element in\ndata will constitute a row in the DataFrame.",
+        "schema \u2013 A StructType containing names and\ndata types of columns, or a list of column names, or None.\nWhen schema is a list of column names or None, the schema of the\nDataFrame will be inferred from the data across all rows. To improve\nperformance, provide a schema. This avoids the need to infer data types\nwith large data sets.",
+        "Examples:",
+        "Note",
+        "When data is a pandas DataFrame, snowflake.connector.pandas_tools.write_pandas is called, which\nrequires permission to (1) CREATE STAGE (2) CREATE TABLE and (3) CREATE FILE FORMAT under the current\ndatabase and schema.",
+        "Was this page helpful?"
+    ]
+}

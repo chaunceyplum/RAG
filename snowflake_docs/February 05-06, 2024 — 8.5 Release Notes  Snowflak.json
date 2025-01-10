@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/8_05",
+    "title": "February 05-06, 2024 \u2014 8.5 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "The release has completed.",
+        "For differences between the in-advance and final versions of these release notes, see Release Notes Change Log.",
+        "With this release, we are pleased to announce the general availability of external API authentication and the secret object.\nA secret is a schema-level object that can store sensitive information, such as but not limited to OAuth refresh token values,\nauthentication credentials such as a username and password, and other sensitive string values.",
+        "The advantage of using a secret is that it enhances your security posture because only Snowflake itself can access the sensitive\ninformation the secret stores. For example, when Snowflake authenticates to an external service, such as ServiceNow, it accesses\nthe credentials in the secret programmatically. Similarly, if the handler code in a stored procedure references a secret,\nSnowflake accesses the secret programmatically when you call that stored procedure. After you create the secret, users cannot\naccess sensitive information that the secret stores.",
+        "For details, see External API authentication and secrets.",
+        "With this release, we are pleased to announce the general availability of external network access, with which you can access network\nlocations external to Snowflake from within procedure and UDF handler code. This GA release is available on AWS and Azure except in\nthe Gov region. External network access remains in preview for accounts using GCP.",
+        "When setting up external network access, you create a network rule that represents the external network location. If your handler\ncode will need to authenticate with the external location, you create a secret containing the credentials needed. In handler code,\nyou can use APIs to retrieve credential values from the secret.",
+        "For more information, see External network access overview.",
+        "With this release, we are pleased to announce the general availability of Python packages policies.",
+        "Using a packages policy enables you to set allowlists and blocklists for third-party Python packages from Anaconda at the account\nlevel. This lets you meet stricter auditing and security requirements and gives you more fine-grained control over which packages\nare available or blocked in your environment.",
+        "For more information, see Packages policies.",
+        "With this release, we are pleased to announce the preview of the COPY FILES command. You can use COPY FILES to copy files\nfrom one named stage to another.",
+        "For details, see COPY FILES.",
+        "With this release, we are pleased to announce the preview of asynchronous classification of columns for tables in a schema\nusing SQL and Snowsight. This update enables the option for the classification and tag assignment actions to take place at\ndifferent times and by different personas: for example, a data steward initiates the classification process and a tag administrator\nassigns the tags to columns later.",
+        "Additionally, you can choose to automate the tag assignments for a single classification event. The automation speeds up the data\nclassification process by removing the need to manually interpret the classification results and assign tags to columns.",
+        "For details, see Classify sensitive data manually.",
+        "Announcement",
+        "Update",
+        "Date",
+        "Release notes",
+        "Initial publication (preview)",
+        "05-Feb-24",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

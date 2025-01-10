@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.external_volume.ExternalVolumeResource",
+    "title": "snowflake.core.external_volume.ExternalVolumeResource | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: ObjectReferenceMixin[ExternalVolumeCollection]",
+        "Represents a reference to a Snowflake external volume.",
+        "With this external volume reference, you can fetch information about external volumes, as well\nas perform certain actions on them.",
+        "Attributes",
+        "Methods",
+        "Drop this external volume.",
+        "if_exist (bool, optional) \u2013 If True, does not throw an exception if the external volume does not exist. The default is None,\nwhich behaves equivalently to it being False.",
+        "Examples",
+        "Deleting an external volume using its reference:",
+        "Using an external volume reference to delete an external volume if it exists:",
+        "Fetch the details of an external volume resource.",
+        "Examples",
+        "Fetching an external volume using its reference:\n>>> external_volume = external_volume_reference.fetch()\n# Accessing information of the external volume with external volume instance.\n>>> print(external_volume.name, external_volume.comment)",
+        "Undrop this external volume.",
+        "Examples",
+        "Restoring an external volume using its reference:",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.count",
+    "title": "snowflake.snowpark.functions.count | Snowflake Documentation",
+    "paragraphs": [
+        "Returns either the number of non-NULL records for the specified columns, or the\ntotal number of records.",
+        "Example",
+        "Was this page helpful?"
+    ]
+}

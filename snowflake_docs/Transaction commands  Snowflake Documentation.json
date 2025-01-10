@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/commands-transaction",
+    "title": "Transaction commands | Snowflake Documentation",
+    "paragraphs": [
+        "Transaction commands enable you to manage your transactions.",
+        "BEGIN",
+        "COMMIT",
+        "DESCRIBE TRANSACTION",
+        "ROLLBACK",
+        "SHOW LOCKS",
+        "SHOW TRANSACTIONS",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/array_append",
+    "title": "ARRAY_APPEND | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Array/Object)",
+        "Returns an array containing all elements from the source array as well as the new element. The new element is located at the end of the array.",
+        "ARRAY_INSERT , ARRAY_PREPEND",
+        "The source array.",
+        "The element to be appended. The type of the element depends on the type of the array:",
+        "If array is a semi-structured array, the element can be of almost any data type.\nThe data type can be different from the data type(s) of the existing elements in the array.",
+        "If array is a structured array, the type of the new element must\nbe coercible to the type of the array.",
+        "The data type of the returned value is ARRAY.",
+        "When you pass a structured array to the function, the function returns a structured\narray of the same type.",
+        "If the source array is NULL, the function returns NULL.",
+        "The examples use the following table with an ARRAY column:",
+        "Add an element of the same type to the array:",
+        "Query the table to see the new element added to the array:",
+        "Add an element of a different type to the array:",
+        "Query the table to see the new element added to the array and the data type of each element in the array:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

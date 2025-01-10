@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_01/bcr-912",
+    "title": "Task Parameters Preserved When Cloning Tasks | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When a task is cloned, the target (cloned) task now includes the same parameter set with each parameter value set to match the original\nsource task:",
+        "The cloned task had the default value for each parameter. That is, parameter values were not copied from the source task.",
+        "All parameters set on the source task are copied intact to the clone task instance.",
+        "Ref: 912",
+        "Was this page helpful?"
+    ]
+}

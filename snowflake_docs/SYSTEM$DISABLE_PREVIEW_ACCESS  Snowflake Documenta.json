@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_disable_preview_access",
+    "title": "SYSTEM$DISABLE_PREVIEW_ACCESS | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Disables access to open preview and private preview features.",
+        "See also:",
+        "SYSTEM$GET_PREVIEW_ACCESS_STATUS, SYSTEM$ENABLE_PREVIEW_ACCESS",
+        "None.",
+        "Returns a VARCHAR status message that preview features have been disabled:",
+        "Only account administrators (users with the ACCOUNTADMIN role) can execute this function.",
+        "Applies to both private and open preview features.",
+        "This is an all-or-nothing setting that affects all users and all previews within an account.",
+        "Any user in the account who is using a preview feature will lose access to that feature immediately after SYSTEM$DISABLE_PREVIEW_ACCESS is executed.",
+        "Snowflake Marketplace products, which are managed separately through IMPORTED PRIVILEGES, are not covered as part of this capability.",
+        "Client-side libraries (such as Snowpark API) are not covered as part of this capability.",
+        "Disable preview features:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

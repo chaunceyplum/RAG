@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.tanh",
+    "title": "snowflake.snowpark.functions.tanh | Snowflake Documentation",
+    "paragraphs": [
+        "Computes the hyperbolic tangent of its argument.",
+        "Was this page helpful?"
+    ]
+}

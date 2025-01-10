@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.WindowSpec.rangeBetween",
+    "title": "snowflake.snowpark.WindowSpec.rangeBetween | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a new WindowSpec object with the new range frame clause.",
+        "See also",
+        "Window.range_between()",
+        "Was this page helpful?"
+    ]
+}

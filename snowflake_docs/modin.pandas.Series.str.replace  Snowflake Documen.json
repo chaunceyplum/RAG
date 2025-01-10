@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.str.replace",
+    "title": "modin.pandas.Series.str.replace | Snowflake Documentation",
+    "paragraphs": [
+        "Replace each occurrence of pattern/regex in the Series/Index.",
+        "Equivalent to str.replace() or re.sub(), depending on the regex value.",
+        "pat (str) \u2013 String can be a character sequence or regular expression.",
+        "repl (str or callable) \u2013 Replacement string or a callable. The callable is passed the regex match object and must return a replacement string to be used. See re.sub().",
+        "n (int, default -1 (all)) \u2013 Number of replacements to make from start.",
+        "case (bool, default None) \u2013 Determines if replace is case sensitive:\n- If True, case sensitive (the default if pat is a string)\n- Set to False for case insensitive\n- Cannot be set if pat is a compiled regex.",
+        "flags (int, default 0 (no flags)) \u2013 Regex module flags, e.g. re.IGNORECASE. Cannot be set if pat is a compiled regex.",
+        "regex (bool, default False) \u2013 Determines if the passed-in pattern is a regular expression:\n- If True, assumes the passed-in pattern is a regular expression.\n- If False, treats the pattern as a literal string\n- Cannot be set to False if pat is a compiled regex or repl is a callable.",
+        "A copy of the object with all matching occurrences of pat replaced by repl.",
+        "Series or Index of object",
+        "ValueError \u2013",
+        "if regex is False and repl is a callable or pat is a compiled regex\n    - if pat is a compiled regex and case or flags is set",
+        "",
+        "Notes",
+        "When pat is a compiled regex, all flags should be included in the compiled regex. Use of case, flags, or regex=False with a compiled regex will raise an error.",
+        "Examples",
+        "When pat is a string and regex is True, the given pat is compiled as a regex. When repl is a string, it replaces matching regex patterns as with re.sub(). NaN value(s) in the Series are left as is:",
+        "When pat is a string and regex is False, every pat is replaced with repl as with str.replace():",
+        "Using a compiled regex with flags",
+        "Was this page helpful?"
+    ]
+}

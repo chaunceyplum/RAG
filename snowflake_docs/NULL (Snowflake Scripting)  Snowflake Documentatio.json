@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/snowflake-scripting/null",
+    "title": "NULL (Snowflake Scripting) | Snowflake Documentation",
+    "paragraphs": [
+        "NULL can be used as a \u201cno-op\u201d (no operation) statement.",
+        "Note",
+        "Using NULL as a statement is uncommon. NULL is usually used as a value, rather than as a statement.",
+        "As a value, NULL means \u201cno value\u201d. For more information, see\nthe Wikipedia article on SQL NULL.",
+        "When working with semi-structured data types,\nsuch as JSON, you might need to\ndistinguish between NULL as an SQL value and NULL as a JSON value (also called \u201cvariant null\u201d).",
+        "Note",
+        "This Snowflake Scripting construct is valid only within a\nSnowflake Scripting block.",
+        "The NULL statement can be executed only inside Snowflake Scripting scripts.",
+        "A NULL statement in an exception handler ensures that the code continues executing rather than aborting if there is no\nhigher-level handler.",
+        "A NULL statement in a branch does nothing; however, it communicates to the reader that the author of the code explicitly\nconsidered the condition for which the branch would execute. In other words, the NULL shows that the branch condition was not\noverlooked or accidentally omitted.",
+        "Before using the NULL statement, consider alternatives.",
+        "For example, suppose you are writing a stored procedure with an exception handler. In most stored procedures, if each\nnon-exception code path should return a value, then each code path involving an exception handler should also return a value.\nIn that case, avoid executing a NULL statement. Instead, consider explicitly returning NULL, an empty result set, or an\nerror indicator.",
+        "The following code uses a NULL statement in an exception handler to ensure that the exception is caught (rather than passed\nup to the caller), but no specific action is taken:",
+        "Note",
+        "The NULL value returned by the CALL statement is not directly due to the NULL statement in the exception; instead, the return\nvalue is NULL because the stored procedure did not execute an explicit RETURN statement.",
+        "Snowflake recommends that stored procedures explicitly return a value, including in each branch of the exception handler.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

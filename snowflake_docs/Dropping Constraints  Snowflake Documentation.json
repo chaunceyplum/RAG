@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/constraints-drop",
+    "title": "Dropping Constraints | Snowflake Documentation",
+    "paragraphs": [
+        "Constraints are dropped using the ALTER TABLE command:",
+        "ALTER TABLE \u2026 DROP CONSTRAINT explicitly drops the specified constraint. Similar to modifying constraints, the constraint can be identified by the constraint name or column definition along with\nthe constraint type. For a primary key, they can also be identified using the PRIMARY KEY keyword.",
+        "ALTER TABLE \u2026 DROP COLUMN drops a column and its associated constraints.",
+        "By default, when a primary/unique key is dropped, all foreign keys referencing the key being dropped are also dropped, unless the RESTRICT drop option is specified.",
+        "Constraints are also dropped when the associated tables/schemas/databases are dropped. The DROP commands support the CASCADE | RESTRICT drop options.",
+        "Note",
+        "Dropped tables, schemas, and databases can be restored using the UNDROP command; dropped columns and constraints cannot be restored.",
+        "Unique/primary/foreign key constraints can be explicitly dropped (using ALTER TABLE \u2026 DROP CONSTRAINT):",
+        "For these constraints, when dropping a foreign key constraint or a primary/unique key constraint with no foreign key references, the constraints are dropped directly.",
+        "The default drop option is CASCADE, which means that dropping a unique/primary key with foreign key references drops all the referencing foreign keys together with the unique/primary key.",
+        "If the RESTRICT drop option is specified, when dropping a primary/unique key, an error is returned if there exist foreign keys that reference the keys being dropped.",
+        "Dropping columns using ALTER TABLE \u2026 DROP COLUMN behaves similarly to dropping constraints:",
+        "The default drop option is CASCADE, which means any constraint that contains the column being dropped is also dropped. If a primary/unique key involving the column is referenced by other foreign key\nconstraints, all referencing foreign keys are dropped.",
+        "If the RESTRICT option is specified, an error is returned if the column has primary/unique keys with foreign keys references. The drop command only succeeds if there are no constraints defined on or\nreferring to the column being dropped.",
+        "The DROP command drops the specified table, schema, or database and can also be specified to drop all constraints associated with the object:",
+        "Similar to dropping columns and constraints, CASCADE is the default drop option, and all constraints that belong to or references the object being dropped will also be dropped.",
+        "For example, when dropping a database, if the database contains a primary/unique key which is referenced by a foreign key from another database, the referencing foreign keys are also dropped.",
+        "If the object is later undropped, all relevant constraints previously dropped will be restored.",
+        "If the RESTRICT option is specified, an error is returned if any primary/unique constraints under the object has foreign key references.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

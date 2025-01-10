@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.flatten",
+    "title": "snowflake.snowpark.DataFrame.flatten | Snowflake Documentation",
+    "paragraphs": [
+        "Flattens (explodes) compound values into multiple rows.",
+        "It creates a new DataFrame from this DataFrame, carries the existing columns to the new DataFrame,\nand adds the following columns to it:",
+        "SEQ",
+        "KEY",
+        "PATH",
+        "INDEX",
+        "VALUE",
+        "THIS",
+        "References: Snowflake SQL function FLATTEN.",
+        "If this DataFrame also has columns with the names above, you can disambiguate the columns by renaming them.",
+        "Example:",
+        "input \u2013 The name of a column or a Column instance that will be unseated into rows.\nThe column data must be of Snowflake data type VARIANT, OBJECT, or ARRAY.",
+        "path \u2013 The path to the element within a VARIANT data structure which needs to be flattened.\nThe outermost element is to be flattened if path is empty or None.",
+        "outer \u2013 If False, any input rows that cannot be expanded, either because they cannot be accessed in the path\nor because they have zero fields or entries, are completely omitted from the output.\nOtherwise, exactly one row is generated for zero-row expansions\n(with NULL in the KEY, INDEX, and VALUE columns).",
+        "recursive \u2013 If False, only the element referenced by path is expanded.\nOtherwise, the expansion is performed for all sub-elements recursively.",
+        "mode \u2013 Specifies which types should be flattened \u201cOBJECT\u201d, \u201cARRAY\u201d, or \u201cBOTH\u201d.",
+        "A new DataFrame that has the columns carried from this DataFrame, the flattened new columns and new rows.",
+        "See also",
+        "Session.flatten(), which creates a new DataFrame by flattening compound values into multiple rows.",
+        "This function or method is deprecated since 0.7.0. Use join_table_function() instead.",
+        "Was this page helpful?"
+    ]
+}

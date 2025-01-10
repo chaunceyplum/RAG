@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/tables-external-auto",
+    "title": "Refreshing external tables automatically | Snowflake Documentation",
+    "paragraphs": [
+        "Event notifications for cloud storage can trigger refreshes of the external table metadata or add or drop file references.",
+        "Important",
+        "Transferring ownership on an external table or its parent database with the GRANT OWNERSHIP command\nsets the table\u2019s AUTO_REFRESH property to FALSE. This blocks automatic refreshes of the table metadata.\nTo restore automatic refreshes after you transfer ownership, set AUTO_REFRESH = TRUE\nusing the ALTER EXTERNAL TABLE command.",
+        "Next Topics:",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

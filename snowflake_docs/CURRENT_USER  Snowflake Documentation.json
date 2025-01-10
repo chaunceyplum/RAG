@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/current_user",
+    "title": "CURRENT_USER | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (Session)",
+        "Returns the name of the user currently logged into the system.",
+        "None.",
+        "This function returns a value of type VARCHAR.",
+        "To comply with the ANSI standard, this function can be called without parentheses in SQL statements.",
+        "However, if you are setting a Snowflake Scripting variable\nto an expression that calls the function (for example, my_var := CURRENT_USER();), you must include the\nparentheses. For more information, see the usage notes for context functions.",
+        "Granting access on a secure UDF or secure view that\ncontains this function to a share is allowed. When the secure UDF or secure view is accessed from the data sharing consumer account, this\nfunction always returns a NULL value.",
+        "Snowflake returns a NULL value if this function is used in a masking policy or\nrow access policy that is assigned to a shared table or view.",
+        "This example calls the CURRENT_USER function:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

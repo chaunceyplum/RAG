@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.sort_values",
+    "title": "modin.pandas.Series.sort_values | Snowflake Documentation",
+    "paragraphs": [
+        "Sort by the values.",
+        "Sort a Series in ascending or descending order by some\ncriterion.",
+        "axis ({0 or 'index'}) \u2013 Unused. Parameter needed for compatibility with DataFrame.",
+        "ascending (bool or list of bools, default True) \u2013 If True, sort values in ascending order, otherwise descending.",
+        "inplace (bool, default False) \u2013 If True, perform operation in-place.",
+        "kind ({'quicksort', 'mergesort', 'heapsort', 'stable'} default 'None') \u2013 Choice of sorting algorithm. By default, Snowpark Pandaas performs\nunstable sort. Please use \u2018stable\u2019 to perform stable sort. Other choices\n\u2018quicksort\u2019, \u2018mergesort\u2019 and \u2018heapsort\u2019 are ignored.",
+        "na_position ({'first' or 'last'}, default 'last') \u2013 Argument \u2018first\u2019 puts NaNs at the beginning, \u2018last\u2019 puts NaNs at\nthe end.",
+        "ignore_index (bool, default False) \u2013 If True, the resulting axis will be labeled 0, 1, \u2026, n - 1.",
+        "key (callable, optional) \u2013 If not None, apply the key function to the series values\nbefore sorting. This is similar to the key argument in the\nbuiltin sorted() function, with the notable difference that\nthis key function should be vectorized. It should expect a\nSeries and return an array-like.",
+        "Series ordered by values or None if inplace=True.",
+        "Series or None",
+        "Notes",
+        "Snowpark pandas API doesn\u2019t currently support distributed computation of\nsort_values when \u2018key\u2019 argument is provided.",
+        "See also",
+        "Sort by the Series indices.",
+        "Sort DataFrame by the values along either axis.",
+        "Sort DataFrame by indices.",
+        "Examples",
+        "Sort values ascending order (default behaviour)",
+        "Sort values descending order",
+        "Sort values inplace",
+        "Sort values putting NAs first",
+        "Sort a series of strings",
+        "Sort using a key function. Your key function will be\ngiven the Series of values and should return an array-like.",
+        "Was this page helpful?"
+    ]
+}

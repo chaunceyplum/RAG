@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2023/other/2023-12-20",
+    "title": "December 20, 2023 \u2014 Snowpark Container Services Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "This document provides an introduction to the new feature Snowpark Container Services.",
+        "With this release, we are pleased to announce the preview of Snowpark Container Services.\nSnowpark Container Services is a fully managed container offering that helps you easily deploy, manage, and scale containerized\napplications without having to move data out of Snowflake.\nSnowpark Container Services provides an OCI runtime execution environment for OCI images that is similar to Docker or Kubernetes.\nAs a fully managed service, Snowpark Container Services includes support for security, configuration, and operational best practices.",
+        "For more details, see Snowpark Container Services.",
+        "Was this page helpful?"
+    ]
+}

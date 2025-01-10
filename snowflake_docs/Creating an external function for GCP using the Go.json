@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/external-functions-creating-gcp-ui",
+    "title": "Creating an external function for GCP using the Google Cloud console | Snowflake Documentation",
+    "paragraphs": [
+        "These topics provide detailed instructions for using the Google Cloud Console user interface to create an external function hosted on\nGCP (Google Cloud Platform). You can use these instructions either to create the sample external function provided by Snowflake or as\na guide to create your own external function.",
+        "In these topics, you will learn how to:",
+        "Create a basic Google Cloud Function as a remote service and a Google Cloud API Gateway as a proxy service.",
+        "Create an API integration and the external function itself in Snowflake.",
+        "Secure the API Gateway through a security policy.",
+        "These topics assume that you are already familiar with the Google Cloud Console. They describe the general steps that you need to complete,\nbut do not describe the Console in detail.",
+        "Tip",
+        "Google also provides a command line interface that you can use for many of these steps. For more details, see the GCP\ngcloud documentation.",
+        "See also:",
+        "Planning an external function for GCP",
+        "Steps:",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.exceptions.SnowparkSQLInvalidIdException",
+    "title": "snowflake.snowpark.exceptions.SnowparkSQLInvalidIdException | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SnowparkSQLException",
+        "Exception for having an invalid ID (usually a missing ID)\nthat are created from the translated SQL statement.",
+        "Includes error codes: 1302.",
+        "Was this page helpful?"
+    ]
+}

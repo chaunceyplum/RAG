@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/native-apps/security-cve",
+    "title": "Common Vulnerabilities and Exposures (CVE) considerations | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "The Snowflake Native App Framework is generally available on supported cloud platforms. For additional information, see\nSupport for private connectivity, VPS, and government regions.",
+        "This topic describes how Snowflake applies Common Vulnerabilities and Exposures (CVE) criteria to\na Snowflake Native App.",
+        "Common Vulnerabilities and Exposures (CVEs) are publicly disclosed information about security\nvulnerabilities in software applications and systems. These vulnerabilities can potentially be\nexploited, compromising the security of affected applications.",
+        "In the context of a Snowflake Native App, providers must address CVEs to ensure the secure execution of\nthese applications within Snowflake\u2019s data cloud environment. This is necessary to protect the data\nand operations of Snowflake customers. During the security review of a Snowflake Native App, Snowflake scans\nall incoming apps for known CVEs.",
+        "Warning",
+        "It is possible that not all CVEs are detected. Also, CVEs may not present the same level of risk\nor may not be actionable by Snowflake.",
+        "The purpose of Snowflake\u2019s CVE Evaluation Criteria is to establish a set of clear and objective criteria\nfor evaluating and addressing known CVEs in an app submitted to Snowflake. By defining these criteria, Snowflake\nprioritizes and mitigates critical security risks, while accounting for the effort required to address less\nsevere vulnerabilities. This policy guides the process for accepting or rejecting an app based on the CVE risk\nprofile.",
+        "This CVE policy applies to all incoming apps that undergo Snowflake\u2019s security review process. It covers how\nCVEs that are identified in the packages and dependencies of an app are evaluated and addressed. This policy\nis enforced during the security review process, as documented in Run the automated security scan.",
+        "This process ensures that only apps that meet the defined criteria are approved for publishing and distribution to\nconsumers within Snowflake\u2019s data cloud environment.",
+        "Snowflake uses the following three criteria to evaluate known vulnerabilities (CVEs) in\na Snowflake Native App and review each CVE:",
+        "The CVE has a confirmed fix",
+        "The CVE has a high integrity impact",
+        "The CVE has an EPSS score of 10 percent or higher",
+        "By considering these three criteria, Snowflake decides which CVEs pose the most significant risks and\nrequire immediate fixes within an app. An app is rejected if it contains any packages with a CVE that meets the criteria below or is not\nappropriately remediated.",
+        "Snowflake provides actionable information and reports only on CVEs that have a confirmed fix according\nto the National Vulnerability Database (NVD). This ensures that the identified vulnerabilities have a\nknown and available solution, enabling developers to address them effectively.",
+        "Snowflake focuses on CVEs with a high integrity impact, as defined by the Common Vulnerability Scoring\nSystem (CVSS). A high integrity impact indicates a total loss of integrity or complete loss of protection,\nallowing unauthorized modifications of data and/or data tampering without any constraints.  Providers must\naddress these CVEs to ensure the security and reliability of our data cloud environment.",
+        "The Exploit Prediction Scoring System (EPSS) provides an estimate of how likely a software\nvulnerability will be exploited based on factors including the age, complexity, and potential\nimpact of the vulnerability.",
+        "Snowflake rejects an app if it has an EPSS score of ten percent or higher. This threshold is determined\nbased on the analysis of data from current apps. This threshold allows Snowflake to prioritize and address\nvulnerabilities that have a higher probability of being exploited, while maintaining a reasonable level of\nrisk tolerance.",
+        "The following links provide more information about the processes and policies Snowflake uses\nwhen evaluating the CVE vulnerabilities for an app:",
+        "NVD Vulnerabilities",
+        "Vulnerability metrics",
+        "Exploited Protection Scoring System",
+        "Enhancing Vulnerability Prioritization",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

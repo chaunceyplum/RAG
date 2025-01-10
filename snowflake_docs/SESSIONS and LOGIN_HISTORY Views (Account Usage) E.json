@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_03/bcr-1053",
+    "title": "SESSIONS and LOGIN_HISTORY Views (Account Usage): Events from Internal Users Removed from Views | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of the SESSIONS and LOGIN_HISTORY Account Usage views in the shared SNOWFLAKE database behaves as follows:",
+        "Events from internal system users (e.g. WORKSHEET_APP_USER) are shown in these views.",
+        "Events from internal system users (e.g. WORKSHEET_APP_USER) are not shown in these views.",
+        "Ref: 1053",
+        "Was this page helpful?"
+    ]
+}

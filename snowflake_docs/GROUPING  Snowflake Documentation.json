@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/grouping",
+    "title": "GROUPING | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (General)",
+        "Describes which of a list of expressions are grouped in a row produced by a GROUP BY query.",
+        "GROUPING_ID",
+        "GROUPING is not an aggregate function, but rather a utility function that can be used alongside aggregation, to determine the level of aggregation a row was generated for:",
+        "GROUPING(expr) returns 0 for a row that is grouped on expr, and 1 for a row that is not grouped on expr.",
+        "GROUPING(expr1, expr2 , \u2026 , exprN) returns the integer representation of a bit-vector containing GROUPING(expr1) , GROUPING(expr2) , \u2026 , GROUPING(exprN).",
+        "Group by sets:",
+        "Create and populate a table with values:",
+        "Show the values in the table:",
+        "Output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

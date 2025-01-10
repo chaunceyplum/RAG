@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/operators-subquery",
+    "title": "Subquery operators | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides reference information about the subquery operators supported in Snowflake. A subquery is a query within another query.",
+        "The ALL and ANY keywords can be used to apply a comparison operator to the values produced by a subquery (which can return more than one row).",
+        "Where:",
+        "The expression is compared with the operator to each value that the subquery returns:",
+        "If ANY is specified, then the result is TRUE if any row of the subquery satisfies the condition, otherwise it returns FALSE.",
+        "If ALL is specified, then the result is TRUE if every row of the subquery satisfies the condition, otherwise it returns FALSE.",
+        "ANY/ALL subqueries are currently supported only in a WHERE clause.",
+        "ANY/ALL subqueries cannot appear as an argument to an OR operator.",
+        "The subquery must contain only one item in its SELECT list.",
+        "Use a != ALL subquery to find the departments that have no employees:",
+        "An EXISTS subquery is a boolean expression that can appear in a WHERE or HAVING clause, or in any function that operates on a boolean expression:",
+        "An EXISTS expression evaluates to TRUE if any rows are produced by the subquery.",
+        "A NOT EXISTS expression evaluates to TRUE if no rows are produced by the subquery.",
+        "Correlated EXISTS subqueries are currently supported only in a WHERE clause.",
+        "Correlated EXISTS subqueries cannot appear as an argument to an OR operator.",
+        "Uncorrelated EXISTS subqueries are supported anywhere that a boolean expression is allowed.",
+        "Use a correlated NOT EXISTS subquery to find the departments that have no employees:",
+        "The IN and NOT IN operators check if an expression is included or not included in the values returned by a subquery.",
+        "IN is shorthand for = ANY, and is subject to the same restrictions as ANY subqueries.",
+        "NOT IN is shorthand for != ALL, and is subject to the same restrictions as ALL subqueries.",
+        "[NOT] IN can also be used as an operator in expressions that do not involve a subquery. For details, see\n[ NOT ] IN.",
+        "Use a NOT IN subquery that is equivalent to the != ALL subquery example (earlier in this topic):",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.sql_expr",
+    "title": "snowflake.snowpark.functions.sql_expr | Snowflake Documentation",
+    "paragraphs": [
+        "Creates a Column expression from raw SQL text.\nNote that the function does not interpret or check the SQL text.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1251",
+    "title": "Tasks: Graph completion time differs from final task | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Table function COMPLETE_TASK_GRAPHS and COMPLETE_TASK_GRAPHS\nview now both include details on completion times.",
+        "Task and task graph completion times behave as follows for a given task graph:",
+        "COMPLETED_TIME is the completion time of the last task run in the graph.",
+        "COMPLETED_TIME is the time when the graph run is completed. This value can be greater than the completion time of the last task run due to tracking overhead.",
+        "Ref: 1251",
+        "Was this page helpful?"
+    ]
+}

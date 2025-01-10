@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/native-apps/connector-sdk/using/response_and_error_handling",
+    "title": "Responses and error handling | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to accounts in all regions in all cloud providers (including government regions). For details, contact your Snowflake representative.",
+        "The Snowflake Native SDK for Connectors uses certain standard responses, especially for procedures exposed and designed to be used from the UI.\nAdditionally it provides a way to ensure that exceptions are mapped to valid responses and logged into the EVENT TABLE.",
+        "The SDK procedures, both high-level ones and internal ones, use variant of a certain structure to pass information.\nThe requirement for such a variant is that it has to contain a response_code field,\nand in some cases the response code is different than OK, in the required message field.\nAny additional field can be included, but it requires further custom handling. THe response format is:",
+        "It is recommended to use this format when replacing default implementations of the procedures and objects.",
+        "The Snowflake Native SDK for Connectors provides a useful default mechanism to handle exceptions that can occur during runtime.\nThe class responsible for this is called ConnectorErrorHelper and its default implementation is DefaultConnectorErrorHelper.\nThis feature provides 2 customizable callbacks. The first one, ExceptionMapper, is responsible for wrapping all unexpected\nerrors into the ConnectorException format. This feature is used mainly to ensure responses are compliant with the format mentioned above.",
+        "The second callback, called ExceptionLogger, ensures that the error is logged.\nThis is important because all standard log entries are then saved in the EVENT TABLE\nby Snowflake, which helps when resolving problems with the applications.",
+        "The helper exposes 2 methods:",
+        "withExceptionWrapping(Supplier<ConnectorResponse> action)",
+        "withExceptionLogging(Supplier<T> action)",
+        "Those methods respectively use mapper and logger mentioned above. There is also a default\nimplementation of a helper method which mixes those approaches together:",
+        "It is recommended to use this wrapping at the highest possible level when invoking a\nmethod from a handler. For example in ConnectionConfigurationHandler it is used like this:",
+        "The SDK also exposes a builder to customize this behavior, called ConnectorErrorHelperBuilder.\nThis builder allows the developer to customize the behavior of the mapper and logger callbacks.\nOnce customized the new helper can be passed to the handler classes in their respective builders.\nFor example:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

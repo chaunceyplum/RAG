@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/native-apps/connector-sdk/reference/scheduler_reference",
+    "title": "Ingestion scheduler reference | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to accounts in all regions in all cloud providers (including government regions). For details, contact your Snowflake representative.",
+        "The following procedures are created by the file scheduler/scheduler.sql.",
+        "This procedure acts as the entry point between SQL and Java. It will create a task running according to the schedule available in APP_STATE table.\nThis task will execute below PUBLIC.RUN_SCHEDULER_ITERATION() procedure when executed.",
+        "This procedure is an entry point to the Java implementation of the actual scheduling task. It will be invoked whenever the scheduler task is executed.",
+        "This procedure defines the ingestion flow for a single process that was taken by the scheduler for execution. The default implementation does nothing.\nWe recommend implementing this in Java using the OnIngestionScheduledCallback interface.",
+        "Other related features:",
+        "Task Reactor",
+        "Ingestion",
+        "Java implementations and related classes:",
+        "CreateSchedulerHandler",
+        "RunSchedulerIterationHandler",
+        "RunSchedulerIterationHandlerBuilder",
+        "OnIngestionScheduledCallback",
+        "OnIngestionFinishedCallback",
+        "Ingestion scheduler feature consists of two different handlers acting as entry point from SQL to Java:",
+        "CreateSchedulerHandler",
+        "RunSchedulerIterationHandler",
+        "We recommend customizing only the latter one.",
+        "RunSchedulerIterationHandler can be customized using RunSchedulerIterationHandlerBuilder.\nThis helper objects allows for custom implementations of the underlying interfaces:",
+        "ConnectorErrorHelper",
+        "OnIngestionScheduledCallback",
+        "In case they are not provided the default implementations will be used.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

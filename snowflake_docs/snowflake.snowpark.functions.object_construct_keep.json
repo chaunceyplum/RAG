@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.object_construct_keep_null",
+    "title": "snowflake.snowpark.functions.object_construct_keep_null | Snowflake Documentation",
+    "paragraphs": [
+        "Returns an object containing the contents of the input (i.e. source) object with one or more\nkeys removed.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

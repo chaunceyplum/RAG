@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/timestampadd",
+    "title": "TIMESTAMPADD | Snowflake Documentation",
+    "paragraphs": [
+        "Date & time functions",
+        "Adds the specified value for the specified date or time part to a date, time, or timestamp.",
+        "Alias for DATEADD.",
+        "This indicates the units of time that you want to add. For example if you\nwant to add two days, then specify day. This unit of measure must\nbe one of the values listed in Supported date and time parts.",
+        "This is the number of units of time that you want to add. For example,\nif the units of time is day, and you want to add two days, specify 2.\nIf you want to subtract two days, specify -2.",
+        "date_or_time_expr must evaluate to a date, time, or timestamp.\nThis is the date, time, or timestamp to which you want to add.\nFor example, if you want to add two days to August 1, 2024, then specify\n'2024-08-01'::DATE.",
+        "If the data type is TIME, then the date_or_time_part\nmust be in units of hours or smaller, not days or bigger.",
+        "If the input data type is DATE, and the date_or_time_part is hours\nor smaller, the input value will not be rejected, but instead will be\ntreated as a TIMESTAMP with hours, minutes, seconds, and fractions of\na second all initially set to 0 (e.g. midnight on the specified date).",
+        "If date_or_time_expr is a time, then the return data type is a time.",
+        "If date_or_time_expr is a timestamp, then the return data type is a timestamp.",
+        "If date_or_time_expr is a date:",
+        "If date_or_time_part is day or larger (for example, month, year),\nthe function returns a DATE value.",
+        "If date_or_time_part is smaller than a day (for example, hour, minute,\nsecond), the function returns a TIMESTAMP_NTZ value, with 00:00:00.000 as the starting\ntime for the date.",
+        "When date_or_time_part is year, quarter, or month (or any of their variations),\nif the result month has fewer days than the original day of the month, the result day of the month might\nbe different from the original day.",
+        "The TIMEADD and TIMESTAMPADD functions are aliases for the DATEADD function. You can use any of these three\nfunctions in the examples to return the same results.",
+        "Add years to a date:",
+        "Subtract years from a date:",
+        "Add two years and two hours to a date. First, set the timestamp output format, create a table,\nand insert data:",
+        "Run a query that adds two years and two hours to a date:",
+        "Add a month to a date in a month with the same or more days than the\nresulting month. For example, if the date is January 31, adding a month should not\nreturn February 31.",
+        "Add a month to a date in a month with fewer days than the resulting month.\nAdding a month to February 28 returns March 28.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/connection-commands/list-connections",
+    "title": "snow connection list | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Lists configured connections.",
+        "None",
+        "Specifies the output format. Default: TABLE.",
+        "Displays log entries for log levels info and higher. Default: False.",
+        "Displays log entries for log levels debug and higher; debug logs contain additional information. Default: False.",
+        "Turns off intermediate output to console. Default: False.",
+        "Displays the help text for this command.",
+        "The snow connection list command lists the connections in your default config.toml file.\nFor more information, see Configuring Snowflake CLI and connecting to Snowflake.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

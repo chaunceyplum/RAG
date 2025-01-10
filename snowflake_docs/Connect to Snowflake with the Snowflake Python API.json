@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/snowflake-python-connecting-snowflake",
+    "title": "Connect to Snowflake with the Snowflake Python APIs | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Before you can perform actions with the Snowflake Python APIs, you must define a connection to Snowflake. With the connection, you can\ncreate a Root object for access to resources modeled by the API.",
+        "You can define a connection to Snowflake using one of the following mechanisms:",
+        "Python dictionary",
+        "Configuration file",
+        "You can specify the values needed to connect to Snowflake by using a Python dictionary. When you connect, you pass this dictionary as an\nargument to the function or method you\u2019re using to connect:",
+        "You can specify connection definitions in a TOML configuration file. This eliminates the need to\nexplicitly define a connection to Snowflake in your code.",
+        "For example, create a configuration file located at ~/.snowflake/connections.toml, and add connection parameters similar to the\nfollowing:",
+        "In this example, you define a Snowflake connection named myconnection with the account test-account, user test_user,\npassword credentials, and database information.",
+        "Note",
+        "The account parameter does not support account identifiers with underscores.\nYou must specify an account identifier with dashes in place of any underscores. For more information, see\nAccount name in your organization.",
+        "Connection definitions support the same configuration options available in the\nSnowflake Python Connector.",
+        "Using the connection properties you\u2019ve specified, you can create a connection to Snowflake. With the connection, you can create a\nSnowflake Python APIs Root object with which to begin using the API.",
+        "You can connect using one of the following objects:",
+        "A Snowpark Session object",
+        "A Snowflake Python Connector Connection object",
+        "If you\u2019re using the Snowpark API for Python, you can create a connection to Snowflake\nby using its snowflake.snowpark.Session object.",
+        "Code in the following example uses connection parameters defined in a configuration file to create a connection to Snowflake. Using the\nresulting Session object, the code creates a Root object from which to use the API:",
+        "For more information about creating a Session, see Creating a Session for Snowpark Python.",
+        "If you\u2019re using the Snowflake Connector for Python, you can create a connection\nto Snowflake by using its snowflake.connector.connect function. The function returns a Connection object.",
+        "Code in the following example uses connection parameters defined in a configuration file to create a connection to Snowflake. Using the\nresulting Connection object, the code creates a Root object from which to use the API:",
+        "For more information about the Snowflake Connector for Python API, see Python Connector API.",
+        "With a Root object created from your connection to Snowflake, you can access\nobjects and methods of the Snowflake Python APIs. The Root object is the root of the resource tree modeled by the API.\nYou use the Root object to interact with Snowflake objects represented by the API.",
+        "Code in the following example uses the Root object to access Snowflake objects in order to resume the task named mytask.\nThe task is in the schema named myschema, which is in the database named mydb. The code uses the databases,\nschemas, and tasks methods to get an object that represents this task:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

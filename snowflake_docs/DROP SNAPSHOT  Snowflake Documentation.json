@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-snapshot",
+    "title": "DROP SNAPSHOT | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Available to accounts in AWS and Microsoft Azure commercial regions, with some exceptions. For more information, see Available regions.",
+        "Note",
+        "This operation is not currently covered by the Service Level set forth in\nSnowflake\u2019s Support Policy and Service Level Agreement.",
+        "Removes a snapshot. A snapshot is persisted data that the customer pays for. DROP SNAPSHOT tells Snowflake to delete that data. The data is no longer available for use as a snapshot and the customer no longer pays for it.",
+        "CREATE SNAPSHOT , ALTER SNAPSHOT, DESCRIBE SNAPSHOT,  SHOW SNAPSHOTS",
+        "Specifies the identifier for the snapshot to drop.",
+        "If the identifier contains spaces or special characters, the entire string must be enclosed in double quotes.\nIdentifiers enclosed in double quotes are also case-sensitive.",
+        "For more information, see Identifier requirements.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "OWNERSHIP",
+        "Snapshot",
+        "OWNERSHIP is a special privilege on an object that is automatically granted to the role that created the object, but can also be transferred using the GRANT OWNERSHIP command to a different role by the owning role (or any role with the MANAGE GRANTS privilege).",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "The following example drops the snapshot named example_snapshot:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

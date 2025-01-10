@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_perimeter",
+    "title": "ST_PERIMETER | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns the length of the perimeter of the polygon(s) in a GEOGRAPHY or\nGEOMETRY object.",
+        "The argument must be of type GEOGRAPHY or GEOMETRY.",
+        "Returns a REAL value, which represents the length:",
+        "For GEOGRAPHY objects, the length is in meters.",
+        "For GEOMETRY objects, the length is computed with the same unit used to define the coordinates.",
+        "If geography_or_geometry_expression is not a Polygon, MultiPolygon, or GeometryCollection containing Polygons, ST_PERIMETER returns 0.",
+        "If geography_or_geometry_expression is a GeometryCollection, ST_PERIMETER returns the sum of the perimeters of the Polygons in the collection.",
+        "Use this function (rather than ST_LENGTH) to get the perimeter of a Polygon.",
+        "This calculates the length of the perimeter of a polygon that is one degree of arc on each edge and has one\nedge on the equator:",
+        "The following example demonstrates how to use the ST_PERIMETER function.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

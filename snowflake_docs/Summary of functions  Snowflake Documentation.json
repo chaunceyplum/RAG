@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/intro-summary-operators-functions",
+    "title": "Summary of functions | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake supports most of the standard functions defined in SQL:1999, as well as parts of the SQL:2003 analytic extensions.",
+        "A scalar function is a function that returns one value per invocation; in most cases, you can think of this as returning\none value per row. This contrasts with Aggregate functions, which return one value per group of rows.",
+        "For a complete list of scalar function categories, see Scalar functions.",
+        "Snowflake supports aggregate functions to operate on values across rows to perform mathematical calculations such as sum, average,\ncounting, minimum/maximum values, standard deviation, and estimation, as well as some non-mathematical operations.",
+        "For a complete list, see Aggregate functions.",
+        "Window functions are aggregate functions that can operate on a subset of rows within the set of input rows.",
+        "Snowflake supports many Table functions to obtain information about Snowflake features and services.",
+        "For a complete summary, see List of system-defined table functions.",
+        "For a complete list of system functions, see System functions.",
+        "In addition to the system-defined functions provided by Snowflake, you can create user-defined functions (UDFs). See\nUser-defined functions overview for more information.",
+        "Snowflake also supports Writing external functions, which are stored and executed outside Snowflake.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

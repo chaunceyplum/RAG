@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.join",
+    "title": "snowflake.snowpark.DataFrame.join | Snowflake Documentation",
+    "paragraphs": [
+        "Performs a join of the specified type (how) with the current\nDataFrame and another DataFrame (right) on a list of columns\n(on).",
+        "right \u2013 The other DataFrame to join.",
+        "on \u2013 A column name or a Column object or a list of them to be used for the join.\nWhen a list of column names are specified, this method assumes the named columns are present in both dataframes.\nYou can use keyword using_columns to specify this condition. Note that to avoid breaking changes, when\nusing_columns` is specified, it overrides on.",
+        "how \u2013",
+        "We support the following join types:",
+        "Inner join: \u201cinner\u201d (the default value)",
+        "Left outer join: \u201cleft\u201d, \u201cleftouter\u201d",
+        "Right outer join: \u201cright\u201d, \u201crightouter\u201d",
+        "Full outer join: \u201cfull\u201d, \u201couter\u201d, \u201cfullouter\u201d",
+        "Left semi join: \u201csemi\u201d, \u201cleftsemi\u201d",
+        "Left anti join: \u201canti\u201d, \u201cleftanti\u201d",
+        "Cross join: \u201ccross\u201d",
+        "Asof join: \u201casof\u201d",
+        "You can also use join_type keyword to specify this condition.\nNote that to avoid breaking changes, currently when join_type is specified,\nit overrides how.",
+        "",
+        "lsuffix \u2013 Suffix to add to the overlapping columns of the left DataFrame.",
+        "rsuffix \u2013 Suffix to add to the overlapping columns of the right DataFrame.",
+        "match_condition \u2013 The match condition for asof join.",
+        "Note",
+        "When both lsuffix and rsuffix are empty, the overlapping columns will have random column names in the resulting DataFrame.\nYou can reference to these randomly named columns using Column.alias() (See the first usage in Examples).",
+        "See also",
+        "Usage notes for asof join: https://docs.snowflake.com/sql-reference/constructs/asof-join#usage-notes",
+        "Note",
+        "When performing chained operations, this method will not work if there are\nambiguous column names. For example,",
+        "will not work because df1.filter(df1.a == 1) has produced a new dataframe and you\ncannot refer to df1.a anymore. Instead, you can do either",
+        "or",
+        "Was this page helpful?"
+    ]
+}

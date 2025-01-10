@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.abs",
+    "title": "modin.pandas.Series.abs | Snowflake Documentation",
+    "paragraphs": [
+        "Return a BasePandasDataset with absolute numeric value of each element.",
+        "Was this page helpful?"
+    ]
+}

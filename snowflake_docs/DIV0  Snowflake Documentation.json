@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/div0",
+    "title": "DIV0 | Snowflake Documentation",
+    "paragraphs": [
+        "Numeric functions",
+        "Performs division like the division operator (/), but returns 0 when the divisor is 0 (rather than reporting an error).",
+        "DIV0NULL",
+        "Numeric expression that evaluates to the value that you want to divide.",
+        "Numeric expression that evaluates to the value that you want to divide by.",
+        "The quotient. If the divisor is 0, the function returns 0.",
+        "As shown in the following example, the DIV0 function performs division like the division operator (/):",
+        "Unlike the division operator, DIV0 returns a 0 (rather than reporting an error) when the divisor is 0.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

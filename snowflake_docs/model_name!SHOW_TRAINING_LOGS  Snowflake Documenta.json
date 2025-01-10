@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/forecast/methods/show_training_logs",
+    "title": "<model_name>!SHOW_TRAINING_LOGS | Snowflake Documentation",
+    "paragraphs": [
+        "Returns logs from model training. Output is non-NULL only when 'ON_ERROR' = 'SKIP' is set in the training\nCONFIG_OBJECT; otherwise the entire model fails to train.",
+        "If you need to select specific columns from the data returned by this method, you can call the method in the FROM clause of a\nSELECT statement. See Selecting columns from SQL class instance methods that return tabular data.",
+        "Column",
+        "Type",
+        "Description",
+        "SERIES",
+        "VARIANT",
+        "Series value (NULL if model was trained with single time series).",
+        "LOGS",
+        "OBJECT",
+        "Object containing errors encountered during training. Currently the only key is  Errors, an array of\nerrors. If no errors were encountered, the logs object is NULL.",
+        "See Examples.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

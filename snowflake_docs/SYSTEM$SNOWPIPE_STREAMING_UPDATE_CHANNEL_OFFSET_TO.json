@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_snowpipe_streaming_update_channel_offset_token",
+    "title": "SYSTEM$SNOWPIPE_STREAMING_UPDATE_CHANNEL_OFFSET_TOKEN | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Updates the offset token for a particular channel used by Snowpipe Streaming with a new offset token.",
+        "For more information about channels and offset tokens, see Snowpipe Streaming.",
+        "See also:",
+        "SHOW CHANNELS",
+        "Name of the database in which the channel is stored.",
+        "Name of the schema in which the channel is stored.",
+        "Name of the table where the channel is mapped to.",
+        "Name of the channel.",
+        "The new offset token.",
+        "The role that executes this function must have at least the INSERT privilege on the table where the channel is mapped to.",
+        "Updates the offset token for mychannel in mydb.myschema.mytable with a <new_offset_token>:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

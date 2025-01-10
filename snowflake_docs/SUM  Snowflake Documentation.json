@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/sum",
+    "title": "SUM | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (General) , Window function syntax and usage (General)",
+        "Returns the sum of non-NULL records for expr. You can use the DISTINCT keyword to compute the sum of unique\nnon-null values. If all records inside a group are NULL, the function returns NULL.",
+        "COUNT , MAX , MIN",
+        "Aggregate function",
+        "Window function",
+        "For detailed window_frame syntax, see Window function syntax and usage.",
+        "This is an expression that evaluates to a numeric data type (INTEGER, FLOAT, DECIMAL, etc.).",
+        "This is the optional expression to partition by.",
+        "This is the optional expression to order by within each partition. (This does not control the order of the\nentire query output.)",
+        "Numeric values are summed into an equivalent or larger data type.",
+        "When passed a VARCHAR expression, this function implicitly casts the input to floating point values. If the cast\ncannot be performed, an error is returned.",
+        "When this function is called as a window function with an OVER clause that contains an ORDER BY clause:",
+        "A window frame is required. If no window frame is specified explicitly, the following implied window frame is used:",
+        "RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW",
+        "For more information about window frames, including syntax, usage notes, and examples, see Window function syntax and usage.",
+        "Using the keyword DISTINCT inside the window function is prohibited and results in a compile-time error.",
+        "The script below shows the use of this function (and some other aggregate window functions):",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

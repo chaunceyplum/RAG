@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.types.DecimalType",
+    "title": "snowflake.snowpark.types.DecimalType | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: _FractionalType",
+        "Decimal data type. This maps to the NUMBER data type in Snowflake.",
+        "Methods",
+        "jsonValue()",
+        "",
+        "json_value()",
+        "",
+        "simpleString()",
+        "",
+        "simple_string()",
+        "",
+        "Was this page helpful?"
+    ]
+}

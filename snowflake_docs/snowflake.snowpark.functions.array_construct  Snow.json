@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.array_construct",
+    "title": "snowflake.snowpark.functions.array_construct | Snowflake Documentation",
+    "paragraphs": [
+        "Returns an ARRAY constructed from zero, one, or more inputs.",
+        "cols \u2013 Columns containing the values (or expressions that evaluate to values). The\nvalues do not all need to be of the same data type.",
+        "Was this page helpful?"
+    ]
+}

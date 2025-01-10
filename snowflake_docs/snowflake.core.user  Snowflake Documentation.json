@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.user",
+    "title": "snowflake.core.user | Snowflake Documentation",
+    "paragraphs": [
+        "Manages Snowflake Users.",
+        "Example",
+        "Classes",
+        "User(name[,\u00a0password,\u00a0login_name,\u00a0...])",
+        "A model object representing the User resource.",
+        "UserCollection(root)",
+        "Represents the collection operations on the Snowflake User resource.",
+        "UserResource(name,\u00a0collection)",
+        "Represents a reference to a Snowflake user.",
+        "Securable(*[,\u00a0database,\u00a0schema])",
+        "A model object representing the Securable resource.",
+        "Grant(*[,\u00a0securable,\u00a0containing_scope,\u00a0...])",
+        "A model object representing the Grant resource.",
+        "ContainingScope(*,\u00a0database[,\u00a0schema])",
+        "A model object representing the ContainingScope resource.",
+        "Was this page helpful?"
+    ]
+}

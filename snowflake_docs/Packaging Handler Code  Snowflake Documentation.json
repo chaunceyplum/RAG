@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/udf-stored-procedure-building",
+    "title": "Packaging Handler Code | Snowflake Documentation",
+    "paragraphs": [
+        "To make function or procedure handler code written in Java or Scala easier to reuse, you can build a JAR file that contains the handler and\nits dependencies. When you create the function or procedure, you reference the handler JAR on a stage.",
+        "Topics in this section describe how to build handlers with commonly-used build tools.",
+        "For more information about using packaged handler code (as well as other dependencies) by referencing them on a stage, see\nKeeping handler code in-line or on a stage.",
+        "Note",
+        "You can also use an IntelliJ IDEA project (not an SBT project in IntelliJ) to create the handler JAR. For more information, see the\ninstructions on setting up an artifact configuration.",
+        "Build Scala handler code with sbt.",
+        "Build handler code with Maven.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

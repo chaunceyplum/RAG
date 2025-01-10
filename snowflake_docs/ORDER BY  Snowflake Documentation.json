@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/constructs/order-by",
+    "title": "ORDER BY | Snowflake Documentation",
+    "paragraphs": [
+        "Query syntax",
+        "Specifies an ordering of the rows of the result table from a SELECT list.",
+        "Where:",
+        "Column alias appearing in the query block\u2019s SELECT list.",
+        "Position of an expression in the SELECT list.",
+        "Any expression on tables in the current scope.",
+        "Optionally returns the values of the sort key in ascending (lowest to highest) or descending (highest to lowest) order.",
+        "Default: ASC",
+        "Optionally specifies whether NULL values are returned before/after non-NULL values, based on the sort order (ASC or DESC).",
+        "Default: Depends on the sort order (ASC or DESC); see the usage notes below for details",
+        "All data is sorted according to the numeric byte value of each character in the ASCII table. UTF-8 encoding is supported.",
+        "For numeric values, leading zeros before the decimal point and trailing zeros (0) after the decimal point have no effect on sort order.",
+        "Unless specified otherwise, NULL values are considered to be higher than any non-NULL values. As a result, the ordering for NULLS depends on the sort order:",
+        "If the sort order is ASC, NULLS are returned last; to force NULLS to be first, use NULLS FIRST.",
+        "If the sort order is DESC, NULLS are returned first; to force NULLS to be last, use NULLS LAST.",
+        "The sort order is not guaranteed to be consistent for values of different data types in\nsemi-structured data, such as an array that contains elements of\ndifferent data types.",
+        "Top-K pruning can improve the performance of queries that include both LIMIT and ORDER BY clauses. For more\ninformation, see Top-K pruning for improved query performance.",
+        "An ORDER BY can be used at different levels in a query, for example in a subquery or inside an OVER() subclause.\nAn ORDER BY inside a subquery or subclause applies only within that subquery or subclause. For example, the ORDER BY\nin the following query orders results only within the subquery, not the outermost level of the query:",
+        "In this example, the ORDER BY is specified in the subquery, so the subquery returns the names in order of monthly\nsales. The ORDER BY in the subquery does not apply to the outer query. This query returns the names of the three\nbranches that had the highest monthly sales, but not necessarily in order by monthly sales.",
+        "Sorting can be expensive. If you want the results of the outer query sorted, use an ORDER BY clause only at the\ntop level of the query, and avoid using ORDER BY clauses in subqueries unless necessary.",
+        "Sort order example for strings:",
+        "Sort order example for numbers:",
+        "Sort order example for NULL values:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.__iter__",
+    "title": "modin.pandas.DataFrame.__iter__ | Snowflake Documentation",
+    "paragraphs": [
+        "Iterate over info axis.",
+        "Iterator of the columns names.",
+        "iterable",
+        "Was this page helpful?"
+    ]
+}

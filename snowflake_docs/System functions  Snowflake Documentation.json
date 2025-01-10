@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions-system",
+    "title": "System functions | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake provides the following types of system functions:",
+        "Control functions that allow you to execute actions in the system (e.g. aborting a query).",
+        "Information functions that return information about the system (e.g. calculating the clustering depth of a table).",
+        "Information functions that return information about queries (e.g. information about EXPLAIN plans).",
+        "Many of these system functions have the prefix SYSTEM$ (e.g. SYSTEM$TYPEOF). For the system functions that use\nthis prefix, you must specify the prefix when calling the function. For example:",
+        "Function Name",
+        "Notes",
+        "Control",
+        "Information",
+        "Deprecated; use the other clustering functions instead.",
+        "Deprecated; use DATABASE_REFRESH_HISTORY instead.",
+        "Deprecated; use DATABASE_REFRESH_PROGRESS , DATABASE_REFRESH_PROGRESS_BY_JOB instead.",
+        "Deprecated; use the SHOW SERVICE CONTAINERS IN SERVICE command instead.",
+        "Deprecated; use the SHOW IMAGES IN IMAGE REPOSITORY command instead.",
+        "This function is a table function.",
+        "Deprecated; use SYSTEM$ALLOWLIST instead.",
+        "Deprecated; use SYSTEM$ALLOWLIST_PRIVATELINK instead.",
+        "Query Information",
+        "Was this page helpful?"
+    ]
+}

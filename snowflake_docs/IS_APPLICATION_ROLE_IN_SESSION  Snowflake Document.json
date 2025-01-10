@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/is_application_role_in_session",
+    "title": "IS_APPLICATION_ROLE_IN_SESSION | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (Session Object)",
+        "Verifies whether the application role is activated in the consumer\u2019s current session.",
+        "IS_ROLE_IN_SESSION, IS_DATABASE_ROLE_IN_SESSION",
+        "The application role name. When the application role name is unspecified, the application role name is inferred by the current database session context.",
+        "TRUE when the specified role name is activated in the consumer\u2019s current session.",
+        "The function always uses the consumer\u2019s current session and returns TRUE when the application role is granted to the consumer using the function.",
+        "The function does not return TRUE when the application calls the function because application roles are owned but not granted to the app.",
+        "FALSE when the specified application role name is not activated in the consumer\u2019s current session.",
+        "If you\u2019re using the IS_APPLICATION_ROLE_IN_SESSION function with a masking policy or a\nrow access policy, verify that your Snowflake account is Enterprise Edition or higher.",
+        "Only one role name can be passed as an argument",
+        "This function can\u2019t be used in a materialized view definition because the function is not deterministic and Snowflake cannot determine what data to materialize.",
+        "Verify if the specified application role is in the current session:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

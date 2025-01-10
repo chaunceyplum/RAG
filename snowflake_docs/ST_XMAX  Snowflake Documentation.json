@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_xmax",
+    "title": "ST_XMAX | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns the maximum longitude (X coordinate) of all points contained in the specified\nGEOGRAPHY or GEOMETRY object.",
+        "The argument must be an expression of type GEOGRAPHY or GEOMETRY.",
+        "Returns a REAL value.",
+        "If the geospatial object is on the antimeridian or crosses it, the function\nreturns 180.",
+        "This shows a simple use of the ST_XMIN, ST_XMAX, ST_YMIN, and ST_YMAX functions:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

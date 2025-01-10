@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/md5_binary",
+    "title": "MD5_BINARY | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Checksum)",
+        "Returns a 16-byte BINARY value containing the 128-bit MD5 message digest.",
+        "MD5 , MD5_HEX, MD5_NUMBER_LOWER64, MD5_NUMBER_UPPER64",
+        "A string expression, the message to be hashed.",
+        "Returns a 16-byte BINARY value containing the MD5 message digest.",
+        "Although the MD5* functions were originally developed as cryptographic functions, they are now\nobsolete for cryptography and should not be used for that purpose. They can be used for other purposes\n(for example, as \u201cchecksum\u201d functions to detect accidental data corruption).",
+        "If you need to encrypt and decrypt data, use the following functions:",
+        "ENCRYPT and DECRYPT",
+        "ENCRYPT_RAW and DECRYPT_RAW",
+        "The example below shows a simple example of using the function. Note that\nalthough the output is a 16-byte binary string, by default SNOWSQL displays\nbinary values as a series of hexadecimal digits, so the output below appears\nas 32 hexadecimal digits, not as 16 one-byte characters.",
+        "This example demonstrates using the function to insert into a table that\ncontains a column of type BINARY.",
+        "Create and fill a table:",
+        "Output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

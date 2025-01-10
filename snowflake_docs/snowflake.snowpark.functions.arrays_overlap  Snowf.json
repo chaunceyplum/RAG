@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.arrays_overlap",
+    "title": "snowflake.snowpark.functions.arrays_overlap | Snowflake Documentation",
+    "paragraphs": [
+        "Compares whether two ARRAYs have at least one element in common. Returns TRUE\nif there is at least one element in common; otherwise returns FALSE. The function\nis NULL-safe, meaning it treats NULLs as known values for comparing equality.",
+        "Was this page helpful?"
+    ]
+}

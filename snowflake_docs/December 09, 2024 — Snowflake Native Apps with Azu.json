@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-12-09-na-az-privatelink",
+    "title": "December 09, 2024 \u2014 Snowflake Native Apps with Azure Private Link support \u2014\u2013 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake is pleased to announce the preview of Azure Private link in the\nSnowflake Native Framework. Snowflake Native Apps can be deployed and operated with Private Link\nconnectivity in Azure, enabling secure network isolation.",
+        "For more information see Understand limitations in the Snowflake Native App Framework.",
+        "Was this page helpful?"
+    ]
+}

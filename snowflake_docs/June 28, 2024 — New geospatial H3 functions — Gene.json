@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-06-28-geospatial-h3-functions-ga",
+    "title": "June 28, 2024 \u2014 New geospatial H3 functions \u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "H3 is a hierarchical geospatial index that partitions\nthe world into hexagonal cells in a discrete global grid system.",
+        "The following H3 functions are now generally available:",
+        "H3_COMPACT_CELLS",
+        "H3_COMPACT_CELLS_STRINGS",
+        "H3_IS_PENTAGON",
+        "H3_IS_VALID_CELL",
+        "H3_TRY_COVERAGE",
+        "H3_TRY_COVERAGE_STRINGS",
+        "H3_TRY_GRID_DISTANCE",
+        "H3_TRY_GRID_PATH",
+        "H3_TRY_POLYGON_TO_CELLS",
+        "H3_TRY_POLYGON_TO_CELLS_STRINGS",
+        "H3_UNCOMPACT_CELLS",
+        "H3_UNCOMPACT_CELLS_STRINGS",
+        "For more information, see Geospatial data types and\nGeospatial functions.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-1113",
+    "title": "Snowsight: Default Interface for New Users | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "All new users of Snowflake have their Default Experience user preference set to Snowsight.",
+        "Users still have access to Classic Console and can change their Default Experience preference back to Classic Console in their user\nprofile if needed.",
+        "If you use private connectivity to access Snowflake, make sure that access to Snowsight is set up.",
+        "New Snowflake users sign in to the web interface and see the Classic Console.",
+        "New Snowflake users sign in to the web interface and see Snowsight.",
+        "Note",
+        "Where possible, customers using private connectivity to connect to Snowsight have been proactively excluded from this behavior\nchange. For more information, see\nPreparing Private Connectivity for Snowsight\n(in the Snowflake Community).",
+        "Ref: 1113",
+        "Was this page helpful?"
+    ]
+}

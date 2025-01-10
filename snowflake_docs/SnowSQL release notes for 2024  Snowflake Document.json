@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/clients-drivers/snowsql-2024",
+    "title": "SnowSQL release notes for 2024 | Snowflake Documentation",
+    "paragraphs": [
+        "This article contains the release notes for the SnowSQL, including the following when applicable:",
+        "Behavior changes",
+        "New features",
+        "Customer-facing bug fixes",
+        "Note",
+        "For release note information for versions released prior to January 2022, see the Client Release History.",
+        "See SnowSQL (CLI client) for documentation.",
+        "None.",
+        "Fixed an issue with the snowsql --version command failing when automatic upgrades are disabled (noup=False).",
+        "Added Linux aarch64 binaries.",
+        "None",
+        "The SnowSQL 1.3.0 release disabled automatic upgrades. To use this version, please download and reinstall SnowSQL 1.3.0. Going forward, you must manually install new versions of SnowSQL.",
+        "None.",
+        "Disabled automatic updates to fix an issue where expired S3 licenses caused SnowSQL to fail.",
+        "Fixed an issue where the lack of permission to create log directory aborted SnowSQL.",
+        "Fixed an issue that endpoint is not created correctly when connecting to China deployment.",
+        "Bumped the keyring dependency to 23.1.0 to address a security vulnerability.",
+        "None.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

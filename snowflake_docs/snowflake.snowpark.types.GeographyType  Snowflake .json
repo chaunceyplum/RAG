@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.types.GeographyType",
+    "title": "snowflake.snowpark.types.GeographyType | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: DataType",
+        "Geography data type. This maps to the GEOGRAPHY data type in Snowflake.",
+        "Methods",
+        "Was this page helpful?"
+    ]
+}

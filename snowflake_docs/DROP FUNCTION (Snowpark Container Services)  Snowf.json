@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-function-spcs",
+    "title": "DROP FUNCTION (Snowpark Container Services) | Snowflake Documentation",
+    "paragraphs": [
+        "Removes the specified service function.",
+        "Service functions, CREATE FUNCTION, ALTER FUNCTION, DESC FUNCTION",
+        "Specifies the identifier for the service function to drop. If the identifier contains spaces or special characters, the entire string must be\nenclosed in double quotes. Identifiers enclosed in double quotes are also case sensitive.",
+        "Specifies the data type of the argument(s), if any, for the service function. The argument types are necessary because service functions support name\noverloading (that is, two service functions in the same schema can have the same name) and the argument types are used to identify the UDF you\nwish to drop.",
+        "Dropped functions cannot be recovered; they must be recreated.",
+        "This demonstrates the DROP FUNCTION command:",
+        "Example output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

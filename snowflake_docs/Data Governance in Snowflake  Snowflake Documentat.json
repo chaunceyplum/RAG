@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/guides-overview-govern",
+    "title": "Data Governance in Snowflake | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake provides industry-leading features that ensure the highest levels of governance for your account and users, as well as all the data you store and access in Snowflake.",
+        "Allows the monitoring of the state and integrity of your data using system data metric functions and user-defined data metric functions.",
+        "Allows the application of a masking policy to a column within a table or view.",
+        "Allows the application of a row access policy to a table or view to determine which rows are visible in the query result.",
+        "Allows the tracking of sensitive data for compliance, discovery, protection, and resource usage.",
+        "Allows protecting column data by assigning a masking policy to a tag and then setting the tag on a database object or the Snowflake\naccount.",
+        "Allows categorizing potentially personal and/or sensitive data to support compliance and privacy regulations.",
+        "Allows the auditing of the user access history through the Account Usage ACCESS_HISTORY view.",
+        "Allows the auditing of how one object references another object by its metadata (e.g. creating a view depends on a table name and column\nnames) through the Account Usage OBJECT_DEPENDENCIES view.",
+        "Allows using the Monitoring \u00bb Governance area to monitor and report on the usage of policies and tags with tables, views,\nand columns using two different interfaces: Dashboard and Tagged Objects. For details, see:",
+        "Create and assign tags",
+        "Monitor tags with Snowsight",
+        "Monitor masking policies with Snowsight",
+        "Monitor row access policies with Snowsight",
+        "Was this page helpful?"
+    ]
+}

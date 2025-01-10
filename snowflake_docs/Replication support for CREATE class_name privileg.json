@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_04/bcr-1607",
+    "title": "Replication support for CREATE <class_name> privilege | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The CREATE <class_name> privilege is granted on a schema to a role. A role granted this privilege can be used to create an\ninstance of class <class_name>.",
+        "For example, the following statement grants the role budget_creator the privilege to create instances of the\nSNOWFLAKE.CORE.BUDGET class in schema budgets_db.budgets_schema:",
+        "Note",
+        "Privileges granted to roles are replicated to target accounts only if the ROLES object type is included in the OBECT_TYPES list for a\nreplication or failover group. The object the privilege is granted must also be replicated.",
+        "The replication of the CREATE <class_name> privilege behaves as follows:",
+        "If a role is granted the CREATE <class_name> privilege on a schema in a source account, this privilege grant is not replicated to\ntarget accounts.",
+        "For example, the CREATE SNOWFLAKE.ML.FORECAST privilege is granted using the\nfollowing statement in a source account:",
+        "If the database admin_db and roles are replicated to a target account, the CREATE SNOWFLAKE.ML.FORECAST privilege grant is\nnot replicated. The role analyst can\u2019t create instances of the SNOWFLAKE.ML.FORECAST class in the target account.",
+        "If a role is granted the CREATE <class_name> privilege on a schema in a source account, the privilege grant is replicated to the\ntarget account if the following objects are included in the replication or failover group:",
+        "The database that contains the schema on which the privilege is granted.",
+        "The ROLES object type is included in the OBJECT_TYPES list.",
+        "A user granted the role with the CREATE <class_name> privilege in a target account can create an instance of <class_name> in the\nreplicated schema in the target account.",
+        "For example, the CREATE SNOWFLAKE.ML.FORECAST privilege is granted using the following statement in a source account:",
+        "If the database admin_db and roles are replicated to a target account, the CREATE SNOWFLAKE.ML.FORECAST privilege grant is\nreplicated. The role analyst can create instances of the SNOWFLAKE.ML.FORECAST class in the target account.",
+        "For a list of available Snowflake classes, see SQL class reference.",
+        "Ref: 1607",
+        "Was this page helpful?"
+    ]
+}

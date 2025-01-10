@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.query_history",
+    "title": "snowflake.snowpark.Session.query_history | Snowflake Documentation",
+    "paragraphs": [
+        "Create an instance of QueryHistory as a context manager to record queries that are pushed down to the Snowflake database.",
+        "include_describe \u2013 Include query notifications for describe queries",
+        "include_thread_id \u2013 Include thread id where queries are called",
+        "include_error \u2013 record queries that have error during execution",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.applymap",
+    "title": "modin.pandas.DataFrame.applymap | Snowflake Documentation",
+    "paragraphs": [
+        "Apply a function to a Dataframe elementwise.",
+        "This method applies a function that accepts and returns a scalar\nto every element of a DataFrame.",
+        "func (callable) \u2013 Python function, returns a single value from a single value.",
+        "na_action ({None, 'ignore'}, default None) \u2013 If \u2018ignore\u2019, propagate NaN values, without passing them to func.",
+        "**kwargs \u2013 Additional keyword arguments to pass as keywords arguments to\nfunc.",
+        "Transformed DataFrame.",
+        "DataFrame",
+        "See also",
+        "Series.apply : For applying more complex functions on a Series.",
+        "DataFrame.apply : Apply a function row-/column-wise.",
+        "Examples",
+        "When you use the applymap function, a user-defined function (UDF) is generated and\napplied to each column. However, in many cases, you can achieve the same results\nmore efficiently by utilizing alternative dataframe operations instead of applymap.\nFor example, You could square each number elementwise.",
+        "But it\u2019s better to avoid applymap in that case.",
+        "Was this page helpful?"
+    ]
+}

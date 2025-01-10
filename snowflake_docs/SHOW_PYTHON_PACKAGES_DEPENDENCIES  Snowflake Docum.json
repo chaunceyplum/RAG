@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/show_python_packages_dependencies",
+    "title": "SHOW_PYTHON_PACKAGES_DEPENDENCIES | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Returns a list of the dependencies and their versions for the Python packages that were specified.\nFor more information, see Packages policies.",
+        "String specifying the version of the Python runtime.",
+        "ARRAY of strings that specify the list of packages to check.",
+        "You can use an ARRAY constant to specify this list.",
+        "Returns a JSON array that contains the dependencies and their versions.\nEach element in the array is a string in the following format: <package_name>==<version_name>.",
+        "You must use the ACCOUNTADMIN role to call this function.",
+        "The following example returns a list of the dependencies of the numpy Python package with the Python 3.10 runtime.",
+        "The result is a list of the dependencies and their versions.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

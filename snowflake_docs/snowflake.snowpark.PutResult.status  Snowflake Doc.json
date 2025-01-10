@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.PutResult.status",
+    "title": "snowflake.snowpark.PutResult.status | Snowflake Documentation",
+    "paragraphs": [
+        "Status indicating whether the file was uploaded to the stage. Values can be \u2018UPLOADED\u2019 or \u2018SKIPPED\u2019.",
+        "Was this page helpful?"
+    ]
+}

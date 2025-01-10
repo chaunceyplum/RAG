@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/data-pipelines-examples",
+    "title": "Continuous Data Pipeline Examples | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides practical examples of use cases for data pipelines.",
+        "The role used to execute the SQL statements in these examples requires the following access control privileges:",
+        "Global EXECUTE TASK privilege to run tasks",
+        "USAGE privilege on the database and schema in which the SQL statements are executed, as well as on the warehouse that runs any tasks in these examples.",
+        "Various CREATE object privileges on the schema in which the SQL statements are executed, to create objects such as tables, streams, and tasks.",
+        "For more information about access control in Snowflake, see Overview of Access Control.",
+        "The following example loads raw JSON data into a single landing table named raw. Two tasks query table streams created on the raw table and insert subsets of rows into multiple tables. Because each task consumes the change data capture records in a table stream, multiple streams are required.",
+        "The following example unloads the change data capture records in a stream into an internal (i.e. Snowflake) stage.",
+        "The following example refreshes the metadata for an external table named mydb.myschema.exttable (using ALTER EXTERNAL TABLE \u2026 REFRESH) on a schedule.",
+        "Note",
+        "When an external table is created, the AUTO_REFRESH parameter is set to TRUE by default. We recommend that you accept this default value for external tables that reference data files in either Amazon S3 or Microsoft Azure stages. However, the automatic refresh option is not available currently for external tables that reference Google Cloud Storage stages. For these external tables, manually refreshing the metadata on a schedule can be useful.",
+        "Was this page helpful?",
+        "On this page",
+        "Related info",
+        "Building a Type 2 Slowly Changing Dimension in Snowflake Using Streams and Tasks (Snowflake Blog)"
+    ]
+}

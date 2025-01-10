@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_last_change_commit_time",
+    "title": "SYSTEM$LAST_CHANGE_COMMIT_TIME | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Returns a token that can be used to detect whether a database table or view changed between two calls to the function.\nIf the token returned by a call is different from the token returned by a separate call, then the table or view\nchanged between the two calls, typically due to a DML operation (e.g. an INSERT).",
+        "If the specified database object is a view, then at least one of the database objects referenced by the view changed.",
+        "The function must be called as a system function (i.e. SYSTEM$LAST_CHANGE_COMMIT_TIME).",
+        "Specifies the table or view.",
+        "The data type of the returned value is NUMBER with a scale of 0.",
+        "The value can be used in applications such as BI tools to determine whether the underlying table data has changed.\nThis can be useful for applications that display dashboards and need to figure out whether the dashboard needs to be\nupdated based on new data in the table.",
+        "For each DML operation performed on the specified table or underlying tables in the specified view, the returned\nvalue increases.",
+        "The value returned by the function is typically an approximation of the time that the database object was\nlast changed, expressed as the UTC timestamp in nanoseconds since the beginning of the epoch (i.e. since midnight\nJanuary 1, 1970). However, the values are only approximations, in part because the precision and skew of the\nresults can vary.",
+        "Note",
+        "Snowflake recommends using this value only as a change indicator and strongly discourages users from treating this\nvalue as a timestamp.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

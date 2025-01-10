@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/8_06",
+    "title": "February 12-14, 2024 \u2014 8.6 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "The release has completed.",
+        "For differences between the in-advance and final versions of these release notes, see Release Notes Change Log.",
+        "The following function(s) are now available with this release:",
+        "Function Category",
+        "New Function",
+        "Description",
+        "Geospatial",
+        "ST_INTERSECTION_AGG (Preview)",
+        "Given a GEOGRAPHY column, returns a GEOGRAPHY object that represents the shape containing the combined set of points that\nare common to the shapes represented by the objects in the column, such as the intersection of the shapes.",
+        "Geospatial",
+        "ST_UNION_AGG (Preview)",
+        "Given a GEOGRAPHY column, returns a GEOGRAPHY object that represents the combined set of points that are in at least one\nof the shapes represented by the objects in the column, such as the union of the shapes.",
+        "With this release, we are pleased to announce support for specifying an external ID when you create an external volume or storage\nintegration. Specifying an external ID lets you use the same ID to configure a trust relationship between Snowflake and AWS for\nmultiple objects.",
+        "For more information, see:",
+        "CREATE EXTERNAL VOLUME",
+        "CREATE STORAGE INTEGRATION",
+        "Announcement",
+        "Update",
+        "Date",
+        "Release notes",
+        "Initial publication (preview)",
+        "12-Feb-24",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Column.name",
+    "title": "snowflake.snowpark.Column.name | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a new renamed Column.",
+        "Was this page helpful?"
+    ]
+}

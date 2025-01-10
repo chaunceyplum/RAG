@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cert-csa-star-level-1",
+    "title": "CSA Star Level 1 | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes how Snowflake supports customers with CSA Star Level 1 compliance requirements.",
+        "Cloud Security Alliance (CSA) is a not-for-profit organization with a mission to \u201cpromote the use of best practices for providing security\nassurance within Cloud Computing, and to provide education on the uses of Cloud Computing to help secure all other forms of computing.\u201d\nSnowflake participates in the voluntary CSA Security, Trust & Assurance Registry (STAR) Self-Assessment to document our compliance with\nCSA-published best practices. The completed CSA Consensus Assessments Initiative Questionnaire (CAIQ) is found on the Cloud Security Alliance website.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

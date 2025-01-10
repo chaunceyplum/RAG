@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/data-load-gcs-allow",
+    "title": "Allowing access to Google Cloud Storage | Snowflake Documentation",
+    "paragraphs": [
+        "If your Google Cloud organization enforces a\ndomain restriction constraint,\na Google Cloud administrator must allow the\nGoogle Workspace customer ID in the domain restriction so that the Snowflake service account can access your storage.",
+        "Important",
+        "If your Google Cloud organization was created on or after May 3, 2024, Google Cloud enforces a\ndomain restriction constraint\nin project organization policies. The default constraint lists your domain as the only allowed value.",
+        "To allow the Snowflake service account access to your storage, you must\nupdate the domain restriction.",
+        "Before you can update an organization policy, you must retrieve the\nGoogle Workspace customer ID associated with the Snowflake service account.",
+        "Call the SYSTEM$GET_SNOWFLAKE_PLATFORM_INFO function:",
+        "The function returns the project ID and Google Workspace customer ID (snowflake-customer-directory-id) for the Snowflake service account.",
+        "Example output:",
+        "To update the allow list for your domain constraint, you must update your organization policy. Specifically,\nyou must add the Google Workspace customer ID for the Snowflake service account to the allowed_values\nlist in the constraint.",
+        "For instructions, see\nSetting the organization policy\nin the Google Cloud documentation.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

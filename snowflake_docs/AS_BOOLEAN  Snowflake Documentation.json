@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/as_boolean",
+    "title": "AS_BOOLEAN | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Cast)",
+        "Casts a VARIANT value to a BOOLEAN value.",
+        "AS_<object_type>",
+        "An expression that evaluates to a value of type VARIANT.",
+        "The function returns a value of type BOOLEAN or NULL:",
+        "If the type of the value in the variant_expr argument is BOOLEAN, the function returns a value of type BOOLEAN.",
+        "If the type of the value in the variant_expr argument doesn\u2019t match the type of the output\nvalue, the function returns NULL.",
+        "If the variant_expr argument is NULL, the function returns NULL.",
+        "Create a table and load data into it:",
+        "Use the AS_BOOLEAN function in a query to cast VARIANT values to BOOLEAN values:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

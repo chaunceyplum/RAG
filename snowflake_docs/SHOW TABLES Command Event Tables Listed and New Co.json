@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_05/bcr-1006-1157",
+    "title": "SHOW TABLES Command: Event Tables Listed and New Columns Added to Output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_05 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the current release, the output of the SHOW TABLES command includes in its list event tables, along with an IS_EVENT column whose value indicates whether the listed table is an event table. It also includes an ENABLE_SCHEMA_EVOLUTION column whose value indicates whether schema evolution is enabled for the table.",
+        "Output from the SHOW TABLES command does not include event tables in its list of tables. The output currently doesn\u2019t include an IS_EVENT column, nor an ENABLE_SCHEMA_EVOLUTION column.",
+        "SHOW TABLES output includes event tables in its output.",
+        "It also includes an IS_EVENT column whose boolean value is true if the row describes an event table, false otherwise.",
+        "It also includes an ENABLE_SCHEMA_EVOLUTION column with a boolean value. If the value is Y, automatic table schema evolution is enabled. If the value is N, automatic table schema evolution is disabled. You can enable automatic table schema evolution by using the CREATE TABLE or ALTER TABLE commands.",
+        "Ref: 1006 1557",
+        "Was this page helpful?"
+    ]
+}

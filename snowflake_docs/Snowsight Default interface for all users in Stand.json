@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1338",
+    "title": "Snowsight: Default interface for all users in Standard Edition accounts | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Snowflake customers with a Capacity commitment where all accounts in the organization are\nStandard Edition accounts are upgraded to Snowsight.\nFor those organizations, all users see Snowsight after signing in to the Snowflake web interface.",
+        "To see if your organization is affected by this change, an organization administrator (user with the ORGADMIN role) can run\nSHOW ORGANIZATION ACCOUNTS and review the output.\nIf the following conditions are both true, this change affects users in your organization:",
+        "In the EDITION column, all accounts listed display STANDARD.",
+        "In the CREATED_ON column, all dates are earlier than October 4, 2023, or 2023-10-04 00:00:00.000 +0000 to match the format of the output.",
+        "If you use private connectivity to access Snowflake and have not yet set up your private connectivity configuration to access Snowsight,\nyou are not affected by this change. See Configuring private connectivity for Snowsight to prepare for upgrading to Snowsight.",
+        "Users can choose which web interface is the default experience for their user profile within an account. After signing in, users see\nthe web interface specified as the default experience, Classic Console or Snowsight.",
+        "All users in an account see Snowsight after signing in.",
+        "Users can no longer choose a default experience for their user profile. If needed, users can access\nClassic Console from Snowsight.",
+        "Ref: 1338",
+        "Was this page helpful?"
+    ]
+}

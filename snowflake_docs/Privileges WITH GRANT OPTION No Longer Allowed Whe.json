@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-1096",
+    "title": "Privileges: WITH GRANT OPTION No Longer Allowed When Granting Privileges to Shares | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of the GRANT <privileges> \u2026 TO SHARE command is as follows:",
+        "You could specify the WITH GRANT OPTION when granting privileges to a share.",
+        "You cannot specify the WITH GRANT OPTION when granting privileges to a share.",
+        "Snowflake returns the following error message:",
+        "Unsupported feature 'GRANT PRIVILEGES TO SHARE WITH GRANT OPTION'.",
+        "Ref: 1096",
+        "Was this page helpful?"
+    ]
+}

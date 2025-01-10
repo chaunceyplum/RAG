@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/account-usage/storage_usage",
+    "title": "STORAGE_USAGE view | Snowflake Documentation",
+    "paragraphs": [
+        "ACCOUNT_USAGE , READER_ACCOUNT_USAGE",
+        "This Account Usage view displays the average daily data storage usage, in bytes, within the last 365 days (1 year) across the entire account, including data in:",
+        "Database tables.",
+        "Files in all internal stages.",
+        "DATABASE_STORAGE_USAGE_HISTORY view , STAGE_STORAGE_USAGE_HISTORY view",
+        "Column Name",
+        "Data Type",
+        "Description",
+        "USAGE_DATE",
+        "DATE",
+        "Date of this storage usage record. The date is based on the local time zone. It is recommended that you change the query session to use the UTC time zone instead (e.g. ALTER SESSION SET TIMEZONE='UTC').",
+        "STORAGE_BYTES",
+        "NUMBER",
+        "Number of bytes of table storage used, including bytes for data currently in Time Travel.",
+        "STAGE_BYTES",
+        "NUMBER",
+        "Number of bytes of stage storage used by files in all internal stages (named, table, and user).",
+        "FAILSAFE_BYTES",
+        "NUMBER",
+        "Number of bytes of Fail-safe storage used.",
+        "HYBRID_TABLE_STORAGE_BYTES",
+        "FLOAT",
+        "Number of bytes of hybrid storage used.",
+        "Latency for the view may be up to 120 minutes (2 hours).",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

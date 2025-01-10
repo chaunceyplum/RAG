@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/map_cat",
+    "title": "MAP_CAT | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Map)",
+        "Returns the concatenatation of two MAPs.",
+        "The source MAP.",
+        "The MAP to be appended to map1.",
+        "The return type of this function is the type of map1. map2 is coerced into the map1 type following the coercion rules. For information about coercion rules, see Implicit casting a value (coercion).",
+        "If both map1 and map2 have a value with the same key, then the output map contains the value from map2.",
+        "If either argument is NULL, the function returns NULL without reporting any error.",
+        "Create two MAPs and concatenate them:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

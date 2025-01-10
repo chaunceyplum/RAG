@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_05/bcr-1193",
+    "title": "Managed Account Commands: Changes to Output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_05 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the current release, the output of the SHOW MANAGED ACCOUNTS and CREATE MANAGED ACCOUNT commands display account URLs and account names consistently across all Snowflake accounts.",
+        "The output of the SHOW MANAGED ACCOUNTS and CREATE MANAGED ACCOUNT commands varied slightly depending on the Snowflake account. In some\naccounts:",
+        "The output still displayed the legacy account locator URL in the url column.",
+        "SHOW MANAGED ACCOUNTS output did not always include the account_locator_url column.",
+        "CREATE MANAGED ACCOUNT output did not always include the accountLocatorUrl column.",
+        "CREATE MANAGED ACCOUNT output sometimes displayed the account locator as the name of the account.",
+        "The output of the SHOW MANAGED ACCOUNTS and CREATE MANAGED ACCOUNT commands is consistent among all accounts:",
+        "The output always includes the account name format of the account URL in the url\ncolumn. The account identifier in this format follows the pattern orgname-account_name.",
+        "SHOW MANAGED ACCOUNTS output displays the account locator format of the account URL in the account_locator_url column.",
+        "CREATE MANAGED ACCOUNT output displays the account locator format of the account URL in the accountLocatorUrl column.",
+        "CREATE MANAGED ACCOUNT output shows the account name in the accountName column and includes an accountLocator\ncolumn that displays the account locator.",
+        "Ref: 1193",
+        "Was this page helpful?"
+    ]
+}

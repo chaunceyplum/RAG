@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Column.try_cast",
+    "title": "snowflake.snowpark.Column.try_cast | Snowflake Documentation",
+    "paragraphs": [
+        "Tries to cast the value of the Column to the specified data type.\nIt returns a NULL value instead of raising an error when the conversion can not be performed.",
+        "Was this page helpful?"
+    ]
+}

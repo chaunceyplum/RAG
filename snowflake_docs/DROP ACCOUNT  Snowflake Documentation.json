@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-account",
+    "title": "DROP ACCOUNT | Snowflake Documentation",
+    "paragraphs": [
+        "Drops an account, which initiates the process of deleting the account.",
+        "Tip",
+        "In addition to SQL, you can also use other interfaces, such as Snowflake REST APIs, Snowflake Python APIs, and Snowflake CLI.\nSee Alternate interfaces.",
+        "CREATE ACCOUNT, SHOW ACCOUNTS, UNDROP ACCOUNT",
+        "Specifies the name of the account being dropped. As an example, if the full account identifier is myorg-account123, then specify\naccount123 as the name. If you do not know the account name, execute the SHOW ACCOUNTS\ncommand, and find the name in the account_name column.",
+        "The legacy account locator cannot be used to identify the account.",
+        "Specifies the number of days during which the account can be restored (\u201cundropped\u201d). The minimum is 3 days and the maximum is 90 days.",
+        "Only organization administrators (i.e. a user with the ORGADMIN role) can execute the command.",
+        "The organization administrator cannot drop the account they are currently logged in to.",
+        "To drop an account my_account and allow a 14-day grace period for restoring the account, enter:",
+        "Snowflake REST APIs",
+        "Delete an account endpoint",
+        "Snowflake Python APIs",
+        "account.AccountResource.drop method",
+        "Snowflake CLI",
+        "snow object drop command",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

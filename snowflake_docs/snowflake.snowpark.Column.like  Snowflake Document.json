@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Column.like",
+    "title": "snowflake.snowpark.Column.like | Snowflake Documentation",
+    "paragraphs": [
+        "Allows case-sensitive matching of strings based on comparison with a pattern.",
+        "pattern \u2013 A Column or a str that indicates the pattern.\nA str will be interpreted as a literal value instead of a column name.",
+        "For details, see the Snowflake documentation on\nLIKE.",
+        "Was this page helpful?"
+    ]
+}

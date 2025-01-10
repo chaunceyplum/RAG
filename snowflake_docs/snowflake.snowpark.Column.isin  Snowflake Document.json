@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Column.isin",
+    "title": "snowflake.snowpark.Column.isin | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a conditional expression that you can pass to the DataFrame.filter()\nor where DataFrame.where() to perform the equivalent of a WHERE \u2026 IN query\nwith a specified list of values. You can also pass this to a\nDataFrame.select() call.",
+        "The expression evaluates to true if the value in the column is one of the values in\na specified sequence.",
+        "For example, the following code returns a DataFrame that contains the rows where\nthe column \u201ca\u201d contains the value 1, 2, or 3. This is equivalent to\nSELECT * FROM table WHERE a IN (1, 2, 3).",
+        "isin() is an alias for in_().",
+        "Examples:",
+        "vals \u2013 The values, or a DataFrame instance to use to check for membership against this column.",
+        "Was this page helpful?"
+    ]
+}

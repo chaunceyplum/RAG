@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/replace",
+    "title": "REPLACE | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Matching/Comparison)",
+        "Removes all occurrences of a specified substring, and optionally replaces them with another substring.",
+        "The subject is the string in which to do the replacements. Typically,\nthis is a column, but it can be a literal.",
+        "This is the substring that you want to replace. Typically, this is a literal,\nbut it can be a column or expression. Note that this is not a \u201cregular\nexpression\u201d; if you want to use regular expressions to search for a\npattern, use the REGEXP_REPLACE function.",
+        "This is the value used as a replacement for the pattern. If this\nis omitted, or is an empty string, then the REPLACE function simply\ndeletes all occurrences of the pattern.",
+        "The returned value is the string after all replacements have been done.",
+        "If replacement is not specified, subject is returned with all occurrences of pattern removed.",
+        "If replacement is specified, subject is returned with all occurrences of pattern replaced by replacement.",
+        "If any of the arguments is a NULL, the result is also a NULL.",
+        "Note",
+        "Only occurrences in the original subject are considered. A pattern that occurs in the result is not removed/replaced.",
+        "The collation specifications of all input arguments must be compatible.",
+        "This function does not support the following collation specifications:",
+        "pi  (punctuation-insensitive).",
+        "cs-ai (case-sensitive, accent-insensitive).",
+        "Replace the string down with the string up:",
+        "Replace the substring Athens in the string Vacation in Athens with the substring\nRome:",
+        "Replace the substring bc in the string abcd with an empty substring:",
+        "Replace the values in a table with new values.",
+        "Create and populate a table:",
+        "Replace strings in a value with a specified replacement:",
+        "The output shows the following replacements:",
+        "The string old car was replaced by the string new car.",
+        "In the string sad face, the substring sad was replaced by the substring happy to create the new string\nhappy face.",
+        "In the string snowman, the substring snow was replaced by the substring fire to create the new string\nfireman.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/hll_combine",
+    "title": "HLL_COMBINE | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (Cardinality Estimation) , Window function syntax and usage",
+        "Combines (merges) input states into a single output state.",
+        "This allows scenarios where HLL_ACCUMULATE is run over horizontal\npartitions of the same table, producing an algorithm state for each table\npartition. These states can later be combined using HLL_COMBINE,\nproducing the same output state as a single run of HLL_ACCUMULATE\nover the entire table.",
+        "HLL , HLL_ACCUMULATE , HLL_ESTIMATE",
+        "An expression that contains state information generated\nby a call to HLL_ACCUMULATE.",
+        "DISTINCT is supported syntactically, but has no effect.",
+        "The output of this function is not fully deterministic. Running this\nfunction on the same inputs might return different results at different\ntimes. The differences are typically small and are consistent with the fact\nthat the HLL_* functions are approximation functions.",
+        "This example shows how to use the three related functions\nHLL_ACCUMULATE, HLL_ESTIMATE, and HLL_COMBINE.",
+        "Create a simple table and data:",
+        "Create a table that contains the \u201cstate\u201d that represents the current\napproximate cardinality information for the table named sequence_demo:",
+        "Now create a second table and add data.  (In a more realistic situation,\nthe user could have loaded more data into the first table and divided the\ndata into non-overlapping sets based on the time that the data was loaded.)",
+        "Get the \u201cstate\u201d information for just the new data.",
+        "Combine the \u201cstate\u201d information for the two batches of rows:",
+        "Get the approximate cardinality of the combined set of rows:",
+        "Output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

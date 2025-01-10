@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_03/bcr-1580",
+    "title": "SHOW TABLES command: New column is_dynamic | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The output of the SHOW TABLES command, when displaying Dynamic tables, behaves as follows:",
+        "The output of SHOW TABLES does not include dynamic table rows and the is_dynamic column.",
+        "The output of SHOW TABLES includes dynamic table rows and the is_dynamic column, defined\nas follows:",
+        "Column Name",
+        "is_dynamic",
+        "Data Type",
+        "Text",
+        "Description",
+        "Y if the table is a dynamic table; otherwise, N.",
+        "The kind column in the output of SHOW TABLES displays TABLE for dynamic tables.",
+        "Ref: 1529",
+        "Was this page helpful?"
+    ]
+}

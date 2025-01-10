@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-595",
+    "title": "UDFs: Input to JavaScript UDTFs Grouped Into a Single Partition | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "For a JavaScript UDTF with an empty OVER clause, the behavior of the grouping of input rows is as follows:",
+        "In a JavaScript UDTF with an empty OVER clause, input is partitioned as if the OVER clause is absent. In contrast, documentation states that\ninput rows belong to a single partition.",
+        "JavaScript Table function input rows will be grouped into a single partition. This is as previously documented.",
+        "To discover impact from this change, confirm whether you\u2019ve used a JavaScript UDTF with an explicit empty OVER clause and whether the results\nhave more per-partition rows than you expect (there should be one or zero such rows).",
+        "Ref: 595",
+        "Was this page helpful?"
+    ]
+}

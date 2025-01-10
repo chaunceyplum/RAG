@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/sysdate",
+    "title": "SYSDATE | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (General)",
+        "Returns the current timestamp for the system in the UTC time zone.",
+        "CURRENT_TIMESTAMP",
+        "None.",
+        "Returns the current timestamp in the UTC time zone.",
+        "The data type of the returned value is TIMESTAMP_NTZ.",
+        "Despite the name, this returns a TIMESTAMP_NTZ, not a DATE. To control the output format, use the session\nparameter TIMESTAMP_NTZ_OUTPUT_FORMAT.",
+        "This function is similar to CURRENT_TIMESTAMP, except that:",
+        "It returns the current timestamp in the UTC time zone, whereas CURRENT_TIMESTAMP returns the timestamp in the\nlocal time zone.",
+        "Its return value is TIMESTAMP_NTZ, whereas CURRENT_TIMESTAMP returns TIMESTAMP_LTZ.",
+        "It requires parentheses (SYSDATE()), whereas CURRENT_TIMESTAMP can be called without parentheses.",
+        "It does not support a parameter to specify the precision of fractional seconds.",
+        "Do not use the returned value for precise time ordering between concurrent queries (processed by the same virtual\nwarehouse) because the queries might be serviced by different compute resources (in the warehouse).",
+        "Set the time output format to YYYY-MM-DD HH24:MI:SS.FF4, then return the SYSDATE and CURRENT_TIMESTAMP.\nNote the difference in the hour field due to the difference in time zone.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

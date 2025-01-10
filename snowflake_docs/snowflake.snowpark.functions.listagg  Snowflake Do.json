@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.listagg",
+    "title": "snowflake.snowpark.functions.listagg | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the concatenated input values, separated by delimiter string.\nSee LISTAGG for details.",
+        "e \u2013 A Column object or column name that determines the values\nto be put into the list.",
+        "delimiter \u2013 A string delimiter.",
+        "is_distinct \u2013 Whether the input expression is distinct.",
+        "Examples:",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.remove_import",
+    "title": "snowflake.snowpark.Session.remove_import | Snowflake Documentation",
+    "paragraphs": [
+        "Removes a file in stage or local file from the imports of a user-defined function (UDF).",
+        "path \u2013 a path pointing to a local file or a remote file in the stage",
+        "Examples:",
+        "Was this page helpful?"
+    ]
+}

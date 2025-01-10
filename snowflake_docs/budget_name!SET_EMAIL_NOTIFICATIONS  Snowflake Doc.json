@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/budget/methods/set_email_notifications",
+    "title": "<budget_name>!SET_EMAIL_NOTIFICATIONS | Snowflake Documentation",
+    "paragraphs": [
+        "Set the email addresses to receive budgets notifications.",
+        "<budget_name>!GET_NOTIFICATION_EMAIL,\n<budget_name>!GET_NOTIFICATION_INTEGRATION_NAME,\n<budget_name>!GET_NOTIFICATION_MUTE_FLAG,\n<budget_name>!SET_NOTIFICATION_MUTE_FLAG",
+        "Specifies the email addresses to receive budget notification emails. Each email address in the list must be\nverified.",
+        "Specifies the identifier for the email notification integration.",
+        "If the ALLOWED_RECIPIENTS parameter is set for the notification integration, each email in the notifications list\nmust be included in the ALLOWED_RECIPIENTS list for the notification integration. Otherwise, you can include any verified\nemail address in the notifications list.",
+        "The following minimum privileges and roles are required to call this method for custom budgets:",
+        "ADMIN instance role for the budget instance.",
+        "USAGE privilege on the database and schema that contains the budget instance.",
+        "The minimum role required to call this method for the account budget is the BUDGET_ADMIN\napplication role.",
+        "For more information, see Budgets roles and privileges.",
+        "Calling this method does not return the object. Because of this, you can\u2019t use method chaining to call another method on the\nreturn value of this method. Instead, call each method in a separate SQL statement.",
+        "If you are using a notification integration, the USAGE privilege on the notification integration must be granted to\nAPPLICATION SNOWFLAKE:",
+        "Send email notifications for budget my_budget in the budgets_db.budgets_schema schema to\ncostadmin@domain.com and budgetadmin@domain.com:",
+        "Send email notifications for the account budget to budgetadmin@domain.com:",
+        "For a list of common error messages and their causes and solutions, see You can\u2019t set email notifications for a budget.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

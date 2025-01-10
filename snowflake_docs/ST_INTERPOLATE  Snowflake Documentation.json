@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_interpolate",
+    "title": "ST_INTERPOLATE | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Given an input GEOGRAPHY object, returns an interpolated object that is within a specified\ntolerance.",
+        "You can call this function when you need to see how GEOGRAPHY objects look like in the planar coordinate system (for example,\nwhen using visualization tools for geospatial data).",
+        "Required:",
+        "The GEOGRAPHY object to interpolate.",
+        "Optional:",
+        "The maximum Hausdorff distance in meters between the original object and\nits planar (Mercator) projection.",
+        "Default: 10 meters",
+        "The function returns a value of type GEOGRAPHY.",
+        "The following statements return an interpolated object within tolerance of 1000 meters. The statement returns output in WKT\nformat.",
+        "The following images visualize the original and interpolated GEOGRAPHY objects from the example above in the Mercator projection\n(EPSG:3857).",
+        "Original",
+        "Interpolated",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

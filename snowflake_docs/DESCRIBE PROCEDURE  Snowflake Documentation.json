@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-procedure",
+    "title": "DESCRIBE PROCEDURE | Snowflake Documentation",
+    "paragraphs": [
+        "Describes the specified stored procedure, including the stored procedure\u2019s signature (i.e. arguments), return value, language, and\nbody (i.e. definition).",
+        "DROP PROCEDURE , ALTER PROCEDURE , CREATE PROCEDURE , SHOW PROCEDURES",
+        "To describe a stored procedure, you must specify the name and the argument data type(s), if any, for the stored procedure. The\narguments are required because stored procedures support name overloading (i.e. two stored procedures in the same schema can have\nthe same name as long as their argument data types are different).",
+        "The body property in the output displays the code for the stored procedure.",
+        "This example shows how to describe a stored procedure that has no parameters:",
+        "This example shows how to describe a stored procedure that has a parameter:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/is_date-value",
+    "title": "IS_DATE , IS_DATE_VALUE | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Type Predicates)",
+        "Returns TRUE if its VARIANT argument contains a DATE value.",
+        "IS_DATE and IS_DATE_VALUE are synonymous.",
+        "IS_<object_type> , IS_TIME , IS_TIMESTAMP_*",
+        "An expression that evaluates to a value of type VARIANT.",
+        "Returns a BOOLEAN value or NULL.",
+        "Returns TRUE if the VARIANT value contains a DATE value. Otherwise, returns FALSE.",
+        "If the input is NULL, returns NULL without reporting an error.",
+        "Return all of the DATE values in a VARIANT column.",
+        "Note",
+        "The output format for date values is set using the DATE_OUTPUT_FORMAT parameter.\nThe default setting is YYYY-MM-DD.",
+        "Create and load a table with various date and time values in a VARIANT column:",
+        "Use the TYPEOF function in a query to show the data types of the values stored in the VARIANT column v:",
+        "Show the DATE values in the data by using the IS_DATE function in a WHERE clause. Only the DATE value\nis returned in the output. The TIME and TIMESTAMP values aren\u2019t returned.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

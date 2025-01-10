@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_04/bcr-1572",
+    "title": "SHOW TABLES command, TABLES view, and GET_DDL command: Changes related to the READ ONLY property for tables | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, you can create tables with a new READ ONLY property. New output related\nto this property is added when you run the SHOW TABLES command, query the TABLES view, or run the GET_DDL command.",
+        "A new column is added to the output of the SHOW TABLES command.",
+        "The output of the SHOW TABLES command does not include an is_immutable column.",
+        "The output of the SHOW TABLES command includes an is_immutable column.",
+        "Column name",
+        "Description",
+        "is_immutable",
+        "Y if the table was created with the READ ONLY property; N otherwise.",
+        "A new column is added to the TABLES view.",
+        "The TABLES view does not include an IS_IMMUTABLE column.",
+        "The TABLES view includes an IS_IMMUTABLE column.",
+        "Column name",
+        "Data type",
+        "Description",
+        "IS_IMMUTABLE",
+        "TEXT",
+        "Indicates whether the table was created with the READ ONLY property. Valid values are\nYES or NO.",
+        "Note",
+        "The ACCOUNT_USAGE.TABLES view will not include the IS_IMMUTABLE column because temporary tables are not reported\nin this view.",
+        "The GET_DDL command returns the following output for tables that were created\nwith the READ ONLY property:",
+        "Ref: 1572",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

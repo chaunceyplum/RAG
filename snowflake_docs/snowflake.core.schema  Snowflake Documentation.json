@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.schema",
+    "title": "snowflake.core.schema | Snowflake Documentation",
+    "paragraphs": [
+        "Manages Snowflake Schemas.",
+        "Classes",
+        "Schema(name[,\u00a0created_on,\u00a0kind,\u00a0is_default,\u00a0...])",
+        "A model object representing the ModelSchema resource.",
+        "SchemaCollection(database,\u00a0root)",
+        "Represents the collection operations on the Snowflake schema resource.",
+        "SchemaResource(name,\u00a0collection)",
+        "Represents a reference to a Snowflake schema.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/snowflake.snowpark.modin.plugin.extensions.resample_overrides.Resampler.var",
+    "title": "snowflake.snowpark.modin.plugin.extensions.resample_overrides.Resampler.var | Snowflake Documentation",
+    "paragraphs": [
+        "Compute variance of resample bins.",
+        "ddof (int, default 1) \u2013 Delta Degrees of Freedom. The divisor used in calculations is N - ddof,\nwhere N represents the number of elements.",
+        "numeric_only (bool, default False) \u2013 Include only float, int, boolean columns.",
+        "min_count (int, default 0) \u2013 The required number of valid values to perform the operation. If fewer\nthan min_count non-NA values are present, the result will be NA.",
+        "engine (str, default None) \u2013 This parameter is ignored in Snowpark pandas. The execution engine will always be Snowflake.",
+        "engine_kwargs (dict, default None) \u2013 This parameter is ignored in Snowpark pandas. The execution engine will always be Snowflake.",
+        "Computed variance of values within each resample bin.",
+        "Series or DataFrame",
+        "Examples",
+        "For Series:",
+        "For DataFrame:",
+        "Was this page helpful?"
+    ]
+}

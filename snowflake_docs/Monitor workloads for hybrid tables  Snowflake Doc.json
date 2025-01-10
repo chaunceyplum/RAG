@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/tables-hybrid-monitor-workload",
+    "title": "Monitor workloads for hybrid tables | Snowflake Documentation",
+    "paragraphs": [
+        "Unistore workloads that leverage hybrid tables might be different from many\nanalytical workloads that you are running in Snowflake. For example, your\nworkloads might contain fewer unique queries that take less time to run and\nexecute at a higher frequency. You have several options to monitor your\nworkloads.",
+        "To monitor your operational workloads effectively, use\nAGGREGATE_QUERY_HISTORY view. This view enables\nyou to monitor the health of your workload, diagnose issues, and identify avenues\nfor optimization. The AGGREGATE_QUERY_HISTORY view aggregates query execution statistics\nfor a repeated parameterized query over a time interval so that it is easier\nand more efficient to identify patterns in your workloads and queries over time. Note\nthat all Snowflake workloads and queries will be combined in the output of this view.",
+        "The AGGREGATE_QUERY_HISTORY view helps you answer the following questions about your workloads:",
+        "How many operations per second are being executed in my virtual warehouse?",
+        "Which queries are consuming the most total time or resources in my workload?",
+        "Has the performance of a specific query changed substantially over time?",
+        "To help improve performance and efficiency in your workload, individual\nexecutions of low latency operations (under one second) will not be\nstored in QUERY_HISTORY view nor will they\ngenerate a unique query profile. Instead, aggregate statistics for repeated\nexecutions of that query will be returned in the AGGREGATE_QUERY_HISTORY view.\nYou will also be able to view a sampled query profile for the query over a selected\ntime interval.",
+        "You can use the Grouped Query History view\nin Snowsight to visualize performance and statistics for typical hybrid table workloads.\nThis view does not capture all hybrid table activity, but it provides a good alternative to\nmonitoring performance for a large volume of individual queries that are somewhat repetitive and\nrun extremely fast.",
+        "Use the AGGREGATE_QUERY_HISTORY view to monitor your overall workload\nthroughput and concurrency, and to investigate unexpected spikes or drops in\nyour workloads. For example:",
+        "You can also use aggregate query history to monitor for potential problems\nwith errors, queueing, lock blocking, or throttling. For example:",
+        "Ordinarily, such metrics should remain low. If you see an unexpected spike, it is recommended that you\ninvestigate the cause.",
+        "You may opt to optimize or investigate the performance of common and often\nexecuted queries to improve the efficiency of your workload. Use the\nAGGREGATE_QUERY_HISTORY view to identify top queries for a workload by\nexecution count. For example:",
+        "You can choose to view metrics for the slowest queries. For example:",
+        "You can analyze the performance of a particular query over time to gain insight\ninto trends in latency. For example:",
+        "This query calculates total query time. You can also modify the query to return\nmore granular metrics on the different phases of a query (compilation, execution,\nqueuing, and lock waiting). Aggregate statistics will be returned for each phase.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

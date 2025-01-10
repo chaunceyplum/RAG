@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-05-13-asof-join",
+    "title": "May 13, 2024 \u2014 ASOF JOIN Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the general availability of the ASOF JOIN construct, which joins rows from tables based on proximity (commonly temporal proximity). For each row in the first (or left) table, the join finds a single row in the second (or right) table that has the closest value. For instance, when you are working with time-series data, the closest match could be equal in time, earlier in time, or later in time, depending on the specified comparison operator.",
+        "This type of join is very useful for aligning time-series data sets, such as financial trading data, data collected from sensors, or any data set that is historical in nature. Although ASOF JOIN queries can be emulated through the use of complex SQL, other types of joins, and window functions, these queries are easier to write (and are usually performant in comparison to workarounds) if you use the ASOF JOIN syntax.",
+        "For more information, see ASOF JOIN and Analyzing time-series data.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

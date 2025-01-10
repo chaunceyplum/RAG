@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.table_function.TableFunctionCall.named_arguments",
+    "title": "snowflake.snowpark.table_function.TableFunctionCall.named_arguments | Snowflake Documentation",
+    "paragraphs": [
+        "The named arguments used to call this table function.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_01/bcr-940",
+    "title": "ARRAY_CAT Function: Changes to NULL Handling | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The way in which the ARRAY_CAT function handles NULL input values has changed:",
+        "If you passed NULL as an input argument to ARRAY_CAT, the function reported the following error:",
+        "NULL result in a non-nullable column",
+        "If you pass NULL as an input argument to ARRAY_CAT, the function returns NULL, rather than reporting an error.",
+        "Ref: 940",
+        "Was this page helpful?"
+    ]
+}

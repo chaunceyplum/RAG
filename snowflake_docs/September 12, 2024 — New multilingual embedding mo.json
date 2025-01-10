@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-09-12-voyage-embed-model",
+    "title": "September 12, 2024 \u2014 New multilingual embedding model available in Snowflake Cortex AI | Snowflake Documentation",
+    "paragraphs": [
+        "We\u2019re pleased to announce that the text embedding functions in Snowflake Cortex AI\nnow support the following additional multilingual model:",
+        "voyage-multilingual-2",
+        "For additional details, see EMBED_TEXT_1024 (SNOWFLAKE.CORTEX).",
+        "Was this page helpful?"
+    ]
+}

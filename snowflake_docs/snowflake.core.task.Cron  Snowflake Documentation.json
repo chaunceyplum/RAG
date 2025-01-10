@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.task.Cron",
+    "title": "snowflake.core.task.Cron | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: NamedTuple",
+        "Specifies a cron expression and time zone for periodically running the task.",
+        "Supports a subset of standard cron utility syntax.",
+        "Examples",
+        "Create new instance of Cron(expr, timezone)",
+        "Methods",
+        "Return number of occurrences of value.",
+        "Return first index of value.",
+        "Raises ValueError if the value is not present.",
+        "Was this page helpful?"
+    ]
+}

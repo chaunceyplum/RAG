@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/soundex",
+    "title": "SOUNDEX | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions",
+        "Returns a string that contains a phonetic representation of the input string.",
+        "You can use this function to determine whether two strings (e.g. the family names Levine and Lavine, the words to\nand too, etc.) have similar pronounciations in the English language.",
+        "This function uses the Soundex phonetic algorithm, which is described in Soundex System. Note, however, that Snowflake\nprovides no special handling for surname prefixes (e.g. \u201cVan\u201d, \u201cDe\u201d, \u201cLa\u201d, etc.).",
+        "SOUNDEX('Pfister') returns P236. Because the first two letters (P and f) are adjacent and share the same\nSoundex code number (1), the function ignores the Soundex code number for the second letter.",
+        "Some database systems (e.g. Teradata) use a variant that retains the Soundex code number for the second letter when the first and\nsecond letters use the same number. For that variant, the string for Pfister is P123 (not P236). To use that variant,\ncall the SOUNDEX_P123 function instead.",
+        "SOUNDEX_P123",
+        "The string for which a representation of the pronunciation is returned. The string should use the Latin or Unicode character set.",
+        "The returned value is a VARCHAR that contains the phonetic representation of the input string. In other words, the return value\nis a string (not a sound) that represents the pronunciation (not the spelling) of the input string.",
+        "Note the following:",
+        "The returned value starts with a letter that represents the first letter in the string followed by 3 digits (e.g. s400,\nc130).",
+        "For more information about how the return value is calculated, see the Soundex phonetic algorithm (in Wikipedia).",
+        "As mentioned earlier, if you want to use the variant that retains the Soundex code number for the second letter when the first\nand second letters use the same number, call the SOUNDEX_P123 function instead.",
+        "Because the function returns only four characters (one letter and three digits), the output is primarily determined by the\nfirst few syllables of the input, rather than the entire string.",
+        "For example, the following statement compares three strings and returns the same SOUNDEX value for each string because, even\nthough they have completely different spellings and meanings, they start with phonetically similar syllables:",
+        "The following query returns SOUNDEX values for two names that are spelled differently, but are typically pronounced similarly:",
+        "The following query demonstrates how to use SOUNDEX to find potentially related rows in different tables:",
+        "Create and load the tables:",
+        "Look for related records without SOUNDEX:",
+        "Look for related records using SOUNDEX:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

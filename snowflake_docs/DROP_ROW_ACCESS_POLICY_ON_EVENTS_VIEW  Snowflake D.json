@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/stored-procedures/snowflake_telemetry_drop_row_access_policy_on_events_view",
+    "title": "DROP_ROW_ACCESS_POLICY_ON_EVENTS_VIEW | Snowflake Documentation",
+    "paragraphs": [
+        "Note",
+        "Using row access policies on the default event table is an Enterprise Edition feature.",
+        "Deletes the specified row access policy bound to the\nEVENTS_VIEW.",
+        "The EVENTS_ADMIN role includes the USAGE privilege on this procedure.",
+        "A reference to a row access policy object for the policy to drop.",
+        "On successful execution, the procedure returns a string indicating success. Otherwise, the procedure returns an error.",
+        "This stored procedure uses owner\u2019s rights. For more details, see Understanding caller\u2019s rights and owner\u2019s rights stored procedures.",
+        "Code in the following example drops the ROW_ACCESS_POLICY policy bound to the EVENTS_VIEW:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

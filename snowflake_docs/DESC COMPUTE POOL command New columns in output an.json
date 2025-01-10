@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_06/bcr-1594",
+    "title": "DESC COMPUTE POOL command: New columns in output and deprecation of SYSTEM$GET_COMPUTE_POOL_STATUS | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, the output of the DESCRIBE COMPUTE POOL command includes the following new columns:",
+        "Column name",
+        "Description",
+        "ERROR_CODE",
+        "Error code, if any, relevant to the STATUS_MESSAGE. Otherwise, this field is empty.",
+        "For example, when you resize a compute pool:",
+        "If Snowflake encounters a capacity error (new nodes can\u2019t be provisioned), Snowflake returns the error code 392507.",
+        "Note that the capacity error indicates the instance type you requested for your compute pool node is currently not available with the cloud provider. You can either wait for the capacity to become available  or choose another instance type.",
+        "If you have pending services (including job services) and Snowflake cannot scale up your compute pool, Snowflake returns the error code 392508.",
+        "STATUS_MESSAGE",
+        "Optional message about the status of the compute pool. For example:",
+        "After creating a compute pool, if you run the DESC COMPUTE POOL command, the output might include the status message: \u201cCompute pool is starting for last 1 minute\u201d",
+        "If Snowflake encounters a capacity error when provisioning a node, the output might include the  status message:  \u201cCompute pool is starting for the last 3 minutes. We have observed CAPACITY_ERROR.\u201d",
+        "If you have pending services (including job services) and Snowflake can\u2019t scale up your compute pool, the output might include the status message: \u201cCompute Pool has reached the maximum node limit. Consider increasing max_nodes using the ALTER COMPUTE POOL command.\u201d",
+        "The SYSTEM$GET_COMPUTE_POOL_STATUS function returns a JSON object that contains the same information that is in the two new columns (the compute pool status and a message relevant to the status.). Because the output of the  DESC COMPUTE POOL command provides this information, the SYSTEM$GET_COMPUTE_POOL_STATUS function will be deprecated in the near future.",
+        "Ref: 1594",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

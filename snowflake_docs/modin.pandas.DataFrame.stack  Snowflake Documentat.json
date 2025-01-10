@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.stack",
+    "title": "modin.pandas.DataFrame.stack | Snowflake Documentation",
+    "paragraphs": [
+        "Stack the prescribed level(s) from columns to index.",
+        "Return a reshaped DataFrame or Series having a multi-level index with one\nor more new inner-most levels compared to the current DataFrame. The new inner-most\nlevels are created by pivoting the columns of the current dataframe.\nIf the columns have a single level, the output is a Series.\nIf the columns have multiple levels, the new index level(s) is (are)\ntaken from the prescribed level(s) and the output is a DataFrame.",
+        "level (int, str, list, default -1) \u2013 Level(s) to stack from the column axis onto the index axis,\ndefined as one index or label, or a list of indices or labels.",
+        "dropna (bool, default True) \u2013 Whether to drop rows in the resulting Frame/Series with missing values. Stacking a\ncolumn level onto the index axis can create combinations of index and column values\nthat are missing from the original dataframe.",
+        "sort (bool, default True) \u2013 Whether to sort the levels of the resulting MultiIndex.",
+        "future_stack (bool, default False) \u2013 This argument is ignored in Snowpark pandas.",
+        "Stacked dataframe or series.",
+        "DataFrame or Series",
+        "Notes",
+        "level != -1 and MultiIndex dataframes are not yet supported by Snowpark pandas.",
+        "See also",
+        "Unstack prescribed level(s) from index axis onto column axis.",
+        "Reshape dataframe from long format to wide format.",
+        "Create a spreadsheet-style pivot table as a DataFrame.",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-08-29-mistral-large2",
+    "title": "August 29, 2024 \u2014 New Mistral Large 2 model available in Snowflake Cortex AI | Snowflake Documentation",
+    "paragraphs": [
+        "We\u2019re pleased to announce that Mistral AI\u2019s Mistral Large 2 large language model (LLM) is now available for serverless inference in\nSnowflake Cortex AI.",
+        "Mistral Large 2 is a significantly more capable model than Mistral Large in math, reasoning, and coding with an increased context window\nof 128K. It also has strong multilingual capabilities to simplify text processing and analytics of multi-language content.",
+        "For details, see Snowflake Cortex LLM Functions.",
+        "Was this page helpful?"
+    ]
+}

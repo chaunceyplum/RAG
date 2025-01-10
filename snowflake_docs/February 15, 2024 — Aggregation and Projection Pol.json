@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-02-15-policies",
+    "title": "February 15, 2024 \u2014 Aggregation and Projection Policies Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the preview of aggregation policies, which protect the privacy of individual rows by requiring\nanalysts to run queries that aggregate data rather than retrieving individual rows. When defining an aggregation policy, you specify a\nminimum group size, which determines how many rows must be included in each aggregation group. Once you assign the aggregation policy to a\ntable or view, queries must aggregate data into groups that contain enough rows to meet the minimum group size requirement.",
+        "For more information, see Aggregation policies.",
+        "With this release, we are pleased to announce the preview of projection policies, which prevent queries from using a SELECT statement to\nproject a column. The projection policy defines which users should be blocked from projecting columns and which users should be allowed.\nYou then assign the projection policy to a column in a table or view to control who can project the column.",
+        "For more information, see Projection policies.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/top-insights/commands/create-top-insights",
+    "title": "CREATE SNOWFLAKE.ML.TOP_INSIGHTS | Snowflake Documentation",
+    "paragraphs": [
+        "Creates a new Top Insights instance or replaces an existing one. You must instantiate this class to gain access to the\nmethod that provides insights into your data, called GET_DRIVERS. The instance does not store any data or settings.  In\nmost cases, you do not need to create more than one instance of this class.",
+        "Use the IF NOT EXISTS form of this command to make sure that the instance exists before you call the GET_DRIVERS method.",
+        "Replication isn\u2019t supported for class instances except for instances\nof the CUSTOM_CLASSIFIER class.",
+        "See Examples.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

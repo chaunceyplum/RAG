@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.to_time",
+    "title": "snowflake.snowpark.functions.to_time | Snowflake Documentation",
+    "paragraphs": [
+        "Converts an input expression into the corresponding time.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

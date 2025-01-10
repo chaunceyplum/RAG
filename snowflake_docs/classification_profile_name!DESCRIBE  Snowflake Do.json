@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/classification_profile/methods/describe",
+    "title": "<classification_profile_name>!DESCRIBE | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to all accounts that are Enterprise Edition (or higher).",
+        "To inquire about upgrading, please contact Snowflake Support.",
+        "Describes the properties of an instance of the CLASSIFICATION_PROFILE class.",
+        "The output includes the criteria you specified when creating the instance and is formatted as\nfollows:",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Instance role",
+        "Object",
+        "Notes",
+        "classification_profile!PRIVACY_USER",
+        "The classification profile instance.",
+        "The account role that calls this method must be granted this instance role on the classification profile. The role used to create the\ninstance is automatically granted this instance role.",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "Calling this method does not return the object. Because of this, you can\u2019t use method chaining to call another method on the\nreturn value of this method. Instead, call each method in a separate SQL statement.",
+        "Describe the classification profile:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

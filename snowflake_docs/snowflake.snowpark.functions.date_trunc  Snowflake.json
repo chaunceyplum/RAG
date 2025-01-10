@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.date_trunc",
+    "title": "snowflake.snowpark.functions.date_trunc | Snowflake Documentation",
+    "paragraphs": [
+        "Truncates a DATE, TIME, or TIMESTAMP to the specified precision.",
+        "Note that truncation is not the same as extraction. For example:\n- Truncating a timestamp down to the quarter returns the timestamp corresponding to midnight of the first day of the\nquarter for the input timestamp.\n- Extracting the quarter date part from a timestamp returns the quarter number of the year in the timestamp.",
+        "Was this page helpful?"
+    ]
+}

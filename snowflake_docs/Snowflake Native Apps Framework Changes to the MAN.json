@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_03/bcr-1576",
+    "title": "Snowflake Native Apps Framework: Changes to the MANAGE EVENT SHARING privilege | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The MANAGE EVENT SHARING privilege allows users to see information about an\ninstalled Snowflake Native App and to enable event sharing for an application.\nThe ACCOUNTADMIN role has this privilege by default and can grant it to other roles.",
+        "Users with a role that has the MANAGE EVENT SHARING privilege can run the\nDESCRIBE APPLICATION command and enable event sharing for installed apps if\nthey are granted a role that has ownership of the app.",
+        "Users with a role with the MANAGE EVENT SHARING privilege can run the\nDESCRIBE APPLICATION command and enable event sharing for installed apps\nthat are granted a role that has ownership of the app or has the RESOLVE ALL\nglobal privilege.",
+        "For more information on privileges, see Access control privileges.",
+        "Ref: 1576",
+        "Was this page helpful?"
+    ]
+}

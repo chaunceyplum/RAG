@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.first",
+    "title": "modin.pandas.DataFrame.first | Snowflake Documentation",
+    "paragraphs": [
+        "Select initial periods of time series data based on a date offset.",
+        "Was this page helpful?"
+    ]
+}

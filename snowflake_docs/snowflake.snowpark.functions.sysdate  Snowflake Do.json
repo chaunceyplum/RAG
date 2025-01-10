@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.sysdate",
+    "title": "snowflake.snowpark.functions.sysdate | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the current timestamp for the system, but in the UTC time zone.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

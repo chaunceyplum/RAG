@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/approx_top_k",
+    "title": "APPROX_TOP_K | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (Frequency Estimation) , Window functions",
+        "Uses Space-Saving to return an approximation of the most frequent values in the input, along with their approximate frequencies.",
+        "The output is a JSON array of arrays. In the inner arrays, the first entry is a value in the input, and the second entry corresponds to its estimated frequency in the input. The outer array contains\nk items, sorted by descending frequency.",
+        "For more information about APPROX_TOP_K, see Estimating Frequent Values.",
+        "APPROX_TOP_K_ACCUMULATE , APPROX_TOP_K_COMBINE, APPROX_TOP_K_ESTIMATE",
+        "Aggregate function",
+        "Window function",
+        "expr: The expression (e.g. column name) for which you want to find\nthe most common values.",
+        "k: The number of values whose counts you want approximated.\nFor example, if you want to see the top 10 most common values, then\nset k to 10.",
+        "If k is omitted, the default is 1.",
+        "The maximum value is 100000 (100,000), and is automatically reduced if\nitems cannot fit in the output.",
+        "counters: This is the maximum number of distinct values that\ncan be tracked at a time during the estimation process. For example, if\ncounters is set to 100000, then the algorithm tracks 100,000\ndistinct values, attempting to keep the 100,000 most frequent values.",
+        "The maximum number of counters is 100000 (100,000).",
+        "This is the optional expression used to group rows into partitions.",
+        "The approximation is more accurate if the number of counters is\nlarge, so in most cases counters should be considerably bigger\nthan k.\n(Each counter uses only a small amount of memory, so increasing the number\nof counters is not expensive in terms of memory.)",
+        "When this function is called as a window function, it does not support:",
+        "An ORDER BY clause within the OVER clause.",
+        "Explicit window frames.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

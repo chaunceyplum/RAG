@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/constructs/into",
+    "title": "INTO | Snowflake Documentation",
+    "paragraphs": [
+        "Query syntax",
+        "Sets Snowflake Scripting variables to the values in a row returned by a\nSELECT statement. See Setting variables to the results of a SELECT statement for details.",
+        "Specifies scalar expressions (e.g. columns in a table specified by the FROM clause).",
+        "Snowflake Scripting variables that should be set to the values in the\nexpressions in the SELECT clause.",
+        "The SELECT statement must return a single row.",
+        "See Setting variables to the results of a SELECT statement.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/current_region",
+    "title": "CURRENT_REGION | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (General)",
+        "Returns the name of the region for the account where the current user is logged in.",
+        "For organizations that have accounts in multiple region groups, returns region_group.region.",
+        "None.",
+        "Show the current region:",
+        "Output:",
+        "Show the current region when the current user is logged into an account in an organization that spans multiple region groups:",
+        "Output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

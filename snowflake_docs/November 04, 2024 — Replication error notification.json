@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-11-04-error-notifications",
+    "title": "November 04, 2024 \u2014 Replication error notifications \u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the General Availability of Error notifications for replication and failover groups.\nYou can receive error notifications for refresh operation failures by setting a notification integration for a primary replication or failover group.",
+        "For additional details, see:",
+        "Error notifications for replication and failover groups",
+        "Monitoring replication and failover",
+        "Was this page helpful?"
+    ]
+}

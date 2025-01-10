@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-04-09-dcr",
+    "title": "April 09, 2024 \u2014 Snowflake Data Clean Rooms Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, Snowflake is pleased to announce the following improvements to Snowflake Data Clean Rooms:",
+        "Audience Overlap & Segmentation template: The Audience Overlap & Segmentation template allows analysts to create segmentation groups\nfor audience overlap results. Note that this template replaces the Audience Overlap template; clean rooms that used the Audience Overlap\ntemplate need to be re-created with the new template.",
+        "For a tutorial that uses the new template, see Get started with the web app of a Snowflake Data Clean Room.",
+        "Provider Activation with Enrichment: When consumers activate matched IDs back to the provider, they can now enrich the results with\ndata from additional columns of their table or the provider\u2019s table. The provider controls which of their columns can be used when\nconfiguring the analyses template for the clean room, and the consumer controls which of their columns can be used when installing the\nclean room.",
+        "Was this page helpful?"
+    ]
+}

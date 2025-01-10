@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/commands-privacy",
+    "title": "Privacy commands | Snowflake Documentation",
+    "paragraphs": [
+        "Privacy commands allow you to manage objects related to maintaining the privacy of sensitive attributes and individuals.",
+        "CREATE AGGREGATION POLICY",
+        "ALTER AGGREGATION POLICY",
+        "DESCRIBE AGGREGATION POLICY",
+        "DROP AGGREGATION POLICY",
+        "SHOW AGGREGATION POLICIES",
+        "CREATE PRIVACY POLICY",
+        "ALTER PRIVACY POLICY",
+        "DESCRIBE PRIVACY POLICY",
+        "DROP PRIVACY POLICY",
+        "SHOW PRIVACY POLICIES",
+        "CREATE PROJECTION POLICY",
+        "ALTER PROJECTION POLICY",
+        "DESCRIBE PROJECTION POLICY",
+        "DROP PROJECTION POLICY",
+        "SHOW PROJECTION POLICIES",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

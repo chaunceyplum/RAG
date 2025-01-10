@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.insert",
+    "title": "modin.pandas.DataFrame.insert | Snowflake Documentation",
+    "paragraphs": [
+        "Insert column into DataFrame at specified location.",
+        "Raises a ValueError if column is already contained in the DataFrame,\nunless allow_duplicates is set to True.",
+        "loc (int) \u2013 Insertion index. Must verify 0 <= loc <= len(columns).",
+        "column (str, number, or hashable object) \u2013 Label of the inserted column.",
+        "value (Scalar, Series, or array-like) \u2013",
+        "allow_duplicates (bool, optional, default lib.no_default) \u2013",
+        "See also",
+        "Insert new item by index.",
+        "Examples",
+        "Notice that pandas uses index alignment in case of value from type Series:",
+        "Was this page helpful?"
+    ]
+}

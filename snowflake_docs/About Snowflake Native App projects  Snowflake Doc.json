@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/native-apps/about-projects",
+    "title": "About Snowflake Native App projects | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "From the point of view of Snowflake Native App, a project encompasses a codebase that can be added to an application package in a Snowflake account. It includes references to all the extension code that app functionality needs, references to external databases for shared content, as well as required files such as manifest.yml, an environment.yml (for a Streamlit app), and any code artifacts such as JAR files and images. It also includes a configuration to describe how the application package can be built from the files in the project folder.",
+        "A Snowflake Native App project is simply a set of files in a directory; like other code repositories, these files can be version-controlled using technologies like git and shared on platforms like Github.",
+        "To give you an idea of what a Snowflake Native App project should look like, Snowflake has created a few templates that are available for you to clone through Snowflake CLI commands. You can access these publicly available templates from the Snowflake Git repository and even create projects directly from them using Snowflake CLI. You can also create and share your own templates. For more information, see Bootstrapping a project from a template.",
+        "Caution",
+        "Snowflake CLI processes the files inside a project directory. These files can be uploaded to Snowflake by other snow app commands, so you should use caution when putting any sensitive information inside files in a project directory.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

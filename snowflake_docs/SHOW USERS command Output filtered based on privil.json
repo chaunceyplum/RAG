@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-975",
+    "title": "SHOW USERS command: Output filtered based on privileges granted to active role | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The SHOW USERS command behaves as follows:",
+        "To see the output of the SHOW USERS command, the active role must have the global\nMANAGE GRANTS privilege.",
+        "When you try to use a role that does not have the global MANAGE GRANTS privilege and run the SHOW USERS command, Snowflake returns the\nfollowing error message:",
+        "Any user can execute the SHOW USERS command. Snowflake returns all users and filters the output based upon the privileges granted to the\nactive role that runs the command. The user that runs the command will always be able to see the username in the results. To see the\noutput, the active role must have either:",
+        "The OWNERSHIP privilege on the user object.",
+        "The CREATE USER privilege on the account.",
+        "Ref: 975",
+        "Was this page helpful?"
+    ]
+}

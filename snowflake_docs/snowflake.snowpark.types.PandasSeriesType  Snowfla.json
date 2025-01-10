@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.types.PandasSeriesType",
+    "title": "snowflake.snowpark.types.PandasSeriesType | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: _PandasType",
+        "pandas Series data type.",
+        "Methods",
+        "fromJson(json_dict)",
+        "",
+        "from_json(json_dict)",
+        "",
+        "jsonValue()",
+        "",
+        "json_value()",
+        "",
+        "simpleString()",
+        "",
+        "simple_string()",
+        "",
+        "typeName()",
+        "",
+        "type_name()",
+        "",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1186",
+    "title": "Snowpipe: Modification of auto-ingest notification integration queue for Azure and GCP not allowed | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the current Snowflake release, Snowflake will not allow modifications of auto-ingest notification integration queue for Azure and GCP.",
+        "You can alter the AZURE_STORAGE_QUEUE_PRIMARY_URI for Azure notification integration.",
+        "You can alter the GCP_PUBSUB_SUBSCRIPTION_NAME for GCP notification integration.",
+        "However, these alterations are not guaranteed to take effect in a predictable timeframe.",
+        "You cannot alter the AZURE_STORAGE_QUEUE_PRIMARY_URI for Azure notification integration.",
+        "You cannot alter the GCP_PUBSUB_SUBSCRIPTION_NAME for GCP notification integration.",
+        "Ref: 1186",
+        "Was this page helpful?"
+    ]
+}

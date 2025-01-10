@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.to_dict",
+    "title": "modin.pandas.Series.to_dict | Snowflake Documentation",
+    "paragraphs": [
+        "Convert Series to {label -> value} dict or dict-like object.\nNote that this method will pull the data to the client side.",
+        "into (class, default dict) \u2013 The collections.abc.Mapping subclass to use as the return\nobject. Can be the actual class or an empty\ninstance of the mapping type you want.  If you want a\ncollections.defaultdict, you must pass it initialized.",
+        "Key-value representation of Series.",
+        "collections.abc.Mapping",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

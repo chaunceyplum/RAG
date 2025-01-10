@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-08-02-classification-errors",
+    "title": "August 02, 2024 \u2014 ML Functions: Improved Error Messages in Classification | Snowflake Documentation",
+    "paragraphs": [
+        "We are pleased to announce improved error messages for the Classification\nML Function. These new messages more clearly communicate the cause of the error and better suggest how to address the core\nissue. The following table shows the most common error messages and their improved versions.",
+        "Previous message",
+        "New message",
+        "Error: Evaluation Data is Not Available. Please train with evaluation enabled.",
+        "Evaluation data is not available. Please create a new model with the EVALUATE parameter set to TRUE. Try adding the following line when calling the model: CONFIG_OBJECT => {\u2018evaluate\u2019: \u201cTRUE\u201d}.",
+        "{col} has a different type from training. Make sure each column has the same SQL type between training and prediction.",
+        "Your column {col} has a different SQL type in this dataset than in your training dataset. Make sure each column in this dataset matches the corresponding column\u2019s type from your training data.\nTry casting the column to the type it was in the training data.",
+        "All values in the label column are NULL.",
+        "All values in your target column are NULL. The model requires non-NULL values in your target column to train successfully. Try picking a different target column.",
+        "test_fraction must be a number;  test_fraction must be greater than 0 and less than 1",
+        "Your test_fraction value is not valid. test_fraction must be greater than 0 and less than 1. Try entering a decimal value between 0 and 1 (i.e. 0.2).",
+        "evaluation test_fraction is too large to generate an evaluation dataset",
+        "Your test_fraction is too high. Try a smaller fraction. The test_fraction is likely really close to 1. Try something lower (i.e. 0.2).",
+        "Unable to create an evaluation dataset - only one class present in the evaluation training set. This may be because of a large class imbalance or because of test_fraction is too large.",
+        "Evaluation data is not available. If one class (or category) significantly outweighs the rest, the model may not be able to complete training. Check that each distinct class in your\ntarget column appears many times. If the above is not an issue, try lowering your test_fraction.",
+        "Was this page helpful?"
+    ]
+}

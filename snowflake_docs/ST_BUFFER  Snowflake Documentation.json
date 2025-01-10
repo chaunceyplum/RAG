@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_buffer",
+    "title": "ST_BUFFER | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns a GEOMETRY object that represents a MultiPolygon containing\nthe points within a specified distance of the input GEOMETRY object. The returned object effectively\nrepresents a \u201cbuffer\u201d around the input object.",
+        "You can also \u201cshrink\u201d the input object by specifying a negative value for the distance.",
+        "The argument must be an expression of type GEOMETRY.",
+        "The distance from the GEOMETRY object. To \u201cshrink\u201d the object, you can specify a negative value for the distance.",
+        "The units depend on the spatial reference system identifier (SRID) of the GEOMETRY object. For example,\nESPG:4326 units are degrees, while ESPG:25855\nunits are meters.",
+        "Returns a GEOMETRY object.",
+        "SRIDs are based on the EPSG standard (v10.082). For example, the SRID 4326 corresponds to the authority EPSG with the code\n4326.",
+        "ST_BUFFER uses eight segments to approximate a quarter circle.",
+        "If distance is a negative value, the returned object is smaller than the input object. You can use this to\nremove small irregularities from the shape.",
+        "For LineStrings, the endcap and join styles are always round.",
+        "LineStings are always buffered on both sides.",
+        "Before executing the examples, set the GEOMETRY_OUTPUT_FORMAT parameter to WKT:",
+        "The following example returns a Polygon around a Point with a radius of one:",
+        "The following example uses a negative value for distance to remove small irregularities (such as spikes) from the shape.\nThe TO_GEOMETRY call passes in TRUE as the second argument, which allows the function to create a GEOMETRY\nobject for an invalid shape.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

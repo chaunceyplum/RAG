@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_02/bcr-1519",
+    "title": "Apache Iceberg\u2122 tables: Updates to metadata retention period | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_02 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Snowflake determines the metadata retention period for Apache Iceberg\u2122 tables\nthat use a catalog integration as follows:",
+        "Snowflake retrieves the value of history.expire.max-snapshot-age-ms from the current\nmetadata file, converts the value to days (rounding down), and stores it in the\nDATA_RETENTION_TIME_IN_DAYS parameter.",
+        "If Snowflake doesn\u2019t find history.expire.max-snapshot-age-ms in the metadata file,\nor can\u2019t parse the value, it sets DATA_RETENTION_TIME_IN_DAYS at the table level to a\ndefault value of 5 days (the default Apache Iceberg value).",
+        "You can also change the value of DATA_RETENTION_TIME_IN_DAYS manually.",
+        "Snowflake sets DATA_RETENTION_TIME_IN_DAYS at the table level to whichever of\nthe following values is smaller:",
+        "history.expire.max-snapshot-age-ms",
+        "The following value, depending on your Snowflake account edition:",
+        "Standard Edition: 1 day.",
+        "Enterprise Edition or higher: 5 days.",
+        "You can\u2019t change the value of DATA_RETENTION_TIME_IN_DAYS manually. Instead, you must update\nhistory.expire.max-snapshot-age-ms and refresh the table.",
+        "Ref: 1519",
+        "Was this page helpful?"
+    ]
+}

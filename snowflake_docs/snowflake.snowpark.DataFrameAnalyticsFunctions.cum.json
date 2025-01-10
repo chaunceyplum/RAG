@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrameAnalyticsFunctions.cumulative_agg",
+    "title": "snowflake.snowpark.DataFrameAnalyticsFunctions.cumulative_agg | Snowflake Documentation",
+    "paragraphs": [
+        "Applies cummulative aggregations to the specified columns of the DataFrame using defined window direction,\nand grouping and ordering criteria.",
+        "aggs \u2013 A dictionary where keys are column names and values are lists of the desired aggregation functions.",
+        "order_by \u2013 A list of column names that specify the order in which rows are processed.",
+        "group_by \u2013 A list of column names on which the DataFrame is partitioned for separate window calculations.",
+        "is_forward \u2013 A boolean indicating the direction of accumulation. True for \u2018forward\u2019 and False for \u2018backward\u2019.",
+        "col_formatter \u2013 An optional function for formatting output column names, defaulting to the format \u2018<input_col>_<agg>\u2019.\nThis function takes two arguments: \u2018input_col\u2019 (str) for the column name, \u2018operation\u2019 (str) for the applied operation,\nand returns a formatted string for the column name.",
+        "A Snowflake DataFrame with additional columns corresponding to each specified cumulative aggregation.",
+        "ValueError \u2013 If an unsupported value is specified in arguments.",
+        "TypeError \u2013 If an unsupported type is specified in arguments.",
+        "SnowparkSQLException \u2013 If an unsupported aggregration is specified.",
+        "Example",
+        "Was this page helpful?"
+    ]
+}

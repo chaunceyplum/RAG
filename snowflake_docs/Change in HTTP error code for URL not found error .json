@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/un-bundled/bcr-1669",
+    "title": "Change in HTTP error code for URL not found error | Snowflake Documentation",
+    "paragraphs": [
+        "The error code returned to customers, when using an incorrect or invalid URL to access their Snowflake account, behaves as follows:",
+        "Anyone using an incorrect (non-existent org/account or malformed) URL to access their Snowflake account was returned a 403 error.",
+        "Anyone using an incorrect (non-existent org/account or malformed) URL to access their Snowflake account can see\n403, 404, or 513 return codes.",
+        "What you need to do\nIf you have hard-coded the error code 403 in your error handling logic/code,\nSnowflake recommends updating it to include error codes 403, 404, and 513.",
+        "If you have any questions regarding this change, please open a case with Snowflake Support.",
+        "Ref: 1669",
+        "Was this page helpful?"
+    ]
+}

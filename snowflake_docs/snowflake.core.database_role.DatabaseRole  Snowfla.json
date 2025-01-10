@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.database_role.DatabaseRole",
+    "title": "snowflake.core.database_role.DatabaseRole | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: BaseModel",
+        "A model object representing the DatabaseRole resource.",
+        "Constructs an object of type DatabaseRole with the provided properties.",
+        "name (str) \u2013 Name of the database role",
+        "comment (str, optional) \u2013 User comment associated to an object in the dictionary",
+        "created_on (datetime, optional) \u2013 Date and time when the database role was created",
+        "granted_to_roles (int, optional) \u2013 How many roles this database role has been granted to",
+        "granted_to_database_roles (int, optional) \u2013 How many database roles this database role has been granted to",
+        "granted_database_roles (int, optional) \u2013 How many database roles this database role has been granted",
+        "owner (str, optional) \u2013 Role that owns the database role",
+        "owner_role_type (str, optional) \u2013 The type of role that owns the database role",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of DatabaseRole from a dict.",
+        "Create an instance of DatabaseRole from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

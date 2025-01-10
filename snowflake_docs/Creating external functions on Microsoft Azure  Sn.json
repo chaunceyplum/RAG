@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/external-functions-creating-azure",
+    "title": "Creating external functions on Microsoft Azure | Snowflake Documentation",
+    "paragraphs": [
+        "These topics provide detailed instructions for creating an external function for Microsoft Azure using either the Azure Portal or an\nARM (Azure Resource Manager) template provided by Snowflake.",
+        "Next Topics:",
+        "Was this page helpful?"
+    ]
+}

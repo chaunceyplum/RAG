@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.covar_samp",
+    "title": "snowflake.snowpark.functions.covar_samp | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the sample covariance for non-null pairs in a group.",
+        "Example",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/variance_pop",
+    "title": "VARIANCE_POP | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (General) , Window function syntax and usage (General)",
+        "Returns the population variance of non-NULL records in a group. If all records inside a group are NULL, a NULL is returned.",
+        "VAR_POP",
+        "Aggregate function",
+        "Window function",
+        "For detailed window_frame syntax, see Window function syntax and usage.",
+        "The expr1 should evaluate to one of the numeric data types.",
+        "This is the optional expression to partition by.",
+        "This is the optional expression to order by within each partition.",
+        "The data type of the returned value is NUMBER(<precision>, <scale>). The scale depends upon the values being processed.",
+        "When passed a VARCHAR expression, this function implicitly casts the input to floating point values. If the cast\ncannot be performed, an error is returned.",
+        "When this function is called as a window function with an OVER clause that contains an ORDER BY clause:",
+        "A window frame is required. If no window frame is specified explicitly, the following implied window frame is used:",
+        "RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW",
+        "For more information about window frames, including syntax, usage notes, and examples, see Window function syntax and usage.",
+        "Using the keyword DISTINCT inside the window function is prohibited and results in a compile-time error.",
+        "For examples, see VAR_POP.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

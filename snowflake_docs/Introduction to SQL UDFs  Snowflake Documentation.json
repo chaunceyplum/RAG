@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/udf/sql/udf-sql-introduction",
+    "title": "Introduction to SQL UDFs | Snowflake Documentation",
+    "paragraphs": [
+        "You can write the handler for a user-defined function (UDF) in SQL. Topics in this section describe how to design and write a SQL\nhandler. You\u2019ll also find examples.",
+        "For an introduction to UDFs, including a list of languages in which you can write a UDF handler, refer to User-defined functions overview.",
+        "Once you have a handler, you create the UDF with SQL. For information on using SQL to create or call a UDF, refer to\nCreating a UDF or Calling a UDF.",
+        "Note",
+        "For limitations related to SQL UDF handlers, refer to SQL UDF limitations.",
+        "When a user calls a UDF, the user passes UDF\u2019s name and arguments to Snowflake. Snowflake calls the associated handler code\n(with arguments, if any) to execute the UDF\u2019s logic. The handler method then returns the output to Snowflake, which passes it back to the\nclient.",
+        "The function definition can be a SQL expression that returns either a scalar (i.e. single) value or, if defined as a table function, a\nset of rows.",
+        "Code in the following example creates a UDF called area_of_circle containing handler code that calculates a circle\u2019s area from\nthe radius value received by the UDF as an argument.",
+        "A SQL UDF evaluates an arbitrary SQL expression and returns the result(s) of the expression.",
+        "The function definition can be a SQL expression that returns either a scalar (i.e. single) value or, if defined as a table function, a\nset of rows.",
+        "If a function definition refers to an unqualified table, then that table is resolved in the schema containing the function. A reference\nto another schema object (e.g. table, view, or other function) requires that the owner of the function has privileges to access that\nschema object. The invoker of the function need not have access to the objects referenced in the function definition, but only needs the\nprivilege to use the function.",
+        "For example, an administrator owns a table named users, which contains sensitive data that is not generally accessible, but the\nadministrator can expose the total user count through a function which other users have access privileges on:",
+        "For more information about using roles and privileges to manage access control, see Overview of Access Control.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.stage.FileTransferMaterial",
+    "title": "snowflake.core.stage.FileTransferMaterial | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: BaseModel",
+        "A model object representing the FileTransferMaterial resource.",
+        "Constructs an object of type FileTransferMaterial with the provided properties.",
+        "presigned_url (str, optional) \u2013 Presigned url for file transfer, only works for Server Side Encrypted Stages.",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of FileTransferMaterial from a dict.",
+        "Create an instance of FileTransferMaterial from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

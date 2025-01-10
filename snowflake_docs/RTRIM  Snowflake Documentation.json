@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/rtrim",
+    "title": "RTRIM | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (General)",
+        "Removes trailing characters, including whitespace, from a string.",
+        "Note",
+        "To remove characters in a string, you can use the REPLACE function.",
+        "LTRIM , TRIM",
+        "The string expression to be trimmed.",
+        "One or more characters to remove from the right side of expr:",
+        "The default value is ' ' (a single blank space character).\nIf no characters are specified, only blank spaces are removed.",
+        "This function returns a value of VARCHAR data type or NULL. If either argument is NULL, returns NULL.",
+        "You can specify the characters in characters in any order.",
+        "A specification of ' ' in characters does not remove other whitespace\ncharacters (such as tabulation characters, end-of-line characters, and so on). Explicitly\nspecify these characters to remove them.",
+        "When characters is specified, you must explicitly specify the characters\nto remove whitespace. For example, ' $.' removes all trailing blank spaces, dollar\nsigns, and periods from the input string.",
+        "Collation is supported when the optional second argument is omitted, or when it\ncontains only whitespace.",
+        "The collation specification of the returned value is the same as the collation specification of the first argument.",
+        "Remove trailing 0 and . characters from a string:",
+        "The remaining examples use the following table data. Also, the queries enclose the strings\nin > and < characters to help you visualize the whitespace.",
+        "Remove trailing whitespace from a string. This example does not specify the second\ncharacters argument because the default is blank spaces.",
+        "Remove leading whitespace and # from a string. This example specifies the second\ncharacters argument because it removes other characters in addition to\nblank spaces.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

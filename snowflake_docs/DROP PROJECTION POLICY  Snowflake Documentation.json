@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-projection-policy",
+    "title": "DROP PROJECTION POLICY | Snowflake Documentation",
+    "paragraphs": [
+        "Enterprise Edition Feature",
+        "This feature requires Enterprise Edition (or higher). To inquire about upgrading, please contact Snowflake Support.",
+        "Removes a projection policy from the current/specified schema.",
+        "Projection policy DDL reference",
+        "Specifies the identifier for the projection policy to drop.",
+        "If the identifier contains spaces or special characters, the entire string must be enclosed in double quotes.\nIdentifiers enclosed in double quotes are also case-sensitive.",
+        "For more information, see Identifier requirements.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "OWNERSHIP",
+        "Projection policy",
+        "OWNERSHIP is a special privilege on an object that is automatically granted to the role that created the object, but can also be transferred using the GRANT OWNERSHIP command to a different role by the owning role (or any role with the MANAGE GRANTS privilege).",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "For additional details on projection policy DDL and privileges, see Privileges and commands.",
+        "Prior to dropping the projection policy, execute the following statement to determine if the projection policy is set on any columns.",
+        "For more information, see Identify projection policy references.",
+        "A projection policy cannot be dropped successfully if it is currently assigned to a column.",
+        "Before executing a DROP statement, UNSET the projection policy from the column with an ALTER TABLE \u2026 ALTER COLUMN or an\nALTER VIEW statement.",
+        "Drop the projection policy:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

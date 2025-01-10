@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.date_from_parts",
+    "title": "snowflake.snowpark.functions.date_from_parts | Snowflake Documentation",
+    "paragraphs": [
+        "Creates a date from individual numeric components that represent the year, month, and day of the month.",
+        "Was this page helpful?"
+    ]
+}

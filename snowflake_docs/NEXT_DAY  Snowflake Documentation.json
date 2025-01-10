@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/next_day",
+    "title": "NEXT_DAY | Snowflake Documentation",
+    "paragraphs": [
+        "Date & time functions",
+        "Returns the date of the first specified DOW (day of week) that occurs after the input date.",
+        "PREVIOUS_DAY",
+        "Specifies the input date; can be a date or timestamp.",
+        "Specifies the day of week used to calculate the date for the previous day. The value can be a string literal or an expression that returns a string. The string\nmust start with the first two characters (case-insensitive) of the day name:",
+        "su (Sunday)",
+        "mo (Monday)",
+        "tu (Tuesday)",
+        "we (Wednesday)",
+        "th (Thursday)",
+        "fr (Friday)",
+        "sa (Saturday)",
+        "Any leading spaces and trailing characters, including spaces, in the string are ignored.",
+        "The return value is always a date regardless of whether date_or_time_expr is a date or timestamp.",
+        "Return the date of the next Friday that occurs after the current date:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

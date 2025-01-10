@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-05-17-document-ai",
+    "title": "May 17, 2024 \u2014 Document AI Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the preview of Document AI.",
+        "Document AI enables setting up intelligent document processing (IDP) workflows within Snowflake by extracting information from documents,\nsuch as invoices or contracts, and directly applying it to operational workflows. Document AI is powered by Snowflake Arctic-TILT\n(Text Image Layout Transformer), a proprietary large language model (LLM).",
+        "With Document AI, you can prepare pipelines for continuous processing of new documents of a specific type, and turn\nunstructured data from documents into structured data in tables.",
+        "Document AI is available to accounts in AWS and Microsoft Azure commercial regions, with the exception of:",
+        "AWS Asia Pacific (Singapore)",
+        "AWS Asia Pacific (Osaka)",
+        "AWS EU (Paris)",
+        "For more information, see Document AI.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

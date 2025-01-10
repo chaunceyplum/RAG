@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Column.startswith",
+    "title": "snowflake.snowpark.Column.startswith | Snowflake Documentation",
+    "paragraphs": [
+        "Returns true if this Column starts with another string.",
+        "other \u2013 A Column or a str that is used to check if this column starts with it.\nA str will be interpreted as a literal value instead of a column name.",
+        "Was this page helpful?"
+    ]
+}

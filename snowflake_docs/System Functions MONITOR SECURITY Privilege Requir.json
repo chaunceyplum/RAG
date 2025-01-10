@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_01/bcr-805",
+    "title": "System Functions: MONITOR SECURITY Privilege Required to Execute Certain System Functions | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of these system functions has changed as follows:",
+        "SYSTEM$GET_CMK_KMS_KEY_POLICY",
+        "SYSTEM$GET_CMK_AKV_CONSENT_URL",
+        "SYSTEM$GET_GCP_KMS_CMK_GRANT_ACCESS_CMD",
+        "These functions were not guarded by any specific privilege.",
+        "To call these functions, the active role or a role in the active role hierarchy must have the MONITOR SECURITY privilege.",
+        "Ref: 805",
+        "Was this page helpful?"
+    ]
+}

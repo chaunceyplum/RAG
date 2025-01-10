@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_hausdorffdistance",
+    "title": "ST_HAUSDORFFDISTANCE | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns the discrete Hausdorff distance between two\nGEOGRAPHY objects.",
+        "The Hausdorff distance indicates how similar the two objects are. Two objects are considered to be similar if each point in\none object is close to a point in the other object. The Hausdorff distance is the greatest distance between a point in one\nobject and a point in the other object.",
+        "ST_HAUSDORFFDISTANCE returns the discrete Hausdorff distance, which is calculated by comparing only the vertices (discrete\npoints) and not arbitrary points along the edge.",
+        "The argument must be an expression of type GEOGRAPHY.",
+        "The argument must be an expression of type GEOGRAPHY.",
+        "Returns a value of type REAL that represents the discrete Hausdorff distance in degrees.",
+        "Returns NULL if one or more input points are NULL.",
+        "This example returns the Hausdorff distance between two points (point 0 0 and point 0 1):",
+        "The next example compares three Polygons (a, b, and c).",
+        "The distance between the farthest points in a and c (point 0 1 and point 0 3) is greater than the distance\nbetween the farthest points in a and b (point 1 0 and point 2 0).",
+        "As a result, the value returned by ST_HAUSDORFFDISTANCE is smaller for a and c. This indicates that a and c\nare more similar than a and b.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/guides-overview-ml-functions",
+    "title": "ML Functions | Snowflake Documentation",
+    "paragraphs": [
+        "These powerful analysis functions give you automated predictions and insights into your data using machine learning.\nSnowflake provides an appropriate type of model for each feature, so you don\u2019t have to be a machine learning expert\nto take advantage of them. All you need is your data.",
+        "These features train a machine learning model on your time-series data to determine how a specified metric (for example,\nsales) varies over time and relative to other features of your data. The model then provides insights or predictions\nbased on the trends detected in the data.",
+        "Forecasting predicts future metric values from past trends in time-series data.",
+        "Anomaly Detection flags metric values that differ from typical expectations.",
+        "These features don\u2019t require time series data.",
+        "Classification sort rows into two or more classes based on\ntheir most predictive features.",
+        "Top Insights helps you find dimensions and values that affect the metric in\nsurprising ways.",
+        "When you use ML functions, you incur storage and compute costs. These costs vary depending on the feature used and the\nquantity of data used in training and prediction.",
+        "The storage costs you incur reflect storage of the ML model instances created during the training step. To view the\nobjects associated with your model instance, navigate to your Account Usage views\n(ACCOUNT_USAGE.TABLES and ACCOUNT_USAGE.STAGES). These objects appear with null database and schema columns. The\ninstance_id column, however, will be populated, indicating that these objects are contained in a model instance.\nThese objects are fully managed by the model instance, and you cannot access or delete them separately. To reduce\nstorage costs associated with your models, delete unused or obsolete models.",
+        "See Understanding compute cost for general information on Snowflake compute costs.",
+        "session.call is not yet compatible with models created by ML functions. To call such a model in Snowpark, use\nsession.sql instead, as shown here.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/rtrimmed_length",
+    "title": "RTRIMMED_LENGTH | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (General)",
+        "Returns the length of its argument, minus trailing whitespace, but including leading whitespace.",
+        "Equivalent to {fn LENGTH(str)} in ODBC.",
+        "Not equivalent to LENGTH, LEN in Snowflake.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

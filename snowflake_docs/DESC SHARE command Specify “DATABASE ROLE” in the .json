@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_07/bcr-1285",
+    "title": "DESC SHARE command: Specify \u201cDATABASE ROLE\u201d in the KIND column | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_07 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The DESCRIBE SHARE command behaves as follows:",
+        "When a database role is granted to a share and you run a DESC SHARE command on the share, the KIND column specifies ROLE for the\ndatabase role.",
+        "When a database role is granted to a share and you run a DESC SHARE command on the share, the KIND column specifies DATABASE ROLE for\nthe database role.",
+        "Ref: 1285",
+        "Was this page helpful?"
+    ]
+}

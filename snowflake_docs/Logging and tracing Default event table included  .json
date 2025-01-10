@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_06/bcr-1598",
+    "title": "Logging and tracing: Default event table included | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Attention",
+        "This behavior change was originally in the 2024_04 bundle and was subsequently removed. The change is reintroduced in the 2024_06 bundle.",
+        "Snowflake does not include an event table by default. To begin using logging and tracing, you must\ninstall and activate an event table, set it as the event table for the account to use, then\nenable logging and tracing. Before you install the event table, log or trace events are not captured, even with logging or tracing enabled.",
+        "By default, Snowflake includes the following:",
+        "A default event table called SNOWFLAKE.TELEMETRY.EVENTS.",
+        "If no event table is yet installed and active, the new default event table will be activated for the account. If an event table exists\nand is receiving data, it will remain active after the default event table is added.",
+        "A predefined view called EVENTS_VIEW in the TELEMETRY schema.",
+        "The EVENTS_VIEW view is associated with the SNOWFLAKE.TELEMETRY.EVENTS event table.",
+        "If logging and tracing were previously enabled and no events were captured because there was no active event table, the new default event\ntable will begin capturing logging and tracing events. This will incur costs as described in\nCosts of telemetry data collection.",
+        "If you don\u2019t yet have an event table and want to collect logging and tracing events, do nothing. New events will be captured in the\nSNOWFLAKE.TELEMETRY.EVENTS table in the SNOWFLAKE database, in the TELEMETRY schema.",
+        "If you do not want to collect events for the associated objects, you can do any one of the following:",
+        "Disable or change the logging and tracing levels appropriately at the respective object levels. For more information, see\nSetting levels for logging, metrics, and tracing and Setting levels for logging, metrics, and tracing.",
+        "This option is not applicable for Native Apps.",
+        "Uninstall the applications/connector emitting log and trace events or drop the unnecessary objects.",
+        "If you do not want any logging and tracing events to be collected at all in the account, execute the following command:",
+        "If you create your own event table and set it as active, events will then be collected in\nthat event table, and not in the default event table in the Snowflake database.",
+        "Ref: 1598",
+        "Was this page helpful?"
+    ]
+}

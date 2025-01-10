@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/python/troubleshooting",
+    "title": "Troubleshooting with Snowpark Python | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides some guidelines on troubleshooting problems when working with the Snowpark library.",
+        "By default, the Snowpark library logs INFO level messages to stdout. If you want to change these logging\nsettings, you can change the level to one of the\nsupported levels.",
+        "For example:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

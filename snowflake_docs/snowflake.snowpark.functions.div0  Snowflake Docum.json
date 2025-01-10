@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.div0",
+    "title": "snowflake.snowpark.functions.div0 | Snowflake Documentation",
+    "paragraphs": [
+        "Performs division like the division operator (/),\nbut returns 0 when the divisor is 0 (rather than reporting an error).",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

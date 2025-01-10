@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/performance-query-warehouse-memory",
+    "title": "Queries too large to fit in memory | Snowflake Documentation",
+    "paragraphs": [
+        "This topic discusses how a warehouse owner or administrator can resolve memory spillage in order to improve the performance of a query.",
+        "Performance degrades drastically when a warehouse runs out of memory while executing a query because memory bytes must \u201cspill\u201d onto local\ndisk storage. If the query requires even more memory, it spills onto remote cloud-provider storage, which results in even worse performance.",
+        "Note",
+        "You must have access to the shared SNOWFLAKE database to execute the diagnostic queries provided in this topic. By default, only the ACCOUNTADMIN role has the privileges needed to execute the queries.",
+        "This query identifies the top 10 worst offending queries in terms of bytes spilled to local and remote storage.",
+        "Data spilling to storage can have a negative impact on query performance (especially if the query has to spill to remote storage). To alleviate this, Snowflake recommends:",
+        "Using a larger warehouse (effectively increasing the available memory/local storage space for the operation)",
+        "Processing data in smaller batches.",
+        "You can use the Query Profile to identify which operation nodes are causing data to spill to storage.\nFor considerations for selecting the appropriate warehouse sizing, please refer to Warehouse considerations.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

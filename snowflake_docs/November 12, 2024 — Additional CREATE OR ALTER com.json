@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-11-12-create-or-alter-pupr",
+    "title": "November 12, 2024 \u2014 Additional CREATE OR ALTER commands \u2014 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the preview of additional CREATE OR ALTER commands. These\ncommands combine the functionality of the CREATE command and the ALTER command. A CREATE OR ALTER statement\nexecutes as a CREATE statement if the object doesn\u2019t exist. If it does exist, it transforms the object\naccording to the object definition in the statement.",
+        "CREATE OR ALTER TABLE provides a declarative and idempotent approach to defining your Snowflake objects. When\nused together with the Git integration, this enables an Infrastructure-as-Code (IaC) approach to database\nchange management.",
+        "With this preview, the following additional objects are supported:",
+        "CREATE OR ALTER APPLICATION ROLE: Creates an application role if it doesn\u2019t exist or alters an existing\napplication role.",
+        "CREATE OR ALTER DATABASE: Creates a database if it doesn\u2019t exist or alters an existing\ndatabase.",
+        "CREATE OR ALTER DATABASE ROLE: Creates a database role if it doesn\u2019t exist or alters an existing\ndatabase role.",
+        "CREATE OR ALTER ROLE: Creates a role if it doesn\u2019t exist or alters an existing role.",
+        "CREATE OR ALTER SCHEMA: Creates a schema if it doesn\u2019t exist or alters an existing\nschema.",
+        "CREATE OR ALTER STAGE: Creates a stage if it doesn\u2019t exist or alters an existing stage.",
+        "CREATE OR ALTER VIEW: Creates a view if it doesn\u2019t exist or alters an existing view.",
+        "CREATE OR ALTER WAREHOUSE: Creates a warehouse if it doesn\u2019t exist or alters an existing warehouse.",
+        "For more information, see CREATE OR ALTER <object>.",
+        "Was this page helpful?"
+    ]
+}

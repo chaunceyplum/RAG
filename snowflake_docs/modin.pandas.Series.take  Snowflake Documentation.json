@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.take",
+    "title": "modin.pandas.Series.take | Snowflake Documentation",
+    "paragraphs": [
+        "Return the elements in the given positional indices along an axis.",
+        "This means that we are not indexing according to actual values in\nthe index attribute of the object. We are indexing according to the\nactual position of the element in the object.",
+        "indices (array-like) \u2013 An array of ints indicating which positions to take.",
+        "axis ({0 or 'index', 1 or 'columns', None}, default 0) \u2013 The axis on which to select elements. 0 means that we are\nselecting rows, 1 means that we are selecting columns.\nFor Series this parameter is unused and defaults to 0.",
+        "**kwargs \u2013 For compatibility with numpy.take(). Has no effect on the\noutput.",
+        "An array-like containing the elements taken from the object.",
+        "same type as caller",
+        "See also",
+        "Take a subset of a Series by the given positional indices.",
+        "Select a subset of a DataFrame by labels.",
+        "Select a subset of a DataFrame by positions.",
+        "Examples",
+        "Take elements at positions 0 and 3 along the axis 0 (default).",
+        "We may take elements using negative integers for positive indices,\nstarting from the end of the object, just like with Python lists.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/client-connectivity-troubleshooting/overview",
+    "title": "Snowflake client connectivity and troubleshooting | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides an architecture overview explaining the various service endpoints required for normal client operations. It also provides a methodology for self-service troubleshooting general connectivity issues and error patterns for JDBC, ODBC, and for Snowflake Connector for Python and SnowSQL as additional references.",
+        "Architecture",
+        "Common connectivity issues and resolutions",
+        "Troubleshooting steps",
+        "Error messages",
+        "Note",
+        "The term client as used in this article refers to any custom or third-party application using a Snowflake command-line client (e.g., SnowSQL), driver (e.g., Go, JDBC, NodeJs, ODBC, PHP, Python), or API (e.g., Snowpipe REST API, SQL API). For completeness, it also includes browser access to the Snowflake Web Interface (e.g., Classic, Snowsight).",
+        "For more information regarding the configuration steps for the architectures, refer to Securing Snowflake.",
+        "Non-private client connectivity to Snowflake\u00b6",
+        "Private client connectivity to Snowflake (without private connectivity to Snowflake internal stages 1)\u00b6",
+        "Private client connectivity to Snowflake (without private connectivity to Snowflake internal stages 1)\u00b6",
+        "1 Configuration details for this feature are out of scope for this article. For more information, refer to Securing Snowflake.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

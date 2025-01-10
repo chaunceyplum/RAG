@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2023/7_21",
+    "title": "June 19-22, 2023 \u2014 7.21 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "The following new features, behavior changes, and updates (enhancements, fixes, etc.) have been introduced in this release. If you have any\nquestions about these additions, please contact\nSnowflake Support.",
+        "Important",
+        "Each release may include updates that require the web interface to be refreshed.",
+        "As a general practice, to ensure these updates do not impact your usage, we recommend refreshing the web interface after each Snowflake\nrelease has been deployed.",
+        "The following function(s) are now available with this release:",
+        "Function Category",
+        "New Function",
+        "Description",
+        "Geospatial Functions (Transformation)",
+        "ST_TRANSFORM",
+        "Converts a GEOMETRY object from one\nspatial reference system (SRS) to another.",
+        "This function is a preview feature.",
+        "With this release, we are pleased to announce that the COPY INTO and CREATE EXTERNAL TABLE commands support the file format option\nREPLACE_INVALID_CHARACTERS for Avro, Parquet, Orc, and XML. Previously, this file format option only worked with CSV and JSON.",
+        "For more information, refer to CREATE FILE FORMAT.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

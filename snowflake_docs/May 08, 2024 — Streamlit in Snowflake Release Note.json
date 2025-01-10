@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-05-08-sis",
+    "title": "May 08, 2024 \u2014 Streamlit in Snowflake Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the preview of Streamlit in Snowflake: Custom sleep timer.\nYou can now set a custom sleep timer for a Streamlit app to auto-suspend by creating a config.toml\nconfiguration file and specifying the timer. You can set the timer to any value between 5 to 240 minutes.",
+        "For more information, see Custom sleep timer for a Streamlit app.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

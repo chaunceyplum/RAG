@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.exceptions.SnowparkFetchDataException",
+    "title": "snowflake.snowpark.exceptions.SnowparkFetchDataException | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SnowparkServerException",
+        "Exception for when we are trying to fetch data from Snowflake.",
+        "Includes error codes: 1406.",
+        "Was this page helpful?"
+    ]
+}

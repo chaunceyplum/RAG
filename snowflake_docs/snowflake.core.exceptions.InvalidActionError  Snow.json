@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.exceptions.InvalidActionError",
+    "title": "snowflake.core.exceptions.InvalidActionError | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SnowflakePythonError",
+        "Raised when the user makes an invalid action such as invalid parameters or when the API response is invalid.",
+        "Base class for all errors such as InvalidArgumentsError, InvalidResponseError, etc.",
+        "Was this page helpful?"
+    ]
+}

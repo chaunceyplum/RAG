@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/h3_compact_cells_strings",
+    "title": "H3_COMPACT_CELLS_STRINGS | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns an array of VARIANT values that contain\nthe VARCHAR hexadecimal IDs of fewer, larger H3 cells that cover the\nsame area as the H3 cells in the input. For information about compacted cells, see Indexing.",
+        "An array of VARIANT values that contain the VARCHAR hexadecimal values that represent H3 cell IDs (indexes).",
+        "Returns a value of the ARRAY data type or NULL.",
+        "If the input is an array of VARCHAR hexadecimal values, returns an array that consists of VARIANT values that represent a\ncompacted set of H3 cells. The VARIANT values contain the VARCHAR hexadecimal values that represent H3 cell IDs.",
+        "If the input is NULL, returns NULL without reporting an error.",
+        "All of the VARCHAR hexadecimal values in the input must represent valid H3 cells.",
+        "All of the H3 cells in the input must have the same resolution.",
+        "The H3 cells in the input must cover unique areas without overlapping. Duplicate H3 cells are not allowed.",
+        "The following example compacts a set of H3 cells, returning cells at a lower resolution that represent the same area.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

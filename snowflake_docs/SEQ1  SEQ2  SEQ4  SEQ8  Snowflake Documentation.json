@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/seq1",
+    "title": "SEQ1 / SEQ2 / SEQ4 / SEQ8 | Snowflake Documentation",
+    "paragraphs": [
+        "Data generation functions",
+        "Returns a sequence of monotonically increasing integers, with wrap-around. Wrap-around occurs after the largest representable integer of the integer width (1, 2, 4, or 8 byte).",
+        "Important",
+        "This function uses sequences to produce a unique set of increasing integers, but does not necessarily produce a gap-free sequence. When operating on a large quantity of data, gaps can\nappear in a sequence. If a fully ordered, gap-free sequence is required, consider using the ROW_NUMBER window function.",
+        "For more details about sequences in Snowflake, see Using Sequences.",
+        "If the optional sign argument is 0, the sequence continues at 0 after wrap-around. If the optional sign argument is 1, the sequence continues at the smallest representable number based\non the given integer width.",
+        "The default sign argument is 0.",
+        "These are basic examples of using sequences:",
+        "This example shows how to use ROW_NUMBER to generate a sequence without gaps:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

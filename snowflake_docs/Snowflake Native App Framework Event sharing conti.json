@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_06/bcr-1724",
+    "title": "Snowflake Native App Framework: Event sharing continues after consumer disables event table | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Consumers can disable an event table by setting the value of the event table to NONE as shown in the following example:\nALTER ACCOUNT SET EVENT_TABLE = NONE.\nIf the consumer sets this value to NONE and they have enabled event sharing,\nlog messages and trace events are no longer shared with the provider.",
+        "If the consumer sets the event table to NONE and event sharing is enabled,\nlog messages and trace events are no longer shared with the provider.",
+        "If event sharing is enabled, the log messages and trace events the consumer\nhas agreed to share back are still shared with the provider, even if the event table is set to NONE.",
+        "Ref: 1724",
+        "Was this page helpful?"
+    ]
+}

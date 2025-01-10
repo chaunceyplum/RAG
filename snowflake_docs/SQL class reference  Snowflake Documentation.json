@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference-classes",
+    "title": "SQL class reference | Snowflake Documentation",
+    "paragraphs": [
+        "These topics provide reference information for Snowflake classes.",
+        "Each class supports one or more of the following SQL operations:",
+        "ALTER: Modifies the properties of an instance of a class.",
+        "CREATE: Creates an instance of a class.",
+        "DROP: Deletes an instance of a class.",
+        "SHOW: Lists instances of a class.",
+        "An instance of a class can have one or more methods. A method is a stored procedure or function and can be called by\nusing the instance name and method name, and arguments (if any) required by the method. For example,\nCALL instance_name!method_name(...).",
+        "You can add the schema for classes you use frequently to your search path to save typing and make your SQL statements\nmore concise. For more information about updating your search path, see Update your search path.",
+        "Snowflake provides the following system-defined (built-in) classes.",
+        "Allows you to detect outliers in your time series data.",
+        "Allows you to monitor credit usage of supported objects.",
+        "Automatically sorts data into categories based on features in the data.",
+        "Allows you to automatically classify sensitive data.",
+        "Allows you to define custom classifiers to extend your data classification capabilities.",
+        "Represents a Document AI model build.",
+        "Represents a forecast model that produces a forecast for a single or multiple time series.",
+        "Allows you to determine the segments driving changes in a metric.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

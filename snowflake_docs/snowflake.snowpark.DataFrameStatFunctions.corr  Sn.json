@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrameStatFunctions.corr",
+    "title": "snowflake.snowpark.DataFrameStatFunctions.corr | Snowflake Documentation",
+    "paragraphs": [
+        "Calculates the correlation coefficient for non-null pairs in two numeric columns.",
+        "Example:",
+        "col1 \u2013 The name of the first numeric column to use.",
+        "col2 \u2013 The name of the second numeric column to use.",
+        "statement_params \u2013 Dictionary of statement level parameters to be set while executing this action.",
+        "The correlation of the two numeric columns.\nIf there is not enough data to generate the correlation, the method returns None.\nstatement_params: Dictionary of statement level parameters to be set while executing this action.",
+        "Was this page helpful?"
+    ]
+}

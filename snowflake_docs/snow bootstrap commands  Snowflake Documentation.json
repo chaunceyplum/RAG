@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/bootstrap-commands/overview",
+    "title": "snow bootstrap commands | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "The Snowflake CLI bootstrap commands provide developers the ability to instantiate projects from templates.",
+        "snow init",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

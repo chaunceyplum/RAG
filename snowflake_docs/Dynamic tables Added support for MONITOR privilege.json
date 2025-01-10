@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1373",
+    "title": "Dynamic tables: Added support for MONITOR privileges | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "To view the metadata of a dynamic table, such as the graph history, refresh history, or attached warehouse, specific privileges are required:",
+        "Only SELECT privilege is required.",
+        "MONITOR privilege is required.",
+        "Ref: 1373",
+        "Was this page helpful?"
+    ]
+}

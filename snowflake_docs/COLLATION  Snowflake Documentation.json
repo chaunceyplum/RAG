@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/collation",
+    "title": "COLLATION | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions",
+        "Returns the collation specification of the expression.",
+        "The expression for which you want to know the collation specification.\nTypically, this is a column name.",
+        "Returns a VARCHAR value that contains the collation specification of the expression.",
+        "This example shows how to get the collation specification of a specified column.",
+        "First, create the table and insert data:",
+        "Second, show the collation of the column:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

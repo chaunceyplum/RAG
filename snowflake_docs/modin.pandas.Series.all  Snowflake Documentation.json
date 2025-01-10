@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.all",
+    "title": "modin.pandas.Series.all | Snowflake Documentation",
+    "paragraphs": [
+        "Return whether all elements are True, potentially over an axis.",
+        "Returns True unless there at least one element within a series or along a Dataframe axis that is False or equivalent (e.g. zero or empty).",
+        "axis ({0 or 'index', 1 or 'columns', None}, default 0) \u2013",
+        "Indicate which axis or axes should be reduced. For Series this parameter\nis unused and defaults to 0.",
+        "0 / \u2018index\u2019 : reduce the index, return a Series whose index is the\noriginal column labels.",
+        "1 / \u2018columns\u2019 : reduce the columns, return a Series whose index is the\noriginal index.",
+        "None : reduce all axes, return a scalar.",
+        "",
+        "bool_only (bool, default False) \u2013 Include only boolean columns. Not implemented for Series.",
+        "skipna (bool, default True) \u2013 Exclude NA/null values. If the entire row/column is NA and skipna is\nTrue, then the result will be True, as for an empty row/column.\nIf skipna is False, then NA are treated as True, because these are not\nequal to zero.",
+        "**kwargs (any, default None) \u2013 Additional keywords have no effect but might be accepted for\ncompatibility with NumPy.",
+        "Series",
+        "Notes",
+        "Snowpark pandas currently only supports this function on DataFrames/Series with integer or boolean\ncolumns.",
+        "See also",
+        "Return True if all elements are True.",
+        "Return True if one (or more) elements are True.",
+        "Examples",
+        "Series",
+        "DataFrames",
+        "Create a dataframe from a dictionary.",
+        "Default behaviour checks if values in each column all return True.",
+        "Specify axis='columns' to check if values in each row all return True.",
+        "Or axis=None for whether every value is True.",
+        "Was this page helpful?"
+    ]
+}

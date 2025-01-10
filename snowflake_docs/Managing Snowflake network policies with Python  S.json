@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/snowflake-python-managing-network-policies",
+    "title": "Managing Snowflake network policies with Python | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "You can use Python to manage Snowflake network policies, which you can use to control inbound access to the Snowflake service and internal\nstage. For more information, see Controlling network traffic with network policies.",
+        "Note",
+        "ALTER NETWORK POLICY is currently not supported.",
+        "The Snowflake Python APIs represents network policies with two separate types:",
+        "NetworkPolicy: Exposes a network policy\u2019s properties such as its name, network rules, and allowed and blocked IP lists.",
+        "NetworkPolicyResource: Exposes methods you can use to fetch a corresponding NetworkPolicy object and drop the network\npolicy.",
+        "Minimum API version required",
+        "0.13.0",
+        "The examples in this topic assume that you\u2019ve added code to connect with Snowflake and to create a Root object from which to use the\nSnowflake Python APIs.",
+        "For example, the following code uses connection parameters defined in a configuration file to create a connection to Snowflake:",
+        "Using the resulting Session object, the code creates a Root object to use the API\u2019s types and methods. For more information,\nsee Connect to Snowflake with the Snowflake Python APIs.",
+        "To create a network policy, first create a NetworkPolicy object, and then create a NetworkPolicyCollection object from the\nAPI Root object. Using NetworkPolicyCollection.create, add the new network policy to Snowflake.",
+        "Code in the following example creates a NetworkPolicy object that represents a network policy named my_network_policy with\nthe specified allowed and blocked network rules and IP addresses:",
+        "You can get information about a network policy by calling the NetworkPolicyResource.fetch method, which returns a\nNetworkPolicy object.",
+        "Code in the following example gets information about a network policy named my_network_policy:",
+        "You can list network policies using the NetworkPolicyCollection.iter method, which returns a PagedIter iterator of\nNetworkPolicy objects.",
+        "Code in the following example lists network policies whose name starts with my and prints the name of each:",
+        "You can drop a network policy with a NetworkPolicyResource object.",
+        "Code in the following example gets the my_network_policy network policy resource object and then drops the network policy.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

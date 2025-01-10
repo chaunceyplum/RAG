@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.notna",
+    "title": "modin.pandas.Series.notna | Snowflake Documentation",
+    "paragraphs": [
+        "Detect non-missing values for an array-like object.",
+        "This function takes a scalar or array-like object and indicates whether values are valid (not missing, which\nis NaN in numeric arrays, None or NaN in object arrays, NaT in datetimelike).",
+        "obj (array-like or object value) \u2013 Object to check for not null or non-missing values.",
+        "",
+        "bool or array-like of bool",
+        "For scalar input, returns a scalar boolean. For array input, returns an array of boolean indicating whether",
+        "each corresponding element is valid.",
+        "",
+        "Example",
+        "Was this page helpful?"
+    ]
+}

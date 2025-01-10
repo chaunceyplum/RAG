@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/explain_json",
+    "title": "EXPLAIN_JSON | Snowflake Documentation",
+    "paragraphs": [
+        "System functions",
+        "This function converts an EXPLAIN plan from JSON to a table. The output is the same as the output of the command EXPLAIN USING TABULAR <statement>.",
+        "SYSTEM$EXPLAIN_PLAN_JSON , SYSTEM$EXPLAIN_JSON_TO_TEXT",
+        "A string, or an expression that evaluates to a string, containing EXPLAIN output as a JSON-compatible string.\nTypically, this input is the output of the function SYSTEM$EXPLAIN_PLAN_JSON.\nIf a literal string is used, it should be surrounded by single quote characters '.",
+        "The function returns a table containing the EXPLAIN output as an ordered set of rows.",
+        "The output of this function is equivalent to the output of EXPLAIN USING TABULAR <sql_statement>.",
+        "The input must be a constant expression. You cannot call this function on a column, for example.",
+        "If a string literal is passed as input, the delimiter around the string can be either a single quote ' or a\ndouble dollar sign $$. If the string literal contains single quotes (and does not contain double dollar\nsigns), then delimiting the string with double dollar signs avoids the need to escape the embedded single quote\ncharacters inside the string.",
+        "The output table can be processed using the RESULT_SCAN function.",
+        "This function converts EXPLAIN information from JSON to tabular format.\nOften, the JSON value is produced directly or indirectly from the SYSTEM$EXPLAIN_PLAN_JSON function.\nFor example, the output from SYSTEM$EXPLAIN_PLAN_JSON could be stored in a table, then displayed later using this\nEXPLAIN_JSON function.",
+        "Because the output is tabular, this function is classified as a table function.",
+        "The following example shows how to use this function:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

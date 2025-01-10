@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.array_slice",
+    "title": "snowflake.snowpark.functions.array_slice | Snowflake Documentation",
+    "paragraphs": [
+        "Returns an ARRAY constructed from a specified subset of elements of the input ARRAY.",
+        "array \u2013 Column containing the source ARRAY.",
+        "from \u2013 Column containing a position in the source ARRAY. The position of the first\nelement is 0. Elements from positions less than this parameter are\nnot included in the resulting ARRAY.",
+        "to \u2013 Column containing a position in the source ARRAY. Elements from positions equal to\nor greater than this parameter are not included in the resulting array.",
+        "Was this page helpful?"
+    ]
+}

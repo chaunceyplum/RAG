@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.count",
+    "title": "modin.pandas.DataFrame.count | Snowflake Documentation",
+    "paragraphs": [
+        "Count non-NA cells for each column or row.",
+        "The values None, NaN, NaT are considered NA.",
+        "axis ({0 or 'index', 1 or 'columns'}, default 0) \u2013 If 0 or \u2018index\u2019 counts are generated for each column.\nIf 1 or \u2018columns\u2019 counts are generated for each row. Not supported yet.",
+        "numeric_only (bool, default False) \u2013 Include only float, int or boolean data.",
+        "For each column/row the number of non-NA/null entries.",
+        "Snowpark pandas Series",
+        "See also",
+        "Number of non-NA elements in a Series.",
+        "Count unique combinations of columns.",
+        "Number of DataFrame rows and columns (including NA elements).",
+        "Boolean same-sized DataFrame showing places of NA elements.",
+        "Examples",
+        "Constructing DataFrame from a dictionary:",
+        "Notice the uncounted NA values:",
+        "Was this page helpful?"
+    ]
+}

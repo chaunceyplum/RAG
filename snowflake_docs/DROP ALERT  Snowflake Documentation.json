@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-alert",
+    "title": "DROP ALERT | Snowflake Documentation",
+    "paragraphs": [
+        "Drops an existing alert.",
+        "Tip",
+        "In addition to SQL, you can also use other interfaces, such as Snowflake REST APIs, Snowflake Python APIs, and Snowflake CLI.\nSee Alternate interfaces.",
+        "CREATE ALERT , ALTER ALERT, DESCRIBE ALERT , SHOW ALERTS , EXECUTE ALERT",
+        "Identifier for the alert to drop. If the identifier contains spaces or special characters, the entire string must be enclosed\nin double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "OWNERSHIP",
+        "Alert",
+        "OWNERSHIP is a special privilege on an object that is automatically granted to the role that created the object, but can also be transferred using the GRANT OWNERSHIP command to a different role by the owning role (or any role with the MANAGE GRANTS privilege).",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "When an alert is dropped, any current evaluation of the condition of the alert (i.e. a run with an EXECUTING state in the\nALERT_HISTORY output) is completed.",
+        "An alert can be dropped by the alert owner (i.e. the role that has the OWNERSHIP privilege on the alert) or a higher role\nwithout first suspending the alert.",
+        "See Dropping an alert.",
+        "Snowflake REST APIs",
+        "Delete an alert endpoint",
+        "Snowflake Python APIs",
+        "alert.AlertResource.drop method",
+        "Snowflake CLI",
+        "Not supported",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

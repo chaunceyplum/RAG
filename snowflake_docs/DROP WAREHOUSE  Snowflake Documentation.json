@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-warehouse",
+    "title": "DROP WAREHOUSE | Snowflake Documentation",
+    "paragraphs": [
+        "Removes the specified virtual warehouse from the system.",
+        "ALTER WAREHOUSE , CREATE WAREHOUSE , DESCRIBE WAREHOUSE , SHOW WAREHOUSES",
+        "Specifies the identifier for the warehouse to drop. If the identifier contains spaces, special characters, or mixed-case characters, the\nentire string must be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Dropped warehouses cannot be recovered; they must be recreated.",
+        "When this command is issued, Snowflake aborts any queries being processed by the specified warehouse and shuts down the compute\nresources utilized by the warehouse. Metering on the compute resources for the warehouse stops after all running statements complete.",
+        "Tip",
+        "To prevent in-progress queries from being aborted for a dropped warehouse (i.e. you wish the queries to be completed):",
+        "First suspend the warehouse.",
+        "After all the queries have completed, drop the warehouse.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

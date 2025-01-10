@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.timestamp_ntz_from_parts",
+    "title": "snowflake.snowpark.functions.timestamp_ntz_from_parts | Snowflake Documentation",
+    "paragraphs": [
+        "Creates a timestamp from individual numeric components. The function can be used to\ncreate a timestamp from a date expression and a time expression.",
+        "Example 1:",
+        "Example 2:",
+        "Was this page helpful?"
+    ]
+}

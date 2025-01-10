@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-image-repository",
+    "title": "DROP IMAGE REPOSITORY | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Available to accounts in AWS and Microsoft Azure commercial regions, with some exceptions. For more information, see Available regions.",
+        "Removes the specified image repository from\nthe current or specified schema.",
+        "CREATE IMAGE REPOSITORY , SHOW IMAGE REPOSITORIES",
+        "Specifies the identifier for the repository to drop.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "OWNERSHIP",
+        "Image repository",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "Dropping an image repository while services are running that reference images in that repository can cause problems. Currently\nrunning service instances and jobs will continue to run, but any attempt to create a new service instance will fail.",
+        "The following example drops the repository named tutorial_repository:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

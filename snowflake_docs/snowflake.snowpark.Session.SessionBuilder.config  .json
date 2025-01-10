@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.SessionBuilder.config",
+    "title": "snowflake.snowpark.Session.SessionBuilder.config | Snowflake Documentation",
+    "paragraphs": [
+        "Adds the specified connection parameter to the SessionBuilder configuration.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_commit_move_organization_account",
+    "title": "SYSTEM$COMMIT_MOVE_ORGANIZATION_ACCOUNT | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Preview Feature \u2014 Open",
+        "Available to all accounts that are Enterprise Edition (or higher).",
+        "To inquire about upgrading, please contact Snowflake Support.",
+        "Finalizes the process of moving an organization account from one region to another.",
+        "The process of moving the organization account began when the SYSTEM$INITIATE_MOVE_ORGANIZATION_ACCOUNT was\ncalled.",
+        "SYSTEM$INITIATE_MOVE_ORGANIZATION_ACCOUNT , SYSTEM$SHOW_MOVE_ORGANIZATION_ACCOUNT_STATUS",
+        "Specifies the number of days after which the organization account in the original region (that is, the source region) will be deleted.",
+        "Only users with the GLOBALORGADMIN role can call this function.",
+        "You are automatically logged out of Snowflake immediately after calling this function.",
+        "Until the process of finalizing the move completes (usually within a few minutes), you cannot sign in to the organization account in the\nsource region nor the organization account in the target region.",
+        "When the finalization process completes, the name of the organization account in the new region changes from the temporary name that was\nspecified by the SYSTEM$INITIATE_MOVE_ORGANIZATION_ACCOUNT function to the original name of the\norganization account.",
+        "To check the status of the finalization process, call the SYSTEM$SHOW_MOVE_ORGANIZATION_ACCOUNT_STATUS\nfunction.",
+        "Delete the original organization account 14 days after the move is finalized:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

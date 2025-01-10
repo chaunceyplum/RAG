@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.AsyncJob.is_done",
+    "title": "snowflake.snowpark.AsyncJob.is_done | Snowflake Documentation",
+    "paragraphs": [
+        "Checks the status of the query associated with this instance and returns a bool value\nindicating whether the query has finished.",
+        "Was this page helpful?"
+    ]
+}

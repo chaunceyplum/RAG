@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_wait_for_services",
+    "title": "SYSTEM$WAIT_FOR_SERVICES | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Feature \u2014 Generally Available",
+        "Available to accounts in AWS and Microsoft Azure commercial regions, with some exceptions. For more information, see Available regions.",
+        "Waits for one or more Snowpark Container Services services to reach the READY state (or becomes upgraded) before returning.",
+        "All services with names passed to the system function have READY status.",
+        "Any of the named services has the FAILED status.",
+        "The pause duration has reached the specified time duration, in seconds.",
+        "You might use this function, for example, in a Native App scenario to pause the native app (with containers) setup script to allow for the services to upgrade correctly. For more information, see Upgrade an app with containers.",
+        "Snowpark Container Services",
+        "Number of seconds to pause.",
+        "Names of one or more services to wait for.",
+        "\u2018OK\u2019 or fails in case of timeout.",
+        "The current role must have the MONITOR privilege on the services listed in the command.",
+        "The following statement causes the setup script to pause until one of the following occurs:",
+        "All the three named services passed to the system function have the READY status.",
+        "Any of the named services has the FAILED status.",
+        "600 seconds have passed.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

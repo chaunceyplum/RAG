@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/clients-drivers/kafka-connector-2022",
+    "title": "Snowflake Connector for Kafka release notes for 2022 | Snowflake Documentation",
+    "paragraphs": [
+        "This article contains the release notes for the Snowflake Connector for Kafka, including the following when applicable:",
+        "Behavior changes",
+        "New features",
+        "Customer-facing bug fixes",
+        "Snowflake uses semantic versioning for Snowflake Connector for Kafka updates.",
+        "See Snowflake Connector for Kafka for documentation.",
+        "Added docker setup resources to the Kafka connect repo.",
+        "Added multiple fixes for Kubernetes cluster schematization schema mapping.",
+        "Added the correlationId to logging.",
+        "Moved rows with JsonProcessingException into the DLQ instead of ignoring them.",
+        "Added log granularity instance id for tasks.",
+        "Added support for schema evolution with schematization.",
+        "Increased the version of protobuf-java from 3.19.4 to 3.19.6 in /test/test_data/protobuf.",
+        "Checked the schema evolution table option.",
+        "Added security upgrade for com.fasterxml.jackson.core:jackson-databind from 2.13.2.1 to 2.13.4.2.",
+        "Fixed Blackduck vulnerabilities.",
+        "Upgraded the jackson-core and jackson-databind libraries to versions 2.13.1 and 2/13/2/1, respectively, to fix some issues with version 1.6.7.",
+        "Upgraded the snowflake-jdbc library to version 3.13.14.",
+        "Upgraded the jackson-core and jackson-databind libraries to 2.12.6 to resolve Possible DoS if using JDK serialization to serialize JsonNode.",
+        "No customer facing changes.",
+        "Upgraded the jackson-core and jackson-databind libraries to 2.12.6 to resolve Possible DoS if using JDK serialization to serialize JsonNode.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

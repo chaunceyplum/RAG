@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_03/bcr-1569",
+    "title": "FUNCTIONS view (Information Schema): Add support for data metric function | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of the Information Schema FUNCTIONS view is as follows:",
+        "The output of the view does not include the is_data_metric column and the argument_signature column does not support table arguments that are associated with a data metric function.",
+        "The output of the view includes the is_data_metric column, which is defined as follows:",
+        "Column name",
+        "Data type",
+        "Description",
+        "is_data_metric",
+        "VARCHAR(3)",
+        "YES, if the function is a data metric function; otherwise, NO.",
+        "When the output row corresponds to a data metric function, the argument_signature column includes the signature of the data\nmetric function.",
+        "Ref: 1569",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/undrop-account",
+    "title": "UNDROP ACCOUNT | Snowflake Documentation",
+    "paragraphs": [
+        "Restores a dropped account that has not yet been permanently deleted\n(a dropped account that is within its grace period).",
+        "To obtain a list of dropped accounts that can be restored, refer to Viewing dropped accounts.",
+        "Tip",
+        "In addition to SQL, you can also use other interfaces, such as Snowflake REST APIs, Snowflake Python APIs, and Snowflake CLI.\nSee Alternate interfaces.",
+        "CREATE ACCOUNT, DROP ACCOUNT, SHOW ACCOUNTS",
+        "Specifies the name of the account being restored. As an example, if the full account identifier is myorg-account123, then\nspecify account123 as the name.",
+        "The legacy account locator cannot be used to identify the account.",
+        "Only organization administrators (i.e. a user with the ORGADMIN role) can execute the command.",
+        "To restore the dropped account myaccount123, which was still within the grace period, enter:",
+        "Snowflake REST APIs",
+        "Restore an account endpoint",
+        "Snowflake Python APIs",
+        "account.AccountResource.undrop method",
+        "Snowflake CLI",
+        "Not supported",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

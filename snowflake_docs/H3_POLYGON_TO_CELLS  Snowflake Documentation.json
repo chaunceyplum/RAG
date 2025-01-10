@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/h3_polygon_to_cells",
+    "title": "H3_POLYGON_TO_CELLS | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns an array of INTEGER values of the IDs of H3\ncells that have centroids contained by a Polygon (specified by a GEOGRAPHY object).",
+        "H3_POLYGON_TO_CELLS_STRINGS , H3_COVERAGE",
+        "A GEOGRAPHY object that represents a Polygon.",
+        "An INTEGER between 0 and 15 (inclusive) that specifies the H3 resolution that you want to use for the returned H3 cells.",
+        "Specifying any other INTEGER value results in an error.",
+        "Returns an array of INTEGER values for the IDs of the H3 cells that have centroids contained in the specified input Polygon.",
+        "The function uses planar approximation, which treats points on the Earth\u2019s surface as if they were connected by straight lines,\nrather than curved arcs. If you need a spherical approximation, use H3_COVERAGE instead.",
+        "A cell is considered to be within the Polygon if its centroid is contained by the Polygon.",
+        "When you apply FLATTEN to the array returned by the function,\ncast each value explicitly to an integer.",
+        "The following example returns an ARRAY of the IDs of H3 cells that have centroids contained in the specified Polygon.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

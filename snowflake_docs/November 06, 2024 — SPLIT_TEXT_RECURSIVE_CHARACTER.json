@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-11-06-split-text-recursive-character",
+    "title": "November 06, 2024 \u2014 SPLIT_TEXT_RECURSIVE_CHARACTER Cortex function \u2014 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake is pleased to announce the preview of the SPLIT_TEXT_RECURSIVE_CHARACTER function. This function splits a\nstring into smaller chunks of text, recursively, so that the text can be passed to embedding or search indexing\nfunctions. Since many language models have a limit on the number of tokens they can process, this function is essential\nto processing text larger than the token limit.",
+        "For more information, see SPLIT_TEXT_RECURSIVE_CHARACTER (SNOWFLAKE.CORTEX).",
+        "Was this page helpful?"
+    ]
+}

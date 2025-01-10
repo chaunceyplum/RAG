@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/to_object",
+    "title": "TO_OBJECT | Snowflake Documentation",
+    "paragraphs": [
+        "Conversion functions , Semi-structured and structured data functions (Array/Object)",
+        "Converts the input value to an OBJECT:",
+        "For a VARIANT value containing an OBJECT, returns the OBJECT.",
+        "For NULL input, or for a VARIANT value containing only JSON null, returns NULL.",
+        "For an OBJECT, returns the OBJECT itself.",
+        "For all other input values, reports an error.",
+        "An expression that evaluates to a VARIANT that contains an OBJECT.",
+        "The data type of the returned value is OBJECT.",
+        "This demonstrates simple usage of the TO_OBJECT function:",
+        "Create a table and insert a value of type VARIANT. (The function PARSE_JSON returns a VARIANT.)",
+        "Call the TO_OBJECT function:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/catalog-integration/catalog-integration-introduction",
+    "title": "Use catalog integrations | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "The Snowflake REST Catalog Integration API provides the following endpoints to access, update, and perform certain actions on Catalog Integration resources.",
+        "Endpoint",
+        "Description",
+        "GET /api/v2/catalog-integrations",
+        "Lists available catalog integrations.",
+        "POST /api/v2/catalog-integrations",
+        "Creates a catalog integration.",
+        "GET /api/v2/catalog-integrations/name",
+        "Fetches a catalog integration.",
+        "DELETE /api/v2/catalog-integrations/name",
+        "Deletes a catalog integration.",
+        "For reference documentation, see Snowflake Catalog Integration API reference.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

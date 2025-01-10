@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_07/bcr-1314",
+    "title": "Snowsight worksheets and dashboards: Changes to formatting of query results | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_07 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Query results no longer have automatic formatting applied in Snowsight. Instead, the raw data\nformat of the results is displayed unless parameters or SQL format models are applied. With this change, the formatting for numeric\nand timestamp data types changes as follows:",
+        "NUMBER and INTEGER data types:",
+        "Numbers greater than or equal to 16 digits are displayed using scientific notation (1.012345678901234567e+19).",
+        "Numbers greater than or equal to 16 digits include comma separators.",
+        "Numbers with trailing zeros have trailing zeros removed and display with comma separators.",
+        "FLOAT data types:",
+        "Numbers with trailing zeros have trailing zeros removed and display with comma separators.",
+        "TIMESTAMP data types:",
+        "TIMESTAMP_NTZ results with 10,000 or fewer rows display as YYYY-MM-DD HH24:MI:SS.FF3.",
+        "TIMESTAMP_NTZ results with 10,001 or greater rows display as YYYY-MM-DD HH24:MI:SS.",
+        "TIMESTAMP_TZ and TIMESTAMP_LTZ results with 10,000 or fewer rows display as YYYY-MM-DD HH24:MI:SS.FF3 TZH.",
+        "TIMESTAMP_TZ and TIMESTAMP_LTZ results with 10,001 or greater rows display as YYYY-MM-DD HH24:MI:SS.",
+        "TIMESTAMP_NTZ results mapped to TIMESTAMP_LTZ  display as YYYY-MM-DD HH24:MI:SS.FF3.",
+        "NUMBER and INTEGER data types:",
+        "Numbers greater than or equal to 16 characters display without formatting (1012345678901234567).",
+        "Numbers with trailing zeros have trailing zeros removed, unless the provided number scale exceeds the number of digits in the value.",
+        "FLOAT data types:",
+        "Numbers with trailing zeros have trailing zeros removed, unless the provided number scale exceeds the number of digits in the value.",
+        "TIMESTAMP data types:",
+        "TIMESTAMP_NTZ results display as YYYY-MM-DDTHH24:MI:SS.FF3Z.",
+        "TIMESTAMP_TZ and TIMESTAMP_LTZ results display as YYYY-MM-DDTHH24:MI:SS.FF3TZH. If TZH is +0000, TZH is removed.",
+        "If you want your results to appear with formatting in worksheets or dashboard tiles, update your query to use the relevant formatting.\nSee SQL format models.",
+        "Ref: 1314",
+        "Was this page helpful?"
+    ]
+}

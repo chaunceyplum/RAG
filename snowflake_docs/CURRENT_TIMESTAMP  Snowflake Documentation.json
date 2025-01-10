@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/current_timestamp",
+    "title": "CURRENT_TIMESTAMP | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (General)",
+        "Returns the current timestamp for the system in the local time zone.",
+        "LOCALTIMESTAMP , GETDATE , SYSTIMESTAMP",
+        "This optional argument indicates the precision with which to report the\ntime. For example, a value of 3 says to use 3 digits after the decimal\npoint (i.e. to specify the time with a precision of milliseconds).",
+        "The default precision is 9 (nanoseconds).",
+        "Valid values range from 0 - 9. However, most platforms do not support true\nnanosecond precision; the precision that you get might be less than the\nprecision you specify. In practice, precision is usually approximately\nmilliseconds (3 digits) at most.",
+        "Note",
+        "Fractional seconds are only displayed if they have been explicitly set in the TIMESTAMP_OUTPUT_FORMAT parameter for the session (e.g. 'YYYY-MM-DD HH24:MI:SS.FF').",
+        "Returns the current system time. The data type of the returned value is\nTIMESTAMP_LTZ.",
+        "The setting of the TIMEZONE parameter affects the return value. The returned timestamp is in the time zone for the session.",
+        "The setting of the TIMESTAMP_TYPE_MAPPING parameter does not affect the return value.",
+        "Do not use the returned value for precise time ordering between concurrent queries (processed by the same virtual warehouse) because the queries might be serviced by different compute resources (in the warehouse).",
+        "To comply with the ANSI standard, this function can be called without parentheses in SQL statements.",
+        "However, if you are setting a Snowflake Scripting variable\nto an expression that calls the function (for example, my_var := CURRENT_TIMESTAMP();), you must include the\nparentheses. For more information, see the usage notes for context functions.",
+        "The aliases SYSTIMESTAMP and GETDATE differ from CURRENT_TIMESTAMP in the following ways:",
+        "They do not support the fract_sec_precision argument.",
+        "These functions must be called with parentheses.",
+        "Set the time output format to YYYY-MM-DD HH24:MI:SS.FF:",
+        "Return the current timestamp with fractional seconds precision set to 2:",
+        "Return the current timestamp with fractional seconds precision set to 4:",
+        "Return the current timestamp with fractional seconds precision set to the default (9):",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

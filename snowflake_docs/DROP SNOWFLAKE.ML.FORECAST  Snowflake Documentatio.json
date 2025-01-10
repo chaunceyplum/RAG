@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/forecast/commands/drop-forecast",
+    "title": "DROP SNOWFLAKE.ML.FORECAST | Snowflake Documentation",
+    "paragraphs": [
+        "Removes the specified model from the current or specified schema. Dropped models cannot be recovered; they must be recreated.",
+        "Specifies the identifier for the model to drop. If the identifier contains spaces, special characters, or mixed-case\ncharacters, the entire string must be enclosed in double quotes. Identifiers enclosed in double quotes are also\ncase-sensitive.",
+        "If the model identifier is not fully qualified (in the form of db_name.schema_name.name or\nschema_name.name)), the command looks for the model in the current schema for the session.",
+        "See Examples.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

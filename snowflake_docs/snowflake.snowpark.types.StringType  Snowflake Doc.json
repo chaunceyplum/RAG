@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.types.StringType",
+    "title": "snowflake.snowpark.types.StringType | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: _AtomicType",
+        "String data type. This maps to the VARCHAR data type in Snowflake.",
+        "A StringType object can be created in the following ways:",
+        "Methods",
+        "Was this page helpful?"
+    ]
+}

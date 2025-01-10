@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/ui-snowsight-data-databases-view",
+    "title": "Working with views in Snowsight | Snowflake Documentation",
+    "paragraphs": [
+        "You can work with views in SQL or in Snowsight.\nFor details about the available SQL commands for working with views, see Table, view, & sequence DDL.",
+        "For any Snowflake view, you can open Data \u00bb Databases and search for or browse to the view.\nSelect the view to explore details about the view, the columns defined in the view, and preview the data in the view.",
+        "You must have the relevant view privileges to access and manage the view in Snowsight.",
+        "After opening a view in Snowsight, you can do the following:",
+        "Identify the type of view and when the view was last created. Hover over the time details to see the exact creation date and time.",
+        "Review the SQL definition of the view on the View Details tab.",
+        "Manage privileges for the view in the Privileges section of the View Details tab.\nTo manage privileges, see Manage object privileges with Snowsight.",
+        "Review the name, type, ordinal (order of the column in the view), tags, and masking policies applied to the view on the Columns tab.\nTo add tags and masking policies to a view, see Create and assign tags.",
+        "You can perform the following basic management tasks for a view in Snowsight:",
+        "To edit the view name or add a comment, select  \u00bb Edit.",
+        "To drop the view, select  \u00bb Drop.",
+        "To transfer ownership of the view to another role, select  \u00bb Transfer Ownership.",
+        "You can preview up to the first 100 rows of a view on the Data Preview tab for the view.",
+        "Note",
+        "If your view is complex, you might not see a data preview. Snowsight queries the view for the data preview and waits for up to\n300 seconds for results to be returned. If the query takes longer than 300 seconds to complete, Snowsight cancels the query\nand displays no preview data.",
+        "Select  to manipulate the preview data:",
+        "Sort the data in ascending or descending order.",
+        "Increase or decrease the decimal precision.",
+        "Show thousands separators in numbers.",
+        "Display the data in the column as percentages.",
+        "The options available to you depend on the type of data in the column.",
+        "Note",
+        "The preview requires a warehouse. By default, Snowsight uses the default warehouse for your user profile, or you can select\na different warehouse.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

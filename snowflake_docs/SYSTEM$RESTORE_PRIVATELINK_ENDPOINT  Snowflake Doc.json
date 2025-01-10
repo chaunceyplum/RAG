@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_restore_privatelink_endpoint",
+    "title": "SYSTEM$RESTORE_PRIVATELINK_ENDPOINT | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Business Critical Feature",
+        "This feature requires Business Critical (or higher). It is not available in government regions.",
+        "To inquire about upgrading, please contact Snowflake Support.",
+        "Restores a private connectivity endpoint in the Snowflake VPC or VNet to enable Snowflake to connect to an external service\nusing private connectivity. The endpoint can be a service endpoint or a resource endpoint depending on the cloud platform that hosts your\nSnowflake account.",
+        "You can restore a private endpoint within 7 days of deprovisioning it. After 7 days, the endpoint cannot be restored and you need to\nrecreate the endpoint with the SYSTEM$PROVISION_PRIVATELINK_ENDPOINT system function.",
+        "AWS:",
+        "Azure:",
+        "Specifies the external service or resource endpoint to restore. For example, com.amazonaws.us-west-2.execute-api for the Amazon API\nGateway or com.amazonaws.us-west-2.s3 for Amazon S3.",
+        "Specifies the fully-qualified identifier for the resource in your VPC or VNet.",
+        "Specifies the name of the subresource of the Azure resource.",
+        "This argument is not required for Azure Private Link Service and Azure API Management Service.",
+        "For all supported values, see the Sub-resource table.",
+        "Returns a status message stating that the endpoint, with its identifier, is restored successfully.",
+        "If unsuccessful, returns an error. For example, if the provided argument is not a valid existing endpoint. If you do not know the endpoint\nname, you can use the SYSTEM$GET_PRIVATELINK_ENDPOINTS_INFO system function to list all endpoints in your\nSnowflake account.",
+        "Only account administrators (users with the ACCOUNTADMIN role) can call this function.",
+        "An error message occurs if a private connectivity endpoint is not associated with the specified arguments.",
+        "AWS:",
+        "Restore a private endpoint with external access to Amazon S3:",
+        "Azure:",
+        "Restore a private endpoint to allow Snowflake on Microsoft Azure to connect to the Azure API Management service in your Azure VNet:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

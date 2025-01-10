@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/tables-iceberg-transactions",
+    "title": "Transactions and Apache Iceberg\u2122 tables | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides information about how Snowflake specifically handles transactions for Apache Iceberg\u2122 tables.\nThe rules described in the Snowflake Transactions topic also apply to Iceberg tables.",
+        "For a table that uses Snowflake as the catalog,\nSnowflake manages the Iceberg metadata so that other query engines, such as Spark, can read from the table.",
+        "When you use Snowflake to query this type of table, the table follows the general Snowflake transaction principles.",
+        "Snowflake currently supports read committed isolation for transactions\nfor better concurrency and throughput, while Iceberg currently supports serializable or snapshot isolation.",
+        "Snowflake processes DDL statements as individual transactions and doesn\u2019t isolate\nDDL statements across multiple concurrent transactions. For more information, see DDL in implicit transactions.",
+        "This differs from how Iceberg tables typically handle transactions with DDL statements,\nwhere a single committed transaction can include both DML and DDL statements, or multiple bundled DDL statements.",
+        "Note",
+        "The Iceberg metadata doesn\u2019t always show a new schema version for each individual DDL change. In some instances,\nSnowflake groups DDL statements together and records the group as a single new schema version in the Iceberg metadata.",
+        "DDL changes might appear out of order in the Iceberg metadata, especially if a DDL change occurs in close proximity to other DDL or DML operations.",
+        "Snowflake doesn\u2019t currently support writes to Snowflake-managed tables from external query engines, such as Spark.",
+        "For an Iceberg table that uses an external catalog,\nSnowflake retrieves the latest table state from the external catalog when you run the ALTER ICEBERG TABLE \u2026 REFRESH command.",
+        "Snowflake automatically commits ALTER ICEBERG TABLE \u2026 REFRESH statements inside a single-statement transaction.",
+        "In an implicit transaction,\nSnowflake processes the statement in the same way it handles any other statement when AUTOCOMMIT is enabled.",
+        "In an explicit transaction (with multiple statements),\nSnowflake executes and automatically commits the refresh as a single-statement transaction before committing the explicit transaction block.",
+        "Snowflake doesn\u2019t currently support writes to externally managed tables.",
+        "Snowflake supports multi-statement transactions by committing multiple DML statements atomically, and uses the following logic:",
+        "Each DDL statement executes as an individual transaction when encountered.",
+        "Each ALTER ICEBERG TABLE \u2026 REFRESH operation executes as a single transaction when encountered.",
+        "All other statements within an explicit or implicit transaction are grouped and committed as a single transaction",
+        "Consider the following example of an explicit transaction block for an Iceberg table in Snowflake:",
+        "When Snowflake encounters the ALTER ICEBERG TABLE statement,\nit commits the first two INSERT INTO TABLE statements (everything processed so far) as a transaction.",
+        "Snowflake then commits the ALTER ICEBERG TABLE statement as a separate transaction.",
+        "Finally, Snowflake creates a new transaction and processes the remaining INSERT INTO statements.\nBecause the rest of the block contains no DDL or refresh statements, it commits the remaining transactions at the end of the block (at COMMIT).",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

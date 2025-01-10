@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/ui-snowsight",
+    "title": "Snowsight: The Snowflake web interface | Snowflake Documentation",
+    "paragraphs": [
+        "Snowsight provides a unified experience for working with your Snowflake data by using SQL or Python:",
+        "Write and run SQL queries in Worksheets.",
+        "Run end to end machine learning workflows using Snowflake Notebooks.",
+        "Use Snowflake Copilot to help with data analysis.",
+        "Write and run Snowpark Python.",
+        "Monitor query performance and history.",
+        "Manage your worksheets with sharing and folders.",
+        "Visualize worksheet results with charts",
+        "Create dashboards with built-in visualizations.",
+        "Create and run Streamlit apps.",
+        "Develop and share Snowflake Native Apps.",
+        "Share data and apps with other accounts and publicly on the Snowflake Marketplace.",
+        "Perform critical Snowflake operations and manage your Snowflake deployment by using Snowsight:",
+        "Manage costs with cost management views.",
+        "Monitor and evaluate your account for security risks in the Trust Center.",
+        "Monitor your credit usage with budgets.",
+        "Monitor data loading activity.",
+        "Monitor data transformation tasks and debug task graphs.",
+        "Tag objects and monitor data governance policies.",
+        "Create and manage users.",
+        "Create and manage roles and grant and revoke privileges.",
+        "Set up and manage account object replication.",
+        "Manage your user profile.",
+        "File cases with Snowflake Support.",
+        "If you want to upgrade from the Classic Console to Snowsight, see About the Snowsight upgrade.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

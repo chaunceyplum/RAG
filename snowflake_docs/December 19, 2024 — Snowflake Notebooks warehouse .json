@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-12-19-notebooks-wh-aws-azure-pl",
+    "title": "December 19, 2024 \u2014 Snowflake Notebooks warehouse runtime on AWS PrivateLink and Azure Private Link \u2014 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, Snowflake Notebooks now supports AWS PrivateLink and Microsoft Azure Private Link.",
+        "Snowflake Notebooks is a development interface in Snowsight that offers an interactive, cell-based programming environment for Python and SQL. In Snowflake Notebooks, you can perform exploratory data analysis, develop machine learning models, and perform other data science and data engineering tasks all in one place.",
+        "For more information, see Private connectivity for Snowflake Notebooks.",
+        "Was this page helpful?"
+    ]
+}

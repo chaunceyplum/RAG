@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.cumsum",
+    "title": "modin.pandas.DataFrame.cumsum | Snowflake Documentation",
+    "paragraphs": [
+        "Return cumulative sum over a BasePandasDataset axis.",
+        "axis ({0 or 'index', 1 or 'columns'}, default 0) \u2013 The index or the name of the axis. 0 is equivalent to None or \u2018index\u2019. For Series this parameter is unused and defaults to 0.",
+        "skipna (bool, default True) \u2013 Exclude NA/null values. If an entire row/column is NA, the result will be NA.",
+        "*args \u2013 Additional keywords have no effect but might be accepted for compatibility with NumPy.",
+        "**kwargs \u2013 Additional keywords have no effect but might be accepted for compatibility with NumPy.",
+        "Return cumulative sum of Series or DataFrame.",
+        "Series or DataFrame",
+        "Examples",
+        "Series",
+        "By default, NA values are ignored.",
+        "To include NA values in the operation, use skipna=False:",
+        "DataFrame",
+        "By default, iterates over rows and finds the sum in each column. This is equivalent to axis=None or axis=\u2019index\u2019.",
+        "Was this page helpful?"
+    ]
+}

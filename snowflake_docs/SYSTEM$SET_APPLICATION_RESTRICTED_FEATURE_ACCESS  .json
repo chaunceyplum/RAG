@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_set_application_restricted_feature_access",
+    "title": "SYSTEM$SET_APPLICATION_RESTRICTED_FEATURE_ACCESS | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (Control)",
+        "Enables a restricted feature for a Snowflake Native App. Currently, only external and Apache Iceberg\u2122 tables are\nsupported.",
+        "Name of the Snowflake Native App.",
+        "The type of restricted feature. Currently only EXTERNAL_DATA is supported.",
+        "A JSON object that contains configuration parameters for the restricted feature. Currently,\nonly JSON objects of the following format are supported:",
+        "The supported values for allowed_cloud_providers are all and none.",
+        "A JSON object containing a list of external features whose value the consumer has set. The JSON\nobject has the following structure:",
+        "To call the function:",
+        "Sample output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

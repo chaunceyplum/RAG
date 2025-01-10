@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.connection",
+    "title": "snowflake.snowpark.Session.connection | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a SnowflakeConnection object that allows you to access the connection between the current session\nand Snowflake server.",
+        "Was this page helpful?"
+    ]
+}

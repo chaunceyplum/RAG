@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.warehouse",
+    "title": "snowflake.core.warehouse | Snowflake Documentation",
+    "paragraphs": [
+        "Manages virtual Warehouses.",
+        "Example",
+        "Refer to snowflake.core.Root to create the root.",
+        "Classes",
+        "Warehouse(name[,\u00a0warehouse_type,\u00a0...])",
+        "A model object representing the Warehouse resource.",
+        "WarehouseCollection(root)",
+        "Represents the collection operations of the Snowflake Warehouse resource.",
+        "WarehouseResource(name,\u00a0collection)",
+        "Represents a reference to a Snowflake warehouse.",
+        "Was this page helpful?"
+    ]
+}

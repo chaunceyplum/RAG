@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.set_index",
+    "title": "modin.pandas.DataFrame.set_index | Snowflake Documentation",
+    "paragraphs": [
+        "Set the DataFrame index using existing columns.",
+        "Set the DataFrame index (row labels) using one or more existing\ncolumns or arrays (of the correct length). The index can replace the\nexisting index or expand on it.",
+        "keys (label or array-like or list of labels/arrays) \u2013 This parameter can be either a single column key, a single array of\nthe same length as the calling DataFrame, or a list containing an\narbitrary combination of column keys and arrays. Here, \u201carray\u201d\nencompasses Series, Index, np.ndarray, and\ninstances of Iterator.",
+        "drop (bool, default True) \u2013 Delete columns to be used as the new index.",
+        "append (bool, default False) \u2013 Whether to append columns to existing index.",
+        "inplace (bool, default False) \u2013 Whether to modify the DataFrame rather than creating a new one.",
+        "verify_integrity (bool, default False) \u2013 Check the new index for duplicates. Otherwise, defer the check until\nnecessary. Setting to False will improve the performance of this\nmethod.",
+        "Changed row labels or None if inplace=True.",
+        "DataFrame or None",
+        "Note",
+        "When performing DataFrame.set_index where the length of the\nDataFrame object does not match with the new index\u2019s length,\na ValueError is not raised. When the DataFrame object is\nlonger than the new index, the DataFrame\u2019s new index is filled\nwith NaN values for the \u201cextra\u201d elements.  When the DataFrame\nobject is shorter than the new index, the extra values in the new index\nare ignored\u2014the DataFrame stays the same length n,\nand uses only the first n values of the new index.",
+        "See also",
+        "Opposite of set_index.",
+        "Change to new indices or expand indices.",
+        "Change to same indices as other DataFrame.",
+        "Examples",
+        "Set the index to become the \u2018month\u2019 column:",
+        "Create a MultiIndex using columns \u2018year\u2019 and \u2018month\u2019:",
+        "Create a MultiIndex using an Index and a column:",
+        "Create a MultiIndex using two Series:",
+        "Was this page helpful?"
+    ]
+}

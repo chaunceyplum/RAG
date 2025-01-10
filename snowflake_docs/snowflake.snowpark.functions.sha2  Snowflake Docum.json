@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.sha2",
+    "title": "snowflake.snowpark.functions.sha2 | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a hex-encoded string containing the N-bit SHA-2 message digest,\nwhere N is the specified output digest size.",
+        "Was this page helpful?"
+    ]
+}

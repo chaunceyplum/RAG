@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_07/bcr-1704",
+    "title": "Addition of the uses_gpu parameter | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_07 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, providers must indicate in the manifest that a\nSnowflake Native App requires a compute pool with a graphics processing unit (GPU).",
+        "Providers can configure a Snowflake Native App to use a graphic processing unit (GPU) by setting the INSTANCE_FAMILY\nparameter of the CREATE COMPUTE POOL in the setup script of the app.",
+        "In addition to setting the INSTANCE_FAMILY parameter when creating a compute pool,\nproviders must also add the uses_gpu property to the manifest file of the app. This property is used during the automated\nsecurity scan and to enable the app to create compute pools that use GPUs.",
+        "Ref: 1704",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-aggregation-policy",
+    "title": "DROP AGGREGATION POLICY | Snowflake Documentation",
+    "paragraphs": [
+        "Enterprise Edition Feature",
+        "This feature requires Enterprise Edition (or higher). To inquire about upgrading, please contact Snowflake Support.",
+        "Removes an aggregation policy from the current/specified schema.",
+        "Aggregation policy DDL reference",
+        "Specifies the identifier for the aggregation policy to drop.",
+        "If the identifier contains spaces or special characters, the entire string must be enclosed in double quotes.\nIdentifiers enclosed in double quotes are also case-sensitive.",
+        "For more information, see Identifier requirements.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "OWNERSHIP",
+        "Aggregation policy",
+        "OWNERSHIP is a special privilege on an object that is automatically granted to the role that created the object, but can also be transferred using the GRANT OWNERSHIP command to a different role by the owning role (or any role with the MANAGE GRANTS privilege).",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "For additional details on aggregation policy DDL and privileges, see Privileges and commands.",
+        "Prior to dropping the aggregation policy, execute the following statement to determine if the aggregation policy is set on any tables or\nviews.",
+        "For more information, see Identify aggregation policy references.",
+        "An aggregation policy cannot be dropped successfully if it is currently assigned to a table or view.",
+        "Before executing a DROP statement, detach the aggregation policy from the table or view with an\nALTER TABLE or ALTER VIEW statement.",
+        "Drop the aggregation policy:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

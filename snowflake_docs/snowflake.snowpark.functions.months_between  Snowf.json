@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.months_between",
+    "title": "snowflake.snowpark.functions.months_between | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the number of months between two DATE or TIMESTAMP values.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

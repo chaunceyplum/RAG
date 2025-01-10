@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1430",
+    "title": "New function: MAP_KEYS may conflict with similarly named UDFs | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Snowflake is introducing a new function named MAP_KEYS. If you have a UDF named MAP_KEYS, calls to your function have the\nfollowing effect:",
+        "A call to your UDF named MAP_KEYS resolves to your UDF.",
+        "A call to your UDF named MAP_KEYS resolves to the new built-in MAP_KEYS function, which fails with the following error:",
+        "The call to your UDF fails because the arguments passed to your UDF do not match the arguments expected by the built-in\nfunction.",
+        "To avoid having calls to your UDF resolve to the built-in function, you can either:",
+        "Rename your UDF (using ALTER FUNCTION \u2026 RENAME TO \u2026), and replace all references\nto the original UDF name with the new name.",
+        "Fully qualify all references to your UDF by specifying the names of the database and schema containing the UDF. For example:",
+        "Ref: 1430",
+        "Was this page helpful?"
+    ]
+}

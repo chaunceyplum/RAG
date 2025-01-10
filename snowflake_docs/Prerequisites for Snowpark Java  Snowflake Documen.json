@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/java/prerequisites",
+    "title": "Prerequisites for Snowpark Java | Snowflake Documentation",
+    "paragraphs": [
+        "The Snowpark API supports the following versions of Java:",
+        "11.x",
+        "17.x",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

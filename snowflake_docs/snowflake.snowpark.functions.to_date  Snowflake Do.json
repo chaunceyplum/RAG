@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.to_date",
+    "title": "snowflake.snowpark.functions.to_date | Snowflake Documentation",
+    "paragraphs": [
+        "Converts an input expression into a date.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-connection",
+    "title": "DROP CONNECTION | Snowflake Documentation",
+    "paragraphs": [
+        "Business Critical Feature",
+        "Requires Business Critical Edition (or higher). To inquire about upgrading, please contact Snowflake Support.",
+        "Removes a connection from the account.",
+        "CREATE CONNECTION , ALTER CONNECTION , SHOW CONNECTIONS",
+        "Specifies the identifier for the connection to drop.",
+        "Only account administrators (users with the ACCOUNTADMIN role) can execute this SQL command.",
+        "A primary connection cannot be dropped if it has one or more secondary connections. To drop the primary connection, first promote a secondary\nconnection to serve as the primary connection, and then drop the former primary connection. Alternatively, drop all of the secondary connections,\nand then drop the primary connection.",
+        "Drop a connection:",
+        "Drop the connection again, but don\u2019t raise an error if the connection does not exist:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

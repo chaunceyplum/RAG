@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1228",
+    "title": "Native Apps: GET_DDL error message updated on APPLICATION PACKAGE | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the current Snowflake release, the error message returned when running the GET_DDL system function on\nan APPLICATION PACKAGE database has changed.",
+        "Running the GET_DDL system function on an APPLICATION PACKAGE returns the following error message:",
+        "Running the GET_DDL system function on an APPLICATION PACKAGE will return the following updated error message:",
+        "Ref: 1228",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.kurtosis",
+    "title": "snowflake.snowpark.functions.kurtosis | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the population excess kurtosis of non-NULL records. If all records\ninside a group are NULL, the function returns NULL.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

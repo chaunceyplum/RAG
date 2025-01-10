@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/commands-session",
+    "title": "Session commands | Snowflake Documentation",
+    "paragraphs": [
+        "Session commands enable you to manage your session.",
+        "ALTER SESSION",
+        "SHOW PARAMETERS",
+        "USE ROLE",
+        "USE SECONDARY ROLES",
+        "USE WAREHOUSE",
+        "USE DATABASE",
+        "USE SCHEMA",
+        "SET",
+        "UNSET",
+        "SHOW VARIABLES",
+        "EXPLAIN",
+        "DESCRIBE RESULT",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/tasks-errors",
+    "title": "Enabling notifications for tasks | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake can push notifications to a cloud messaging service when it encounters errors while executing tasks, or when a task graph finishes successfully.\nThe notifications describe the errors encountered when a task executes SQL code, or identify the successfully completed task graphs.",
+        "This topic provides instructions for configuring notification support for tasks using cloud messaging.",
+        "The task notification feature is supported for both serverless tasks and user-managed tasks (that is, tasks that rely on a virtual warehouse\nto provide the compute resources).",
+        "Note",
+        "Notifications rely on cloud messaging using one of the following:",
+        "Amazon Simple Notification Service (SNS)",
+        "Microsoft Azure Event Grid",
+        "Google Pub/Sub",
+        "Currently, cross-cloud support is not available for push notifications.\nYou must configure notification support for the messaging service provided by the cloud platform where your Snowflake account is hosted.",
+        "You can use the NOTIFICATION_HISTORY table function to query the history of notifications sent through Snowpipe. For more information, refer to NOTIFICATION_HISTORY.",
+        "To set up task notifications, do the following:",
+        "Create a topic to receive the notifications, and set up a notification integration for that topic.",
+        "For more information, see the instructions for your platform:",
+        "AWS SNS",
+        "Google Pub/Sub",
+        "Azure Event Grid",
+        "Create or configure the task to use the notification integration for error and success notifications.",
+        "See Configuring a task to send error notifications and Configuring a task to send success notifications.",
+        "Note",
+        "Snowflake Task integration is implemented using notification integration objects, which provide an interface between Snowflake and third-party cloud message queuing services.",
+        "Snowflake guarantees at-least-once message delivery of notifications (that is, multiple attempts are made to deliver messages to ensure at least one attempt succeeds, which can result in duplicate messages).",
+        "Was this page helpful?"
+    ]
+}

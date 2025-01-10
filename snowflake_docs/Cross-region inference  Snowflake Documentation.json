@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cross-region-inference",
+    "title": "Cross-region inference | Snowflake Documentation",
+    "paragraphs": [
+        "Inference is the process of using a machine learning model to get an output based on a user input. For example, when you call the\nSNOWFLAKE.CORTEX.COMPLETE function, you are requesting an inference from the LLM with your prompt as the input. In Snowflake, you can\nconfigure your account to allow cross-region inference processing with the CORTEX_ENABLED_CROSS_REGION\nparameter. This parameter enables inference requests to be processed in a different region from the default region.\nThe cross-region inference parameter is used to determine the inference behavior for any Snowflake feature supported by\ncross-region inference, including Cortex LLM Functions.",
+        "When enabled, cross-region inference occurs if the LLM or feature is not supported in your default region.",
+        "By default, the parameter is set to DISABLED. This allows requests to be processed only in the default region.\nYou can specify the regions you want to allow cross-region inference to using the ALTER ACCOUNT command.",
+        "For details on this parameter, see CORTEX_ENABLED_CROSS_REGION.",
+        "This parameter can only be set at the account level, not at the user or session levels. Only the ACCOUNTADMIN role can set the parameter\nusing the ALTER ACCOUNT command:",
+        "This parameter cannot be set by the ORGADMIN role.",
+        "By default, this parameter is set to DISABLED, which means the inference requests are only processed in the default region. The\nfollowing examples show how to set the cross-region parameter for various use cases.",
+        "To allow any of the Snowflake regions that support cross-region inference requests to process your requests, set the parameter to\n'ANY_REGION'.",
+        "To process inference requests only in the default region, set this parameter to 'DISABLED'.",
+        "To allow only specified regions to process your requests, set this parameter to the regions separated by commas. For a full list of\nregions, see CORTEX_ENABLED_CROSS_REGION.",
+        "The following example specifies AWS_US and AWS_EU regions to process your inference requests:",
+        "You are charged credits for the use of LLM as listed in the\nSnowflake Service Consumption Table.\nCredits are considered consumed in the requesting region. For example, if you call an LLM Function from the us-east-2 region and\nthe request is processed in the us-west-2 region, the credits are considered consumed in the us-east-2 region.",
+        "You do not incur data egress charges for using cross-region inference.",
+        "Latency between regions depends on the cloud provider infrastructure and network status. Snowflake recommends that you test your specific\nuse-case with cross-region inference enabled.",
+        "Cross-region inference is not supported in U.S. SnowGov regions. This means you cannot make cross-region\ninference requests into or out of the SnowGov regions.",
+        "You can use this setting from GCP or Azure regions to make inference requests for features that are not supported in those regions.",
+        "User inputs, service generated prompts, and outputs are not stored or cached during cross-region inference.",
+        "The data required for the inference request traverses between regions as follows:",
+        "If both the source and destination regions are in AWS, the data stays within the AWS global network.\nAll data flowing across the AWS global network that interconnects the data centers and regions is automatically\nencrypted at the physical layer.",
+        "If the regions are on different cloud providers, then the data traverses the public internet using Mutual Transport Layer Security (mTLS).",
+        "Cross-region inference is not supported for Cortex Search.",
+        "For details on the cross-region inference parameter, see CORTEX_ENABLED_CROSS_REGION section of the SQL parameter reference.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

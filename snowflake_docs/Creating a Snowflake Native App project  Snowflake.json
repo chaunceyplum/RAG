@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/native-apps/initiate-app",
+    "title": "Creating a Snowflake Native App project | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "You can use the snow init command to bootstrap a Snowflake Native App project, and get the project up and running quickly.",
+        "To create a Snowflake Native App project from a Snowflake provided Snowflake Native App template:",
+        "Enter a snow init command, similar to the following:",
+        "When successful, the command returns a confirmation message similar to the following:",
+        "Caution",
+        "Files inside a project directory are processed by Snowflake CLI and could be uploaded to Snowflake when executing other snow app commands. You should use caution when putting any sensitive information inside files in a project directory.",
+        "For more information about creating a Snowflake Native App project, see the snow init command as well as the Snowflake CLI templates repository.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

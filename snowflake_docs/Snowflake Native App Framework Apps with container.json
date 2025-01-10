@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_08/bcr-1800",
+    "title": "Snowflake Native App Framework: Apps with containers share events with provider when consumer event table not set (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Previously, consumers could disable an event table by setting the value of the event table to NONE as\nshown in the following example:",
+        "If the consumer set this value to NONE and they have enabled event sharing, log messages and trace events\nwere no longer shared with the provider.",
+        "BCR-1724 introduced a change where the log messages and\ntrace events the consumer has agreed to share are still shared with the provider, even if the event table is\nset to NONE.",
+        "This behavior change introduces the same change for apps with containers. When this behavior change bundle\nis enabled, the behavior of event sharing for apps with containers changes as follows:",
+        "If the consumer sets the event table to NONE and event sharing is enabled for an app with containers, log messages and trace\nevents are no longer shared with the provider.",
+        "If event sharing is enabled for an app with containers, the log messages and trace events the consumer has agreed to share are still\nshared with the provider, even if the event table is set to NONE.",
+        "Ref: 1800",
+        "Was this page helpful?"
+    ]
+}

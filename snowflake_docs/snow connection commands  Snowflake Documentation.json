@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/connection-commands/overview",
+    "title": "snow connection commands | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Snowflake CLI supports the following commands for managing Snowflake connections:",
+        "snow connection add",
+        "snow connection generate-jwt",
+        "snow connection list",
+        "snow connection set-default",
+        "snow connection test",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

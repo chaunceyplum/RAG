@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/last_day",
+    "title": "LAST_DAY | Snowflake Documentation",
+    "paragraphs": [
+        "Date & time functions",
+        "Returns the last day of the specified date part for a date or timestamp. Commonly used to return the last day of the month for a date or timestamp.",
+        "date_or_time_expr (Required) must be a date or timestamp expression.",
+        "date_part (Optional) is the date part for which the last day is returned. Possible values are year, quarter, month, or week (or any of their supported\nvariations). For details, see Supported date and time parts.",
+        "The default is month.",
+        "When date_part is week (or any of its variations), the output is controlled by the WEEK_START session parameter. For more details, including examples, see\nCalendar weeks and weekdays.",
+        "The return value is always a date, even if date_or_time_expr is a timestamp.",
+        "Return the last day of the month for the specified date (from a timestamp):",
+        "Return the last day of the year for the specified date (from a timestamp):",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

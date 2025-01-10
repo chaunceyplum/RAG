@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.network_policy",
+    "title": "snowflake.core.network_policy | Snowflake Documentation",
+    "paragraphs": [
+        "Manages Snowflake Network Policies.",
+        "Classes",
+        "NetworkPolicy(*,\u00a0name[,\u00a0...])",
+        "A model object representing the NetworkPolicy resource.",
+        "NetworkPolicyResource(name,\u00a0collection)",
+        "Represents a reference to a Snowflake Network Policy resource.",
+        "NetworkPolicyCollection(root)",
+        "Represents the collection operations on the Snowflake Network Policy resource.",
+        "Was this page helpful?"
+    ]
+}

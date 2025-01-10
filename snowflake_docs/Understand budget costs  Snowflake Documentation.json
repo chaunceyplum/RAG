@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/budgets/cost",
+    "title": "Understand budget costs | Snowflake Documentation",
+    "paragraphs": [
+        "To support the Budgets feature, Snowflake stores metadata in the SNOWFLAKE database. This metadata is stored in your account even if\nthe account budget is not activated. Storage for this metadata is billed to your account.",
+        "When the Budgets feature is enabled, Snowflake runs serverless background tasks (_MEASUREMENT_TASK and _BACKFILL_TASK)\nthat collect credit usage data for the account budget and custom budgets in your account. These tasks are billed to your account.",
+        "Data collected by Budgets background tasks is stored in the SNOWFLAKE database for the account budget. Storage\nfor the data is billed to your account.",
+        "You can view costs for serverless tasks using Snowsight or the Account Usage\nSERVERLESS_TASK_HISTORY view. For more information, see the following topics:",
+        "The serverless compute model section for Task costs",
+        "Exploring compute cost",
+        "The following example sums the credit usage for the measure task for the previous 28 days:",
+        "You can view costs for storage using Snowsight or by querying Account Usage and Organization Usage views.\nFor more information about viewing storage costs, see Exploring storage cost.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

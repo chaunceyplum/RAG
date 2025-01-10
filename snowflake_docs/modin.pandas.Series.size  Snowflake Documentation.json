@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.size",
+    "title": "modin.pandas.Series.size | Snowflake Documentation",
+    "paragraphs": [
+        "Return an int representing the number of elements in this object.",
+        "Was this page helpful?"
+    ]
+}

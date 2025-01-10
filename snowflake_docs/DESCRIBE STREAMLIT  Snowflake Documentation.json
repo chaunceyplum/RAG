@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-streamlit",
+    "title": "DESCRIBE STREAMLIT | Snowflake Documentation",
+    "paragraphs": [
+        "Describes the columns in a Streamlit object.",
+        "DESCRIBE can be abbreviated to DESC.",
+        "CREATE STREAMLIT, SHOW STREAMLITS, ALTER STREAMLIT, DROP STREAMLIT",
+        "Specifies the identifier for the Streamlit object to describe. If the identifier contains spaces or special\ncharacters, the entire string must be enclosed in double quotes. Identifiers enclosed in double quotes are also\ncase-sensitive.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "The command output provides information about a Streamlit object in the following columns:",
+        "Column",
+        "Description",
+        "name",
+        "Name of the Streamlit object.",
+        "root_location",
+        "Root location of the Streamlit object\u2019s application files.",
+        "main_file",
+        "Name of the Streamlit object\u2019s Python file.",
+        "query_warehouse",
+        "Warehouse where queries issued by the Streamlit application are run.",
+        "url_id",
+        "Unique ID associated with the Streamlit object.",
+        "default_packages",
+        "Default Python packages for the Streamlit application.",
+        "user_packages",
+        "Python packages that the user specified in the environment.yml file. Empty if there is no environment.yml file.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

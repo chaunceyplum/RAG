@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.range",
+    "title": "snowflake.snowpark.Session.range | Snowflake Documentation",
+    "paragraphs": [
+        "Creates a new DataFrame from a range of numbers. The resulting DataFrame has\nsingle column named ID, containing elements in a range from start to\nend (exclusive) with the step value step.",
+        "start \u2013 The start of the range. If end is not specified,\nstart will be used as the value of end.",
+        "end \u2013 The end of the range.",
+        "step \u2013 The step of the range.",
+        "Examples:",
+        "Was this page helpful?"
+    ]
+}

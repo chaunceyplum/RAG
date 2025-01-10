@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.call_table_function",
+    "title": "snowflake.snowpark.functions.call_table_function | Snowflake Documentation",
+    "paragraphs": [
+        "Invokes a Snowflake table function, including system-defined table functions and user-defined table functions.",
+        "It returns a TableFunctionCall() so you can specify the partition clause.",
+        "function_name \u2013 The name of the table function.",
+        "args \u2013 The positional arguments of the table function.",
+        "**kwargs \u2013 The named arguments of the table function. Some table functions (e.g., flatten) have named arguments instead of positional ones.",
+        "Was this page helpful?"
+    ]
+}

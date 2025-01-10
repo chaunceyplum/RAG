@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrameWriter.csv",
+    "title": "snowflake.snowpark.DataFrameWriter.csv | Snowflake Documentation",
+    "paragraphs": [
+        "Executes internally a COPY INTO <location> to unload data from a DataFrame into one or more CSV files in a stage or external stage.",
+        "location \u2013 The destination stage location.",
+        "partition_by \u2013 Specifies an expression used to partition the unloaded table rows into separate files. It can be a Column, a column name, or a SQL expression.",
+        "format_type_options \u2013 Depending on the file_format_type specified, you can include more format specific options. Use the options documented in the Format Type Options.",
+        "header \u2013 Specifies whether to include the table column headings in the output files.",
+        "statement_params \u2013 Dictionary of statement level parameters to be set while executing this action.",
+        "copy_options \u2013 The kwargs that are used to specify the copy options. Use the options documented in the Copy Options.",
+        "block \u2013 A bool value indicating whether this function will wait until the result is available.\nWhen it is False, this function executes the underlying queries of the dataframe\nasynchronously and returns an AsyncJob.",
+        "A list of Row objects containing unloading results.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

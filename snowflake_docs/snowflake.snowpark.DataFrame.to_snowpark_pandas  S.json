@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.to_snowpark_pandas",
+    "title": "snowflake.snowpark.DataFrame.to_snowpark_pandas | Snowflake Documentation",
+    "paragraphs": [
+        "Convert the Snowpark DataFrame to Snowpark pandas DataFrame.",
+        "index_col \u2013 A column name or a list of column names to use as index.",
+        "columns \u2013 A list of column names for the columns to select from the Snowpark DataFrame. If not specified, select\nall columns except ones configured in index_col.",
+        "",
+        "A Snowpark pandas DataFrame contains index and data columns based on the snapshot of the current\nSnowpark DataFrame, which triggers an eager evaluation.",
+        "If index_col is provided, the specified index_col is selected as the index column(s) for the result dataframe,\notherwise, a default range index from 0 to n - 1 is created as the index column, where n is the number\nof rows. Please note that is also used as the start row ordering for the dataframe, but there is no\nguarantee that the default row ordering is the same for two Snowpark pandas dataframe created from\nthe same Snowpark Dataframe.",
+        "If columns are provided, the specified columns are selected as the data column(s) for the result dataframe,\notherwise, all Snowpark DataFrame columns (exclude index_col) are selected as data columns.",
+        "",
+        "Note",
+        "Transformations performed on the returned Snowpark pandas Dataframe do not affect the Snowpark DataFrame\nfrom which it was created. Call\n- modin.pandas.to_snowpark\nto transform a Snowpark pandas DataFrame back to a Snowpark DataFrame.",
+        "The column names used for columns or index_cols must be Normalized Snowflake Identifiers, and the\nNormalized Snowflake Identifiers of a Snowpark DataFrame can be displayed by calling df.show().\nFor details about Normalized Snowflake Identifiers, please refer to the Note in read_snowflake()",
+        "to_snowpark_pandas works only when the environment is set up correctly for Snowpark pandas. This environment\nmay require version of Python and pandas different from what Snowpark Python uses If the environment is setup\nincorrectly, an error will be raised when to_snowpark_pandas is called.",
+        "For Python version support information, please refer to:\n- the prerequisites section https://docs.snowflake.com/en/developer-guide/snowpark/python/snowpark-pandas#prerequisites\n- the installation section https://docs.snowflake.com/en/developer-guide/snowpark/python/snowpark-pandas#installing-the-snowpark-pandas-api",
+        "See also",
+        "modin.pandas.to_snowpark",
+        "modin.pandas.DataFrame.to_snowpark",
+        "modin.pandas.Series.to_snowpark",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.exceptions.SnowparkClientException",
+    "title": "snowflake.snowpark.exceptions.SnowparkClientException | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: Exception",
+        "Base Snowpark exception class",
+        "Was this page helpful?"
+    ]
+}

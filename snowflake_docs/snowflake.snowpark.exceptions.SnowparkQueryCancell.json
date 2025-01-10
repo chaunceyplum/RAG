@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.exceptions.SnowparkQueryCancelledException",
+    "title": "snowflake.snowpark.exceptions.SnowparkQueryCancelledException | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SnowparkServerException",
+        "Exception for when we are trying to interact with a cancelled query.",
+        "Includes error codes: 1401.",
+        "Was this page helpful?"
+    ]
+}

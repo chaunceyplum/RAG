@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_03/bcr-1534",
+    "title": "Apache Iceberg\u2122 tables: New write location for empty string BASE_LOCATION | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "For Apache Iceberg\u2122 tables that use Snowflake as the catalog,\nthe write location is as follows when you specify an empty string as the relative path\nfrom your external volume (BASE_LOCATION = ''):",
+        "Snowflake creates a directory under your external volume location (STORAGE_BASE_URL)\nusing the table name and entity ID, and writes to subdirectories named data and metadata in the new directory.",
+        "For example:",
+        "s3://my/storage/base/url/table_name_entity_id/data",
+        "s3://my/storage/base/url/table_name_entity_id/metadata",
+        "Snowflake writes to subdirectories named data and metadata that appear directly under your external volume location.",
+        "For example:",
+        "s3://my/storage/base/url/data",
+        "s3://my/storage/base/url/metadata",
+        "You can still access any data that was written before the behavior change in the previous locations\nunder the table_name_entity_id directory.",
+        "This behavior change also applies to converted Iceberg tables.",
+        "Ref: 1534",
+        "Was this page helpful?"
+    ]
+}

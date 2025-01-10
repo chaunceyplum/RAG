@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-05-02-snowsight-dd-preview",
+    "title": "May 02, 2024 \u2014 Snowsight Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "This document provides an overview of the new features, enhancements, and other important changes introduced in this update to\nSnowsight.",
+        "If you have additional questions, please feel free to contact Snowflake Support.",
+        "With this release, we are pleased to announce that data sharing and collaboration with listings is now available for accounts in\nU.S. government regions.\nSnowflake is pleased to announce the preview of Data Dictionary preview with masked PII in  Snowsight.",
+        "With this preview, Providers can now specify data to preview in a listing as well as mask sensitive PII.",
+        "Consumers can view data previews for listings where preview data is specified.",
+        "For more details, see About data dictionaries",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

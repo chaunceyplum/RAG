@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.GroupingSets",
+    "title": "snowflake.snowpark.GroupingSets | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: object",
+        "Creates a GroupingSets object from a list of column/expression sets that you pass\nto DataFrame.group_by_grouping_sets(). See DataFrame.group_by_grouping_sets() for\nexamples of how to use this class with a DataFrame. See\nGROUP BY GROUPING SETS\nfor its counterpart in SQL (several examples are shown below).",
+        "Python interface",
+        "SQL interface",
+        "GroupingSets([col(\"a\")], [col(\"b\")])",
+        "GROUPING SETS ((a), (b))",
+        "GroupingSets([col(\"a\") , col(\"b\")], [col(\"c\"), col(\"d\")])",
+        "GROUPING SETS ((a, b), (c, d))",
+        "GroupingSets([col(\"a\"), col(\"b\")])",
+        "GROUPING SETS ((a, b))",
+        "GroupingSets(col(\"a\"), col(\"b\"))",
+        "GROUPING SETS ((a, b))",
+        "Was this page helpful?"
+    ]
+}

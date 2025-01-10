@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.split",
+    "title": "snowflake.snowpark.functions.split | Snowflake Documentation",
+    "paragraphs": [
+        "Splits a given string with a given separator and returns the result in an array\nof strings. To specify a string separator, use the lit() function.",
+        "Example 1:",
+        "Example 2:",
+        "Was this page helpful?"
+    ]
+}

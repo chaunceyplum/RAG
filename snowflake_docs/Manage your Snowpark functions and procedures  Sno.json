@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/snowpark/manage",
+    "title": "Manage your Snowpark functions and procedures | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Add and modify functions and procedures using the Build a Snowpark project and Deploy a Snowpark project processes.",
+        "List functions and procedures to which you have access using the snow snowpark list functions and snow snowpark list procedures commands. For more information, see List all objects of a specific type.",
+        "View details of a function or procedure using the snow snowpark describe function [IDENTIFIER] and snow snowpark describe procedure [IDENTIFIER] commands. For more information, see Display the description for an object of a specified type.",
+        "Delete function/procedure using the snow snowpark drop function [IDENTIFIER] and snow snowpark drop procedure [IDENTIFIER] commands. For more information, see Delete an object of a specified type.",
+        "Execute functions and procedures using the snow snowpark execute command. For more information, see Execute a Snowpark procedure or function.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

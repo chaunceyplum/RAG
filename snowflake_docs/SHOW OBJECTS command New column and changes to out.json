@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_03/bcr-1529",
+    "title": "SHOW OBJECTS command: New column and changes to output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The SHOW OBJECTS output behaves as follows:",
+        "The output of SHOW OBJECTS does not include the is_dynamic column, and the kind\ncolumn returns DYNAMIC_TABLE for dynamic tables.",
+        "The output of SHOW OBJECTS includes the is_dynamic column, which is defined as follows:",
+        "Column Name",
+        "is_dynamic",
+        "Data Type",
+        "Text",
+        "Description",
+        "Y if the table is a dynamic table; otherwise, N.",
+        "The kind column in the output of SHOW OBJECTS displays TABLE for dynamic tables.",
+        "Ref: 1529",
+        "Was this page helpful?"
+    ]
+}

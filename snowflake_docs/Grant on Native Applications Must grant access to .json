@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_07/bcr-1274",
+    "title": "Grant on Native Applications: Must grant access to tags and policies | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_07 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Using tags and policies on a reference database requires the REFERENCE_USAGE privilege on the reference\ndatabase.",
+        "If a database containing only tag or policy dependencies is used by objects shared with an\napplication package, the provider is not required to explicitly grant the REFERENCE_USAGE privilege on\nthe databases to the application package.",
+        "If a database containing only tag or policy dependencies is used indirectly by objects shared with an\napplication package, the provider must explicitly grant the REFERENCE_USAGE privilege on\nthe databases to the application package.",
+        "To grant the REFERENCE_USAGE privilege on a database to the application package, run the following command:",
+        "Where:",
+        "Specifies the identifier of the referenced database that contains a tag or policy.",
+        "Specifies the identifier for the application package to which the REFERENCE_USAGE privilege is\nbeing granted.",
+        "Ref: 1274",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/to_variant",
+    "title": "TO_VARIANT | Snowflake Documentation",
+    "paragraphs": [
+        "Conversion functions",
+        "Converts any value to a VARIANT value or NULL (if input is NULL).",
+        "An expression of any data type.",
+        "The TO_VARIANT function cannot be used directly in an INSERT statement.\nInstead, use INSERT INTO ... SELECT.... The Examples section\nshows how to do this.",
+        "Use TO_VARIANT and PARSE_JSON to insert VARIANT values into a table. The PARSE_JSON function\nreturns a VARIANT value.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

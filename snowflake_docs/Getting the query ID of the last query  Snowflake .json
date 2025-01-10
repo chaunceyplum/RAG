@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-scripting/query-id",
+    "title": "Getting the query ID of the last query | Snowflake Documentation",
+    "paragraphs": [
+        "If you need to access the query ID of the last query that was executed, use the global variable SQLID.",
+        "Note",
+        "If no query was executed, the default value of SQLID is NULL.",
+        "The following example executes two queries and returns an ARRAY containing the query IDs:",
+        "Note: If you are using SnowSQL, the Classic Console, or the\nexecute_stream or execute_string method in Python Connector\ncode, use this example instead (see Using Snowflake Scripting in SnowSQL, the Classic Console, and Python Connector):",
+        "Was this page helpful?"
+    ]
+}

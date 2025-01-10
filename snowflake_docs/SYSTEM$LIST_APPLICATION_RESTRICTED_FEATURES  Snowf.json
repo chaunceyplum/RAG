@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_list_application_restricted_features",
+    "title": "SYSTEM$LIST_APPLICATION_RESTRICTED_FEATURES | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Returns a JSON object containing a list of restricted features that the consumer has\nallowed a Snowflake Native App to use.",
+        "Note",
+        "Currently, only external and Apache Iceberg\u2122 tables are supported.",
+        "Name of the Snowflake Native App.",
+        "Note",
+        "This argument is ignored when the system function is called by the app.",
+        "Returns a JSON-formatted string which lists all restricted feature settings allowed for the app.\nThe JSON-formatted string has the following structure:",
+        "When an app runs this system function, the app_name parameter is not required and is ignored if provided.\nIn this context, all the apps restricted features are listed.",
+        "When a provider or consumer runs this system function, app_name parameter is required and\nlists the restricted features of the app and whether they are enabled or not.",
+        "To call the function:",
+        "Sample output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

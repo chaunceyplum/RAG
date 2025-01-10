@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-11-04-top-insights-ga",
+    "title": "November 04, 2024 \u2014 Top Insights (Snowflake ML Function) \u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "We are pleased to announce the general availability of the Top Insights ML Function for key driver analysis. Top\nInsights lets you easily identify drivers of a metric\u2019s change over time or explain differences in a metric among\nvarious verticals. You can integrate Top Insights into your business intelligence workflows powering\nbusiness reviews,\nbusiness dashboards, and anomaly detection tools to understand key drivers impacting various metrics.",
+        "For more information, see Top Insights.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/length",
+    "title": "LENGTH, LEN | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (General)",
+        "Returns the length of an input string or binary value. For strings, the length is the number of characters, and UTF-8 characters are\ncounted as a single character. For binary, the length is the number of bytes.",
+        "The input expression must be a string or binary value.",
+        "The returned data type is INTEGER (more precisely, NUMBER(18, 0)).",
+        "No impact.\nIn languages in which one character is one letter and vice versa, LENGTH behaves the same with and without\ncollation.",
+        "In languages where the alphabet contains digraphs or trigraphs (such as \u201cDz\u201d and \u201cDzs\u201d in Hungarian), each character in each digraph and trigraph is treated as an independent character, not as part of a single multi-character letter.",
+        "In languages where a pair or triplet of characters (e.g. \u201cdz\u201d) is treated as a single letter of the\nalphabet, Snowflake still measures length in characters, not letters. For example, although Hungarian\ntreats \u201cdz\u201d as a single letter, Snowflake returns 2 for LENGTH(COLLATE('dz', 'hu')).",
+        "This example uses BINARY data:",
+        "Create and fill a table:",
+        "Output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

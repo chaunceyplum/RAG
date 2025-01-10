@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/stored-procedures/system_cancel_classify_schema",
+    "title": "SYSTEM$CANCEL_CLASSIFY_SCHEMA | Snowflake Documentation",
+    "paragraphs": [
+        "Enterprise Edition Feature",
+        "This feature requires Enterprise Edition or higher. To inquire about upgrading, please contact Snowflake Support.",
+        "Preview Feature \u2014 Open",
+        "Available to all accounts that are Enterprise Edition (or higher).",
+        "To inquire about upgrading, please contact Snowflake Support.",
+        "Schedules the cancellation of the classification process for the tables in the specified schema. You can cancel the classification process\nfor tables that the role used to call this stored procedure can access.",
+        "A table that is staged to have the classification process canceled is not classified until you classify the table again.",
+        "The name of the schema containing the tables to have the classification process cancelled. If a database and schema are not in use in the\ncurrent session, the name must be fully-qualified.",
+        "The name must be specified exactly as it is stored in the database. If the name contains special characters, capitalization, or blank\nspaces, the name must be enclosed first in double-quotes and then in single quotes.",
+        "The stored procedure returns a JSON object in the following formats depending on the specified schema name:",
+        "If you call SYSTEM$CLASSIFY_SCHEMA to stage classification and then call SYSTEM$CANCEL_CLASSIFY_SCHEMA with the same\nschema name to cancel the classification process, the output is as follows:",
+        "If you call SYSTEM$CANCEL_CLASSIFY_SCHEMA and the specified schema is not staged for classification, the output is as follows:",
+        "Where:",
+        "Specifies a reason why the cancellation process cannot be performed for the specified table.",
+        "Confirms the cancellation process is scheduled for the specified table.",
+        "The cancellation process can take a short time (seconds) to complete. This is analogous to\ncanceling a query.",
+        "The specified schema name can contain up to 1000 table objects. If the schema contains more than 1000 table objects, Snowflake returns an\nerror message.",
+        "Snowflake-provided stored procedures utilize caller\u2019s rights. For more details, see\nUnderstanding caller\u2019s rights and owner\u2019s rights stored procedures.",
+        "Cancels the classification of tables in the schema:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

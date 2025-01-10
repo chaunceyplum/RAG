@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.charindex",
+    "title": "snowflake.snowpark.functions.charindex | Snowflake Documentation",
+    "paragraphs": [
+        "Searches for target_expr in source_expr and, if successful,\nreturns the position (1-based) of the target_expr in source_expr.",
+        "target_expr \u2013 A string or binary expression representing the value to look for.",
+        "source_expr \u2013 A string or binary expression representing the value to search.",
+        "position \u2013 A number indication the position (1-based) from where to start the search. Defaults to None.",
+        "Was this page helpful?"
+    ]
+}

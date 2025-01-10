@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/python/index.html",
+    "title": "Snowpark Developer Guide for Python | Snowflake Documentation",
+    "paragraphs": [
+        "The Snowpark library provides an intuitive API for querying and processing data in a data pipeline.\nUsing the Snowpark library, you can build applications that process data in Snowflake without moving data to the system where your\napplication code runs. You can also automate data transformation and processing by writing stored procedures and scheduling those\nprocedures as tasks in Snowflake.",
+        "You can write Snowpark Python code in a local development environment or in a Python worksheet in Snowsight.",
+        "If you need to write a client application, set up a local development environment by doing the following:",
+        "Set up your preferred development environment to build Snowpark apps. See Setting Up Your Development Environment for Snowpark Python.",
+        "Establish a session to interact with the Snowflake database. See Creating a Session for Snowpark Python.",
+        "If you want to write a stored procedure to automate tasks in Snowflake, use Python worksheets in Snowsight.\nSee Writing Snowpark Code in Python Worksheets.",
+        "You can query, process, and transform data in a variety of ways using Snowpark Python.",
+        "Query and process data with a DataFrame object. See Working with DataFrames in Snowpark Python.",
+        "Run your pandas code directly on your data in Snowflake. See pandas on Snowflake.",
+        "Convert custom lambdas and functions to user-defined functions (UDFs) that you can call to process data.\nSee Creating User-Defined Functions (UDFs) for DataFrames in Python.",
+        "Write a user-defined tabular function (UDTF) that processes data and returns data in a set of rows with one or more columns.\nSee Creating User-Defined Table Functions (UDTFs) for DataFrames in Python.",
+        "Write a stored procedure that you can call to process data, or automate with a task to build a data pipeline.\nSee Creating Stored Procedures for DataFrames in Python.",
+        "You can use Snowpark Python to perform machine learning tasks like training models:",
+        "Train machine learning models by writing stored procedures. See Training Machine Learning Models with Snowpark Python.",
+        "Train, score, and tune machine learning models using Snowpark Python stored procedures and deploy the trained models with user-defined functions.\nSee Machine Learning with Snowpark Python - Credit Card Approval Prediction (Snowflake Quickstarts).",
+        "Troubleshoot your code with logging statements and by viewing the underlying SQL. See Troubleshooting with Snowpark Python.",
+        "You can record log messages and trace events in an event table for later analysis. For more information, see\nLogging, tracing, and metrics.",
+        "The Snowpark for Python API reference contains extensive details about the available classes and methods.\nSee Snowpark Library for Python API Reference.",
+        "The pandas on Snowflake API reference contains extensive details about the available classes and methods. See Snowpark pandas API .",
+        "For the list of changes to the API between versions, see Snowpark Library for Python release notes.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

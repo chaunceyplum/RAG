@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/application_json",
+    "title": "APPLICATION_JSON | Snowflake Documentation",
+    "paragraphs": [
+        "Notification functions (Message Construction)",
+        "Returns a JSON object that specifies the JSON message to use for a notification. This is a helper function that you use to\nconstruct a message object for the SYSTEM$SEND_SNOWFLAKE_NOTIFICATION stored procedure.",
+        "Using SYSTEM$SEND_SNOWFLAKE_NOTIFICATION to send notifications ,\nSYSTEM$SEND_SNOWFLAKE_NOTIFICATION ,\nTEXT_HTML ,\nTEXT_PLAIN",
+        "Content of the message to send.",
+        "You do not need to escape the double quotes around strings within the message (for example, double quotes around the keys\nand values). The function escapes these double quotes for you.",
+        "A JSON-formatted string that specifies a message for the\nSYSTEM$SEND_SNOWFLAKE_NOTIFICATION stored procedure to send.",
+        "For example, suppose that you call the function and pass in a JSON message:",
+        "The function returns the following JSON-formatted string:",
+        "Note how the function escapes the double quotes around the keys and values in your message.",
+        "See Using SYSTEM$SEND_SNOWFLAKE_NOTIFICATION to send notifications.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

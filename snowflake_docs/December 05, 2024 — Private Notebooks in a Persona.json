@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-12-05-personal-db-private-nb",
+    "title": "December 05, 2024 \u2014 Private Notebooks in a Personal Database \u2014 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the preview of private notebooks in a personal database.",
+        "In Snowsight, you can create a private, user-owned notebook. This private notebook is stored in your personal database: a dedicated\nworkspace where you can create, modify, and manage your private notebooks.",
+        "For more information, see Private notebooks.",
+        "Was this page helpful?"
+    ]
+}

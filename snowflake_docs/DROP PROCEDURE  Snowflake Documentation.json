@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-procedure",
+    "title": "DROP PROCEDURE | Snowflake Documentation",
+    "paragraphs": [
+        "Removes the specified stored procedure from the current/specified schema.",
+        "CREATE PROCEDURE , ALTER PROCEDURE , SHOW PROCEDURES , DESCRIBE PROCEDURE",
+        "All Languages",
+        "For each argument defined for the procedure, the data type for the argument must be specified. This is required because overloading of\nprocedure names is supported and the data type(s) for the argument(s) are required to identify the procedure.",
+        "Java, Python, and Scala",
+        "For procedures that store code in a file (such as a .jar file or .py file) in a stage, the DROP PROCEDURE command does not remove\nthe file. Different procedures can use different functions/methods in the same file, so the file should not be removed\nwhile any procedure refers to it. Snowflake does not store a count of the number of references to each staged file and\ndoes not remove that staged file when there are no remaining references.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

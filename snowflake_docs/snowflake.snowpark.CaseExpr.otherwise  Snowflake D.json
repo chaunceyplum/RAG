@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.CaseExpr.otherwise",
+    "title": "snowflake.snowpark.CaseExpr.otherwise | Snowflake Documentation",
+    "paragraphs": [
+        "Sets the default result for this CASE expression.",
+        "else_() is an alias of otherwise().",
+        "Was this page helpful?"
+    ]
+}

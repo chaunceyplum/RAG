@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_collect",
+    "title": "ST_COLLECT | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "There are two forms of ST_COLLECT:",
+        "Scalar: This function combines two GEOGRAPHY objects into one.",
+        "Aggregate: This function combines all the GEOGRAPHY objects in a column into one GEOGRAPHY object.",
+        "A GEOGRAPHY object.",
+        "A GEOGRAPHY object.",
+        "The function returns a value of type GEOGRAPHY.",
+        "If g1 and g2 are both Point objects, the result is a MultiPoint object containing the two Points. Similarly,\nif g1 and g2 are both LineString objects, the result is a MultiLineString object. Etc.",
+        "If g1 and g2 are different types of geospatial objects, or if at least one of the input GEOGRAPHY objects is a\ncollection (e.g. MultiLineString, GeometryCollection, or FeatureCollection), then the result is a GeometryCollection\ncontaining both input objects.",
+        "The queries below show both scalar and aggregate uses of the ST_COLLECT function.",
+        "Create and load the table:",
+        "This calls ST_COLLECT as a scalar function to create a MultiPoint value that contains both points in the same row:",
+        "This calls ST_COLLECT as an aggregate function to create a MultiPoint value that contains all the points in the\nsame column:",
+        "This calls ST_COLLECT first as an aggregate function on each column to create MultiPoint values that contains all\nthe points in each column, and then calls ST_COLLECT on those two MultiPoint values to create a GeometryCollection\nthat contains all the points in both columns. The resulting GeometryCollection is hierarchical.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

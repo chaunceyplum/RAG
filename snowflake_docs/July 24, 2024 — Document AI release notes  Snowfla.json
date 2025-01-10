@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-07-24-document-ai",
+    "title": "July 24, 2024 \u2014 Document AI release notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce deleting documents in Document AI.\nYou can now delete documents that were not used for training from a Document AI model build.",
+        "For more information, see Delete documents from a Document AI model build.",
+        "Was this page helpful?"
+    ]
+}

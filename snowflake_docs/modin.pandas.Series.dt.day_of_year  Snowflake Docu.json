@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.dt.day_of_year",
+    "title": "modin.pandas.Series.dt.day_of_year | Snowflake Documentation",
+    "paragraphs": [
+        "The ordinal day of the year.",
+        "Examples",
+        "For Series:",
+        "For DatetimeIndex:",
+        "Was this page helpful?"
+    ]
+}

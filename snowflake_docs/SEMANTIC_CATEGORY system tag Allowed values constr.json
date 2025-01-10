@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1295",
+    "title": "SEMANTIC_CATEGORY system tag: Allowed values constraint removed | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of the SNOWFLAKE.CORE.SEMANTIC_CATEGORY system tag is as follows:",
+        "You can call the SYSTEM$GET_TAG_ALLOWED_VALUES function to return a list of tag string values to set with\nthe SEMANTIC_CATEGORY tag. The string value that you choose must be one of the values that the system function returns.",
+        "Additionally, you can query the Account Usage TAGS view to see the allowed values for the\nSEMANTIC_CATEGORY tag.",
+        "When you call the SYSTEM$GET_TAG_ALLOWED_VALUES function and specify the SEMANTIC_CATEGORY tag, Snowflake returns NULL.",
+        "You can specify any string value when you set this tag on a column. The tag value is always a string, and the maximum number of\ncharacters for the tag value is 256.",
+        "When you query the Account Usage TAGS view, the ALLOWED_VALUES column returns NULL for the SEMANTIC_CATEGORY tag.",
+        "Ref: 1295",
+        "Was this page helpful?"
+    ]
+}

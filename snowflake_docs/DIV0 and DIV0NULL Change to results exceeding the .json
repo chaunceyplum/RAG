@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1400",
+    "title": "DIV0 and DIV0NULL: Change to results exceeding the output scale | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "For the DIV0 and DIV0NULL functions, when the result of the\ndivision operation exceeds the output scale:",
+        "DIV0 and DIV0NULL truncate the output.",
+        "This is inconsistent with the results from using the division operator (/).",
+        "DIV0 and DIV0NULL round the\noutput half away from zero.",
+        "This is consistent with the results from using the division operator (/).",
+        "For example, suppose that you are dividing 5 by 9:",
+        "DIV0 and DIV0NULL truncate the result to 0.555555, while the division operator rounds up the result to 0.555556.",
+        "DIV0, DIV0NULL, and the division operator round up the result to 0.555556.",
+        "In addition, passing in more than two arguments to the DIV0 and DIV0NULL functions results in an exception.",
+        "Although the DIV0 and DIV0NULL functions only support two arguments, you can pass in additional arguments.",
+        "The functions ignore the additional arguments.",
+        "Passing more than two arguments to the DIV0 and DIV0NULL functions results in the following exception:",
+        "Ref: 1400",
+        "Was this page helpful?"
+    ]
+}

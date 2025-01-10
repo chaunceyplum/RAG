@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-09-25-new-cortex-models",
+    "title": "September 25, 2024 \u2014 New models available in Snowflake Cortex AI | Snowflake Documentation",
+    "paragraphs": [
+        "We\u2019re pleased to announce that the Cortex LLM COMPLETE function in Snowflake Cortex AI\nnow support the following additional models:",
+        "jamba-1.5-large",
+        "llama3.2-1b",
+        "llama3.2-3b",
+        "For additional details, see Large Language Model (LLM) Functions (Snowflake Cortex).",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-10-08-na-aws-pl",
+    "title": "October 08, 2024 \u2014 Native App support for AWS PrivateLink \u2014 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "We are pleased to announce the preview of support for AWS PrivateLink in the Snowflake Native App Framework.\nFor general information, see AWS PrivateLink and Snowflake.",
+        "Note",
+        "AWS PrivateLink has a known limitation where links in email notifications from apps do not\ncorrectly link to a private link account.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.explode_outer",
+    "title": "snowflake.snowpark.functions.explode_outer | Snowflake Documentation",
+    "paragraphs": [
+        "Flattens a given array or map type column into individual rows. Unlike explode(),\nif array or map is empty, null or empty, then null values are produced. The default column\nname for the output column in case of array input column is VALUE, and is KEY and\nVALUE in case of map input column.",
+        "col \u2013 Column object or string name of the desired column",
+        "See also",
+        "explode()",
+        "Was this page helpful?"
+    ]
+}

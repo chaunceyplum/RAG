@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.types.TimestampType",
+    "title": "snowflake.snowpark.types.TimestampType | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: _AtomicType",
+        "Timestamp data type. This maps to the TIMESTAMP data type in Snowflake.",
+        "Methods",
+        "jsonValue()",
+        "",
+        "json_value()",
+        "",
+        "simpleString()",
+        "",
+        "simple_string()",
+        "",
+        "Attributes",
+        "tz",
+        "Timestamp variations",
+        "Was this page helpful?"
+    ]
+}

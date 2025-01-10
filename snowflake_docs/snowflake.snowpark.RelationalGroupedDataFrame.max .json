@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.RelationalGroupedDataFrame.max",
+    "title": "snowflake.snowpark.RelationalGroupedDataFrame.max | Snowflake Documentation",
+    "paragraphs": [
+        "Return the max for the specified numeric columns.",
+        "Was this page helpful?"
+    ]
+}

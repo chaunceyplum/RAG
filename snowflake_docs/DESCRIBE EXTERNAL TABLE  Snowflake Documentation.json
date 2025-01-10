@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-external-table",
+    "title": "DESCRIBE EXTERNAL TABLE | Snowflake Documentation",
+    "paragraphs": [
+        "Describes the VALUE column and virtual columns in an external table.",
+        "DESCRIBE can be abbreviated to DESC.",
+        "DROP EXTERNAL TABLE , ALTER EXTERNAL TABLE , CREATE EXTERNAL TABLE , SHOW EXTERNAL TABLES",
+        "DESCRIBE VIEW",
+        "Specifies the identifier for the external table to describe. If the identifier contains spaces or special characters, the entire string\nmust be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "Create an example external table:",
+        "Describe the columns in the table:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

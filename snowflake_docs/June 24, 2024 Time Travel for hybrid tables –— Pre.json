@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-06-24-time-travel-hybrid-tables",
+    "title": "June 24, 2024: Time Travel for hybrid tables \u2013\u2014 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the preview of Time Travel support for hybrid tables.\nYou can use the AT TIMESTAMP parameter in SELECT statements to query historical data from both hybrid\ntables and standard tables.",
+        "For more information, see AT | BEFORE and\nUnderstanding & using Time Travel.",
+        "Was this page helpful?"
+    ]
+}

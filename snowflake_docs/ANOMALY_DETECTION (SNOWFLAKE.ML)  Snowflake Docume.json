@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/anomaly_detection",
+    "title": "ANOMALY_DETECTION (SNOWFLAKE.ML) | Snowflake Documentation",
+    "paragraphs": [
+        "Anomaly detection allows you to detect outliers in your time series data by using a machine learning algorithm. You use CREATE SNOWFLAKE.ML.ANOMALY_DETECTION to create\nand train a detection model, and then use the <model_name>!DETECT_ANOMALIES method to detect anomalies.",
+        "Important",
+        "Legal notice. This Snowflake ML function is powered by machine learning technology. Machine\nlearning technology and results provided may be inaccurate, inappropriate, or biased. Decisions based on machine\nlearning outputs, including those built into automatic pipelines, should have human oversight and review processes\nto ensure model-generated content is accurate. Snowflake Cortex ML function queries will be treated as any\nother SQL query and may be considered metadata.",
+        "Metadata. When you use Snowflake Cortex ML functions, Snowflake logs generic error messages returned by an ML\nfunction. These error logs help us troubleshoot issues that arise and improve these functions to serve you better.",
+        "For further information, see Snowflake AI Trust and Safety FAQ.",
+        "CREATE SNOWFLAKE.ML.ANOMALY_DETECTION",
+        "DROP SNOWFLAKE.ML.ANOMALY_DETECTION",
+        "SHOW SNOWFLAKE.ML.ANOMALY_DETECTION",
+        "<model_name>!DETECT_ANOMALIES",
+        "<model_name>!EXPLAIN_FEATURE_IMPORTANCE",
+        "<model_name>!SHOW_EVALUATION_METRICS",
+        "<model_name>!SHOW_TRAINING_LOGS",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

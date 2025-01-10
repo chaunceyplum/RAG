@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_08/bcr-1778",
+    "title": "SHOW VERSIONS IN MODEL: New columns in output (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, five new columns appear in the SHOW VERSIONS IN MODEL\ncommand output, as described below. Existing model versions do not have values for these columns.",
+        "Column name",
+        "Description",
+        "MODEL_ATTRIBUTES",
+        "Attributes of a model version; for example, the framework it was developed with or the task it is intended to perform.",
+        "SIZE",
+        "The size of the model version in bytes, including all artifacts (code, weights, and so on).",
+        "ENVIRONMENT",
+        "Details about the environment where the model version runs.",
+        "RUNNABLE_IN",
+        "The environments where the model version can be executed.",
+        "INFERENCE_SERVICES",
+        "List of services where the model is deployed.",
+        "Ref: 1778",
+        "Was this page helpful?"
+    ]
+}

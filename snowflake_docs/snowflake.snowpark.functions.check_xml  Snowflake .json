@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.check_xml",
+    "title": "snowflake.snowpark.functions.check_xml | Snowflake Documentation",
+    "paragraphs": [
+        "Checks the validity of an XML document.\nIf the input string is a valid XML document or a NULL (i.e. no error would occur when parsing\nthe input string), the function returns NULL.\nIn case of an XML parsing error, the output string contains the error message.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

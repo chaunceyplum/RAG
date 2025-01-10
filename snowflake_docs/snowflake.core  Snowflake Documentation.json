@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core",
+    "title": "snowflake.core | Snowflake Documentation",
+    "paragraphs": [
+        "Functions",
+        "simple_file_logging([path,\u00a0level,\u00a0format])",
+        "Set up snowflake.core logging to a file.",
+        "Classes",
+        "Clone(*,\u00a0source[,\u00a0point_of_time])",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "CreateMode(value[,\u00a0names,\u00a0module,\u00a0qualname,\u00a0...])",
+        "Enum for Snowflake create modes.",
+        "DeleteMode(value[,\u00a0names,\u00a0module,\u00a0qualname,\u00a0...])",
+        "Enum for delete modes.",
+        "PointOfTime(*,\u00a0point_of_time_type,\u00a0...)",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "PointOfTimeOffset(*[,\u00a0point_of_time_type])",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "PointOfTimeStatement(*[,\u00a0point_of_time_type])",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "PointOfTimeTimestamp(*[,\u00a0point_of_time_type])",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Root(connection[,\u00a0root_config])",
+        "The entry point of the Snowflake Core Python APIs that manage the Snowflake objects.",
+        "Was this page helpful?"
+    ]
+}

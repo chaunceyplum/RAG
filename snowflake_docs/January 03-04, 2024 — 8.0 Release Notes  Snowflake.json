@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/8_00",
+    "title": "January 03-04, 2024 \u2014 8.0 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "The release has completed.",
+        "For differences between the in-advance and final versions of these release notes, see Release Notes Change Log.",
+        "In a recent release, the EXTERNAL_ACCESS_HISTORY view was added to the account usage views (in the SNOWFLAKE shared\ndatabase) to provide information about access to external network locations from procedure and UDF handlers. In the\nEXTERNAL_ACCESS_HISTORY view, each row represents a query made to a procedure or UDF that makes external access\nrequests.",
+        "With this release, we are pleased to announce the general availability of the LISTING_AUTO_FULFILLMENT_USAGE_HISTORY view view\nadded to the organization usage schema (in the SNOWFLAKE shared database) to provide information to help manage the cost of\nCross-Cloud Auto-Fulfillment in your organization.",
+        "Announcement",
+        "Update",
+        "Date",
+        "Release notes",
+        "Initial publication (preview)",
+        "02-Jan-24",
+        "Organization Usage: New LISTING_AUTO_FULFILLMENT_USAGE_HISTORY View",
+        "Added to Data Collaboration Updates",
+        "03-Jan-24",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

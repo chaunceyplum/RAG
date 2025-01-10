@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_08/bcr-1796",
+    "title": "SHOW DYNAMIC TABLES command and DYNAMIC_TABLES function: New changes to output (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The SHOW DYNAMIC TABLES and DYNAMIC_TABLES output behaves as follows:",
+        "The output of the SHOW DYNAMIC TABLES command and the DYNAMIC_TABLES function does not include the is_iceberg column.",
+        "The output of the SHOW DYNAMIC TABLES command and the DYNAMIC_TABLES function includes the is_iceberg column, which is defined as\nfollows:",
+        "Column Name",
+        "is_iceberg",
+        "Data Type",
+        "Text",
+        "Description",
+        "Y if the table is an Apache Iceberg\u2122 dynamic table; otherwise, N.",
+        "Ref: 1796",
+        "Was this page helpful?"
+    ]
+}

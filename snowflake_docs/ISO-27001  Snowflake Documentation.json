@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cert-iso-27001",
+    "title": "ISO-27001 | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes how Snowflake supports customers with ISO-27001 compliance requirements.",
+        "The International Organization for Standardization provides requirements for establishing, implementing, maintaining, and continually\nimproving an information security management system. Snowflake\u2019s ISO Certificate is available for download by\nclicking here.\nThe statement of applicability also includes control objectives from the ISO 27017:2015 & ISO 27018:2019 framework.",
+        "ISO/IEC 27001:2013 specifies the requirements for establishing, implementing, maintaining and continually improving an information\nsecurity management system within the context of the organization. It also includes requirements for the assessment and treatment of\ninformation security risks tailored to the needs of the organization.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

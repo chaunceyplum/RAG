@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.event_table",
+    "title": "snowflake.core.event_table | Snowflake Documentation",
+    "paragraphs": [
+        "Manages Snowflake EventTables.",
+        "Classes",
+        "EventTable(*,\u00a0name[,\u00a0cluster_by,\u00a0...])",
+        "A model object representing the EventTable resource.",
+        "EventTableResource(name,\u00a0collection)",
+        "Represents a reference to a Snowflake event table.",
+        "EventTableCollection(schema)",
+        "Represents the collection operations on the Snowflake Event Table resource.",
+        "EventTableColumn(*[,\u00a0name,\u00a0datatype,\u00a0...])",
+        "A model object representing the EventTableColumn resource.",
+        "Was this page helpful?"
+    ]
+}

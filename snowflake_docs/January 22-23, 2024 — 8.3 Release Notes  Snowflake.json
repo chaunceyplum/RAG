@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/8_03",
+    "title": "January 22-23, 2024 \u2014 8.3 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "The release has completed.",
+        "For differences between the in-advance and final versions of these release notes, see Release Notes Change Log.",
+        "With this release, we are pleased to announce the general availability of network rules, which group related network identifiers\ninto logical units. When a Snowflake feature needs to restrict network traffic based on the origin or destination of a request,\nit can allow or block a network rule that contains the identifiers that should be permitted or denied.",
+        "Network rules make possible the following features:",
+        "Enhanced network security using network policies. All new network policies should use\nnetwork rules.",
+        "External network access.",
+        "This release includes a new Snowsight page for network policies, which includes the ability to manage the lifecycle of a network\nrule. Using SQL to work with network rules is generally available, but this new Snowsight page is a Preview feature.",
+        "With this release, we are pleased to announce the general availability of enhanced security when using network policies to\nrestrict access to Snowflake. When combined with network rules, network policies can now restrict access based on the identifier\nof an AWS S3 endpoint or Azure private endpoint.",
+        "With this release, we are pleased to announce the general availability of the ability to isolate network traffic to Snowflake\ninternal stages when connecting to them over AWS PrivateLink for Amazon S3. Snowflake recommends this approach for organizations\nthat use AWS PrivateLink to access the internal stages of multiple Snowflake accounts.",
+        "Benefits of isolating private connectivity traffic include:",
+        "Simplified DNS management.",
+        "Support for charging back costs to a specific Snowflake account.",
+        "Support for implementing different security requirements for each Snowflake account.",
+        "For more details, see Accessing Internal stages with dedicated interface endpoints.",
+        "Announcement",
+        "Update",
+        "Date",
+        "Release notes",
+        "Initial publication (preview)",
+        "22-Jan-24",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

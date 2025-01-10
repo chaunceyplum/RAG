@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.system_reference",
+    "title": "snowflake.snowpark.functions.system_reference | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a reference to an object (a table, view, or function). When you execute SQL actions on a\nreference to an object, the actions are performed using the role of the user who created the\nreference.",
+        "Was this page helpful?"
+    ]
+}

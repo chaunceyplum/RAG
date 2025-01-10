@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/get_anaconda_packages_repodata",
+    "title": "GET_ANACONDA_PACKAGES_REPODATA | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Returns a list of third-party packages that are available from Anaconda.\nFor more information, see Packages policies.",
+        "String specifying the architecture, which can be:\nlinux-64, linux-aarch64, or noarch.",
+        "Returns a JSON string that contains the contents of repodata.json, which is an index of the packages in a subdir. A subdir represents a particular archtecture. Each subdir will have its own repodata.",
+        "For more information, see the Conda documentation",
+        "You must use the ACCOUNTADMIN role to call this function.",
+        "The following example gets the list of third-party packages from Anaconda for linux-64.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.axes",
+    "title": "modin.pandas.DataFrame.axes | Snowflake Documentation",
+    "paragraphs": [
+        "Return a list representing the axes of the DataFrame.",
+        "It has the row axis labels and column axis labels as the only members.\nThey are returned in that order.",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

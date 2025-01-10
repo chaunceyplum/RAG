@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_05/bcr-1645",
+    "title": "Apache Iceberg\u2122 tables: Metadata file naming convention change | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_05 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Snowflake names metadata files for new and existing Snowflake-managed Apache Iceberg\u2122 tables as follows:",
+        "Snowflake uses a deterministic naming convention based on the table version.",
+        "For example: v1715886514322000000.metadata.json",
+        "Snowflake uses a non-deterministic naming convention based on a universally unique identifier (UUID).",
+        "For example: 00001-8a14161c-65ad-45fc-b665-ec16dcbf647e.metadata.json",
+        "Snowflake doesn\u2019t rename existing metadata files, but applies the new naming convention\nto new metadata files created when the table is updated.",
+        "Ref: 1645",
+        "Was this page helpful?"
+    ]
+}

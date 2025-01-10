@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-file-format",
+    "title": "DROP FILE FORMAT | Snowflake Documentation",
+    "paragraphs": [
+        "Removes the specified file format from the current/specified schema.",
+        "CREATE FILE FORMAT , ALTER FILE FORMAT , SHOW FILE FORMATS , DESCRIBE FILE FORMAT",
+        "Specifies the identifier for the file format to drop. If the identifier contains spaces, special characters, or mixed-case characters,\nthe entire string must be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Dropped file formats cannot be recovered; they must be recreated.",
+        "Dropping a file format that is referenced in another object (e.g. named stage) does not cause errors because the object uses the\nfile format defaults in place of the dropped file format.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

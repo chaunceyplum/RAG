@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.orderBy",
+    "title": "snowflake.snowpark.DataFrame.orderBy | Snowflake Documentation",
+    "paragraphs": [
+        "Sorts a DataFrame by the specified expressions (similar to ORDER BY in SQL).",
+        "Examples:",
+        "*cols \u2013 A column name as str or Column, or a list of\ncolumns to sort by.",
+        "ascending \u2013 A bool or a list of bool for sorting the\nDataFrame, where True sorts a column in ascending order and False\nsorts a column in descending order . If you specify a list of multiple\nsort orders, the length of the list must equal the number of columns.",
+        "Was this page helpful?"
+    ]
+}

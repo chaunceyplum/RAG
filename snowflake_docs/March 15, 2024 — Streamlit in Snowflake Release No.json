@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-03-15",
+    "title": "March 15, 2024 \u2014 Streamlit in Snowflake Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the preview of Streamlit in Snowflake: Support for Streamlit 1.26.0.\nFor each Streamlit in Snowflake app, you can now select the Streamlit library version in Snowsight or pin the version in the app\u2019s environment.yml file.",
+        "The release includes support for the following Streamlit features:",
+        "st.chat_message",
+        "st.chat_input",
+        "st.status",
+        "st.toggle",
+        "st.data_editor",
+        "st.column_config",
+        "Support for Streamlit 1.26.0 includes changes and components from previous versions. For details, see the following Streamlit library changelogs:",
+        "v1.23.0",
+        "v1.24.0",
+        "v1.25.0",
+        "v1.26.0",
+        "For more information, see Supported versions of the Streamlit library.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

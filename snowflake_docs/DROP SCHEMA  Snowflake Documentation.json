@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-schema",
+    "title": "DROP SCHEMA | Snowflake Documentation",
+    "paragraphs": [
+        "Removes a schema from the current/specified database.",
+        "CREATE SCHEMA , ALTER SCHEMA , DESCRIBE SCHEMA , SHOW SCHEMAS , UNDROP SCHEMA",
+        "Specifies the identifier for the schema to drop. If the identifier contains spaces, special characters, or mixed-case characters, the\nentire string must be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "If the schema identifier is not fully-qualified (in the form of db_name.schema_name), the command looks for the schema\nin the current database for the session.",
+        "Specifies whether the schema can be dropped if foreign keys exist that reference any tables in the schema:",
+        "CASCADE drops the schema and all objects in the schema, including tables with primary/unique keys that are referenced by\nforeign keys in other tables.",
+        "RESTRICT returns a warning about existing foreign key references and does not drop the schema.",
+        "Default: CASCADE",
+        "Dropping a schema does not permanently remove it from the system. A version of the dropped schema is retained in\nTime Travel for the number of days specified by the DATA_RETENTION_TIME_IN_DAYS\nparameter for the schema:",
+        "Within the Time Travel retention period, a dropped schema can be restored using the UNDROP SCHEMA command.",
+        "When the Time Travel retention period ends, the next state for the dropped schema depends on whether it is permanent or transient:",
+        "A permanent schema moves into Fail-safe. In Fail-safe (7 days), a dropped schema can be\nrecovered, but only by Snowflake. When the schema leaves Fail-safe, it is purged.",
+        "A transient schema has no Fail-safe, so it is purged when it moves out of Time Travel.",
+        "Once a dropped schema has been purged, it cannot be recovered; it must be recreated.",
+        "Currently, when a schema is dropped, the data retention period for child tables, if explicitly set to be different from the retention\nof the schema, is not honored. The child tables are retained for the same period of time as the schema. To honor the data retention\nperiod for these tables, drop them explicitly before you drop the schema.",
+        "After dropping a schema, creating a schema with the same name creates a new version of the schema. The dropped version of the previous\nschema can still be restored using the following method:",
+        "Rename the current version of the schema to a different name.",
+        "Use the UNDROP SCHEMA command to restore the previous version.",
+        "If a policy or tag is attached a table or view column, dropping the schema successfully requires the policy or tag to be self-contained\nwithin the database and schema. For example, database_1 contains policy_1 and policy_1 is only used in database_1.\nOtherwise, a dangling reference occurs.",
+        "The DROP operation fails if a session policy or password policy is set on a user or the account.",
+        "Drop a schema named myschema (from the CREATE SCHEMA examples):",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

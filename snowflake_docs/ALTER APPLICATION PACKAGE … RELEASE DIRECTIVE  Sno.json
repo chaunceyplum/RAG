@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/alter-application-package-release-directive",
+    "title": "ALTER APPLICATION PACKAGE \u2026 RELEASE DIRECTIVE | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "The Snowflake Native App Framework is generally available on supported cloud platforms. For additional information, see\nSupport for private connectivity, VPS, and government regions.",
+        "Modifies the properties of an existing application package in the Native Apps Framework. Use this command to add a new version or patch.",
+        "ALTER APPLICATION PACKAGE , ALTER APPLICATION PACKAGE \u2026 VERSION",
+        "Specifies the identifier for the application package. If the identifier contains spaces, special characters, or mixed-case characters, the entire string must be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Modifies the version and patch level of the specified custom release directive.",
+        "Specifies one (or more) properties to set for the application package (separated by blank spaces, commas, or new lines). For more details\nabout the properties you can set, see CREATE APPLICATION.",
+        "Sets the version and patch level of the application package that should be installed for consumers by default.",
+        "Creates a custom release directive for the specified accounts.",
+        "Use the ACCOUNTS clause to specify the list of accounts to which this release directive applies.",
+        "Use the VERSION and PATCH clauses to specify the version identifier and patch number to be installed for these accounts.",
+        "Specifies one (or more) properties and/or session parameters to unset for the application package, which resets them to the defaults.",
+        "Removes the specified custom release directive from the application package.",
+        "Modifying the release directive requires the OWNERSHIP privilege on the application or the global MANAGE VERSIONS privilege.",
+        "If you do not specify the values for the optional properties, the command uses the values specified in the application manifest file.",
+        "If you specify values for the properties in the command and in the application manifest file, the values specified in the command take\nprecedence.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

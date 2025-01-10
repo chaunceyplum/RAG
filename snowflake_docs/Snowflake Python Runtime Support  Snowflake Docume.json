@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/python-runtime-support-policy",
+    "title": "Snowflake Python Runtime Support | Snowflake Documentation",
+    "paragraphs": [
+        "Going forward, Snowflake intends to support new Python runtimes within 1 year of their\nfirst official release.",
+        "To keep your functions up-to-date and secure, we occasionally need you to update your UDFs and stored\nprocedures and re-deploy them to use a supported runtime.",
+        "Snowflake applies updates to Python runtimes as the updates are made available by the upstream maintainers.\nWhen a Python runtime is no longer actively maintained, Snowflake will deprecate and, eventually, remove\nthe runtime. The Snowflake deprecation schedule will follow\nPython\u2019s official end-of-life schedule.",
+        "This process involves three aspects: a publication of the deprecation date, a deprecation period,\nand a target decommission date. The deprecation date posted below indicates the start of the deprecation\nperiod and the expected decommission date.",
+        "Python Runtime",
+        "Snowflake Deprecation Date",
+        "Decommission Date",
+        "3.8",
+        "14 Oct 2024",
+        "31 Mar 2025",
+        "3.9",
+        "05 Oct 2025",
+        "TBD",
+        "3.10",
+        "04 Oct 2026",
+        "TBD",
+        "3.11",
+        "24 Oct 2027",
+        "TBD",
+        "During the deprecation period, Snowflake will no longer apply security patches or other updates\nto the runtime.  You can continue to use the runtime but you should mainly aim to use this time\nto migrate any functions that still use the deprecated runtime to a more up-to-date runtime.\nNote that functions that use a deprecated runtime are not eligible for technical support.",
+        "After the decommission date, you can no longer create or update functions using the runtime.\nYou must choose a more up-to-date runtime to deploy your functions.\nNote that existing functions using the runtime can still be invoked.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

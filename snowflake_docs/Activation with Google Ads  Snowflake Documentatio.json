@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cleanrooms/activation-google-ads",
+    "title": "Activation with Google Ads | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "This topic describes how to activate analysis results with Google Ads. Google Ads is an online advertising platform where advertisers bid to\ndisplay brief advertisements, service offerings, product listings, or videos to web users.",
+        "Important",
+        "At this time, Snowflake Data Clean Rooms do not support data subject consent management. Please ensure you are complying with applicable\nlaws and regulations when using Snowflake Data Clean Rooms, including in connection with third-party connectors for activation purposes.",
+        "If you are an administrator who needs to configure the Google Ads connector so clean room users can activate results with it, see\nGoogle Ads connector.",
+        "To push the results of an analysis to Google Ads for activation:",
+        "Run an analysis that returns data that can be activated. For example, analyses using the Audience Overlap & Segmentation template can be\nactivated.",
+        "For more information about running an analysis, see Run an analysis as a provider or Run an analysis as a consumer.",
+        "In the Results section, select Activate.",
+        "In the Activation Hub dialog, select Google Ads.",
+        "In the Account ID field, enter the identifier for the account where you want to push the segment.",
+        "In the Segment Name field, enter a descriptive name for your results.",
+        "In the Description field, enter a description of the data you are pushing to Google Ads.",
+        "In the Activation IDs section, select the columns that contain hashed email and/or hashed phone identifiers.",
+        "Select Push Data.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

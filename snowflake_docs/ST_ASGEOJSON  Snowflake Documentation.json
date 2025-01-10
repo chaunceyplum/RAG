@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_asgeojson",
+    "title": "ST_ASGEOJSON | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Given a value of type GEOGRAPHY or GEOMETRY, return the\nGeoJSON representation of that value.",
+        "The argument must be an expression of type GEOGRAPHY or GEOMETRY.",
+        "An OBJECT in GeoJSON format.",
+        "For GEOMETRY objects:",
+        "The returned GEOMETRY object uses the same coordinate system as the input GEOMETRY object.",
+        "Note that the GeoJSON specification requires that geometry be in the WGS84 coordinate system (SRID = 4326). However, the\nST_ASGEOJSON function does not enforce this.",
+        "The function does not add the SRID or any other CRS information to the output.",
+        "The following example demonstrates the ST_ASGEOJSON function:",
+        "Casting the VARIANT output to VARCHAR results in the following:",
+        "The following example demonstrates the ST_ASGEOJSON function with a GEOMETRY object as input:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

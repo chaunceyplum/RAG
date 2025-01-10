@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/h3_grid_disk",
+    "title": "H3_GRID_DISK | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns an array of the IDs of the H3 cells that\nare within the k-distance from the specified cell. The IDs in the returned ARRAY are INTEGER values (if an INTEGER\nvalue was provided as the input ID) or VARCHAR values containing the hexadecimal IDs (if a hexadecimal ID was provided\nas the input ID).",
+        "An INTEGER that represents the H3 cell ID (index), or a VARCHAR that represents the cell ID in hexadecimal format.",
+        "An INTEGER that represents the grid distance. You must specify a non-negative value.",
+        "Returns an ARRAY of the IDs of H3 cells that are within the distance k_value from the cell specified by\ncell_id. The IDs are in one of the following formats:",
+        "If cell_id is an INTEGER value, the function returns the IDs as INTEGER values.",
+        "If cell_id is a VARCHAR value containing the hexadecimal ID, the function returns the hexadecimal IDs as VARCHAR\nvalues.",
+        "The following example returns an ARRAY of the IDs of H3 cells within the grid distance of 1 from the cell with the ID\n617540519050084351 (specified as an INTEGER value).",
+        "The following example returns an ARRAY of the IDs of H3 cells within the grid distance of 1 from the cell with the ID\n891f1d48863ffff (specified as a VARCHAR value).",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

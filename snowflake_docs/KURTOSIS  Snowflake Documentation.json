@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/kurtosis",
+    "title": "KURTOSIS | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (General) , Window function syntax and usage",
+        "Returns the population excess kurtosis of non-NULL records. If all records inside a group are NULL, the function returns NULL.",
+        "The following formula is used to compute the population excess kurtosis:",
+        "where:",
+        "\\(n\\) denotes the number of non null records.",
+        "\\(m_4\\) denotes the sample fourth central moment.",
+        "\\(k_2\\) denotes the symmetric unbiased estimator of the variance.",
+        "Aggregate function",
+        "Window function",
+        "This is an expression that evaluates to a numeric data type (INTEGER, FLOAT, DECIMAL, etc.).",
+        "The expression that defines the individual groups or windows.",
+        "Returns DOUBLE if the input data type is DOUBLE/FLOAT.",
+        "Returns DECIMAL if the input data type is another numeric data type.",
+        "For inputs with fewer than four records, KURTOSIS returns NULL.",
+        "When this function is called as a window function, it does not support:",
+        "An ORDER BY clause within the OVER clause.",
+        "Explicit window frames.",
+        "Create a table and load the data:",
+        "Display the data:",
+        "Query the data:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/ui-snowsight/notebooks-privatelink",
+    "title": "Private connectivity for Snowflake Notebooks | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes using AWS PrivateLink or Azure Private Link when accessing Snowflake Notebooks. This feature is available in both\nwarehouse and container runtimes.",
+        "To access Snowflake Notebooks with AWS PrivateLink:",
+        "Set up private connectivity for your Snowflake account.",
+        "Set up private connectivity for Snowsight.",
+        "In addition, your account must already use Streamlit in Snowflake over AWS PrivateLink. Notebooks relies on the Streamlit engine for execution and uses Streamlit widgets to render cell outputs.",
+        "To access Snowflake Notebooks with Azure Private Link:",
+        "Set up private connectivity for your Snowflake account.",
+        "Set up private connectivity for Snowsight.",
+        "In addition, your account must already use Streamlit in Snowflake over Azure Private Link. Notebooks relies on the Streamlit engine for execution and uses Streamlit widgets to render cell outputs.",
+        "To determine the hostname:",
+        "Call SYSTEM$GET_PRIVATELINK_CONFIG in your Snowflake account. The Notebooks hostname is displayed under the app-service-privatelink-url key, which is the wildcard URL required for routing Notebooks application traffic through AWS PrivateLink or Azure Private Link.",
+        "Note",
+        "You can set up a new VPC endpoint for Notebooks or create a DNS record to the same VPC endpoint of your Snowflake account, as shown in the following example:",
+        "Record name: *.abcd.privatelink.snowflake.app",
+        "Type: CNAME",
+        "Route traffic to: same VPC as your Snowflake traffic.",
+        "Hostname routing at an account level is currently not supported.",
+        "Notebooks apps serve both HTTPS-encrypted traffic and WebSocket-encrypted traffic. The Notebooks browser client application is mounted in a third-party, cross-origin\niframe within Snowsight. This enables strict cross-site browser isolation control.",
+        "Snowflake Notebooks use a separate URL scheme for specific security requirements. Notebook URLs have their own top-level domain that does not share any elements\nwith Snowsight. Each notebook has a unique origin.",
+        "Note",
+        "When using AWS PrivateLink or Azure Private Link, you control the DNS resolution; no AWS PrivateLink or Azure Private Link DNS records are controlled by Snowflake.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

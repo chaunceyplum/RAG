@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2023/7_27",
+    "title": "August 07-08, 2023 \u2014 7.27 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "The following new features and updates (enhancements, fixes, etc.) have been introduced in this release. If you have any\nquestions, please contact Snowflake Support.",
+        "Important",
+        "Each release may include updates that require the web interface to be refreshed.",
+        "As a general practice, to ensure these updates do not impact your usage, we recommend refreshing the web interface after each Snowflake\nrelease has been deployed.",
+        "With this release, we are pleased to announce the CLASS_INSTANCES view in the Account Usage schema of the shared SNOWFLAKE database. This\nview returns one row for each class instance in the account.",
+        "A class is an extensible object type that serves as a blueprint for creating instances. You\ncan create an instance of a class and execute its methods (procedures and functions) to take advantage of the advanced functionality that\nclasses provide. For a list of available classes, see the SQL class reference.",
+        "For more information, see CLASS_INSTANCES view.",
+        "With this release, we are pleased to announce the general availability of the SYSTEM$SEND_EMAIL() system stored procedure for sending email\nnotifications. You can call this stored procedure to send an email notification from a task, your own stored procedure, or an interactive\nsession.",
+        "For more information, see Using SYSTEM$SEND_EMAIL to send email notifications.",
+        "We are pleased to announce that the Snowsight Share dialog for worksheets, folders, and dashboards now provides information about\nwhich roles can view the latest worksheet or dashboard tile results. This update does not introduce any behavior changes.",
+        "The Share dialog used the following description: \u201cViewers without the role can duplicate and run under their own roles.\u201d",
+        "The Share dialog displays the following information to help you understand who has access to results when you share a worksheet,\nfolder, or dashboard.",
+        "The role most recently used to run the worksheet or dashboard tile is required to view the latest results.",
+        "When you use a secondary role to generate results, the results are visible to any recipient with the role.",
+        "Viewers without the role can duplicate and run the worksheet or dashboard tile using their own roles.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

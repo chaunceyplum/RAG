@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-file-format",
+    "title": "DESCRIBE FILE FORMAT | Snowflake Documentation",
+    "paragraphs": [
+        "Describes the property type (for example, String or Integer), the defined value of the property, and the default value for each property in a file format object definition. For more information about available properties for each file type, see \u201cFormat type options\u201d in CREATE FILE FORMAT.",
+        "DESCRIBE can be abbreviated to DESC.",
+        "DROP FILE FORMAT , ALTER FILE FORMAT , CREATE FILE FORMAT , SHOW FILE FORMATS",
+        "Specifies the identifier for the file format to describe. If the identifier contains spaces or special characters, the entire string\nmust be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "Describe the file format object named my_csv_format:",
+        "Output:",
+        "Describe the file format object named my_json_format:",
+        "Output:",
+        "Describe the file format object named my_parquet_format:",
+        "Output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

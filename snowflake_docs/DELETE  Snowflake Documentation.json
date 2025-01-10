@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/delete",
+    "title": "DELETE | Snowflake Documentation",
+    "paragraphs": [
+        "Remove rows from a table. You can use a WHERE clause to specify which rows should be removed. If you need to use a subquery(s) or\nadditional table(s) to identify the rows to be removed, specify the subquery(s) or table(s) in a USING clause.",
+        "Important",
+        "Unlike TRUNCATE TABLE, this command does not delete the external file load history. If you delete rows\nloaded into the table from a staged file, you cannot load the data from that file again unless you modify the file and stage it again.",
+        "Specifies the table from which rows are removed.",
+        "If you need to refer to additional tables in the WHERE clause to help identify the rows to be removed, then specify those table names in\nthe USING clause. You can also use the USING clause to specify subqueries that identify the rows to be removed.",
+        "If you specify a subquery, then put the subquery in parentheses.",
+        "If you specify more than one table or query, use a comma to separate them.",
+        "Specifies a condition to use to select rows for removal. If this parameter is omitted, all rows in the table are removed, but the table\nremains.",
+        "When deleting based on a JOIN (by specifying a USING clause), it is possible that a row in the target table joins against several\nrows in the USING table(s). If the DELETE condition is satisfied for any of the joined combinations, the target row is deleted.",
+        "For example, given tables tab1  and tab2 with columns (k number, v number):",
+        "If you run the following query, the row in tab1 is joined against both rows of tab2:",
+        "Because at least one joined pair satisfies the condition, the row is deleted. As a result, after the statement completes, tab1\nis empty.",
+        "Suppose that an organization that leases bicycles uses the following tables:",
+        "The table named leased_bicycles lists the bicycles that were leased out.",
+        "The table named returned_bicycles lists bicycles that have been returned recently. These bicycles need be removed from the table of\nleased bicycles.",
+        "Create tables:",
+        "Load data:",
+        "This example shows how to use the WHERE clause to delete a specified row(s). This example deletes by bicycle_ID:",
+        "Show the data after the delete:",
+        "This example shows how to use the USING clause to specify rows to be deleted. This USING clause specifies the returned_bicycles\ntable, which lists the IDs of the bicycles to be deleted from the leased_bicycles table. The WHERE clause joins the leased_bicycles\ntable to the returned_bicycles table, and the rows in leased_bicycles that have the same bicycle_ID as the corresponding rows in\nreturned_bicycles are deleted.",
+        "(To avoid trying to remove the same rows again in the future when it might be unnecessary or inappropriate, the returned_bicycles table is\ntruncated as part of the same transaction.)",
+        "Show the data after the delete:",
+        "Now suppose that another bicycle(s) is returned:",
+        "The following query shows a USING clause that contains a subquery (rather than a table) to specify which bicycle_IDs to remove from\nthe leased_bicycles table:",
+        "Show the data after the delete:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

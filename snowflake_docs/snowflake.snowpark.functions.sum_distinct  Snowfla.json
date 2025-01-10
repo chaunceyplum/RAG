@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.sum_distinct",
+    "title": "snowflake.snowpark.functions.sum_distinct | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the sum of non-NULL distinct records in a group. You can use the\nDISTINCT keyword to compute the sum of unique non-null values. If all records\ninside a group are NULL, the function returns NULL.",
+        "Was this page helpful?"
+    ]
+}

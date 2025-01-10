@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Column.over",
+    "title": "snowflake.snowpark.Column.over | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a window frame, based on the specified WindowSpec.",
+        "Was this page helpful?"
+    ]
+}

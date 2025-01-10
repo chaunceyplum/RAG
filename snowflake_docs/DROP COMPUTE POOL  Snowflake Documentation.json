@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-compute-pool",
+    "title": "DROP COMPUTE POOL | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Available to accounts in AWS and Microsoft Azure commercial regions, with some exceptions. For more information, see Available regions.",
+        "Removes the specified compute pool from the\naccount.",
+        "Tip",
+        "In addition to SQL, you can also use other interfaces, such as Snowflake REST APIs, Snowflake Python APIs, and Snowflake CLI.\nSee Alternate interfaces.",
+        "CREATE COMPUTE POOL , ALTER COMPUTE POOL, DESCRIBE COMPUTE POOL , SHOW COMPUTE POOLS",
+        "Specifies the identifier for the compute pool to be dropped.",
+        "If the identifier contains spaces or special characters, the entire string must be enclosed in double quotes.\nIdentifiers enclosed in double quotes are also case-sensitive.",
+        "For more information, see Identifier requirements.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "OWNERSHIP",
+        "Compute pool",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "When dropping a compute pool, Snowflake automatically aborts any running jobs. However, Snowflake does not drop running services.\nIf services are running this command will fail. You need to explicitly drop all running services before dropping a compute pool.\nYou can run ALTER COMPUTE POOL \u2026 STOP ALL, which drops both services and jobs. You can also use\nthe DROP SERVICE command to drop individual services.",
+        "The following example drops the compute pool named tutorial_compute_pool:",
+        "Snowflake REST APIs",
+        "Delete a compute pool endpoint",
+        "Snowflake Python APIs",
+        "compute_pool.ComputePoolResource.drop method",
+        "Snowflake CLI",
+        "snow object drop command",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

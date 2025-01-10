@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-cortex-search",
+    "title": "DROP CORTEX SEARCH SERVICE | Snowflake Documentation",
+    "paragraphs": [
+        "Removes the specified Cortex Search service from the current schema.",
+        "Specifies the identifier for the Cortex Search service to drop.",
+        "If the identifier contains spaces or special characters, the entire string must be enclosed in double quotes.\nIdentifiers enclosed in double quotes are also case-sensitive.",
+        "For more information, see Identifier requirements.",
+        "Privilege",
+        "Object",
+        "OWNERSHIP",
+        "Cortex Search service you want to remove.",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "The following example drops the Cortex Search service named mysvc:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/hll",
+    "title": "HLL | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (Cardinality Estimation) , Window functions",
+        "Uses HyperLogLog to return an approximation of the distinct cardinality of the input (i.e. HLL(col1, col2, ... ) returns an approximation of COUNT(DISTINCT col1, col2, ... )).",
+        "For more information about HyperLogLog, see Estimating the Number of Distinct Values.",
+        "APPROX_COUNT_DISTINCT.",
+        "HLL_ACCUMULATE , HLL_COMBINE , HLL_ESTIMATE",
+        "Aggregate function",
+        "Window function",
+        "This is the expression for which you want to know the number of distinct values.",
+        "This is the optional expression used to group rows into partitions.",
+        "The data type of the returned value is INTEGER.",
+        "DISTINCT can be included as an argument, but has no effect.",
+        "For information about NULL values and aggregate functions, see Aggregate functions and NULL values.",
+        "When this function is called as a window function, it does not support:",
+        "An ORDER BY clause within the OVER clause.",
+        "Explicit window frames.",
+        "This example shows how to use HLL and its alias APPROX_COUNT_DISTINCT. This example calls\nboth COUNT(DISTINCT i) and APPROX_COUNT_DISTINCT(i) to emphasize\nthat the results of these two functions do not always match exactly.",
+        "The exact output from the following query might vary because APPROX_COUNT_DISTINCT() returns an approximation, not an exact value.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

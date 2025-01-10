@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/use",
+    "title": "USE <object> | Snowflake Documentation",
+    "paragraphs": [
+        "Specifies the role, warehouse, database, or schema to use for the current session:",
+        "The role for a session determines the objects that can be accessed in queries and other SQL statements executed in the session.",
+        "A warehouse is required for a session to execute queries and other DML statements, including loading/unloading data, in\nthe session.",
+        "If a database is not specified for a session, any objects referenced in queries and other SQL statements executed in\nthe session must be fully qualified with the database and schema, also known as the namespace, for the object\n(in the form of db_name.schema_name.object_name). For more information about fully-qualified object names,\nsee Object name resolution.",
+        "If a database is specified for a session but the schema is not specified for a session, any objects referenced in queries\nand other SQL statements executed in the session must be qualified with the schema for the object (in the form of\nschema_name.object_name).",
+        "If the database and schema are specified for a user session, unqualified object names are allowed in SQL statements and\nqueries.",
+        "For specific syntax, usage notes, and examples, see:",
+        "USE ROLE",
+        "USE SECONDARY ROLES",
+        "USE WAREHOUSE",
+        "USE DATABASE",
+        "USE SCHEMA",
+        "To see the current role, secondary roles, database, schema, and warehouse for the session, use the corresponding context functions.\nFor example:",
+        "For more details, see Context functions.",
+        "Use a warehouse:",
+        "Use a schema:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

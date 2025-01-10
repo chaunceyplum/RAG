@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.join_table_function",
+    "title": "snowflake.snowpark.DataFrame.join_table_function | Snowflake Documentation",
+    "paragraphs": [
+        "Lateral joins the current DataFrame with the output of the specified table function.",
+        "References: Snowflake SQL functions.",
+        "Lateral join a table function by using the name and parameters directly:",
+        "Lateral join a table function by calling:",
+        "Lateral join a table function with the partition and order by clause:",
+        "Lateral join a table function with aliasing the output column names:",
+        "func_name \u2013 The SQL function name.",
+        "func_arguments \u2013 The positional arguments for the SQL function.",
+        "func_named_arguments \u2013 The named arguments for the SQL function, if it accepts named arguments.",
+        "A new DataFrame that has the columns carried from this DataFrame, plus new columns and rows from the lateral join with the table function.",
+        "See also",
+        "Session.table_function(), which creates a new DataFrame by using the SQL table function.",
+        "Was this page helpful?"
+    ]
+}

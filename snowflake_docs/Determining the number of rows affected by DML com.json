@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-scripting/dml-status",
+    "title": "Determining the number of rows affected by DML commands | Snowflake Documentation",
+    "paragraphs": [
+        "After a DML command is executed (excluding the TRUNCATE TABLE\ncommand), Snowflake Scripting sets the following global variables. You can use these variables to determine if the last DML\nstatement affected any rows.",
+        "Variable",
+        "Description",
+        "SQLROWCOUNT",
+        "Number of rows affected by the last DML statement.",
+        "This is equivalent to getNumRowsAffected() in JavaScript stored procedures.",
+        "SQLFOUND",
+        "true if the last DML statement affected one or more rows.",
+        "SQLNOTFOUND",
+        "true if the last DML statement affected zero rows.",
+        "The examples in this section use the following table:",
+        "The following example uses the SQLROWCOUNT variable to return the number of rows affected by the last\nDML statement (the INSERT statement). The SELECT statement isn\u2019t a DML statement and has no\neffect on the SQLROWCOUNT variable.",
+        "Note: If you are using SnowSQL, the Classic Console, or the\nexecute_stream or execute_string method in Python Connector\ncode, use this example instead (see Using Snowflake Scripting in SnowSQL, the Classic Console, and Python Connector):",
+        "The following example uses the SQLFOUND and SQLNOTFOUND variables to return the number of rows affected by the\nlast DML statement (the UPDATE statement). As is the case with the previous example, the SELECT statement doesn\u2019t affect the\nSQLFOUND and SQLNOTFOUND variables.",
+        "Note: If you are using SnowSQL, the Classic Console, or the\nexecute_stream or execute_string method in Python Connector\ncode, use this example instead (see Using Snowflake Scripting in SnowSQL, the Classic Console, and Python Connector):",
+        "When the anonymous block runs, the SQLFOUND variable is true because the UPDATE statement updates two rows.",
+        "Query the table to see the current values:",
+        "Run the same anonymous block again, and the results are the following:",
+        "The UPDATE statement is executed because there is a value in the table that is greater than 2. That is,\nthe IF condition is satisfied.",
+        "The SQLNOTFOUND variable is true because no rows are updated. The UPDATE statement doesn\u2019t update\nany rows because none of the values in the table are less than 3 (specified in the WHERE clause).",
+        "The query returns the following output:",
+        "Now, update the table to set all of the values to 1:",
+        "Run the same anonymous block again, and the UPDATE statement isn\u2019t executed because none of the values\nin the table are greater than 2. That is, the IF condition isn\u2019t satisfied, so the UPDATE statement\ndoesn\u2019t execute.",
+        "Was this page helpful?"
+    ]
+}

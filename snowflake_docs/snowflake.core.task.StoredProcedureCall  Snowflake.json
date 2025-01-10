@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.task.StoredProcedureCall",
+    "title": "snowflake.core.task.StoredProcedureCall | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: object",
+        "Represents a procedure call used as a task\u2019s definition.",
+        "func (Union[Callable[..., Any], StoredProcedure]) \u2013",
+        "When it\u2019s a Callable, typically a function, an anonymous stored procedure will be created as\nthe Task\u2019s definition by using this Callable.\nNote that the first parameter of your function should be a snowpark Session.",
+        "When it\u2019s a StoredProcedure, it will be converted to a SQL to call an existing stored procedure.\nThe StoredProcedure must be a permanent one instead of a temporary one because a Task will run\nin a different session than the session that creates the Task. A temporary one won\u2019t be accessible\nfrom that session that runs the Task.",
+        "",
+        "args (List[Any], optional) \u2013 The arguments to call the stored procedure when func is a StoredProcedure.",
+        "return_type (DataType, optional) \u2013 A DataType representing the return data\ntype of the stored procedure. Optional if type hints are provided.",
+        "input_types (List[DataType], optional) \u2013 A list of DataType\nrepresenting the input data types of the stored procedure. Optional if\ntype hints are provided.",
+        "stage_location (str, optional) \u2013 The stage location where the Python file for the anonymous stored procedure\nand its dependencies should be uploaded.\nIt must be a permanent location because a Task will run in a different session than the session that\ncreates the Task. A temporary one won\u2019t be accessible from that session that runs the Task.",
+        "imports (List[Union[str, Tuple[str, str]]], optional) \u2013 A list of imports that only apply to this stored procedure. You can use a string to\nrepresent a file path (similar to the path argument in\nadd_import()) in this list, or a tuple of two\nstrings to represent a file path and an import path (similar to the import_path\nargument in add_import()). These stored procedure-level imports\nwill override the session-level imports added by\nadd_import().",
+        "packages (List[Union[str, ModuleType]], optional) \u2013 A list of packages that only apply to this stored procedure.\nThese stored procedure-level packages will override the session-level packages added by\nadd_packages() and\nadd_requirements().",
+        "Was this page helpful?"
+    ]
+}

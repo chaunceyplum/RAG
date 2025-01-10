@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.SessionBuilder.getOrCreate",
+    "title": "snowflake.snowpark.Session.SessionBuilder.getOrCreate | Snowflake Documentation",
+    "paragraphs": [
+        "Gets the last created session or creates a new one if needed.",
+        "Was this page helpful?"
+    ]
+}

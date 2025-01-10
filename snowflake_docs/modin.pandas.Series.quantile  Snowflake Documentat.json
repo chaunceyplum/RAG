@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.quantile",
+    "title": "modin.pandas.Series.quantile | Snowflake Documentation",
+    "paragraphs": [
+        "Return value at the given quantile.",
+        "q (float or array-like of float, default 0.5) \u2013 Value between 0 <= q <= 1, the quantile(s) to compute.\nCurrently unsupported if q is a Snowpandas DataFrame or Series.",
+        "interpolation ({\"linear\", \"lower\", \"higher\", \"midpoint\", \"nearest\"}, default \"linear\") \u2013",
+        "Specifies the interpolation method to use if a quantile lies between two data points\ni and j:",
+        "linear: i + (j - i) * fraction, where fraction is the fractional part of the\nindex surrounded by i and j.",
+        "lower: i.",
+        "higher: j.",
+        "nearest: i or j, whichever is nearest.",
+        "midpoint: (i + j) / 2.",
+        "Snowpark pandas currently only supports \u201clinear\u201d and \u201cnearest\u201d.",
+        "",
+        "If q is an array, a Series will be returned where the index is q and the values\nare the quantiles.\nIf q is a float, the float value of that quantile will be returned.",
+        "float or Series",
+        "Examples",
+        "With a scalar q:",
+        "With a list q:",
+        "Values considered NaN do not affect the result:",
+        "Was this page helpful?"
+    ]
+}

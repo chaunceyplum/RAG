@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.PutResult",
+    "title": "snowflake.snowpark.PutResult | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: NamedTuple",
+        "Represents the results of uploading a local file to a stage location.",
+        "Methods",
+        "Attributes",
+        "message",
+        "The detailed message of the upload status.",
+        "source",
+        "The source file path.",
+        "source_compression",
+        "The source file compression format.",
+        "source_size",
+        "The size in bytes of the source file.",
+        "status",
+        "Status indicating whether the file was uploaded to the stage.",
+        "target",
+        "The file path in the stage where the source file is uploaded.",
+        "target_compression",
+        "The target file compression format.",
+        "target_size",
+        "The size in bytes of the target file.",
+        "Was this page helpful?"
+    ]
+}

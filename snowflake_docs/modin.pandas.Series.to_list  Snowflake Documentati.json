@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.to_list",
+    "title": "modin.pandas.Series.to_list | Snowflake Documentation",
+    "paragraphs": [
+        "Return a list of the values.",
+        "Was this page helpful?"
+    ]
+}

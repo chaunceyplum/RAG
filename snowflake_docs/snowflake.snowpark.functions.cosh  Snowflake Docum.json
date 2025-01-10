@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.cosh",
+    "title": "snowflake.snowpark.functions.cosh | Snowflake Documentation",
+    "paragraphs": [
+        "Computes the hyperbolic cosine of its argument.",
+        "Example",
+        "Was this page helpful?"
+    ]
+}

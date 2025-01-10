@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_convert_pipes_sqs_to_sns",
+    "title": "SYSTEM$CONVERT_PIPES_SQS_TO_SNS | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Convert pipes using Amazon SQS (Simple Queue Service) notifications to the Amazon Simple Notification Service (SNS) service for\nan S3 bucket.",
+        "For more information, see Automating Snowpipe for Amazon S3.",
+        "Name of the S3 bucket.",
+        "ARN of Amazon SNS topic.",
+        "Only account administrators can execute this function.",
+        "Before you call this function, update the access policy for your topic with the following permissions:",
+        "Allow the Snowflake IAM user to subscribe the SQS queue that is in your target account\nto your topic.",
+        "Allow Amazon S3 to publish event notifications from your bucket to the SNS topic.",
+        "For instructions, see Step 1: Subscribe the Snowflake SQS Queue to the SNS Topic.",
+        "Call this function before you update your S3 bucket to send notifications to the SNS topic.",
+        "To prevent any data loss, Snowpipe will continue to consume messages from the SQS queue.",
+        "The S3 bucket and SNS topic must be in the same AWS region.",
+        "Convert all notifications from bucket my_s3_bucket:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

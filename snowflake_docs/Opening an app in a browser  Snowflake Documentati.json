@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/native-apps/open-app",
+    "title": "Opening an app in a browser | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "You must have an existing connection in your config.toml file.",
+        "You must have a snowflake.yml file in your Snowflake Native App project.",
+        "The snow app open command opens the app specified in the resolved project definition of your Snowflake Native App project.",
+        "Create a connection, if necessary.",
+        "Execute the snow app open command from within your project, similar to the following:",
+        "When successful, the command returns the following message:",
+        "If you have not yet installed an application as part of the snow app run, the following error message is displayed:",
+        "For more information about opening a Snowflake Native App in a browser, see the CLI snow app open command.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

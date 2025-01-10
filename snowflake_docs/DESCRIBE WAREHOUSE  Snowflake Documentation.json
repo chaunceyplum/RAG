@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-warehouse",
+    "title": "DESCRIBE WAREHOUSE | Snowflake Documentation",
+    "paragraphs": [
+        "Describes the warehouse. For example, shows the date that the warehouse was created.",
+        "DESCRIBE can be abbreviated to DESC.",
+        "ALTER WAREHOUSE , CREATE WAREHOUSE, DROP WAREHOUSE , SHOW WAREHOUSES",
+        "Specifies the identifier of the warehouse to describe.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "This demonstrates the DESCRIBE WAREHOUSE command:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

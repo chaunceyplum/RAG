@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-function",
+    "title": "DROP FUNCTION | Snowflake Documentation",
+    "paragraphs": [
+        "Removes the specified user-defined function (UDF) or external function from the current/specified schema.",
+        "CREATE FUNCTION , ALTER FUNCTION , SHOW FUNCTIONS, DESCRIBE FUNCTION",
+        "Specifies the identifier for the UDF to drop. If the identifier contains spaces or special characters, the entire string must be\nenclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Specifies the data type of the argument(s), if any, for the UDF. The argument types are necessary because UDFs support name\noverloading (i.e. two UDFs in the same schema can have the same name) and the argument types are used to identify the UDF you\nwish to drop.",
+        "All Languages",
+        "Dropped functions cannot be recovered; they must be recreated.",
+        "Java, Python, and Scala",
+        "For UDFs that store code in a file (such as a .jar file or .py file) in a stage, the DROP FUNCTION command does not remove\nthe file. Different UDFs can use different functions/methods in the same file, so the file should not be removed while any UDF\nrefers to it. Snowflake does not store a count of the number of references to each staged file and does not remove that staged\nfile when there are no remaining references.",
+        "This demonstrates the DROP FUNCTION command:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

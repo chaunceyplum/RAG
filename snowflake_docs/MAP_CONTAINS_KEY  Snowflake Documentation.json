@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/map_contains_key",
+    "title": "MAP_CONTAINS_KEY | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Map)",
+        "Determines whether the specified MAP contains the specified key.",
+        "The key to find.",
+        "The map to be searched.",
+        "Returns TRUE if the specified map contains the specified key.",
+        "Returns FALSE if the specified map does not contain the specified key.",
+        "The type of the key expression must match the type of the map\u2019s key. If the type is VARCHAR, the types can be different lengths.",
+        "For NULL input, the output is NULL.",
+        "The function searches for the k1 key and finds it in the map:",
+        "The function searches for the k1 key and doesn\u2019t find it in the map:",
+        "A SELECT statement passes in a key that uses a different type than the key in the map:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

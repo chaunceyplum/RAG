@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/revoke-database-role-share",
+    "title": "REVOKE DATABASE ROLE \u2026 FROM SHARE | Snowflake Documentation",
+    "paragraphs": [
+        "Revokes a database role from a share.",
+        "Revoking a database role effectively removes privileges on objects granted to the database role from the share, disabling access to the\nobjects in all consumer accounts that have created a database from the share.",
+        "For more details, see About Secure Data Sharing and Create and configure shares.",
+        "GRANT DATABASE ROLE \u2026 TO SHARE",
+        "Specifies the identifier (i.e. name) for the database role; must be unique in the database in which the role is created.",
+        "The identifier must start with an alphabetic character and cannot contain spaces or special characters unless the entire identifier\nstring is enclosed in double quotes (e.g. \"My object\"). Identifiers enclosed in double quotes are also case-sensitive.",
+        "If the identifier is not fully qualified (in the form of db_name.database_role_name, the command looks for the database role\nin the current database for the session.",
+        "Specifies the identifier for the share to which the specified database role is revoked.",
+        "None.",
+        "Revoke the database role dr1 in database d1 from share share1:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

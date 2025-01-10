@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/any_value",
+    "title": "ANY_VALUE | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (General) , Window functions (General)",
+        "Returns some value of the expression from the group. The result is non-deterministic.",
+        "Aggregate function",
+        "Window function",
+        "The input expression.",
+        "The column to partition on, if you want the result to be split into multiple\npartitions.",
+        "This function can return a value of any data type.",
+        "If the input expression is NULL, the function returns NULL.",
+        "The DISTINCT keyword can be specified for this function, but it does not have any effect.",
+        "The function doesn\u2019t exclude NULL values. If the expression contains NULL values, the function can\nreturn a NULL value.",
+        "When this function is called as a window function, it does not support:",
+        "An ORDER BY clause within the OVER clause.",
+        "Explicit window frames.",
+        "ANY_VALUE can simplify and optimize the performance of GROUP BY statements. A common problem for many queries is that the result of a query with a GROUP BY\nclause can only contain expressions used in the GROUP BY clause itself, or results of aggregate functions. For example:",
+        "In this query, the customer.name attribute needs to be in the GROUP BY to be included in the result. This is unnecessary\n(for example, when customer.id is known to be unique) and makes the computation\npossibly more complex and slower. Another option is to use an aggregate function. For example:",
+        "This simplifies the GROUP BY clause, but still requires computing the MIN function, which incurs an extra cost.",
+        "With ANY_VALUE, you can execute the following query:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

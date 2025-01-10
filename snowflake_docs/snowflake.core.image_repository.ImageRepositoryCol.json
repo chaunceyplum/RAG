@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.image_repository.ImageRepositoryCollection",
+    "title": "snowflake.core.image_repository.ImageRepositoryCollection | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SchemaObjectCollectionParent[ImageRepositoryResource]",
+        "Represents the collection operations on the Snowflake Image Repository resource.",
+        "With this collection, you can create, iterate through, and search for image repositories that you have access to\nin the current context.",
+        "Examples",
+        "Creating an image repository instance:",
+        "Attributes",
+        "Methods",
+        "Create an image repository in Snowflake.",
+        "image_repository (ImageRepository) \u2013 The ImageRepository object, together with the ImageRepository\u2019s properties:\nname;",
+        "mode (CreateMode, optional) \u2013",
+        "One of the following enum values.",
+        "CreateMode.error_if_exists: Throw an snowflake.core.exceptions.ConflictError if the image\nrepository already exists in Snowflake. Equivalent to SQL create image repository <name> ....",
+        "CreateMode.or_replace: Replace if the image repository already exists in Snowflake. Equivalent to SQL\ncreate or replace image repository <name> ....",
+        "CreateMode.if_not_exists: Do nothing if the image repository already exists in Snowflake.\nEquivalent to SQL create image repository <name> if not exists...",
+        "Default value is CreateMode.error_if_exists.",
+        "",
+        "Examples",
+        "Creating an image repository, replacing an existing image repository with the same name:",
+        "Iterate through ImageRepository objects from Snowflake, filtering on any optional \u2018like\u2019 pattern.",
+        "like (str, optional) \u2013 A case-insensitive string functioning as a filter, with support for SQL\nwildcard characters (% and _).",
+        "Examples",
+        "Showing all image repositories that you have access to see:",
+        "Showing information of the exact image repository you want to see:",
+        "Showing image repositories starting with \u2018your-image-repository-name-\u2018:",
+        "Using a for loop to retrieve information from iterator:",
+        "Was this page helpful?"
+    ]
+}

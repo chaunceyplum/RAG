@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_01/bcr-895",
+    "title": "Failover Groups: Change to GRANTED_ON Column in SHOW GRANTS Output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The SHOW GRANTS ON <object_type> <object_name> command lists all the privileges granted on a\nspecific object. The value in the GRANTED_ON column is the type of that object. For failover groups, this value is REPLICATION_GROUP.",
+        "The value in the GRANTED_ON column for SHOW GRANTS ON FAILOVER GROUP <failover_group_name> has changed as follows:",
+        "The GRANTED_ON column value for failover groups was REPLICATION_GROUP.",
+        "The GRANTED_ON column value for failover groups is now FAILOVER_GROUP.",
+        "Ref: 895",
+        "Was this page helpful?"
+    ]
+}

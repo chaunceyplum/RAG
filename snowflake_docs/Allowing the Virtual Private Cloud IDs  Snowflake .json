@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/data-load-s3-allow",
+    "title": "Allowing the Virtual Private Cloud IDs | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes how an AWS administrator in your organization can explicitly grant Snowflake access to your AWS S3 storage account (i.e. your buckets and the objects in those buckets). The process involves allowing the Amazon Virtual Private Cloud (Amazon VPC) IDs for your Snowflake account.",
+        "Important",
+        "This security feature currently requires that your S3 bucket is located in the same AWS region as your Snowflake account.",
+        "To allow the Amazon VPC IDs for your Snowflake account:",
+        "Log into your Snowflake account using any supported client.",
+        "Execute USE ROLE to set ACCOUNTADMIN as the active role for the user session.",
+        "Query the SYSTEM$GET_SNOWFLAKE_PLATFORM_INFO function to retrieve the IDs of the AWS Virtual Network (VNet) in which your Snowflake account is located:",
+        "Record the VPC IDs returned by the query.",
+        "Allow the VPC IDs by creating an Amazon S3 policy for a specific VPC.",
+        "Provide an AWS Identity and Access Management (IAM) role to Snowflake to access the allowed Amazon S3 bucket instead of the AWS key and secret.",
+        "For help with this configuration process or any of the other AWS configuration steps, please contact your organization\u2019s AWS administrator.",
+        "Next: Configuring secure access to Amazon S3",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

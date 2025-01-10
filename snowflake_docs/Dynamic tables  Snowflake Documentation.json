@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/dynamic-tables-intro",
+    "title": "Dynamic tables | Snowflake Documentation",
+    "paragraphs": [
+        "Dynamic tables simplify data engineering in Snowflake by providing a reliable, cost-effective, and\nautomated way to transform data. Instead of managing transformation steps with tasks and scheduling, you\ndefine the end state using dynamic tables and let Snowflake handle the pipeline management.",
+        "Here\u2019s why they\u2019re beneficial:",
+        "Declarative programming: Define your pipeline outcomes using declarative SQL without worrying\nabout the steps to achieve them, reducing complexity.",
+        "Transparent orchestration: Easily create pipelines of various shapes, from linear chains to\ndirected graphs, by chaining dynamic tables together. Snowflake manages the orchestration and\nscheduling of pipeline refresh based on your data freshness target.",
+        "Performance boost with incremental processing: For favorable workloads\nthat are suited for incremental processing, dynamic tables can provide a significant performance\nimprovement over full refreshes.",
+        "Easy switching: Transition seamlessly from batch to streaming with a single ALTER DYNAMIC TABLE\ncommand. You control how often data is refreshed in your pipeline, which helps balance cost and data\nfreshness.",
+        "Operationalization: Dynamic tables are fully observable and manageable through Snowsight, and also\noffer programmatic access to build your own observability apps.",
+        "A dynamic table reflects query results, eliminating the need for a separate target table and custom code\nfor data transformation. An automated process updates the results regularly through scheduled\nrefreshes. Since a dynamic table\u2019s content is based on the\nquery, you can\u2019t modify it using DML operations. The automated refresh process materializes query results\ninto the dynamic table.",
+        "The following topics introduce dynamic table concepts and explain how to transform data in a continuous\ndata pipeline using dynamic tables.",
+        "Concept",
+        "Description",
+        "How dynamic tables work",
+        "Learn about the privileges needed to work with dynamic tables, how dynamic table refresh operates, and the distinctions between dynamic tables, streams & tasks, and materialized views.",
+        "Working with dynamic tables",
+        "Learn about creating, managing, and monitoring dynamic tables.",
+        "Best practices for dynamic tables",
+        "Understand the best practices for working with dynamic tables.",
+        "Understanding cost for dynamic tables",
+        "Understand the compute and storage cost for dynamic tables.",
+        "Known limitations for dynamic tables",
+        "Some actions might be restricted due to limitations on using dynamic tables or if you don\u2019t have the necessary privileges.",
+        "Was this page helpful?"
+    ]
+}

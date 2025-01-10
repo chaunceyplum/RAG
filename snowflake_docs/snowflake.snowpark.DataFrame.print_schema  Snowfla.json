@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.print_schema",
+    "title": "snowflake.snowpark.DataFrame.print_schema | Snowflake Documentation",
+    "paragraphs": [
+        "Prints the schema of a dataframe in tree format.",
+        "level \u2013 The level to print to for nested schemas.",
+        "Was this page helpful?"
+    ]
+}

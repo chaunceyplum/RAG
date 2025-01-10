@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.rpow",
+    "title": "modin.pandas.DataFrame.rpow | Snowflake Documentation",
+    "paragraphs": [
+        "Get exponential power of DataFrame and other, element-wise (binary operator rpow).",
+        "Was this page helpful?"
+    ]
+}

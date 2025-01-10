@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/embed_text_1024-snowflake-cortex",
+    "title": "EMBED_TEXT_1024 (SNOWFLAKE.CORTEX) | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Large Language Model)",
+        "Supported Regions for Feature",
+        "Available to all accounts in selected regions.",
+        "Creates a vector embedding of 1024 dimensions from text.",
+        "A string specifying the vector embedding model to be used to generate the embedding. This must be one of the following values.",
+        "snowflake-arctic-embed-l-v2.0",
+        "nv-embed-qa-4",
+        "multilingual-e5-large",
+        "voyage-multilingual-2",
+        "Supported models might have different costs.",
+        "The text for which an embedding should be calculated.",
+        "A vector embedding of type VECTOR.",
+        "You must use a role that has been granted the SNOWFLAKE.CORTEX_USER database role.\nSee Required privileges for more information on granting this privilege.",
+        "In this example, a vector embedding is generated for the phrase hello world using the snowflake-arctic-embed-l-v2.0 model:",
+        "In this example, a vector embedding is generated for the Spanish phrase hola mundo using the snowflake-arctic-embed-l-v2.0 model:",
+        "Refer to Snowflake AI and ML.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

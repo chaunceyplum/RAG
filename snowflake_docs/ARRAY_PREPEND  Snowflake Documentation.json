@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/array_prepend",
+    "title": "ARRAY_PREPEND | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Array/Object)",
+        "Returns an array containing the new element as well as all elements from the source array. The new element is positioned at the beginning of the array.",
+        "ARRAY_APPEND , ARRAY_INSERT",
+        "The source array.",
+        "The element to be prepended.",
+        "This returns the updated array.",
+        "When you pass a structured array to the function, the function returns a structured\narray of the same type.",
+        "If array is a structured ARRAY, the type of the new element must\nbe coercible to the type of the ARRAY.",
+        "The example below shows that the prepended element is placed at the beginning of the array:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

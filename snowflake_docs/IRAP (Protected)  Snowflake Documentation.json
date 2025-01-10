@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cert-irap",
+    "title": "IRAP (Protected) | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes how Snowflake supports customers with IRAP compliance requirements.",
+        "Note",
+        "Snowflake supports the IRAP certification in certain regions within each cloud platform.",
+        "For details, refer to Asia Pacific & China.",
+        "The Infosec Registered Assessors Program, or IRAP, is a program governed by the Australian Signals Directorate (ASD) of the Australian\nGovernment which endorses suitably-qualified cyber security professionals to provide relevant services which aim to secure broader industry\nand Australian Government systems and data.",
+        "IRAP provides a security framework and an assessment methodology that enables Australian Government agencies and their customers to\nvalidate Snowflake\u2019s security control implementations and compliance against those requirements defined within the Australian Government\nInformation Security Manual (ISM) developed by the Australian Signals Directorate (ASD). Snowflake employs IRAP assessors to validate the\neffectiveness of Snowflake Australian systems against the Information Security Manual at the Protected level.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

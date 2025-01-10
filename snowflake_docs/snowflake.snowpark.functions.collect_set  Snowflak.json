@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.collect_set",
+    "title": "snowflake.snowpark.functions.collect_set | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a Column containing the distinct values in the specified column col.\nThe values in the Column are in no particular order, and the order is not deterministic.\nThe function ignores NULL values in col.\nIf col contains only NULL values or col is empty, the function returns an empty Column.",
+        "col \u2013 A Column object or column name that determines the values.",
+        "Was this page helpful?"
+    ]
+}

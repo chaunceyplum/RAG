@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cleanrooms/differential-privacy",
+    "title": "Differential privacy in Snowflake Data Clean Room | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "To help protect the privacy of entities in your data, Snowflake Data Clean Rooms offer differential privacy. Differential privacy is a\nmath-based privacy system [1] that provides entity-level data protection for both single queries and repeated querying of a data set.\nData providers can configure differential privacy in their clean rooms to enable strong entity-level privacy protection and low noise\nlevels for their data.",
+        "Differential privacy is an alternative to simple aggregation requirements, which can expose private information if adversaries generate\nenough \u201cclose\u201d  queries on data that differ by one entity (known as a differencing attack).",
+        "Differential privacy is also a good alternative to data masking, which hides column values entirely at the cost\nof preventing joins on masked rows and hiding useful data from the analyst. Differential privacy enables joins on protected columns, and\nalso allows analysts to view protected data, by adding enough noise to protect the privacy of protected rows, but not so much\nnoise that the data is unusable by the analyst.",
+        "C. Dwork and A. Roth. The Algorithmic Foundations of Differential Privacy. Foundations and Trends in Theoretical\nComputer Science, 9 (3-4):211-407, 2014.",
+        "Important",
+        "Customers are responsible for configuring differential privacy tools in Snowflake Data Clean Rooms to meet their data privacy\nrequirements. These tools are not configured by default.",
+        "Differential privacy does incur costs. If you want to manage these costs, you can turn\noff differential privacy for the account:",
+        "First, turn off differential privacy for all clean rooms using the web app:",
+        "Log in to the web app.",
+        "Disable differential privacy in all non-failed clean rooms, even if not shared or published:",
+        "Select Clean rooms > Created > Edit.",
+        "Select Next until you reach Configure Analysis & Query.",
+        "At the bottom of the page, expand Privacy Settings. Deselect Differential Privacy if it is selected, then click\nNext and Finish to save your changes. If it is not selected, just click Cancel and move on to the next clean\nroom.",
+        "Finally, suspend the differential privacy background task in your account by calling the provider.suspend_account_dp_task procedure\nin Snowsight.",
+        "Important",
+        "Enabling differential privacy in a clean room after disabling the background task automatically re-enables the task for that account.",
+        "Some notes and troubleshooting:",
+        "If you forget to disable differential privacy for a clean room and suspend the background task, differential privacy might not\nfunction in that clean room for users who have already installed it.",
+        "If differential privacy is enabled within a clean room prior to the clean room being installed, the installation of the clean room\nfails. In this case, you must disable differential privacy in the clean room or re-enable the task as outlined below.",
+        "If you later want to enable differential privacy in your account, either enable differential privacy for any clean room in the account or\ncall the provider.resume_account_dp_task procedure in Snowsight.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

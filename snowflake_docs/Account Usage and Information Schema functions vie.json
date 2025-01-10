@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_03/bcr-1406",
+    "title": "Account Usage and Information Schema functions views: New column(s) in output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, the output of the\nAccount Usage Functions view\nand Information Schema Functions view includes the following new columns:",
+        "Column name",
+        "Data type",
+        "Description",
+        "EXTERNAL_ACCESS_INTEGRATIONS",
+        "STRING array",
+        "Names of external access integrations specified by the function\u2019s EXTERNAL_ACCESS_INTEGRATION parameter.",
+        "For example:\n[\u201cTEST_EXTERNAL_ACCESS_INTEGRATION\u201d]",
+        "SECRETS",
+        "JSON map",
+        "Map of secrets specified by the function\u2019s SECRETS parameter, where\nmap keys are secret variable names and map values are secret object names.",
+        "For example: {\u201ccred\u201d:\u201dSECRET_OAUTH\u201d,\u201dcre2\u201d:\u201dSECRET_GENERIC_STRING\u201d}",
+        "Ref: 1406",
+        "Was this page helpful?"
+    ]
+}

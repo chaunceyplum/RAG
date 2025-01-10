@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.udaf.UDAFRegistration.describe",
+    "title": "snowflake.snowpark.udaf.UDAFRegistration.describe | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a DataFrame that describes the properties of a UDAF.",
+        "udaf_obj \u2013 A UserDefinedAggregateFunction returned by\nudaf() or register().",
+        "Was this page helpful?"
+    ]
+}

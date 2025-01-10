@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/udf-stored-procedure-build-sbt",
+    "title": "Packaging Scala Handler Code with sbt | Snowflake Documentation",
+    "paragraphs": [
+        "You can use the Scala build tool (sbt) to build and package your code as an assembly JAR. You can use the\nsbt-assembly plugin to create a JAR file containing all of the\ndependencies.",
+        "Once you have a JAR file, you can upload the file to a Snowflake stage, then reference it in the IMPORTS parameter in the\nCREATE FUNCTION or CREATE PROCEDURE statement that you use to create the function or\nprocedure . For more information on uploading JAR files, refer to Making dependencies available to your code. For more\ninformation on choosing whether to have code inline or on a stage, refer to Keeping handler code in-line or on a stage.",
+        "To create an assembly JAR file with your handler code, use the following steps.",
+        "In the directory containing your build.sbt file, in the project/ subdirectory, create a file named plugins.sbt.",
+        "For example, if the directory containing your build.sbt file is hello-snowpark/, create the file\nhello-snowpark/project/plugins.sbt:",
+        "In the plugins.sbt file, add the following line:",
+        "This adds the sbt-assembly plugin to your project.",
+        "If your project requires multiple versions of the same library (e.g. if your project depends on two libraries that require\ndifferent versions of a third library), define a merge strategy in your build.sbt file to resolve the dependencies. See\nMerge Strategy for details.",
+        "If your project requires the Snowpark library, refer to it in your build.sbt file with libraryDependencies, as shown below.\nBe sure to use at least the minimum version required.",
+        "Because the Snowpark library is included on Snowflake, exclude it from the JAR file by specifying that the dependency is\n\"provided\".",
+        "Change to the directory for your project (e.g. hello-snowpark), and run the following command:",
+        "Note",
+        "If you encounter the error Not a valid command: assembly, Not a valid project ID: assembly, or\nNot a valid key: assembly, make sure that the plugins.sbt file is in the subdirectory named project/ (as\nmentioned in step 1).",
+        "This command creates a JAR file in the following location:",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

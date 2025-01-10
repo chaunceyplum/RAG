@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/native-apps/connector-sdk/reference/disable_resource_reference",
+    "title": "Disable resource reference | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to accounts in all regions in all cloud providers (including government regions). For details, contact your Snowflake representative.",
+        "The following database objects are created when the file ingestion/resource_management.sql is executed.",
+        "Entry point procedure available to the ADMIN role. This procedure invokes the Java function DisableResourceHandler.disableResource.",
+        "Procedure used for adding connector specific logic which is invoked before a resource is disabled.\nBy default, it returns 'response_code': 'OK'.\nIt is invoked by DefaultPreDisableResourceCallback. Can be overwritten both in SQL and Java.",
+        "Procedure used for adding connector specific logic which is invoked after a resource is disabled.\nBy default, it returns 'response_code': 'OK'.\nIt is invoked by DefaultPostDisableResourceCallback. Can be overwritten both in SQL and Java.",
+        "The following Java objects from the com.snowflake.connectors.application.ingestion.disable package and some common components are tightly connected with the above procedures:",
+        "DisableResourceHandler",
+        "DisableResourceHandlerBuilder",
+        "PreDisableResourceCallback",
+        "PostDisableResourceCallback",
+        "ConnectorErrorHelper",
+        "The handler and its internals can be customized using the following approaches.",
+        "The following components can be replaced using SQL.",
+        "To provide a custom implementation of DisableResourceHandler, replace the PUBLIC.DISABLE_RESOURCE procedure.",
+        "For example:",
+        "Internal procedures PRE_DISABLE_RESOURCE and POST_DISABLE_RESOURCE can be also customized through the SQL. These procedures can also invoke other Java handlers:",
+        "DisableResourceHandler can be customized using DisableResourceHandlerBuilder. This builder allows user to provide custom implementations of the following interfaces:",
+        "PreDisableResourceCallback",
+        "PostDisableResourceCallback",
+        "ConnectorErrorHelper",
+        "When a function is not provided the default implementation provided by the SDK is used.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

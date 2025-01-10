@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/try_to_geometry",
+    "title": "TRY_TO_GEOMETRY | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions, Conversion functions",
+        "Parses an input and returns a value of type GEOMETRY.",
+        "This function is identical to TO_GEOMETRY except that it returns NULL\nwhen TO_GEOMETRY would return an error.",
+        "TO_GEOMETRY",
+        "Use one of the following:",
+        "Required:",
+        "The argument must be a string expression that represents a valid geometric object in one of the following formats:",
+        "WKT (well-known text).",
+        "WKB (well-known binary) in hexadecimal format (without a leading 0x).",
+        "EWKT (extended well-known text).",
+        "EWKB (extended well-known binary) in hexadecimal format (without a leading 0x).",
+        "GeoJSON.",
+        "The argument must be a binary expression in WKB or EWKB format.",
+        "The argument must be an OBJECT in GeoJSON format.",
+        "Optional:",
+        "The integer value of the SRID to use.",
+        "If TRUE, specifies that the function should return a GEOGRAPHY or GEOMETRY object, even when the input shape is invalid and\ncannot be repaired. For details, refer to Specifying how invalid geospatial shapes are handled.",
+        "The function returns a value of type GEOMETRY.",
+        "Returns NULL if the input cannot be parsed as the appropriate supported format (WKT, WKB, EWKT, EWKB, GeoJSON).",
+        "For GeoJSON, WKT, and WKB input, if the srid argument is not specified, the resulting GEOMETRY object has the SRID\nset to 0.",
+        "This shows a simple use of the TRY_TO_GEOMETRY function with VARCHAR data:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

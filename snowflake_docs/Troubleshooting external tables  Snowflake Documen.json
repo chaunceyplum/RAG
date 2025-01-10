@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/tables-external-ts",
+    "title": "Troubleshooting external tables | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes how to troubleshoot issues with external tables.",
+        "If ownership of an external table (i.e. the OWNERSHIP privilege on the external table) is transferred to a different role, the AUTO_REFRESH parameter for the external table is set to FALSE by default. To re-enable automatic refreshing of the external table metadata, set the AUTO_REFRESH parameter to TRUE using an ALTER EXTERNAL TABLE statement.",
+        "Verify that the configured settings for the external cloud messaging service are still accurate. For more information, see the instructions for your cloud storage provider:",
+        "Refreshing external tables automatically for Amazon S3",
+        "Refreshing external tables automatically for Azure Blob Storage",
+        "Retrieve the current status of the internal, hidden pipe used by the external table to refresh its metadata. The results are displayed in JSON format. For information, see SYSTEM$EXTERNAL_TABLE_PIPE_STATUS.",
+        "Check the following values:",
+        "Specifies the timestamp of the last event message received from the message queue.",
+        "If the timestamp is earlier than expected, this likely indicates an issue with either the cloud event notification service configuration or the service itself. If the field is empty, verify your service configuration settings. If the field contains a timestamp but it is earlier than expected, verify whether any settings were changed in your service configuration.",
+        "Specifies the timestamp of the last event message that was forwarded to the pipe.",
+        "This error can occur when the association between the external stage and the storage\nintegration linked to the stage has been broken. This happens when the storage integration\nobject has been recreated (using\nCREATE OR REPLACE STORAGE INTEGRATION).\nA stage links to a storage integration using a hidden ID rather than the name of the storage\nintegration. Behind the scenes, the CREATE OR REPLACE syntax drops the object and recreates\nit with a different hidden ID.",
+        "If you must recreate a storage integration after it has been linked to one or more stages,\nyou must reestablish the association between each stage and the storage integration by\nexecuting ALTER STAGE\nstage_name SET STORAGE_INTEGRATION = storage_integration_name, where:",
+        "stage_name is the name of the stage.",
+        "storage_integration_name is the name of the storage integration.",
+        "Querying an external table may produce an error similar to the following:",
+        "This error can occur when the URL for the referenced stage is modified after the external table was created (using ALTER STAGE \u2026 SET URL).",
+        "If you must modify the stage URL, you must recreate any existing external tables that reference the stage (using CREATE OR REPLACE EXTERNAL TABLE).",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

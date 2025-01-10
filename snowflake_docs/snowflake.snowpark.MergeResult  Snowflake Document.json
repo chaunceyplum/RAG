@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.MergeResult",
+    "title": "snowflake.snowpark.MergeResult | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: NamedTuple",
+        "Result of merging a DataFrame into a Table.",
+        "Methods",
+        "Attributes",
+        "rows_deleted",
+        "The number of rows deleted.",
+        "rows_inserted",
+        "The number of rows inserted.",
+        "rows_updated",
+        "The number of rows updated.",
+        "Was this page helpful?"
+    ]
+}

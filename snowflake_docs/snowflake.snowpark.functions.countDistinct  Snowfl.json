@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.countDistinct",
+    "title": "snowflake.snowpark.functions.countDistinct | Snowflake Documentation",
+    "paragraphs": [
+        "Returns either the number of non-NULL distinct records for the specified columns,\nor the total number of the distinct records.",
+        "Example",
+        "Was this page helpful?"
+    ]
+}

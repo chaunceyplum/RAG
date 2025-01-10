@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-authentication-policy",
+    "title": "DROP AUTHENTICATION POLICY | Snowflake Documentation",
+    "paragraphs": [
+        "Removes an authentication policy from the system.",
+        "CREATE AUTHENTICATION POLICY, ALTER AUTHENTICATION POLICY, DESCRIBE AUTHENTICATION POLICY, SHOW AUTHENTICATION POLICIES",
+        "Specifies the identifier for the authentication policy to drop. If the identifier contains spaces or special characters, you must enclose\nthe string in double quotation marks. Identifiers enclosed in double quotation marks are case-sensitive. The identifier must meet the\nidentifier requirements.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "OWNERSHIP",
+        "Authentication policy",
+        "OWNERSHIP is a special privilege on an object that is automatically granted to the role that created the object, but can also be transferred using the GRANT OWNERSHIP command to a different role by the owning role (or any role with the MANAGE GRANTS privilege).",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "You cannot recover dropped authentication policies. You must recreate them.",
+        "You cannot drop an authentication policy if it is set on an account or user.",
+        "Drop an authentication policy named my_auth_policy:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/h3_is_pentagon",
+    "title": "H3_IS_PENTAGON | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns TRUE if the boundary of an H3 cell represents a pentagon.",
+        "An INTEGER value that represents the H3 cell ID (index), or a VARCHAR value that represents the cell ID\nin hexadecimal format.",
+        "Returns a BOOLEAN or NULL.",
+        "The value is TRUE if the input represents a pentagon. Otherwise, returns FALSE.",
+        "If the input is NULL, returns NULL without reporting an error.",
+        "The following example specifies an integer that does not represent a pentagon.",
+        "The following example specifies a hexadecimal string that represents a pentagon.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

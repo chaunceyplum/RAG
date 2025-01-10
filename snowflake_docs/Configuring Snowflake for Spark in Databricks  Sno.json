@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/spark-connector-databricks",
+    "title": "Configuring Snowflake for Spark in Databricks | Snowflake Documentation",
+    "paragraphs": [
+        "The Databricks version 4.2 native Snowflake Connector allows your Databricks account\nto read data from and write data to Snowflake without importing any libraries.\nOlder versions of Databricks required importing the libraries for the Spark connector into your Databricks clusters.",
+        "The connector automatically distributes processing across Spark and Snowflake,\nwithout requiring the user to specify the parts of the processing that should be\ndone on each system. Queries also benefit from Snowflake\u2019s automatic query\npushdown optimization.",
+        "You must have a Databricks account, and you must be using the Databricks Runtime version 4.2 or later. In addition:",
+        "You should have already set your Snowflake user login name and password in your Databricks secret manager; you will read the login and password back by calling dbutils.secrets.get(...). For more details about the Databricks secret manager, see https://docs.databricks.com/user-guide/secrets/index.html",
+        "You must have a Snowflake account. To read or write from this account, you need the following information:",
+        "URL for your Snowflake account.",
+        "Login name and password for the user who connects to the account.",
+        "Default database and schema to use for the session after connecting.",
+        "Default virtual warehouse to use for the session after connecting.",
+        "The role used in the connection needs USAGE and CREATE STAGE privileges\non the schema that contains the table that you will read from or write to\nvia Databricks.",
+        "The primary documentation for the Databricks Snowflake Connector is available on the Databricks web site. That documentation includes examples showing the commands\na Scala or Python notebook uses to send data from Spark to Snowflake or vice versa.",
+        "For more details, see Data Sources \u2014 Snowflake.",
+        "If some of your jobs exceed 36 hours in length, consider preparing an\nexternal location to use to exchange data between Snowflake and Spark.\nFor more information, see Preparing an External Location For Files.",
+        "Spark queries benefit from Snowflake\u2019s automatic query pushdown optimization, which improves performance. By default, Snowflake query pushdown is enabled in Databricks.",
+        "For more details about query pushdown, see Pushing Spark Query Processing to Snowflake (Snowflake Blog).",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

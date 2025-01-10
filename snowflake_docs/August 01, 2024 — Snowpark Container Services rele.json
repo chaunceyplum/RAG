@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-08-01-spcs",
+    "title": "August 01, 2024 \u2014 Snowpark Container Services release notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this Snowpark Container Services release, we are pleased to announce the following:",
+        "General availability to Snowflake accounts in all commercial AWS regions.",
+        "Preview availability to Snowflake accounts in all commercial Azure regions.",
+        "Was this page helpful?"
+    ]
+}

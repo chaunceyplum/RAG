@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.to_snowpark",
+    "title": "modin.pandas.to_snowpark | Snowflake Documentation",
+    "paragraphs": [
+        "Convert the Snowpark pandas DataFrame or Series to a Snowpark DataFrame.\nNote that once converted to a Snowpark DataFrame, no ordering information will be preserved. You can call\nreset_index to generate a default index column that is the same as the row position before the call to_snowpark.",
+        "obj \u2013 The object to be converted to Snowpark DataFrame. It must be either a Snowpark pandas DataFrame or Series",
+        "index \u2013 bool, default True.\nWhether to keep the index columns in the result Snowpark DataFrame. If True, the index columns\nwill be the first set of columns. Otherwise, no index column will be included in the final Snowpark\nDataFrame.",
+        "index_label \u2013 IndexLabel, default None.\nColumn label(s) to use for the index column(s). If None is given (default) and index is True,\nthen the original index column labels are used. A sequence should be given if the DataFrame uses\nMultiIndex, and the length of the given sequence should be the same as the number of index columns.",
+        "",
+        "A Snowpark DataFrame contains the index columns if index=True and all data columns of the Snowpark pandas\nDataFrame. The identifier for the Snowpark DataFrame will be the normalized quoted identifier with\nthe same name as the pandas label.",
+        "",
+        "ValueError if duplicated labels occur among the index and data columns. \u2013",
+        "ValueError if the label used for a index or data column is None. \u2013",
+        "See also",
+        "Snowpark.DataFrame.to_snowpark_pandas",
+        "DataFrame.to_snowpark",
+        "Series.to_snowpark",
+        "Note",
+        "The labels of the Snowpark pandas DataFrame or index_label provided will be used as Normalized Snowflake\nIdentifiers of the Snowpark DataFrame.\nFor details about Normalized Snowflake Identifiers, please refer to the Note in read_snowflake()",
+        "Examples:",
+        "Was this page helpful?"
+    ]
+}

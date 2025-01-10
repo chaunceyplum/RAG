@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/left",
+    "title": "LEFT | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Matching/Comparison)",
+        "Returns a leftmost substring of its input.",
+        "LEFT(STR, N) is equivalent to SUBSTR(STR, 1, N).",
+        "RIGHT , SUBSTR , SUBSTRING",
+        "An expression that evaluates to a VARCHAR or BINARY value.",
+        "An expression that evaluates to an integer. It specifies:",
+        "The number of UTF-8 characters to return if the input is a VARCHAR value.",
+        "The number of bytes to return if the input is a BINARY value.",
+        "Specify a length that is greater than or equal to zero. If the length is a negative number, the function returns an\nempty string.",
+        "The data type of the returned value is the same as the data type of the string_expr (VARCHAR or BINARY).",
+        "If any of the inputs are NULL, NULL is returned.",
+        "If length_expr is greater than the length of expr, then the function returns expr.",
+        "Collation applies to VARCHAR inputs. Collation doesn\u2019t apply if the input data type of the first parameter\nis BINARY.",
+        "No impact. Although collation is accepted syntactically, collations don\u2019t affect processing. For example,\ntwo-character and three-character letters in languages (for example, \u201cdzs\u201d in Hungarian or \u201cch\u201d in Czech)\nare still counted as two or three characters (not one character) for the length argument.",
+        "The collation of the result is the same as the collation of the input. This can be useful if the returned value is passed to another function as part of nested function calls.",
+        "The following examples use the LEFT function.",
+        "The following examples return substrings for customer information in a table.",
+        "Create the table and insert data:",
+        "Use the POSITION function with the LEFT function to extract the username from email addresses.\nThis example finds the position of @ in each string and subtracts one to return the username:",
+        "Tip",
+        "You can use the POSITION function to find the position of other characters, such as an empty\ncharacter (' ') or an underscore (_).",
+        "In the cust_phone column in the table, the area code is always the first three characters. Extract\nthe area code from phone numbers:",
+        "In the activation_date column in the table, the date is always in the format YYYYMMDD. Extract the year\nfrom these strings:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

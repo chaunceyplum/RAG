@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions-notification",
+    "title": "Notification functions | Snowflake Documentation",
+    "paragraphs": [
+        "Notification functions are helper functions that you can call when using the\nSYSTEM$SEND_SNOWFLAKE_NOTIFICATION stored procedure to\nsend a notification.",
+        "The integration configuration and message construction functions return JSON-formatted strings that you pass to the\nSYSTEM$SEND_SNOWFLAKE_NOTIFICATION stored procedure.",
+        "Sub-category",
+        "Function",
+        "Notes",
+        "Integration Configuration",
+        "EMAIL_INTEGRATION_CONFIG",
+        "INTEGRATION",
+        "Message Construction",
+        "APPLICATION_JSON",
+        "TEXT_HTML",
+        "TEXT_PLAIN",
+        "Message Sanitization",
+        "SANITIZE_WEBHOOK_CONTENT",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/stored-procedure/python/procedure-python-writing",
+    "title": "Writing the Python handler for a stored procedure | Snowflake Documentation",
+    "paragraphs": [
+        "You can write Python code as the handler that executes when a stored procedure is called. This section describes the design of a\nhandler.",
+        "You can create a stored procedure from the handler code in several ways:",
+        "Include the code in-line with the SQL statement that creates the procedure. Refer to Keeping handler code in-line or on a stage.",
+        "Copy the code to a stage and reference it there when you create the procedure. Refer to Keeping handler code in-line or on a stage.",
+        "Write the code in a Python worksheet and deploy the worksheet contents to a stored procedure. Refer to\nCreating a stored procedure from a Python worksheet.",
+        "Stored procedures run inside Snowflake, and so you must plan the code that you write with that in mind.",
+        "Limit the amount of memory consumed. Snowflake places limits on a method in terms of the amount of memory needed.\nFor guidance, refer to Designing Handlers that Stay Within Snowflake-Imposed Constraints.",
+        "Make sure that your handler method or function is thread safe.",
+        "Follow the rules and security restrictions. Refer to Security Practices for UDFs and Procedures.",
+        "Decide whether you want the stored procedure to run with caller\u2019s rights or owner\u2019s rights.",
+        "Consider the snowflake-snowpark-python version used to run stored procedures. Due to limitations in the stored procedures release process,\nthe snowflake-snowpark-python library available in the Python stored procedure environment is usually one version behind the publicly\nreleased version. Use the following SQL to find out the latest available version:",
+        "When writing the method or function for the stored procedure, note the following:",
+        "Specify the Snowpark Session object as the first argument of your method or function.\nWhen you call your stored procedure, Snowflake automatically creates a Session object and passes it to your stored procedure.\n(You cannot create the Session object yourself.)",
+        "For the rest of the arguments and for the return value, use the Python types that correspond to\nSnowflake data types. Snowflake supports the Python data types listed in\nSQL-Python Data Type Mappings for Parameters and Return Types.",
+        "When you run an asynchronous child job from within a procedure\u2019s handler \u2014 such as by using\nDataFrame.collect_nowait\n\u2014 \u201cfire and forget\u201d is not supported.",
+        "In other words, if the handler issues a child query that is still running when the parent procedure job completes, the child job is\ncanceled automatically.",
+        "You can use the normal Python exception-handling techniques to catch errors within the procedure.",
+        "If an uncaught exception occurs inside the method, Snowflake raises an error that includes the stack trace for the exception. When\nlogging of unhandled exceptions is enabled, Snowflake logs data\nabout unhandled exceptions in an event table.",
+        "If your handler code depends on code defined outside the handler itself (such as code defined in a module) or on resource files, you can\nmake those dependencies available to your code by uploading them to a stage.\nRefer to Making dependencies available to your code, or for Python worksheets, refer to Add a Python File from a Stage to a Worksheet.",
+        "If you create your stored procedure using SQL, use the IMPORTS clause when writing the\nCREATE PROCEDURE statement, to point to the dependency files.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

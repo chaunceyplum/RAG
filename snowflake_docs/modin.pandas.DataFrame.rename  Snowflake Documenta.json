@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.rename",
+    "title": "modin.pandas.DataFrame.rename | Snowflake Documentation",
+    "paragraphs": [
+        "Rename columns or index labels.",
+        "Function / dict values must be unique (1-to-1). Labels not contained in\na dict / Series will be left as-is. Extra labels listed don\u2019t throw an\nerror.",
+        "mapper (dict-like or function) \u2013 Dict-like or function transformations to apply to\nthat axis\u2019 values. Use either mapper and axis to\nspecify the axis to target with mapper, or index and\ncolumns.",
+        "index (dict-like or function) \u2013 Alternative to specifying axis (mapper, axis=0\nis equivalent to index=mapper).",
+        "columns (dict-like or function) \u2013 Alternative to specifying axis (mapper, axis=1\nis equivalent to columns=mapper).",
+        "axis ({0 or 'index', 1 or 'columns'}, default 0) \u2013 Axis to target with mapper. Can be either the axis name\n(\u2018index\u2019, \u2018columns\u2019) or number (0, 1). The default is \u2018index\u2019.",
+        "copy (bool, default True) \u2013 Also copy underlying data. copy has been ignored with Snowflake execution engine.",
+        "inplace (bool, default False) \u2013 Whether to modify the DataFrame rather than creating a new one.\nIf True then value of copy is ignored.",
+        "level (int or level name, default None) \u2013 In case of a MultiIndex, only rename labels in the specified\nlevel.",
+        "errors ({'ignore', 'raise'}, default 'ignore') \u2013 If \u2018raise\u2019, raise a KeyError when a dict-like mapper, index,\nor columns contains labels that are not present in the Index\nbeing transformed.\nIf \u2018ignore\u2019, existing keys will be renamed and extra keys will be\nignored.",
+        "DataFrame with the renamed axis labels or None if inplace=True.",
+        "DataFrame or None",
+        "KeyError \u2013 If any of the labels is not found in the selected axis and\n    \u201cerrors=\u2019raise\u2019\u201d.",
+        "See also",
+        "Set the name of the axis.",
+        "Examples",
+        "DataFrame.rename supports two calling conventions",
+        "(index=index_mapper, columns=columns_mapper, ...)",
+        "(mapper, axis={'index', 'columns'}, ...)",
+        "We highly recommend using keyword arguments to clarify your\nintent.",
+        "Rename columns using a mapping:",
+        "Rename index using a mapping:",
+        "Cast index labels to a different type:",
+        "Using axis-style parameters:",
+        "Was this page helpful?"
+    ]
+}

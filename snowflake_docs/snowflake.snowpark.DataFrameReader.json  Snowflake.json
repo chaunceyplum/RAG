@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrameReader.json",
+    "title": "snowflake.snowpark.DataFrameReader.json | Snowflake Documentation",
+    "paragraphs": [
+        "Specify the path of the JSON file(s) to load.",
+        "path \u2013 The stage location of a JSON file, or a stage location that has JSON files.",
+        "a DataFrame that is set up to load data from the specified JSON file(s) in a Snowflake stage.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.database_role",
+    "title": "snowflake.core.database_role | Snowflake Documentation",
+    "paragraphs": [
+        "Manages Snowflake database roles.",
+        "Example",
+        "Classes",
+        "DatabaseRole(*,\u00a0name[,\u00a0comment,\u00a0created_on,\u00a0...])",
+        "A model object representing the DatabaseRole resource.",
+        "DatabaseRoleCollection(database,\u00a0root)",
+        "Represents the collection operations on the Snowflake DatabaseRole resource.",
+        "DatabaseRoleResource(name,\u00a0collection)",
+        "Represents a reference to a Snowflake database role.",
+        "ContainingScope(*,\u00a0database[,\u00a0schema])",
+        "A model object representing the ContainingScope resource.",
+        "Securable(*[,\u00a0database,\u00a0schema,\u00a0service])",
+        "A model object representing the Securable resource.",
+        "Grant(*[,\u00a0securable,\u00a0containing_scope,\u00a0...])",
+        "A model object representing the Grant resource.",
+        "Was this page helpful?"
+    ]
+}

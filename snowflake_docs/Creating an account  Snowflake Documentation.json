@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/organizations-manage-accounts-create",
+    "title": "Creating an account | Snowflake Documentation",
+    "paragraphs": [
+        "An account can be created by an organization administrator (i.e. a user with the ORGADMIN role) through the web interface or using SQL:",
+        "Select Admin \u00bb Accounts \u00bb + Account.",
+        "Execute a CREATE ACCOUNT command.",
+        "Note",
+        "For instructions on how to create a Snowflake Open Catalog account, see Create a Snowflake Open Catalog account",
+        "When creating an account, you can specify a cloud platform, a\nregion, and a Snowflake edition. You can optionally specify a region\ngroup if you have, or want to have, accounts in multiple region groups. For more details see Region groups.",
+        "If you are having trouble creating or accessing a new account, consider:",
+        "By default, the maximum number of On Demand accounts in an organization is 25. If the organization has a capacity contract,\nthe default maximum number of accounts is 100. Contact Snowflake Support to have these limits raised.",
+        "You can only create an account in a region that is enabled for your organization. For a list of available regions,\nsee Viewing a List of Regions Available for an Organization. To request access to additional regions, contact Snowflake Support.",
+        "It takes about 30 seconds for the DNS changes to propagate before you can access a newly created account. If the account is not\naccessible immediately, wait for approximately 30 seconds and try again.",
+        "Each account in your organization can have its own set of users, roles, databases, and warehouses.",
+        "You will be billed for usage in all of your accounts on a single bill. To monitor usage for your organization accounts, see Organization Usage views.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

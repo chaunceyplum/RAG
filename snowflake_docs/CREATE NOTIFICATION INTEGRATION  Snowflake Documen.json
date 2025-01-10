@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/create-notification-integration",
+    "title": "CREATE NOTIFICATION INTEGRATION | Snowflake Documentation",
+    "paragraphs": [
+        "Creates a new notification integration in the account or replaces an existing integration. A notification integration is a\nSnowflake object that provides an interface between Snowflake and third-party messaging services (third-party cloud message\nqueuing services, email services, webhooks, etc.).",
+        "The syntax of the command depends on the type of the messaging service and whether the message is inbound or outbound. The\nfollowing topics explain the syntax for creating notification integrations for different use cases:",
+        "CREATE NOTIFICATION INTEGRATION (inbound from an Azure Event Grid topic)",
+        "CREATE NOTIFICATION INTEGRATION (inbound from a Google Pub/Sub topic)",
+        "CREATE NOTIFICATION INTEGRATION (outbound to an Amazon SNS topic)",
+        "CREATE NOTIFICATION INTEGRATION (outbound to an Azure Event Grid topic)",
+        "CREATE NOTIFICATION INTEGRATION (outbound to a Google Pub/Sub topic)",
+        "CREATE NOTIFICATION INTEGRATION (email)",
+        "CREATE NOTIFICATION INTEGRATION (webhooks)",
+        "ALTER NOTIFICATION INTEGRATION , DESCRIBE INTEGRATION , DROP INTEGRATION , SHOW INTEGRATIONS",
+        "Was this page helpful?"
+    ]
+}

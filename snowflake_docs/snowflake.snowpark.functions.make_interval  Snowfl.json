@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.make_interval",
+    "title": "snowflake.snowpark.functions.make_interval | Snowflake Documentation",
+    "paragraphs": [
+        "Creates an interval column with the specified years, quarters, months, weeks, days, hours,\nminutes, seconds, milliseconds, microseconds, and nanoseconds. You can find more details in\nInterval constants.",
+        "INTERVAL is not a data type (that is, you can\u2019t define a table column to be of data type INTERVAL).\nIntervals can only be used in date, time, and timestamp arithmetic. For example,\ndf.select(make_interval(days=0)) is not valid.",
+        "Example:",
+        "You can also find some examples to use interval constants with range_between()\nmethod.",
+        "Was this page helpful?"
+    ]
+}

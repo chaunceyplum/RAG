@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/streamlit-apps/manage-apps/manage-app",
+    "title": "Managing Streamlit apps | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "After you have created a Streamlit app, you can use the following commands to manage the app:",
+        "To retrieve the URL of your Streamlit app, use the snow streamlit get-url NAME command. See snow streamlit get-url for more information.",
+        "To share your app to other roles, use the snow streamlit share NAME TO_ROLE command. See snow streamlit share for more information.",
+        "To list the Streamlit apps for which you have access, use the snow streamlit list command. See snow streamlit list for more information.",
+        "To display details about a Streamlit app, use the snow streamlit describe NAME command. See snow streamlit describe for more information.",
+        "To delete a Streamlit app, use the snow streamlit drop NAME command. See snow streamlit drop for more information.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

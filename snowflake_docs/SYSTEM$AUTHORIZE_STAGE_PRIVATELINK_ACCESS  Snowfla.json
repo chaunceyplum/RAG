@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_authorize_stage_privatelink_access",
+    "title": "SYSTEM$AUTHORIZE_STAGE_PRIVATELINK_ACCESS | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Authorizes Snowflake to access the Microsoft Azure Private Endpoint for Azure private endpoints for internal stages for the current account.",
+        "SYSTEM$REVOKE_STAGE_PRIVATELINK_ACCESS",
+        "The unique identifier for the Private Endpoint in Azure.",
+        "Snowflake uses this endpoint value to access the internal stage through the Azure internal network to avoid the public Internet.",
+        "For instructions on how to obtain this value, see Configuring private endpoints to access Snowflake internal stages.",
+        "Only account administrators (i.e. users with the ACCOUNTADMIN role) can execute this function.",
+        "This function can be used with Snowflake accounts on Azure. This function is not supported for Snowflake accounts on Amazon Web Services\nor Google Cloud Platform.",
+        "Authorize Snowflake to access the Private Endpoint in Azure:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

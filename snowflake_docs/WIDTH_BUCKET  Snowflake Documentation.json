@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/width_bucket",
+    "title": "WIDTH_BUCKET | Snowflake Documentation",
+    "paragraphs": [
+        "Numeric functions",
+        "Constructs equi-width histograms, in which the histogram range is divided into intervals of identical size, and returns the bucket number into which the value of an expression falls, after\nit has been evaluated. The function returns an integer value or null (if any input is null).",
+        "The expression for which the histogram is created. This expression must evaluate to a numeric value or to a value that can be implicitly converted to a numeric value.",
+        "The value must be within the range of -(2^53 - 1) to 2^53 - 1 (inclusive).",
+        "The low and high end points of the acceptable range for the expression. The end points must also evaluate to numeric values and not be equal.",
+        "The low and high end points must be within the range of -(2^53 - 1) to 2^53 - 1 (inclusive). In addition, the difference\nbetween these points must be less than 2^53 (i.e. abs(max_value - min_value) < 2^53).",
+        "The desired number of buckets; must be a positive integer value. A value from the expression is assigned to each bucket, and the function then returns the corresponding bucket number.",
+        "When an expression falls outside the range, the function returns:",
+        "0 if the expression is less than min_value.",
+        "num_buckets + 1 if the expression is greater than or equal to max_value.",
+        "Create a four-bucket histogram on the price column for homes sold in the price range of $200 - 600k,\nordered by sales date. The function returns the bucket number (SALES GROUP) for each value in the set.",
+        "Create and fill a table:",
+        "Query the table, calling WIDTH_BUCKET():",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

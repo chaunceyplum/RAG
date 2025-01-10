@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/sha1_binary",
+    "title": "SHA1_BINARY | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Cryptographic Hash)",
+        "Returns a 20-byte binary containing the 160-bit SHA-1 message digest.",
+        "A string expression, the message to be hashed.",
+        "The data type of the returned value is BINARY.",
+        "The SHA1 family of functions is provided primarily for backwards compatibility with other systems.\nFor more secure encryption, Snowflake recommends using the SHA2 family of functions.",
+        "Do not use this function to encrypt a message that you need to decrypt. This function has no corresponding decryption function.\n(The length of the output is independent of the length of the input. The output does not necessarily have enough bits to hold\nall of the information from the input, so it is not possible to write a function that can decrypt all possible valid inputs.)",
+        "This function is intended for other purposes, such as calculating a checksum to detect data corruption.",
+        "If you need to encrypt and decrypt data, use the following functions:",
+        "ENCRYPT and DECRYPT",
+        "ENCRYPT_RAW and DECRYPT_RAW",
+        "The data type of the output is BINARY and can be stored in a BINARY\ncolumn:",
+        "Create and fill a table:",
+        "Here are the query and output (note that for display, the output is\nimplicitly cast to a user-readable form, which in this case is a string of\nhexadecimal digits):",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

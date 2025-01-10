@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/learn-tutorials",
+    "title": "Snowflake Tutorials | Snowflake Documentation",
+    "paragraphs": [
+        "To explore the tutorials listed below, you must have a Snowflake account and a user with the required roles (ACCOUNTADMIN and\nSYSADMIN) and access to a virtual warehouse:",
+        "If you have signed up for a trial account, the trial account user has the required\nroles and a virtual warehouse (compute_wh) that you can use for these tutorials.",
+        "Otherwise, if you use another account to explore these tutorials, you must log in as a user that has been granted the required\nroles and that can use a virtual warehouse.",
+        "Snowflake provides the following tutorials.",
+        "For new users, Snowflake in 20 minutes. This is a simple tutorial in which you use SnowSQL (the Snowflake\ncommand line client) to learn about key concepts and tasks.",
+        "For tutorials that are available with a trial account, consider:",
+        "Create users and grant roles",
+        "Load and query sample data using SQL",
+        "Load and query sample data using Snowpark Python",
+        "Load data from cloud storage: Amazon S3",
+        "Load data from cloud storage: Microsoft Azure",
+        "Load data from cloud storage: GCS",
+        "For tutorials on bulk loading, consider:",
+        "Bulk Loading from a Local File System",
+        "Bulk Loading from Amazon S3",
+        "To explore semi-structured data, consider:",
+        "JSON Basics",
+        "Loading JSON Data into a Relational Table",
+        "Loading and Unloading Parquet Data",
+        "Was this page helpful?"
+    ]
+}

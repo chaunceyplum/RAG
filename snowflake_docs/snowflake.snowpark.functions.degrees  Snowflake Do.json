@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.degrees",
+    "title": "snowflake.snowpark.functions.degrees | Snowflake Documentation",
+    "paragraphs": [
+        "Converts radians to degrees.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-stream",
+    "title": "DROP STREAM | Snowflake Documentation",
+    "paragraphs": [
+        "Removes a stream from the current/specified schema.",
+        "CREATE STREAM , ALTER STREAM , SHOW STREAMS , DESCRIBE STREAM",
+        "Specifies the identifier for the stream to drop. If the identifier contains spaces, special characters, or mixed-case characters, the\nentire string must be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive\n(e.g. \"My Object\").",
+        "If the stream identifier is not fully-qualified (in the form of db_name.schema_name.stream_name or\nschema_name.stream_name), the command looks for the stream in the current schema for the session.",
+        "Drop a stream:",
+        "Drop the stream again, but don\u2019t raise an error if the stream does not exist:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

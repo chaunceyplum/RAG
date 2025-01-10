@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/notifications/queue-notifications",
+    "title": "Sending notifications to cloud provider queues (Amazon SNS, Google Cloud PubSub, and Azure Event Grid) | Snowflake Documentation",
+    "paragraphs": [
+        "You can configure Snowflake to send notifications to a queue provided by a cloud service (Amazon SNS, Google Cloud PubSub, or\nAzure Event Grid).",
+        "To configure Snowpipe or specific tasks to send\nnotifications about errors to a queue, see the following topics:",
+        "Snowpipe error notifications",
+        "Enabling notifications for tasks",
+        "To call a stored procedure to send a notification to a queue:",
+        "Create a notification integration for the cloud provider queue. For details, see the following topics:",
+        "Creating a notification integration to send notifications to an Amazon SNS topic",
+        "Creating a notification integration to send notifications to a Microsoft Azure Event Grid topic",
+        "Creating a notification integration to send notifications to a Google Cloud Pub/Sub topic",
+        "Note",
+        "Your account must be on the same cloud platform as the cloud provider queue.",
+        "Call the SYSTEM$SEND_SNOWFLAKE_NOTIFICATION stored procedure to send the notification\nmessage to the queue. For details, see Using SYSTEM$SEND_SNOWFLAKE_NOTIFICATION to send notifications.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

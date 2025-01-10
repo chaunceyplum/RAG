@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.types.ShortType",
+    "title": "snowflake.snowpark.types.ShortType | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: _IntegralType",
+        "Short integer data type. This maps to the SMALLINT data type in Snowflake.",
+        "Methods",
+        "simpleString()",
+        "",
+        "simple_string()",
+        "",
+        "Was this page helpful?"
+    ]
+}

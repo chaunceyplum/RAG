@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/snowflake-db",
+    "title": "SNOWFLAKE database | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake provides a system-defined, read-only shared database named SNOWFLAKE that contains metadata and historical usage data\nabout the objects in your organization and accounts.\nThe SNOWFLAKE database is an example of Secure Data Sharing, and provides object metadata and other usage metrics for your organization and accounts.",
+        "In each account, the SNOWFLAKE database contains the following schemas (also read-only):",
+        "Views that display object metadata and usage metrics for your account.",
+        "Functions that are intended for use in alert objects.",
+        "Contains views and other schema objects to support select Snowflake features, such as the\nsystem tags used with classifying data and the\nsystem data metric functions used to measure data quality.",
+        "Contains functions and stored procedures related to data privacy. Also contains the\ncustom_classifier class.",
+        "Views that display object metadata and usage metrics related to listings published in the Snowflake Marketplace or\na data exchange.",
+        "This schema is automatically created in all databases. In a shared database such as SNOWFLAKE, this schema doesn\u2019t\nserve a purpose and can be disregarded.",
+        "Currently, this schema only contains one view,\nDATA_QUALITY_MONITORING_RESULTS.",
+        "You can query the view or call the DATA_QUALITY_MONITORING_RESULTS table function to obtain data metric\nfunction results.",
+        "Contains ML functions (a suite of analysis tools built by Snowflake), and the\nDOCUMENT_INTELLIGENCE class used in Document AI.",
+        "Views that provide historical information for objects in your account. In the\nInformation Schema, the views and table functions that return historical information will eventually be\nmigrated to the MONITORING schema in the future.",
+        "Stored procedures and functions for sending notifications.",
+        "Views that display historical usage data across all the accounts in your organization.",
+        "Similar to ACCOUNT_USAGE, but only contains views relevant to the reader accounts (if any) provisioned for the\naccount.",
+        "Tables, views, and stored procedures to support collecting telemetry data\nsuch as log messages, trace event data, and metrics data.",
+        "Some SNOWFLAKE schemas include classes. A class is an extensible object type that encapsulates object data and code. For more information,\nsee Snowflake classes.",
+        "Important",
+        "By default, the SNOWFLAKE database is visible to all users. This does not mean all objects within the SNOWFLAKE database are accessible\nto all users.",
+        "Objects that are not meant to be accessible by default remain inaccessible unless access is explicitly granted by a user with the\nACCOUNTADMIN role, including access to the ACCOUNT_USAGE, READER_ACCOUNT_USAGE, ORGANIZATION_USAGE, and DATA_SHARING_USAGE schemas.",
+        "Privileges to perform other actions on these views can be granted to other roles in your account. For more information, see\nEnabling other roles to use schemas in the SNOWFLAKE database.",
+        "Next Topics:",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

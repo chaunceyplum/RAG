@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/stored_procedures",
+    "title": "Stored Procedures | Snowflake Documentation",
+    "paragraphs": [
+        "Stored procedures in Snowpark. Refer to StoredProcedure for details and sample code.",
+        "Classes",
+        "StoredProcedure(func,\u00a0return_type,\u00a0...[,\u00a0...])",
+        "Encapsulates a user defined lambda or function that is returned by sproc(), StoredProcedureRegistration.register() or StoredProcedureRegistration.register_from_file().",
+        "StoredProcedureRegistration(session)",
+        "Provides methods to register lambdas and functions as stored procedures in the Snowflake database.",
+        "Methods",
+        "describe(sproc_obj)",
+        "Returns a DataFrame that describes the properties of a stored procedure.",
+        "register(func[,\u00a0return_type,\u00a0input_types,\u00a0...])",
+        "Registers a Python function as a Snowflake Python stored procedure and returns the stored procedure.",
+        "register_from_file(file_path,\u00a0func_name[,\u00a0...])",
+        "Registers a Python function as a Snowflake Python stored procedure from a Python or zip file, and returns the stored procedure.",
+        "Attributes",
+        "func",
+        "The Python function.",
+        "name",
+        "The stored procedure name.",
+        "Was this page helpful?"
+    ]
+}

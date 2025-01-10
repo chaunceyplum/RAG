@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_geographyfromwkb",
+    "title": "ST_GEOGRAPHYFROMWKB | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions, Conversion functions",
+        "Parses a\nWKB (well-known binary) or\nEWKB (extended well-known binary) input and returns a value of type\nGEOGRAPHY.",
+        "ST_GEOGFROMWKB , ST_GEOGRAPHYFROMEWKB , ST_GEOGFROMEWKB",
+        "TO_GEOGRAPHY",
+        "Required:",
+        "The argument must be a string or binary expression in WKB or EWKB that represents a valid geospatial object.",
+        "A string expression must be in hexadecimal format (without a leading 0x).",
+        "Optional:",
+        "If TRUE, specifies that the function should return a GEOGRAPHY or GEOMETRY object, even when the input shape is invalid and\ncannot be repaired. For details, refer to Specifying how invalid geospatial shapes are handled.",
+        "The function returns a value of type GEOGRAPHY.",
+        "Issues an error if the input cannot be parsed as WKB or EWKB.",
+        "Issues an error if the input format is EWKB and the SRID is not 4326.\nSee the note on EWKT and EWKB handling.",
+        "The following example returns the GEOGRAPHY object for a geospatial object described in WKT format:",
+        "The following example returns the GEOGRAPHY object for a geospatial object described in EWKT format:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

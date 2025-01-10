@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/median",
+    "title": "MEDIAN | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (General) , Window functions",
+        "Determines the median of a set of values.",
+        "Aggregate function",
+        "Window function",
+        "The expression must evaluate to a numeric data type (INTEGER, FLOAT,\nDECIMAL, or equivalent).",
+        "Returns a FLOAT or DECIMAL (fixed-point) number, depending upon the\ninput.",
+        "If the number of non-NULL values is an odd number greater than or equal to 1,\nthis returns the median (\u201ccenter\u201d) value of the non-NULL values.",
+        "If the number of non-NULL values is an even number, this returns a value\nequal to the average of the two center values. For example, if the\nvalues are 1, 3, 5, and 20, then this returns 4 (the average of 3 and 5).",
+        "If all values are NULL, this returns NULL.",
+        "If the number of non-NULL values is 0, this returns NULL.",
+        "DISTINCT is not supported for this function.",
+        "When this function is called as a window function, it does not support:",
+        "An ORDER BY clause within the OVER clause.",
+        "Explicit window frames.",
+        "This shows how to use the function.",
+        "Create an empty table.",
+        "Get the MEDIAN value for column v. The function returns NULL because\nthere are no rows.",
+        "Insert some rows:",
+        "Get the MEDIAN value for each group. Note that because the number of\nvalues in group k = 2 is an even number, the returned value for that group\nis the mid-point between the two middle numbers.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

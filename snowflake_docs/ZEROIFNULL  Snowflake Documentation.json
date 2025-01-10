@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/zeroifnull",
+    "title": "ZEROIFNULL | Snowflake Documentation",
+    "paragraphs": [
+        "Conditional expression functions",
+        "Returns 0 if its argument is null; otherwise, returns its argument.",
+        "The input should be an expression that evaluates to a numeric value (or NULL).",
+        "If the value of the input expressions is NULL, this returns 0.\nOtherwise, this returns the value of the input expression.",
+        "The data type of the return value is NUMBER(p, s). The exact values of \u2018p\u2019 (precision) and \u2018s\u2019 (scale) depend\nupon the input expression. For example, if the input expression is 3.14159, then the data type of the output value\nwill be NUMBER(7, 5).",
+        "The following example shows the output of the function for various input values:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

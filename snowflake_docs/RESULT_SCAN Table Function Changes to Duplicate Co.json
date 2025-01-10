@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_03/bcr-1039",
+    "title": "RESULT_SCAN Table Function: Changes to Duplicate Column Names | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Currently, if there are duplicate column names in the results processed by the RESULT_SCAN function,\nthe function appends a suffix to each duplicate column name to make the column names unique.\nFor example, if two columns are named id, the function returns a table with the column names id and id_1.",
+        "The way that the RESULT_SCAN function handles duplicate column names behaves as follows:",
+        "If the results contain duplicate column names, the RESULT_SCAN function appends _<n> to each duplicate column name to make the column names unique.",
+        "The function appends this suffix even when there are other columns with the same suffix. This can result in duplicate column names.",
+        "For example:",
+        "The RESULT_SCAN function appends a suffix with the next available number to make the column names unique:",
+        "Ref: 1039",
+        "Was this page helpful?"
+    ]
+}

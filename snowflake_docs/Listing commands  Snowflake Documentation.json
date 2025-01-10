@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/commands-listings",
+    "title": "Listing commands | Snowflake Documentation",
+    "paragraphs": [
+        "Listing commands enable you to manage listings using SQL.",
+        "ALTER LISTING",
+        "CREATE LISTING",
+        "DESCRIBE AVAILABLE LISTING",
+        "DESCRIBE LISTING",
+        "DROP LISTING",
+        "SHOW AVAILABLE LISTINGS",
+        "SHOW LISTINGS",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

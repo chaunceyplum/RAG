@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/map_keys",
+    "title": "MAP_KEYS | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Map)",
+        "Returns the keys in a MAP.",
+        "The input map.",
+        "Returns a structured ARRAY containing the keys in the MAP. The order of the keys is undefined.",
+        "List the keys in a map:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

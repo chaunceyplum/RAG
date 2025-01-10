@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.task.Task",
+    "title": "snowflake.core.task.Task | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: object",
+        "Represents a Snowflake Task.",
+        "Attributes",
+        "The definition of the task in SQL text.",
+        "It\u2019s a readonly property. To set the definition of the Task, use definition.",
+        "If definition is a StoredProcedureCall, the SQL that calls the stored procedure, or the\nanonymous stored procedure definition will be returned.",
+        "Was this page helpful?"
+    ]
+}

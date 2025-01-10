@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/minhash",
+    "title": "MINHASH | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (Similarity Estimation) , Window function syntax and usage",
+        "Returns a MinHash state containing an array of size k constructed by applying k number of different hash functions to the input rows and keeping the minimum of each hash function. This MinHash state can\nthen be input to the APPROXIMATE_SIMILARITY function to estimate the similarity with one or more other MinHash states.",
+        "For more information about MinHash states, see Estimating Similarity of Two or More Sets.",
+        "MINHASH_COMBINE",
+        "k specifies the number of hash functions to be created. The larger the value, the better the approximation; however, this value has a linear impact on the computation time for estimating similarity\nusing APPROXIMATE_SIMILARITY. The suggested value is 100.",
+        "The maximum value is 1024.",
+        "DISTINCT can be included as an argument, but has no effect.",
+        "Here is a more extensive example, showing the three related functions\nMINHASH, MINHASH_COMBINE and APPROXIMATE_SIMILARITY. This\nexample creates 3 tables (ta, tb, and tc), two of which (ta and tb) are\nsimilar, and two of which (ta and tc) are completely dissimilar.",
+        "Create and populate tables with values:",
+        "Calculate minhash info for the initial set of data:",
+        "Add more data to one of the tables:",
+        "Demonstrate the MINHASH_COMBINE function:",
+        "This query shows the approximate similarity of the two similar tables\n(ta and tb):",
+        "This query shows the approximate similarity of the two very different tables\n(ta and tc):",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

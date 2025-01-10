@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/is_object",
+    "title": "IS_OBJECT | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Type Predicates)",
+        "Returns TRUE if its VARIANT argument contains an OBJECT value.",
+        "IS_<object_type> , IS_ARRAY",
+        "An expression that evaluates to a value of type VARIANT.",
+        "Returns a BOOLEAN value or NULL.",
+        "Returns TRUE if the VARIANT value contains an OBJECT value. Otherwise, returns FALSE.",
+        "If the input is NULL, returns NULL without reporting an error.",
+        "This function doesn\u2019t support a structured type as an input argument.",
+        "The following examples use the IS_OBJECT function.",
+        "Create and fill the vartab table. The INSERT statement uses the PARSE_JSON function to insert\nVARIANT values in the v column of the table.",
+        "Query the data. The query uses the TYPEOF function to show the data types of\nthe values stored in the VARIANT column.",
+        "Show the OBJECT values in the data by using the IS_OBJECT function\nin a WHERE clause:",
+        "Create and fill the multiple_types table. The INSERT statement uses the TO_VARIANT function to insert\nVARIANT values in the columns.",
+        "Query the data using the TYPEOF function to show the data types of\nthe values stored in the VARIANT values.",
+        "Show whether a column contains OBJECT values in the data by using the\nIS_OBJECT function in a SELECT list:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

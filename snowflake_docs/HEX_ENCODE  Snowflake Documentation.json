@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/hex_encode",
+    "title": "HEX_ENCODE | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Encoding/Decoding)",
+        "Encodes the input using hexadecimal (also \u2018hex\u2019 or \u2018base16\u2019) encoding.\nThe result is comprised of 16 different symbols: The numbers \u20180\u2019 to \u20189\u2019 as\nwell as the letters \u2018A\u2019 to \u2018F\u2019 (or \u2018a\u2019 to \u2018f\u2019, see below).",
+        "HEX_DECODE_BINARY , HEX_DECODE_STRING",
+        "Required:",
+        "A binary or string expression to be encoded.",
+        "Optional:",
+        "This optional boolean argument controls the case of the letters\n(\u2018A\u2019, \u2018B\u2019, \u2018C\u2019, \u2018D\u2019, \u2018E\u2019 and \u2018F\u2019) used in the encoding.\nThe default value is 1 and indicates that uppercase\nletters are used. The value 0 indicates that lowercase\nletters are used. All other values are illegal and result\nin an error.",
+        "This returns a string that contains only hexadecimal digits.",
+        "Encode a string:",
+        "Encode a string using lowercase letters:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/top-insights/commands/drop-top-insights",
+    "title": "DROP SNOWFLAKE.ML.TOP_INSIGHTS | Snowflake Documentation",
+    "paragraphs": [
+        "Removes the specified Top Insights instance from the current or specified schema. Dropped instances cannot be recovered.",
+        "Specifies the identifier for the instance to drop. If the identifier contains spaces, special characters, or mixed-case\ncharacters, the entire string must be enclosed in double quotes. Identifiers enclosed in double quotes are also\ncase-sensitive.",
+        "If the instance identifier is not fully qualified (in the form of db_name.schema_name.name or\nschema_name.name)), the command looks for the instance in the current schema for the session.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

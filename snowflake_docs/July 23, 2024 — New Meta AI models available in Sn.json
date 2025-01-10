@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-07-23-new-llm-models",
+    "title": "July 23, 2024 \u2014 New Meta AI models available in Snowflake Cortex AI | Snowflake Documentation",
+    "paragraphs": [
+        "We\u2019re pleased to announce that the Llama 3.1 collection of multilingual large language models (LLMs) are now available in\nSnowflake Cortex AI, providing enterprises with secure, serverless access\nto Meta\u2019s most advanced open source models.",
+        "llama3.1-405b, the largest openly available model.",
+        "128K context length, improved reasoning & coding capabilities.",
+        "Improved and upgraded multilingual llama3.1-8b and llama3.1-70b models.",
+        "For details, see the Snowflake Cortex LLM Functions topic.",
+        "Was this page helpful?"
+    ]
+}

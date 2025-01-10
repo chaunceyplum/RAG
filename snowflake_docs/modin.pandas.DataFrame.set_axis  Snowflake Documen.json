@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.set_axis",
+    "title": "modin.pandas.DataFrame.set_axis | Snowflake Documentation",
+    "paragraphs": [
+        "Assign desired index to given axis.",
+        "labels (list-like, Index, MultiIndex) \u2013 The values for the new index.",
+        "axis ({index (0), rows(0), columns (1)}) \u2013 Axis for the function to be applied on.",
+        "copy (bool, default True) \u2013 To maintain compatibility with pandas, does nothing.",
+        "DataFrame",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

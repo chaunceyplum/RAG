@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.factorial",
+    "title": "snowflake.snowpark.functions.factorial | Snowflake Documentation",
+    "paragraphs": [
+        "Computes the factorial of its input. The input argument must be an integer\nexpression in the range of 0 to 33.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

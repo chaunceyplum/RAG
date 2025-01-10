@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_show_active_behavior_change_bundles",
+    "title": "SYSTEM$SHOW_ACTIVE_BEHAVIOR_CHANGE_BUNDLES | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Returns an array of the currently available behavior change release bundles, the default\nstate of each bundle, and the actual state of the bundle for the current account.",
+        "SYSTEM$ENABLE_BEHAVIOR_CHANGE_BUNDLE,\nSYSTEM$DISABLE_BEHAVIOR_CHANGE_BUNDLE,\nSYSTEM$BEHAVIOR_CHANGE_BUNDLE_STATUS",
+        "None.",
+        "Returns a VARCHAR value that contains an array of objects that represent the currently available behavior change bundles.\nEach object contains the following keys, which describe the status of the bundle:",
+        "Key",
+        "Description of value",
+        "name",
+        "Name of the behavior change bundle",
+        "isDefault",
+        "true if the associated bundle should be enabled by default for the current account; false otherwise.",
+        "isEnabled",
+        "true if the associated bundle is actually enabled by default for the current account; false otherwise.",
+        "Calling SYSTEM$ENABLE_BEHAVIOR_CHANGE_BUNDLE or SYSTEM$DISABLE_BEHAVIOR_CHANGE_BUNDLE changes the value of\nisEnabled for the specified bundle.",
+        "SYSTEM$BEHAVIOR_CHANGE_BUNDLE_STATUS returns the same information as this function for a\nspecific bundle.",
+        "The following example returns information about the current behavior change bundles.",
+        "The following example uses the PARSE_JSON function to return the array as a VARIANT and then uses the FLATTEN\nfunction to present the bundle information in a tabular format.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.contains",
+    "title": "snowflake.snowpark.functions.contains | Snowflake Documentation",
+    "paragraphs": [
+        "Returns if col contains string for each row. See CONTAINS <https://docs.snowflake.com/en/sql-reference/functions/contains>",
+        "Example",
+        "Was this page helpful?"
+    ]
+}

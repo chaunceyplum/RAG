@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/native-apps/marketplace-file",
+    "title": "Specify the resources required by an app | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "The Snowflake Native App Framework is generally available on supported cloud platforms. For additional information, see\nSupport for private connectivity, VPS, and government regions.",
+        "This topic describes how to use the marketplace.yml file to declare the resource\nrequirements for an Snowflake Native App.",
+        "The marketplace.yml is a configuration file similar to the manifest.yml\nfile of an app. Snowflake uses this file in the following contexts:",
+        "The objects specified in required_compute_pools and connections properties\nappear in the listing in Snowsight. This give the consumer to see the resources the app\nmay require.",
+        "This file can help avoid creating or using unnecessary resources, for example replicating an application\npackage to a regions where it cannot be installed by a consumer. Before consumer requests the listing in a\nremote region, Snowflake ensures that the consumer meets the resource requirements declared in the\nmarketplace.yml file. This helps prevent unnecessary replication costs.",
+        "Before installing and upgrading the application, Snowsight ensures the requirements are satisfied,\nto prevent installing a broken/unusable application or upgrading a working application into a unusable state.",
+        "This optional file must be at the root directory of an app at the same level as the manifest.yml\nfile. If this file is not present, no action is taken.",
+        "The following example shows how to specify the compute pool resources required for a\nspecific version of an app:",
+        "In this example, the required_compute_pools a compute pool named HIGH_MEM_POOL_1.",
+        "The compatible_instance_families property specifies the type of machine to provision\nfor the compute pool. You must specify at least one value declared for each compute pool.\nSee CREATE COMPUTE POOL for more information.",
+        "Note",
+        "If the compatible_instance_families property is missing or the values are invalid,\nversion creation fails.",
+        "The following example shows how to declare the external endpoints required by an app:",
+        "In this example, the connection property specifies two external endpoints,\nLAUNCH_DARKLY and OPEN_AI. The required property indicates to the\nconsumer in Snowsight that the connection is required.",
+        "If you specify the connection in this file, the endpoints, and required properties are\nrequired. If these properties are not present, version creation fails. The endpoints property\nrequires at least one URL.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

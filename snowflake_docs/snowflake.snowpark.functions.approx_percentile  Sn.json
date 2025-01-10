@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.approx_percentile",
+    "title": "snowflake.snowpark.functions.approx_percentile | Snowflake Documentation",
+    "paragraphs": [
+        "Returns an approximated value for the desired percentile. This function uses the t-Digest algorithm.",
+        "Was this page helpful?"
+    ]
+}

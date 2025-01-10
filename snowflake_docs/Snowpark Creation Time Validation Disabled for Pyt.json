@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_02/bcr-922",
+    "title": "Snowpark: Creation Time Validation Disabled for Python and Java Temporary UDFs | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_02 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The validation of temporary UDFs created in Snowpark has changed slightly:",
+        "When you created a temporary Python or Java UDF in Snowpark, it was validated both at creation time and at execution time.",
+        "The temporary UDF is validated only at execution time.",
+        "This change has been implemented to improve performance.",
+        "Ref: 922",
+        "Was this page helpful?"
+    ]
+}

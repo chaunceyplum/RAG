@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/row",
+    "title": "Row | Snowflake Documentation",
+    "paragraphs": [
+        "Classes",
+        "Row(*values,\u00a0**named_values)",
+        "Represents a row in DataFrame.",
+        "Methods",
+        "Row.asDict([recursive])",
+        "Convert to a dict if this row object has both keys and values.",
+        "Row.as_dict([recursive])",
+        "Convert to a dict if this row object has both keys and values.",
+        "Row.count(value,\u00a0/)",
+        "Return number of occurrences of value.",
+        "Row.index(value[,\u00a0start,\u00a0stop])",
+        "Return first index of value.",
+        "Was this page helpful?"
+    ]
+}

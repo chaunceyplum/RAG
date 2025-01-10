@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/external-network-access/external-network-access-limitations",
+    "title": "External network access limitations | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes limitations for accessing external network locations from user-defined functions and procedures.",
+        "Currently, handlers written only in Java or Python may access network locations external to Snowflake.",
+        "External network locations not on the public internet are not supported for external access. For example, locations behind a virtual\nprivate network (VPN) or virtual network (VNet) can\u2019t be reached from a UDF or procedure.",
+        "When using a wildcard in a VALUE_LIST value in a network rule, the following are not\nvalid wildcard uses:",
+        "snowflake.*.google.com",
+        "Cannot be used to match snowflake.sub1.sub2.google.com because the asterisk can only be used to\nmatch alphanumeric characters and hyphens.",
+        "*.*.google.com",
+        "Invalid because there are multiple asterisks in the wildcard.",
+        "*.com",
+        "Invalid because the asterisk cannot be used to match the secondary level domain.",
+        "Preview Feature \u2014 Open",
+        "Using wildcards in network rule values is a preview feature available to all accounts.",
+        "When using a secret of the PASSWORD type, the colon character (:) is not supported in the\nUSERNAME or PASSWORD parameters.",
+        "Within handler code, you must access the secret API from the\nmain thread of the procedure or UDF. If your handler code forks a new thread and attempts to use a secrets API from it, you will see an\nerror such as the following:",
+        "For example, the following Python code will generate an error:",
+        "This feature is currently available to accounts on all AWS and Azure regions except Gov.",
+        "For more information, see Supported Cloud Regions.",
+        "By default, Snowflake does not enable external access for trial accounts. Contact\nyour account representative to get external access enabled for a trial account.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

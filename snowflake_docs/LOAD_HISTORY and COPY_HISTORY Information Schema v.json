@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_01/bcr-1493",
+    "title": "LOAD_HISTORY and COPY_HISTORY Information Schema views: Showing only post-truncate load history | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The LOAD_HISTORY and COPY_HISTORY Information Schema views show results as follows:",
+        "The LOAD_HISTORY and COPY_HISTORY views show load history from both before and after the latest truncate operation on the target table.",
+        "The LOAD_HISTORY and COPY_HISTORY views show load history only after the latest truncate operation on the target table.",
+        "After the behavior change, you can still see pre-truncate load history by querying the views and saving the load history before truncating the target table.\nYou can also query the views in the Account Usage schema, which contains a longer history and includes the pre-truncate operations.",
+        "Ref: 1493",
+        "Was this page helpful?"
+    ]
+}

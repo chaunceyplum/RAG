@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.concat_ws",
+    "title": "snowflake.snowpark.functions.concat_ws | Snowflake Documentation",
+    "paragraphs": [
+        "Concatenates two or more strings, or concatenates two or more binary values. If any of the values is null, the result is also null.\nThe CONCAT_WS operator requires at least two arguments, and uses the first argument to separate all following arguments.",
+        "Was this page helpful?"
+    ]
+}

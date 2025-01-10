@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/ifnull",
+    "title": "IFNULL | Snowflake Documentation",
+    "paragraphs": [
+        "Conditional expression functions",
+        "If expr1 is NULL, returns expr2, otherwise returns expr1.",
+        "NVL",
+        "A general expression.",
+        "A general expression.",
+        "If possible, pass in arguments of the same type. Avoid passing in arguments of different types.",
+        "If one of the arguments is a number, the function coerces non-numeric string arguments\n(for example, 'a string') and string arguments that aren\u2019t constants to the type NUMBER(18,5).",
+        "For numeric string arguments that aren\u2019t constants, if NUMBER(18,5) isn\u2019t sufficient to represent the numeric value, then\ncast the argument to a type that can represent the value.",
+        "Either expression can include a SELECT statement containing set\noperators, such as UNION, INTERSECT, EXCEPT, and MINUS.\nWhen using set operators, make sure that data types are compatible. For\ndetails, see the General usage notes in the\nSet operators topic.",
+        "The collation specifications of all input arguments must be compatible.",
+        "The collation of the result of the function is the highest-precedence collation of the inputs.",
+        "Returns the data type of the returned expression.",
+        "If both expressions are NULL, returns NULL.",
+        "Create a table that contains contact information for suppliers:",
+        "The table contains the phone number for each supplier in two different regions. The phone number can\nbe NULL for a region.",
+        "Insert values into the table:",
+        "The following SELECT statement uses the IFNULL function to\nretrieve the phone_region_1 and  phone_region_2 values.",
+        "This example shows the following results for the IFNULL function:",
+        "The IF_REGION_1_NULL column contains the value in phone_region_1 or, if that value is NULL, the\nvalue in phone_region_2.",
+        "The IF_REGION_2_NULL column contains the value in phone_region_2 or, if that value is NULL, the\nvalue in phone_region_1.",
+        "If both phone_region_1 and phone_region_2 are NULL, the function returns NULL.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

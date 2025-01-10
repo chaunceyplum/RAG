@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/overview",
+    "title": "Releases | Snowflake Documentation",
+    "paragraphs": [
+        "New releases of Snowflake are deployed each week. In addition, new features and new versions\nof Snowsight, clients, drivers, libraries, and Snowflake Connectors are released between these weekly releases.",
+        "Release notes for Snowflake weekly releases, new releases of Snowsight, and new features\nreleased between weekly releases.",
+        "For the most recent release note announcements, see Snowflake weekly, Snowsight, and feature release notes.",
+        "For earlier release notes, see:",
+        "Earlier releases in 2024",
+        "Releases in 2023",
+        "Releases in 2022",
+        "Announcements about behavior changes.",
+        "Release notes for Streamlit in Snowflake.",
+        "Release notes and support information on clients (such as\nSnowSQL and Snowflake CLI), drivers (such as the JDBC driver, ODBC driver, and the Snowflake Connector for Python), and libraries\n(such as the Snowpark API and the Snowflake Python APIs).",
+        "Release notes for Snowflake Connectors, which provide native integration of third-party applications and database systems in\nSnowflake (for example, Snowflake Connector for ServiceNow).",
+        "Summaries of recent features that improve performance.",
+        "Summaries of recent features that make it easier to write simpler SQL.",
+        "Information about preview features in Snowflake.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

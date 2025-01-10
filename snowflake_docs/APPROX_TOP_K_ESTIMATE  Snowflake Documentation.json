@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/approx_top_k_estimate",
+    "title": "APPROX_TOP_K_ESTIMATE | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (Frequency Estimation) , Window function syntax and usage",
+        "Returns the approximate most frequent values and their estimated frequency for the given Space-Saving state. (For more information about the Space-Saving\nsummary, see Estimating Frequent Values.)",
+        "A Space-Saving state produced by APPROX_TOP_K_ACCUMULATE and APPROX_TOP_K_COMBINE can be used to compute a cardinality estimate using the APPROX_TOP_K_ESTIMATE function.",
+        "Thus, APPROX_TOP_K_ESTIMATE(APPROX_TOP_K_ACCUMULATE(\u2026)) is equivalent to APPROX_TOP_K(\u2026).",
+        "APPROX_TOP_K , APPROX_TOP_K_ACCUMULATE , APPROX_TOP_K_COMBINE",
+        "An expression that contains state information generated\nby a call to APPROX_TOP_K_ACCUMULATE or\nAPPROX_TOP_K_COMBINE.",
+        "The number of values whose counts you want approximated.\nFor example, if you want to see the top 10 most common values, then\nset k to 10.",
+        "If k is omitted, the default is 1.",
+        "The maximum value is 100000 (100,000), and is automatically reduced if\nitems cannot fit in the output.",
+        "Returns a value of type ARRAY.",
+        "This example shows how to use the three related functions\nAPPROX_TOP_K_ACCUMULATE, APPROX_TOP_K_ESTIMATE, and APPROX_TOP_K_COMBINE.",
+        "Note",
+        "This example uses more counters than distinct data values in order to get\nconsistent results. In real-world applications, the number of distinct values\nis usually larger than the number of counters, so the approximations can vary.",
+        "This example generates one table with 8 rows that have values 1 - 8, and a\nsecond table with 8 rows that have values 5 - 12. Thus the most frequent\nvalues in the union of the two tables are the values 5-8, each of which has a\ncount of 2.",
+        "Create a simple table and data:",
+        "Create a table that contains the \u201cstate\u201d that represents the current\napproximate Top K information for the table named sequence_demo:",
+        "Now create a second table and add data. (In a more realistic situation,\nthe user could have loaded more data into the first table and divided the\ndata into non-overlapping sets based on the time that the data was loaded.)",
+        "Get the \u201cstate\u201d information for just the new data.",
+        "Combine the \u201cstate\u201d information for the two batches of rows:",
+        "Get the approximate Top K value of the combined set of rows:",
+        "Output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

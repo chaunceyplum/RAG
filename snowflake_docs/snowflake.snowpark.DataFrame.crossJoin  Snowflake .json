@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.crossJoin",
+    "title": "snowflake.snowpark.DataFrame.crossJoin | Snowflake Documentation",
+    "paragraphs": [
+        "Performs a cross join, which returns the Cartesian product of the current\nDataFrame and another DataFrame (right).",
+        "If the current and right DataFrames have columns with the same name, and\nyou need to refer to one of these columns in the returned DataFrame, use the\ncol() function on the current or right DataFrame to disambiguate\nreferences to these columns.",
+        "Example:",
+        "right \u2013 the right DataFrame to join.",
+        "lsuffix \u2013 Suffix to add to the overlapping columns of the left DataFrame.",
+        "rsuffix \u2013 Suffix to add to the overlapping columns of the right DataFrame.",
+        "Note",
+        "If both lsuffix and rsuffix are empty, the overlapping columns will have random column names in the result DataFrame.\nIf either one is not empty, the overlapping columns won\u2019t have random names.",
+        "Was this page helpful?"
+    ]
+}

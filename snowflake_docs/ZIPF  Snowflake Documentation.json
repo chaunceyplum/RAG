@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/zipf",
+    "title": "ZIPF | Snowflake Documentation",
+    "paragraphs": [
+        "Data generation functions",
+        "Returns a Zipf-distributed integer, for N elements and characteristic exponent s.",
+        "The computational cost of choosing a single random number is logarithmic in the argument N. More importantly, the memory cost is linear for N. Because of this, the argument\nN is limited to the inclusive range [1, 16777215].",
+        "gen specifies the generator expression for the function. For more information, see Usage notes.",
+        "The first two arguments (s and N) must be constants.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

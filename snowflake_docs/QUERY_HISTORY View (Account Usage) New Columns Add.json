@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_01/bcr-921",
+    "title": "QUERY_HISTORY View (Account Usage): New Columns Added | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The following columns have been added to the Account Usage QUERY_HISTORY view\nin the shared SNOWFLAKE database.",
+        "Column Name",
+        "Data Type",
+        "Description",
+        "TRANSACTION_ID",
+        "NUMBER",
+        "Specifies either the ID of the transaction that wraps the statement or 0 if the statement is not executed within a transaction. The new column can be used to join data in the QUERY_HISTORY and LOCK_WAIT_HISTORY views to examine multi-statement transactions.",
+        "CHILD_QUERIES_WAIT_TIME",
+        "NUMBER",
+        "Specifies the number of milliseconds to complete a child job for a query. Note that a child job only applies to certain Snowflake queries. Snowflake pauses the main query, the child job completes, and then the main query resumes.",
+        "Ref: 921",
+        "Was this page helpful?"
+    ]
+}

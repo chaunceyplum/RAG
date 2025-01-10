@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/parse_document-snowflake-cortex",
+    "title": "PARSE_DOCUMENT (SNOWFLAKE.CORTEX) | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Large Language Model)",
+        "Preview Feature \u2014 Open",
+        "Support for this feature is available to accounts in most Snowflake regions.\nSee the Regional availability section for a full list of regions.",
+        "Returns the extracted content from a document on a Snowflake stage as an OBJECT that contains JSON-encoded objects as strings. This\nfunction supports 2 types of extractions, Optical Character Recognition (OCR) and layout. To learn more,\nsee Cortex Parse Document overview.",
+        "Required:",
+        "Name of the Snowflake stage.",
+        "Relative path to the document on the Snowflake stage.",
+        "Optional:",
+        "Returns a value of the type OBJECT. In the object, the value for the key content contains the extracted data as a JSON-encoded\nstring. The data can either be formatted or in plain text, depending on the mode specified in the call:",
+        "If mode is LAYOUT, the data is markdown with structural content including tables.",
+        "If mode is OCR, the data is the text content.",
+        "Default: 'OCR'",
+        "An OBJECT data type that contains the extracted data as a JSON-encoded string. The content depends on the mode used in the call:",
+        "LAYOUT mode: JSON with key \u201ccontent\u201d containing markdown with tables extracted from the document.",
+        "OCR mode: JSON with key \u201ccontent\u201d containing the text content from the document.",
+        "Output:",
+        "This example parses a document with a table shown in the following screenshot:",
+        "Output:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

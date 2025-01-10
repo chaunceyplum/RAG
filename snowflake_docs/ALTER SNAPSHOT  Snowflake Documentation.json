@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/alter-snapshot",
+    "title": "ALTER SNAPSHOT | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Available to accounts in AWS and Microsoft Azure commercial regions, with some exceptions. For more information, see Available regions.",
+        "Note",
+        "This operation is not currently covered by the Service Level set forth in\nSnowflake\u2019s Support Policy and Service Level Agreement.",
+        "Modifies the properties of an existing snapshot.",
+        "CREATE SNAPSHOT , DESCRIBE SNAPSHOT, DROP SNAPSHOT, SHOW SNAPSHOTS",
+        "Specifies the identifier for the snapshot to alter.",
+        "If the identifier contains spaces or special characters, the entire string must be enclosed in double quotes.\nIdentifiers enclosed in double quotes are also case-sensitive.",
+        "For more information, see Identifier requirements.",
+        "Sets one or more specified properties or parameters for the snapshot:",
+        "Specifies a comment for the snapshot.",
+        "Privilege",
+        "Object",
+        "Notes",
+        "OWNERSHIP",
+        "Snapshot",
+        "OWNERSHIP is a special privilege on an object that is automatically granted to the role that created the object, but can also be transferred using the GRANT OWNERSHIP command to a different role by the owning role (or any role with the MANAGE GRANTS privilege).",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "Regarding metadata:",
+        "Attention",
+        "Customers should ensure that no personal data (other than for a User object), sensitive data, export-controlled data, or other regulated data is entered as metadata when using the Snowflake service. For more information, see Metadata fields in Snowflake.",
+        "The following example sets a comment on the example_snapshot snapshot.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

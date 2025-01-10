@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.last_day",
+    "title": "snowflake.snowpark.functions.last_day | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the last day of the specified date part for a date or timestamp.\nCommonly used to return the last day of the month for a date or timestamp.",
+        "expr \u2013 The array column",
+        "part \u2013 The date part used to compute the last day of the given array column, default is \u201cMONTH\u201d.\nValid values are \u201cYEAR\u201d, \u201cMONTH\u201d, \u201cQUARTER\u201d, \u201cWEEK\u201d or any of their supported variations.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/current_version",
+    "title": "CURRENT_VERSION | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (General)",
+        "Returns the current Snowflake version.",
+        "CURRENT_CLIENT",
+        "None.",
+        "The data type of the returned value is VARCHAR.",
+        "The returned value contains four fields:",
+        "Major version numbers change annually. For example, the major version for all releases in 2023 is 7. For all releases in 2022, the major version is 6.",
+        "Minor version numbers change for each weekly release.",
+        "Patch version numbers represent minor changes within a weekly release.",
+        "This field is for internal use only.",
+        "For example, for version 7.32.1, the major version is 7, the minor version is 32, and the patch version is 1.",
+        "This function returns version number information for Snowflake. To retrieve information about client versions,\nsee CURRENT_CLIENT.",
+        "This shows the version of Snowflake on which the query is run:",
+        "Output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

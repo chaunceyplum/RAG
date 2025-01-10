@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/h3_get_resolution",
+    "title": "H3_GET_RESOLUTION | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns the resolution of an H3 cell.",
+        "An INTEGER that represents the H3 cell ID (index), or a VARCHAR that represents the cell ID in hexadecimal format.",
+        "Returns an INTEGER value between 0 and 15, which represents the resolution of the input H3 cell.",
+        "The following example returns the resolution of the H3 cell with the ID 617540519050084351. The example specifies the H3\ncell ID as an INTEGER value.",
+        "The following example specifies the hexadecimal value of H3 cell ID (89283087033ffff) as a VARCHAR to return the resolution\nof the cell.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

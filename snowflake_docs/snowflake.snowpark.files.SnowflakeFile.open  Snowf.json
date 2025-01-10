@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.files.SnowflakeFile.open",
+    "title": "snowflake.snowpark.files.SnowflakeFile.open | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a SnowflakeFile.\nIn UDF and Stored Procedures, the object works like a Python IOBase object and as a wrapper for an IO stream of remote files. The IO Stream is to support the file operations defined in this class.",
+        "All files are accessed in the context of the UDF owner (with the exception of caller\u2019s rights stored procedures which use the caller\u2019s context).\nUDF callers should use scoped URLs to allow the UDF to access their files. By accepting only scoped URLs the UDF owner can ensure\nthe UDF caller had access to the provided file. Removing the requirement that the URL is a scoped URL (require_scoped_url=false) allows the caller\nto provide URLs that may be only accessible by the UDF owner.",
+        "is_owner_file is marked for deprecation. For Snowflake release 7.8 and onwards please use require_scoped_url instead.",
+        "file_location \u2013 scoped URL, file URL, or string path for files located in a stage",
+        "mode \u2013 A string used to mark the type of an IO stream.",
+        "is_owner_file \u2013 (Deprecated) A boolean value, if True, the API is intended to access owner\u2019s files and all URI/URL are allowed. If False, the API is intended to access files passed into the function by the caller and only scoped URL is allowed.",
+        "require_scoped_url \u2013 A boolean value, if True, file_location must be a scoped URL. A scoped URL ensures that the caller cannot access the UDF owners files that the caller does not have access to.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.locate",
+    "title": "snowflake.snowpark.functions.locate | Snowflake Documentation",
+    "paragraphs": [
+        "Searches for the first occurrence of the first argument in the second argument.\nIf successful, returns the position (1-based) of the first argument in the second argument.\nOtherwise, return 0.",
+        "Note:",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_06/bcr-1595-1652",
+    "title": "SHOW COMPUTE POOLS and DESC COMPUTE POOL commands: New column in output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, the output of the SHOW COMPUTE POOLS and DESCRIBE COMPUTE POOL command includes the following new columns:",
+        "Column name",
+        "Description",
+        "BUDGET",
+        "The name of the budget monitoring the credit usage of the compute pool.",
+        "TARGET_NODES",
+        "Indicates the number of nodes that Snowflake is targeting for your compute pool. If active_nodes is not equal to the\ntarget_nodes, then Snowflake will autoscale the cluster to add or remove the nodes",
+        "Note",
+        "The target_nodes column appears immediately after the existing idle_nodes column.",
+        "The following examples demonstrate how to interpret the values in the target_nodes column.",
+        "Example 1: Suppose in a CREATE COMPUTE POOL command, you specify MIN_NODES=1 and MAX_NODES=3.",
+        "While Snowflake is provisioning a node, initially the value in the active_nodes and idle_nodes columns is 0, and the value in the target_nodes column is 1. (The value in the target_nodes column is the same as the value that you specified for the MIN_NODES parameter.) This indicates that there should be one node in the compute pool that Snowflake is provisioning.",
+        "After Snowflake provisions one node, the value in the idle_nodes column is 1 (assuming that there are no services running). The value in the target_nodes column is still 1, indicating there should be one node in the compute pool.",
+        "Example 2: Snowflake might try to add a node to an existing compute pool due to autoscaling or changes to the minimum number of nodes (through\nALTER COMPUTE POOL \u2026 SET MIN_NODES).",
+        "While Snowflake is provisioning a node, the value in the state column is resizing. To determine how many nodes Snowflake is adding, check the value in the target_nodes column.",
+        "For example, suppose that the value in the, active_nodes column is 1, the value in the idle_nodes column is 0, and you resize the compute pool by updating the MIN_NODES property from 1 to 2. In this case, the value in the target_nodes column as 2 (the number of nodes that should be in the compute pool). From this you can infer that Snowflake is provisioning one additional node.",
+        "Ref: 1595, 1652",
+        "Was this page helpful?"
+    ]
+}

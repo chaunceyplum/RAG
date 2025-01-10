@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_05/bcr-1649",
+    "title": "SNOWPARK_CONTAINER_SERVICES_HISTORY View (ACCOUNT_USAGE): New Columns | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_05 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, the SNOWPARK_CONTAINER_SERVICES_HISTORY view includes the following new columns that appear immediately after the compute_pool_name column.",
+        "Column name",
+        "Data type",
+        "Description",
+        "IS_EXCLUSIVE",
+        "BOOLEAN",
+        "TRUE, if the compute pool was created for an application.",
+        "APPLICATION_NAME",
+        "STRING",
+        "The name of the application for which the compute pool was created. NULL if the compute pool was not created for an\napplication or if the application no longer exists.",
+        "APPLICATION_ID",
+        "STRING",
+        "The ID of the application for which the compute pool was created; otherwise NULL.",
+        "Ref: 1649",
+        "Was this page helpful?"
+    ]
+}

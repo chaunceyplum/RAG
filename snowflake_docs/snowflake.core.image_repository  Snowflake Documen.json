@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.image_repository",
+    "title": "snowflake.core.image_repository | Snowflake Documentation",
+    "paragraphs": [
+        "Manages Snowpark Container Image Repositories.",
+        "Example",
+        "Refer to snowflake.core.Root to create the root.",
+        "Classes",
+        "ImageRepository(name[,\u00a0database_name,\u00a0...])",
+        "A model object representing the ImageRepository resource.",
+        "ImageRepositoryCollection(schema)",
+        "Represents the collection operations on the Snowflake Image Repository resource.",
+        "ImageRepositoryResource(name,\u00a0collection)",
+        "Represents a reference to a Snowflake image repository.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/tasks-errors-integrate",
+    "title": "Configuring a task to send error notifications | Snowflake Documentation",
+    "paragraphs": [
+        "To enable a task to send error notifications, you must associate the task with a notification integration.\nYou can do this when running the CREATE TASK command to create a new task or\nthe ALTER TASK command to modify an existing task.\nWhen running these commands, set ERROR_INTEGRATION to the name of the notification integration.",
+        "You only specify the error notification integrations on a root task of a task graph. Any failed child task sends error notifications to\nthe root task\u2019s specified integration.",
+        "Tasks with TASK_AUTO_RETRY_ATTEMPTS set to a value greater than 0 send error notifications for each failed task run.",
+        "Note",
+        "Creating or modifying a task that references a notification integration requires a role that has the USAGE privilege on the notification\nintegration. In addition, the role must have either the CREATE TASK privilege on the schema or the OWNERSHIP privilege on the task.",
+        "Create a new task using CREATE TASK. For descriptions of all available task parameters, see the SQL command\ntopic:",
+        "Where:",
+        "Specifies the name of a notification integration created using CREATE NOTIFICATION INTEGRATION. For more information, see\nAWS SNS, Google Pub/Sub, or Azure Event Grid.",
+        "The following example creates a serverless task that supports error notifications. The task inserts the current timestamp into a table\ncolumn every 5 minutes:",
+        "Modify an existing task using ALTER TASK:",
+        "Where integration_name is the name of the notification integration created in one of\nAWS SNS, Google Pub/Sub, or Azure Event Grid platform level notifications.",
+        "For example:",
+        "The body of error messages identifies the task and the errors encountered during a task run.",
+        "The following is a sample message payload describing a task error. The payload can include one or more error messages.",
+        "Note that you must parse the string into a JSON object to process values in the payload.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

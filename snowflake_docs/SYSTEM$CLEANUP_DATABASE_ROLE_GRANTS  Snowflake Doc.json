@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_cleanup_database_role_grants",
+    "title": "SYSTEM$CLEANUP_DATABASE_ROLE_GRANTS | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (Control)",
+        "Revokes privileges on dropped objects from the share and grants the database role to the share.",
+        "The name of the database role.",
+        "If the identifier is not fully qualified in the form of db_name.database_role_name, the command uses the database role\nin the current database for the session.",
+        "The name of the share.",
+        "To call this function, the active role must have the global MANAGE GRANTS privilege.",
+        "None.",
+        "Call the function:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

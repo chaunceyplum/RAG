@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.squeeze",
+    "title": "modin.pandas.DataFrame.squeeze | Snowflake Documentation",
+    "paragraphs": [
+        "Squeeze 1 dimensional axis objects into scalars.",
+        "Series or DataFrames with a single element are squeezed to a scalar.\nDataFrames with a single column or a single row are squeezed to a\nSeries. Otherwise, the object is unchanged.",
+        "This method is most useful when you don\u2019t know if your\nobject is a Series or DataFrame, but you do know it has just a single\ncolumn. In that case you can safely call squeeze to ensure you have a\nSeries.",
+        "axis ({0 or 'index', 1 or 'columns', None}, default None) \u2013 A specific axis to squeeze. By default, all length-1 axes are\nsqueezed. For Series this parameter is unused and defaults to None.",
+        "The projection after squeezing axis or all the axes.",
+        "DataFrame, Series, or scalar",
+        "See also",
+        "Integer-location based indexing for selecting scalars.",
+        "Integer-location based indexing for selecting Series.",
+        "Inverse of DataFrame.squeeze for a single-column DataFrame.",
+        "Examples",
+        "Slicing might produce a Series with a single value:",
+        "Squeezing objects with more than one value in every axis does nothing:",
+        "Squeezing is even more effective when used with DataFrames.",
+        "Slicing a single column will produce a DataFrame with the columns\nhaving only one value:",
+        "So the columns can be squeezed down, resulting in a Series:",
+        "Slicing a single row from a single column will produce a single\nscalar DataFrame:",
+        "Squeezing the rows produces a single scalar Series:",
+        "Squeezing all axes will project directly into a scalar:",
+        "Was this page helpful?"
+    ]
+}

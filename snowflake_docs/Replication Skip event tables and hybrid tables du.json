@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_03/bcr-1560-1582",
+    "title": "Replication: Skip event tables and hybrid tables during refresh operation | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Replication doesn\u2019t currently support\nevent tables or hybrid tables.\nThe behavior of a refresh operation for a primary database that contains an event table or hybrid table is as follows:",
+        "If a primary database contains an event table or a hybrid table, the refresh operation fails.",
+        "If a primary database contains events tables or hybrid tables, the events tables and hybrid tables are skipped during the refresh\noperation and the refresh operation succeeds.",
+        "Ref: 1560, 1582",
+        "Was this page helpful?"
+    ]
+}

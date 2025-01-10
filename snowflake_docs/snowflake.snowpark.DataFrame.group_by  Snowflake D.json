@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.group_by",
+    "title": "snowflake.snowpark.DataFrame.group_by | Snowflake Documentation",
+    "paragraphs": [
+        "Groups rows by the columns specified by expressions (similar to GROUP BY in\nSQL).",
+        "This method returns a RelationalGroupedDataFrame that you can use to\nperform aggregations on each group of data.",
+        "*cols \u2013 The columns to group by.",
+        "Valid inputs are:",
+        "Empty input",
+        "One or multiple Column object(s) or column name(s) (str)",
+        "A list of Column objects or column names (str)",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

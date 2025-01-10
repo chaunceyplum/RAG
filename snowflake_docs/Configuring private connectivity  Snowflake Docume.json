@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark-container-services/private-connectivity",
+    "title": "Configuring private connectivity | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "AWS inbound private connectivity (making ingress requests from an AWS private network) is a preview feature.",
+        "Snowpark Container Services exposes three endpoints:",
+        "Image registry service: It serves the OCIv2 API for you to upload your application images to a repository in your Snowflake account. For more information, see Snowpark Container Services: Working with an image registry and repository.",
+        "Public endpoints exposed by a service: You can allow users, in your account, access to your service from outside Snowflake (ingress) by declaring one or more endpoints as public. For more information, see Using a service.",
+        "Authentication endpoint: When a user attempts to access a service\u2019s public endpoint, Snowpark Container Services redirects the user through this endpoint for authentication.",
+        "This section explains how to enable private connectivity (AWS PrivateLink) to these endpoints.",
+        "Note",
+        "Private connectivity to Snowpark Container Services is supported only with AWS PrivateLink.",
+        "When using AWS PrivateLink, you control the DNS resolution; there are no PrivateLink DNS records controlled by Snowflake.",
+        "To enable private connectivity to Snowpark Container Services, first configure private connectivity (AWS PrivateLink) to connect your Snowflake account to one or more AWS VPCs. This allows AWS VPCs to make requests to Snowflake. For more information, see Inbound private connectivity to Snowflake service.",
+        "To enable ingress requests from your VPC to your service\u2019s public endpoint:",
+        "Call SYSTEM$GET_PRIVATELINK_CONFIG in your Snowflake account to get a list of hostnames for your account. In the output:",
+        "app-service-privatelink-url key provides a wildcard hostname for Snowpark Container Services public endpoints.",
+        "spcs-auth-privatelink-url key provides the hostname required for routing Snowpark Container Services authentication.",
+        "To access Snowflake via an AWS PrivateLink endpoint, you must to create CNAME records in your DNS to resolve the endpoint values from the SYSTEM$GET_PRIVATELINK_CONFIG function to the DNS name of your VPC endpoint.",
+        "Note",
+        "Hostname routing at an account level is currently not supported.",
+        "Call SYSTEM$GET_PRIVATELINK_CONFIG in your Snowflake account to get a list of hostnames for your account. In the output, the spcs-registry-privatelink-url key provides the hostname required for routing Snowpark Container Services image registry requests.",
+        "To access Snowflake via an AWS PrivateLink endpoint, it is necessary to create CNAME records in your DNS to resolve the endpoint values from the SYSTEM$GET_PRIVATELINK_CONFIG function to the DNS name of your VPC endpoint.",
+        "The following apply for public endpoints that services expose:",
+        "Each endpoint can serve both HTTPS-encrypted traffic and WebSocket-encrypted traffic.",
+        "Each endpoint has their own top-level domain, with no shared elements with Snowsight. This ensures that browsers isolate services from Snowsight and services from each other, mitigating risks of cross-origin attacks.",
+        "Instead of routing network egress via the public internet, you might opt to direct your service\u2019s egress traffic through a private connectivity endpoint. For more information, see Network egress using private connectivity.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-04-11-snowflake-copilot-in-snowsight",
+    "title": "April 11-25, 2024 \u2014 Snowflake Copilot release note | Snowflake Documentation",
+    "paragraphs": [
+        "We are pleased to announce the preview of Snowflake Copilot.",
+        "Snowflake Copilot is an LLM-powered assistant that simplifies data analysis while maintaining robust data governance and seamlessly\nintegrates into your existing Snowflake workflow.  You can ask open-ended questions about your data structure, send follow-up\ninquiries, or even use it to refine and improve your own SQL queries.",
+        "Note",
+        "With this preview release, Snowflake Copilot will be made available to accounts in the following regions:",
+        "AWS us-east-1",
+        "AWS us-west-2",
+        "For more details, see Using Snowflake Copilot.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

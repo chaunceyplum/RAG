@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/udf/sql/udf-sql-troubleshooting",
+    "title": "Troubleshooting SQL UDFs | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides troubleshooting information about SQL UDFs (user-defined functions).",
+        "If using a SQL UDF in a masking policy, ensure the data type of the column, UDF, and\nmasking policy match.",
+        "If a UDF contains a query expression, then the UDF can act as a subquery.\nIf a subquery is passed a column name, then the subquery can act as a\ncorrelated subquery. If a correlated subquery violates the\nSnowflake rules for correlated subqueries, then the user gets the error message Unsupported subquery type.\nThe example below shows an invalid correlated subquery, and how a UDF can act like a similar invalid correlated\nsubquery.",
+        "Create a pair of tables and load data into them:",
+        "The following SQL statement contains a correlated subquery that does not follow Snowflake rules. This code\ncauses an Unsupported subquery type error:",
+        "The code below creates and then calls a subquery-like UDF in a way that creates a correlated subquery similar to\nthe one shown above:",
+        "If the UDF contains a query expression, then call the UDF only in ways consistent with the rules for\nsubqueries.",
+        "For example, the following statement calls the UDF with a constant rather than with a column name, so the UDF\ndoes not act like a correlated subquery:",
+        "In some cases, you can re-write the UDF to achieve the same goal a different way. A correlated subquery is allowed\nif the subquery can be statically determined to return one row. The following UDF uses an aggregate function\nand therefore returns only one row:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

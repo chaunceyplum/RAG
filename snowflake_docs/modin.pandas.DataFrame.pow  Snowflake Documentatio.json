@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.pow",
+    "title": "modin.pandas.DataFrame.pow | Snowflake Documentation",
+    "paragraphs": [
+        "Get exponential power of DataFrame and other, element-wise (binary operator pow).",
+        "Note",
+        "Native pandas doesn\u2019t allow a ** b, where a is an integer and b\nis a negative integer. However, Snowpark pandas API allows it and return the correct result.\nFor example, pd.DataFrame([5]).pow(-7) is allowed, whereas it will raise an\nexception in native pandas.",
+        "Was this page helpful?"
+    ]
+}

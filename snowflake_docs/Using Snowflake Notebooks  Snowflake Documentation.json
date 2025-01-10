@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/notebooks/use-notebooks",
+    "title": "Using Snowflake Notebooks | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Generally available in Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP) commercial regions.",
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Snowflake CLI includes the following snow notebook commands that let you create and execute Snowflake notebooks from the command line:",
+        "snow notebook create",
+        "snow notebook execute",
+        "snow notebook get-url",
+        "snow notebook open",
+        "Snowflake notebooks",
+        "The snow notebook create command creates a notebook from an existing notebook on stage. The command returns a link to the new\nnotebook. The following example creates the MY_NOTEBOOK notebook from the specified staged notebook:",
+        "The command creates the notebook in the default warehouse defined for the connection. You can use the --warehouse option to specify an\nalternative warehouse or to specify one if the connection doesn\u2019t define a default warehouse.",
+        "The snow notebook execute command executes a notebook in headless mode. Currently, the command only returns a message indicating whether\nthe notebook executed successfully.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

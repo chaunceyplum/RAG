@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.add_suffix",
+    "title": "modin.pandas.DataFrame.add_suffix | Snowflake Documentation",
+    "paragraphs": [
+        "Suffix labels with string suffix.",
+        "For Series, the row labels are suffixed.\nFor DataFrame, the column labels are suffixed.",
+        "suffix (str) \u2013 The string to add after each label.",
+        "New Series or DataFrame with updated labels.",
+        "Series or DataFrame",
+        "See also",
+        "Prefix row labels with string prefix.",
+        "Prefix column labels with string prefix.",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

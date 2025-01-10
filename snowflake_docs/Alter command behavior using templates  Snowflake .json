@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/project-definitions/alter-with-templates",
+    "title": "Alter command behavior using templates | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "You can use templates to alter the definition using environment variables. For example, the following project definition templates the schema for a Streamlit dashboard:",
+        "This feature lets you to alter the behavior of the snow streamlit deploy command by setting a schema environment variable. Using this approach, you can deploy the same dashboard to multiple different schemas by entering the following commands to deploy different schemas:",
+        "Note",
+        "The variables and environment variables are case-sensitive.",
+        "You can also use the template feature without defining variables in the env section. If a variable is not present in env section, Snowflake CLI looks for corresponding environment variables. For example, if you define a Streamlit application similar to the following, you can still alter the behavior of snow streamlit deploy by specifying a schema environment variable.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

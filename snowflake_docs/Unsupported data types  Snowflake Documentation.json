@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/data-types-unsupported",
+    "title": "Unsupported data types | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake doesn\u2019t support the following data types:",
+        "Category",
+        "Type",
+        "Notes",
+        "LOB (Large Object)",
+        "BLOB",
+        "BINARY can be used instead; maximum of 8,388,608 bytes. For more information, see\nString & binary data types.",
+        "CLOB",
+        "VARCHAR can be used instead; maximum of 16,777,216 bytes (for singlebyte). For more information,\nsee String & binary data types.",
+        "Other",
+        "ENUM",
+        "User-defined data types",
+        "Was this page helpful?"
+    ]
+}

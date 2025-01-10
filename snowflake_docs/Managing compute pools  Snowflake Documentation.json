@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/services/manage-compute-pools",
+    "title": "Managing compute pools | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "A compute pool is a collection of one or more virtual machine (VM) nodes on which Snowflake runs your\nSnowpark Container Services jobs and services.",
+        "For more information about compute pools, see Snowpark Container Services: Working with compute pools.",
+        "This topic shows how to do the following tasks with services:",
+        "How to create a compute pool",
+        "How to suspend and resume a compute pool",
+        "How to set and unset a compute pool\u2019s properties or parameters",
+        "How to stop all services in a compute pool",
+        "For common operations, such as listing or dropping, Snowflake CLI uses snow object commands as described in Managing Snowflake objects.",
+        "To create a compute pool named \u201cpool_1\u201d composed of two CPUs with 4 GB of memory, enter a\nspcs pool create command similar to the following:",
+        "For more information about instance families, see the SQL CREATE COMPUTE POOL command.",
+        "Note",
+        "The current role must have OPERATE privilege on the compute pool to suspend or resume it.",
+        "To suspend a compute pool, enter a command similar to the following:",
+        "To resume a suspended compute pool, enter a command similar to the following:",
+        "Note",
+        "The current role must have MODIFY privilege on the compute pool to set properties.",
+        "To set a property or parameter, enter a command similar to the following:",
+        "To reset a property or parameter to its default value, enter a command similar to the following:",
+        "Stopping a compute pool deletes all of the services running on the compute pool; however, it does not stop the compute pool itself.",
+        "To stop a compute pool, enter a spcs compute-pool stop-all command similar to the following:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

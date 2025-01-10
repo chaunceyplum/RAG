@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Column.rlike",
+    "title": "snowflake.snowpark.Column.rlike | Snowflake Documentation",
+    "paragraphs": [
+        "Returns true if this Column matches the specified regular expression.",
+        "pattern \u2013 A Column or a str that indicates the pattern.\nA str will be interpreted as a literal value instead of a column name.",
+        "For details, see the Snowflake documentation on\nregular expressions.",
+        "rlike() is an alias of regexp().",
+        "Was this page helpful?"
+    ]
+}

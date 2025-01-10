@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-06-28-sis",
+    "title": "June 28, 2024 \u2014 Custom UI in Streamlit in Snowflake \u2013\u2014 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the preview of Custom UI in Streamlit in Snowflake.\nCustom UI enables customization of the look, feel, and front-end behavior of Streamlit in Snowflake apps.",
+        "This feature supports the following:",
+        "Custom HTML and CSS using unsafe_allow_html=True in st.markdown.",
+        "Iframed HTML, CSS, and JavaScript using st.components.v1.html.",
+        "For more information, see Additional Streamlit in Snowflake features.",
+        "Was this page helpful?"
+    ]
+}

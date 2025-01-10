@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/classification_profile/commands/drop-classification-profile",
+    "title": "DROP CLASSIFICATION_PROFILE | Snowflake Documentation",
+    "paragraphs": [
+        "Fully qualified name: SNOWFLAKE.DATA_PRIVACY.CLASSIFICATION_PROFILE",
+        "Preview Feature \u2014 Open",
+        "Available to all accounts that are Enterprise Edition (or higher).",
+        "To inquire about upgrading, please contact Snowflake Support.",
+        "Drops a classification profile instance in the current or specified schema.",
+        "Specifies the identifier of the instance of the CLASSIFICATION_PROFILE class.",
+        "If the identifier contains spaces or special characters, the entire string must be enclosed in double quotes.\nIdentifiers enclosed in double quotes are also case-sensitive.",
+        "For more information, see Identifier requirements.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "OWNERSHIP",
+        "SNOWFLAKE.DATA_PRIVACY.CLASSIFICATION_PROFILE instance",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "Dropped instances cannot be recovered; they must be recreated.",
+        "Drop the classification profile instance:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

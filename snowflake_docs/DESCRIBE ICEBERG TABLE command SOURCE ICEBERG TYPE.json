@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_05/bcr-1638",
+    "title": "DESCRIBE ICEBERG TABLE command: SOURCE ICEBERG TYPE column value change | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_05 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The DESCRIBE ICEBERG TABLE command returns the following in the SOURCE ICEBERG TYPE column:",
+        "For some table columns, the command output displays the Snowflake data type or NULL instead of the expected Iceberg data type.",
+        "For all table columns, the command output contains the source Iceberg data type.",
+        "Ref: 1638",
+        "Was this page helpful?"
+    ]
+}

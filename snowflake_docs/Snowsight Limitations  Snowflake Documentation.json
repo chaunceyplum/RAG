@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/ui-snowsight-limitations",
+    "title": "Snowsight Limitations | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides information about the limitations of Snowsight.",
+        "Currently, Snowsight does not recognize inherited privileges from database roles or application roles. As a result, even if a user\nhas the correct privileges through a database role, they might still be unable to perform certain actions, such as loading files into a\nstage, running a task, or monitoring a Dynamic Table in Snowsight.",
+        "In addition, existing database roles are not displayed in Snowsight under Admin \u00bb Users & Roles \u00bb Roles.",
+        "You can use the SHOW ROLES IN DATABASE command to ensure that you have correctly granted\nprivileges using the appropriate roles.",
+        "Note",
+        "This limitation does not impact user written queries executed in worksheets or notebooks.",
+        "Related topics",
+        "Database privileges",
+        "Role hierarchy and privilege inheritance",
+        "Grant the role to users",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

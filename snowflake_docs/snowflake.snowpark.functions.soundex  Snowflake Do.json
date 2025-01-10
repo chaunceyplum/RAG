@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.soundex",
+    "title": "snowflake.snowpark.functions.soundex | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a string that contains a phonetic representation of the input string.",
+        "Was this page helpful?"
+    ]
+}

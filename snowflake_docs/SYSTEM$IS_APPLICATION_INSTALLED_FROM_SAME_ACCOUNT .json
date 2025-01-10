@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_is_application_installed_from_same_account",
+    "title": "SYSTEM$IS_APPLICATION_INSTALLED_FROM_SAME_ACCOUNT | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Shows if an app is installed on the same account as the application package it is based on.",
+        "SYSTEM$IS_APPLICATION_SHARING_EVENTS_WITH_PROVIDER",
+        "For more information about event sharing, see Configure logging and event tracing for an app.",
+        "None.",
+        "This function returns the following status messages:",
+        "Status Message",
+        "Description",
+        "TRUE",
+        "Indicates if an app is installed on the same account as the application package it is based on.",
+        "FALSE",
+        "Indicates if an app is not installed on the same account as the application package it is based on.",
+        "These system functions can only be called from within an app.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

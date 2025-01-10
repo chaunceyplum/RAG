@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.agg",
+    "title": "modin.pandas.Series.agg | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate using one or more operations over the specified axis.",
+        "func (function, str, list or dict) \u2013",
+        "Function to use for aggregating the data. If a function, must either\nwork when passed a Series or when passed to Series.apply.",
+        "Accepted combinations are:",
+        "function",
+        "string function name",
+        "list of functions and/or function names, e.g. [np.sum, 'mean']",
+        "dict of axis labels -> functions, function names or list of such.",
+        "",
+        "axis ({0 or 'index'}) \u2013 Unused. Parameter needed for compatibility with DataFrame.",
+        "*args \u2013 Positional arguments to pass to func.",
+        "**kwargs \u2013 Keyword arguments to pass to func.",
+        "",
+        "The return can be:",
+        "scalar : when Snowpark pandas Series.agg is called with single function",
+        "Snowpark pandas Series : when Snowpark pandas DataFrame.agg is called with a single function",
+        "Snowpark pandas DataFrame : when Snowpark pandas DataFrame.agg is called with several functions",
+        "Return scalar, Snowpark pandas Series or Snowpark pandas DataFrame.",
+        "",
+        "scalar, Snowpark pandas Series or Snowpark pandas DataFrame",
+        "Notes",
+        "The aggregation operations are always performed over an axis, either the\nindex (default) or the column axis. This behavior is different from\nnumpy aggregation functions (mean, median, prod, sum, std,\nvar), where the default is to compute the aggregation of the flattened\narray, e.g., numpy.mean(arr_2d) as opposed to\nnumpy.mean(arr_2d, axis=0).",
+        "agg is an alias for aggregate. Use the alias.",
+        "Functions that mutate the passed object can produce unexpected\nbehavior or errors and are not supported.",
+        "A passed user-defined-function will be passed a Series for evaluation.",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

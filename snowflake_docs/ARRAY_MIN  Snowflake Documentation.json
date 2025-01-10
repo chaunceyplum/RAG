@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/array_min",
+    "title": "ARRAY_MIN | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Array/Object)",
+        "Given an input ARRAY, returns the element with the lowest value that is not a SQL NULL. If the input ARRAY\nis empty or contains only SQL NULL elements, this function returns NULL.",
+        "The input ARRAY.",
+        "This function returns a VARIANT that contains the element with the lowest value that is not a SQL NULL.",
+        "The function returns NULL if array is NULL, empty, or contains only SQL NULL elements.",
+        "A SQL NULL is distinct from an explicit null value in semi-structured data (for example, a JSON null\nin JSON data). Explicit null values are considered when identifying the element with the lowest value.",
+        "The function determines the element to return by comparing the elements in the array. The function supports comparing elements\nof the same data type or of the following data types:",
+        "Elements of the NUMBER and FLOAT data types.",
+        "Elements of the TIMESTAMP_LTZ and TIMESTAMP_TZ data types.",
+        "If the array contains elements of other data types, cast the elements to a common data type,\nas shown in the example below.",
+        "The following example returns a VARIANT containing the element with the lowest value in an\nARRAY constant:",
+        "The following example demonstrates that the function returns NULL if the input ARRAY is empty:",
+        "The following example demonstrates that the function returns NULL if the input ARRAY contains only SQL NULLs:",
+        "To determine the minimum value in an array with elements of different data types, cast the elements\nto the same data type. The following example casts a DATE element to a TIMESTAMP element to determine the minimum value in the array:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

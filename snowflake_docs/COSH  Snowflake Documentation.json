@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/cosh",
+    "title": "COSH | Snowflake Documentation",
+    "paragraphs": [
+        "Numeric functions (Trigonometric)",
+        "Computes the hyperbolic cosine of its argument.",
+        "This expression should evaluate to a real number.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

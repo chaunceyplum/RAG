@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_makepoint",
+    "title": "ST_MAKEPOINT , ST_POINT | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Constructs a GEOGRAPHY object that represents a point with the specified longitude\nand latitude.",
+        "TO_GEOGRAPHY",
+        "A REAL that represents the longitude.",
+        "A REAL that represents the latitude.",
+        "The function returns a value of type GEOGRAPHY.",
+        "ST_POINT is an alias for ST_MAKEPOINT.",
+        "This shows a simple use of the ST_MAKEPOINT function:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

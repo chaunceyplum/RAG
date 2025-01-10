@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/current_statement",
+    "title": "CURRENT_STATEMENT | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (Session)",
+        "Returns the SQL text of the statement that is currently executing.",
+        "None.",
+        "This shows a simple example of using the CURRENT_STATEMENT function:",
+        "Output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

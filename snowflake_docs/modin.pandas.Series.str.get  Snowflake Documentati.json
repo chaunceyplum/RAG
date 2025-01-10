@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.str.get",
+    "title": "modin.pandas.Series.str.get | Snowflake Documentation",
+    "paragraphs": [
+        "Extract element from each component at specified position or with specified key.",
+        "Extract element from lists, tuples, dict, or strings in each element in the Series/Index.",
+        "i (int) \u2013 Position or key of element to extract.",
+        "Series or Index",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

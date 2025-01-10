@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/commands-cortex-search",
+    "title": "Cortex Search Service commands | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to all accounts.",
+        "Snowflake provides SQL commands to create and manage\nCortex Search Service objects.",
+        "Command",
+        "Description",
+        "CREATE CORTEX SEARCH SERVICE",
+        "Creates a new Cortex Search Service or replaces an existing service.",
+        "ALTER CORTEX SEARCH SERVICE",
+        "Modifies the properties of an existing Cortex Search Service.",
+        "SHOW CORTEX SEARCH SERVICES",
+        "Lists the Cortex Search Service for which you have access privileges.",
+        "DESCRIBE CORTEX SEARCH SERVICE",
+        "Describes the properties of a Cortex Search Service.",
+        "DROP CORTEX SEARCH SERVICE",
+        "Removes the specified Cortex Search Service from the current/specified schema.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

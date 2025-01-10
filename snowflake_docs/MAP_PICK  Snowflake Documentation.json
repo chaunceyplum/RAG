@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/map_pick",
+    "title": "MAP_PICK | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Map)",
+        "Returns a new MAP containing the specified key-value pairs from an existing MAP.",
+        "To identify the key-value pairs to include in the new map, pass in the keys as arguments, or pass in an array containing the keys.",
+        "If a specified key is not present in the input map, the key is ignored.",
+        "The input map.",
+        "One or more keys that identify the key-value pairs to be included in the returned map.",
+        "An array of keys that identify the key-value pairs to be included in the returned map. You can specify a semi-structured ARRAY\nor a structured ARRAY.",
+        "Returns a new MAP containing some of the key-value pairs from an existing MAP.",
+        "Create a new map that contains two of the three key-value pairs from an existing map:",
+        "In the previous example, the keys are passed as arguments to MAP_PICK. You can also use an array to specify the keys:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

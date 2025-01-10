@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-06-17-new-llm-functions",
+    "title": "June 17, 2024 \u2014 New LLM helper functions - TRY_COMPLETE and COUNT_TOKENS | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the availability of two Cortex LLM helper functions, TRY_COMPLETE and COUNT_TOKENS.\nThese functions are purpose-built and managed functions that help to reduce cases of query failures when the number of input tokens\nexceed a model limit.",
+        "For more information, see Large Language Model (LLM) Functions (Snowflake Cortex).",
+        "The following functions are now generally available with this release:",
+        "Function Category",
+        "New Function",
+        "Description",
+        "LLM Function",
+        "TRY_COMPLETE (SNOWFLAKE.CORTEX)",
+        "Tries to run the COMPLETE function but returns NULL instead of an error code if unable to run.",
+        "LLM Function",
+        "COUNT_TOKENS (SNOWFLAKE.CORTEX)",
+        "Counts the tokens in a given input text based on the model or function specified.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

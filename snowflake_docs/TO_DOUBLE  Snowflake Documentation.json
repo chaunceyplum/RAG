@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/to_double",
+    "title": "TO_DOUBLE | Snowflake Documentation",
+    "paragraphs": [
+        "Conversion functions",
+        "Converts an expression to a double-precision floating-point number.",
+        "For NULL input, the result is NULL.",
+        "TRY_TO_DOUBLE",
+        "An expression of a numeric, character, or variant type.",
+        "If the expression evaluates to a string, then the function accepts\nan optional format model. Format models are described at\nSQL format models. The format model\nspecifies the format of the input string, not the format of the\noutput value.",
+        "This function returns a value of FLOAT data type.",
+        "If expr is NULL, the function returns NULL.",
+        "Fixed-point numbers are converted to floating point; the conversion\ncannot fail, but might result in loss of precision.",
+        "Strings are converted as decimal integer or fractional numbers,\nscientific notation and special values (nan, inf, infinity)\nare accepted.",
+        "For VARIANT input:",
+        "If the variant contains a fixed-point value, the numeric conversion\nwill be performed.",
+        "If the variant contains a floating-point value, the value will be\npreserved unchanged.",
+        "If the variant contains a string, a string conversion will be\nperformed.",
+        "If the variant contains a Boolean value, the result will be 0 or 1\n(for false and true, correspondingly).",
+        "If the variant contains JSON null value, the output will be\nNULL.",
+        "Conversion of decimal fractions to binary float and back is not precise\n(that is, printing of a floating-point number converted from decimal representation\nmight produce a slightly different number). If precise representation of decimal\nfractions is required, use fixed-point numbers.",
+        "After creating a table with columns of different data types, this script calls\nTO_DOUBLE on each of those columns:",
+        "The following example shows that converting from a binary float back to a number is not precise:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

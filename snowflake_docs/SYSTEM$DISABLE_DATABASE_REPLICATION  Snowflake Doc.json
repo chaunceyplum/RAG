@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_disable_database_replication",
+    "title": "SYSTEM$DISABLE_DATABASE_REPLICATION | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Disable replication for a primary database and any secondary databases linked to it.",
+        "If a database was previously enabled for replication using ALTER DATABASE \u2026 ENABLE REPLICATION TO ACCOUNTS, database replication\nmust be disabled before the database can be added to a replication or failover group.",
+        "Specifies the identifier for the database.",
+        "Only account administrators (users with the ACCOUNTADMIN role) can execute this SQL function.",
+        "This function must be executed from the source account with the primary database.",
+        "Disable replication for primary database mydb and any linked secondary databases.",
+        "Executed from the source account:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

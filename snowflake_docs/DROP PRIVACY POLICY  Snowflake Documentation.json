@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-privacy-policy",
+    "title": "DROP PRIVACY POLICY | Snowflake Documentation",
+    "paragraphs": [
+        "Enterprise Edition Feature",
+        "This feature requires Enterprise Edition (or higher). To inquire about upgrading, please contact Snowflake Support.",
+        "Removes the specified privacy policy from the current/specified schema.",
+        "CREATE PRIVACY POLICY ,  ALTER PRIVACY POLICY , DESCRIBE PRIVACY POLICY , SHOW PRIVACY POLICIES",
+        "Specifies the identifier for the privacy policy to drop.",
+        "If the identifier contains spaces or special characters, the entire string must be enclosed in double quotes.\nIdentifiers enclosed in double quotes are also case-sensitive.",
+        "For more information, see Identifier requirements.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "OWNERSHIP",
+        "Privacy policy",
+        "OWNERSHIP is a special privilege on an object that is automatically granted to the role that created the object, but can also be transferred using the GRANT OWNERSHIP command to a different role by the owning role (or any role with the MANAGE GRANTS privilege).",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "A privacy policy cannot be dropped successfully if it is currently assigned to a table or view.",
+        "Before executing a DROP statement, execute the following statement to determine if the privacy policy is set on any tables or views.",
+        "For each table or view, use ALTER TABLE \u2026 DROP PRIVACY POLICY \u2026 or\nALTER VIEW \u2026 DROP PRIVACY POLICY \u2026 to detach the privacy policy from the\ntable or view.",
+        "The following example drops the privacy policy named myprivpolicy:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

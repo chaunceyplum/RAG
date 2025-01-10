@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-928",
+    "title": "TABLES and SCHEMATA Views (Account Usage): Changes to RETENTION_TIME Column | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The data retention period for an object is determined by the retention time parameter settings set on the object and account. These parameters\nare DATA_RETENTION_TIME _IN_DAYS and MIN_DATA_RETENTION_TIME_IN_DAYS.",
+        "If the retention time is not explicitly set for an object, it inherits the setting from its parent object.",
+        "If there is no retention time set at the account level, the default retention time for the object is 1 day.",
+        "The maximum retention time for a transient object is 1 day, regardless of the account-level setting.",
+        "If there is a minimum retention time set for the account, and a retention time explicitly set on an object, the effective retention time is the\ngreater of the two: MAX(DATA_RETENTION_TIME_IN_DAYS, MIN_DATA_RETENTION_TIME_IN_DAYS).",
+        "The RETENTION_TIME column in the Account Usage views listed below might display the incorrect value in the following scenarios:",
+        "If there is no explicit retention time set for a transient table or schema, and the retention time for the account is set to 7 days, the\nRETENTION_TIME column value is 7 days. This is incorrect. The maximum data retention time for a transient object is 1 day.",
+        "If the minimum retention time for an account is 7 days, and the retention time setting for a table or schema is 4 days, the RETENTION_TIME column\nvalue is 4 days. This is incorrect. The minimum account retention time is longer and therefore overrides the retention time explicitly set for the\ntable or schema.",
+        "If the retention time is set to 10 days for a table or schema, then unset, the RETENTION_TIME column value is the unset value (in this case 10).\nThis might be incorrect.",
+        "In the current release, the RETENTION_TIME column value changed as follows for the ACCOUNT_USAGE views listed below:",
+        "TABLES View",
+        "SCHEMATA View",
+        "In some cases, the RETENTION_TIME column displays an incorrect data retention time for the object.",
+        "The RETENTION_TIME column will display the correct data retention time for tables and schemas.",
+        "For more information about setting the data retention period, refer to\nSpecifying the Data Retention Period for an Object.",
+        "Ref: 928",
+        "Was this page helpful?"
+    ]
+}

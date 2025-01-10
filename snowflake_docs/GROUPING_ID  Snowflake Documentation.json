@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/grouping_id",
+    "title": "GROUPING_ID | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (General)",
+        "Describes which of a list of expressions are grouped in a row produced by a GROUP BY query.",
+        "Alias for GROUPING.",
+        "GROUPING_ID is not an aggregate function, but rather a utility function that can be used alongside aggregation, to determine the level of aggregation a row was generated for:",
+        "GROUPING_ID(expr) returns 0 for a row that is grouped on expr, and 1 for a row that is not grouped on expr.",
+        "GROUPING_ID(expr1, expr2 , \u2026 , exprN) returns the integer representation of a bit-vector containing GROUPING_ID(expr1) , GROUPING_ID(expr2) , \u2026 , GROUPING_ID(exprN).",
+        "The examples use the following table and data:",
+        "This example groups on col_x. Calling GROUPING_ID(col_x) returns 0, indicating that col_x is indeed one of\nthe grouping columns.",
+        "This query groups by sets:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

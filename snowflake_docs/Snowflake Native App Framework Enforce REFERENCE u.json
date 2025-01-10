@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1367",
+    "title": "Snowflake Native App Framework: Enforce REFERENCE usage on databases containing tags and policies | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In a previous BCR, providers were required to grant reference usage on shared objects within an application package.\nHowever, there was no effect on any installed Snowflake Native App as part of the previous BCR, including shared databases\nreferencing tags and policies.",
+        "In this BCR, an installed Snowflake Native App will fail if it is based on an application package that contains a database with dependencies on\ntags or policies and REFERENCE usage has not been granted on that database to the application package.",
+        "A Snowflake Native App installed from an application package containing dependencies on tags or policies continues to work even if\nREFERENCE usage on the parent or reference database was not granted to the application package.",
+        "A Snowflake Native App installed from an application package containing dependencies on tags or policies will fail if REFERENCE\nusage is not granted on the parent or reference database to the application package.",
+        "Providers must ensure that all apps installed in consumer accounts have the correct privileges granted\nto event tables and temporary stages. To grant the correct privileges, run the following command:",
+        "Ref: 1367",
+        "Was this page helpful?"
+    ]
+}

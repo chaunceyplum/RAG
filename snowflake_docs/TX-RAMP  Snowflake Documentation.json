@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cert-txramp",
+    "title": "TX-RAMP | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes how Snowflake supports customers with TX-RAMP compliance requirements.",
+        "TX-RAMP provides a standardized approach for security assessment, authorization, and continuous monitoring of cloud computing services used\nby Texas state agencies. Texas state agencies can use Snowflake to  comply with TX-RAMP.",
+        "Snowflake currently maintains 4 deployments that are TX-RAMP Authorized:",
+        "Snowflake The Data Cloud on Azure Commercial: Provisional 18 month ATO.",
+        "Snowflake The Data Cloud on AWS US East/West: StateRAMP Level 3 Authorized.",
+        "Snowflake The Data Cloud on Azure Government: StateRAMP Level 3 Authorized.",
+        "Snowflake The Data Cloud on AWS GovCloud: StateRAMP Level 3+ Authorized.",
+        "You can find an up-to-date inventory of authorized cloud solutions on the\nTX-RAMP website.",
+        "Note",
+        "If your Snowflake account is in a U.S. government region and you want to access data products that are\noffered privately or on the Snowflake Marketplace, or offer listings either privately or on the Snowflake Marketplace, you must review and\nacknowledge a cross-region disclaimer for your organization.",
+        "For details, see:",
+        "Prepare to provide listings from accounts in U.S. government regions",
+        "Prepare to access listings from accounts in U.S. government regions",
+        "Limitations for accessing listings from accounts in U.S. government regions",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

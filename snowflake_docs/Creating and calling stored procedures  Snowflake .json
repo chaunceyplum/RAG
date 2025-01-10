@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/sql-api/using-stored-procedures",
+    "title": "Creating and calling stored procedures | Snowflake Documentation",
+    "paragraphs": [
+        "You can use the SQL API to create and call stored procedures. The following is an example of the body of a POST request that\ncreates a new stored procedure that passes in the name of a table and returns the number of rows in that table:",
+        "The following is an example of the body of the response for this request:",
+        "The following is an example of the body of a POST request that calls the stored procedure, passing in the table name \u201cprices\u201d:",
+        "The following is an example of the body of the response for this request:",
+        "Was this page helpful?"
+    ]
+}

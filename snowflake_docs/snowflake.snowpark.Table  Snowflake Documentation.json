@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Table",
+    "title": "snowflake.snowpark.Table | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: DataFrame",
+        "Represents a lazily-evaluated Table. It extends DataFrame so all\nDataFrame operations can be applied to it.",
+        "You can create a Table object by calling Session.table()\nwith the name of the table in Snowflake. See examples in Session.table().",
+        "Methods",
+        "delete()",
+        "Deletes rows in a Table and returns a DeleteResult, representing the number of rows deleted.",
+        "drop_table()",
+        "Drops the table from the Snowflake database.",
+        "merge()",
+        "Merges this Table with DataFrame source on the specified join expression and a list of matched or not-matched clauses, and returns a MergeResult, representing the number of rows inserted, updated and deleted by this merge action.",
+        "sample([frac,\u00a0n,\u00a0seed,\u00a0sampling_method])",
+        "Samples rows based on either the number of rows to be returned or a percentage of rows to be returned.",
+        "update()",
+        "Updates rows in the Table with specified assignments and returns a UpdateResult, representing the number of rows modified and the number of multi-joined rows modified.",
+        "Attributes",
+        "is_cached",
+        "Whether the table is cached.",
+        "table_name",
+        "The table name",
+        "Was this page helpful?"
+    ]
+}

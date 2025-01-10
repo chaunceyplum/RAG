@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-materialized-view",
+    "title": "DROP MATERIALIZED VIEW | Snowflake Documentation",
+    "paragraphs": [
+        "Enterprise Edition Feature",
+        "Materialized views require Enterprise Edition. To inquire about upgrading, please contact Snowflake Support.",
+        "Removes the specified materialized view from the current/specified schema.",
+        "ALTER MATERIALIZED VIEW , CREATE MATERIALIZED VIEW , SHOW MATERIALIZED VIEWS , DESCRIBE MATERIALIZED VIEW",
+        "Dropping a materialized view does not update references to that view. For example, if you create a view named \u201cV1\u201d on top of a\nmaterialized view, and then you drop the materialized view, the definition of view \u201cV1\u201d will become out of date.",
+        "Dropped materialized views cannot be recovered; they must be recreated.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

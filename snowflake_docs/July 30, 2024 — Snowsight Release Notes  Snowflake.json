@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/ui/2024-07-30",
+    "title": "July 30, 2024 \u2014 Snowsight Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "This document provides an overview of the new features, enhancements, and other important changes introduced in this update to\nSnowsight.",
+        "If you have additional questions, please feel free to contact Snowflake Support.",
+        "With this release, we are pleased to announce the preview of the Snowflake Cortex Fine-tuning function in Snowsight.\nSnowflake Cortex Fine-tuning offers a way to customize large language models for your specific task. Now you can fine-tune models through\nSnowsight without writing any SQL.",
+        "For more details, see Fine-tuning (Snowflake Cortex).",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

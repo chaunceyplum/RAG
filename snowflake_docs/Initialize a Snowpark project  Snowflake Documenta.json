@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/snowpark/initialize",
+    "title": "Initialize a Snowpark project | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "The first step when creating Snowpark projects is to create a project boilerplate. The snow init command creates a fully-functional boilerplate with the following structure:",
+        "The snowflake.yml file contains a project definition that describes the project structure that the snow snowpark commands use.",
+        "The app directory stores the project code. You can think about it as a Python module. All functions and procedures must reside in this directory.",
+        "The requirements.txt file contains project dependencies. Snowflake CLI supports all requirement specifiers supported by pip, such as a package name, a URL for a package, or a local path.",
+        "You can add more dependencies (such as previously deployed custom packages) as imports parameters in the function and procedure declarations in the project definition.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

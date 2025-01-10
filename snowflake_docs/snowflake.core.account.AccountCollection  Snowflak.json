@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.account.AccountCollection",
+    "title": "snowflake.core.account.AccountCollection | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: AccountObjectCollectionParent[AccountResource]",
+        "Represents the collection operations of the Snowflake Account resource.",
+        "With this collection, you can create, iterate through, and search for an account that you have access to\nin the current context.",
+        "Examples",
+        "Creating an account instance:",
+        "Attributes",
+        "Methods",
+        "Create an account in Snowflake.",
+        "account (Account) \u2013 The Account object, together with the Account\u2019s properties:\nname, admin_name, email, edition; admin_password, first_name, last_name, must_change_password, region_group,\nregion, comment, polaris are optional.",
+        "Examples",
+        "Creating an account instance and getting reference to it:",
+        "Iterate through Account objects in Snowflake, filtering on any optional like pattern.",
+        "like (str, optional) \u2013 A case-insensitive string functioning as a filter, with support for SQL\nwildcard characters (% and _).",
+        "limit (int, optional) \u2013 Limit of the maximum number of rows returned by iter(). The default is None, which behaves equivalently\nto show_limit=10000. This value must be between 1 and 10000.",
+        "history (bool, optional) \u2013 If True, includes dropped accounts that have not yet been deleted. The default is None, which\nbehaves equivalently to False.",
+        "Examples",
+        "Showing all accounts you have access to see:",
+        "Showing information of the exact account you want to see:",
+        "Showing accounts starting with \u2018your-account-name\u2019:",
+        "Using a for loop to retrieve information from iterator:",
+        "Was this page helpful?"
+    ]
+}

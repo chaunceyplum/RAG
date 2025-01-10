@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.le",
+    "title": "modin.pandas.DataFrame.le | Snowflake Documentation",
+    "paragraphs": [
+        "Get less than or equal comparison of DataFrame and other, element-wise (binary operator le).",
+        "Was this page helpful?"
+    ]
+}

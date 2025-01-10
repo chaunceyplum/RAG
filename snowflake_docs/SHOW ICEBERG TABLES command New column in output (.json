@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_08/bcr-1745",
+    "title": "SHOW ICEBERG TABLES command: New column in output (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, the output of the SHOW ICEBERG TABLES command includes the\nfollowing new column:",
+        "Column name",
+        "Data type",
+        "Description",
+        "catalog_sync_name",
+        "String",
+        "Denotes the name of the catalog integration for Snowflake Open Catalog that the Snowflake-managed Apache Iceberg\u2122 table is configured to be\nsynced to.",
+        "This configuration is specified through one of the following:",
+        "The CATALOG_SYNC parameter for the CREATE ICEBERG TABLE (Snowflake as the Iceberg catalog) command.",
+        "The ALTER <object> command by using ALTER <domain> SET CATALOG_SYNC\u2026 syntax, where <domain> can\neither be account, database, schema, or iceberg table. When setting <domain>  on a non-table\ndomain, all tables under the domain will be propagated with the CATALOG_SYNC target, so their catalog_sync_name column from\nSHOW ICEBERG TABLES will contain this value that was set from the higher domain.",
+        "If the CATALOG_SYNC parameter is set both on the table and a higher domain, the finer-grained domain (that is, the parameter on table)\nwill be respected and returned in the command output. For example, if the parameter is set on both schema and table, the parameter\nvalue for the table is returned in the catalog_sync_name column for SHOW ICEBERG TABLES.",
+        "If one of the following is true, the value for catalog_sync_name is NULL:",
+        "There are no sync targets configured for the Iceberg table.",
+        "The Iceberg table isn\u2019t Snowflake managed.",
+        "The catalog_sync_name column is added as the last column of the output, immediately following name_mapping.",
+        "Ref: 1745",
+        "Was this page helpful?"
+    ]
+}

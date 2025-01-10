@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-ml/feature-store/replication-sharing",
+    "title": "Replicating and sharing features | Snowflake Documentation",
+    "paragraphs": [
+        "Enterprise Edition Feature",
+        "The Snowflake Feature Store requires Enterprise Edition. To inquire about upgrading, please contact\nSnowflake Support.",
+        "Note",
+        "The Snowflake Feature Store API is available in the Snowpark ML Python package (snowflake-ml-python) v1.5.0 and later.",
+        "Because feature store objects are implemented as Snowflake objects, they support replication and sharing.",
+        "To replicate a feature store, replicate the database that contains its schema. Note that replicating the database\nreplicates all schemas in the database, not just feature stores. For more information on database replication, see\nIntroduction to replication and failover across multiple accounts.",
+        "To share features across accounts, share the entire feature store by sharing the underlying schema.  Because this shares\nall feature views in the feature store, you might want to organize feature views into feature stores based on who they\nwill be shared with. For more information on sharing, see About Secure Data Sharing.",
+        "It is also possible to share individual feature views. Doing so requires additional steps because\nyou must also share the associated tags, which the feature store uses internally.  The steps below share a single\nfeature view.",
+        "Set the variables in the initial block, below, as follows:",
+        "FS_SHARE: The name of the share with which the feature view will be shared.",
+        "FS_DATABASE: The name of the database that contains the feature store.",
+        "FS_SCHEMA: The name of the schema that contains the feature view.",
+        "FV_NAME: The name and version of the feature view separated by $. For example, if the feature view\u2019s name is\nmyfv and its version is v1, this value is myfv$v1.",
+        "ENTITY_NAME: The entity to which the feature view belongs.",
+        "Execute the following statements, which set some intermediate variables, then grant most of the necessary privileges.",
+        "Finally, execute one of the two statements below depending on the type of feature view you are sharing.",
+        "For a Snowflake-managed feature view:",
+        "For an  external feature view:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_08/bcr-1732",
+    "title": "TABLES views and SHOW OBJECTS command: New column IS_HYBRID (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, the INFORMATION_SCHEMA.TABLES view and\nthe ACCOUNT_USAGE.TABLES view both include the following new column:",
+        "Column name",
+        "Data type",
+        "Description",
+        "IS_HYBRID",
+        "Boolean",
+        "Specifies whether the table is a hybrid table (YES or NO).",
+        "For both TABLES views, the TABLE_TYPE column for a hybrid table shows BASE TABLE instead of HYBRID TABLE.",
+        "When this behavior change bundle is enabled, the output of the SHOW OBJECTS command includes the following new column:",
+        "Column name",
+        "Data type",
+        "Description",
+        "IS_HYBRID",
+        "Boolean",
+        "Specifies whether the table is a hybrid table (Y or N).",
+        "Ref: 1732",
+        "Was this page helpful?"
+    ]
+}

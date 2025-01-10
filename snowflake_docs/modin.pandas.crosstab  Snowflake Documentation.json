@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.crosstab",
+    "title": "modin.pandas.crosstab | Snowflake Documentation",
+    "paragraphs": [
+        "Compute a simple cross tabulation of two (or more) factors.",
+        "By default, computes a frequency table of the factors unless an array\nof values and an aggregation function are passed.",
+        "index (array-like, Series, or list of arrays/Series) \u2013 Values to group by in the rows.",
+        "columns (array-like, Series, or list of arrays/Series) \u2013 Values to group by in the columns.",
+        "values (array-like, optional) \u2013 Array of values to aggregate according to the factors.\nRequires aggfunc be specified.",
+        "rownames (sequence, default None) \u2013 If passed, must match number of row arrays passed.",
+        "colnames (sequence, default None) \u2013 If passed, must match number of column arrays passed.",
+        "aggfunc (function, optional) \u2013 If specified, requires values be specified as well.",
+        "margins (bool, default False) \u2013 Add row/column margins (subtotals).",
+        "margins_name (str, default 'All') \u2013 Name of the row/column that will contain the totals when margins is True.",
+        "dropna (bool, default True) \u2013 Do not include columns whose entries are all NaN.",
+        "normalize (bool, {'all', 'index', 'columns'}, or {0,1}, default False) \u2013",
+        "Normalize by dividing all values by the sum of values.",
+        "If passed \u2018all\u2019 or True, will normalize over all values.",
+        "If passed \u2018index\u2019 will normalize over each row.",
+        "If passed \u2018columns\u2019 will normalize over each column.",
+        "If margins is True, will also normalize margin values.",
+        "",
+        "Cross tabulation of the data.",
+        "Snowpark pandas DataFrame",
+        "Notes",
+        "Raises NotImplementedError if aggfunc is not one of \u201ccount\u201d, \u201cmean\u201d, \u201cmin\u201d, \u201cmax\u201d, or \u201csum\u201d, or\nmargins is True, normalize is True or all, and values is passed.",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

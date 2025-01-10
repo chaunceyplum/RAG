@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_02/bcr-1550",
+    "title": "Snowpark Container Services: Error if image is not found when creating service or job | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_02 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When attempting to create a Snowpark Container Services service  or job and where the image identified in the specification is not found in the repository, the behavior is as follows:",
+        "The error message Failed to read image manifest : [status code] is displayed.",
+        "If Snowflake cannot connect to the repository, the error message Failed to retrieve image [image path] from image repository : [status code] is displayed.",
+        "In addition, if the image does not exist in the repository, the error message Image [image path] not found. Please verify the image exists in the image repository. is displayed.",
+        "Ref: 1550",
+        "Was this page helpful?"
+    ]
+}

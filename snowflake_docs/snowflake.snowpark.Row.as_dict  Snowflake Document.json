@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Row.as_dict",
+    "title": "snowflake.snowpark.Row.as_dict | Snowflake Documentation",
+    "paragraphs": [
+        "Convert to a dict if this row object has both keys and values.",
+        "recursive \u2013 Recursively convert child Row objects to dicts. Default is False.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-authentication-policy",
+    "title": "DESCRIBE AUTHENTICATION POLICY | Snowflake Documentation",
+    "paragraphs": [
+        "Describes the properties of an authentication policy.",
+        "CREATE AUTHENTICATION POLICY, ALTER AUTHENTICATION POLICY, DROP AUTHENTICATION POLICY, SHOW AUTHENTICATION POLICIES",
+        "Specifies the identifier for the authentication policy to describe. If the identifier contains spaces or special characters, you must enclose\nthe string in double quotation marks. Identifiers enclosed in double quotation marks are case-sensitive. The identifier must meet the\nidentifier requirements.",
+        "A role used to execute this SQL command must have at least one of the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "APPLY AUTHENTICATION POLICY",
+        "Account",
+        "Only the SECURITYADMIN role, or a higher role, has this privilege by default. The privilege can be granted to additional roles as needed.",
+        "OWNERSHIP",
+        "Authentication policy",
+        "OWNERSHIP is a special privilege on an object that is automatically granted to the role that created the object, but can also be transferred using the GRANT OWNERSHIP command to a different role by the owning role (or any role with the MANAGE GRANTS privilege).",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "Describe an authentication policy named my_auth_policy:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

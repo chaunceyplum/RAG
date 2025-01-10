@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/overview-view-mview-dts",
+    "title": "Views, materialized views, and dynamic tables | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake provides a variety of structures to view, materialize, and otherwise transform data.  Three of the most common mechanisms are:",
+        "Views: Snowflake provides what would be considered a traditional database view.\nIn general, a view allows the result of a query to be accessed as if it were a table, including linking (or in database parlance, joining)\ntwo or more tables or other views into a single logical view. Once defined, views can be queried like any other table.",
+        "Materialized views: Materialized views differ from traditional views by providing the ability to\npre-compute the dataset based on materialized view query.\nBecause the result is pre-computed, querying a materialized view is faster than executing a query against the base table of the view.\nThis performance difference can be significant when a query is run frequently or is sufficiently complex.\nAs a result, materialized views can speed up expensive aggregation, projection, and selection operations, especially those that run\nfrequently and that run on large data sets.",
+        "Dynamic Tables: Dynamic tables materialize the results of a specified query.\nInstead of creating a separate target table and writing code to transform and update the data in that table,\nyou can define the target table as a dynamic table, and you can specify the SQL statement that performs the transformation.\nBackground automation then keeps the dynamic table up to date based on the refresh criteria that you specify.",
+        "Object type",
+        "Pros",
+        "Cons",
+        "Limitations and More information",
+        "View",
+        "Simple, easily defined, consumes no storage.",
+        "Inflexible, slow, requires compute to generate results.",
+        "See Limitations on Views.",
+        "Materialized View",
+        "Fast results retrieval.\nRelatively simple definition.\nSomewhat flexible.\nAlways up to date.",
+        "Incurs compute to keep up to date.\nConsumes storage.",
+        "For more information, including limitations in materialized views, see Working with Materialized Views.",
+        "Dynamic Tables",
+        "Extremely fast results retrieval.\nRelatively simple definition.\nVery flexible.\nFine control on refresh.\nCan provide complex transformations.",
+        "Incurs compute cost to be kept up to date.\nConsumes storage.\nRequires careful consideration as to how often to refresh, and when and how to refresh.",
+        "For more information, see Dynamic tables.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.name",
+    "title": "modin.pandas.Series.name | Snowflake Documentation",
+    "paragraphs": [
+        "Return the name of the Series.",
+        "The name of a Series becomes its index or column name if it is used to form a DataFrame.\nIt is also used whenever displaying the Series using the interpreter.",
+        "Was this page helpful?"
+    ]
+}

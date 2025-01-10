@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_06/bcr-1712",
+    "title": "SHOW ORGANIZATION ACCOUNTS command: Repurposed for new functionality | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The SHOW ORGANIZATION ACCOUNT command behaves as follows:",
+        "The SHOW ORGANIZATION ACCOUNTS command returns all accounts in an organization.",
+        "The SHOW ORGANIZATION ACCOUNTS command returns an error directing the user to execute the SHOW ACCOUNTS command\nto return all accounts in an organization.",
+        "For customers enrolled in the private preview of organization accounts, which is a new type of account, the SHOW ORGANIZATION ACCOUNTS\ncommand returns the organization account, not all accounts in the organization.",
+        "When organization accounts become generally available, all customers will use the SHOW ORGANIZATION ACCOUNTS command to return the\norganization account.",
+        "Ref: 1712",
+        "Was this page helpful?"
+    ]
+}

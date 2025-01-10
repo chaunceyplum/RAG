@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-984",
+    "title": "IS_GRANTED_TO_INVOKER_ROLE Function: Change to the Output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of the IS_GRANTED_TO_INVOKER_ROLE function is as follows:",
+        "The function evaluates to FALSE when the argument corresponds to a role in the following context:",
+        "Calling the function by itself: the role hierarchy of the active, primary role (i.e. CURRENT_ROLE()).",
+        "Stored procedure caller\u2019s rights.",
+        "Stored procedure owner\u2019s rights.",
+        "Task owner.",
+        "If the function is used in a masking policy that protects a table, the function evaluates the policy owner\u2019s role hierarchy. If the role in\nthe function argument is in the role hierarchy of the role that owns the policy, the function evaluates to TRUE. Otherwise, the function\nevaluates to FALSE.",
+        "The function evaluation uses the primary role hierarchy for the session in the following contexts:",
+        "Calling the function by itself.",
+        "Table",
+        "Stored procedure with caller\u2019s rights.",
+        "If the function is used in a stored procedure with owner\u2019s rights, the function evaluates the role hierarchy of the role that owns the\nstored procedure with owner\u2019s rights.",
+        "Similarly, if the function is used with a task, the function evaluates the role hierarchy of the role that owns the task.",
+        "To identify existing masking policies that use the IS_GRANTED_TO_INVOKER_ROLE function, execute the following statements:",
+        "Ref: 984",
+        "Was this page helpful?"
+    ]
+}

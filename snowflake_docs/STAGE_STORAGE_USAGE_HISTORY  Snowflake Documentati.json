@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/stage_storage_usage_history",
+    "title": "STAGE_STORAGE_USAGE_HISTORY | Snowflake Documentation",
+    "paragraphs": [
+        "Information Schema , Table functions",
+        "This table function can be used to query the average daily data storage usage, in bytes, for all the Snowflake stages in your account within a specified date range. The output will include storage for:",
+        "Named internal stages.",
+        "Default staging areas (for tables and users).",
+        "Note",
+        "This function returns stage storage usage within the last 6 months.",
+        "DATABASE_STORAGE_USAGE_HISTORY , WAREHOUSE_METERING_HISTORY",
+        "All the arguments are optional.",
+        "The date range, within the last 6 months, for which to retrieve stage storage usage:",
+        "If an end date is not specified, then CURRENT_DATE is used as the end of the range.",
+        "If a start date is not specified, then DATE_RANGE_END is used as the start of the range (i.e. the default is one day of storage usage).",
+        "If the range falls outside the last 6 months, an error is returned.",
+        "Returns results only for the ACCOUNTADMIN role or any role that has been explicitly granted the MONITOR USAGE global privilege.",
+        "When calling an Information Schema table function, the session must have an INFORMATION_SCHEMA schema in use or the function name must be fully-qualified. For more details, see\nSnowflake Information Schema.",
+        "The function returns the following columns:",
+        "Column Name",
+        "Data Type",
+        "Description",
+        "USAGE_DATE",
+        "DATE",
+        "Date (in the UTC time zone) of this storage usage record",
+        "AVERAGE_STAGE_BYTES",
+        "NUMBER",
+        "Number of bytes of stage storage used",
+        "Retrieve average daily storage usage for the past 10 days for all internal stages in your account:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

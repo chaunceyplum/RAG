@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/show-privileges",
+    "title": "SHOW PRIVILEGES | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to all accounts.",
+        "Lists the privileges granted to an application.",
+        "Specifies the name of the application.",
+        "Specifies the privileges granted to an application.",
+        "Column",
+        "Description",
+        "privilege",
+        "The name of the privilege as specified in the manifest file.",
+        "description",
+        "A description of the privilege, which is specified in the manifest file. For details,\nrefer to Access control privileges.",
+        "is_granted",
+        "Specifies if the consumer has granted the privilege.",
+        "is_grantable",
+        "Specifies if the user running the command has an\nactivated role that can grant this\nprivilege",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

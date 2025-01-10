@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.array_agg",
+    "title": "snowflake.snowpark.functions.array_agg | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the input values, pivoted into an ARRAY. If the input is empty, an empty\nARRAY is returned.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_08/bcr-1760",
+    "title": "Network security: Cannot attach egress network rule to a network policy (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Network rules can be attached to a network policy to control incoming network traffic (ingress) or\nattached to an external access integration to control outgoing network traffic (egress). The purpose of the network rule is controlled by\nits MODE parameter. The same network rule is never used for both ingress (MODE=INGRESS) and egress (MODE=EGRESS).",
+        "Administrators can attach a network rule with MODE=EGRESS to a network policy even though it has no effect.",
+        "An attempt to attach a network rule with MODE=EGRESS to a network policy results in an error.",
+        "Ref: 1760",
+        "Was this page helpful?"
+    ]
+}

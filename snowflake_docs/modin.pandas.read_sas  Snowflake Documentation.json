@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.read_sas",
+    "title": "modin.pandas.read_sas | Snowflake Documentation",
+    "paragraphs": [
+        "Read SAS files stored as either XPORT or SAS7BDAT format files.",
+        "filepath_or_buffer (str, path object, or file-like object) \u2013 String, path object (implementing os.PathLike[str]), or file-like object implementing a binary read() function. The string could be a URL. Valid URL schemes include http, ftp, s3, and file. For file URLs, a host is expected. A local file could be: file://localhost/path/to/table.sas7bdat.",
+        "format (str {\u2018xport\u2019, \u2018sas7bdat\u2019} or None) \u2013 If None, file format is inferred from file extension. If \u2018xport\u2019 or \u2018sas7bdat\u2019, uses the corresponding format.",
+        "index (identifier of index column, defaults to None) \u2013 Identifier of column that should be used as index of the DataFrame.",
+        "encoding (str, default is None) \u2013 Encoding for text data. If None, text data are stored as raw bytes.",
+        "chunksize (int) \u2013 Read file chunksize lines at a time, returns iterator.",
+        "iterator (bool, defaults to False) \u2013 If True, returns an iterator for reading the file incrementally.",
+        "compression (str or dict, default \u2018infer\u2019) \u2013 For on-the-fly decompression of on-disk data. If \u2018infer\u2019 and \u2018filepath_or_buffer\u2019 is path-like, then detect compression from the following extensions: \u2018.gz\u2019, \u2018.bz2\u2019, \u2018.zip\u2019, \u2018.xz\u2019, \u2018.zst\u2019, \u2018.tar\u2019, \u2018.tar.gz\u2019, \u2018.tar.xz\u2019 or \u2018.tar.bz2\u2019 (otherwise no compression). If using \u2018zip\u2019 or \u2018tar\u2019, the ZIP file must contain only one data file to be read in. Set to None for no decompression. Can also be a dict with key \u2018method\u2019 set to one of {\u2018zip\u2019, \u2018gzip\u2019, \u2018bz2\u2019, \u2018zstd\u2019, \u2018xz\u2019, \u2018tar\u2019} and other key-value pairs are forwarded to zipfile.ZipFile, gzip.GzipFile, bz2.BZ2File, zstandard.ZstdDecompressor, lzma.LZMAFile or tarfile.TarFile, respectively. As an example, the following could be passed for Zstandard decompression using a custom compression dictionary: compression={\u2018method\u2019: \u2018zstd\u2019, \u2018dict_data\u2019: my_compression_dict}.",
+        "",
+        "DataFrame if iterator=False and chunksize=None, else SAS7BDATReader",
+        "or XportReader",
+        "",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

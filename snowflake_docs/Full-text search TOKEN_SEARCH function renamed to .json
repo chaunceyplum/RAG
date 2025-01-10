@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_05/bcr-1633",
+    "title": "Full-text search: TOKEN_SEARCH function renamed to SEARCH | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_05 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The full-text search SQL function named TOKEN_SEARCH behaves as follows:",
+        "The full-text search SQL function is named TOKEN_SEARCH.",
+        "The full-text search SQL function is named SEARCH. However, the current function name, TOKEN_SEARCH,\nwill continue to work for a period of time.",
+        "Customers who have user-defined functions (UDFs) or stored procedures named SEARCH must rename those\nUDFs or stored procedures. Attempting to call a UDF or a procedure named SEARCH without qualification\nwill result in a SQL compilation error. It is also possible that the SEARCH function could be executed\ninstead of the UDF or procedure if the function signatures match exactly.",
+        "Ref: 1633",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/querying-cancel-statements",
+    "title": "Canceling Statements | Snowflake Documentation",
+    "paragraphs": [
+        "The recommended way to cancel a statement is to use the interface of the application\nin which the query is running (e.g. the Worksheet in the Snowflake web interface)\nor the cancellation API provided by the Snowflake ODBC or JDBC driver. However,\nin some cases, it is necessary to cancel a query using SQL.",
+        "Snowflake provides the following functions to support using SQL to cancel\nrunning/active statements:",
+        "SYSTEM$CANCEL_ALL_QUERIES",
+        "SYSTEM$CANCEL_QUERY",
+        "The following Java sample code uses SYSTEM$CANCEL_ALL_QUERIES\nand other Snowflake functions to cancel a running statement in the current session\nafter 5 seconds:",
+        "The sample code first issues a SQL command for CURRENT_SESSION\nto obtain the session identifier.",
+        "It then creates a task to be executed 5 seconds later. This task uses the\nsession identifier as a parameter to SYSTEM$CANCEL_ALL_QUERIES.",
+        "Then a long running statement is executed using the GENERATOR\ntable function to generate rows for 120 seconds.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

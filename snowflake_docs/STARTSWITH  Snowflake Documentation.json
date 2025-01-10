@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/startswith",
+    "title": "STARTSWITH | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Matching/Comparison)",
+        "Returns true if expr1 starts with expr2. Both expressions must be text or binary expressions.",
+        "Tip",
+        "You can use the search optimization service to improve the performance of queries that call this function.\nFor details, see Search Optimization Service.",
+        "Returns a BOOLEAN. The value is TRUE if expr1 starts with expr2. Returns NULL if either\ninput expression is NULL. Otherwise, returns FALSE.",
+        "The collation specifications of all input arguments must be compatible.",
+        "This function does not support the following collation specifications:",
+        "pi  (punctuation-insensitive).",
+        "cs-ai (case-sensitive, accent-insensitive).",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

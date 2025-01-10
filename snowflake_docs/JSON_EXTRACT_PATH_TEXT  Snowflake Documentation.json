@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/json_extract_path_text",
+    "title": "JSON_EXTRACT_PATH_TEXT | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Extraction)",
+        "Parses the first argument as a JSON string and returns the value of the element pointed to by the path in the second\nargument. This is equivalent to TO_VARCHAR(GET_PATH(PARSE_JSON(JSON), PATH))",
+        "The name of the column with the data that you want to extract.",
+        "A string that contains the path to the element that you want to extract.",
+        "The data type of the returned value is VARCHAR.",
+        "The function returns NULL if the path name does not correspond to any element.",
+        "The path name syntax is standard JavaScript notation; it consists of a concatenation of field names (identifiers)\npreceded by periods (e.g. .) and index operators (e.g. [<index>]):",
+        "The first field name does not require the leading period to be specified.",
+        "The index values in the index operators can be non-negative integers (for arrays) or single or\ndouble-quoted string literals (for object fields).",
+        "For more details, see Querying Semi-structured Data.",
+        "To maintain syntactic consistency, the path notation also supports SQL-style double-quoted identifiers, and use of\n: as path separators.",
+        "Create a table and insert values:",
+        "Use JSON_EXTRACT_PATH_TEXT to extract a value from a simple 1-level string:",
+        "Use JSON_EXTRACT_PATH_TEXT to extract a value from a 2-level string using a 2-level path:",
+        "This example contains an array:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

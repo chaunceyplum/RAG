@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/strtok_to_array",
+    "title": "STRTOK_TO_ARRAY | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (General) , Semi-structured and structured data functions (Conversion/Casting)",
+        "Tokenizes the given string using the given set of delimiters and returns the tokens as an array.",
+        "If either parameter is a NULL, a NULL is returned. An empty array is returned if tokenization produces no tokens.",
+        "STRTOK",
+        "Required:",
+        "Text to be tokenized.",
+        "Optional:",
+        "Set of delimiters. Optional. Default value is a single space character.",
+        "The data type of the returned value is ARRAY.",
+        "Here is a simple example of using STRTOK_TO_ARRAY to split a string into an array:",
+        "This example tokenizes on multiple delimiters (\u2018.\u2019 and \u2018@\u2019).",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

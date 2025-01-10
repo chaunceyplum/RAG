@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/use-role",
+    "title": "USE ROLE | Snowflake Documentation",
+    "paragraphs": [
+        "Specifies the active/current primary role for the session. The currently active primary role sets the context that determines whether the\ncurrent user has the necessary privileges to execute CREATE <object> statements or perform any other SQL action.",
+        "Authorization to perform any SQL action other than creating objects can be provided by secondary roles.",
+        "For more information, see Overview of Access Control.",
+        "USE SECONDARY ROLES , CREATE ROLE , ALTER ROLE , DROP ROLE , SHOW ROLES",
+        "Specifies the identifier for the role to use for the session. If the identifier contains spaces or special characters, the entire string\nmust be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "To use a role, the role must have been granted to the user.",
+        "Only a single primary role can be active at a time in a user session.",
+        "Note that secondary roles enable you to perform SQL actions using\nthe combined privileges of the other roles granted to you.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

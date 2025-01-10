@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/external-functions-creating-gcp-call",
+    "title": "Calling an external function for GCP | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes how to call an external function:",
+        "If appropriate, grant USAGE privilege on the external function to one or more Snowflake roles so that the roles can call the external\nfunction. A role must have USAGE or OWNERSHIP privileges on that external function.",
+        "Call your external function as you would execute any UDF. For example, if you create the sample function provided by Snowflake:",
+        "If you customized the function name when you created the function, then replace my_external_function with the customized name.",
+        "The returned value should be similar to:",
+        "Note",
+        "External functions are schema objects so the schema containing the function must be in use in your session or you must specify the\nfully-qualified name of the function when calling it.",
+        "Was this page helpful?"
+    ]
+}

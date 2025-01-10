@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-03-08",
+    "title": "March 08, 2024 \u2014 Geospatial Functions Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "Two new functions for GEOMETRY objects are now available:",
+        "ST_GEOMFROMGEOHASH - Returns a GEOMETRY object for the polygon that represents\nthe boundaries of a geohash.",
+        "ST_GEOMPOINTFROMGEOHASH - Returns a GEOMETRY object for the point that\nrepresents center of a geohash.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

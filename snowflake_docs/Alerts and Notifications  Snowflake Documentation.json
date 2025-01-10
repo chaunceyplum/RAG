@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/guides-overview-alerts",
+    "title": "Alerts and Notifications | Snowflake Documentation",
+    "paragraphs": [
+        "You can use Snowflake alerts to send notifications and perform actions automatically. In SQL, you can send a notification to an\nemail address or queue by calling a built-in stored procedure.",
+        "If you need to send a notification or perform an action when data in Snowflake meets certain\nconditions, you can set up a Snowflake Alert.",
+        "Learn how to create, configure and maintain Snowflake alerts.",
+        "You can configure Snowflake to send notifications about Snowpipe and\ntask errors to a cloud provider queue (Amazon SNS, Microsoft Azure Event Grid, or Google\nCloud Pub/Sub).",
+        "You can also use a SQL statement to send a notification to an email adddress, a cloud provider queue, or a webhook.",
+        "Learn how to configure Snowflake to send notifications.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.flatten",
+    "title": "snowflake.snowpark.functions.flatten | Snowflake Documentation",
+    "paragraphs": [
+        "FLATTEN explodes compound values into multiple rows. This table function takes a\nVARIANT, OBJECT, or ARRAY column and produces a lateral view.",
+        "col \u2013 Column object or string name of the desired column.",
+        "path \u2013 The path to the element within VARIANT data structure which needs to be\nflattened. Defaults to \u201c\u201d.",
+        "outer \u2013 When False, any input rows that cannot be expanded are completely\nomitted from the output. When True, exactly one row s generated for\nzero-row expansions. Defaults to False.",
+        "recursive \u2013 When False, only the reference by path is expanded. When\nTrue, the expansion is performed for all sub-elements recursively.\nDefaults to False.",
+        "mode \u2013 Specifies whether only objects, arrays, or both should be flattened.\nDefaults to \u201cboth\u201d.",
+        "See also",
+        "explode()",
+        "Flatten",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-ml/framework-connectors",
+    "title": "Snowpark ML Framework Connectors | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to all accounts.",
+        "Snowpark ML includes support for secure, scalable data provisioning for the PyTorch and Tensorflow frameworks, both of\nwhich expect data in their own specific formats. To simplify this workflow, the Snowpark ML library provides convenient methods\nbuilt on top of the FileSet API to provide data from a FileSet as PyTorch Tensors or TensorFlow Records. (A\nFileSet represents an immutable snapshot of the result of a SQL query in the form of\nfiles in an internal server-side encrypted stage.)",
+        "Note",
+        "This topic assumes that the Snowpark ML module is installed.\nIf it isn\u2019t, see Using Snowflake ML Locally.",
+        "Refer to Creating and Using a FileSet for information on creating a FileSet from the data you want to use with\nPyTorch or TensorFlow. Then continue to one of the following sections:",
+        "Feeding a FileSet to PyTorch",
+        "Feeding a FileSet to TensorFlow",
+        "From a Snowflake FileSet, you can get a PyTorch DataPipe, which can be passed to a PyTorch DataLoader. The DataLoader\niterates over the FileSet data and yields batched PyTorch tensors. Create the DataPipe using the FileSet\u2019s\nto_torch_datapipe method, and then pass the DataPipe to PyTorch\u2019s DataLoader:",
+        "You can get a TensorFlow Dataset from a Snowflake FileSet using the FileSet\u2019s to_tf_dataset method:",
+        "Iterating over the Dataset yields batched tensors.",
+        "It is often valuable to shuffle the training data to avoid overfitting and other issues.\nFor a discussion of the value of shuffling, see\nWhy should the data be shuffled for machine learning tasks?",
+        "If your query does not already shuffle your data sufficiently, a FileSet can shuffle data at two points:",
+        "When the FileSet is created by using FileSet.make.",
+        "All rows in your query are shuffled before they are written to\nthe FileSet. This is a high-quality global shuffle and can be expensive with large datasets. Therefore, it is\nperformed only once, when materializing the FileSet. Pass shuffle=True as a keyword argument to\nFileSet.make.",
+        "When you create a PyTorch DataPipe or a TensorFlow Dataset from a FileSet.",
+        "At this point, the order of the files in\nthe FileSet is randomized, as is the order of the rows in each file. This can be considered an \u201capproximate\u201d global\nshuffle. It is of lower quality than a true global shuffle, but it is much less expensive. To shuffle at this stage,\npass shuffle=True as a keyword argument to the FileSet\u2019s to_torch_datapipe or  to_tf_dataset method.",
+        "For best results, shuffle twice: when creating the FileSet and when feeding the data to PyTorch or\nTensorFlow.",
+        "FileSets have a batching feature that works the same as the batching functionality in PyTorch and TensorFlow but is\nmore efficient. Snowflake recommends that you use the batch_size parameter in the FileSet\u2019s to_torch_datapipe\nand to_tf_dataset methods instead of having PyTorch or TensorFlow do the batching. With PyTorch, to disable its batching functionality, you must\nexplicitly pass batch_size=None when instantiating DataLoader.",
+        "You can also drop the last batch if it is incomplete by passing drop_last_batch=True to to_torch_datapipe or to\nto_tf_dataset.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

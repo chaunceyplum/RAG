@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.custom_package_usage_config",
+    "title": "snowflake.snowpark.Session.custom_package_usage_config | Snowflake Documentation",
+    "paragraphs": [
+        "Get or set configuration parameters related to usage of custom Python packages in Snowflake.",
+        "If enabled, pure Python packages that are not available in Snowflake will be installed locally via pip and made available\nas an import (see add_import() for more information on imports). You can speed up this process by mentioning\na remote stage path as cache_path where unsupported pure Python packages will be persisted. To use a specific\nversion of pip, you can set the environment variable PIP_PATH to point to your pip executable. To use custom\nPython packages which are not purely Python, specify the force_push configuration parameter (note that using\nnon-pure Python packages is not recommended!).",
+        "This feature is experimental, please do not use it in production!",
+        "enabled (bool): Turn on usage of custom pure Python packages.",
+        "force_push (bool): Use Python packages regardless of whether the packages are pure Python or not.",
+        "cache_path (str): Cache custom Python packages on a stage directory. This parameter greatly reduces latency of custom package import.",
+        "force_cache (bool): Use this parameter if you specified a cache_path but wish to create a fresh cache of your environment.",
+        "config (dict) \u2013 Dictionary containing configuration parameters mentioned above (defaults to empty dictionary).",
+        "Example:",
+        "Note",
+        "These configurations allow custom package addition via Session.add_requirements() and Session.add_packages().",
+        "These configurations also allow custom package addition for all UDFs or stored procedures created later in the current session. If you only want to add custom packages for a specific UDF, you can use packages argument in functions.udf() or session.udf.register().",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/search-optimization/point-lookup-queries",
+    "title": "Speeding up point lookup queries with search optimization | Snowflake Documentation",
+    "paragraphs": [
+        "Enterprise Edition Feature",
+        "This feature requires Enterprise Edition (or higher). To inquire about upgrading, please contact Snowflake Support.",
+        "Point lookup queries are queries that are expected to return a small number of rows. The search optimization service can\nimprove the performance of point lookup queries that use:",
+        "Equality predicates (for example, <column_name> = <constant>).",
+        "Predicates that use IN (see example).",
+        "The IN clause is supported by the search optimization service:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

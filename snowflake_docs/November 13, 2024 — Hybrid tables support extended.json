@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-11-13-hybrid-tables-ga-regions",
+    "title": "November 13, 2024 \u2014 Hybrid tables support extended to additional AWS regions | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, Snowflake is pleased to announce the general availability of hybrid tables in all commercial\nAWS regions. Support for the following regions has been added:",
+        "Cloud Region",
+        "Cloud Region ID",
+        "Europe (Zurich)",
+        "eu-central-2",
+        "Asia Pacific (Jakarta)",
+        "ap-southeast-3",
+        "For more information, see Hybrid tables.",
+        "Was this page helpful?"
+    ]
+}

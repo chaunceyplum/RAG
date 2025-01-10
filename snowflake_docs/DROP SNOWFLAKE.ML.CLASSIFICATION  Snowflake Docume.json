@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/classification/commands/drop-classification",
+    "title": "DROP SNOWFLAKE.ML.CLASSIFICATION | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to all accounts.",
+        "Drop an instance of a classification model.",
+        "CREATE SNOWFLAKE.ML.CLASSIFICATION.",
+        "Specifies the identifier for the classification model. The identifier must start with an alphabetic character and cannot contain spaces or\nspecial characters unless the identifier string is enclosed in double quotes (e.g. \"My object\"). Identifiers enclosed in double\nquotes are also case-sensitive.",
+        "If the model identifier is not fully-qualified (in the form of db_name.schema_name.model_name or\nschema_name.model), the command looks for the model in the current schema for the session.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege / Role",
+        "Object",
+        "Notes",
+        "OWNERSHIP privilege",
+        "Classification model",
+        "The role used to drop a classification model must be granted this privilege on the model.",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "Dropped classification models cannot be recovered; they must be recreated.",
+        "Drop classification model my_model in the current schema:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

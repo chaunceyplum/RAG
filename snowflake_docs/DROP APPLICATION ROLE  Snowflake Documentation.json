@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-application-role",
+    "title": "DROP APPLICATION ROLE | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "The Snowflake Native App Framework is generally available on supported cloud platforms. For additional information, see\nSupport for private connectivity, VPS, and government regions.",
+        "Removes the specified application role from the system.",
+        "CREATE APPLICATION ROLE , ALTER APPLICATION ROLE , SHOW APPLICATION ROLES",
+        "Specifies the identifier for the application role to drop. If the identifier contains spaces or\nspecial characters, the entire string must be enclosed in double quotes. Identifiers enclosed\nin double quotes are also case-sensitive.",
+        "This command can only be run within the context of an application created using the Native\nApp Framework.",
+        "Dropped application roles cannot be recovered; they must be recreated within the application.",
+        "Application roles are not versioned. When dropping an application role from a setup script,\nyou must ensure that no running version of the application relies upon the role being\ndropped. Snowflake recommends to either avoid dropping application roles that may be in use or to\nwait until the version that depends on the role being dropped has been itself also been\ndropped.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

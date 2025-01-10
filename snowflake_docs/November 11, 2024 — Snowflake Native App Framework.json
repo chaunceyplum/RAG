@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-11-11-native-apps",
+    "title": "November 11, 2024 \u2014 Snowflake Native App Framework release notes | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake is pleased to announce the availability of the following new features and enhancements.",
+        "Snowflake Native App with Snowpark Container Services is now generally available on Amazon Web Services (AWS). Snowflake Native Apps built using containers can be\ndistributed to any Snowflake customer who can use them in production AWS commercial regions. Apps with containers\nprovide all of the functionality of Snowpark Container Services, including compute pools, services, jobs, external\naccess integrations, etc. within a Snowflake Native App.",
+        "Snowflake Native App with Snowpark Container Services is now in preview on Microsoft Azure. Snowflake Native Apps built using containers can be\ndistributed to any Snowflake customer who can use them in Azure commercial regions.",
+        "Providers can develop apps that can be distributed to Snowflake customers in both AWS or Azure. Apps running in\nAzure can use the functionality of Snowpark Container Services, including compute pools, services, jobs, external access\nintegrations, etc. within a Snowflake Native App.",
+        "With this release, a Snowflake Native App can use Budgets to monitor credit usage. Customers can\nset up spending limits for app, which include all the app\u2019s compute resources, including compute pools and warehouses.\nAfter installing an app, consumers can view and create budgets.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

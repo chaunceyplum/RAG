@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_makeline",
+    "title": "ST_MAKELINE | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Constructs a GEOGRAPHY or GEOMETRY object that represents\na line connecting the points in the input objects.",
+        "TO_GEOGRAPHY , TO_GEOMETRY",
+        "A GEOGRAPHY object containing the points to connect. This object must be a Point, MultiPoint, or LineString.",
+        "A GEOGRAPHY object containing the points to connect. This object must be a Point, MultiPoint, or LineString.",
+        "A GEOMETRY object containing the points to connect. This object must be a Point, MultiPoint, or LineString.",
+        "A GEOMETRY object containing the points to connect. This object must be a Point, MultiPoint, or LineString.",
+        "The function returns a value of type GEOGRAPHY or GEOMETRY. The value is a LineString that connects all of the points specified by\nthe input GEOGRAPHY or GEOMETRY objects.",
+        "If an input GEOGRAPHY object contains multiple points, ST_MAKELINE connects all of the points specified in the object.",
+        "ST_MAKELINE connects the points in the order in which they are specified in the input.",
+        "For GEOMETRY objects, the function reports an error if the two input GEOMETRY objects have different SRIDs.",
+        "For GEOMETRY objects, the returned GEOMETRY object has the same SRID as the input.",
+        "The examples in this section display output in WKT format:",
+        "The following example uses ST_MAKELINE to construct a LineString that connects two Points:",
+        "The following example constructs a LineString that connects a Point with the points in a MultiPoint:",
+        "As demonstrated by the output of the example, ST_MAKELINE connects the points in the order in which they are specified in the input.",
+        "The following example constructs a LineString that connects the points in a MultiPoint with another LineString:",
+        "The examples in this section display output in WKT format:",
+        "The first example constructs a line between two Points:",
+        "The next example demonstrates creating a LineString that connects points in a MultiPoint with a Point",
+        "The following example constructs a LineString that connects the points in a MultiPoint with another LineString:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

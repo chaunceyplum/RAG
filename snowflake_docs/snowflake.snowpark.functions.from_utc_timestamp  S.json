@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.from_utc_timestamp",
+    "title": "snowflake.snowpark.functions.from_utc_timestamp | Snowflake Documentation",
+    "paragraphs": [
+        "Interprets an input expression as a UTC timestamp and converts it to the given time zone.",
+        "Note",
+        "Time zone names are case-sensitive.\nSnowflake does not support the majority of timezone abbreviations (e.g. PDT, EST, etc.). Instead you can\nspecify a time zone name or a link name from release 2021a of the IANA Time Zone Database (e.g.\nAmerica/Los_Angeles, Europe/London, UTC, Etc/GMT, etc.).\nSee the following for more information:\n<https://data.iana.org/time-zones/tzdb-2021a/zone1970.tab>\n<https://data.iana.org/time-zones/tzdb-2021a/backward>",
+        "Was this page helpful?"
+    ]
+}

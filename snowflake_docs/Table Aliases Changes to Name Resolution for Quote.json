@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_07/bcr-881",
+    "title": "Table Aliases: Changes to Name Resolution for Quoted Column Identifiers | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_07 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the FROM clause in a SELECT statement, you can use the AS clause to\ndefine an alias for the table and its columns. For example:",
+        "This announcement describes the changes to way in which quoted column identifiers in the table alias are resolved:",
+        "If you use double quotes around the column identifier in the table alias, the double quotes become part of the column alias.",
+        "For example, the following query defines a table alias (table_alias) and a column alias that includes quotes (\u201ccolumn_alias\u201d):",
+        "In the output, the name of the first column includes the quotes (\"my_column_alias\").",
+        "Because the quotes are currently part of the column alias name, if you need to refer to this column alias, you must include\nthe quotes. For example, if you want to refer to the column alias in the list of selected columns, you must include the\nquotes in the column alias name:",
+        "Note that in the example above, the column alias is enclosed in quotes, and the quotes within the column alias name are\nspecified with two double-quote characters.",
+        "If you use double quotes around the column identifier in the table alias, the double quotes are not used as part of the column\nalias.",
+        "In the output, the name of the first column does not include the quotes (my_column_alias).",
+        "Queries that use quotes within the column alias fail with an \u201cinvalid identifier\u201d error:",
+        "If you use double quoted identifiers for columns in a table alias, use one of the following approaches to fix your SQL\nstatements:",
+        "If you need to keep the column names as is (preserving quotes and case sensitivity), rewrite the existing queries to use\ncommon table expressions to define column aliases.",
+        "For example, change:",
+        "to:",
+        "If you can change output column names of the existing queries, consider removing quotes from column alias definitions.",
+        "For example, change:",
+        "to:",
+        "Note that this statement creates and resolves the my_column_alias identifier as uppercase characters without any quotes.\nIf you use this approach, you might need to adjust code or statements that refer to this column alias.",
+        "For example, instead of accessing the above column using \"my_column_alias\", client applications might need to refer to it\nas MY_COLUMN_ALIAS.",
+        "Ref: 881",
+        "Was this page helpful?"
+    ]
+}

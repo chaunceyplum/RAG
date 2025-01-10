@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_07/bcr-1734",
+    "title": "New privilege MANAGE SHARE TARGET replaces CREATE SHARE to add accounts to shares | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_07 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Snowflake introduces a new privilege called MANAGE SHARE TARGET. The MANAGE SHARE TARGET privilege is granted on an account to a role.\nA role granted this privilege can be used to add or remove the targets of any share in the account where the role has the privilege.\nA share target refers to an account or user granted access to the shared data. Think of these targets as the \u201ctarget audience\u201d for the\nshare. This new privilege enhances security and control by allowing organizations to assign specific privileges based on job roles.",
+        "",
+        "The existing CREATE SHARE privilege is used to both create shares and manage share targets (add accounts to a share).",
+        "If a role is granted CREATE SHARE privilege, the role can both create shares and manage share targets.",
+        "",
+        "The existing CREATE SHARE privilege is used only to create shares, not manage share targets.",
+        "The MANAGE SHARE TARGET privilege is used to manage share targets (add and remove accounts that can access a share).",
+        "After this behavior change bundle is enabled, roles with CREATE SHARE will automatically receive\nMANAGE SHARE TARGET to ensure compatibility.",
+        "Prepare for the change",
+        "You will be impacted by this change if you previously granted\nCREATE SHARE to a non-ACCOUNTADMIN role to manage share targets.\nCustomers should review and update any automations that rely on CREATE SHARE for managing accounts.",
+        "Ref: 1734",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

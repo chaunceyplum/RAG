@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.quantile",
+    "title": "modin.pandas.DataFrame.quantile | Snowflake Documentation",
+    "paragraphs": [
+        "Return values at the given quantile over requested axis.",
+        "q (float or array-like of float, default 0.5) \u2013 Value between 0 <= q <= 1, the quantile(s) to compute.",
+        "axis ({0 or 'index', 1 or 'columns'}, default 0) \u2013 Axis across which to compute quantiles.",
+        "numeric_only (bool, default False) \u2013 Include only data where is_numeric_dtype is true.\nWhen True, bool columns are included, but attempting to compute quantiles across\nbool values is an ill-defined error in both pandas and Snowpark pandas.",
+        "interpolation ({\"linear\", \"lower\", \"higher\", \"midpoint\", \"nearest\"}, default \"linear\") \u2013",
+        "Specifies the interpolation method to use if a quantile lies between two data points\ni and j:",
+        "linear: i + (j - i) * fraction, where fraction is the fractional part of the\nindex surrounded by i and j.",
+        "lower: i.",
+        "higher: j.",
+        "nearest: i or j, whichever is nearest.",
+        "midpoint: (i + j) / 2.",
+        "Snowpark pandas currently only supports \u201clinear\u201d and \u201cnearest\u201d.",
+        "",
+        "method ({\"single\", \"table\"}, default \"single\") \u2013 Whether to compute quantiles per-column (\u201csingle\u201d) or over all columns (\u201ctable\u201d).\nWhen \u201ctable\u201d, the only allowed interpolation methods are \u201cnearest\u201d, \u201clower\u201d, and \u201chigher\u201d.",
+        "If q is an array, a DataFrame will be returned where the index is q, the columns\nare the columns of self, and the values are the quantiles.\nIf q is a float, a Series will be returned where the index is the columns of\nself and the values are the quantiles.",
+        "Series or DataFrame",
+        "Examples",
+        "With a scalar q:",
+        "With a list q:",
+        "Values considered NaN do not affect the result:",
+        "Notes",
+        "Currently only supports calls with axis=0.",
+        "Also, unsupported if q is a Snowpandas DataFrame or Series.",
+        "Was this page helpful?"
+    ]
+}

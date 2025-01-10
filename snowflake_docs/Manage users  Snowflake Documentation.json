@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/users/users-introduction",
+    "title": "Manage users | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "The Snowflake REST User API provides the following endpoints to manage Snowflake users:",
+        "Endpoint",
+        "Description",
+        "POST /api/v2/users",
+        "Creates a Snowflake user.",
+        "GET /api/v2/users",
+        "Lists the users in the system.",
+        "GET /api/v2/users/{name}",
+        "Fetches user information using the result of the DESCRIBE command.",
+        "DELETE /api/v2/users/{name}",
+        "Deletes a user with the given name.",
+        "PUT /api/v2/users/{name}",
+        "Creates a new, or alters an existing, user.",
+        "GET /api/v2/users/{name}/grants",
+        "List all grants to the user.",
+        "POST /api/v2/users/{name}/grants",
+        "Grants a role to the specified user.",
+        "POST /api/v2/users/{name}/grants:revoke",
+        "Revokes grants from the specified user.",
+        "For reference documentation, see Snowflake User API reference",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

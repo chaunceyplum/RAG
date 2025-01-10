@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1376",
+    "title": "SHOW RELEASE DIRECTIVES command: new columns | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The output of the SHOW RELEASE DIRECTIVES command behaves as follows:",
+        "The output of this command does not include the ACTIVE_REGIONS, PENDING_REGIONS, RELEASE_STATUS,\nand DEPLOYED_ON columns.",
+        "The output of this command includes the ACTIVE_REGIONS, PENDING_REGIONS, RELEASE_STATUS, and\nDEPLOYED_ON columns, which are defined as follows:",
+        "Column name",
+        "Data type",
+        "Description",
+        "ACTIVE_REGIONS",
+        "TEXT",
+        "Displays a list of Snowflake regions where the Snowflake Native App has been successfully deployed.",
+        "PENDING_REGIONS",
+        "TEXT",
+        "Displays a list of Snowflake regions where the Snowflake Native App is scheduled to be deployed.",
+        "RELEASE_STATUS",
+        "TEXT",
+        "Displays the current status of the release. Possible values are:",
+        "IN PROGRESS",
+        "HOLDING",
+        "DEPLOYED",
+        "DEPLOYED_ON",
+        "TIMESTAMP",
+        "Displays the date and time when the application was installed or upgraded.",
+        "Ref: 1376",
+        "Was this page helpful?"
+    ]
+}

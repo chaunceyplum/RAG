@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_01/bcr-934",
+    "title": "Temporary Tables: Changes to Table Creation in Schemas (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "CREATE STREAM, CREATE VIEW, and ALTER VIEW now\npropagate CHANGE_TRACKING = TRUE to associated underlying tables and views, and fails accordingly when insufficient permissions are\nencountered:",
+        "CREATE STREAM \u2026 CHANGE_TRACKING = TRUE statements attempted to enable CHANGE_TRACKING recursively on base tables, and they failed if\ninsufficient permissions were encountered.",
+        "ALTER/CREATE VIEW \u2026 CHANGE_TRACKING = TRUE statements attempted to enable CHANGE_TRACKING recursively on base views and tables of\nthe target view. If insufficient permissions were encountered, the statement should have failed, but didn\u2019t.",
+        "CREATE STREAM and ALTER/CREATE VIEW now correctly propagate CHANGE_TRACKING = TRUE to the underlying database objects. Both\ntypes of statements fail if permissions are insufficient for any part of the base object tree.",
+        "Note",
+        "With CREATE STREAM, if sufficient permissions aren\u2019t available, base tables and views are left unchanged. With ALTER/CREATE VIEW, base\nobjects are left unchanged, but the view itself has CHANGE_TRACKING enabled.",
+        "Ref: 934",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

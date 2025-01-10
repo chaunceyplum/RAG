@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-alert",
+    "title": "DESCRIBE ALERT | Snowflake Documentation",
+    "paragraphs": [
+        "Describes the properties of an alert.",
+        "Tip",
+        "In addition to SQL, you can also use other interfaces, such as Snowflake REST APIs, Snowflake Python APIs, and Snowflake CLI.\nSee Alternate interfaces.",
+        "CREATE ALERT , ALTER ALERT, DROP ALERT , SHOW ALERTS , EXECUTE ALERT",
+        "Identifier for the alert to describe. If the identifier contains spaces or special characters, the entire string must be\nenclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "A role used to execute this SQL command must have at least one of the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "MONITOR, OPERATE, or OWNERSHIP",
+        "Alert",
+        "OWNERSHIP is a special privilege on an object that is automatically granted to the role that created the object, but can also be transferred using the GRANT OWNERSHIP command to a different role by the owning role (or any role with the MANAGE GRANTS privilege).",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "Only returns rows for an alert owner (i.e. the role with the OWNERSHIP privilege on an alert) or a role with the OPERATE\nprivilege on an alert.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "See Viewing details about an alert.",
+        "Snowflake REST APIs",
+        "Fetch an alert endpoint",
+        "Snowflake Python APIs",
+        "alert.AlertResource.fetch method",
+        "Snowflake CLI",
+        "Not supported",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/terraform",
+    "title": "Snowflake Terraform provider | Snowflake Documentation",
+    "paragraphs": [
+        "Note",
+        "The following content is not supported by Snowflake. All code is provided \u201cAS IS\u201d and without warranty.",
+        "HashiCorp Terraform is an open source Infrastructure as Code (IaC) tool that allows you to dynamically build, change, and version infrastructure resources. You use the Terraform language to create configuration files that describe the configuration you want. Terraform compares your configuration to the current state and then generates a plan to create new resources or update and delete existing resources. The plan runs as a directed acyclic graph (DAG), which allows Terraform to understand and handle dependencies between resources.",
+        "The Snowflake Terraform provider allows you to establish a consistent workflow to manage Snowflake resources like warehouses, databases, schemas, tables, roles, grants, and more. For more information about other features and building blocks that support Snowflake DevOps workflows, see Snowflake DevOps.",
+        "After you install Terraform, see the following resources to get started using the Snowflake provider.",
+        "Resource",
+        "Description",
+        "Snowflake provider documentation",
+        "Guides and reference documentation in the Terraform Registry for the Snowflake provider. Documentation includes the resource blocks that describe objects in Snowflake (for example, snowflake_database) and the data sources that you can use to name and dynamically fetch configuration state from Snowflake objects (for example, snowflake_users).",
+        "terraform-provider-snowflake",
+        "The open-source project on GitHub from Snowflake Labs where you can do the following:",
+        "Stay up to date on feature developments and status, including the project roadmap and issues.",
+        "Get support from the community in discussion forums. (Snowflake does not provide support for the Snowflake provider.)",
+        "Review supplementary documentation and source code.",
+        "Terraforming Snowflake",
+        "This Quickstart tutorial from Snowflake Labs guides you through creating a Terraform project in GitHub that uses the Snowflake provider to create a demo database and warehouse.",
+        "Was this page helpful?"
+    ]
+}

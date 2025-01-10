@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.rsub",
+    "title": "modin.pandas.DataFrame.rsub | Snowflake Documentation",
+    "paragraphs": [
+        "Get subtraction of DataFrame and other, element-wise (binary operator rsub).",
+        "Was this page helpful?"
+    ]
+}

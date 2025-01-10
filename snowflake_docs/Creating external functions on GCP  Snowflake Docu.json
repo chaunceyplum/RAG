@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/external-functions-creating-gcp",
+    "title": "Creating external functions on GCP | Snowflake Documentation",
+    "paragraphs": [
+        "These topics explain how to plan, create, call, and troubleshoot external functions hosted on GCP (Google Cloud Platform).",
+        "Next Topics:",
+        "Was this page helpful?"
+    ]
+}

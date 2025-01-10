@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.service.ServiceEndpoint",
+    "title": "snowflake.core.service.ServiceEndpoint | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: BaseModel",
+        "A model object representing the ServiceEndpoint resource.",
+        "Constructs an object of type ServiceEndpoint with the provided properties.",
+        "name (str, optional) \u2013 User-friendly endpoint name that represents the corresponding port.",
+        "port (int, optional) \u2013 The network port the service is listening on. NULL, when portRange is specified.",
+        "port_range (str, optional) \u2013 The network port range the service is listening on. NULL, when port is specified.",
+        "protocol (str,  default 'HTTP') \u2013 Supported network protocol (TCP, HTTP, or HTTPS).",
+        "is_public (bool,  default False) \u2013 True, if the endpoint is public, accessible from internet.",
+        "ingress_url (str, optional) \u2013 Endpoint URL accessible from the internet.",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of ServiceEndpoint from a dict.",
+        "Create an instance of ServiceEndpoint from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

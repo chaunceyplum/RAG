@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/as_char-varchar",
+    "title": "AS_CHAR , AS_VARCHAR | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Cast)",
+        "Casts a VARIANT value to a VARCHAR value. This function\nonly converts CHAR and VARCHAR values.",
+        "The AS_CHAR and AS_VARCHAR functions are synonymous.",
+        "The CHAR data type is synonymous with the VARCHAR data type, except for its default length.",
+        "AS_<object_type>",
+        "An expression that evaluates to a value of type VARIANT.",
+        "The function returns a value of type VARCHAR or NULL:",
+        "If the type of the value in the variant_expr argument is CHAR or VARCHAR, the function returns a value of type VARCHAR.",
+        "If the type of the value in the variant_expr argument doesn\u2019t match the type of the output\nvalue, the function returns NULL.",
+        "If the variant_expr argument is NULL, the function returns NULL.",
+        "Create a table and load data into it:",
+        "Use the AS_VARCHAR function in a query to cast a VARIANT value to a VARCHAR value:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

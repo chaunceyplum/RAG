@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_get_cmk_info",
+    "title": "SYSTEM$GET_CMK_INFO | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Returns a status about your customer-managed key (CMK) for use with Tri-Secret Secure.",
+        "Self-registration overview",
+        "Returns a status message indicating the state of your CMK. The output includes the values that you specified when calling\nSYSTEM$REGISTER_CMK_INFO.",
+        "The following messages are possible, using CMKs on Amazon Web Services as a representative example:",
+        "Your CMK is registered, but not yet enabled, to use Tri-Secret Secure:",
+        "Your CMK is activated and in use with Tri-Secret Secure:",
+        "You have an active CMK, but you just pre-registered a new key:",
+        "You have an active key, but have not registered any CMK to use Tri-Secret Secure:",
+        "You have not registered any CMK to use Tri-Secret Secure:",
+        "Only account administrators (users with the ACCOUNTADMIN role) can call this function.",
+        "Obtain the status CMK for your Snowflake account:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

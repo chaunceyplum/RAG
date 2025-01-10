@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.WhenMatchedClause.delete",
+    "title": "snowflake.snowpark.WhenMatchedClause.delete | Snowflake Documentation",
+    "paragraphs": [
+        "Defines a delete action for the matched clause and\nreturns an updated WhenMatchedClause with the new\ndelete action added.",
+        "Example:",
+        "Note",
+        "An exception will be raised if this method or WhenMatchedClause.update()\nis called more than once on the same WhenMatchedClause object.",
+        "Was this page helpful?"
+    ]
+}

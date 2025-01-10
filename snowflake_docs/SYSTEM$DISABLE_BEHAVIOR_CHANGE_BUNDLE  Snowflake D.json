@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_disable_behavior_change_bundle",
+    "title": "SYSTEM$DISABLE_BEHAVIOR_CHANGE_BUNDLE | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Disables the behavior changes included in the specified behavior change release bundle\nfor the current account.",
+        "You can call this function for a particular bundle at the beginning of the\ntesting period for that bundle and becomes unavailable after the\nopt-out period for that bundle.",
+        "An error occurs in either of the following cases:",
+        "You call this function before the testing period for that bundle begins.",
+        "You call this function after the opt-out period for that bundle ends.",
+        "If you call this function to disable a behavior change bundle during the testing period, the bundle remains disabled until you\nenable it again or until the end of the opt-out period. Snowflake does not override this setting at the beginning of the opt-out\nperiod, when the bundle becomes enabled by default.",
+        "SYSTEM$ENABLE_BEHAVIOR_CHANGE_BUNDLE,\nSYSTEM$BEHAVIOR_CHANGE_BUNDLE_STATUS,\nSYSTEM$SHOW_ACTIVE_BEHAVIOR_CHANGE_BUNDLES",
+        "Name of the behavior change bundle, specified as a string. To obtain the name for a bundle, see\nBehavior change log.",
+        "Returns the VARCHAR value DISABLED if the function successfully disables the behavior changes.",
+        "The following example disables the 2020_08 behavior change bundle for the current account.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

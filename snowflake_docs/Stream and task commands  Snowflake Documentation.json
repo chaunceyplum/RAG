@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/commands-stream",
+    "title": "Stream and task commands | Snowflake Documentation",
+    "paragraphs": [
+        "Stream and task commands enable you to manage your streams and tasks.",
+        "CREATE STREAM",
+        "ALTER STREAM",
+        "DESCRIBE STREAM",
+        "DROP STREAM",
+        "SHOW STREAMS",
+        "CREATE TASK",
+        "ALTER TASK",
+        "DESCRIBE TASK",
+        "EXECUTE TASK",
+        "DROP TASK",
+        "SHOW TASKS",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

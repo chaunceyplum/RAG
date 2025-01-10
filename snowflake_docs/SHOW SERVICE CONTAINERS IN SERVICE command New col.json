@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_08/bcr-1787",
+    "title": "SHOW SERVICE CONTAINERS IN SERVICE command: New columns in output (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, the output of the SHOW SERVICE CONTAINERS IN SERVICE command includes the following new columns:",
+        "Column name",
+        "Description",
+        "LAST_EXIT_CODE",
+        "Indicates the exit code when the container last exited. For service containers, Snowflake restarts the container if it exits\nprematurely.",
+        "The exit code is represented as an integer value:",
+        "NULL: The container is currently running and has never exited.",
+        "0: The container\u2019s last exit was successful.",
+        "Non-zero value: The container encountered a failure.",
+        "LAST_RESTART_TIME",
+        "Provides the timestamp of the most recent restart of the container by Snowflake. NULL value indicates the container never restarted.",
+        "Ref: 1787",
+        "Was this page helpful?"
+    ]
+}

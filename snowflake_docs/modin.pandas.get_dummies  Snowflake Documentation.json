@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.get_dummies",
+    "title": "modin.pandas.get_dummies | Snowflake Documentation",
+    "paragraphs": [
+        "Convert categorical variable into dummy/indicator variables.",
+        "data (array-like, Series, or DataFrame) \u2013 Data of which to get dummy indicators.",
+        "prefix (str, list of str, or dict of str, default None) \u2013 String to append DataFrame column names.\nPass a list with length equal to the number of columns\nwhen calling get_dummies on a DataFrame. Alternatively, prefix\ncan be a dictionary mapping column names to prefixes.\nOnly str, list of str and None is supported for this parameter.",
+        "prefix_sep (str, default '_') \u2013 If appending prefix, separator/delimiter to use.",
+        "dummy_na (bool, default False) \u2013 Add a column to indicate NaNs, if False NaNs are ignored. Only the\nvalue False is supported for this parameter.",
+        "columns (list-like, default None) \u2013 Column names in the DataFrame to be encoded.\nIf columns is None then all the columns with\nstring dtype will be converted.",
+        "sparse (bool, default False) \u2013 Whether the dummy-encoded columns should be backed by\na SparseArray (True) or a regular NumPy array (False).\nThis parameter is ignored.",
+        "drop_first (bool, default False) \u2013 Whether to get k-1 dummies out of k categorical levels by removing the\nfirst level. Only the value False is supported for this parameter.",
+        "dtype (dtype, default np.uint8) \u2013 Data type for new columns. Only the value None is supported for this parameter.",
+        "Dummy-coded data.",
+        "DataFrame",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

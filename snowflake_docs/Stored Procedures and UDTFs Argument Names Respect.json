@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_03/bcr-1017",
+    "title": "Stored Procedures and UDTFs: Argument Names Respected in Calls | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Calls to stored procedures and user-defined table functions (UDTFs), where the call includes named arguments,\nSnowflake will give precedence to argument names over argument position as follows.",
+        "When calling procedures or user-defined table functions (UDTFs) that have named arguments, Snowflake ignores argument names and uses argument position to determine which value is passed to the procedure or function.",
+        "Argument names will take precedence over argument position in calls to procedures and UDTFs. This may result in the following behavior that differs from before the behavior change:",
+        "A previously-working call to a stored procedure or user-defined table function could result in an error.",
+        "Argument names could cause arguments to be passed in a different order than previously. This could result in an error, wrong results, or wrong data insertion.",
+        "Argument names could cause a different stored procedure with the same name to be called. This could result in an error, wrong results, or wrong data insertion.",
+        "The following example illustrates how calls to two stored procedures might differ before and after the change.",
+        "The following example illustrates how calls to two stored procedures might differ before and after the change.",
+        "Ref: 1017",
+        "Was this page helpful?"
+    ]
+}

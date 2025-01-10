@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_02/bcr-950",
+    "title": "REPLICATION_GROUPS View (Information Schema): New Column in View | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_02 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The Information Schema REPLICATION_GROUPS view now includes a REGION_GROUP column:",
+        "Column Name",
+        "Data Type",
+        "Description",
+        "REGION_GROUP",
+        "TEXT",
+        "Region group where the account that stores the replication or failover group is located.",
+        "To maintain consistency with the Information Schema REPLICATION_DATABASES view,\nthis column has been added as the first (leftmost) column of the view.",
+        "Ref: 950",
+        "Was this page helpful?"
+    ]
+}

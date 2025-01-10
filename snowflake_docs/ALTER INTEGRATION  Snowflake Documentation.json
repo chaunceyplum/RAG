@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/alter-integration",
+    "title": "ALTER INTEGRATION | Snowflake Documentation",
+    "paragraphs": [
+        "Modifies the properties for an existing integration.",
+        "CREATE INTEGRATION, DROP INTEGRATION, SHOW INTEGRATIONS , DESCRIBE INTEGRATION",
+        "Where actions are specific to the object type.",
+        "For specific syntax, usage notes, and examples, see:",
+        "ALTER API INTEGRATION",
+        "ALTER CATALOG INTEGRATION",
+        "ALTER EXTERNAL ACCESS INTEGRATION",
+        "ALTER NOTIFICATION INTEGRATION",
+        "ALTER SECURITY INTEGRATION",
+        "ALTER STORAGE INTEGRATION",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

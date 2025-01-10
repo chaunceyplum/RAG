@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1281",
+    "title": "SHOW commands: New column | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the current Snowflake release, the following SHOW commands include a new BUDGET column in the output:",
+        "SHOW TABLES",
+        "SHOW SCHEMAS",
+        "SHOW TASKS",
+        "SHOW PIPES",
+        "SHOW DATABASES",
+        "SHOW WAREHOUSES",
+        "SHOW MATERIALIZED VIEWS",
+        "Column",
+        "Data type",
+        "Description",
+        "BUDGET",
+        "TEXT",
+        "Reserved for future use.",
+        "The BUDGET column will be the last column in the output.",
+        "Ref: 1281",
+        "Was this page helpful?"
+    ]
+}

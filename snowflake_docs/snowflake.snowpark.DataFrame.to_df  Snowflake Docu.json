@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.to_df",
+    "title": "snowflake.snowpark.DataFrame.to_df | Snowflake Documentation",
+    "paragraphs": [
+        "Creates a new DataFrame containing columns with the specified names.",
+        "The number of column names that you pass in must match the number of columns in the existing\nDataFrame.",
+        "Examples:",
+        "names \u2013 list of new column names",
+        "Was this page helpful?"
+    ]
+}

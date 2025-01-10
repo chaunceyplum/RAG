@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/scala/setup",
+    "title": "Setting Up Your Development Environment for Snowpark Scala | Snowflake Documentation",
+    "paragraphs": [
+        "The Snowpark library is distributed as a JAR file through Maven. You can integrate Snowpark as a dependency in your own Maven projects or SBT build files. As an alternative, you can download the JAR file for use in your application.",
+        "You can use this library to develop applications in various environments, including:",
+        "application development tools (like Visual Studio Code or IntelliJ IDEA Community Edition)",
+        "read-eval-print loop (REPL) interactive shells (like\nthe sbt REPL or the Scala REPL)",
+        "Jupyter notebooks",
+        "This set of topics provides instructions for setting up different types of application development environments to use the\nSnowpark library.",
+        "Next Topics:",
+        "Was this page helpful?"
+    ]
+}

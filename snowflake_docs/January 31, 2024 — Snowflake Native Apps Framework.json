@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-01-31",
+    "title": "January 31, 2024 \u2014 Snowflake Native Apps Framework Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake Native App Framework: General availability on AWS and Azure.",
+        "We are pleased to announce the general availability of the Snowflake Native App Framework on\nAWS and Azure. The Snowflake Native App Framework allows you to create data applications\nthat leverage core Snowflake functionality. With a Snowflake Native App you can:",
+        "Expand the capabilities of other Snowflake features by sharing data and related business logic\nwith other Snowflake accounts. The business logic of an application can include a Streamlit app,\nstored procedures, and functions written using Snowpark API, JavaScript, and SQL.",
+        "Share an application with consumers through listings. A listing can be either free or paid.\nYou can distribute and monetize your apps in the Snowflake Marketplace or distribute them to specific\nconsumers using private listings.",
+        "Include rich visualizations in your app using Streamlit.",
+        "For more information, see About the Snowflake Native App Framework.",
+        "Was this page helpful?"
+    ]
+}

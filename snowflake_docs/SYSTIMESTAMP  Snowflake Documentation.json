@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/systimestamp",
+    "title": "SYSTIMESTAMP | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (General)",
+        "Returns the current timestamp for the system.",
+        "CURRENT_TIMESTAMP",
+        "None. This function must be called with parentheses.",
+        "Returns the current system time in the local time zone. The data type of the returned value is\nTIMESTAMP_LTZ.",
+        "The setting of the TIMEZONE parameter affects the return value. The returned timestamp is in the time zone for the session.",
+        "The setting of the TIMESTAMP_TYPE_MAPPING parameter does not affect the return value.",
+        "Do not use the returned value for precise time ordering between concurrent queries (processed by the same virtual warehouse) because the queries might be serviced by different compute resources (in the warehouse).",
+        "This function does not support the fract_sec_precision argument that is supported by\nthe CURRENT_TIMESTAMP function.",
+        "Show the current system timestamp:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_transform",
+    "title": "ST_TRANSFORM | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Converts a GEOMETRY object from one\nspatial reference system (SRS) to another.",
+        "Use this function to\nchange the SRID and the coordinates of the object to match the new SRS (spatial reference system).\nIf you just need to change the SRID without changing the coordinates (e.g. if the SRID was incorrect), use ST_SETSRID\ninstead.",
+        "Required:",
+        "The argument must be of type GEOMETRY.",
+        "The spatial reference system identifier (SRID) that identifies the SRS to use. The function transforms the input GEOMETRY\nobject to a new object that uses this SRS.",
+        "Optional:",
+        "The SRID identifying the current SRS of the input GEOMETRY object.",
+        "If this argument is omitted, the function uses the SRID specified in the input GEOMETRY object.",
+        "The function returns a GEOMETRY object that uses the SRS identified by to_srid.",
+        "SRIDs are based on the EPSG standard (v10.082). For example, the SRID 4326 corresponds to the authority EPSG with the code\n4326.",
+        "Make sure that either the input GEOMETRY has the correct SRID set or that you specify the from_srid argument.",
+        "Currently, the function does not support datum grid files. All transformations are performed using the static parameters of the\ndatum without any grid file correction.",
+        "If geometry_expression, from_srid, or to_srid are NULL, this function returns NULL.",
+        "If from_srid or to_srid cannot be resolved to a valid SRID, an error occurs.",
+        "The following example transforms a POINT GEOMETRY object from EPSG:32633 (WGS 84 / UTM zone 33N) to EPSG:3857 (Web Mercator).",
+        "If the source SRID is not set correctly in the GEOMETRY object, you can specify the SRID in the to_srid argument of the\nfunction. For example, to transform a POINT GEOMETRY object from EPSG:4326 (WGS84) to EPSG:28992 (Amersfoort / RD New):",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_01/bcr-865",
+    "title": "SHOW Commands: New Column Added to Output for Certain Commands | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The output of these SHOW commands now includes a new OPTIONS column:",
+        "SHOW MASKING POLICIES",
+        "SHOW ACCESS POLICIES",
+        "SHOW SESSION POLICIES",
+        "SHOW PASSWORD POLICIES",
+        "The column was added to support future functionality. Currently, this column returns an empty string.",
+        "Ref: 865",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.exceptions.InvalidArgumentsError",
+    "title": "snowflake.core.exceptions.InvalidArgumentsError | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: InvalidActionError",
+        "Raised when function args are invalid.",
+        "Was this page helpful?"
+    ]
+}

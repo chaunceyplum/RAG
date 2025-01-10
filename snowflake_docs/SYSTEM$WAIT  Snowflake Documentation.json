@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_wait",
+    "title": "SYSTEM$WAIT | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Waits for the specified amount of time before proceeding.",
+        "Required:",
+        "Number specifying the amount of time to wait as determined by time_unit.",
+        "Optional:",
+        "Time unit for amount. Accepted values are DAYS, HOURS, MINUTES, SECONDS, MILLISECONDS, MICROSECONDS, NANOSECONDS.\nThe unit should be in single quotes (see Examples below).",
+        "Default: SECONDS",
+        "The function must be called as a system function.",
+        "Most systems do not have clocks that have nanosecond precision. As a result:",
+        "The actual wait time might not be exactly the same as the specified wait time.",
+        "The reported wait time might not be exact.",
+        "SYSTEM$WAIT checks periodically for cancellation. If a user cancels a query while it is waiting, there might be a delay between the\ntime the query is cancelled and the time the cancellation takes effect.",
+        "If the wait period exceeds the compilation timeout, the query is not cancelled automatically. After the wait, the query resumes normally.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

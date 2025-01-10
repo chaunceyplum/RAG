@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/localtime",
+    "title": "LOCALTIME | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (General)",
+        "Returns the current time for the system.",
+        "ANSI-compliant alias for CURRENT_TIME.",
+        "None.",
+        "Returns a value of type TIME.",
+        "The setting of the TIMEZONE parameter affects the return value. The returned time is\nin the time zone for the session.",
+        "The display format for times in the output is determined by the TIME_OUTPUT_FORMAT\nsession parameter (default HH24:MI:SS).",
+        "To comply with the ANSI standard, this function can be called without parentheses in SQL statements.",
+        "However, if you are setting a Snowflake Scripting variable\nto an expression that calls the function (for example, my_var := <function_name>();), you must include the\nparentheses. For more information, see the usage notes for context functions.",
+        "Do not use the returned value for precise time ordering between concurrent queries (processed by the same virtual\nwarehouse) because the queries might be serviced by different compute resources (in the warehouse).",
+        "Show the current local time and local timestamp:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/git/list-contents",
+    "title": "Listing the contents of a repository | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Snowflake CLI supports the following ways to list the contents of a Git repository:",
+        "List branches in a repository",
+        "List tags in a repository",
+        "List files in a repository",
+        "The snow git list-branches command lists all of the branches in a repository.",
+        "where:",
+        "<REPO_NAME> is the ID of the repository stage.",
+        "For example, to list all of the branches in a repository named my_snow_git, enter the following command:",
+        "The snow git list-tabs command lists all of the tags in a repository.",
+        "where:",
+        "<REPO_NAME> is the ID of the repository stage you want to create. Note that if the repository stage already exists, the command fails.",
+        "For example, to list all of the tags in a repository named my_snow_git, enter the following command:",
+        "The snow git list-files command lists all of the files on a specified repository state (a specific branch, tag or commit).",
+        "where:",
+        "<REPO_PATH> is a stage path with a specific scope where the value is the repository name is followed by a suffix specifying which branch, tag or commit. The following lists some different types of values:",
+        "@snowcli_git/branches/main/ refers to last commit of the main branch.",
+        "@snowcli_git/tags/v2.1.0/ refers to a commit tagged v2.1.0.",
+        "@snowcli_git/commits/1e939d69ca6fd0f89074e7e97c9fd1/ refers to a specific commit. Commit hashes should be between 6 and 40 characters long.",
+        "A repository path can also be a subdirectory or file in the repository, but still must be preceded with a scope prefix.",
+        "The following example lists all of the files in the my_snow_git repository marked with the v2.0.0 tag:",
+        "The following example lists all of the files in the tests/ directory of the my_snow_git repository marked with the v2.0.0 tag:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

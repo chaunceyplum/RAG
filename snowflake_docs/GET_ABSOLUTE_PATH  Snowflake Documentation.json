@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/get_absolute_path",
+    "title": "GET_ABSOLUTE_PATH | Snowflake Documentation",
+    "paragraphs": [
+        "File functions",
+        "Retrieves the absolute path of a staged file using the stage name and path of the file relative to its location in the stage as inputs.",
+        "Name of the internal or external stage where the file is stored.",
+        "Note",
+        "If the stage name includes spaces or special characters, it must be enclosed in single quotes (e.g. '@\"my stage\"' for a stage\nnamed \"my stage\").",
+        "Path and filename of the file relative to its location in the stage.",
+        "Absolute path of the file in cloud storage.",
+        "This SQL function returns a value for any role that has the following privilege on the stage:",
+        "USAGE",
+        "READ",
+        "If files downloaded from an internal stage are corrupted, verify with the stage creator that ENCRYPTION = (TYPE = 'SNOWFLAKE_SSE') is set for the stage.",
+        "Retrieve the absolute path of a bitmap format image file in an external stage:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

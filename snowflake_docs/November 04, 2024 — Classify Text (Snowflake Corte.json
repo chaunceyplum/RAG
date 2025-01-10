@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-11-04-classify-text-ga",
+    "title": "November 04, 2024 \u2014 Classify Text (Snowflake Cortex LLM Function) \u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "We are pleased to announce the general availability of the Snowflake Cortex AI CLASSIFY_TEXT function. CLASSIFY_TEXT is\npurpose-built to help you easily classify text records such as emails, call transcripts, and product reviews into\ncategories relevant to your business.",
+        "CLASSIFY_TEXT delivers state-of-the art zero-shot text classification accuracy comparable to leading models in the\nmarket. To further improve CLASSIFY_TEXT, you can also provide label descriptions, examples corresponding to each label,\nand a short explanation of the classification task. Descriptions and examples in particular are associated with higher\nclassification accuracy where the relationship between the input text and the categories is ambiguous.",
+        "With the CLASSIFY_TEXT function, you get ease of use and efficiency without compromising on accuracy. The outputs of\nCLASSIFY_TEXT are structured in well-formatted JSON, without any additional post processing needed, for easy integration\nof results into your data pipeliene.",
+        "For more information, see CLASSIFY_TEXT (SNOWFLAKE.CORTEX).",
+        "Was this page helpful?"
+    ]
+}

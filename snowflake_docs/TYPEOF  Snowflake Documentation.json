@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/typeof",
+    "title": "TYPEOF | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Type Predicates)",
+        "Returns the type of a value stored in a VARIANT column.",
+        "IS_<object_type> , SYSTEM$TYPEOF",
+        "The argument can be a column name or a general expression of type VARIANT. If necessary, you can\ncast the expr to a VARIANT.",
+        "Returns a VARCHAR value that contains the data type of the input expression, such as BOOLEAN, DECIMAL, ARRAY,\nOBJECT, and so on.",
+        "The returned string might be DECIMAL even if the input is an exact integer, due to optimizations that change the\nphysical storage type of the input.",
+        "This function doesn\u2019t support a structured type as an input argument.",
+        "Create and fill the vartab table. The INSERT statement uses the PARSE_JSON function to insert\nVARIANT values in the v column of the table.",
+        "Query the data. The query uses the TYPEOF function to show the data types of\nthe values stored in the VARIANT column.",
+        "The following example uses the TYPEOF function to determine the data type of a value by\ncasting the value to a VARIANT.",
+        "Create and populate a table:",
+        "Query the table using the TYPEOF function by casting each value to a VARIANT:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

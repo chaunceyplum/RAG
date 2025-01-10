@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.shift",
+    "title": "modin.pandas.DataFrame.shift | Snowflake Documentation",
+    "paragraphs": [
+        "Shift data by desired number of periods along axis and replace columns with fill_value (default: None).",
+        "Snowpark pandas does not support freq currently.",
+        "periods (int | Sequence[int]) \u2013",
+        "Number of periods to shift. Can be positive or negative. If an iterable of ints,\nthe data will be shifted once by each int. This is equivalent to shifting by one\nvalue at a time and concatenating all resulting frames. The resulting columns\nwill have the shift suffixed to their column names. For multiple periods, axis must not be 1.",
+        "Snowpark pandas does not currently support sequences of int for periods.",
+        "",
+        "freq (DateOffset, tseries.offsets, timedelta, or str, optional) \u2013",
+        "Offset to use from the tseries module or time rule (e.g. \u2018EOM\u2019).",
+        "Snowpark pandas does not yet support this parameter.",
+        "",
+        "axis ({0 or 'index', 1 or 'columns', None}, default None) \u2013 Shift direction.",
+        "fill_value (object, optional) \u2013 The scalar value to use for newly introduced missing values.\nthe default depends on the dtype of self.\nFor numeric data, np.nan is used.\nFor datetime, timedelta, or period data, etc. NaT is used.\nFor extension dtypes, self.dtype.na_value is used.",
+        "suffix (str, optional) \u2013",
+        "If str is specified and periods is an iterable, this is added after the column name\nand before the shift value for each shifted column name.",
+        "Snowpark pandas does not yet support this parameter.",
+        "",
+        "Copy of input object, shifted.",
+        "DataFrame",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

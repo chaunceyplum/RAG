@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-external-volume",
+    "title": "DROP EXTERNAL VOLUME | Snowflake Documentation",
+    "paragraphs": [
+        "Removes an external volume from the account, but retains a version of the\nexternal volume so that it can be recovered using UNDROP EXTERNAL VOLUME. For more information, see Usage Notes (in this topic).",
+        "CREATE EXTERNAL VOLUME , ALTER EXTERNAL VOLUME , SHOW EXTERNAL VOLUMES , DESCRIBE EXTERNAL VOLUME",
+        "Specifies the identifier for the external volume to drop. If the identifier contains spaces, special characters, or mixed-case characters,\nthe entire string must be enclosed in double quotes (for example, \"My object\"). Identifiers enclosed in double quotes are also case-sensitive.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "OWNERSHIP",
+        "External volume",
+        "OWNERSHIP is a special privilege on an object that is automatically granted to the role that created the object, but can also be transferred using the GRANT OWNERSHIP command to a different role by the owning role (or any role with the MANAGE GRANTS privilege).",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "You can\u2019t drop or replace an external volume if one or more Iceberg tables\nare associated with the external volume.",
+        "To view the tables that depend on an external volume,\nyou can use the SHOW ICEBERG TABLES command and\na query using RESULT_SCAN that filters on the external_volume_name column.",
+        "Note",
+        "The column identifier (external_volume_name) is case-sensitive.\nSpecify the column identifier exactly as it appears in the SHOW ICEBERG TABLES output.",
+        "For example:",
+        "Dropping an external volume does not permanently remove it from the system. Snowflake retains a version of the dropped external volume in\nTime Travel. You can restore a dropped external volume by using\nthe UNDROP EXTERNAL VOLUME command.",
+        "After a dropped external volume has been purged, it cannot be recovered; it must be recreated.",
+        "After dropping an external volume, creating an external volume with the same name creates a new version of the external volume.\nYou can restore the dropped version of the previous external volume by following these steps:",
+        "Rename the current version of the external volume.",
+        "Use the UNDROP EXTERNAL VOLUME command to restore the previous version.",
+        "The following example drops an external volume named my_external_volume:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/atan2",
+    "title": "ATAN2 | Snowflake Documentation",
+    "paragraphs": [
+        "Numeric functions (Trigonometric)",
+        "Computes the inverse tangent (arc tangent) of the ratio of its two arguments.\nFor example, if x > 0, then the expression ATAN2(y, x) is equivalent to ATAN(y/x).",
+        "The arc tangent is the angle between:",
+        "The X axis.",
+        "The ray from the point (0,0) to the point (X, Y) (where X and Y are not both 0).",
+        "ATAN",
+        "Note that the first parameter is the Y coordinate, not the X coordinate.",
+        "This parameter is the Y coordinate of the point at the end of the ray. The data type is DOUBLE.",
+        "This parameter is the X coordinate of the point at the end of the ray. The data type is DOUBLE.",
+        "The data type of the returned value is DOUBLE.",
+        "The returned value is in radians, not degrees.",
+        "The returned value is a number in the interval [-pi, pi].",
+        "If the data type of an argument is a numeric data type other than DOUBLE, then the value is converted to DOUBLE.",
+        "If the data type of an argument is string, the value is converted to DOUBLE if possible.",
+        "If the data type of an argument is any other data type, the function returns an error.",
+        "If either argument is NULL, the returned value is NULL.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

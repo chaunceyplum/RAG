@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.catalog_integration",
+    "title": "snowflake.core.catalog_integration | Snowflake Documentation",
+    "paragraphs": [
+        "Manages Snowflake Catalog Integrations.",
+        "Classes",
+        "CatalogIntegration(*,\u00a0name,\u00a0catalog,\u00a0...[,\u00a0...])",
+        "A model object representing the CatalogIntegration resource.",
+        "CatalogIntegrationResource(name,\u00a0collection)",
+        "Represents a reference to a Snowflake Catalog Integration resource.",
+        "CatalogIntegrationCollection(root)",
+        "Represents the collection operations on the Snowflake Catalog Integration resource.",
+        "Glue(*,\u00a0glue_aws_role_arn,\u00a0glue_catalog_id)",
+        "A model object representing the Glue resource.",
+        "OAuth(*,\u00a0oauth_client_id,\u00a0...)",
+        "A model object representing the OAuth resource.",
+        "ObjectStore()",
+        "A model object representing the ObjectStore resource.",
+        "Polaris(*,\u00a0catalog_namespace,\u00a0rest_config,\u00a0...)",
+        "A model object representing the Polaris resource.",
+        "RestConfig(*,\u00a0catalog_uri,\u00a0warehouse)",
+        "A model object representing the RestConfig resource.",
+        "Was this page helpful?"
+    ]
+}

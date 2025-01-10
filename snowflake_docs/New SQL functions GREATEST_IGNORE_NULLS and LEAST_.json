@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_03/bcr-1354",
+    "title": "New SQL functions: GREATEST_IGNORE_NULLS and LEAST_IGNORE_NULLS may conflict with similarly named UDFs | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Snowflake is introducing two new built-in functions:",
+        "GREATEST_IGNORE_NULLS: Returns the largest non-NULL value from a list of expressions. If all of the argument values are NULLs, the result is NULL.",
+        "GREATEST_IGNORE_NULLS supports arguments of all data types, including VARIANT.",
+        "LEAST_IGNORE_NULLS: Returns the smallest non-NULL value from a list of expressions. If all of the argument values are NULLs, the result is NULL.",
+        "LEAST_IGNORE_NULLS supports arguments of all data types, including VARIANT.",
+        "If you have a user-defined function (UDF) named GREATEST_IGNORE_NULLS or LEAST_IGNORE_NULLS, calls to your function have the following effect:",
+        "A call to your UDF named GREATEST_IGNORE_NULLS or LEAST_IGNORE_NULLS resolves to your UDF.",
+        "A call to your UDF named GREATEST_IGNORE_NULLS or LEAST_IGNORE_NULLS resolves to the new built-in GREATEST_IGNORE_NULLS or LEAST_IGNORE_NULLS function.\nThe built-in GREATEST_IGNORE_NULLS or LEAST_IGNORE_NULLS function might work differently than your UDF.",
+        "If the documented semantics of the new built-in GREATEST_IGNORE_NULLS or LEAST_IGNORE_NULLS function does not match the semantics of your UDF, you can either:",
+        "Rename your UDF (using ALTER FUNCTION \u2026 RENAME TO \u2026) and replace all references\nto the original UDF name with the new name.",
+        "Fully qualify all references to your UDF by specifying the names of the database and\nschema containing the UDF. For example:",
+        "Ref: 1354",
+        "Was this page helpful?"
+    ]
+}

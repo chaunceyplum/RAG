@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_06/bcr-1690",
+    "title": "Extend SHOW USERS, SHOW TERSE USERS, and SELECT FROM account_usage.users: New columns | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, the SHOW USERS, SHOW TERSE USERS, and SELECT FROM account_usage.users includes the following\nnew columns:",
+        "Column name",
+        "Data type",
+        "Description",
+        "TYPE",
+        "VARCHAR",
+        "Specifies the type of user. PERSON, SERVICE, LEGACY_SERVICE, or NULL. Default: NULL. For more information about types of users, see\nthe TYPE object property of users.",
+        "HAS_MFA",
+        "BOOLEAN",
+        "Specifies whether the user is enrolled for multi-factor authentication.",
+        "This change also changes the order of the returned columns, so if you use ordinals to select from these columns, then you need to change the\nordinals.",
+        "Ref: 1690",
+        "Was this page helpful?"
+    ]
+}

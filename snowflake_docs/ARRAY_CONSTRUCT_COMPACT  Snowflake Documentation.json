@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/array_construct_compact",
+    "title": "ARRAY_CONSTRUCT_COMPACT | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Array/Object)",
+        "Returns an array constructed from zero, one, or more inputs; the constructed\narray omits any NULL input values.",
+        "ARRAY_CONSTRUCT",
+        "These are the input expressions to evaluate; the resulting values are put into the array.\nThe expressions do not all need to evaluate to the same data type.",
+        "The data type of the returned value is ARRAY.",
+        "SQL NULL values are skipped when building the result array, resulting in a compacted (i.e. dense) array.",
+        "Construct a basic dense array consisting of different data types:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

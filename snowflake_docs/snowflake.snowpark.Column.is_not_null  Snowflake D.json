@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Column.is_not_null",
+    "title": "snowflake.snowpark.Column.is_not_null | Snowflake Documentation",
+    "paragraphs": [
+        "Is not null.",
+        "Was this page helpful?"
+    ]
+}

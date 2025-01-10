@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_02/bcr-1461",
+    "title": "Replication: Stages, pipes, storage integrations, and load history | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_02 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Note",
+        "This behavior change was part of the 2024_01 bundle, however it has been moved to the 2024_02\nbundle.",
+        "Enabling the 2024_02 bundle might result in dropped objects in the target account.",
+        "If you have secondary databases in target accounts and you have manually created stages or pipes\nin those target accounts, enabling this bundle might result in those objects being dropped. Once dropped, those objects\nare not recoverable by disabling the BCR bundle. Please review the full text of this behavior change before enabling the bundle.",
+        "Snowflake accounts can be replicated across regions and cloud platforms. Supported\ndatabase objects are replicated to target accounts when a database is replicated.",
+        "The replication of internal and external stage objects, pipe objects, storage integrations, and table load history is available in\npreview. This change makes replication of stages, pipes, storage\nintegrations, and load history generally available when this BCR bundle becomes enabled by default.",
+        "Primary stage objects, pipe objects, storage integrations, and table load history are not replicated to target accounts (unless you\nhave enabled the preview feature). Any existing stages and pipes in a target account are not modified during\na refresh operation.",
+        "If you are participating in the preview for storage integrations replication, and you include storage integrations in a replication\nor failover group by including integrations in the group\u2019s object_types list and include storage integrations\nin the allowed_integration_types list, then any existing manually created storage integrations in the target account\nare dropped.",
+        "If you are not participating in the preview for storage integrations replication (that is, you are not replicating storage\nintegrations in a replication or failover group), existing storage integrations in a target account are not modified during a\nrefresh operation.",
+        "Primary stage objects, pipe objects, and table load history are replicated to target accounts when the database\nthat contains them is replicated in a replication or failover group. Primary storage\nintegrations are replicated to target accounts if they are included in the replication or failover group. To replicate\nstorage integrations, the object_types parameter must include INTEGRATIONS\nand the allowed_integrations parameter must include STORAGE INTEGRATIONS for the group.",
+        "If a target account has secondary databases with manually created internal or external stages, or pipes, these manually created\nobjects are dropped when the replication or failover group is refreshed after this feature is enabled. Similarly, if the primary\nreplication or failover group includes storage integrations, these manually created storage integrations are dropped in the target\naccount during the refresh operation.",
+        "If the primary database has an internal stage with directory table enabled, the files on the stage are also replicated. If there are\nfiles on the stage that are larger than 5GB, the refresh operation for the replication or failover group fails. To work around this\nlimitation, move any files larger than 5GB to another stage. For more information, see\nConsiderations.",
+        "Stage, pipe, and load history replication is supported for databases that are replicated in replication or failover groups. This feature is not supported for database replication.",
+        "For more information, see Stage, pipe, and load history replication.",
+        "As part of pipe object replication, two new execution states, FAILING_OVER and READ_ONLY are added to SYSTEM$PIPE_STATUS and is generally enabled, not configurable by this BCR bundle.",
+        "Ref: 1461",
+        "Was this page helpful?"
+    ]
+}

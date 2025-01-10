@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.exceptions.FileOperationError",
+    "title": "snowflake.core.exceptions.FileOperationError | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SnowflakePythonError",
+        "Was this page helpful?"
+    ]
+}

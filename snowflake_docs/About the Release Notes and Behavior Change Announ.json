@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/about",
+    "title": "About the Release Notes and Behavior Change Announcements for Previous Releases | Snowflake Documentation",
+    "paragraphs": [
+        "The release notes and behavior change announcements for earlier releases have been removed. This site maintains the release notes\nand behavior change announcements only for the current year and the two years prior.",
+        "For the latest release notes, see Snowflake weekly, Snowsight, and feature release notes.",
+        "For the latest behavior change announcements, see Behavior change log.",
+        "Was this page helpful?"
+    ]
+}

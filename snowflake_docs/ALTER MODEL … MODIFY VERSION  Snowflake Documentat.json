@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/alter-model-modify-version",
+    "title": "ALTER MODEL \u2026 MODIFY VERSION | Snowflake Documentation",
+    "paragraphs": [
+        "Modifies a version of a model, changing the version\u2019s comment or metadata.",
+        "ALTER MODEL \u2026 ADD VERSION, ALTER MODEL \u2026 DROP VERSION",
+        "Specifies the identifier of the model.",
+        "If the identifier contains spaces or special characters, the entire string must be enclosed in double quotes.\nIdentifiers enclosed in double quotes are also case-sensitive.",
+        "For more information, see Identifier requirements.",
+        "Specifies the identifier of the version, either its version name or its alias. Version names that contain spaces or\nthat are case sensitive must be enclosed in double quotes. For information on identifier syntax, see\nIdentifier requirements.",
+        "Aliases must be valid identifiers without double quotes.",
+        "See Usage Notes for more information on aliases.",
+        "Specifies one or more model version properties to be set.",
+        "Sets the comment of the version.",
+        "Sets the metadata of the version. Metadata is a JSON object that stores key-value pairs of your choosing.",
+        "Aliases are alternative names for model versions. In addition to aliases you create, the following three system aliases are available.",
+        "DEFAULT refers to the default version of the model.",
+        "FIRST refers to the oldest version of the model by creation time.",
+        "LAST refers to the newest version of the model by creation time.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Window.range_between",
+    "title": "snowflake.snowpark.Window.range_between | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a WindowSpec object with the range frame clause.\nstart and end can be",
+        "an integer representing the relative position from the current row, or",
+        "Window.UNBOUNDED_PRECEDING, Window.UNBOUNDED_FOLLOWING\nand Window.CURRENT_ROW, which represent unbounded preceding,\nunbounded following and current row respectively, or",
+        "a Column object created by\nmake_interval() to use\nInterval constants.\nInterval constants can only be used with this function when the order by column is TIMESTAMP or DATE type\nSee more details how to use interval constants in\nRANGE BETWEEN\nclause. However, you cannot mix the numeric values and interval constants in the same range frame clause.",
+        "start \u2013 The relative position from the current row as a boundary start (inclusive).\nThe frame is unbounded if this is Window.UNBOUNDED_PRECEDING, or any\nvalue less than or equal to -9223372036854775807 (-sys.maxsize).",
+        "end \u2013 The relative position from the current row as a boundary end (inclusive).\nThe frame is unbounded if this is Window.UNBOUNDED_FOLLOWING, or any\nvalue greater than or equal to 9223372036854775807 (sys.maxsize).",
+        "Use numeric values to specify the range frame:",
+        "Use interval constants to specify the range frame:",
+        "Was this page helpful?"
+    ]
+}

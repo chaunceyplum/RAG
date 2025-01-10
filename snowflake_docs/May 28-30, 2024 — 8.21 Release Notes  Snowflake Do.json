@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/8_21",
+    "title": "May 28-30, 2024 \u2014 8.21 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "The release has completed.",
+        "For differences between the in-advance and final versions of these release notes, see Release notes change log.",
+        "With this release, we are pleased to announce the preview of triggered tasks.",
+        "With triggered tasks, your tasks can run only when the related stream has new data. This replaces the need to continuously run your tasks to check for data in stream.",
+        "For more information, see Triggered Tasks.",
+        "Previously, you could define no more than 10 email notification integrations for an account.",
+        "With this release, this limit has been lifted. You can define more than 10 email notification integrations for an account.",
+        "You can now use the { INCLUDE | EXCLUDE } NULLS option in an UNPIVOT subclause to specify whether to include rows with NULLs in the results. By default, rows with NULLs are excluded. To include rows with NULLs in the results, specify INCLUDE NULLS in the UNPIVOT subclause.",
+        "For more information, see UNPIVOT.",
+        "With this release, we are pleased to announce the general availability of a new file format option USE_VECTORIZED_SCANNER.",
+        "The default value for this file format option is FALSE. In a future BCR, the default value will be TRUE.",
+        "When setting USE_VECTORIZED_SCANNER = TRUE, you can use the vectorized scanner for loading Parquet files. The vectorized scanner is well suited for the columnar format of a Parquet file and it significantly reduces the ingestion latency. The scanner only downloads relevant sections of the Parquet file into memory, such as the subset of selected columns.",
+        "For more information, see USE_VECTORIZED_SCANNER.",
+        "With this release, we are pleased to announce support for the 1.29.0 and 1.31.1 versions of the Streamlit open source library in Streamlit in Snowflake.",
+        "For more information, see Supported versions of the Streamlit library.",
+        "Announcement",
+        "Update",
+        "Date",
+        "Release notes",
+        "Initial publication (preview)",
+        "27-May-24",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

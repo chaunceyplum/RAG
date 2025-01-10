@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/is_instance_role_in_session",
+    "title": "IS_INSTANCE_ROLE_IN_SESSION | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (Session Object)",
+        "Verifies whether the user\u2019s active primary or secondary role hierarchy for the session inherits the specified instance role.",
+        "Instance roles , IS_DATABASE_ROLE_IN_SESSION , IS_ROLE_IN_SESSION",
+        "Specifies the name of the instance.",
+        "Specifies the name of the instance role.",
+        "TRUE if the current user\u2019s active primary role or secondary roles in the session\ninherit the specified instance role.",
+        "When the DEFAULT_SECONDARY_ROLES value is ALL, any role granted to the user inherits the privileges of the\nspecified instance role.",
+        "FALSE if the specified instance role is not in the role hierarchy of the user\u2019s current primary or secondary roles.",
+        "Verify whether the current role for the session inherits the specified instance role:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

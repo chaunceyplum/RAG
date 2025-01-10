@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/is_time",
+    "title": "IS_TIME | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Type Predicates)",
+        "Verifies whether a VARIANT argument contains a TIME value.",
+        "IS_<object_type> , IS_DATE , IS_DATE_VALUE , IS_TIMESTAMP_*",
+        "An expression that evaluates to a value of type VARIANT.",
+        "Returns a BOOLEAN value or NULL.",
+        "Returns TRUE if the VARIANT value contains a TIME value. Otherwise, returns FALSE.",
+        "If the input is NULL, returns NULL without reporting an error.",
+        "Return all of the TIME values in a VARIANT column.",
+        "Note",
+        "The output format for TIME values is set using the TIME_OUTPUT_FORMAT parameter. The default setting is HH24:MI:SS.",
+        "Create and load a table with various date and TIME values in a VARIANT column:",
+        "Use the TYPEOF function in a query to show the data types of the values stored in the VARIANT column v:",
+        "Show the TIME values in the data by using the IS_TIME function in a WHERE clause. Only the TIME value\nis returned in the output. The DATE and TIMESTAMP values aren\u2019t returned.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

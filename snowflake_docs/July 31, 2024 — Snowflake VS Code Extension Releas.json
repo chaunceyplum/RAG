@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-07-31",
+    "title": "July 31, 2024 \u2014 Snowflake VS Code Extension Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the availability of the following new features in this update to the Snowflake\nVS Code extension.",
+        "You can add and modify connection definitions in Snowflake connections.toml configuration files.",
+        "For more information, see Edit the Snowflake connections.toml file.",
+        "You can now use the VS Code extension to create and manage a Snowflake Native App.",
+        "For more information, see Work with the Snowflake Native App Framework.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

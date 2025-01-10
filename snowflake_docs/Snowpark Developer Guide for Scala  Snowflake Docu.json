@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/scala/index.html",
+    "title": "Snowpark Developer Guide for Scala | Snowflake Documentation",
+    "paragraphs": [
+        "The Snowpark library provides an intuitive API for querying and processing data in a data pipeline. Using the Snowpark library, you can\nbuild applications that process data in Snowflake without moving data to the system where your application code runs.",
+        "For an introduction to Snowpark, see Snowpark API.",
+        "Set up to build Snowpark apps using any of several development environments.",
+        "Get the latest release notes.",
+        "Use a tutorial to learn the basics of Snowpark with Scala.",
+        "Establish a session with which you interact with the Snowflake database.",
+        "Query and process data with a DataFrame object.",
+        "Create user-defined functions (UDFs) using the Snowpark API.",
+        "Create stored procedures using the Snowpark API.",
+        "Use the Snowpark API to call system-defined functions, UDFs, and stored procedures.",
+        "See example code for an application that prints information about tables in Snowflake.",
+        "Record log messages and trace events in an event table for analysis later.",
+        "Troubleshoot your code with logging and by viewing underlying SQL.",
+        "Learn how SQL statements map to Snowpark APIs for common operations.",
+        "Read details about the classes and methods in the Snowpark API.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

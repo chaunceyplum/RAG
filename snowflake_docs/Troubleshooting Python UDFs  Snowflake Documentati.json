@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/udf/python/udf-python-troubleshooting",
+    "title": "Troubleshooting Python UDFs | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides troubleshooting information about Python UDFs (user-defined functions).",
+        "Third-party Python libraries, which do not have C/C++ extensions, can be imported by UDFs directly via Snowflake stages.\nFor more information, see Creating a Python UDF with code uploaded from a stage.",
+        "To learn how to submit a request to support additional Anaconda packages, see Using third-party packages.",
+        "Reduce the amount of memory used by the UDF.",
+        "Check the UDF code for bugs or memory leaks.",
+        "For more information, see Memory.",
+        "To see an example of how to upload a ZIP file to a Snowflake stage and then unzip it into the /tmp directory\ninside the UDF, see Unzipping a staged file.",
+        "For information about how to improve the performance of UDFs, see Optimizing for scale and performance.",
+        "When going through the steps to get started using third-party packages from Anaconda,\nthe organization administrator (ORGADMIN) role is required.",
+        "To resolve this problem, follow the instructions in Enabling the ORGADMIN role in an account.",
+        "When you use the SnowflakeFile class to read files that contain non-text data, you must specify the input mode as binary.\nOtherwise you might encounter the following error:",
+        "To resolve this problem, specify the input mode as binary by passing 'rb' for the mode argument (the second argument). For example:",
+        "Training machine learning (ML) models can sometimes be very resource intensive.\nSnowpark-optimized warehouses are a type of Snowflake virtual warehouse that can be used for workloads\nthat require a large amount of memory and compute resources.\nFor information on machine learning models and Snowpark Python, see Training Machine Learning Models with Snowpark Python.",
+        "If using a Python UDF in a masking policy, ensure the data type of the column, UDF, and\nmasking policy match.",
+        "For troubleshooting information about third-party packages, see Known issues with third-party packages.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

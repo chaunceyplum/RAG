@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.PutResult.source_compression",
+    "title": "snowflake.snowpark.PutResult.source_compression | Snowflake Documentation",
+    "paragraphs": [
+        "The source file compression format.",
+        "Was this page helpful?"
+    ]
+}

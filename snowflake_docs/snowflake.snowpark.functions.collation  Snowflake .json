@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.collation",
+    "title": "snowflake.snowpark.functions.collation | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the collation specification of expr.",
+        "Was this page helpful?"
+    ]
+}

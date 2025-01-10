@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.drop_duplicates",
+    "title": "modin.pandas.DataFrame.drop_duplicates | Snowflake Documentation",
+    "paragraphs": [
+        "Return DataFrame with duplicate rows removed.",
+        "Considering certain columns is optional. Indexes, including time indexes are ignored.",
+        "subset (column label or sequence of labels, optional) \u2013 Only consider certain columns for identifying duplicates, by default use all columns.",
+        "keep ({'first', 'last', False}, default 'first') \u2013 Determines which duplicates (if any) to keep.\n\u2018first\u2019 : Drop duplicates except for the first occurrence.\n\u2018last\u2019 : Drop duplicates except for the last occurrence.\nFalse : Drop all duplicates.",
+        "inplace (bool, default False) \u2013 Whether to modify the DataFrame rather than creating a new one.",
+        "ignore_index (bool, default False) \u2013 If True, the resulting axis will be labeled 0, 1, \u2026, n - 1.",
+        "DataFrame with duplicates removed or None if inplace=True.",
+        "DataFrame or None",
+        "Examples",
+        "Consider dataset containing ramen rating.",
+        "By default, it removes duplicate rows based on all columns.",
+        "To remove duplicates on specific column(s), use subset.",
+        "To remove duplicates and keep last occurrences, use keep.",
+        "Was this page helpful?"
+    ]
+}

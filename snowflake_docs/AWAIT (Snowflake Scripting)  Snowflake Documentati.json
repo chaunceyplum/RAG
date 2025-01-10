@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/snowflake-scripting/await",
+    "title": "AWAIT (Snowflake Scripting) | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to all accounts.",
+        "Waits for an asynchronous child job that is running for a\nRESULTSET,\nand returns when the job has finished.",
+        "AWAIT is a blocking call. You can use an AWAIT statement to block other code from running until an\nasynchronous child job has finished and its results are returned.",
+        "Note",
+        "This Snowflake Scripting construct is valid only within a\nSnowflake Scripting block.",
+        "CANCEL",
+        "Where:",
+        "The name of the RESULTSET.",
+        "An asynchronous child job is created for a RESULTSET when the ASYNC keyword is specified for the query.\nFor more information, see Assigning a query to a declared RESULTSET.",
+        "When the ASYNC keyword is specified for a query, the stored procedure can\u2019t access the query results\nuntil an AWAIT statement for the RESULTSET returns the results.",
+        "When you run an asynchronous child job, \u201cfire and forget\u201d isn\u2019t supported. Therefore, if the stored\nprocedure runs a child job that is still running when the stored procedure completes, the child job\nis canceled automatically.",
+        "Snowflake Scripting supports built-in variables that you can use in the code for stored procedures.\nThe SQLID variable is available for the query\nspecified for an asynchronous child job immediately after the asynchronous child job is created.",
+        "All of the other built-in variables are populated after the AWAIT statement associated with the asynchronous\nchild job runs. Before the AWAIT statement runs, these variables have NULL values.",
+        "Specifically, the following built-in variables for exception handling\nare available after the AWAIT statement associated with the asynchronous child job runs:",
+        "SQLCODE",
+        "SQLERRM",
+        "SQLSTATE",
+        "The following built-in variables related to\nthe number of rows affected by DML commands\nare also available after the AWAIT statement associated with the asynchronous child job runs:",
+        "SQLROWCOUNT",
+        "SQLFOUND",
+        "SQLNOTFOUND",
+        "If an asynchronous child job fails, the AWAIT statement associated with the asynchronous job fails with\nan error, and execution of the stored procedure stops. For example, the following stored procedure fails\nand returns an error when execution reaches the AWAIT statement:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

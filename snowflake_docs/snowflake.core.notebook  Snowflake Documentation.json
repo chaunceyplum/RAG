@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.notebook",
+    "title": "snowflake.core.notebook | Snowflake Documentation",
+    "paragraphs": [
+        "Manages Snowflake Notebooks.",
+        "Examples",
+        "Refer to snowflake.core.Root to create the root.",
+        "Classes",
+        "Notebook(*,\u00a0name[,\u00a0version,\u00a0fromLocation,\u00a0...])",
+        "A model object representing the Notebook resource.",
+        "NotebookCollection(schema)",
+        "Represents the collection operations of the Snowflake Notebook resource.",
+        "NotebookResource(name,\u00a0collection)",
+        "Represents a reference to a Snowflake notebook.",
+        "VersionDetails(*[,\u00a0name,\u00a0alias,\u00a0...])",
+        "A model object representing the VersionDetails resource.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_typeof",
+    "title": "SYSTEM$TYPEOF | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Returns a string representing the SQL data type associated with an\nexpression.",
+        "TYPEOF",
+        "The argument can be a column name or a general expression.",
+        "Returns a VARCHAR value that contains the data type of the input expression, for example, BOOLEAN, NUMBER, ARRAY, OBJECT, etc.",
+        "If TYPEOF is executed without the SYSTEM$ prefix (i.e. as a regular\nfunction rather than a system function), it returns different\nresults (see TYPEOF).",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

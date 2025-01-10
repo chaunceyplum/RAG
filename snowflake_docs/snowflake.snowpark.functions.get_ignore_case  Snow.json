@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.get_ignore_case",
+    "title": "snowflake.snowpark.functions.get_ignore_case | Snowflake Documentation",
+    "paragraphs": [
+        "Extracts a field value from an object. Returns NULL if either of the arguments is NULL.\nThis function is similar to get() but applies case-insensitive matching to field names.",
+        "Examples:",
+        "Was this page helpful?"
+    ]
+}

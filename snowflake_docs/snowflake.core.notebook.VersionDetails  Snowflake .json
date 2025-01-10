@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.notebook.VersionDetails",
+    "title": "snowflake.core.notebook.VersionDetails | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: BaseModel",
+        "A model object representing the VersionDetails resource.",
+        "Constructs an object of type VersionDetails with the provided properties.",
+        "name (str, optional) \u2013 The last version name",
+        "alias (str, optional) \u2013 The default/last version alias of a file based entity.",
+        "location_url (str, optional) \u2013 The default/last version location.",
+        "source_location_uri (str, optional) \u2013 The default/last version source location.",
+        "git_commit_hash (str, optional) \u2013 The default/last version git commit#",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of VersionDetails from a dict.",
+        "Create an instance of VersionDetails from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

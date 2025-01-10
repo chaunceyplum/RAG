@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/budget/commands/drop-budget",
+    "title": "DROP BUDGET | Snowflake Documentation",
+    "paragraphs": [
+        "Fully qualified name: SNOWFLAKE.CORE.BUDGET",
+        "Removes an instance of a custom budget.",
+        "CREATE BUDGET,\nALTER BUDGET,\nSHOW BUDGET",
+        "Specifies the identifier (i.e. name) of the budget.",
+        "If the identifier contains spaces or special characters, the entire string must be enclosed in double quotes.\nIdentifiers enclosed in double quotes are also case-sensitive.",
+        "For more information, see Identifier requirements.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "OWNERSHIP",
+        "Budget",
+        "The role used to drop a budget must be granted this privilege on the budget.",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For more information, see Budgets roles and privileges.",
+        "To refer to this class by its unqualified name, include the database and schema of the class in your\nsearch path.",
+        "Dropped budgets cannot be recovered; they must be recreated.",
+        "Drop budget my_budget in the current schema:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

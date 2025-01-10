@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-07-03-sis",
+    "title": "July 03, 2024 \u2014 External network access in Streamlit in Snowflake \u2013\u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the general availability of external network access in Streamlit in Snowflake.",
+        "You can now create secure access to specific network locations external to Snowflake, and you can use that access\nfrom within the Streamlit app code. You can enable access through an external access integration.",
+        "For more information, see External network access in Streamlit in Snowflake.",
+        "Was this page helpful?"
+    ]
+}

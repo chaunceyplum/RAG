@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.str.split",
+    "title": "modin.pandas.Series.str.split | Snowflake Documentation",
+    "paragraphs": [
+        "Split strings around given separator/delimiter.",
+        "Splits the string in the Series/Index from the beginning, at the specified delimiter string.",
+        "pat (str, optional) \u2013 String to split on. If not specified, split on whitespace.",
+        "n (int, default -1 (all)) \u2013 Limit number of splits in output. None, 0 and -1 will be interpreted as return all splits.",
+        "expand (bool, default False (Not implemented yet, should be set to False)) \u2013 Expand the split strings into separate columns.\n- If True, return DataFrame/MultiIndex expanding dimensionality.\n- If False, return Series/Index, containing lists of strings.",
+        "regex (bool, default None (Not implemented yet, should be set to False or None)) \u2013 Determines if the passed-in pattern is a regular expression:\n- If True, assumes the passed-in pattern is a regular expression\n- If False or None, treats the pattern as a literal string.",
+        "Type matches caller unless expand=True (see Notes).",
+        "Series, Index, DataFrame or MultiIndex",
+        "See also",
+        "Split strings around given separator/delimiter.",
+        "Splits string around given separator/delimiter, starting from the right.",
+        "Join lists contained as elements in the Series/Index with passed delimiter.",
+        "Standard library version for split.",
+        "Standard library version for rsplit.",
+        "Notes",
+        "The handling of the n keyword depends on the number of found splits:",
+        "If found splits > n, make first n splits only",
+        "If found splits <= n, make all splits",
+        "If for a certain row the number of found splits < n, append None for padding up to n if expand=True",
+        "If using expand=True, Series and Index callers return DataFrame and MultiIndex objects, respectively.",
+        "Examples",
+        "In the default setting, the string is split by whitespace.",
+        "The n parameter can be used to limit the number of splits on the delimiter.",
+        "The pat parameter can be used to split by other characters.",
+        "Was this page helpful?"
+    ]
+}

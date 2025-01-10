@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.count",
+    "title": "modin.pandas.Series.count | Snowflake Documentation",
+    "paragraphs": [
+        "Return number of non-NA/null observations in the Series.",
+        "Number of non-null values in the Series.",
+        "int",
+        "See also",
+        "Count non-NA cells for each column or row.",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

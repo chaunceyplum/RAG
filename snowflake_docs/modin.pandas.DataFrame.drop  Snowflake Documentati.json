@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.drop",
+    "title": "modin.pandas.DataFrame.drop | Snowflake Documentation",
+    "paragraphs": [
+        "Return Series with specified index labels removed.",
+        "Remove elements of a Series based on specifying the index labels.\nWhen using a MultiIndex, labels on different levels can be removed\nby specifying the level.",
+        "labels (single label or list-like) \u2013 Index labels to drop.",
+        "axis ({0 or 'index'}) \u2013 Unused. Parameter needed for compatibility with DataFrame.",
+        "index (single label or list-like) \u2013 Redundant for application on Series, but \u2018index\u2019 can be used instead\nof \u2018labels\u2019.",
+        "columns (single label or list-like) \u2013 No change is made to the Series; use \u2018index\u2019 or \u2018labels\u2019 instead.",
+        "level (int or level name, optional) \u2013 For MultiIndex, level for which the labels will be removed.",
+        "inplace (bool, default False) \u2013 If True, do operation inplace and return None.",
+        "errors ({'ignore', 'raise'}, default 'raise') \u2013 If \u2018ignore\u2019, suppress error and only existing labels are dropped.",
+        "Series with specified index labels removed or None if inplace=True.",
+        "Snowpark pandas Series or None",
+        "KeyError \u2013 If none of the labels are found in the index.",
+        "See also",
+        "Return only specified index labels of Series.",
+        "Return series without null values.",
+        "Return Series with duplicate values removed.",
+        "Drop specified labels from rows or columns.",
+        "Examples",
+        "Drop labels B en C",
+        "Drop 2nd level label in MultiIndex Series",
+        "Was this page helpful?"
+    ]
+}

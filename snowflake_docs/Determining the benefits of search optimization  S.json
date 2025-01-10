@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/search-optimization/view-benefits",
+    "title": "Determining the benefits of search optimization | Snowflake Documentation",
+    "paragraphs": [
+        "Enterprise Edition Feature",
+        "This feature requires Enterprise Edition (or higher). To inquire about upgrading, please contact Snowflake Support.",
+        "After you configure search optimization for your tables, you can assess the benefits of search optimization by querying the\nSEARCH_OPTIMIZATION_BENEFITS view.",
+        "This view provides information about the number of partitions pruned due to search optimization. To determine the efficacy of\npruning, you can compare the number of partitions pruned in the partitions_pruned_additional column against the total number\nof partitions pruned (the sum of the values in the partitions_pruned_default column and the partitions_pruned_additional\ncolumn).",
+        "For more information, see SEARCH_OPTIMIZATION_BENEFITS view.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

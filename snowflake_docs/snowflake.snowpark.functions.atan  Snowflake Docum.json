@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.atan",
+    "title": "snowflake.snowpark.functions.atan | Snowflake Documentation",
+    "paragraphs": [
+        "Computes the inverse tangent (arc tangent) of its input;\nthe result is a number in the interval [-pi, pi].",
+        "Was this page helpful?"
+    ]
+}

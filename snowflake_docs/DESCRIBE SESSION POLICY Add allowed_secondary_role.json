@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_04/bcr-1621",
+    "title": "DESCRIBE SESSION POLICY: Add allowed_secondary_roles column | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of the DESC SESSION POLICY command is as follows:",
+        "The output of the command does not include the allowed_secondary_roles column.",
+        "The output of the command includes the allowed_secondary_roles column, which is placed between the\nsession_ui_idle_timeout_mins and comment columns. This column is a placeholder for future functionality.",
+        "Ref: 1621",
+        "Was this page helpful?"
+    ]
+}

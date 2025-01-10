@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/oauth-consent",
+    "title": "Managing user consent for OAuth | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes how to manage delegated authorizations for OAuth, that is, user consent given to one or more clients associated with\nSnowflake integrations for a specified role.",
+        "Adding a delegated authorization to a user pre-authorizes consent to initiate a session using a specified role for a particular\nintegration. Without the delegated authorization, the user must authorize consent for the role after authentication. Note that a delegated\nauthorization only bypasses the authorization step for a given role; a user must always authenticate to request an authorization code.",
+        "The ability to add delegated authorizations is limited to custom clients. For public clients (that is, Tableau Cloud or Desktop), Snowflake\nalways displays the confirmation dialog for a given role.",
+        "Add user consent for a role using ALTER USER with the ADD DELEGATED AUTHORIZATION keywords:",
+        "Where:",
+        "Specifies the user whose consent you are adding.",
+        "Specifies the role associated with the access token.",
+        "Specifies the integration associated with the access tokens for a specific client.",
+        "Note",
+        "Only security administrators (that is, users with the SECURITYADMIN role) or higher can execute this SQL command.",
+        "For example, add user consent for the CUSTOM1 role to user JANE.SMITH for the MYINT integration:",
+        "List the active delegated authorizations for which you have access privileges, using\nSHOW DELEGATED AUTHORIZATIONS:",
+        "List the active delegated authorizations for a specified user. Users can list their own delegated authorizations; otherwise, this command\nvariant requires the OWNERSHIP privilege on the user.",
+        "List the active delegated authorizations for a specified integration. This command variant requires the OWNERSHIP privilege on the\nintegration (that is, the ACCOUNTADMIN role):",
+        "A user can revoke consent from a specified integration. This has the effect of revoking any access token associated with the integration.",
+        "To revoke user consent for a given integration, execute the ALTER USER \u2026 REMOVE DELEGATED AUTHORIZATIONS command.",
+        "Note",
+        "Only security administrators (that is, users with the SECURITYADMIN role) or higher can execute this SQL command.",
+        "To revoke user consent associated with a specific role, include the OF ROLE role_name parameter in the statement:",
+        "Where:",
+        "Specifies the user whose consent you are revoking.",
+        "Specifies the role associated with the access token.",
+        "Specifies the integration associated with the access tokens for a specific client.",
+        "For example, remove user consent for the CUSTOM1 role from user JANE.SMITH for the MYINT integration:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

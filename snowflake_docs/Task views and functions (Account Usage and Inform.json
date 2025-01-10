@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1280",
+    "title": "Task views and functions (Account Usage and Information Schema): ATTEMPT_NUMBER value changed to 1-based | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The value of ATTEMPT_NUMBER field in the following view behaves as follows:",
+        "Account Usage views:",
+        "COMPLETE_TASK_GRAPHS",
+        "TASK_HISTORY",
+        "Information Schema table functions:",
+        "COMPLETE_TASK_GRAPHS",
+        "CURRENT_TASK_GRAPHS",
+        "TASK_HISTORY",
+        "The ATTEMPT_NUMBER column is 0 based.\nFor example, when the task/graph is run for the first time, the ATTEMPT_NUMBER will be 0.\nIf the task/graph is later retried, the ATTEMPT_NUMBER will be 1, then 2, etc.",
+        "The ATTEMPT_NUMBER column will be 1 based.\nFor example, when the task/graph is run for the first time, the ATTEMPT_NUMBER will be 1.\nIf the task/graph is later retried, the ATTEMPT_NUMBER will be 2, then 3, etc.",
+        "Ref: 1280",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/info-schema/information_schema_catalog_name",
+    "title": "INFORMATION_SCHEMA_CATALOG_NAME view | Snowflake Documentation",
+    "paragraphs": [
+        "This Information Schema view identifies the database (or catalog, in SQL terminology) that contains the INFORMATION_SCHEMA schema.",
+        "Column Name",
+        "Data Type",
+        "Description",
+        "CATALOG_NAME",
+        "TEXT",
+        "The name of the database in which this information_schema resides.",
+        "This view always contains a single row.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

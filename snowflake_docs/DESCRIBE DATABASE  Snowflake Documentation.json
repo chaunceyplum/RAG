@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-database",
+    "title": "DESCRIBE DATABASE | Snowflake Documentation",
+    "paragraphs": [
+        "Describes the database. For example, shows the schemas in the database.",
+        "DESCRIBE can be abbreviated to DESC.",
+        "Tip",
+        "In addition to SQL, you can also use other interfaces, such as Snowflake REST APIs, Snowflake Python APIs, and Snowflake CLI.\nSee Alternate interfaces.",
+        "ALTER DATABASE , CREATE DATABASE , DROP DATABASE , SHOW DATABASES , UNDROP DATABASE",
+        "DATABASES view (Information Schema)",
+        "Specifies the identifier of the database to describe.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "This demonstrates the DESCRIBE DATABASE command:",
+        "Snowflake REST APIs",
+        "Fetch a database endpoint",
+        "Snowflake Python APIs",
+        "database.DatabaseResource.fetch method",
+        "Snowflake CLI",
+        "snow object describe command",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

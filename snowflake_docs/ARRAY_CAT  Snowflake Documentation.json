@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/array_cat",
+    "title": "ARRAY_CAT | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Array/Object)",
+        "Returns a concatenation of two arrays.",
+        "The source array.",
+        "The array to be appended to array1.",
+        "An ARRAY containing the elements from array2 appended after the elements of array1.",
+        "Both arguments must either be structured ARRAYs or\nsemi-structured ARRAYs.",
+        "If you are passing in semi-structured ARRAYs, both arguments must be of ARRAY type or VARIANT containing an array.",
+        "If you are passing in structured ARRAYs, the function returns an ARRAY of a type that can accommodate both input types.",
+        "If either argument is NULL, the function returns NULL without reporting any error.",
+        "This example shows how to use ARRAY_CAT():",
+        "Create a simple table and data:",
+        "Execute the query:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

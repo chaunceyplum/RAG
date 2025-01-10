@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.qcut",
+    "title": "modin.pandas.qcut | Snowflake Documentation",
+    "paragraphs": [
+        "Quantile-based discretization function.",
+        "Discretize variable into equal-sized buckets based on rank or based\non sample quantiles.",
+        "x (1-D ndarray or Series) \u2013 The data across which to compute buckets. If a Snowpark pandas Series is passed, the computation\nis distributed. Otherwise, if a numpy array or list is provided, the computation is performed\nclient-side instead.",
+        "q (int or list-like of float) \u2013 Number of quantiles. 10 for deciles, 4 for quartiles, etc. Alternately array of quantiles,\ne.g. [0, .25, .5, .75, 1.] for quartiles.",
+        "labels (array or False, default None) \u2013",
+        "Used as labels for the resulting bin. Must be of the same length as the resulting bins. If False,\nreturn only integer indicators of the bins. If True, raise an error.",
+        "labels=False will run binning computation in Snowflake; other values are not yet supported\nin Snowpark pandas.",
+        "",
+        "retbins (bool, default False) \u2013 Whether to return the (bins, labels) or not. Can be useful if bins is given as a scalar.\nretbins=True is not yet supported in Snowpark pandas.",
+        "precision (int, optional) \u2013 The precision at which to store and display the bins labels.",
+        "duplicates ({default 'raise', 'drop'}, optional) \u2013 If bin edges are not unique, raise ValueError or drop non-uniques.",
+        "Since Snowpark pandas does not yet support the pd.Categorical type, unlike native pandas, the\nreturn value is always a Series.",
+        "Series",
+        "Was this page helpful?"
+    ]
+}

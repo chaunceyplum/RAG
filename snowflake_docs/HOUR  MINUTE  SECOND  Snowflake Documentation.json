@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/hour-minute-second",
+    "title": "HOUR / MINUTE / SECOND | Snowflake Documentation",
+    "paragraphs": [
+        "Date & time functions",
+        "Extracts the corresponding time part from a time or timestamp value.",
+        "These functions are alternatives to using the DATE_PART (or EXTRACT) function with the equivalent time part (see Supported date and time parts).",
+        "YEAR* / DAY* / WEEK* / MONTH / QUARTER",
+        "Function Name",
+        "Time Part Extracted from Time / Timestamp",
+        "Possible Values",
+        "HOUR",
+        "Hour of the specified day",
+        "0 to 23",
+        "MINUTE",
+        "Minute of the specified hour",
+        "0 to 59",
+        "SECOND",
+        "Second of the specified minute",
+        "0 to 59",
+        "This demonstrates the HOUR, MINUTE, and SECOND functions:",
+        "For more examples, see Working with date and time values.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

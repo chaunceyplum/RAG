@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2023/7_31",
+    "title": "September 05-06, 2023 \u2013 7.31 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce 3 new Information Schema views related to class\ninstances:",
+        "CLASS_INSTANCES view",
+        "CLASS_INSTANCE_FUNCTIONS view",
+        "CLASS_INSTANCE_PROCEDURES view",
+        "With this release, we are pleased to announce the preview of access to external network locations from procedure and UDF handler code. Preview support for this feature is available to accounts on AWS except the Gov region.",
+        "With an external access integration, you can:",
+        "Write UDF and procedure handlers that access external locations.",
+        "Allow or block access to locations on a network external to Snowflake.",
+        "Use secrets that represent stored credentials, rather than using literal values, within handler code to authenticate with external network locations.",
+        "Specify which secrets are allowed for use with external network locations.",
+        "For more information about external network access, see Overview of external network access.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

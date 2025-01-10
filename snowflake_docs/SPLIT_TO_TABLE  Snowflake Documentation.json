@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/split_to_table",
+    "title": "SPLIT_TO_TABLE | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (General) , Table functions",
+        "This table function splits a string (based on a specified delimiter) and flattens the results into rows.",
+        "SPLIT",
+        "Text to be split.",
+        "Text to split the string by.",
+        "This function returns the following columns:",
+        "Column name",
+        "Data type",
+        "Description",
+        "SEQ",
+        "NUMBER",
+        "A unique sequence number associated with the input record. The sequence is not guaranteed to be gap-free or ordered.\nin any particular way.",
+        "INDEX",
+        "NUMBER",
+        "The one-based index of the element.",
+        "VALUE",
+        "VARCHAR",
+        "The value of the element of the flattened array.",
+        "Note",
+        "The query can also access the columns of the original (correlated) table that served as the source of data for this function. If a single row\nfrom the original table resulted in multiple rows in the flattened view, the values in this input row are replicated to match the number of\nrows produced by this function.",
+        "Here is a simple example on constant input.",
+        "Create a table and insert data:",
+        "You can use the LATERAL keyword with the SPLIT_TO_TABLE function\nso that the function executes on each row of the splittable table as a correlated table:",
+        "Create another table that contains authors in one column and some of their book titles in another column, separated\nby commas:",
+        "Use the LATERAL keyword and the SPLIT_TO_TABLE function to run a query that returns a separate row for each title.\nIn addition, use the TRIM function to remove leading and trailing spaces from the titles. Note that the\nSELECT list includes the fixed value column that is returned by the function:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

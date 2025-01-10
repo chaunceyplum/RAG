@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.exceptions.SnowparkPlanException",
+    "title": "snowflake.snowpark.exceptions.SnowparkPlanException | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SnowparkClientException",
+        "Exception for plan analysis errors.",
+        "Includes all error codes in range 12XX (where XX is 0-9).",
+        "This exception is specifically raised for error codes: 1200, 1201, 1202, 1205.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/is_timestamp",
+    "title": "IS_TIMESTAMP_* | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Type Predicates)",
+        "Verifies whether a VARIANT argument contains the respective\ntimestamp value:",
+        "IS_TIMESTAMP_LTZ (value with local time zone).",
+        "IS_TIMESTAMP_NTZ (value with no time zone).",
+        "IS_TIMESTAMP_TZ (value with time zone).",
+        "IS_<object_type> , IS_DATE , IS_DATE_VALUE , IS_TIME",
+        "An expression that evaluates to a value of type VARIANT.",
+        "Returns a BOOLEAN value or NULL.",
+        "Returns TRUE if the VARIANT value contains a timestamp. Otherwise, returns FALSE.",
+        "If the input is NULL, returns NULL without reporting an error.",
+        "Show all timestamps in a VARIANT column, with the output using the time zone specified for the session.",
+        "Note",
+        "The output format for the time zone is set using a parameter:",
+        "The TIMESTAMP_LTZ_OUTPUT_FORMAT parameter sets the format for TIMESTAMP_LTZ values.",
+        "The TIMESTAMP_NTZ_OUTPUT_FORMAT parameter sets the format for TIMESTAMP_NTZ values.",
+        "The TIMESTAMP_TZ_OUTPUT_FORMAT parameter sets the format for TIMESTAMP_TZ values.",
+        "In these examples, the local time zone is US Pacific Standard Time (-08:00 relative to GMT/UCT).",
+        "Create and load a table with various date and time values in a VARIANT column:",
+        "Use the TYPEOF function in a query to show the data types of the values stored in the VARIANT column v:",
+        "Show the TIMESTAMP_NTZ values in the data by using the IS_TIMESTAMP_NTZ function in a WHERE clause:",
+        "Show the TIMESTAMP_LTZ values in the data by using the IS_TIMESTAMP_LTZ function in a WHERE clause:",
+        "Show the TIMESTAMP_TZ values in the data by using the IS_TIMESTAMP_TZ function in a WHERE clause:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1361",
+    "title": "TABLE_STORAGE_METRICS view (Account Usage): New column | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "A new column is added to the TABLE_STORAGE_METRICS (Account Usage) view.",
+        "The TABLE_STORAGE_METRICS (Account Usage) view does not include an INSTANCE_ID column.",
+        "The TABLE_STORAGE_METRICS (Account Usage) view includes an INSTANCE_ID column:",
+        "Column name",
+        "Data type",
+        "Description",
+        "INSTANCE_ID",
+        "NUMBER",
+        "Internal/system-generated identifier for the instance which the object belongs to.",
+        "The columnn will display a null value if the table is under a behavior change bundle instance.",
+        "Ref: 1361",
+        "Was this page helpful?"
+    ]
+}

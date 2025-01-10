@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.cube",
+    "title": "snowflake.snowpark.DataFrame.cube | Snowflake Documentation",
+    "paragraphs": [
+        "Performs a SQL\nGROUP BY CUBE.\non the DataFrame.",
+        "cols \u2013 The columns to group by cube.",
+        "Was this page helpful?"
+    ]
+}

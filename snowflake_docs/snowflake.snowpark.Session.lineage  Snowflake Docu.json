@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.lineage",
+    "title": "snowflake.snowpark.Session.lineage | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a Lineage object that you can use to explore lineage of snowflake entities.\nSee details of how to use this object in Lineage.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/ecosystem",
+    "title": "Snowflake Ecosystem | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake works with a wide array of industry-leading tools and technologies, enabling you to access Snowflake through an extensive network\nof connectors, drivers, programming languages, and utilities, including:",
+        "Certified partners who have developed cloud-based and on-premises solutions for connecting to Snowflake.",
+        "Other 3rd-party tools and technologies that are known to work with Snowflake.",
+        "Snowflake-provided clients, including SnowSQL (command line interface), connectors for\nPython and Spark, and drivers for\nNode.js, JDBC, ODBC, and more.",
+        "The next topics describe the solutions in more detail. The solutions are listed both alphabetically and grouped according to the categories\nshown in the diagram above.",
+        "Tip",
+        "If you don\u2019t find a solution here that works for you, we have an extensive network of partners who can help you integrate with Snowflake.\nFor more details, see Solutions Partners (Snowflake website).",
+        "Next Topics:",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/image-repositories/images-introduction",
+    "title": "Manage image repositories | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "The Snowflake REST Image Repository API reference provides the following Snowflake endpoints  to access, update, and perform certain actions on Image Repository resource in Snowflake:",
+        "Endpoint",
+        "Description",
+        "GET /api/v2/databases/database/schemas/.schema/image-repositories",
+        "Lists available image repositories.",
+        "POST /api/v2/databases/database/schemas/.schema/image-repositories",
+        "Creates an image repository.",
+        "GET /api/v2/databases/database/schemas/.schema/image-repositories/name",
+        "Fetches an image repository.",
+        "DELETE /api/v2/databases/database/schemas/.schema/image-repositories/name",
+        "Deletes an image repository.",
+        "GET /api/v2/databases/database/schemas/schema/image-repositories/name/images",
+        "Lists images in the specified repository.",
+        "For reference documentation, see Snowflake Image Repository API reference.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

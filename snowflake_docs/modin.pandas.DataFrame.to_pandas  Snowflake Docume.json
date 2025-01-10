@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.to_pandas",
+    "title": "modin.pandas.DataFrame.to_pandas | Snowflake Documentation",
+    "paragraphs": [
+        "Convert Snowpark pandas DataFrame to pandas.DataFrame",
+        "statement_params \u2013 Dictionary of statement level parameters to be set while executing this action.",
+        "pandas DataFrame",
+        "See also",
+        "to_pandas",
+        "Series.to_pandas",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

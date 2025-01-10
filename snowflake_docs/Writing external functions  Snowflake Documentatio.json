@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/external-functions",
+    "title": "Writing external functions | Snowflake Documentation",
+    "paragraphs": [
+        "External functions are user-defined functions that are stored and executed outside of Snowflake.",
+        "External functions make it easier to access external API services such as geocoders, machine learning models, and other custom code\nrunning outside of Snowflake. This feature eliminates the need to export and reimport data when using third-party services, significantly\nsimplifying your data pipelines.",
+        "Note",
+        "When using external functions in China, use the syntax and workflow described for AWS.",
+        "Learn about external functions, which call executable code that is developed, maintained, stored, and executed outside Snowflake.",
+        "Understand the data formats sent and received by Snowflake.",
+        "Change the format of data sent to and received from remote services.",
+        "Design high-performance functions with these tips on asynchronous services, scalability, concurrency, and reliability.",
+        "Improve efficiency and prevent unexpected results with these best practices.",
+        "Create secure external functions.",
+        "Create an external function from functionality on AWS.",
+        "Create an external function from functionality on GCP.",
+        "Create an external function from functionality on Azure.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

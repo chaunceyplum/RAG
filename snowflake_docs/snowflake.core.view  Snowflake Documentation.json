@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.view",
+    "title": "snowflake.core.view | Snowflake Documentation",
+    "paragraphs": [
+        "Manages Snowflake Views.",
+        "Classes",
+        "View(*,\u00a0name[,\u00a0secure,\u00a0kind,\u00a0recursive,\u00a0...])",
+        "A model object representing the View resource.",
+        "ViewResource(name,\u00a0collection)",
+        "Represents a reference to a Snowflake view.",
+        "ViewCollection(schema)",
+        "Represents the collection operations on the Snowflake View resource.",
+        "ViewColumn(*,\u00a0name[,\u00a0comment,\u00a0datatype])",
+        "A model object representing the ViewColumn resource.",
+        "Was this page helpful?"
+    ]
+}

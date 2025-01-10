@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark-ml/reference/latest/data",
+    "title": "snowflake.ml.data | Snowflake Documentation",
+    "paragraphs": [
+        "Classes",
+        "data_connector.DataConnector(ingestor)",
+        "Snowflake data reader which provides application integration connectors",
+        "data_ingestor.DataIngestor(*args,\u00a0**kwargs)",
+        "",
+        "data_source.DataSource",
+        "alias of Union[DataFrameInfo, DatasetInfo, str]",
+        "data_source.DataFrameInfo(sql[,\u00a0query_id])",
+        "Serializable information from Snowpark DataFrames",
+        "data_source.DatasetInfo(...[,\u00a0url,\u00a0exclude_cols])",
+        "Serializable information from SnowML Datasets",
+        "Was this page helpful?"
+    ]
+}

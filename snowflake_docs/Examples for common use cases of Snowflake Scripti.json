@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-scripting/use-cases",
+    "title": "Examples for common use cases of Snowflake Scripting | Snowflake Documentation",
+    "paragraphs": [
+        "You can write anonymous blocks and stored procedures that use Snowflake Scripting language elements,\ndata types, and variables for solutions that address common use cases. This topic includes examples of\nSnowflake Scripting code for some common use cases.",
+        "The following example creates a stored procedure that updates table data with user input. It uses\na FOR loop to iterate over the rows in a RESULTSET\nfor the table. The FOR loop contains conditional logic. Bind variables based on user input determine the exact updates performed by the\nstored procedure.",
+        "The example uses the following data:",
+        "The following stored procedure uses a FOR loop to iterate over the rows in a RESULTSET for the bonuses table.\nIt applies the bonus as the specified percentage of the salary of each employee with the specified performance\nrating. The stored procedure uses conditional logic to apply the bonus only to the employees with the specified\nperformance rating. It also uses the inputs (bonus_percentage and performance_value) as bind variables.",
+        "Note: If you are using SnowSQL, the Classic Console, or the\nexecute_stream or execute_string method in Python Connector\ncode, use this example instead (see Using Snowflake Scripting in SnowSQL, the Classic Console, and Python Connector):",
+        "To run the stored procedure, specify the bonus percentage and the performance rating. For example, call\nthe stored procedure and apply a 3% bonus for employees with a performance rating of 5:",
+        "Run a query to show the results:",
+        "The following example creates a stored procedure that filters and collects the data in a table.\nThe procedure inserts rows using the collected data into another table to track historical trends.",
+        "The example uses the following data, which tracks the ownership and settings of virtual machines (VMs):",
+        "Assume that a company wants to track the data in this table over time when the values of the settings exceed specific\nthresholds. The following stored procedure collects and filters the data in the vm_settings table, then inserts rows into\nthe vm_settings_history table when the following conditions are met:",
+        "A vm_setting with a value of s1 is set lower than 5.",
+        "A vm_setting with a value of s2 is set higher than 500.",
+        "The rows inserted into the vm_settings_history table include all of the column values from the vm_settings\ntable, along with the emp_id of the employee who owns the VM and the current date.",
+        "Note: If you are using SnowSQL, the Classic Console, or the\nexecute_stream or execute_string method in Python Connector\ncode, use this example instead (see Using Snowflake Scripting in SnowSQL, the Classic Console, and Python Connector):",
+        "Run the stored procedure:",
+        "You can see the data that the procedure inserted into the vm_settings_history table by running\nthe following query:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.SessionBuilder.app_name",
+    "title": "snowflake.snowpark.Session.SessionBuilder.app_name | Snowflake Documentation",
+    "paragraphs": [
+        "Adds the app name to the SessionBuilder to set in the query_tag after session creation",
+        "app_name \u2013 The name of the application.",
+        "format_json \u2013 If set to True, it will add the app name to the session query tag in JSON format,\notherwise, it will add it using a key=value format.",
+        "A SessionBuilder instance.",
+        "Was this page helpful?"
+    ]
+}

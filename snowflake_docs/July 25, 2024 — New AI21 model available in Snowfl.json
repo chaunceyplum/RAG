@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-07-25-new-llm-model-jamba",
+    "title": "July 25, 2024 \u2014 New AI21 model available in Snowflake Cortex AI | Snowflake Documentation",
+    "paragraphs": [
+        "We\u2019re pleased to announce that AI21\u2019s foundational model, jamba-instruct, is now available for serverless inference in\nSnowflake Cortex AI.",
+        "The jamba-Instruct model is built by AI21 Labs to efficiently meet enterprise requirements. It is optimized to offer a 256k token\ncontext window with low cost and latency, making it ideal for tasks like summarization, Q&A, and entity extraction on lengthy documents\nand extensive knowledge bases.",
+        "For details, see Snowflake Cortex LLM Functions.",
+        "Was this page helpful?"
+    ]
+}

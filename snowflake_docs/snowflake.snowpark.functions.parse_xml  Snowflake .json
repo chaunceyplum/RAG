@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.parse_xml",
+    "title": "snowflake.snowpark.functions.parse_xml | Snowflake Documentation",
+    "paragraphs": [
+        "Parse the value of the specified column as a JSON string and returns the\nresulting XML document.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

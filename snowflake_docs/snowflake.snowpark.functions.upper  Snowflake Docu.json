@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.upper",
+    "title": "snowflake.snowpark.functions.upper | Snowflake Documentation",
+    "paragraphs": [
+        "Unicode characters are supported.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

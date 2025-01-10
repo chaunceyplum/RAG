@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.clear_packages",
+    "title": "snowflake.snowpark.Session.clear_packages | Snowflake Documentation",
+    "paragraphs": [
+        "Clears all third-party packages of a user-defined function (UDF).",
+        "Was this page helpful?"
+    ]
+}

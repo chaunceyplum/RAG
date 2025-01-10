@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.external_volume.StorageLocationS3",
+    "title": "snowflake.core.external_volume.StorageLocationS3 | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: StorageLocation",
+        "A model object representing the StorageLocationS3 resource.",
+        "Constructs an object of type StorageLocationS3 with the provided properties.",
+        "name (str)",
+        "storage_aws_role_arn (str) \u2013 Specifies the case-sensitive Amazon Resource Name (ARN) of the AWS identity and access management (IAM) role that grants privileges on the S3 bucket containing your data files.",
+        "storage_base_url (str) \u2013 Specifies the base URL for your cloud storage location.",
+        "storage_aws_external_id (str, optional) \u2013 Optionally specifies an external ID that Snowflake uses to establish a trust relationship with AWS.",
+        "encryption (Encryption, optional)",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of StorageLocationS3 from a dict.",
+        "Create an instance of StorageLocationS3 from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

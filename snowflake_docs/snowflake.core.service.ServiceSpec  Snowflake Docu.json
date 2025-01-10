@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.service.ServiceSpec",
+    "title": "snowflake.core.service.ServiceSpec | Snowflake Documentation",
+    "paragraphs": [
+        "Infers whether a specification is a stage file or inline text.",
+        "Any spec that starts with \u2018@\u2019 is parsed as a stage file, otherwise it is passed as an inline text.",
+        "Was this page helpful?"
+    ]
+}

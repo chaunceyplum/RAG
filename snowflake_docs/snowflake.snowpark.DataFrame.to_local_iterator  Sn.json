@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.to_local_iterator",
+    "title": "snowflake.snowpark.DataFrame.to_local_iterator | Snowflake Documentation",
+    "paragraphs": [
+        "Executes the query representing this DataFrame and returns an iterator\nof Row objects that you can use to retrieve the results.",
+        "Unlike collect(), this method does not load all data into memory\nat once.",
+        "Example:",
+        "statement_params \u2013 Dictionary of statement level parameters to be set while executing this action.",
+        "block \u2013 A bool value indicating whether this function will wait until the result is available.\nWhen it is False, this function executes the underlying queries of the dataframe\nasynchronously and returns an AsyncJob.",
+        "case_sensitive \u2013 A bool value which controls the case sensitivity of the fields in the\nRow objects returned by the to_local_iterator. Defaults to True.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_clustering_depth",
+    "title": "SYSTEM$CLUSTERING_DEPTH | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Computes the average depth of the table according to the specified columns (or the clustering key defined for the table). The average depth of a populated table (i.e. a table containing\ndata) is always 1 or more. The smaller the average depth, the better clustered the table is with regards to the specified columns.",
+        "For more information about micro-partitions and clustering keys, see Understanding Snowflake Table Structures.",
+        "SYSTEM$CLUSTERING_INFORMATION",
+        "Table for which you want to calculate the clustering depth.",
+        "Column(s) in the table used to calculate the clustering depth:",
+        "For a table with no clustering key, this argument is required. If this argument is omitted, an error is returned.",
+        "For a table with a clustering key, this argument is optional; if the argument is omitted, Snowflake uses the defined clustering key to calculate the depth.",
+        "Note",
+        "You can use this argument to calculate the depth for any columns in the table, regardless of the clustering key defined for the table.",
+        "Clause that filters the range of values in the columns on which to calculate the clustering depth. Note that predicate does not utilize a WHERE keyword at the beginning of the clause.",
+        "All arguments are strings (i.e. they must be enclosed in single quotes).",
+        "If predicate contains a string, the string must be enclosed in single quotes, which then must be escaped using single quotes. For example:",
+        "SYSTEM$CLUSTERING_DEPTH( ... , 'col1 = 100 and col2 = ''A''' )",
+        "Calculate the clustering depth for a table using the clustering key defined for the table:",
+        "Calculate the clustering depth for a table using two columns in the table:",
+        "Same as the previous example, but with a predicate on one of the columns:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

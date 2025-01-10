@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.dayname",
+    "title": "snowflake.snowpark.functions.dayname | Snowflake Documentation",
+    "paragraphs": [
+        "Extracts the three-letter day-of-week name from the specified date or timestamp.",
+        "Was this page helpful?"
+    ]
+}

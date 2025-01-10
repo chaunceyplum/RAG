@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.user.UserCollection",
+    "title": "snowflake.core.user.UserCollection | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: AccountObjectCollectionParent[UserResource]",
+        "Represents the collection operations on the Snowflake User resource.",
+        "With this collection, you can create, iterate through, and search for users that you have access to in the\ncurrent context.",
+        "Examples",
+        "Creating a user instance:",
+        "Attributes",
+        "Methods",
+        "Create a user in Snowflake account.",
+        "user (User) \u2013 The User object, together with the User\u2019s properties:\nname; password, login_name, display_name, first_name, middle_name, last_name,\nemail, must_change_password, disabled, days_to_expiry, mins_to_unlock, default_warehouse,\ndefault_namespace, default_role, default_secondary_roles, mins_to_bypass_mfa, rsa_public_key,\nrsa_public_key_fp, rsa_public_key_2, rsa_public_key_2_fp, comment, type,\nenable_unredacted_query_syntax_error, network_policy are optional",
+        "mode (CreateMode, optional) \u2013",
+        "One of the following enum values.",
+        "CreateMode.error_if_exists: Throw an snowflake.core.exceptions.ConflictError\nif the user already exists in Snowflake.  Equivalent to SQL create user <name> ....",
+        "CreateMode.or_replace: Replace if the user already exists in Snowflake. Equivalent to SQL\ncreate or replace user <name> ....",
+        "CreateMode.if_not_exists: Do nothing if the user already exists in Snowflake.\nEquivalent to SQL create user <name> if not exists...",
+        "Default is CreateMode.error_if_exists.",
+        "",
+        "Examples",
+        "Creating a user, replacing any existing user with the same name:",
+        "Was this page helpful?"
+    ]
+}

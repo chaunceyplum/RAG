@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_02/bcr-937",
+    "title": "SCIM Security Integrations: Using the ENABLED Parameter to Enable or Disable an Integration | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_02 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The ENABLED parameter of a SCIM security integration now controls whether the integration is enabled or not:",
+        "Though every SCIM security integration had an ENABLED parameter, its value had no effect. All SCIM security integrations were enabled.",
+        "The ENABLED parameter controls whether a SCIM security integration is enabled. Setting ENABLED=FALSE disables the integration.",
+        "As part of this change:",
+        "All existing SCIM security integrations are now set to ENABLED=TRUE, which reflects the fact that they have always been enabled.",
+        "All new security integrations default to ENABLED=TRUE.",
+        "Ref: 937",
+        "Was this page helpful?"
+    ]
+}

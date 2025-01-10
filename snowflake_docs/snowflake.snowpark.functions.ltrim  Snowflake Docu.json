@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.ltrim",
+    "title": "snowflake.snowpark.functions.ltrim | Snowflake Documentation",
+    "paragraphs": [
+        "Removes leading characters, including whitespace, from a string.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.to_binary",
+    "title": "snowflake.snowpark.functions.to_binary | Snowflake Documentation",
+    "paragraphs": [
+        "Converts the input expression to a binary value. For NULL input, the output is NULL.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

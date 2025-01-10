@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_set_span_attributes",
+    "title": "SYSTEM$SET_SPAN_ATTRIBUTES (for Snowflake Scripting) | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Sets attribute name and value associated with a span containing trace events.",
+        "Use SYSTEM$SET_SPAN_ATTRIBUTES to set the attribute name and value for a span when using trace events from a handler written in\nSnowflake Scripting.",
+        "For more information, refer to Emitting trace events in Snowflake Scripting.",
+        "An object containing name-value pairs representing the attributes to add.",
+        "Code in the following example uses the SYSTEM$ADD_EVENT function to add an event named name_a and an event named name_b.\nWith name_b, it associates two attributes, score and pass. The code also uses SYSTEM$SET_SPAN_ATTRIBUTES to\nset two attributes for the span, attr1 and attr2.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

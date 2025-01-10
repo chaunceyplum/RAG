@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/services/overview",
+    "title": "Managing Snowpark Container Services in Snowflake CLI | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Note",
+        "You can use Snowpark Container Services from Snowflake CLI only if you have the necessary permissions to use Snowpark Container Services.",
+        "Snowpark Container Services is a fully managed container offering that helps you easily deploy,\nmanage, and scale containerized applications without having to move data out of Snowflake.\nAs a fully managed service, it comes with Snowflake security, configuration, and operational best practices built in.",
+        "Snowpark Container Services is fully integrated with Snowflake. For example, your application can easily:",
+        "Connect to Snowflake and run SQL in a Snowflake virtual warehouse.",
+        "Access data files in a Snowflake stage.",
+        "Snowpark Container Services is also integrated with third-party tools. It allows you to use third-party clients\n(such as Docker) to easily upload your application images to Snowflake. Seamless integration makes it easier for\nteams to focus on building the data applications, not the environment.",
+        "This section describes the following topics:",
+        "Working with image registries and repositories",
+        "Managing compute pools",
+        "Managing services",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

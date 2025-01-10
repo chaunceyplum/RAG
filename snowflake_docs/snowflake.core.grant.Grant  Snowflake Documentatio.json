@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.grant.Grant",
+    "title": "snowflake.core.grant.Grant | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: object",
+        "Represents Snowflake Grant Operation.",
+        "grantee (Grantee) \u2013 The role that the Grant is being applied to.",
+        "securable (Securable) \u2013 The Securable object.",
+        "privileges (Privileges) \u2013 The Privileges being granted.",
+        "grant_option (bool, optional) \u2013 If True, grantee can pass this privilege down.\nDefault is None, which is equivalent to False.",
+        "Examples",
+        "Granting privileges to a test role:",
+        "Attributes",
+        "Was this page helpful?"
+    ]
+}

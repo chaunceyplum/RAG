@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/as_decimal-number",
+    "title": "AS_DECIMAL , AS_NUMBER | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Cast)",
+        "Casts a VARIANT value to a fixed-point NUMBER value, with optional precision and scale.\nThis function doesn\u2019t cast floating-point values.",
+        "AS_DECIMAL is a synonym for AS_NUMBER.",
+        "The DECIMAL data type is synonymous with the NUMBER data type.",
+        "AS_<object_type> , AS_DOUBLE , AS_REAL , AS_INTEGER",
+        "An expression that evaluates to a value of type VARIANT.",
+        "The number of significant digits of the decimal number to store.",
+        "The default is 38.",
+        "The number of significant digits after the decimal point.",
+        "The default is 0.",
+        "The function returns a value of type NUMBER or NULL:",
+        "If the type of the value in the variant_expr argument is DECIMAL or NUMBER, the function returns a value of type NUMBER.",
+        "If the type of the value in the variant_expr argument doesn\u2019t match the type of the output\nvalue, the function returns NULL.",
+        "If the variant_expr argument is NULL, the function returns NULL.",
+        "When reducing scale, this function rounds the result, which can cause out-of-range errors.",
+        "Create a table and load data into it:",
+        "Use the AS_NUMBER function in a query to cast a VARIANT value to a NUMBER value:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

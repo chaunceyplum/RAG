@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/current_available_roles",
+    "title": "CURRENT_AVAILABLE_ROLES | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions",
+        "Returns a list of all account-level roles granted to the current user. The list includes all roles that are granted\ndirectly to the user plus all account-level roles lower in the hierarchies of these roles.",
+        "CURRENT_ROLE , CURRENT_SECONDARY_ROLES , IS_ROLE_IN_SESSION",
+        "None.",
+        "Returns a string (VARCHAR) that is a JSON-encoded list of available account-level roles. The returned value can be\npassed to the PARSE_JSON function to get a VARIANT that contains a list of all the\navailable roles.",
+        "This function returns a list of account-level roles only when queried by a user. Querying the function using a service that has no active\nuser could result in a failed query. For example, the function does not return a list of roles when queried within a\ntask, because the task runs are executed by a system service that is not associated with a user. In this\ncase, the query could time out because the query plan cannot be completed.",
+        "This function does not return the names of database roles, application roles, or class instance roles.",
+        "This function does not account for role activation in a session.",
+        "For example, if specifying this function in the conditions of a masking policy or a\nrow access policy, the policy might inadvertently restrict access.",
+        "If role activation and role hierarchy is necessary in the policy conditions, use IS_ROLE_IN_SESSION.",
+        "Return the list of roles granted to the current user:",
+        "Use the PARSE_JSON function to return a VARIANT and the FLATTEN function to obtain a single row for each role:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.array_insert",
+    "title": "snowflake.snowpark.functions.array_insert | Snowflake Documentation",
+    "paragraphs": [
+        "Returns an ARRAY containing all elements from the source ARRAY as well as the new element.",
+        "array \u2013 Column containing the source ARRAY.",
+        "pos \u2013 Column containing a (zero-based) position in the source ARRAY.\nThe new element is inserted at this position. The original element from this\nposition (if any) and all subsequent elements (if any) are shifted by one position\nto the right in the resulting array (i.e. inserting at position 0 has the same\neffect as using array_prepend).\nA negative position is interpreted as an index from the back of the array (e.g.\n-1 results in insertion before the last element in the array).",
+        "element \u2013 Column containing the element to be inserted. The new element is located at\nposition pos. The relative order of the other elements from the source\narray is preserved.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1385-1414",
+    "title": "SHOW TASKS and DESCRIBE TASK commands: New columns | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The output of SHOW TASKS and DESCRIBE TASK commands is as follows:",
+        "The output of SHOW TASKS and DESCRIBE TASK commands does not include last_suspended_reason or task_relations columns.",
+        "The existing last_suspended_on column shows timestamps only for the root tasks and shows NULL for child tasks.",
+        "The output of SHOW TASKS and DESCRIBE TASK commands includes last_suspended_reason and task_relations columns.",
+        "The existing last_suspended_on column shows timestamps for both the root tasks and the child tasks.",
+        "Column Name",
+        "Description",
+        "last_suspended_reason",
+        "Displays the reason why the task was suspended. The possible reasons include the following:",
+        "USER_SUSPENDED: The user suspended the task by running the alter task <name> suspend command.",
+        "SCHEMA_OR_DATABASE_DELETED: The schema or database of the task was dropped.",
+        "GRANT_OWNERSHIP: The user transferred the ownership of the task to another role by running the grant ownership command.",
+        "SUSPENDED_DUE_TO_ERRORS: The task failed a certain number of consecutive times and was suspended. You can set the SUSPEND_TASK_AFTER_NUM_FAILURES parameter for the number of failures required to suspend this task.",
+        "CHILD_BECAME_ROOT: The task was previously a child task in a DAG of tasks, but all predecessors of the child task were removed and the child task became a root task.",
+        "FINALIZER_BECAME_ROOT:  The task was previously a finalizer task in a DAG of tasks, but the finalization was removed and the task became a root task.",
+        "MATCHING_OWNER_NOT_FOUND: During task replication, the role that owns the task was not found on the secondary database.",
+        "task_relations",
+        "Displays the relationship between the root task and its corresponding finalizer tasks.",
+        "last_suspended_on",
+        "Displays the timestamps for both the root tasks and the child tasks.",
+        "Ref: 1385 1414",
+        "Was this page helpful?"
+    ]
+}

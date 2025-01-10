@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_01/bcr-1490",
+    "title": "Replication Groups: New column in output of SHOW command and Information Schema View | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The output of the SHOW REPLICATION GROUPS command and the Information Schema\nREPLICATION_GROUPS view view is as follows:",
+        "The output does not include the IS_LISTING_AUTO_FULFILLMENT_GROUP column.",
+        "The output includes IS_LISTING_AUTO_FULFILLMENT_GROUP, as follows:",
+        "Column name",
+        "Data type",
+        "Description",
+        "IS_LISTING_AUTO_FULFILLMENT_GROUP",
+        "BOOLEAN",
+        "TRUE if the replication group is used for\nCross-Cloud Auto-fulfillment.\nFALSE otherwise.",
+        "Ref: 1490",
+        "Was this page helpful?"
+    ]
+}

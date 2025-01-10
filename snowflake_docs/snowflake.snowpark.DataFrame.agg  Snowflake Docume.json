@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.agg",
+    "title": "snowflake.snowpark.DataFrame.agg | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate the data in the DataFrame. Use this method if you don\u2019t need to\ngroup the data (group_by()).",
+        "exprs \u2013",
+        "A variable length arguments list where every element is",
+        "A Column object",
+        "A tuple where the first element is a column object or a column name and the second element is the name of the aggregate function",
+        "A list of the above",
+        "or a dict maps column names to aggregate function names.",
+        "",
+        "Examples:",
+        "Note",
+        "The name of the aggregate function to compute must be a valid Snowflake aggregate function.",
+        "See also",
+        "RelationalGroupedDataFrame.agg()",
+        "DataFrame.group_by()",
+        "Was this page helpful?"
+    ]
+}

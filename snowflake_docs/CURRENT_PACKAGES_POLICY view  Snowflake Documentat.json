@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/info-schema/current_packages_policy",
+    "title": "CURRENT_PACKAGES_POLICY view | Snowflake Documentation",
+    "paragraphs": [
+        "This Information Schema view displays a row for each Snowpark packages policy created on the current account by the\nCREATE PACKAGES POLICY command. For details, see\nPackages policies.",
+        "Column Name",
+        "Data Type",
+        "Description",
+        "NAME",
+        "TEXT",
+        "The name of the package policy",
+        "LANGUAGE",
+        "TEXT",
+        "The programming language the packages policy applies to",
+        "ALLOWLIST",
+        "TEXT",
+        "The list of package specs that are allowed",
+        "BLOCKLIST",
+        "TEXT",
+        "The list of package specs that are blocked",
+        "ADDITIONAL_CREATION_BLOCKLIST",
+        "TEXT",
+        "The list of package specs that are blocked at creation time",
+        "COMMENT",
+        "TEXT",
+        "A comment about the packages policy",
+        "Currently, package policies are supported for Python.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

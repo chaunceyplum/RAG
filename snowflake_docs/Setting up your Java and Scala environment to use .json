@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/logging-tracing/telemetry-build-maven",
+    "title": "Setting up your Java and Scala environment to use the Telemetry class | Snowflake Documentation",
+    "paragraphs": [
+        "You can build and package handler code that uses the com.snowflake.telemetry.Telemetry class, then reference the handler on a stage.\nThe Telemetry library is available through Maven and through an archive file that you can download from the\nDrivers and Libraries page in the Snowflake Developer site.",
+        "If you are using Maven to develop function or procedure handlers in Java or Scala, you can build a JAR file containing your code:",
+        "In the pom.xml file for your project, add a dependency on the com.snowflake:telemetry package:",
+        "Exclude the telemetry package from the JAR file that you build because it is already included in Snowflake.",
+        "In the directory for your project, create a subdirectory named assembly/.",
+        "In that directory, create an assembly descriptor file that specifies that you want to include dependencies in your JAR file.",
+        "For an example, see jar-with-dependencies.",
+        "In the assembly descriptor, add a <dependencySet> element that excludes the Snowpark library from your JAR file. For example:",
+        "For information about the elements in an assembly descriptor, see\nAssembly Descriptor Format.",
+        "In your pom.xml file, under the <project> \u00bb <build> \u00bb <plugins>, add a <plugin> element for the\nMaven Assembly Plugin.",
+        "In addition, under <configuration> \u00bb <descriptors>, add a <descriptor> that points to the assembly\ndescriptor file that you created in the previous steps.",
+        "For example:",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

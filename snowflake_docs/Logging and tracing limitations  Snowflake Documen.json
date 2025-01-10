@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/logging-tracing/logging-tracing-limitations",
+    "title": "Logging and tracing limitations | Snowflake Documentation",
+    "paragraphs": [
+        "There is a 1MB limit for log and trace event payloads. If the payload is over the 1MB threshold, the record in the event table will be\nincomplete and only contain values for the following columns: TIMESTAMP, RECORD_TYPE, and RESOURCE_ATTRIBUTES. Currently there is no\nadditional indication that the threshold was exceeded.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

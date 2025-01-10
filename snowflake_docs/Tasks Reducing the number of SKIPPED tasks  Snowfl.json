@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_06/bcr-1710",
+    "title": "Tasks: Reducing the number of SKIPPED tasks | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "For tasks with a user-specified schedule, the tasks run as follows:",
+        "A task runs based on the user-specified schedule, for example, every 1 minute. The task completes with a SKIPPED state if there is no new data in the stream within the specified time interval (for example, 1 minute). In this case, the SCHEDULED_FROM column of the TASK_HISTORY view is SCHEDULE.",
+        "A task checks the stream based on the user-specified schedule, but only runs when there is new data in the stream, which reduces the number of SKIPPED tasks. In this case, the SCHEDULED_FROM column of the TASK_HISTORY view is TRIGGER.",
+        "If you set up monitoring or alerts to check your task run states, we recommend adjusting your monitoring to account for this behavior change because the tasks in the SKIPPED state are significantly reduced.",
+        "Ref: 1710",
+        "Was this page helpful?"
+    ]
+}

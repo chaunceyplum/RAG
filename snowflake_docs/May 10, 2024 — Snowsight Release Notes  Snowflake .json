@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/ui/2024-05-10",
+    "title": "May 10, 2024 \u2014 Snowsight Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "This document provides an overview of the new features, enhancements, and other important changes introduced in this update to\nSnowsight.",
+        "If you have additional questions, please feel free to contact Snowflake Support.",
+        "With this release, we are pleased to announce the general availability of a new Create menu in the Snowsight navigation menu. The new menu provides a shortcut for creating the following items:",
+        "SQL worksheet",
+        "Python worksheet",
+        "Streamlit App",
+        "Dashboard",
+        "Table",
+        "Stage",
+        "View",
+        "By selecting the new Create menu, you can also access the Add Data page, which includes all the different ways of loading data into Snowflake.",
+        "For more information, see Exploring the Snowsight navigation menu.",
+        "With this release, we are pleased to announce the general availability of a new Add Data page in Snowsight. You can access the Add Data page by selecting Create \u00bb Add Data or Data \u00bb Add Data.",
+        "The Add Data page provides a combined view and quick access to all the data loading methods that Snowflake supports. You can easily access tasks such as the following:",
+        "Loading data into a table",
+        "Loading files into a stage",
+        "Creating an external stage",
+        "Loading data from other cloud providers",
+        "Loading data using the Snowflake connectors",
+        "For more information, see Exploring the Snowsight navigation menu.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

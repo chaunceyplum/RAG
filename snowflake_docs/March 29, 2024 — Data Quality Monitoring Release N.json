@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-03-29-dmf",
+    "title": "March 29, 2024 \u2014 Data Quality Monitoring Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, Snowflake is pleased to announce Data Quality Monitoring with data metric functions (DMFs) in preview. Data Quality\nMonitoring uses DMFs to continuously monitor the data quality metrics such as completeness, accuracy, uniqueness, and validity. You can use\nSnowflake provided system DMFs for common metrics such as row count, duplicates, and freshness. Alternatively, you can create your own\ncustom DMFs to define metrics that are specific to your own data.",
+        "You can either use the DMF in a query to test the quality of data in your pipeline or associate the DMF to desired tables to continuously\nmonitor its quality. The continuous monitoring can either be schedule-based for periodic measurement  or trigger-based to measure only when\nthe underlying table is modified. DMF results are recorded in a centralized event table in your Snowflake account to protect the privacy of\nyour data. You can create dashboards, configure alerts, or query metric results directly from the event table. Furthermore, data in the\nevent table is in the standard OpenTelemetry format for easy integration with observability tools.",
+        "For details, see Introduction to Data Quality and data metric functions.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

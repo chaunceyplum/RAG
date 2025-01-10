@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.get_packages",
+    "title": "snowflake.snowpark.Session.get_packages | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a dict of packages added for user-defined functions (UDFs).\nThe key of this dict is the package name and the value of this dict\nis the corresponding requirement specifier.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.compute_pool",
+    "title": "snowflake.core.compute_pool | Snowflake Documentation",
+    "paragraphs": [
+        "Manages Snowpark Container Compute Pools.",
+        "Example",
+        "Refer to snowflake.core.Root to create the root.",
+        "Classes",
+        "ComputePool(name,\u00a0min_nodes,\u00a0max_nodes,\u00a0...)",
+        "A model object representing the ComputePool resource.",
+        "ComputePoolCollection(root)",
+        "Represents the collection operations on the Snowflake Compute Pool resource.",
+        "ComputePoolResource(name,\u00a0collection)",
+        "Represents a reference to a Snowflake compute pool.",
+        "Was this page helpful?"
+    ]
+}

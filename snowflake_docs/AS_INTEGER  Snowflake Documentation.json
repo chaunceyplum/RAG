@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/as_integer",
+    "title": "AS_INTEGER | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Cast)",
+        "Casts a VARIANT value to an INTEGER. The function does\nnot cast non-integer values.",
+        "The INTEGER data type is synonymous with the NUMBER data type, except that precision\nand scale can\u2019t be specified for INTEGER values.",
+        "AS_<object_type>",
+        "AS_DECIMAL , AS_NUMBER , AS_DOUBLE , AS_REAL",
+        "An expression that evaluates to a value of type VARIANT.",
+        "The function returns a value of type INTEGER or NULL:",
+        "If the type of the value in the variant_expr argument is INTEGER, the function returns a value of type INTEGER.",
+        "If the type of the value in the variant_expr argument doesn\u2019t match the type of the output\nvalue, the function returns NULL.",
+        "If the variant_expr argument is NULL, the function returns NULL.",
+        "Create a table and load data into it:",
+        "Use the AS_INTEGER function in a query to cast a VARIANT value to an INTEGER value:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

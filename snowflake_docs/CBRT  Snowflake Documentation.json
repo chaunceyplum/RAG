@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/cbrt",
+    "title": "CBRT | Snowflake Documentation",
+    "paragraphs": [
+        "Numeric functions (Exponent and Root)",
+        "Returns the cubic root of a numeric expression.",
+        "Always returns a floating point number, even if the input expression is of\ntype integer.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/compress",
+    "title": "COMPRESS | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Compression/Decompression)",
+        "Compresses the input string or binary value with a compression method.",
+        "DECOMPRESS_BINARY , DECOMPRESS_STRING",
+        "Required:",
+        "A BINARY or string value (or expression) to be compressed.",
+        "A string with compression method and optional compression level. Supported\nmethods are:",
+        "SNAPPY.",
+        "ZLIB.",
+        "ZSTD.",
+        "BZ2.",
+        "The compression level is specified in parentheses, for example:\nzlib(1). The compression level is a non-negative integer. 0 means\ndefault level (same as omitting the compression level). The compression\nlevel is ignored if the method doesn\u2019t support compression levels.",
+        "A BINARY with compressed data.",
+        "If the compression method is unknown or invalid, the query fails.",
+        "The compression method name (e.g. ZLIB) is case-insensitive.",
+        "Not all inputs are compressible. For very short or difficult-to-compress\ninput values, the output value might be the same length as, or even slightly\nlonger than, the input value.",
+        "The example below shows how to use the COMPRESS function with the\nSNAPPY compression method.",
+        "The output of the function is BINARY, but SNOWSQL displays the output as a\nstring of hexadecimal characters for readability.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

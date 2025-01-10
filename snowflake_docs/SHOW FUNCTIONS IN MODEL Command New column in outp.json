@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_06/bcr-1678",
+    "title": "SHOW FUNCTIONS IN MODEL Command: New column in output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, the output of the\nSHOW FUNCTIONS IN MODEL command includes the following new column:",
+        "Column Name",
+        "Description",
+        "is_table_function",
+        "Whether the function is a table function, a function that returns\ntabular data rather than a single value. Possible values are:",
+        "TRUE: The function is a table function (UDTF)",
+        "FALSE: The function is a regular function (UDF)",
+        "Ref: 1678",
+        "Was this page helpful?"
+    ]
+}

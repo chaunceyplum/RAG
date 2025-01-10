@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/alter-notification-integration-queue-inbound-azure",
+    "title": "ALTER NOTIFICATION INTEGRATION (inbound from an Azure Event Grid topic) | Snowflake Documentation",
+    "paragraphs": [
+        "Modifies the properties for an existing notification integration for receiving messages from an Azure Event Grid topic.",
+        "CREATE NOTIFICATION INTEGRATION (inbound from an Azure Event Grid topic) , DESCRIBE INTEGRATION , DROP INTEGRATION , SHOW INTEGRATIONS",
+        "Specifies the identifier for the integration to alter.",
+        "If the identifier contains spaces or special characters, the entire string must be enclosed in double quotes.\nIdentifiers enclosed in double quotes are also case-sensitive.",
+        "For more information, see Identifier requirements.",
+        "Specifies one or more properties/parameters to set for the integration (separated by blank spaces, commas, or new lines):",
+        "Specifies whether to initiate operation of the integration or suspend it.",
+        "TRUE enables the integration.",
+        "FALSE disables the integration for maintenance. Any integration between Snowflake and a third-party service fails to\nwork.",
+        "Specifies the tag name and the tag string value.",
+        "The tag value is always a string, and the maximum number of characters for the tag value is 256.",
+        "For information about specifying tags in a statement, see Tag quotas for objects and columns.",
+        "String (literal) that specifies a comment for the integration.",
+        "Default: No value",
+        "Specifies one or more properties/parameters to unset for the integration, which resets them back to their defaults:",
+        "TAG tag_name [ , tag_name ... ]",
+        "COMMENT",
+        "Regarding metadata:",
+        "Attention",
+        "Customers should ensure that no personal data (other than for a User object), sensitive data, export-controlled data, or other regulated data is entered as metadata when using the Snowflake service. For more information, see Metadata fields in Snowflake.",
+        "Disabling or dropping an integration might not take effect immediately because the integration might be cached. To expedite the\nremoval process, remove the integration privilege from the cloud provider.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

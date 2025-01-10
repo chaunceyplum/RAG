@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/unstructured-data-sharing",
+    "title": "Sharing unstructured data with a secure view | Snowflake Documentation",
+    "paragraphs": [
+        "This topic briefly covers how to share unstructured data files by using a secure view and Secure Data Sharing.\nWith Secure Data Sharing, data providers can share selected objects in a database from one Snowflake account\nwith data consumers in another Snowflake account.",
+        "For more information and additional examples, see Create and configure shares.",
+        "First, use the CREATE SECURE VIEW command to create a secure view from unstructured data on a stage.\nA view allows the result of a query to be accessed like a table, and a secure view is specifically designated for data privacy. For more information, see Overview of Views.",
+        "You can allow data consumers to retrieve either scoped or pre-signed URLs from the secure view.\nScoped URLs provide better security, while pre-signed URLs can be accessed without authorization or authentication.\nTo choose the correct URL for your use case, see Types of URLs available to access files.",
+        "Note",
+        "Snowflake does not create scoped or pre-signed URLs until a user in a consumer account queries a secure view.\nThis create-on-demand behavior helps you manage the lifetime of pre-signed URLs. To minimize the risk of leaking pre-signed URLs,\nyou can also set a short time interval for the EXPIRATION_TIME parameter of the GET_PRESIGNED_URL function.",
+        "The following examples create secure views that allow data consumers to query the scoped or pre-signed URLs for a specific set of staged files.\nBoth views query the RELATIVE_PATH column in a directory table to retrieve the scoped or pre-signed URL.",
+        "This example calls the BUILD_SCOPED_FILE_URL function to create a secure view with the scoped URLs for a set of staged files.\nThe example passes the RELATIVE_PATH column in a directory table on a stage named mystage to the BUILD_SCOPED_FILE_URL function:",
+        "You can also create a secure view from a subset of files on a stage so that you do not have to share the entire stage.\nThe following example creates a secure view of images on a stage where the client_name field is equal to abc:",
+        "This example calls the GET_PRESIGNED_URL function to retrieve the pre-signed URLs for a set of staged files.\nThe example specifies 60 seconds for the EXPIRATION_TIME parameter so that the pre-signed URLs will only be accessible for one minute.",
+        "Next, create an empty share, and then grant access privileges for your secure view to the share.\nDoing so adds the secure view object to the share.",
+        "The following example creates a share with the CREATE SHARE command\nand then uses the GRANT <privilege> \u2026 TO SHARE command to grant the SELECT privilege for a secure view to the share.",
+        "Finally, you must provide access for consumer accounts to your share by adding the accounts to your share.",
+        "The following example uses the ALTER SHARE command to add an account named consumer_account_1 to the share named my_share.",
+        "After you complete this step, the consumer_account_1 account can see the share and access the files in the secure view.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

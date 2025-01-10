@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1282",
+    "title": "METERING_HISTORY view (Account Usage): New column | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the current Snowflake release, the ACCOUNT_USAGE.METERING_HISTORY view includes the following new column:",
+        "Column",
+        "Data type",
+        "Description",
+        "BUDGET_ID",
+        "TEXT",
+        "Reserved for future use.",
+        "Ref: 1282",
+        "Was this page helpful?"
+    ]
+}

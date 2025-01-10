@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-04-17",
+    "title": "April 17, 2024 \u2014 Snowpark Container Services Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "Snowpark Container Services now provides metrics about nodes in the compute pool on which Snowflake runs services, as well as metrics about the services themselves running on the compute pool. For more information, see\nSnowpark Container Services: Monitoring Services.",
+        "Was this page helpful?"
+    ]
+}

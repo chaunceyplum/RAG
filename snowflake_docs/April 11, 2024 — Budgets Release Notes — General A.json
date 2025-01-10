@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-04-11-budgets",
+    "title": "April 11, 2024 \u2014 Budgets Release Notes \u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the general availability of Budgets which enables account-level monitoring and\nnotification of Snowflake credit usage for a group of specific Snowflake objects. You can define a monthly spending limit on the\ncompute costs for supported objects in your account. In addition to your account budget,\nyou can create custom budgets to monitor credit usage for a specified group of objects. Budgets sends you a notification when\nyour credit usage is on track to exceed your monthly limit.",
+        "For more information, see Monitor credit usage with budgets.",
+        "Was this page helpful?"
+    ]
+}

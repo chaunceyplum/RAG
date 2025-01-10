@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-application",
+    "title": "DROP APPLICATION | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "The Snowflake Native App Framework is generally available on supported cloud platforms. For additional information, see\nSupport for private connectivity, VPS, and government regions.",
+        "Removes an application from the system in the Native Apps Framework.",
+        "ALTER APPLICATION, CREATE APPLICATION, CREATE APPLICATION,\nSHOW APPLICATIONS",
+        "Specifies the identifier for the application object to drop. If the identifier contains spaces,\nspecial characters, or mixed-case characters, the entire string must be enclosed in double\nquotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Drops the application object and all objects owned by the app, including tables with primary or unique\nkeys that are referenced by foreign keys in other tables.",
+        "If CASCADE is not specified, this command returns an error if the app owns\nobjects outside of itself.",
+        "If CASCADE is specified all objects owned by the app are dropped, even if those\nobjects contain other objects owned by the consumer. For example, if the consumer transfers\nownership of a schema or table to an account role, but leaves the parent database owned\nby the app, running this command with CASCADE also drops those objects.",
+        "To retain objects owned by the application, use the GRANT OWNERSHIP\ncommand to transfer ownership of those objects, then run this command without CASCADE.",
+        "This command can be run by the app owner or a user with the MANAGE GRANTS privilege on the\napp.",
+        "All app roles are dropped when the application object is dropped. Any access granted\nby those roles on objects in the consumer account are lost.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

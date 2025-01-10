@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_setsrid",
+    "title": "ST_SETSRID | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns a GEOMETRY object that has its SRID (spatial reference system identifier) set to the\nspecified value.",
+        "Use this function to change the SRID without affecting the coordinates of the object. If you also need to\nchange the coordinates to match the new SRS (spatial reference system), use\nST_TRANSFORM instead.",
+        "The argument must be an expression of type GEOMETRY.",
+        "The SRID to set in the returned GEOMETRY object.",
+        "The function returns a value of type GEOMETRY.",
+        "The following example creates and returns a GEOMETRY object that uses the SRID 4326:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

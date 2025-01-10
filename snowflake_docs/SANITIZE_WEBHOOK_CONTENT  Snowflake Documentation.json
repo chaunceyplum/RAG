@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/sanitize_webhook_content",
+    "title": "SANITIZE_WEBHOOK_CONTENT | Snowflake Documentation",
+    "paragraphs": [
+        "Notification functions (Message Sanitization)",
+        "Removes placeholders (for example, the SNOWFLAKE_WEBHOOK_SECRET placeholder, which specifies a secret) from the body of a\nnotification message to be sent.",
+        "Placeholders like SNOWFLAKE_WEBHOOK_SECRET are used in notification integrations. When you\ncreate a notification integration, you can use placeholders to indicate where\nyou want the content inserted into the request. For example, you can use the SNOWFLAKE_WEBHOOK_SECRET placeholder to insert the\nsecret into the HTTP headers or body of the request.",
+        "The SYSTEM$SEND_SNOWFLAKE_NOTIFICATION stored procedure replaces these placeholders in\nthe integration parameters with actual values. The stored procedure also replaces the placeholders if specified directly in the\nmessage string passed to the function. If the placeholder is for a secret, this might unintentionally make the secret available\nto others. For example, if this message is sent to a Slack webhook, the message containing the secret might be posted to a Slack\nchannel.",
+        "To avoid this situation, pass the message to SANITIZE_WEBHOOK_CONTENT to remove any placeholders from the message before passing\nthe message to SYSTEM$SEND_SNOWFLAKE_NOTIFICATION.",
+        "Sending webhook notifications",
+        "A VARCHAR value containing the message to sanitize.",
+        "Returns a VARCHAR value with placeholders replaced with the string REDACTED.",
+        "See Sending a notification to a webhook.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

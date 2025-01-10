@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_pointn",
+    "title": "ST_POINTN | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns a Point at a specified index in a LineString.",
+        "ST_ENDPOINT , ST_STARTPOINT",
+        "The argument must be an expression of type GEOGRAPHY or GEOMETRY that represents a LineString.",
+        "The index of the Point to return. The index must be an integer.",
+        "A negative index is interpreted as the offset from the end of the LineString. For example, -1 is interpreted as the last\nPoint in the LineString, -2 is interpreted as the second to the last Point, etc.",
+        "The function returns a value of type GEOGRAPHY or GEOMETRY that contains the Point at the specified index of the LineString.",
+        "If geography_or_geometry_expression is not a LineString, the function reports an error.",
+        "If index is out of bounds (e.g. exceeds the number of Points in the LineString), the function reports an error.",
+        "The following query returns the second Point in a LineString:",
+        "The following query uses a negative index to return the second Point from the end of a LineString:",
+        "The following query returns the second Point in a LineString:",
+        "The following query uses a negative index to return the second Point from the end of a LineString:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

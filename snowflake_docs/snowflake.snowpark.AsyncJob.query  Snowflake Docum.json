@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.AsyncJob.query",
+    "title": "snowflake.snowpark.AsyncJob.query | Snowflake Documentation",
+    "paragraphs": [
+        "The SQL text of of the executed query. Returns None if it cannot be retrieved from Snowflake.",
+        "Was this page helpful?"
+    ]
+}

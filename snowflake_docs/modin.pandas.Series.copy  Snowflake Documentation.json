@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.copy",
+    "title": "modin.pandas.Series.copy | Snowflake Documentation",
+    "paragraphs": [
+        "Make a copy of this object\u2019s indices and data.",
+        "When deep=True (default), a new object will be created with a\ncopy of the calling object\u2019s data and indices. Modifications to\nthe data or indices of the copy will not be reflected in the\noriginal object (see examples below). In Snowpark pandas API this will not copy the\nunderlying table/data, but we create a logical copy of data and indices to\nprovide same sematics as native pandas.",
+        "When deep=False, a new object will be created without copying the calling\nobject\u2019s data or index (only references to the data and index are copied).\nAny changes to the data of the original will be reflected in the shallow copy\n(and vice versa).",
+        "deep (bool, default True) \u2013 Make a deep copy, including a locial copy of the data and the indices.\nWith deep=False neither the indices nor the data are copied.",
+        "copy \u2013 Object type matches caller.",
+        "Snowpark pandas Series or Snowpark pandas DataFrame",
+        "Examples",
+        "Shallow copy versus default (deep) copy:",
+        "Updates to the data shared by shallow copy and original is reflected\nin both; deep copy remains unchanged.",
+        "Was this page helpful?"
+    ]
+}

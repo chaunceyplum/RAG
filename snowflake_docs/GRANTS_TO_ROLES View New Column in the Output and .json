@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1240",
+    "title": "GRANTS_TO_ROLES View: New Column in the Output and New Values for Existing Columns | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The Account Usage GRANTS_TO_ROLES view in the shared SNOWFLAKE database behaves as follows:",
+        "The output from a query on the GRANTS_TO_ROLES view does not include the OBJECT_INSTANCE column.",
+        "Additionally, the following columns do not support the listed values:",
+        "The GRANTED_ON column does not support INSTANCE_ROLE as a possible value.",
+        "The TABLE_CATALOG column does not support the database that stores the instance of a class.",
+        "The TABLE_SCHEMA column does not support the schema that stores the instance of the class.",
+        "The output from a query on the GRANTS_TO_ROLES view includes the OBJECT_INSTANCE column as the last ordinal column in the output.",
+        "Column",
+        "Data type",
+        "Description",
+        "OBJECT_INSTANCE",
+        "STRING",
+        "The fully-qualified name of the object that contains the instance role for a particular class in the format database.schema.class.",
+        "Additionally, the following columns support the listed values:",
+        "The GRANTED_ON column supports INSTANCE_ROLE as a possible value to indicate the role associated with a particular class.",
+        "The TABLE_CATALOG column supports the database that stores the instance of a class.",
+        "The TABLE_SCHEMA column supports the schema that stores the instance of the class.",
+        "For details about classes, instances, and the associated roles, see Snowflake classes.",
+        "Ref: 1240",
+        "Was this page helpful?"
+    ]
+}

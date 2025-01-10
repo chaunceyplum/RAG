@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/use-warehouse",
+    "title": "USE WAREHOUSE | Snowflake Documentation",
+    "paragraphs": [
+        "Specifies the active/current warehouse for the session. A warehouse must be specified for a session and the warehouse must be running\nbefore queries and other DML statements can be executed in the session.",
+        "To view the current warehouse for a session, call the CURRENT_WAREHOUSE context function.",
+        "ALTER WAREHOUSE , CREATE WAREHOUSE , SHOW WAREHOUSES",
+        "Specifies the identifier for the warehouse to use for the session. If the identifier contains spaces or special characters, the entire\nstring must be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

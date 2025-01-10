@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.dt.date",
+    "title": "modin.pandas.Series.dt.date | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a series of python datetime.date objects.",
+        "Namely, the date part of Timestamps without time and timezone information.",
+        "Examples",
+        "For Series:",
+        "Was this page helpful?"
+    ]
+}

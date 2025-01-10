@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-02-28",
+    "title": "February 28, 2024 \u2014 ASOF JOIN Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "We are pleased to announce the preview of ASOF JOIN.",
+        "ASOF JOIN is a means of joining tables with time-series data when corresponding timestamp columns contain values that do not match exactly. For each row in the left table, the join finds the closest matching value from the right table.",
+        "ASOF JOIN syntax is specified in the FROM clause of a SELECT statement. Although ASOF JOIN queries can be emulated through the use of complex SQL, other types of joins, and window functions, queries are easier to write (and are often more performant) if you use the ASOF JOIN syntax.",
+        "The key capability of this join method is the analysis of two or more time series to find the closest preceding or following record that matches a given criterion. Therefore, ASOF JOIN is useful for analyzing various data sets, such as financial trading data, weather observations, readings from sensors, and audit trails. In all of these use cases, ASOF JOIN may be used to associate data when records from different sources have timestamps that are not exactly the same.",
+        "For more details, see Analyzing time-series data and ASOF JOIN.",
+        "Note",
+        "The ASOF JOIN feature does not work if the 2024_01 BCR bundle is explicitly disabled by an account administrator. The 2024_01 BCR bundle is enabled by default.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/testing",
+    "title": "Testing | Snowflake Documentation",
+    "paragraphs": [
+        "Testing module for Snowpark.",
+        "assert_dataframe_equal(actual,\u00a0expected[,\u00a0...])",
+        "Asserts that two Snowpark DataFrame objects are equal.",
+        "assertDataFrameEqual(actual,\u00a0expected[,\u00a0...])",
+        "Asserts that two Snowpark DataFrame objects are equal.",
+        "Was this page helpful?"
+    ]
+}

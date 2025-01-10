@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_union",
+    "title": "ST_UNION | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Given two input GEOGRAPHY objects, returns a GEOGRAPHY object that represents the combined set of shapes for both objects (i.e.\nthe union of the two shapes).",
+        "ST_UNION_AGG , ST_INTERSECTION , ST_DIFFERENCE , ST_SYMDIFFERENCE",
+        "A GEOGRAPHY object.",
+        "A GEOGRAPHY object.",
+        "The function returns a value of type GEOGRAPHY.",
+        "If any vertex of one input object is on the boundary of the other input object (excluding the vertices), some points in the\nunion might be represented more than once in the output,",
+        "For example, in the following statement:",
+        "POINT(1 1) is on the boundary of LINESTRING(1 0, 1 2) but is not a vertex of it.",
+        "In this example, ST_UNION is not guaranteed to produce minimal output. The expected output should be the input linestring:",
+        "But the actual output might be:",
+        "where POINT (1,1) is represented twice in the output: once as the point itself and once as a point within the LineString.",
+        "The following example returns a GEOGRAPHY object that represents the union of two input GEOGRAPHY objects:",
+        "This example produces the following output:",
+        "The following images illustrate the differences in the areas that represent the input and output objects:",
+        "Input",
+        "Output",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

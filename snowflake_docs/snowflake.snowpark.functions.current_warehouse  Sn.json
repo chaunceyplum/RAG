@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.current_warehouse",
+    "title": "snowflake.snowpark.functions.current_warehouse | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the name of the warehouse in use for the current session.",
+        "Example",
+        "Was this page helpful?"
+    ]
+}

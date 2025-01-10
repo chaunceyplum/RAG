@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.pandas_udtf",
+    "title": "snowflake.snowpark.functions.pandas_udtf | Snowflake Documentation",
+    "paragraphs": [
+        "Registers a Python class as a vectorized Python UDTF and returns the UDTF.",
+        "The arguments, return value and usage of this function are exactly the same as\nudtf(), but this function can only be used for registering vectorized UDTFs.\nSee examples in UDTFRegistration.",
+        "See also",
+        "udtf()",
+        "UDTFRegistration.register()",
+        "Compared to the default row-by-row processing pattern of a normal UDTF, which sometimes is\ninefficient, vectorized Python UDTFs (user-defined table functions) enable seamless partition-by-partition processing\nby operating on partitions as\npandas DataFrames\nand returning results as\npandas DataFrames\nor lists of pandas arrays\nor pandas Series.",
+        "In addition, vectorized Python UDTFs allow for easy integration with libraries that operate on pandas DataFrames or pandas arrays.",
+        "A vectorized UDTF handler class:\n- defines an end_partition method that takes in a DataFrame argument and returns a pandas.DataFrame or a tuple of pandas.Series or pandas.arrays where each array is a column.\n- does NOT define a process method.\n- optionally defines a handler class with an __init__ method which will be invoked before processing each partition.",
+        "You can use udtf(), register() or\npandas_udtf() to create a vectorized UDTF by providing\nappropriate return and input types. If you would like to use register_from_file() to\ncreate a vectorized UDTF, you need to explicitly mark the handler method as vectorized using\neither the decorator @vectorized(input=pandas.DataFrame) or setting <class>.end_partition._sf_vectorized_input = pandas.DataFrame",
+        "Note: A vectorized UDTF must be called with ~snowflake.snowpark.Window.partition_by to build the partitions.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

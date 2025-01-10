@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-08-08-dcr",
+    "title": "August 08, 2024 \u2014 Snowflake Data Clean Rooms Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the availability of the following new features and enhancements in this update to Snowflake\nData Clean Rooms.",
+        "Providers and consumers can now include external tables and Apache Iceberg\u2122 tables in a clean room.",
+        "This support also allows Snowflake to use external tables when a collaborator uses a third-party connector to access data from external\ncloud storage, which eliminates problems associated with materializing large datasets.",
+        "For more information about including external tables and Iceberg tables in a clean room, see Snowflake Data Clean Rooms: External and Iceberg tables.",
+        "Providers and consumers can now use TransUnion\u2019s latest TruAudience Identity solution when creating or installing a clean room in the web\napp, which allows them to use the TransUnion identity graph to match records based on a collaboration ID.",
+        "For more information, see the following:",
+        "If you are an administrator who is configuring the connector so clean room users can leverage TruAudience Identity, see\nTransUnion TruAudience Identity connector.",
+        "If you are a clean room user who is using the Identity Hub during clean room creation or installation, see\nIdentity Hub: TransUnion TruAudience Identity.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

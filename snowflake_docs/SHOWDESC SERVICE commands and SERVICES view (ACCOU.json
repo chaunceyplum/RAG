@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_08/bcr-1793",
+    "title": "SHOW/DESC SERVICE commands and SERVICES view (ACCOUNT_USAGE and INFORMATION SCHEMA): New column MIN_READY_INSTANCES (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, the output of the SHOW SERVICES and DESCRIBE SERVICE commands, SERVICES view (ACCOUNT_USAGE), and SERVICES view (INFORMATION_SCHEMA) include the following new column:",
+        "Column name",
+        "Description",
+        "MIN_READY_INSTANCES",
+        "Indicates the minimum service instances that must be ready for Snowflake to consider the service is ready to process requests. The default is the same value as the MIN_INSTANCES.",
+        "Ref: 1793",
+        "Was this page helpful?"
+    ]
+}

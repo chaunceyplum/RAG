@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-05-07-llm-functions-ga",
+    "title": "May 07, 2024 \u2014 Cortex LLM Functions \u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the general availability of LLM Functions. LLM Functions gives you instant access\nto industry-leading large language models (LLMs), including\nSnowflake Arctic,\nan open enterprise-grade model developed by Snowflake.",
+        "The available functions include:",
+        "COMPLETE: Given a prompt, returns a response that completes the prompt. This function accepts either a single prompt\nor a conversation with multiple prompts and responses.",
+        "EXTRACT_ANSWER: Given a question and unstructured data, returns the answer to the question if it can be found in the\ndata.",
+        "SENTIMENT: Returns a sentiment score, from -1 to 1, representing the detected positive or negative sentiment of the\ngiven text.",
+        "SUMMARIZE: Summarizes the given text.",
+        "TRANSLATE: Translates the given text from any supported language to any other.",
+        "With this GA release, Cortex LLM Functions will be made available to all accounts. For immediate access, see the\nLLM Functions required privileges section for instructions on adding the CORTEX_USER role\nto your user roles. Over the next two weeks (5/7/2024-5/21/2024), the CORTEX_USER role will be added to the PUBLIC role.",
+        "For more information, see Large Language Model (LLM) Functions (Snowflake Cortex).",
+        "Was this page helpful?"
+    ]
+}

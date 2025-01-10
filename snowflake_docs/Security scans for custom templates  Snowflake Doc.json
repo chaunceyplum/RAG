@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cleanrooms/scan-custom-template",
+    "title": "Security scans for custom templates | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "You can use the developer APIs to create a custom template that can be used to run analyses in a Snowflake Data Clean Room. Snowflake runs a\nsecurity scan on custom templates every 30 minutes to identify Jinja code that is susceptible to a SQL injection attack. These scans\nidentify parameters in a template that might be susceptible to SQL injection.",
+        "The results of security scans are saved to the samooha_by_snowflake_local_db.public.template_scanner_results table in the provider\u2019s\nSnowflake account.",
+        "To view results of security scans:",
+        "Sign in to Snowsight.",
+        "Use the database object explorer in Snowsight or a SQL query to view the security scan results:",
+        "In the left navigation, select Data \u00bb Databases.",
+        "Navigate to SAMOOHA_BY_SNOWFLAKE_LOCAL_DB \u00bb PUBLIC \u00bb Tables \u00bb TEMPLATE_SCANNER_RESULTS.",
+        "Select Data Preview.",
+        "Open Projects \u00bb Worksheets.",
+        "Select + \u00bb SQL Worksheet.",
+        "To list the results of the security scans, paste and run the following\nstatement:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

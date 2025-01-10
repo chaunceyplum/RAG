@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.str.count",
+    "title": "modin.pandas.Series.str.count | Snowflake Documentation",
+    "paragraphs": [
+        "Count occurrences of pattern in each string of the Series/Index.",
+        "This function is used to count the number of times a particular regex pattern is repeated in each of the string elements of the Series.",
+        "pat (str) \u2013 Valid regular expression.",
+        "flags (int, default 0, meaning no flags) \u2013 Flags for the re module.",
+        "**kwargs \u2013 For compatibility with other string methods. Not used.",
+        "Same type as the calling object containing the integer counts.",
+        "Series or Index",
+        "See also",
+        "Standard library module for regular expressions.",
+        "Standard library version, without regular expression support.",
+        "Notes",
+        "Some characters need to be escaped when passing in pat. eg. \u2018$\u2019 has a special meaning in regex and must be escaped when finding this literal character.",
+        "Examples",
+        "Escape \u2018$\u2019 to find the literal dollar sign.",
+        "This is also available on Index",
+        "Was this page helpful?"
+    ]
+}

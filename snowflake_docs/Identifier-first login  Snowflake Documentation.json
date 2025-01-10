@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/identifier-first-login",
+    "title": "Identifier-first login | Snowflake Documentation",
+    "paragraphs": [
+        "Identifier-first login allows Snowflake to identify a user before presenting authentication options. In this flow, Snowflake prompts the\nuser for their email address or username only, then displays authentication options based on the identity of the user.",
+        "An identifier-first login reduces confusion and login issues by only showing users\u2019 valid authentication options. For example, identifier-first\nlogin can do the following:",
+        "In an environment that uses multiple identity providers, it\ncan restrict single sign-options to include only those identity providers that are associated with the user.",
+        "When combined with an authentication policy, it can hide the password option for users who\nneed to be using an identity provider to authenticate.",
+        "For examples of how authentication policies and the identifier-first login can be combined to customize the login experience for users, see\nCombining identifier-first login with authentication policies.",
+        "A user with the ACCOUNTADMIN role can use the ENABLE_IDENTIFIER_FIRST_LOGIN parameter to enable the identifier-first login\nflow for an account. For example:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

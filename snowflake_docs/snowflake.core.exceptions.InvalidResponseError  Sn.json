@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.exceptions.InvalidResponseError",
+    "title": "snowflake.core.exceptions.InvalidResponseError | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: InvalidActionError",
+        "Raised when the api response is invalid.",
+        "Was this page helpful?"
+    ]
+}

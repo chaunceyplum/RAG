@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/8_31",
+    "title": "August 19-21, 2024 \u2014 8.31 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "The release has completed.",
+        "For differences between the in-advance and final versions of these release notes, see Release notes change log.",
+        "With this release, we are pleased to announce the public preview of the system function SYSTEM$SEND_NOTIFICATIONS_TO_CATALOG.\nThis function sends a notification to Snowflake Open Catalog, and if the send fails it returns an error message explaining why.\nThis error message is helpful for diagnosing why a Snowflake-managed Apache Iceberg\u2122 table isn\u2019t syncing to a Open Catalog.",
+        "With this release, we are pleased to announce the general availability of support for time travel queries on Snowflake-managed\nApache Iceberg\u2122 tables when you use a third-party compute engine like Apache Spark.",
+        "For more information, see Time travel for Iceberg tables.",
+        "Announcement",
+        "Update",
+        "Date",
+        "Release notes",
+        "Initial publication (preview)",
+        "16-Aug-24",
+        "Iceberg tables: Support for time travel queries using third-party engines",
+        "Added to Data lake updates section",
+        "23-Aug-24",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrameAnalyticsFunctions.moving_agg",
+    "title": "snowflake.snowpark.DataFrameAnalyticsFunctions.moving_agg | Snowflake Documentation",
+    "paragraphs": [
+        "Applies moving aggregations to the specified columns of the DataFrame using defined window sizes,\nand grouping and ordering criteria.",
+        "aggs \u2013 A dictionary where keys are column names and values are lists of the desired aggregation functions.\nSupported aggregation are listed here https://docs.snowflake.com/en/sql-reference/functions-analytic#list-of-functions-that-support-windows.",
+        "window_sizes \u2013 A list of positive integers, each representing the size of the window for which to\ncalculate the moving aggregate.",
+        "order_by \u2013 A list of column names that specify the order in which rows are processed.",
+        "group_by \u2013 A list of column names on which the DataFrame is partitioned for separate window calculations.",
+        "col_formatter \u2013 An optional function for formatting output column names, defaulting to the format \u2018<input_col>_<agg>_<window>\u2019.\nThis function takes three arguments: \u2018input_col\u2019 (str) for the column name, \u2018operation\u2019 (str) for the applied operation,\nand \u2018value\u2019 (int) for the window size, and returns a formatted string for the column name.",
+        "A Snowpark DataFrame with additional columns corresponding to each specified moving aggregation.",
+        "ValueError \u2013 If an unsupported value is specified in arguments.",
+        "TypeError \u2013 If an unsupported type is specified in arguments.",
+        "SnowparkSQLException \u2013 If an unsupported aggregration is specified.",
+        "Example",
+        "Was this page helpful?"
+    ]
+}

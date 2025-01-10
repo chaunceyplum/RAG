@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/charindex",
+    "title": "CHARINDEX | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Matching/Comparison)",
+        "Searches for the first occurrence of the first argument in the second argument and, if successful, returns the position (1-based) of the first argument in the second argument.",
+        "POSITION",
+        "Note that the CHARINDEX function does not support one of the syntax variations that POSITION supports.",
+        "Required:",
+        "A string or binary expression representing the value to look for.",
+        "A string or binary expression representing the value to search.",
+        "Optional:",
+        "A number indicating the position from where to start the search (with 1 representing the start of expr2).",
+        "Default: 1",
+        "If any arguments are NULL, the function returns NULL.",
+        "If the string or binary value is not found, the function returns 0.",
+        "If the specified optional start_pos is beyond the end of the second argument (the string to\nsearch), the function returns 0.",
+        "If the first argument is empty (e.g. an empty string), the function returns 1.",
+        "The data types of the first two arguments should be the same; either both\nshould be strings or both should be binary values.",
+        "This function does not support the following collation specifications:",
+        "pi  (punctuation-insensitive).",
+        "cs-ai (case-sensitive, accent-insensitive).",
+        "Find the first occurrence of \u2018an\u2019 in \u2018banana\u2019:",
+        "Find the first occurrence of \u2018an\u2019 in \u2018banana\u2019 at or after position 3. This search finds the second occurrence of \u2018an\u2019.",
+        "Search for various characters, including unicode characters, in strings:",
+        "Note that because the values below are hexadecimal representations, a single BINARY byte is represented as two hex\ndigits.",
+        "In this example, the returned value is 3 because \u2018EF\u2019 matches the 3rd\nbyte (the first byte is \u2018AB\u2019; the second byte is \u2018CD\u2019, and the third byte\nis \u2018EF\u2019):",
+        "In this example, there is no match. Although the sequence \u2018BC\u2019 appears to be\nin the value being searched, the \u2018B\u2019 is the second nybble of the first\nbyte, and the \u2018C\u2019 is the first nybble of the second byte; no byte actually\ncontains \u2018BC\u2019, so the returned value is 0 (not found).",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

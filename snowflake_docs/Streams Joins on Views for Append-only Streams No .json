@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_01/bcr-920",
+    "title": "Streams: Joins on Views for Append-only Streams No Longer Produce Unexpected Results | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When querying APPEND_ONLY streams on views that use joins, results are now consistent between the left and right side join contents:",
+        "Append-only stream queries over a view that used joins could return results that were inconsistent with the expectations of\nan append-only stream. In addition, they possibly included updates that have happened since the stream offset.",
+        "Append-only stream queries return inserts that have occurred on either join input, joined with the current values of the tables\nat the stream offset.",
+        "Ref: 920",
+        "Was this page helpful?"
+    ]
+}

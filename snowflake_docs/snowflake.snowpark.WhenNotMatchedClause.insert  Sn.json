@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.WhenNotMatchedClause.insert",
+    "title": "snowflake.snowpark.WhenNotMatchedClause.insert | Snowflake Documentation",
+    "paragraphs": [
+        "Defines an insert action for the not-matched clause and\nreturns an updated WhenNotMatchedClause with the new\ninsert action added.",
+        "assignments \u2013 A list of values or a dict that associates\nthe names of columns with the values that should be inserted.\nThe value of assignments can either be a literal value or\na Column object.",
+        "Examples:",
+        "Note",
+        "An exception will be raised if this method is called more than once\non the same WhenNotMatchedClause object.",
+        "Was this page helpful?"
+    ]
+}

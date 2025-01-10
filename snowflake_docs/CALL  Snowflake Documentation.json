@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/call",
+    "title": "CALL | Snowflake Documentation",
+    "paragraphs": [
+        "Calls a stored procedure.",
+        "CREATE PROCEDURE , SHOW PROCEDURES",
+        "Specifies the identifier (procedure_name) for the procedure to call and any input arguments.",
+        "You can either specify the input arguments by name (arg_name => arg) or by position (arg).",
+        "Note the following:",
+        "You must either specify all arguments by name or by position. You cannot specify some of the arguments by name and other\narguments by position.",
+        "When specifying an argument by name, you cannot use double quotes around the argument name.",
+        "If two functions or two procedures have the same name but different argument types, you can use the argument names to specify\nwhich function or procedure to execute, if the argument names are different. Refer to\nOverloading procedures and functions.",
+        "Sets the specified Snowflake Scripting variable to the return value of\nthe stored procedure.",
+        "Procedure names are not necessarily unique within the schema; stored procedures are identified and resolved by their arguments types as well\nas their names (i.e. stored procedures can be overloaded).",
+        "Outside of a Snowflake Scripting block, the value returned by the stored\nprocedure cannot be used, because the call cannot be part of an expression.",
+        "In a Snowflake Scripting block, you can specify INTO :snowflake_scripting_variable to capture the return value from\nthe stored procedure in a Snowflake Scripting variable.",
+        "Stored procedures are not atomic; if one statement in a stored procedure fails, the other statements in the stored\nprocedure are not necessarily rolled back. For information about stored procedures and transactions, see\nTransaction management.",
+        "You can also create and call an anonymous procedure using CALL (with anonymous procedure).",
+        "The following example calls a stored procedure named sv_proc1 and passes in a string literal and number as input arguments.\nThe example specifies the arguments by position:",
+        "You can also specify the arguments by their names:",
+        "The following example demonstrates how to set and pass a session variable as an input\nargument to a stored procedure:",
+        "The following is an example of a Snowflake Scripting block that captures the return value of a stored procedure in a Snowflake\nScripting variable.",
+        "Note: If you are using SnowSQL, the Classic Console, or the\nexecute_stream or execute_string method in Python Connector\ncode, use this example instead (see Using Snowflake Scripting in SnowSQL, the Classic Console, and Python Connector):",
+        "For more extensive examples of creating and calling stored procedures, see Working with stored procedures.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

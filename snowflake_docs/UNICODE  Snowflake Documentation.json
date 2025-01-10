@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/unicode",
+    "title": "UNICODE | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (General)",
+        "Returns the Unicode code point for the first Unicode character in a string. If the string is empty, a value of 0 is returned.",
+        "See also:",
+        "ASCII , CHAR",
+        "The string for which the Unicode code point for the first character in the string is returned.",
+        "This example demonstrates the function behavior for single ASCII and Unicode characters, as well as special cases, such as multi-character strings, empty strings,\nand NULL values. It also demonstrates how the UNICODE and CHAR functions interact:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

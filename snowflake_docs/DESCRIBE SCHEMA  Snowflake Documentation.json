@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-schema",
+    "title": "DESCRIBE SCHEMA | Snowflake Documentation",
+    "paragraphs": [
+        "Describes the schema. For example, lists the tables and views in the schema.",
+        "DESCRIBE can be abbreviated to DESC.",
+        "ALTER SCHEMA , CREATE SCHEMA , DROP SCHEMA , SHOW SCHEMAS , UNDROP SCHEMA",
+        "SCHEMATA view (Information Schema)",
+        "Specifies the identifier of the schema to describe.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "This demonstrates the DESCRIBE SCHEMA command:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

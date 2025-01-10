@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/validate",
+    "title": "VALIDATE | Snowflake Documentation",
+    "paragraphs": [
+        "Table functions",
+        "Validates the files loaded in a past execution of the COPY INTO <table> command and returns all the errors encountered during the load, rather than just the first error.",
+        "Specifies the fully-qualified name of the table that was the target of the load.",
+        "Namespace is the database and/or schema in which the table resides, in the form of database_name.schema_name or schema_name. It is optional if a database and schema\nare currently in use within the user session; otherwise, it is required.",
+        "The ID for the COPY INTO <table> command to be validated:",
+        "The ID can be obtained from the Query ID column in the History  page in the Classic Console. The specified query ID must have been for the specified target table.",
+        "If _last is specified instead of query_id, the function validates the last load executed during the current session, regardless of the specified target table.",
+        "The validation returns no results for COPY statements that specify ON_ERROR = ABORT_STATEMENT (default value).",
+        "Validation fails if:",
+        "SELECT statements are used to transform data during a COPY INTO <table> operation.",
+        "The current user does not have access to table_name.",
+        "The current user is not the user who executed query_id and does not have access control privileges on this user.",
+        "The copy history metadata has expired. For more information, refer to Load metadata.",
+        "If new files have been added to the stage used by query_id since the load was executed, the new files added are ignored during the validation.",
+        "If files have been removed from the stage used by query_id since the load was executed, the files removed are reported as missing.",
+        "Return errors for the last executed COPY command:",
+        "Return errors by specifying a query ID obtained from the Query History page in Snowsight or the History  page in the Classic Console:",
+        "Same query as above, but save the results to a table for future reference:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

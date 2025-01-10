@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference-snowflake-scripting",
+    "title": "Snowflake Scripting reference | Snowflake Documentation",
+    "paragraphs": [
+        "These topics provide reference information for the language elements supported in\nSnowflake Scripting.",
+        "Next Topics:",
+        "BEGIN \u2026 END",
+        "BREAK",
+        "CASE",
+        "CLOSE",
+        "CONTINUE",
+        "DECLARE",
+        "EXCEPTION",
+        "FETCH",
+        "FOR",
+        "IF",
+        "LET",
+        "LOOP",
+        "NULL",
+        "OPEN",
+        "RAISE",
+        "REPEAT",
+        "RETURN",
+        "WHILE",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

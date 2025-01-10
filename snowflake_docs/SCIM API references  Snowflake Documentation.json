@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/scim-api-references",
+    "title": "SCIM API references | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake provides the following SCIM APIs, which allow identity providers to make requests to Snowflake:",
+        "User API: Allows identity providers to do the following actions:",
+        "Check if users exist.",
+        "Get details about users.",
+        "Create and activate users.",
+        "Update user attributes.",
+        "Delete and activate users.",
+        "Group API: Allows identity providers to do the following actions:",
+        "Get details about groups.",
+        "Create groups.",
+        "Update groups.",
+        "Delete groups.",
+        "For additional examples, see the Postman collection.",
+        "Was this page helpful?"
+    ]
+}

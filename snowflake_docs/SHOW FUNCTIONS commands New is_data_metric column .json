@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1248",
+    "title": "SHOW FUNCTIONS commands: New is_data_metric column | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of the SHOW FUNCTIONS command is as follows:",
+        "The output of the command does not include the is_data_metric column.",
+        "The output of the command includes the is_data_metric column. This column is a placeholder for future functionality.",
+        "Ref: 1248",
+        "Was this page helpful?"
+    ]
+}

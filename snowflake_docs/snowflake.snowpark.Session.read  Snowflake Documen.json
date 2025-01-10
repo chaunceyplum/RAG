@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.read",
+    "title": "snowflake.snowpark.Session.read | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a DataFrameReader that you can use to read data from various\nsupported sources (e.g. a file in a stage) as a DataFrame.",
+        "Was this page helpful?"
+    ]
+}

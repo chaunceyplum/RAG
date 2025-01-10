@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.GetResult",
+    "title": "snowflake.snowpark.GetResult | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: NamedTuple",
+        "Represents the results of downloading a file from a stage location to the local file system.",
+        "Methods",
+        "Attributes",
+        "file",
+        "The downloaded file path.",
+        "message",
+        "The detailed message about the download status.",
+        "size",
+        "The size in bytes of the downloaded file.",
+        "status",
+        "Indicates whether the download is successful.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.copy_into_table",
+    "title": "snowflake.snowpark.DataFrame.copy_into_table | Snowflake Documentation",
+    "paragraphs": [
+        "Executes a COPY INTO <table> command to load data from files in a stage location into a specified table.",
+        "It returns the load result described in OUTPUT section of the COPY INTO <table> command.\nThe returned result also depends on the value of validation_mode.",
+        "It\u2019s slightly different from the COPY INTO command in that this method will automatically create a table if the table doesn\u2019t exist and the input files are CSV files whereas the COPY INTO <table> doesn\u2019t.",
+        "To call this method, this DataFrame must be created from a DataFrameReader.",
+        "Example:",
+        "The arguments of this function match the optional parameters of the COPY INTO <table>.",
+        "table_name \u2013 A string or list of strings representing table name.\nIf input is a string, it represents the table name; if input is of type iterable of strings,\nit represents the fully-qualified object identifier (database name, schema name, and table name).",
+        "files \u2013 Specific files to load from the stage location.",
+        "pattern \u2013 The regular expression that is used to match file names of the stage location.",
+        "validation_mode \u2013 A str that instructs the COPY INTO <table> command to validate the data files instead of loading them into the specified table.\nValues can be \u201cRETURN_n_ROWS\u201d, \u201cRETURN_ERRORS\u201d, or \u201cRETURN_ALL_ERRORS\u201d. Refer to the above mentioned COPY INTO <table> command optional parameters for more details.",
+        "target_columns \u2013 Name of the columns in the table where the data should be saved.",
+        "transformations \u2013 A list of column transformations.",
+        "format_type_options \u2013 A dict that contains the formatTypeOptions of the COPY INTO <table> command.",
+        "statement_params \u2013 Dictionary of statement level parameters to be set while executing this action.",
+        "iceberg_config \u2013",
+        "A dictionary that can contain the following iceberg configuration values:",
+        "the Iceberg table stores its metadata files and data in Parquet format",
+        "catalog: specifies either Snowflake or a catalog integration to use for this table",
+        "base_location: the base directory that snowflake can write iceberg metadata and files to",
+        "catalog_sync: optionally sets the catalog integration configured for Polaris Catalog",
+        "storage_serialization_policy: specifies the storage serialization policy for the table",
+        "",
+        "copy_options \u2013 The kwargs that is used to specify the copyOptions of the COPY INTO <table> command.",
+        "Was this page helpful?"
+    ]
+}

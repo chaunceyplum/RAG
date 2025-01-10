@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrameStatFunctions.approx_quantile",
+    "title": "snowflake.snowpark.DataFrameStatFunctions.approx_quantile | Snowflake Documentation",
+    "paragraphs": [
+        "For a specified numeric column and a list of desired quantiles, returns an approximate value for the column at each of the desired quantiles.\nThis function uses the t-Digest algorithm.",
+        "Examples:",
+        "col \u2013 The name of the numeric column.",
+        "percentile \u2013 A list of float values greater than or equal to 0.0 and less than 1.0.",
+        "statement_params \u2013 Dictionary of statement level parameters to be set while executing this action.",
+        "A list of approximate percentile values if col is a single column name, or a matrix\nwith the dimensions (len(col) * len(percentile) containing the\napproximate percentile values if col is a list of column names.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.transform",
+    "title": "modin.pandas.Series.transform | Snowflake Documentation",
+    "paragraphs": [
+        "Call func on self producing a BasePandasDataset with the same axis shape as self.",
+        "Was this page helpful?"
+    ]
+}

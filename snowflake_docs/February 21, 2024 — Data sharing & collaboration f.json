@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-02-21",
+    "title": "February 21, 2024 \u2014 Data sharing & collaboration for accounts in U.S. government regions | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce that data sharing and collaboration with listings is now available for accounts in\nU.S. government regions.",
+        "After accepting the cross-region disclaimer, anyone in your account with the required privileges can do the following:",
+        "Publish free and limited trial listings on the Snowflake Marketplace.",
+        "Share free listings directly with consumers.",
+        "Access and install free and limited trial listings from the Snowflake Marketplace.",
+        "Install free listings shared directly with your account.",
+        "Some limitations apply. For more details, see:",
+        "Prepare to provide listings from accounts in U.S. government regions",
+        "Prepare to access listings from accounts in U.S. government regions",
+        "Limitations for accessing listings from accounts in U.S. government regions",
+        "Was this page helpful?"
+    ]
+}

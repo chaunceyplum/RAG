@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_08/bcr-1777",
+    "title": "Object tagging commands, functions, and views: New column and property (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, commands, functions, and views related to object tagging will change. These changes include\nthe following:",
+        "The output of the TAG_REFERENCES and\nTAG_REFERENCES_ALL_COLUMNS functions in the Snowflake Information Schema\nincludes the following new column at the end:",
+        "Column name",
+        "Data type",
+        "Description",
+        "APPLY_METHOD",
+        "VARCHAR",
+        "Reserved for future use.",
+        "The TAG_REFERENCES view and the TAG_REFERENCES_WITH_LINEAGE view in\nthe ACCOUNT_USAGE schema include the following new column at the end:",
+        "Column name",
+        "Data type",
+        "Description",
+        "APPLY_METHOD",
+        "VARCHAR",
+        "Reserved for future use.",
+        "The output of the SHOW TAGS command contains the following new column at the end:",
+        "Column name",
+        "Description",
+        "PROPAGATE",
+        "Reserved for future use.",
+        "The output of the GET_DDL command can contain a PROPAGATE property when executed to recreate a tag. This\nproperty is reserved for future use.",
+        "Ref: 1777",
+        "Was this page helpful?"
+    ]
+}

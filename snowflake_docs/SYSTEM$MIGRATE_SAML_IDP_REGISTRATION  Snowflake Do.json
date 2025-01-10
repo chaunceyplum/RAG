@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_migrate_saml_idp_registration",
+    "title": "SYSTEM$MIGRATE_SAML_IDP_REGISTRATION | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Migrates an existing SAML identity provider (i.e. IdP) configuration as defined by the account parameter SAML_IDENTITY_PROVIDER to a security integration.",
+        "If the account parameter SAML_IDENTITY_PROVIDER is present, SYSTEM$MIGRATE_SAML_IDP_REGISTRATION creates a new security integration using the data in the SAML_IDENTITY_PROVIDER parameter.",
+        "If the SAML_IDENTITY_PROVIDER account parameter is not present, the function fails. If this occurs, create a security integration where TYPE = SAML2 as shown in CREATE SECURITY INTEGRATION.",
+        "Name of the new SAML2 security integration that will be created by the function.",
+        "Note that the entire name must be enclosed in single quotes.",
+        "Required.",
+        "The EntityID / Issuer of the IdP.",
+        "The entire name must be enclosed in single quotes.",
+        "Required if not specified in the SAML_IDENTITY_PROVIDER parameter as the Issuer attribute.",
+        "Important",
+        "If the SAML_IDENTITY_PROVIDER parameter does not contain a value for Issuer, use your IdP\u2019s metadata to locate the exact\nvalue. Depending on the IdP, you might be able to locate the issuer value through the user interface administrator settings,\na URL your IdP provides, or by downloading the SAML federation metadata XML to a local file.",
+        "As a representative example, the following references detail how to locate the issuer value for Okta and Microsoft Entra ID:",
+        "Okta SAML Settings",
+        "Microsoft Entra ID integration with Snowflake",
+        "The commands below provide an example of how you can migrate an existing IdP configuration:",
+        "Output:",
+        "To view details about your migrated IdP, you can use the DESCRIBE command:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/nullif",
+    "title": "NULLIF | Snowflake Documentation",
+    "paragraphs": [
+        "Conditional expression functions",
+        "Returns NULL if expr1 is equal to expr2, otherwise returns expr1.",
+        "Any general expression of any data type.",
+        "Any general expression that evaluates to the same data type as expr1.",
+        "The data type of the returned value is the data type of expr1.",
+        "The collation specifications of all input arguments must be compatible.",
+        "The collation of the result is the same as the collation of the first input.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

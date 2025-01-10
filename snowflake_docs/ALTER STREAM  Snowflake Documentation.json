@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/alter-stream",
+    "title": "ALTER STREAM | Snowflake Documentation",
+    "paragraphs": [
+        "Modifies the properties, columns, or constraints for an existing stream.",
+        "CREATE STREAM , DROP STREAM , SHOW STREAMS , DESCRIBE STREAM",
+        "Identifier for the stream to alter. If the identifier contains spaces or special characters, the entire string must be enclosed in double\nquotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Specifies the properties to set for the stream:",
+        "Specifies the tag name and the tag string value.",
+        "The tag value is always a string, and the maximum number of characters for the tag value is 256.",
+        "For information about specifying tags in a statement, see Tag quotas for objects and columns.",
+        "Adds a comment or overwrites an existing comment for the stream.",
+        "Specifies one or more properties/parameters to unset for the stream, which resets them back to their defaults:",
+        "TAG tag_key [ , tag_key ... ]",
+        "COMMENT",
+        "Regarding metadata:",
+        "Attention",
+        "Customers should ensure that no personal data (other than for a User object), sensitive data, export-controlled data, or other regulated data is entered as metadata when using the Snowflake service. For more information, see Metadata fields in Snowflake.",
+        "Add a comment for a stream:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

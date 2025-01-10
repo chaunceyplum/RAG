@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-1057",
+    "title": "Table Functions (Except SQL UDTFs): Restrictions With Lateral Table Functions and Outer Lateral Joins | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the current release, the following are no longer be allowed:",
+        "Lateral table functions (other than SQL UDTFs) that are specified with the ON clause.",
+        "Outer lateral joins to table functions (other than SQL UDTFs) that specify the ON clause.",
+        "Note that this restriction also applies to statements that use clauses equivalent to the ON clause (the USING clause and NATURAL JOIN).",
+        "Table functions other than SQL UDTFs include built-in table functions and the UDTFs defined in languages other than SQL.",
+        "You could specify:",
+        "The ON clause (or the USING clause or NATURAL JOIN) for lateral table functions (other than SQL UDTFs).",
+        "For example:",
+        "An outer lateral join to a table function (other than SQL UDTFs), using the ON clause (or the USING clause or NATURAL JOIN).",
+        "For example:",
+        "When you execute the statements above, an error occurs with the following message:",
+        "This restriction does not apply if you are using a comma to specify the join:",
+        "For example:",
+        "This restriction also does not apply if the ON clause (or the USING clause or NATURAL JOIN) is not specified:",
+        "For example:",
+        "This restriction was added because these types of queries can result in inconsistent behavior. These types of queries are not supported.",
+        "Ref: 1057",
+        "Was this page helpful?"
+    ]
+}

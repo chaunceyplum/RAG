@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_01/bcr-891",
+    "title": "TABLES, VIEWS, and EXTERNAL_TABLES Views (Account Usage, Information Schema): New Columns Added | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "New columns for tracking DDL operations have been added to the following Account Usage and Information Schema views:",
+        "ACCOUNT_USAGE:",
+        "TABLES",
+        "VIEWS",
+        "INFORMATION_SCHEMA:",
+        "TABLES and EXTERNAL_TABLES",
+        "VIEWS",
+        "New columns:",
+        "Column Name",
+        "Data Type",
+        "Description",
+        "LAST_DDL",
+        "TIMESTAMP",
+        "Specifies the timestamp of the last DDL operation performed on the table or view.",
+        "LAST_DDL_BY",
+        "TEXT",
+        "Specifies the username of the user who performed the last DDL operation on the table or view.",
+        "Ref: 891",
+        "Was this page helpful?"
+    ]
+}

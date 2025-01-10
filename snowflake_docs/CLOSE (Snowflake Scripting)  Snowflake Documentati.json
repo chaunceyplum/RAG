@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/snowflake-scripting/close",
+    "title": "CLOSE (Snowflake Scripting) | Snowflake Documentation",
+    "paragraphs": [
+        "Closes the specified cursor.",
+        "For more information on cursors, see Working with cursors.",
+        "Note",
+        "This Snowflake Scripting construct is valid only within a\nSnowflake Scripting block.",
+        "DECLARE, OPEN, FETCH",
+        "Where:",
+        "The name of the cursor.",
+        "After a cursor is closed, the cursor\u2019s current row pointer is invalid. Re-opening the cursor causes the cursor to start from\nthe beginning of the new result set.",
+        "For a more complete example of using a cursor, see\nthe introductory cursor example.",
+        "An example using a loop is included in the documentation on FOR loops.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

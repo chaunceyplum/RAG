@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-11-21-logical-repl-clones",
+    "title": "November 21, 2024 \u2014 Logical replication of clones  \u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the general availability of logical replication of clones.",
+        "With logical replication of clones, when the original table and cloned table are\nincluded in the same replication or failover group, the cloned table can be replicated\nlogically to the target account. As a result, logical replication, versus\nphysical replication, reduces egress and replica storage costs.",
+        "For additional details, see Logical replication of clones.",
+        "Was this page helpful?"
+    ]
+}

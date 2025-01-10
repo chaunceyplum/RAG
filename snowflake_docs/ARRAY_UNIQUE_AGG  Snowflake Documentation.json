@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/array_unique_agg",
+    "title": "ARRAY_UNIQUE_AGG | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (Counting Distinct Values) , Window functions (Semi-structured Data Aggregation)",
+        "Returns an ARRAY that contains all of the distinct values from the specified column.",
+        "Using Arrays to Compute Distinct Values for Hierarchical Aggregations",
+        "The column containing the values.",
+        "The function returns an ARRAY containing the distinct values in the specified column. The values in the ARRAY are in no particular\norder, and the order is not deterministic.",
+        "The function ignores NULL values in column. If column contains only NULL values or the table containing\ncolumn is empty, the function returns an empty ARRAY.",
+        "This function can be used as either of the following types of functions:",
+        "aggregate function",
+        "window function.",
+        "When this function is called as a window function, it does not support explicit window frames.",
+        "This function doesn\u2019t support a structured type as an input argument.",
+        "See Using Arrays to Compute Distinct Values for Hierarchical Aggregations.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/commands-class",
+    "title": "Class and instance commands | Snowflake Documentation",
+    "paragraphs": [
+        "Class and instance related commands enable you to view classes and drop an instance of a class.",
+        "All classes support CREATE, DROP, and SHOW commands. For more information about available classes, see\nSQL class reference.",
+        "You can also use SHOW commands to list functions,\nprocedures, and roles\nin a class.",
+        "Currently, Snowflake supports the SHOW CLASSES command.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/set",
+    "title": "SET | Snowflake Documentation",
+    "paragraphs": [
+        "Initializes the value of a session variable to the result of a SQL expression.",
+        "SHOW VARIABLES , UNSET",
+        "Specifies the identifier for the variable to initialize.",
+        "Specifies the SQL expression for the variable.",
+        "You can set multiple variables in the same statement.",
+        "If you specify complex expressions, a running virtual warehouse might be required in the session.",
+        "The number of expressions must match the number of variables to initialize.",
+        "The size of string or binary variables is limited to 256 bytes.",
+        "The identifier (i.e. name) for a SQL variable is limited to 256 characters.",
+        "Variable names such as CURRENT or PUBLIC are reserved for future use by Snowflake and cannot be used.",
+        "These two examples use constants to set variables:",
+        "This example sets more than one variable at a time:",
+        "This example sets the variable to the value of a non-trivial expression that uses a SQL query:",
+        "The following example shows the result when a SET command evaluates all of the expressions on the right-hand side of the assignment operator\nbefore setting the first expression on the left-hand side of the operator. Note that the value of the variable named max is set\nbased on the old value of min, not the new value.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

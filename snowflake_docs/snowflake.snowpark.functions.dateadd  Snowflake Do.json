@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.dateadd",
+    "title": "snowflake.snowpark.functions.dateadd | Snowflake Documentation",
+    "paragraphs": [
+        "Adds the specified value for the specified date or time part to date or time expr.",
+        "Supported date and time parts",
+        "Example:",
+        "part \u2013 The time part to use for the addition",
+        "col1 \u2013 The first timestamp column or addend in the dateadd",
+        "col2 \u2013 The second timestamp column or the addend in the dateadd",
+        "Was this page helpful?"
+    ]
+}

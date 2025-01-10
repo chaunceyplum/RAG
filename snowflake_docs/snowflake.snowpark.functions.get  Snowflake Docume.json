@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.get",
+    "title": "snowflake.snowpark.functions.get | Snowflake Documentation",
+    "paragraphs": [
+        "Extracts a value from an object or array; returns NULL if either of the arguments is NULL.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

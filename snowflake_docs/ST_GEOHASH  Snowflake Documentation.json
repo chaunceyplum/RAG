@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_geohash",
+    "title": "ST_GEOHASH | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns the geohash for a GEOGRAPHY\nor GEOMETRY object. A geohash is a short base32 string that identifies a geodesic\nrectangle containing a location in the world.",
+        "The number of characters in a geohash determines precision. Removing characters\nfrom the end of a geohash results in a geohash that is less precise and that identifies a\nlarger rectangular area.",
+        "ST_GEOHASH returns a geohash that is 20 characters long.\nThe optional precision argument specifies the precision of the returned geohash.\nFor example, passing 5 for precision returns a shorter geohash (5 characters long) that is less precise.",
+        "Note",
+        "For a geospatial object that is not a point, the function might return a geohash of less precision, regardless of the default or\nspecified value for precision.",
+        "In these cases, precision is determined by the bounding box of the geospatial object. ST_GEOHASH first determines the geohashes\nof the lower left and upper right corners of the bounding box and then returns the prefix that is common to these two geohashes.",
+        "ST_GEOGFROMGEOHASH, ST_GEOGPOINTFROMGEOHASH",
+        "Required:",
+        "The argument must be an expression of type GEOGRAPHY.",
+        "The argument must be an expression of type GEOMETRY with the SRID 4326.",
+        "Optional:",
+        "The number of characters to use in the geohash. You can specify a value from 1 to 20.",
+        "By default, precision is 20, which produces a geohash that is 20 characters long.",
+        "Returns the geohash (a value of type STRING) for the specified object.",
+        "If the object is a Polygon and the two points of the bounding box do not share the same geohash prefix, the function might return\nan empty string.",
+        "The following example returns the geohash for a GEOGRAPHY point:",
+        "The following example returns a geohash for the same GEOGRAPHY point with less precision:",
+        "The following example returns the geohash for a GEOMETRY point:",
+        "The following example shows two geohashes that share the same prefix, which indicates that the two GEOGRAPHY points are near to each other.",
+        "The following example returns the geohash for a polygon. The lower left and upper right corners of the bounding box of this polygon\nare the same two GEOGRAPHY points used in the previous examples. As shown in this example, ST_GEOHASH returns the prefix common to the\ngeohashes of the lower left and upper right corners of the bounding box.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

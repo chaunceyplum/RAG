@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.telemetry_enabled",
+    "title": "snowflake.snowpark.Session.telemetry_enabled | Snowflake Documentation",
+    "paragraphs": [
+        "Controls whether or not the Snowpark client sends usage telemetry to Snowflake.\nThis typically includes information like the API calls invoked, libraries used in conjunction with Snowpark,\nand information that will let us better diagnose and fix client side errors.",
+        "The default value is True.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_asewkb",
+    "title": "ST_ASEWKB | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Given a value of type GEOGRAPHY or GEOMETRY, return the\nbinary representation of that value in\nEWKB (extended well-known binary) format.",
+        "ST_ASWKB",
+        "The argument must be an expression of type GEOGRAPHY or GEOMETRY.",
+        "A value of type BINARY.",
+        "For GEOGRAPHY objects, the SRID in the return value is always 4326. See\nthe note on EWKT handling.",
+        "To return the output in WKB format, use ST_ASWKB instead.",
+        "The following example demonstrates the ST_ASEWKB function. For the EWKB output, it is assumed that the BINARY_OUTPUT_FORMAT\nparameter is set to HEX (the default value for the parameter).",
+        "The example below demonstrates how to use the ST_ASEWKB function. The example returns the EWKB representations of two geometries\nthat have different SRIDs.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/ui/2024-07-02",
+    "title": "July 02, 2024 \u2014 Snowsight Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "This document provides an overview of the new features, enhancements, and other important changes introduced in this update to\nSnowsight.",
+        "If you have additional questions, please feel free to contact Snowflake Support.",
+        "With this release, we are pleased to announce the preview of the Snowflake Notebooks external access support.",
+        "By default, Snowflake restricts network traffic requests from external endpoints.\nWith this release how you can set up external network access for your notebook.",
+        "For more information, see Set up external access for Snowflake Notebooks.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

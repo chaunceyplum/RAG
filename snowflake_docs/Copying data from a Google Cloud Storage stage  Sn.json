@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/data-load-gcs-copy",
+    "title": "Copying data from a Google Cloud Storage stage | Snowflake Documentation",
+    "paragraphs": [
+        "Load data from your staged files into the target table.",
+        "Execute COPY INTO <table> to load your data into the target table.",
+        "Note",
+        "Loading data requires a warehouse. If you are using a warehouse that is\nnot configured to auto resume, execute ALTER WAREHOUSE to resume the warehouse. Note\nthat starting the warehouse could take up to five minutes.",
+        "Important",
+        "The list of objects returned for an external stage may include one or more \u201cdirectory blobs\u201d; essentially, paths that end in a forward slash character (/), e.g.:",
+        "These blobs are listed when directories are created in the Google Cloud console rather than using any other tool provided by Google.",
+        "COPY statements that reference a stage can fail when the object list includes directory blobs. To avoid errors, we recommend using file pattern matching to identify the files for inclusion (i.e. the PATTERN clause) when the file list for a stage includes directory blobs. For an example, see Loading Data Using Pattern Matching (in this topic). Alternatively, set ON_ERROR = SKIP_FILE in the COPY statement.",
+        "The following example loads data from files in the named my_gcs_stage stage created in Configuring an integration for Google Cloud Storage. Using pattern matching, the statement only loads files whose names start with the string sales:",
+        "Note that file format options are not specified because a named file format was included in the stage definition.",
+        "The following example loads all files with the data/files path (i.e. prefix) in your Cloud Storage bucket using the named my_csv_format file format created in Preparing to load data. Note that a path can be combined with pattern matching:",
+        "The following ad hoc example loads data from all files in the Cloud Storage bucket. The COPY command\nspecifies file format options instead of referencing a named file format. This example loads CSV files\nwith a pipe (|) field delimiter. The COPY command skips the first line in the data files.",
+        "Note that the storage integration reference is required in ad hoc data loads; that is, when the\nCOPY statement does not reference a stage:",
+        "Before loading your data, you can validate that the data in the uploaded files will load correctly.",
+        "To validate data in an uploaded file, execute COPY INTO <table> in validation mode using\nthe VALIDATION_MODE parameter. The VALIDATION_MODE parameter returns errors that it encounters in the file. You\ncan then modify the data in the file to ensure it loads without error.",
+        "In addition, COPY INTO <table> provides the ON_ERROR copy option to specify an action\nto perform if errors are encountered in a file during loading.",
+        "Snowflake retains historical data for COPY INTO commands executed within the previous 14 days. The metadata can be used to monitor and\nmanage the loading process, including deleting files after upload completes:",
+        "Monitor the status of each COPY INTO <table> command on the History  page of the Classic Console.",
+        "Use the LOAD_HISTORY Information Schema view to retrieve the history of data loaded into tables\nusing the COPY INTO command.",
+        "Preview Feature \u2014 Open",
+        "Available to all accounts.",
+        "Use the COPY FILES command to organize data into a single location\nby copying files from one named stage to another.",
+        "The following example copies all of the files from a source stage (src_stage) to a target stage (trg_stage):",
+        "You can also specify a list of file names to copy, or copy files by using pattern matching.\nFor information, see the COPY FILES examples.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

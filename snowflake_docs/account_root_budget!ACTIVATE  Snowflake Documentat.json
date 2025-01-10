@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/budget/methods/activate",
+    "title": "account_root_budget!ACTIVATE | Snowflake Documentation",
+    "paragraphs": [
+        "Activate the account budget. You must activate the account budget in order\nto use the budgets feature.",
+        "account_root_budget!DEACTIVATE",
+        "Only a user with the ACCOUNTADMIN role or a role granted the following privileges can activate the account budget:",
+        "Application role SNOWFLAKE.BUDGET_ADMIN",
+        "Snowflake database role USAGE_VIEWER",
+        "For more information, see Budgets roles and privileges.",
+        "After the account budget is activated:",
+        "You must set the spending limit in order for the budget to start tracking credit usage.",
+        "You must set up notifications for the budget. If you do not set up notifications\nfor the budget, no notifications will be sent out.",
+        "This method is only available on the account budget. Custom budgets do not require activation.",
+        "Calling this method does not return the object. Because of this, you can\u2019t use method chaining to call another method on the\nreturn value of this method. Instead, call each method in a separate SQL statement.",
+        "Activate the account budget for your account:",
+        "To troubleshoot issues with account budget activation, see You can\u2019t activate the account budget.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

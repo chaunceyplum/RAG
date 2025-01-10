@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.table",
+    "title": "snowflake.snowpark.Session.table | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a Table that points the specified table.",
+        "name \u2013 A string or list of strings that specify the table name or\nfully-qualified object identifier (database name, schema name, and table name).",
+        "_emit_ast \u2013 Whether to emit AST statements.",
+        "Note \u2013 If your table name contains special characters, use double quotes to mark it like this, session.table('\"my table\"').\nFor fully qualified names, you need to use double quotes separately like this, session.table('\"my db\".\"my schema\".\"my.table\"').\nRefer to Identifier Requirements.",
+        "Examples:",
+        "Was this page helpful?"
+    ]
+}

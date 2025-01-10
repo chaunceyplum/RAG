@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/commands-data-governance",
+    "title": "Data Governance commands | Snowflake Documentation",
+    "paragraphs": [
+        "Data Governance commands enable you to manage data governance.",
+        "CREATE MASKING POLICY",
+        "ALTER MASKING POLICY",
+        "DESCRIBE MASKING POLICY",
+        "DROP MASKING POLICY",
+        "SHOW MASKING POLICIES",
+        "CREATE ROW ACCESS POLICY",
+        "ALTER ROW ACCESS POLICY",
+        "DESCRIBE ROW ACCESS POLICY",
+        "DROP ROW ACCESS POLICY",
+        "SHOW ROW ACCESS POLICIES",
+        "CREATE TAG",
+        "ALTER TAG",
+        "DROP TAG",
+        "UNDROP TAG",
+        "SHOW TAGS",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

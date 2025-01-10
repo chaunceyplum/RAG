@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/native-apps/connector-sdk/using/overview",
+    "title": "Implementing connector applications using SDK | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to accounts in all regions in all cloud providers (including government regions). For details, contact your Snowflake representative.",
+        "This section describes what you need to know to implement your own Native Application using the SDK library.",
+        "If you are looking for a good resource to start with, we recommend dedicated tutorial as a first step.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

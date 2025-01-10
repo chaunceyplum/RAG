@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/snowflake.snowpark.modin.plugin.extensions.window_overrides.Rolling.var",
+    "title": "snowflake.snowpark.modin.plugin.extensions.window_overrides.Rolling.var | Snowflake Documentation",
+    "paragraphs": [
+        "Compute the rolling var.",
+        "numeric_only (bool, default False) \u2013 Include only float, int, boolean columns.",
+        "ddof (int, default 1) \u2013 Delta Degrees of Freedom. The divisor used in calculations is N - ddof,\nwhere N represents the number of elements.",
+        "*args (tuple) \u2013 Positional arguments to pass to func.",
+        "engine (str, default None None) \u2013",
+        "'cython' : Runs the operation through C-extensions from cython.",
+        "'numba' : Runs the operation through JIT compiled code from numba.",
+        "None : Defaults to 'cython' or globally setting compute.use_numba",
+        "This parameter is ignored in Snowpark pandas. The execution engine will always be Snowflake.",
+        "",
+        "engine_kwargs (dict, default None None) \u2013",
+        "For 'cython' engine, there are no accepted engine_kwargs",
+        "and parallel dictionary keys. The values must either be True or\nFalse. The default engine_kwargs for the 'numba' engine is\n{'nopython': True, 'nogil': False, 'parallel': False}.",
+        "This parameter is ignored in Snowpark pandas. The execution engine will always be Snowflake.",
+        "",
+        "**kwargs (dict) \u2013 Keyword arguments to be passed into func.",
+        "Computed rolling var of values.",
+        "Series or DataFrame",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

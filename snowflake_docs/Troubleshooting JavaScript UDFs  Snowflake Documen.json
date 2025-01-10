@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/udf/javascript/udf-javascript-troubleshooting",
+    "title": "Troubleshooting JavaScript UDFs | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides information about troubleshooting JavaScript UDFs.",
+        "JavaScript is case sensitive, but SQL forces names to upper case. This can affect UDF input parameter names, for example.\nJavaScript code should reference input parameter names by using all upper case.",
+        "If using a JavaScript UDF in a masking policy, ensure the data type of the column, UDF,\nand masking policy match.",
+        "If you see this error message when running commands in SnowSQL, the cause might be an ampersand (&) inside a\nCREATE FUNCTION command. (The ampersand is the SnowSQL variable substitution character.) For\nexample, executing the following in SnowSQL causes this error:",
+        "The error occurs when the function is created, not when the function is called.",
+        "If you do not intend to use variable substitution in SnowSQL, you can explicitly disable variable substitution by executing the\nfollowing command:",
+        "For more information about variable substitution, see Using variables.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

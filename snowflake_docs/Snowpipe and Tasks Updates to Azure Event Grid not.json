@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_01/bcr-1421",
+    "title": "Snowpipe and Tasks: Updates to Azure Event Grid notifications | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The fields in the Azure Event Grid notifications for Snowpipe and tasks are as follows.",
+        "The subject and eventTypes fields are:",
+        "Subject : snowpipe",
+        "eventType: error-notification",
+        "The subject and eventTypes fields are:",
+        "Subject : Snowflake Queue Notification",
+        "eventType: eventgrid-notification",
+        "Ref: 1421",
+        "Was this page helpful?"
+    ]
+}

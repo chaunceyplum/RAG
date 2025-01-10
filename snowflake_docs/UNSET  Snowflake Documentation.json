@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/unset",
+    "title": "UNSET | Snowflake Documentation",
+    "paragraphs": [
+        "Drops a session variable.",
+        "SHOW VARIABLES , SET",
+        "Specifies the identifier for the variable to drop.",
+        "The command supports dropping multiple variables in the same statement.",
+        "The command does not require a running warehouse to execute.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

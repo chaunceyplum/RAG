@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-analyst/cortex-analyst-search-integration",
+    "title": "Improve literal search to enhance Cortex Analyst responses | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to accounts in most Snowflake regions. See Region Availability for a full list.",
+        "This topic describes ways to improve literal string searches to help Cortex Analyst generate more accurate\nSQL queries. Writing the correct SQL query to answer a question sometimes requires knowing exact literal values to filter on.\nSince those values can\u2019t always be extracted directly from the question, a search of some kind may be needed.",
+        "For example, if a user asks a question such as:",
+        "You might try the following query:",
+        "If you\u2019ve ever gone through this process yourself, you\u2019ll know that this\nisn\u2019t a perfect solution. For example, this query won\u2019t show you any products named \u201cIce Tea\u201d, but it will show you some \u201cspiced tea\u201d.",
+        "Cortex Analyst offers two solutions to help improve literal usage:",
+        "Semantic search over the provided sample values in your semantic model.",
+        "Semantic search using Cortex Search Services.",
+        "This is where integrating with Cortex Search can help. Cortex Search\nis a feature that enables low-latency, high-quality \u201cfuzzy\u201d search over text data. You can create a Cortex Search service to do a semantic\nsearch over the underlying database column to find any literal values needed for Cortex Analyst to use in the SQL query that answers the\nuser\u2019s question.",
+        "For dimensions with relatively low-cardinality (about 1 - 10 distinct values), using a sample value search by specifying enough sample\nvalues to show the structure of the response for the dimension is recommended. This solution requires no\nadditional storage besides the minimal increase to the semantic model size.",
+        "Before Cortex Analyst generates a SQL query for your question, it does a semantic similarity search between your question and the provided\nsample values to identify any appropriate literal values that may be needed to write your query. Note that the semantic similarity search\nmay retrieve more relevant literals than the fuzzy string matching query approach mentioned above.",
+        "Only a fixed-sized set of retrieved sample values will be presented to the LLM as literals that may be needed to write the SQL query.\nThat means adding more sample values does not put you at risk of exceeding the LLM\u2019s context window.",
+        "For dimensions with higher cardinality (more than 10 distinct values) or dimensions whose values change frequently, you can use a\nCortex Search Service to search through the literals. This solution reduces data duplication and keeps your semantic model concise.",
+        "Note",
+        "Cortex Search Services do come with additional storage and compute costs. For details, see Cost considerations.",
+        "In this preview, only a single Cortex Search Service per logical dimension is supported.",
+        "The following steps show how to set up a Cortex Search Service for a logical dimension in your Cortex Analyst semantic model:",
+        "Create Cortex Search Service",
+        "Include the Cortex Search service in your semantic model using the following yaml snippet:",
+        "The following fields are optional under cortex_search_service:",
+        "literal_column: Defaults to the search index.",
+        "database: Defaults to the database of the specified base table.",
+        "schema: Defaults to the schema of the specified base table.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

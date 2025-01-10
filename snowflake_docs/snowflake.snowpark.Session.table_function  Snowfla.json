@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.table_function",
+    "title": "snowflake.snowpark.Session.table_function | Snowflake Documentation",
+    "paragraphs": [
+        "Creates a new DataFrame from the given snowflake SQL table function.",
+        "References: Snowflake SQL functions.",
+        "Query a table function by function name:",
+        "Define a table function variable and query it:",
+        "If you want to call a UDTF right after it\u2019s registered, the returned UserDefinedTableFunction is callable:",
+        "func_name \u2013 The SQL function name.",
+        "func_arguments \u2013 The positional arguments for the SQL function.",
+        "func_named_arguments \u2013 The named arguments for the SQL function, if it accepts named arguments.",
+        "A new DataFrame with data from calling the table function.",
+        "See also",
+        "DataFrame.join_table_function(), which lateral joins an existing DataFrame and a SQL function.",
+        "Generator functions are not supported with Session.table_function().",
+        "Was this page helpful?"
+    ]
+}

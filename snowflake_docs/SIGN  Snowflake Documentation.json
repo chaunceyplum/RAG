@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/sign",
+    "title": "SIGN | Snowflake Documentation",
+    "paragraphs": [
+        "Numeric functions (Rounding and Truncation)",
+        "Returns the sign of its argument:",
+        "-1 if the argument is negative.",
+        "1 if it is positive.",
+        "0 if it is 0.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

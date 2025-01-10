@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/cume_dist",
+    "title": "CUME_DIST | Snowflake Documentation",
+    "paragraphs": [
+        "Window functions (Ranking)",
+        "Finds the cumulative distribution of a value with regard to other values within the same window partition.",
+        "This is the optional expression to use to group rows into partitions.",
+        "This expression specifies the order of the rows within each partition.",
+        "The data type of the returned value is DOUBLE.",
+        "The CUME_DIST function does not support explicit window frames.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

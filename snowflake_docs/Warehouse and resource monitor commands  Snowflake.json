@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/commands-warehouse",
+    "title": "Warehouse and resource monitor commands | Snowflake Documentation",
+    "paragraphs": [
+        "Warehouse and resource monitor commands enable you to manage your warehouses and resource monitors.",
+        "CREATE WAREHOUSE",
+        "ALTER WAREHOUSE",
+        "DESCRIBE WAREHOUSE",
+        "DROP WAREHOUSE",
+        "USE WAREHOUSE",
+        "SHOW WAREHOUSES",
+        "CREATE RESOURCE MONITOR",
+        "ALTER RESOURCE MONITOR",
+        "DROP RESOURCE MONITOR",
+        "SHOW RESOURCE MONITORS",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

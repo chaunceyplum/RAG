@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_08/bcr-1692",
+    "title": "Default value of DEFAULT_SECONDARY_ROLES object property on users changed to (\u2018ALL\u2019) (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Attention",
+        "Attention: This change will only be visible in the SNOWFLAKE.ACCOUNT_USAGE.USERS view in the next behavior change release.",
+        "This behavior change was originally introduced in the 2024_07 bundle. To give users additional time to evaluate the change, this\nbehavior change remains disabled in 2024_08.",
+        "This BCR affects all users. If a new or existing user has their DEFAULT_SECONDARY_ROLES object property unset, or set to NULL, then their\nDEFAULT_SECONDARY_ROLES object property changes to ('ALL').",
+        "If a new or existing user has their DEFAULT_SECONDARY_ROLES object property explicitly set, then their DEFAULT_SECONDARY_ROLES object\nproperty does not change.",
+        "Setting a user\u2019s DEFAULT_SECONDARY_ROLES object property to () specifies that a user does not have secondary roles. If you want to\npreserve the existing behavior of the DEFAULT_SECONDARY_ROLES object property in your account, you can use the following procedure to\nexplicitly set DEFAULT_SECONDARY_ROLES to an empty list:",
+        "For more information, see the\ncommunity article",
+        "The default value of the DEFAULT_SECONDARY_ROLES object property on users is NULL.",
+        "The default value of the DEFAULT_SECONDARY_ROLES object property on users is (\u2018ALL\u2019).",
+        "Ref: 1692",
+        "Was this page helpful?"
+    ]
+}

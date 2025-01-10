@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-1044",
+    "title": "Users and Groups: Changes to Initial Replication | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "If you are using a replication or failover group to replicate USERS and/or ROLES from a source account to a target account, and there are\nexisting users/roles in that account that were created by means other than replication, the initial refresh operation of these object types\nresults in deleting all users and/or roles in the target account.",
+        "If the initial refresh deletes users and/or roles in the target account, it can result in data and metadata loss:",
+        "If USERS are included in the OBJECT_TYPES list for the replication or failover group:",
+        "Worksheets are lost",
+        "Query history is lost",
+        "If USERS are included in the OBJECT_TYPES list, but ROLES is not:",
+        "Privilege grants to users are lost",
+        "If ROLES are included in the OBJECT_TYPES list:",
+        "Privilege grants to share objects are lost",
+        "In a future release, this behavior will change as follows:",
+        "If a replication or failover group includes USERS and/or ROLES in the OBJECT_TYPES list, the initial refresh operation of these object types\nresults in dropped users and/or roles in the target account.",
+        "If a replication or failover group includes USERS and/or ROLES in the OBJECT_TYPES list, the initial refresh operation of these object\ntypes will fail with an error message if:",
+        "There are existing users and/or roles in the target account that match objects with the same name in the source account and",
+        "USERS and/or ROLES have not previously been replicated to the target account",
+        "The error message will prompt the user with two options:",
+        "Force the refresh operation and allow any existing users and/or roles in the target account to be deleted. Users/roles in the source account\nwill be recreated in the target account.",
+        "To force a refresh, you would execute the following statement:",
+        "Link the account objects by name: users and/or roles with the same name in the target account and the source account will be linked. The\nusers/roles in the target account that are linked will not be deleted.",
+        "To link account objects by name, execute the following statement:",
+        "Note",
+        "Any user/role in the target account that does not have a matching object in the source account with the same name is dropped.",
+        "For more information, refer to Apply global IDs to objects created by scripts in target accounts.",
+        "Ref: 1044",
+        "Was this page helpful?"
+    ]
+}

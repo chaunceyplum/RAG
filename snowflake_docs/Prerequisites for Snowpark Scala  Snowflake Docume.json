@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/scala/prerequisites",
+    "title": "Prerequisites for Snowpark Scala | Snowflake Documentation",
+    "paragraphs": [
+        "The Snowpark API is supported with Scala 2.12 (specifically, version 2.12.9 and later 2.12.x versions).",
+        "Note",
+        "Scala 2.13.x (a more recent version of Scala) is not supported.",
+        "If you use Scala 2.13.x, your code may fail to execute with java.lang.NoSuchMethodError and\nillegal cyclic inheritance involving trait Iterable / Map errors.",
+        "For the JVM used with Scala, the Snowpark API supports the following versions of Java:",
+        "11.x",
+        "17.x",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

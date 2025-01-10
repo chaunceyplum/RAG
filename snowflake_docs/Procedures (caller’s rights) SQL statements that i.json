@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1244",
+    "title": "Procedures (caller\u2019s rights): SQL statements that include PUT and GET commands produce a compiler error | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the current Snowflake release, caller\u2019s rights procedures written in JavaScript or Snowflake\nScripting will throw a compiler error if their handler code attempts to execute a PUT or\nGET statement.",
+        "In the JavaScript or Snowflake Scripting handler code of a caller\u2019s rights procedure, attempting to use PUT or GET in a SQL statement\nneither succeeds nor throws an error. In other words, the PUT or GET has no effect even though the procedure continues and appears to\nsucceed.",
+        "In the JavaScript or Snowflake Scripting handler code of a caller\u2019s rights procedure, attempting to use PUT or GET in a SQL statement\nwill throw a compiler error such as the following:",
+        "Ref: 1244",
+        "Was this page helpful?"
+    ]
+}

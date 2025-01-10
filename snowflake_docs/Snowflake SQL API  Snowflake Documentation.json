@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/sql-api/index",
+    "title": "Snowflake SQL API | Snowflake Documentation",
+    "paragraphs": [
+        "The Snowflake SQL API is a REST API  that you can use to access and update data in a Snowflake database. You can use\nthis API to develop custom applications and integrations that:",
+        "Perform queries",
+        "Manage your deployment (e.g. provision users and roles, create tables, etc.)",
+        "The Snowflake SQL API provides operations that you can use to:",
+        "Submit SQL statements for execution.",
+        "Check the status of the execution of a statement.",
+        "Cancel the execution of a statement.",
+        "You can use this API to execute standard queries and most\nDDL and DML statements.\nSee Limitations of the SQL API for the types of statements that are not supported.",
+        "Get an overview of the API.",
+        "Learn about the endpoints that make up the API.",
+        "Use OAuth or Key Pair to authenticate with the Snowflake server.",
+        "Set up and submit requests using an API endpoint.",
+        "Check request status and get results and other data after a request.",
+        "Send multiple SQL statements in a single API request.",
+        "Create a stored procedure by specifying it in the body of a request.",
+        "Execute SQL in a transaction by specifying the start, end, and statements in the transaction.",
+        "Retrieve error information.",
+        "Cancel SQL statement execution.",
+        "Read details about the operations, objects, HTTP headers, and response codes for this API.",
+        "Learn about deprecated functionality.",
+        "Was this page helpful?"
+    ]
+}

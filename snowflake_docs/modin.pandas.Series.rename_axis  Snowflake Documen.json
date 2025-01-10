@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.rename_axis",
+    "title": "modin.pandas.Series.rename_axis | Snowflake Documentation",
+    "paragraphs": [
+        "Set the name of the axis for the index or columns.",
+        "mapper (scalar, list-like, optional) \u2013 Value to set the axis name attribute.",
+        "index (scalar, list-like, dict-like or function, optional) \u2013",
+        "A scalar, list-like, dict-like or functions transformations to apply to that axis\u2019 values.",
+        "Use either mapper and axis to specify the axis to target with mapper, or index.",
+        "",
+        "axis ({0 or 'index', 1 or 'columns'}, default 0) \u2013 The axis to rename. For Series this parameter is unused and defaults to 0.",
+        "copy (bool, default None) \u2013 Also copy underlying data. This parameter is ignored in Snowpark pandas.",
+        "inplace (bool, default False) \u2013 Modifies the object directly, instead of creating a new Series.",
+        "Series, or None if inplace=True.",
+        "Series or None",
+        "Was this page helpful?"
+    ]
+}

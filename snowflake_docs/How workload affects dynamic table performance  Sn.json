@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/dynamic-tables-performance-workload",
+    "title": "How workload affects dynamic table performance | Snowflake Documentation",
+    "paragraphs": [
+        "Optimizing the workload in your pipeline helps reduce cost and improve performance in general. Snowflake\nrecommends starting your optimization by tuning your workload because it\u2019s the most impactful way to\nimprove the performance of your dynamic table refreshes.",
+        "Take a closer look at the queries in your dynamic tables and look for ways to lessen their workload,\nsuch as the following:",
+        "Adding filters to reduce the amount of data being scanned.",
+        "Eliminating duplicates earlier in the pipeline and subsequently avoiding uses of DISTINCT.",
+        "Reducing the use of NULL and ensuring referential integrity in your source data so you can\nreplace outer joins with inner joins.",
+        "Avoiding materializing large columns that are read infrequently.",
+        "Consider the layout of your data in your tables. For good performance, the data your queries access\nshould be close together, known as locality.",
+        "For instance, if you need to efficiently search for rows by a specific column, the table should be\nclustered by that column. Ideally, the locality of your\ntables should align with your queries\u2019 structure, clustering by JOIN,\nGROUP BY, and PARTITION BY keys\nwhen possible. To benefit from clustering, the sequence of clustering keys must share a common prefix\nwith the sequence of partitioning keys.",
+        "Optimizing locality involves tradeoffs. It\u2019s challenging to optimize locality across many\ncolumns simultaneously, so focus on the most impactful ones for the best performance. For more information,\nsee Understanding Snowflake Table Structures.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

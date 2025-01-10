@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-1036",
+    "title": "DATABASE_STORAGE_USAGE_HISTORY View (Organization Usage): New Columns in View | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The  following columns were added as the last columns of the DATABASE_STORAGE_USAGE_HISTORY view in the ORGANIZATION_USAGE\nschema:",
+        "Column Name",
+        "Data Type",
+        "Description",
+        "DATABASE_ID",
+        "NUMBER",
+        "Internal/system-generated identifier for the database.",
+        "DELETED",
+        "TIMESTAMP_LTZ",
+        "Date and time when the database was dropped; NULL for active databases.",
+        "These columns already exist in the DATABASE_STORAGE_USAGE_HISTORY view in the ACCOUNT_USAGE schema.",
+        "Ref: 1036",
+        "Was this page helpful?"
+    ]
+}

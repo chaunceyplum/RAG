@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/native-sdk-for-connectors/native_sdk_example_java_github_connector",
+    "title": "Native SDK for Connectors release notes | Snowflake Documentation",
+    "paragraphs": [
+        "Release notes of the Native SDK Example Java GitHub Connector.",
+        "Adopted changes related to a new Identifiers approach introduced in the Connectors Native SDK library version 2.1.0.",
+        "Implemented OAuth as an authentication mechanism in the Connection Configuration step of the Wizard.\nThe connector no longer requires the user to create an EXTERNAL ACCESS INTEGRATION and SECRET objects with GitHub credentials.",
+        "Added backend internal implementations of resource management procedures handlers and their callbacks:",
+        "Implementations for PUBLIC.CREATE_RESOURCE() callbacks  available in com.snowflake.connectors.example.ingestion.create.",
+        "Implementations for PUBLIC.ENABLE_RESOURCE() procedure and its\u2019 callbacks available in com.snowflake.connectors.example.ingestion.enable.",
+        "Implementations for PUBLIC.DISABLE_RESOURCE() procedure and its\u2019 callbacks available in com.snowflake.connectors.example.ingestion.disable.",
+        "Implementations for PUBLIC.UPDATE_RESOURCE() procedure and its\u2019 callbacks available in com.snowflake.connectors.example.ingestion.update.",
+        "Changes in UI Data sync tab related to resource management:",
+        "Displaying values of resource_id, name and resource_ingestion_definition_id for each created resource in resources list.",
+        "Added functionality of enabling and disabling created resources.",
+        "Correction to setup.sql script which was failing during the application version upgrade/downgrade.",
+        "Initial release.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

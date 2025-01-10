@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.select_expr",
+    "title": "snowflake.snowpark.DataFrame.select_expr | Snowflake Documentation",
+    "paragraphs": [
+        "Projects a set of SQL expressions and returns a new DataFrame.\nThis method is equivalent to select(sql_expr(...)) with select()\nand functions.sql_expr().",
+        "selectExpr() is an alias of select_expr().",
+        "exprs \u2013 The SQL expressions.",
+        "Examples:",
+        "Was this page helpful?"
+    ]
+}

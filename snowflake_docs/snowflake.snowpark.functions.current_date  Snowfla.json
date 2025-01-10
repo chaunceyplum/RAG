@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.current_date",
+    "title": "snowflake.snowpark.functions.current_date | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the current date for the system.",
+        "Example",
+        "Was this page helpful?"
+    ]
+}

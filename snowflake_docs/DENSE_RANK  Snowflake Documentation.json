@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/dense_rank",
+    "title": "DENSE_RANK | Snowflake Documentation",
+    "paragraphs": [
+        "Window function syntax and usage (Ranking)",
+        "Returns the rank of a value within a group of values, without gaps in the ranks.",
+        "The rank value starts at 1 and continues up sequentially.",
+        "If two values are the same, they have the same rank.",
+        "For detailed window_frame syntax, see Window function syntax and usage.",
+        "None.",
+        "The function itself takes no arguments because it returns the rank (relative position) of the current row\nwithin the window, which is ordered by <expr2>. The ordering of the window determines the rank, so there\nis no need to pass an additional parameter to the DENSE_RANK function.",
+        "expr1\nThe column or expression to partition the window by.",
+        "For example, suppose that within each state or province, you want to rank\nfarmers in order by the amount of corn they produced. In this case, you\npartition by state.",
+        "If you want only a single group (e.g. you want to rank all farmers in the U.S.\nregardless of which state they live in), then omit the PARTITION BY clause.",
+        "expr2\nThe column or expression to order (rank) by.",
+        "For example, if you\u2019re ranking farmers to see who produced the most corn\n(within their state), then you would use the bushels_produced column. For details,\nsee Examples (in this topic).",
+        "Tie values result in the same rank value, but unlike RANK, they do not result in gaps in the sequence.",
+        "Create a table and data:",
+        "Show farmers\u2019 corn production in descending order, along with the rank of each\nindividual farmer\u2019s production (highest = 1):",
+        "Within each state, show farmers\u2019 corn production in descending order, along with the rank of each\nindividual farmer\u2019s production (highest = 1):",
+        "The query and output below show how tie values are handled by the RANK and DENSE_RANK functions. Note that for DENSE_RANK,\nthe ranks are 1, 2, 3, 3, 4. Unlike with the output from the RANK function, the rank 4 is not skipped\nbecause there was a tie for rank 3.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

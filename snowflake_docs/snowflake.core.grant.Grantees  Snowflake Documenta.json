@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.grant.Grantees",
+    "title": "snowflake.core.grant.Grantees | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: object",
+        "Util Class with static methods to create various Grantee class instances.",
+        "Examples",
+        "Setting test-user to user and test-role to role:",
+        "Methods",
+        "Was this page helpful?"
+    ]
+}

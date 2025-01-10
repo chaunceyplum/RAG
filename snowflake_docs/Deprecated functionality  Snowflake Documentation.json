@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/sql-api/sql-api-old",
+    "title": "Deprecated functionality | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes functionality of the Snowflake SQL API that was deprecated in Snowflake version 5.40.",
+        "See the Snowflake SQL API for information on the current behavior of the SQL API.",
+        "The current version of the SQL API is enabled by default. To access the deprecated version, use the following endpoints:",
+        "Endpoint",
+        "Description",
+        "/api/statements/",
+        "Use this endpoint to submit SQL statements for execution.",
+        "/api/statements/statementHandle",
+        "Use this endpoint to check the status of the execution of a statement . (statementHandle is a unique identifier for the statement submitted for execution.)",
+        "/api/statements/statementHandle/cancel",
+        "Use this endpoint to cancel the execution of a statement.",
+        "Note",
+        "These endpoints are no longer supported and are provided only for backwards compatibility. They will be disabled in a\nfuture release.",
+        "When using the deprecated SQL API functionality, if you set the pageSize request parameter to paginate the results, Snowflake returns the first page of results in the response. You can use the numPages field in the\nResultSet_resultSetMetaData object in the ResultSet object to determine the total number of pages of results.",
+        "To get the next page of results or other pages of results, use the URLs provided in the Link header in the HTTP response. The Link header specifies the URLs for retrieving the first, next, previous, and last page of the results",
+        "The following functionality is changed or deprecated:",
+        "You can specify the nullable parameter in both GET and POST requests.",
+        "Use the pageSize parameter to specify the number of rows returned by a query. The page size can range from the minimum supported number (10) to the maximum supported number (10000) of rows per page. By default, the number of rows returned varies, depending on the execution of the statement.",
+        "You use the page to identify which page of results to return. The number can range from 0 to the total number of pages minus 1.",
+        "Row numbers are returned by default as part of the data set.",
+        "The deprecated functionality in the SQL API can return a result set page that has a maximum size of approximately 10 MB.",
+        "If the result set page exceeds this size, the endpoint returns an HTTP 200 response with a truncated result set in the body and\nthe code field set to 391908:",
+        "If this occurs, send the request again with the pageSize parameter set to a smaller value that fits within the maximum\nsize of a page.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

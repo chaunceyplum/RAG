@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/un-bundled/bcr-cortex-forecast-anomaly-detection-series-column",
+    "title": "Cortex ML Functions - New column in single-series Forecasting and Anomaly Detection results | Snowflake Documentation",
+    "paragraphs": [
+        "The SERIES column now appears in all Time-Series Forecasting and Anomaly Detection results, instead of just multi-series\nresults. This change was rolled out in phases and completed on May 10, 2024.",
+        "Before the change",
+        "The SERIES column appears only in multi-series Forecasting and Anomaly Detection results. It does not appear in single-series results.",
+        "After the change",
+        "The SERIES column appears in all Forecasting and Anomaly Detection results. In single-series results, this column is NULL in all rows.",
+        "For more information on the affected functions, see:",
+        "Anomaly Detection",
+        "Time-Series Forecasting",
+        "Was this page helpful?"
+    ]
+}

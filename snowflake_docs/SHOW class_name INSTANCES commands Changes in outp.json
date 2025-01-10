@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_07/bcr-1735",
+    "title": "SHOW <class_name> INSTANCES commands: Changes in output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_07 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The SHOW <class_name> INSTANCES command for individual Snowflake classes list the instances\nfor which you have access privileges. For example, the\nSHOW SNOWFLAKE.CORE.BUDGET INSTANCES command lists the budgets in\nyour account that you have access privileges for. For a full list, see Available classes.",
+        "When this behavior change bundle is enabled, the output of the SHOW <class_name> INSTANCES command changes as follows:",
+        "Results are returned in lexicographical order by name.",
+        "Result order is not guaranteed.",
+        "Ref: 1735",
+        "Was this page helpful?"
+    ]
+}

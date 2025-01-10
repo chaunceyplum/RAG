@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Column.desc",
+    "title": "snowflake.snowpark.Column.desc | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a Column expression with values sorted in descending order.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/current_role_type",
+    "title": "CURRENT_ROLE_TYPE | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (Session Object)",
+        "Returns either ROLE or DATABASE_ROLE based on whether the current active role in the session is an account role or a database role,\nrespectively.",
+        "None.",
+        "None.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.iterrows",
+    "title": "modin.pandas.DataFrame.iterrows | Snowflake Documentation",
+    "paragraphs": [
+        "Iterate over DataFrame rows as (index, Series) pairs.",
+        "index (label or tuple of label) \u2013 The index of the row. A tuple for a MultiIndex.",
+        "data (Series) \u2013 The data of the row as a Series.",
+        "See also",
+        "Iterate over DataFrame rows as namedtuples of the values.",
+        "Iterate over (column name, Series) pairs.",
+        "Notes",
+        "Iterating over rows is an antipattern in Snowpark pandas and pandas. Use df.apply() or other aggregation\nmethods when possible instead of iterating over a DataFrame. Iterators and for loops do not scale well.",
+        "Because iterrows returns a Series for each row, it does not preserve dtypes across the rows (dtypes\nare preserved across columns for DataFrames).",
+        "You should never modify something you are iterating over. This will not work. The iterator returns a copy\nof the data and writing to it will have no effect.",
+        "Examples",
+        "Print the first row\u2019s index and the row as a Series.\n>>> index_and_row = next(df.iterrows())\n>>> index_and_row\n(0, int      1.0\nfloat    1.5\nName: 0, dtype: float64)",
+        "Print the first row as a Series.\n>>> row = next(df.iterrows())[1]\n>>> row\nint      1.0\nfloat    1.5\nName: 0, dtype: float64",
+        "Pretty printing every row.\n>>> for row in df.iterrows():\n\u2026     print(row[1])\n\u2026\nint      1.0\nfloat    1.5\nName: 0, dtype: float64\nint      2.0\nfloat    2.5\nName: 1, dtype: float64\nint      3.0\nfloat    7.8\nName: 2, dtype: float64",
+        "Pretty printing the results to distinguish index and Series.\n>>> for row in df.iterrows():\n\u2026     print(f\u201dIndex: {row[0]}\u201d)\n\u2026     print(\u201cSeries:\u201d)\n\u2026     print(row[1])\n\u2026\nIndex: 0\nSeries:\nA    0\nB    2\nC    3\nName: 0, dtype: int64\nIndex: 1\nSeries:\nA    0\nB    4\nC    1\nName: 1, dtype: int64",
+        "Was this page helpful?"
+    ]
+}

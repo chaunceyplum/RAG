@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/constructs/limit",
+    "title": "LIMIT / FETCH | Snowflake Documentation",
+    "paragraphs": [
+        "Query syntax",
+        "Constrains the maximum number of rows returned by a statement or subquery. Both LIMIT (PostgreSQL syntax) and FETCH (ANSI syntax) are supported, and produce the same result.",
+        "TOP <n>",
+        "The number of rows returned. Must be a non-negative integer constant.",
+        "The values NULL, empty string (''), and $$$$ are also accepted and are treated as\n\u201cunlimited\u201d; this is useful primarily for connectors and drivers (such as the JDBC driver) if they\nreceive an incomplete parameter list when dynamically binding parameters to a statement.",
+        "The row number after which the limited/fetched rows are returned. Must be a non-negative integer constant.",
+        "If OFFSET is omitted, the output starts from the first row in the result set.",
+        "The values NULL, empty string ('') and $$$$ are also accepted and are treated as 0\n(i.e. do not skip any rows); this is useful primarily for connectors and drivers (such as the JDBC\ndriver) if they receive an incomplete parameter list when dynamically binding parameters to a statement.",
+        "Optional keyword that does not affect the output. It is used for emphasis to the\nhuman reader.",
+        "An ORDER BY clause is not required; however, without an ORDER BY clause, the results are non-deterministic\nbecause query results are not necessarily in any particular order. To control the results returned, use an ORDER BY clause.",
+        "Top-K pruning can improve the performance of queries that include both LIMIT and ORDER BY clauses. For more\ninformation, see Top-K pruning for improved query performance.",
+        "TOP n and LIMIT count are equivalent.",
+        "Both the LIMIT clause and the SAMPLE clause return a subset of rows from a table. When you use the\nLIMIT clause, Snowflake returns the specified number of rows in the fastest way possible. When you use the SAMPLE\nclause, Snowflake returns rows based on the sampling method specified in the clause.",
+        "The following examples show the effect of LIMIT. For simplicity, these\nqueries omit the ORDER BY clause and assume that the output order is\nalways the same as shown by the first query. Real-world queries should\ninclude ORDER BY.",
+        "The following example demonstrates the use of NULLs to indicate",
+        "No limit to the number of rows.",
+        "Start at row 1 (do not skip any rows)",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

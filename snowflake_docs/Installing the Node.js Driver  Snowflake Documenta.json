@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/node-js/nodejs-driver-install",
+    "title": "Installing the Node.js Driver | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes how to install the Node.js driver using npm, the default package manager for the Node.js JavaScript runtime\nenvironment.",
+        "Node.js must already be installed in the environment where you wish to install the driver.",
+        "You need to be able to run the node and npm commands.",
+        "Depending on your environment, you may need sudo privileges.",
+        "For a list of the operating systems supported by Snowflake clients, see Operating system support.",
+        "The Node.js driver (snowflake-sdk) is available directly from npm.",
+        "To install the driver, open a terminal window and type the following command:",
+        "The command downloads and installs the Snowflake Node.js driver. The driver should now appear in your node_modules directory and\nyou should be able to use the driver using require('snowflake-sdk').",
+        "Was this page helpful?",
+        "On this page",
+        "Related content",
+        "Related info",
+        "Node.js driver for Snowflake (at npm)"
+    ]
+}

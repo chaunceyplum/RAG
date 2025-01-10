@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/greatest",
+    "title": "GREATEST | Snowflake Documentation",
+    "paragraphs": [
+        "Conditional expression functions",
+        "Returns the largest value from a list of expressions. GREATEST supports all data types, including VARIANT.",
+        "GREATEST_IGNORE_NULLS",
+        "The arguments must include at least one expression. All the expressions\nshould be of the same type or compatible types.",
+        "The first argument determines the return type:",
+        "If the first type is numeric, then the return type is \u2018widened\u2019\naccording to the numeric types in the list of all arguments.",
+        "If the first type is not numeric, then all other arguments must be\nconvertible to the first type.",
+        "If any argument is NULL, returns NULL.",
+        "The collation specifications of all input arguments must be compatible.",
+        "The comparisons follow the collation based on the input arguments\u2019 collations and precedences.",
+        "The collation of the result of the function is the highest-precedence collation of the inputs.",
+        "The following examples use the GREATEST function:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

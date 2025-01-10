@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/minhash_combine",
+    "title": "MINHASH_COMBINE | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (Similarity Estimation) , Window function syntax and usage",
+        "Combines input MinHash states into a single MinHash output state. This Minhash state can then be input to the APPROXIMATE_SIMILARITY function to estimate the similarity with other MinHash states.",
+        "This allows use cases in which MINHASH is run over horizontal rowsets of the same table, producing a MinHash state for each rowset. These states can then be combined using MINHASH_COMBINE, producing the same\noutput state as a single run of MINHASH over the entire table.",
+        "For more information about MinHash states, see Estimating Similarity of Two or More Sets.",
+        "MINHASH",
+        "DISTINCT can be included as an argument, but has no effect.",
+        "Input MinHash state must have MinHash arrays of equal length.",
+        "Here is a more extensive example, showing the three related functions\nMINHASH, MINHASH_COMBINE and APPROXIMATE_SIMILARITY. This\nexample creates 3 tables (ta, tb, and tc), two of which (ta and tb) are\nsimilar, and two of which (ta and tc) are completely dissimilar.",
+        "Create and populate tables with values:",
+        "Calculate minhash info for the initial set of data:",
+        "Add more data to one of the tables:",
+        "Demonstrate the MINHASH_COMBINE function:",
+        "This query shows the approximate similarity of the two similar tables\n(ta and tb):",
+        "This query shows the approximate similarity of the two very different tables\n(ta and tc):",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

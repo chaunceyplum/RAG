@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.date_format",
+    "title": "snowflake.snowpark.functions.date_format | Snowflake Documentation",
+    "paragraphs": [
+        "Converts an input expression into the corresponding date in the specified date format.",
+        "Was this page helpful?"
+    ]
+}

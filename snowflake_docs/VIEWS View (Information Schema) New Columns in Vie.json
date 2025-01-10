@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-1127",
+    "title": "VIEWS View (Information Schema): New Columns in View | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Snowflake has added two columns, LAST_DDL and LAST_DDL_BY, to the VIEWS view in the INFORMATION_SCHEMA schema. These\ncolumns record the timestamp of the last DDL operation performed on each view and the username of the user who performed it.",
+        "Column Name",
+        "Data Type",
+        "Description",
+        "LAST_DDL",
+        "TIMESTAMP_LTZ",
+        "Timestamp of the last DDL operation performed on the table or view, including database refreshes for replication (if the refresh changes visible properties for the table/view).",
+        "LAST_DDL_BY",
+        "TEXT",
+        "Username of the user who performed the last DDL operation on the table or view.",
+        "Ref: 1127",
+        "Was this page helpful?"
+    ]
+}

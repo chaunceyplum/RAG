@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/ui/2024-02-14",
+    "title": "February 15, 2024 \u2014 Snowsight Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "This document provides an overview of the new features, enhancements, and other important changes introduced in this update to\nSnowsight.",
+        "If you have additional questions, please feel free to contact Snowflake Support.",
+        "Snowflake has added new Snowsight worksheets that are available when you create a 30-day trial account. These worksheets contain\nsample SQL statements or Python code. You can execute the statements or run the code in these worksheets to learn how to accomplish a\nspecific task.",
+        "The following new tutorials in the documentation walk you through these worksheets:",
+        "Create users and grant roles - Create a user and grant a role to it by using SQL commands.",
+        "Load and query sample data using SQL - Load and query data for a fictitious food truck brand named Tasty Bytes in Snowflake using SQL.",
+        "Load and query sample data using Snowpark Python - Load and query data for a fictitious food truck brand named Tasty Bytes in Snowflake\nusing Snowpark Python.",
+        "Load data from cloud storage into Snowflake using SQL. The tutorial for this worksheet is available in two versions:",
+        "Load data from cloud storage: Amazon S3",
+        "Load data from cloud storage: Microsoft Azure",
+        "The worksheet itself also covers the steps and commands for Google Cloud Storage (GCS).",
+        "Snowflake has increased the maximum file size from 50 MB to 250 MB for the following use cases:",
+        "Load data using Snowsight.",
+        "Upload files onto a named internal stage.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

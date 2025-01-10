@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/to_boolean",
+    "title": "TO_BOOLEAN | Snowflake Documentation",
+    "paragraphs": [
+        "Conversion functions",
+        "Converts the input text or numeric expression to a BOOLEAN value.",
+        "TRY_TO_BOOLEAN",
+        "A string expression or numeric expression that can be evaluated to a BOOLEAN value.",
+        "Returns a BOOLEAN value or NULL.",
+        "Returns TRUE if string_or_numeric_expr evaluates to TRUE.",
+        "Returns FALSE if string_or_numeric_expr evaluates to FALSE.",
+        "If the input is NULL, returns NULL without reporting an error.",
+        "For a string expression:",
+        "'true', 't', 'yes', 'y', 'on', '1' return TRUE.",
+        "'false', 'f', 'no', 'n', 'off', '0' return FALSE.",
+        "All other strings return an error.",
+        "The evaluations of the strings are case-insensitive.",
+        "For a numeric expression:",
+        "0 returns FALSE.",
+        "All non-zero numeric values return TRUE.",
+        "When converting from the FLOAT data type, non-numeric values, such as\nNaN (not a number) and INF (infinity), return an error.",
+        "The following examples use the TO_BOOLEAN function.",
+        "Create a table and insert data:",
+        "Convert a text string to a BOOLEAN value:",
+        "Convert a number to a BOOLEAN value:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

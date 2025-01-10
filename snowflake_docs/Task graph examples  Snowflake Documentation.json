@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/tasks-examples",
+    "title": "Task graph examples | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides practical examples of how to run a sequence of tasks, also known as a task graph.",
+        "In the following example, the root task starts tasks to update three different tables.\nAfter those three tables are updated, another task starts to update an aggregate sales table.\nLast, a finalizer task sends a status report using an external function.",
+        "This example demonstrates how a finalizer task can correct for errors.",
+        "For demonstration purposes, the tasks are designed to fail during their first run.\nThe finalizer tasks corrects the issue and restarts the tasks, which succeed on following runs:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

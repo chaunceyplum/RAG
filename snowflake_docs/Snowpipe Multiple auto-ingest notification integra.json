@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1394",
+    "title": "Snowpipe: Multiple auto-ingest notification integrations with the same URL not allowed for Azure and GCP | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Snowflake does not allow multiple auto-ingest notification integrations with the same URL for Azure and GCP.",
+        "When you create a new pipe using a notification integration with the same queue URL as another notification integration, the pipe creation succeeds without error.",
+        "When you create a new pipe using a notification integration with the same queue URL as another notification integration, the pipe creation fails with an error: \u201cNotification queue already in use with another integration.\u201d",
+        "Ref: 1394",
+        "Was this page helpful?"
+    ]
+}

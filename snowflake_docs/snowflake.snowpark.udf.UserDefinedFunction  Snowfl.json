@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.udf.UserDefinedFunction",
+    "title": "snowflake.snowpark.udf.UserDefinedFunction | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: object",
+        "Encapsulates a user defined lambda or function that is returned by\nudf(), UDFRegistration.register() or\nUDFRegistration.register_from_file(). The constructor of this class is not supposed\nto be called directly.",
+        "Call an instance of UserDefinedFunction to generate\nColumn expressions. The input type can be\na column name as a str, or a Column object.",
+        "See also",
+        "UDFRegistration",
+        "udf()",
+        "Attributes",
+        "func",
+        "The Python function or a tuple containing the Python file path and the function name.",
+        "name",
+        "The UDF name.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/constructs/having",
+    "title": "HAVING | Snowflake Documentation",
+    "paragraphs": [
+        "Query syntax",
+        "Filters rows produced by GROUP BY that do not satisfy a predicate.",
+        "A boolean expression.",
+        "The condition specified by the HAVING clause applies to expressions produced by the GROUP BY.\nTherefore, the same restrictions that apply to GROUP BY expressions also apply to the HAVING\nclause. The predicate can only refer to:",
+        "Constants.",
+        "Expressions that appear in GROUP BY.",
+        "Aggregate functions.",
+        "Expressions in the SELECT list can be referred to by the column alias defined in the list.",
+        "Find the departments that have fewer than 10 employees:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

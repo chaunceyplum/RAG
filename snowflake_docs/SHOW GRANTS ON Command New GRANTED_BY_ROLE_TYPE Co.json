@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-754",
+    "title": "SHOW GRANTS ON Command: New GRANTED_BY_ROLE_TYPE Column in Output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the current release, the output of the SHOW GRANTS ON <object_type> <object_name> command syntax includes a new GRANTED_BY_ROLE_TYPE column.\nThe column indicates whether the grantor role is an account role or database role (ROLE or DATABASE_ROLE, respectively).",
+        "To help limit the impact of this change, the column is the last column in the output.",
+        "Note",
+        "The column is limited to the SHOW GRANTS ON <object_type> <object_name> command syntax. Other syntax variations for the command will\nnot include this column.",
+        "Ref: 754",
+        "Was this page helpful?"
+    ]
+}

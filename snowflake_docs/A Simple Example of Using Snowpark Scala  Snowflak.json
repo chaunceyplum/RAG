@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/scala/example",
+    "title": "A Simple Example of Using Snowpark Scala | Snowflake Documentation",
+    "paragraphs": [
+        "The following example prints the count and names of tables in the current database.\nReplace the <placeholders> with values that you use to connect to Snowflake.",
+        "This prints out the number of tables and the list of tables in the schema:",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

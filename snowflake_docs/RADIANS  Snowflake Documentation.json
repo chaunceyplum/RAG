@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/radians",
+    "title": "RADIANS | Snowflake Documentation",
+    "paragraphs": [
+        "Numeric functions (Trigonometric)",
+        "Converts degrees to radians.",
+        "Show the results of calling the RADIANS function:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

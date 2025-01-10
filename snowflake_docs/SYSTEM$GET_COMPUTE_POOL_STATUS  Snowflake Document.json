@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_get_compute_pool_status",
+    "title": "SYSTEM$GET_COMPUTE_POOL_STATUS | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Feature \u2014 Generally Available",
+        "Available to accounts in AWS and Microsoft Azure commercial regions, with some exceptions. For more information, see Available regions.",
+        "Retrieves status of a compute pool.",
+        "Working with Compute Pools",
+        "Required:",
+        "Compute pool name.",
+        "Returns status information as a JSON object. The JSON fields are:",
+        "status. Compute pool status.",
+        "message. Message relevant to the status, if any. Otherwise, this field is empty.",
+        "The current role must have the MONITOR privilege on the compute pool to get the\nstatus information.",
+        "The message in the response may mention capacity error. It means the instance type you requested is currently not\navailable with the cloud provider. You can either try creating compute pool a few minutes later or choose another instance type.",
+        "The following function retrieves status information for the \u201cmypool\u201d compute pool.",
+        "Example outputs:",
+        "Compute pool is starting up.",
+        "Compute pool is active.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

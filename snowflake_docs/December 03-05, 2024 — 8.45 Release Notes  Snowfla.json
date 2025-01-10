@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/8_45",
+    "title": "December 03-05, 2024 \u2014 8.45 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "The release has completed.\nFor differences between the in-advance and final versions of these release notes, see Release notes change log.",
+        "With this release, Snowflake Scripting (SQL) stored procedures can run queries concurrently as asynchronous child jobs. The query can be any\nvalid SQL statement, including SELECT statements and DML statements, such as INSERT or UPDATE.",
+        "To run a query as an asynchronous child job, add the ASYNC keyword to the query for a RESULTSET.\nWhen this keyword is omitted, the stored procedure runs child jobs sequentially, and each child job waits for the running child job to finish\nbefore it starts.",
+        "Running multiple child jobs concurrently can improve efficiency and reduce overall run time.",
+        "For more information, see Assigning a query to a declared RESULTSET.",
+        "With this release, you can discover how much time or memory was spent executing your stored procedure handler code by using the built-in code\nprofiler. The profiler generates information describing how much time or memory was spent executing each line of Python code.",
+        "For more information, see Profiling Python procedure handler code (for SQL API) and\nProfiling Snowpark Python stored procedure handlers (for Python API).",
+        "With this release, we are pleased to announce general availability of Java 17 in Snowpark. You can now create and run stored procedures and\nUDFs using Java 17. The Snowpark API and JDBC Driver have also been updated to support Java 17.",
+        "For more information, see Snowflake Java Runtime Support.",
+        "With this release, you can define dynamic tables that read from an unlimited number of tables or dynamic tables. Previously, dynamic table\ndefinitions were limited to querying up to 100 tables or dynamic tables.",
+        "Announcement",
+        "Update",
+        "Date",
+        "Release notes",
+        "Initial publication (preview)",
+        "27-Nov-24",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

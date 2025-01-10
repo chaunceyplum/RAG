@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cost-monitoring",
+    "title": "Monitoring cost | Snowflake Documentation",
+    "paragraphs": [
+        "You can monitor credit usage for compute costs, including those incurred by serverless features, using Budgets, and monitor and suspend\nwarehouses using Resource Monitors.",
+        "A budget allows you to set a monthly spending limit and monitor the credit usage of all\nsupported objects and serverless features in your account. In addition to your account budget,\nyou can create custom budgets to monitor credit usage of groups of specified objects and the serverless features used by those objects.\nFor example, you can create a custom budget for each department in your organization. Each budget sends a notification if the\ncredit usage is expected to exceed its spending limit for the month. You can configure the budget to send this notification to a\nlist of email addresses, a queue provided by a cloud service (Amazon SNS, Azure Event Grid, or Google Cloud PubSub), or a webhook\nfor a third-party system (for example, Slack, Microsoft Teams, or PagerDuty).",
+        "For information about budgets, see Monitor credit usage with budgets.",
+        "A resource monitor allows you to monitor credit usage by user-managed virtual warehouses and the cloud services layer of the\nSnowflake architecture. You can set a spending limit that resets on a monthly basis or on a custom schedule. A resource monitor can\nsend an email notification when your credit usage reaches a percentage (threshold) of the spending limit. You can customize up to five\nnotification thresholds. To help avoid unexpected credit usage, you can optionally suspend a warehouse when its credit usage reaches\na threshold.",
+        "For background information about how virtual warehouses and cloud services incur costs, see Understanding compute cost.",
+        "For information about resource monitors, see Working with resource monitors.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

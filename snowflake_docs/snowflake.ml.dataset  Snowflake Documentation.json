@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark-ml/reference/latest/dataset",
+    "title": "snowflake.ml.dataset | Snowflake Documentation",
+    "paragraphs": [
+        "Classes",
+        "Dataset(session,\u00a0database,\u00a0schema,\u00a0name[,\u00a0...])",
+        "Represents a Snowflake Dataset which is organized into versions.",
+        "DatasetReader(ingestor,\u00a0*,\u00a0snowpark_session)",
+        "Snowflake Dataset abstraction which provides application integration connectors",
+        "DatasetVersion(dataset,\u00a0version)",
+        "Represents a version of a Snowflake Dataset",
+        "Functions",
+        "create_from_dataframe(session,\u00a0name,\u00a0...)",
+        "Create a new versioned Dataset from a DataFrame.",
+        "load_dataset(session,\u00a0name,\u00a0version)",
+        "Load a versioned Dataset.",
+        "Was this page helpful?"
+    ]
+}

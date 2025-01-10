@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cleanrooms/cleanroom-cost",
+    "title": "Snowflake Data Clean Rooms operational costs | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "If you need an introduction to how costs are incurred in Snowflake, refer to Understanding overall cost.",
+        "The operational costs associated with using Snowflake Data Clean Rooms can be categorized into costs associated with ongoing operations\nand user-initiated operations.",
+        "Important",
+        "You incur charges for Snowflake Data Clean Room operations in accordance with your contract with Snowflake.",
+        "Ongoing operations are required to support functionality of the data clean room application and features. Here are some examples of ongoing operations required for product functionality:",
+        "Differential Privacy: Enabled on the provider\u2019s account to support enforcement of differential privacy. This operation prevents\nconsumers from being able to increase their daily query budget by altering or resetting their current differential privacy\nbudget usage. In order to provide the highest fidelity for this enforcement, this operation needs to validate the consumer\u2019s true\nremaining daily budget every minute. This operation is set up when a user enables differential privacy in a clean room. You can control\nthis cost by disabling the differential privacy task.",
+        "Template Scans: Snowflake scans custom templates to highlight deviations from best practices in custom template code logic. Clean\nroom providers can then take necessary actions to address these findings by updating or disabling custom templates within their clean\nrooms. This operation is enabled when you install the Snowflake Data Clean Room application.",
+        "Activation: Required to support activation use cases from the clean room to any preferred destination. For clean rooms that support\nactivation, Snowflake monitors the status of incoming shares or API calls to ensure successful processing and near real-time availability\nof data (subject to end destination processing time). This operation is set up when your account is enabled as an activation partner in\nthe Profiles & Features section of the web application.",
+        "Web App Metadata: Snowflake maintains the most up-to-date clean room metadata to ensure that web application users are operating on\nthe most current state of the clean room. This operation is enabled when you install the Snowflake Data Clean Room application.",
+        "Automated Data Stats: Snowflake maintains a daily refresh of your table stats and data overlap stats between your linked tables and\nyour collaborator\u2019s linked tables. This operation is enabled when you install the Snowflake Data Clean Room application.",
+        "User-initiated operations occur during clean room management actions or while executing workloads within a clean room. A workload is the\nprocess of executing any specific use case (analytics or activation) within the clean room through a user-initiated query. The cost of\nexecuting a workload depends on the time required for the workload to complete within the warehouse specified by the user. Here are\nsome examples of user-initiated clean room management operations:",
+        "Data registration: This encompasses stored procedures required to enable objects to be used within a clean room by users.",
+        "Creating and editing a clean room: This encompasses stored procedures required for setting up a clean room environment,\nadding data and template code, and setting respective data policies.",
+        "Installing and editing a clean room: This encompasses stored procedures required for installing a clean room environment,\nadding data, and setting respective data policies.",
+        "Identity Hub: This encompasses any calls to identity providers used by the clean room.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

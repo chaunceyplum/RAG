@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.FileOperation",
+    "title": "snowflake.snowpark.FileOperation | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: object",
+        "Provides methods for working on files in a stage.\nTo access an object of this class, use Session.file.",
+        "Methods",
+        "get(stage_location,\u00a0target_directory,\u00a0*[,\u00a0...])",
+        "Downloads the specified files from a path in a stage to a local directory.",
+        "get_stream(stage_location,\u00a0*[,\u00a0parallel,\u00a0...])",
+        "Downloads the specified files from a path in a stage and expose it through a stream.",
+        "put(local_file_name,\u00a0stage_location,\u00a0*[,\u00a0...])",
+        "Uploads local files to the stage.",
+        "put_stream(input_stream,\u00a0stage_location,\u00a0*)",
+        "Uploads local files to the stage via a file stream.",
+        "Was this page helpful?"
+    ]
+}

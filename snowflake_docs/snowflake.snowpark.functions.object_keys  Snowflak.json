@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.object_keys",
+    "title": "snowflake.snowpark.functions.object_keys | Snowflake Documentation",
+    "paragraphs": [
+        "Returns an array containing the list of keys in the input object.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.rename",
+    "title": "snowflake.snowpark.DataFrame.rename | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a DataFrame with the specified column col_or_mapper renamed as new_column. If col_or_mapper\nis a dictionary, multiple columns will be renamed in the returned DataFrame.",
+        "col_or_mapper \u2013 The old column instance or column name to be renamed, or the dictionary mapping from column instances or columns names to their new names (string)",
+        "new_column \u2013 The new column name (string value), if a single old column is given",
+        "Was this page helpful?"
+    ]
+}

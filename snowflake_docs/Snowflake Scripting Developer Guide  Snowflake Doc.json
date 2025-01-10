@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-scripting/index",
+    "title": "Snowflake Scripting Developer Guide | Snowflake Documentation",
+    "paragraphs": [
+        "Topics in this section explain how to write a stored procedure in SQL by using Snowflake Scripting.\nSnowflake Scripting is an extension to Snowflake SQL that adds support for procedural logic. You can use Snowflake Scripting to\nwrite stored procedures and procedural code outside of a stored procedure. This guide\nexplains how to use Snowflake Scripting.",
+        "Learn the basic structure of Snowflake Scripting code.",
+        "Declare and use variables.",
+        "Return values from stored procedures and an anonymous block.",
+        "Control flow with IF and CASE statements.",
+        "Control flow with FOR, WHILE, REPEAT, and LOOP.",
+        "Iterate through query results with a cursor.",
+        "Iterate over the result set returned by a query.",
+        "Handle errors by handling and raising exceptions.",
+        "Use global variables to determine the effect of data manipulation language (DML) commands.",
+        "Use the global variable SQLID to get the query ID of the last query.",
+        "Explore examples of Snowflake Scripting code for some common use cases.",
+        "Run the Snowflake Scripting examples in SnowSQL, the Classic Console and Python Connector code.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

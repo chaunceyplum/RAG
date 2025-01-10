@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.exceptions.SnowparkDataframeException",
+    "title": "snowflake.snowpark.exceptions.SnowparkDataframeException | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SnowparkClientException",
+        "Exception for dataframe related errors.",
+        "Includes all error codes in range 11XX (where XX is 0-9).",
+        "This exception is specifically raised for error codes: 1104, 1107, 1108, 1109.",
+        "Was this page helpful?"
+    ]
+}

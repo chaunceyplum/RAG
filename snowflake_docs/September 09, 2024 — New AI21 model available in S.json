@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-09-09-jamba-mini-model",
+    "title": "September 09, 2024 \u2014 New AI21 model available in Snowflake Cortex AI | Snowflake Documentation",
+    "paragraphs": [
+        "We\u2019re pleased to announce that AI21\u2019s model, jamba-1.5-mini, is now available for serverless inference in\nSnowflake Cortex AI.",
+        "The AI21 Jamba 1.5 family of models is a state-of-the-art, hybrid SSM-Transformer instruction following foundation models. The jamba-1.5-mini  with a context length of 256K supports use cases such as structured output (JSON), and grounded generation.",
+        "For details, see Snowflake Cortex LLM Functions.",
+        "Was this page helpful?"
+    ]
+}

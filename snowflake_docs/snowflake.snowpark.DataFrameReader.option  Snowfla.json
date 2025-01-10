@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrameReader.option",
+    "title": "snowflake.snowpark.DataFrameReader.option | Snowflake Documentation",
+    "paragraphs": [
+        "Sets the specified option in the DataFrameReader.",
+        "Use this method to configure any\nformat-specific options\nand\ncopy options.\n(Note that although specifying copy options can make error handling more robust during the\nreading process, it may have an effect on performance.)",
+        "key \u2013 Name of the option (e.g. compression, skip_header, etc.).",
+        "value \u2013 Value of the option.",
+        "Was this page helpful?"
+    ]
+}

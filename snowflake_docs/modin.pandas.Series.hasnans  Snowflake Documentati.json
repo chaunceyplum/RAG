@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.hasnans",
+    "title": "modin.pandas.Series.hasnans | Snowflake Documentation",
+    "paragraphs": [
+        "Return True if there are any NaNs.",
+        "Was this page helpful?"
+    ]
+}

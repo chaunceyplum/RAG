@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.table.ForeignKey",
+    "title": "snowflake.core.table.ForeignKey | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: Constraint",
+        "A model object representing the ForeignKey resource.",
+        "Constructs an object of type ForeignKey with the provided properties.",
+        "referenced_table_name (str)",
+        "referenced_column_names (List[str])",
+        "name (str, optional) \u2013 Name of the Constraint",
+        "column_names (List[str], optional)",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of ForeignKey from a dict.",
+        "Create an instance of ForeignKey from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

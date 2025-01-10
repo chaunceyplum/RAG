@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.exceptions.FilePutError",
+    "title": "snowflake.core.exceptions.FilePutError | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: FileOperationError",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.tan",
+    "title": "snowflake.snowpark.functions.tan | Snowflake Documentation",
+    "paragraphs": [
+        "Computes the tangent of its argument; the argument should be expressed in radians.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.strip_null_value",
+    "title": "snowflake.snowpark.functions.strip_null_value | Snowflake Documentation",
+    "paragraphs": [
+        "Converts a JSON \u201cnull\u201d value in the specified column to a SQL NULL value.\nAll other VARIANT values in the column are returned unchanged.",
+        "Was this page helpful?"
+    ]
+}

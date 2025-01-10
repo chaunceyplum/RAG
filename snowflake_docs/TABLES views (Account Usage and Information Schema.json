@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1169",
+    "title": "TABLES views (Account Usage and Information Schema): TABLE_TYPE column value shows correct value for event tables | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the current Snowflake release, in the Account Usage schema TABLES view and\nInformation schema TABLES view, the TABLE_TYPE column value have changed for certain rows.\nWhen the table described in the view row is an event table, the\nTABLE_TYPE column value will be EVENT TABLE.",
+        "When the TABLES view row describes an event table, the row\u2019s TABLE_TYPE column value is null.",
+        "When the TABLES view row describes an event table, the row\u2019s TABLE_TYPE column value is EVENT TABLE.",
+        "Ref: 1169",
+        "Was this page helpful?"
+    ]
+}

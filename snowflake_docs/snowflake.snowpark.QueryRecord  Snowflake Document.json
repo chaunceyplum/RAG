@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.QueryRecord",
+    "title": "snowflake.snowpark.QueryRecord | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: NamedTuple",
+        "Contains the query information returned from the Snowflake database after the query is run.",
+        "Methods",
+        "Attributes",
+        "is_describe",
+        "Alias for field number 2",
+        "query_id",
+        "Alias for field number 0",
+        "sql_text",
+        "Alias for field number 1",
+        "thread_id",
+        "Alias for field number 3",
+        "Was this page helpful?"
+    ]
+}

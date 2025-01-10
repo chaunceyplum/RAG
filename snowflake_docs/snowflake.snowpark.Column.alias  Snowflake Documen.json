@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Column.alias",
+    "title": "snowflake.snowpark.Column.alias | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a new renamed Column. Alias of name().",
+        "Was this page helpful?"
+    ]
+}

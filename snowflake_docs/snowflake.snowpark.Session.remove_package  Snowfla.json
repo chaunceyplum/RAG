@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.remove_package",
+    "title": "snowflake.snowpark.Session.remove_package | Snowflake Documentation",
+    "paragraphs": [
+        "Removes a third-party package from the dependency list of a user-defined function (UDF).",
+        "package \u2013 The package name.",
+        "Examples:",
+        "Was this page helpful?"
+    ]
+}

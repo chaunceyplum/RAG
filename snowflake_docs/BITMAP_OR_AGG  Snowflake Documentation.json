@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/bitmap_or_agg",
+    "title": "BITMAP_OR_AGG | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (Counting Distinct Values)",
+        "Returns a bitmap containing the results of a binary OR operation on the input bitmaps.",
+        "Using Bitmaps to Compute Distinct Values for Hierarchical Aggregations",
+        "A bitmap returned by the BITMAP_CONSTRUCT_AGG or BITMAP_OR_AGG function.",
+        "The function returns a bitmap containing the results of a binary OR operation on the input bitmaps.",
+        "See Using Bitmaps to Compute Distinct Values for Hierarchical Aggregations.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/event-table/event-table-introduction",
+    "title": "Manage accounts | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "The Snowflake REST Event Table API provides the following endpoints to access, update, and perform certain actions on Event Table resources.",
+        "Endpoint",
+        "Description",
+        "GET /api/v2/databases/database/schemas/.schema/event-tables",
+        "Lists available event tables.",
+        "POST /api/v2/databases/database/schemas/.schema/event-tables",
+        "Creates an event table.",
+        "GET /api/v2/databases/database/schemas/.schema/event-tables/name",
+        "Fetches an event table.",
+        "DELETE api/v2/databases/database/schemas/.schema/event-tables/name",
+        "Deletes an event table.",
+        "POST /api/v2/databases/database/schemas/.schema/event-tables/name:rename",
+        "Renames an event table.",
+        "For reference documentation, see Snowflake Event Table API reference.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

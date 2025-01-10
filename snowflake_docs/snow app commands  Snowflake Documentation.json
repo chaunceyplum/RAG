@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/native-apps-commands/overview",
+    "title": "snow app commands | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Snowflake CLI supports the following commands for managing Snowflake Native App apps:",
+        "snow app bundle",
+        "snow app deploy",
+        "snow app events",
+        "snow app open",
+        "snow app run",
+        "snow app teardown",
+        "snow app validate",
+        "snow app version commands",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

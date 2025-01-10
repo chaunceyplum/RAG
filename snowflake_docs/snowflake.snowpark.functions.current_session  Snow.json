@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.current_session",
+    "title": "snowflake.snowpark.functions.current_session | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a unique system identifier for the Snowflake session corresponding to the present connection.\nThis will generally be a system-generated alphanumeric string. It is NOT derived from the user name or user account.",
+        "Example",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/h3_cell_to_boundary",
+    "title": "H3_CELL_TO_BOUNDARY | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns the GEOGRAPHY object representing the boundary of an\nH3 cell.",
+        "An INTEGER that represents the H3 cell ID (index), or a VARCHAR that represents the cell ID in hexadecimal format.",
+        "Returns a GEOGRAPHY object that represents the boundary of the H3 cell with the specified ID.",
+        "The following example returns the GEOGRAPHY object that represents the boundary of the H3 cell containing the Brandenburg Gate.\nThe example specifies the H3 cell ID as an INTEGER value.",
+        "The following example specifies the hexadecimal value of H3 cell ID as a VARCHAR to return the same coordinates as the previous\nexample.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

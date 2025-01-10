@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.pivot",
+    "title": "modin.pandas.DataFrame.pivot | Snowflake Documentation",
+    "paragraphs": [
+        "Return reshaped DataFrame organized by given index / column values.",
+        "Reshape data (produce a \u201cpivot\u201d table) based on column values. Uses unique values from\nspecified index / columns to form axes of the resulting DataFrame. This function does not\nsupport data aggregation, multiple values will result in a MultiIndex in the columns.",
+        "columns (str or object or a list of str) \u2013 Column to use to make new frame\u2019s columns.",
+        "index (str or object or a list of str, optional) \u2013 Column to use to make new frame\u2019s index. If not given, uses existing index.",
+        "values (str, object or a list of the previous, optional) \u2013 Column(s) to use for populating new frame\u2019s values. If not specified, all remaining columns\nwill be used and the result will have hierarchically indexed columns.",
+        "DataFrame",
+        "Notes",
+        "Calls pivot_table with columns, values, index and aggregation \u201cmin\u201d.",
+        "See also",
+        "Generalization of pivot that can handle duplicate values for one index/column pair.",
+        "Pivot based on the index values instead of a column.",
+        "Wide panel to long format. Less flexible but more user-friendly than melt.",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1370",
+    "title": "SHOW commands for objects owned by an application: New column owner_role_type | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of the following SHOW commands is as follows:",
+        "SHOW ALERTS",
+        "SHOW CLASSES",
+        "SHOW DATABASES",
+        "SHOW DYNAMIC TABLES",
+        "SHOW MATERIALIZED VIEWS",
+        "SHOW NETWORK RULES",
+        "SHOW SECRETS",
+        "SHOW STREAMLITS",
+        "SHOW WAREHOUSES",
+        "The output of the command does not include the owner_role_type column.",
+        "The output of the command includes the owner_role_type column.",
+        "Column name",
+        "Description",
+        "owner_role_type",
+        "The type of role that owns the object: either ROLE and DATABASE_ROLE.",
+        "When the object is owned by a native app, the value is APPLICATION.",
+        "Snowflake returns NULL if you delete the object because there is no owner role for a deleted object, nor can a native app own a\ndeleted object.",
+        "Ref: 1274",
+        "Was this page helpful?"
+    ]
+}

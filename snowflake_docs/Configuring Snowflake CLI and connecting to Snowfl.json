@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/connecting/connect",
+    "title": "Configuring Snowflake CLI and connecting to Snowflake | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "This section explains how to configure, test, and manage your Snowflake connections.",
+        "Configuring Snowflake CLI",
+        "Managing Snowflake connections",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

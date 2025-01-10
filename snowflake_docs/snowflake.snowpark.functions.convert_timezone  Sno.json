@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.convert_timezone",
+    "title": "snowflake.snowpark.functions.convert_timezone | Snowflake Documentation",
+    "paragraphs": [
+        "Converts the given source_time to the target timezone.",
+        "For timezone information, refer to the Snowflake SQL convert_timezone notes",
+        "target_timezone: The time zone to which the input timestamp should be converted.=\nsource_time: The timestamp to convert. When it\u2019s a TIMESTAMP_LTZ, use None for source_timezone.\nsource_timezone: The time zone for the source_time. Required for timestamps with no time zone (i.e. TIMESTAMP_NTZ). Use None if the timestamps have a time zone (i.e. TIMESTAMP_LTZ). Default is None.",
+        "The sequence of the 3 params is different from the SQL function, which two overloads:",
+        "CONVERT_TIMEZONE( <source_tz> , <target_tz> , <source_timestamp_ntz> )",
+        "CONVERT_TIMEZONE( <target_tz> , <source_timestamp> )",
+        "The first parameter source_tz is optional. But in Python an optional argument shouldn\u2019t be placed at the first.\nSo source_timezone is after source_time.",
+        "Was this page helpful?"
+    ]
+}

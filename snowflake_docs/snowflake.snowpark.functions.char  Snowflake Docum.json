@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.char",
+    "title": "snowflake.snowpark.functions.char | Snowflake Documentation",
+    "paragraphs": [
+        "Converts a Unicode code point (including 7-bit ASCII) into the character that\nmatches the input Unicode.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

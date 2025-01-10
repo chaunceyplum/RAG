@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Row.index",
+    "title": "snowflake.snowpark.Row.index | Snowflake Documentation",
+    "paragraphs": [
+        "Return first index of value.",
+        "Raises ValueError if the value is not present.",
+        "Was this page helpful?"
+    ]
+}

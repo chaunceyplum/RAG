@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.get_current_user",
+    "title": "snowflake.snowpark.Session.get_current_user | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the name of the user in the connection to Snowflake attached\nto this session.",
+        "Was this page helpful?"
+    ]
+}

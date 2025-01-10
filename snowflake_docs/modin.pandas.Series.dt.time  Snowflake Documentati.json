@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.dt.time",
+    "title": "modin.pandas.Series.dt.time | Snowflake Documentation",
+    "paragraphs": [
+        "Returns numpy array of datetime.time objects.",
+        "The time part of the Timestamps.",
+        "Examples",
+        "For Series:",
+        "For DatetimeIndex:",
+        "Was this page helpful?"
+    ]
+}

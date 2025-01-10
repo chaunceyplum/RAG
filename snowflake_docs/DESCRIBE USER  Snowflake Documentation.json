@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-user",
+    "title": "DESCRIBE USER | Snowflake Documentation",
+    "paragraphs": [
+        "Describes a user, including the current values for the user\u2019s properties, as well as the default values.",
+        "DESCRIBE can be abbreviated to DESC.",
+        "DROP USER , ALTER USER , CREATE USER , SHOW USERS",
+        "Specifies the identifier for the user to describe. If the identifier contains spaces or special characters, the entire string must be\nenclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Individual users can see their own properties by executing this command and specifying their own name. Only the role with\nthe OWNERSHIP privilege on a user, or a higher role, can execute this command to see the properties of another user.",
+        "The user object property MINS_TO_BYPASS_NETWORK_POLICY defines the number of minutes in which a user can access Snowflake\nwithout conforming to an existing network policy. The number of minutes can only be set by\nSnowflake (Default: NULL) and is intended as a temporary workaround to allow user access to Snowflake. To set a value for\nthis property, please contact Snowflake Support.",
+        "This command does not show the session parameter defaults for a user. Instead, use SHOW PARAMETERS IN USER.",
+        "The user object property PASSWORD_LAST_SET_TIME defaults to Null if no password has been set yet. Values of\n292278994-08-17 07:12:55.807 or 1969-12-31 23:59:59.999 indicate the password was set before the inclusion of this row.\nA value of 1969-12-31 23:59:59.999 can also indicate an expired password and the user needs to change their password.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_07/bcr-1337",
+    "title": "Network policy commands: Cannot drop active network policies | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_07 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Trying to drop a network policy that is assigned to an account, security integration, or user behaves as follows:",
+        "You can execute the DROP NETWORK POLICY and CREATE OR REPLACE NETWORK POLICY commands without considering whether the network policy is\nstill assigned to an account, security integration, or user.",
+        "You must detach a network policy from all accounts, security integrations, and users before you can delete it using the\nDROP NETWORK POLICY or CREATE OR REPLACE NETWORK POLICY command.",
+        "The CREATE OR REPLACE NETWORK POLICY command drops an existing network policy before creating a new one with the same name.",
+        "Ref: 1337",
+        "Was this page helpful?"
+    ]
+}

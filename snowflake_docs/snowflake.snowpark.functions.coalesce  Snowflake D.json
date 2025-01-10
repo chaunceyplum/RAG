@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.coalesce",
+    "title": "snowflake.snowpark.functions.coalesce | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the first non-NULL expression among its arguments, or NULL if all its\narguments are NULL.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.udtf",
+    "title": "snowflake.snowpark.Session.udtf | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a udtf.UDTFRegistration object that you can use to register UDTFs.\nSee details of how to use this object in udtf.UDTFRegistration.",
+        "Was this page helpful?"
+    ]
+}

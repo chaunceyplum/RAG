@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.dt.day_name",
+    "title": "modin.pandas.Series.dt.day_name | Snowflake Documentation",
+    "paragraphs": [
+        "Return the day names with specified locale.",
+        "locale (str, optional) \u2013 Locale determining the language in which to return the day name. Default is English locale (\u2018en_US.utf8\u2019). Use the command locale -a on your terminal on Unix systems to find your locale language code.",
+        "Series or Index of day names.",
+        "Series or Index",
+        "Examples",
+        "Using the locale parameter you can set a different locale language, for example: idx.day_name(locale=\u2019pt_BR.utf8\u2019) will return day names in Brazilian Portuguese language.",
+        "Was this page helpful?"
+    ]
+}

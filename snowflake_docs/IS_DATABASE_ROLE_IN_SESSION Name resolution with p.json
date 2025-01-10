@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_01/bcr-1499",
+    "title": "IS_DATABASE_ROLE_IN_SESSION: Name resolution with policy and UDF evaluation | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of the IS_DATABASE_ROLE_IN_SESSION function with a masking policy, row access policy, and\nUDF is as follows:",
+        "You cannot use the fully-qualified name of the database role as an argument to the function, in the format\ndatabase_name.database_role_name, unless the database name is the same database that contains the policy or UDF.",
+        "The function evaluation depends on whether the database role exists in the specified database. If you specify a relative name as an\nargument to the function, the function always evaluates to the database that contains the policy or UDF; the database role must be in\nthe same database as the policy or UDF.",
+        "You can use the fully-qualified name of the database role as an argument, however, the function always evaluates to False.",
+        "When you specify the relative name of the database role as an argument, the function checks to see if the database role is in the same\ndatabase as the protected table or the database that contains the UDF.",
+        "If your UDF or policy conditions call the function, confirm that the database roles exist in the same database as the UDF or protected\ntable. If necessary, recreate the database roles in the database that contains the UDF or protected table.",
+        "Important",
+        "If you are using this function with Secure Data Sharing, it is important that both the provider and consumer either enable the\nbundle or disable the bundle to ensure consistent behavior.",
+        "Ref: 1499",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-transaction",
+    "title": "DESCRIBE TRANSACTION | Snowflake Documentation",
+    "paragraphs": [
+        "Describes the transaction, including the start time and the state (running, committed, rolled\nback).",
+        "DESCRIBE can be abbreviated to DESC.",
+        "CURRENT_TRANSACTION , LAST_TRANSACTION , BEGIN ,\nCOMMIT , ROLLBACK , SHOW TRANSACTIONS",
+        "Specifies the identifier of the transaction to describe.",
+        "transaction_id must be a literal, not a session variable.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "The output of the command includes the following columns, which describe the properties and metadata of the object:",
+        "Column",
+        "Description",
+        "id",
+        "Unique identifier of the transaction.",
+        "user",
+        "The user ID of the user who ran the transaction.",
+        "session name",
+        "The ID of the user session in which the transaction was executed.",
+        "started_on",
+        "Date and time that the transaction was created.",
+        "state",
+        "The transaction\u2019s completion status, e.g. committed, rolled back, or still running.",
+        "ended_on",
+        "Date and time that the transaction finished.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

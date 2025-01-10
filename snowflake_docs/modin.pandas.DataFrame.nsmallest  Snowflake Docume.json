@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.nsmallest",
+    "title": "modin.pandas.DataFrame.nsmallest | Snowflake Documentation",
+    "paragraphs": [
+        "Return the first n rows ordered by columns in ascending order.",
+        "Return the first n rows with the smallest values in columns, in\nascending order. The columns that are not specified are returned as\nwell, but not used for ordering.",
+        "This method is equivalent to\ndf.sort_values(columns, ascending=True).head(n)",
+        "n (int) \u2013 Number of items to retrieve.",
+        "columns (list or str) \u2013 Column name or names to order by.",
+        "keep ({'first', 'last', 'all'}, default 'first') \u2013",
+        "Where there are duplicate values:",
+        "first : take the first occurrence.",
+        "last : take the last occurrence.",
+        "all : keep all the ties of the largest item even if it means\nselecting more than n items.",
+        "",
+        "DataFrame",
+        "See also",
+        "Return the first n rows ordered by columns in descending order.",
+        "Sort DataFrame by the values.",
+        "Return the first n rows without re-ordering.",
+        "Examples",
+        "In the following example, we will use nsmallest to select the\nthree rows having the smallest values in column \u201cpopulation\u201d.",
+        "When using keep='last', ties are resolved in reverse order:",
+        "When using keep='all', the number of element kept can go beyond n.\nif there are duplicate values for the largest element, all the\nties are kept.",
+        "However, nsmallest does not keep n distinct\nsmallest elements:",
+        "To order by the smallest values in column \u201cpopulation\u201d and then \u201cGDP\u201d, we can\nspecify multiple columns like in the next example.",
+        "Was this page helpful?"
+    ]
+}

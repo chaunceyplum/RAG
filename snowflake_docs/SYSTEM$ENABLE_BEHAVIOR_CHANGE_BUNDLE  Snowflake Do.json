@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_enable_behavior_change_bundle",
+    "title": "SYSTEM$ENABLE_BEHAVIOR_CHANGE_BUNDLE | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Enables behavior changes included in the specified behavior change release bundle for the\ncurrent account.",
+        "By default, behavior change bundles are not enabled during the pre-announcement period. Use this function to test behavior changes before they are enabled for your account.",
+        "SYSTEM$DISABLE_BEHAVIOR_CHANGE_BUNDLE,\nSYSTEM$BEHAVIOR_CHANGE_BUNDLE_STATUS\nSYSTEM$SHOW_ACTIVE_BEHAVIOR_CHANGE_BUNDLES",
+        "Name of the behavior change bundle, specified as a string. To obtain the name for a bundle, see\nBehavior change log.",
+        "Returns the VARCHAR value ENABLED if the function successfully enables the behavior changes.",
+        "The following example enables the 2020_08 behavior change bundle for the current account.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

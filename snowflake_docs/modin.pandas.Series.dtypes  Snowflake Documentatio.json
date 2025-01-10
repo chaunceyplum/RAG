@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.dtypes",
+    "title": "modin.pandas.Series.dtypes | Snowflake Documentation",
+    "paragraphs": [
+        "Return the dtype object of the underlying data.\nSee DataFrame.dtypes() for exact behavior.",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_02/bcr-1555",
+    "title": "Replication: Changes to refresh operations that fail with dangling reference errors | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_02 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "A dangling reference occurs when an object in a replication or failover group has\nan object dependency on another object that is not included in the group. For example, a\nmaterialized view v1 in database db1 references table t1 in database db2. If db1 is included\nin replication group rg1, but db2 is not included in the group, a dangling reference occurs because the referenced\nobject t1 is not included in the group that contains the referencing object v1.",
+        "In some cases, a dangling reference causes the refresh operation to fail:",
+        "Referenced security policies are not included in the replication or\nfailover group.",
+        "Security policies are included in the group, but other required objects are not included in the group (for example, see\nReplicating network policies).",
+        "The referenced object for a stream is not included in the replication or failover group.",
+        "The behavior for refresh operations that fail with dangling reference errors is as follows:",
+        "Dangling reference error messages are not aggregated. Multiple dangling reference errors cause refresh oepration failures to\noccur one after another, making it hard to address all issues at once.",
+        "Dangling reference error messages do not include the fully-qualified domain name of the missing referenced object.",
+        "A refresh operation with a dangling reference error might partially complete before failure, resulting in some objects being updated.",
+        "Dangling reference error messages are aggregated such that all cases that can cause refresh operation failures are surfaced at the\nsame time.",
+        "Dangling reference error messages include the fully-qualified domain name of the missing referenced object.",
+        "Refresh operations with dangling reference errors fail before any secondary objects are updated.",
+        "Ref: 1555",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions-data-metric",
+    "title": "Data metric functions | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake provides built-in system data metric functions to measure data quality for tables and views:",
+        "AVG (system data metric function)",
+        "BLANK_COUNT (system data metric function)",
+        "BLANK_PERCENT (system data metric function)",
+        "DATA_METRIC_SCHEDULED_TIME (system data metric function)",
+        "DUPLICATE_COUNT (system data metric function)",
+        "FRESHNESS (system data metric function)",
+        "MAX (system data metric function)",
+        "MIN (system data metric function)",
+        "NULL_COUNT (system data metric function)",
+        "NULL_PERCENT (system data metric function)",
+        "ROW_COUNT (system data metric function)",
+        "STDDEV (system data metric function)",
+        "UNIQUE_COUNT (system data metric function)",
+        "For details, see System data metric functions.",
+        "Was this page helpful?"
+    ]
+}

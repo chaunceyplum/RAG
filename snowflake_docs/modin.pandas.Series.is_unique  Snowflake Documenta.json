@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.is_unique",
+    "title": "modin.pandas.Series.is_unique | Snowflake Documentation",
+    "paragraphs": [
+        "Return True if values in the Series are unique.",
+        "Was this page helpful?"
+    ]
+}

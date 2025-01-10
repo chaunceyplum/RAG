@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_08/bcr-1746",
+    "title": "Replication: Support for replicating machine learning models (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, replication\nincludes all machine learning models in the\nSnowflake Model Registry.",
+        "Note",
+        "For models to be replicated, this BCR bundle must be enabled on the source account and on all target accounts.",
+        "ML models are schema-level objects and are replicated when you replicate the database that contains them. This might\nresult in increased data transfer, compute, and storage costs.",
+        "Before the change",
+        "Machine learning models are skipped during replication.",
+        "After the change",
+        "Machine learning models are replicated.",
+        "Ref: 1746",
+        "Was this page helpful?"
+    ]
+}

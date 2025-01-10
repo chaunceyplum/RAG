@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_get_service_dns_domain",
+    "title": "SYSTEM$GET_SERVICE_DNS_DOMAIN | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Feature \u2014 Generally Available",
+        "Available to accounts in AWS and Microsoft Azure commercial regions, with some exceptions. For more information, see Available regions.",
+        "Given a schema name, returns that schema\u2019s DNS namespace hash as a string.",
+        "Working with Services",
+        "Schema name. If the schema is not in the current database, specify the fully qualified name of the schema.",
+        "Returns the schema\u2019s DNS namespace hash as a string.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "USAGE",
+        "Schema",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "If TUTORIAL_DB is the current database, then both of the following return the same result. This is the same DNS domain that appears in the DNS name (as reported by SHOW SERVICES) for any service in the DATA_SCHEMA schema.",
+        "Example output:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

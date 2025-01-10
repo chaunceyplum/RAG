@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.substr",
+    "title": "snowflake.snowpark.functions.substr | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the portion of the string or binary value str, starting from the\ncharacter/byte specified by pos, with limited length. The length should be greater\nthan or equal to zero. If the length is a negative number, the function returns an\nempty string.",
+        "Note",
+        "For pos, 1 is the first character of the string in Snowflake database.",
+        "substr() is an alias of substring().",
+        "Was this page helpful?"
+    ]
+}

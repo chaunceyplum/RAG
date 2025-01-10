@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.dt.tz_localize",
+    "title": "modin.pandas.Series.dt.tz_localize | Snowflake Documentation",
+    "paragraphs": [
+        "Localize tz-naive Datetime Array/Index to tz-aware Datetime Array/Index.",
+        "This method takes a time zone (tz) naive Datetime Array/Index object and makes this time zone aware. It does not move the time to another time zone.",
+        "This method can also be used to do the inverse \u2013 to create a time zone unaware object from an aware object. To that end, pass tz=None.",
+        "tz (str, pytz.timezone, dateutil.tz.tzfile, datetime.tzinfo or None) \u2013 Time zone to convert timestamps to. Passing None will remove the time zone information preserving local time.",
+        "ambiguous (\u2018infer\u2019, \u2018NaT\u2019, bool array, default \u2018raise\u2019) \u2013 When clocks moved backward due to DST, ambiguous times may arise. For example in Central European Time (UTC+01), when going from 03:00 DST to 02:00 non-DST, 02:30:00 local time occurs both at 00:30:00 UTC and at 01:30:00 UTC. In such a situation, the ambiguous parameter dictates how ambiguous times should be handled.\n- \u2018infer\u2019 will attempt to infer fall dst-transition hours based on order\n- bool-ndarray where True signifies a DST time, False signifies a non-DST time (note that this flag is only applicable for ambiguous times)\n- \u2018NaT\u2019 will return NaT where there are ambiguous times\n- \u2018raise\u2019 will raise an AmbiguousTimeError if there are ambiguous times.",
+        "nonexistent (\u2018shift_forward\u2019, \u2018shift_backward, \u2018NaT\u2019, timedelta, default \u2018raise\u2019) \u2013 A nonexistent time does not exist in a particular timezone where clocks moved forward due to DST.\n- \u2018shift_forward\u2019 will shift the nonexistent time forward to the closest existing time\n- \u2018shift_backward\u2019 will shift the nonexistent time backward to the closest existing time\n- \u2018NaT\u2019 will return NaT where there are nonexistent times\n- timedelta objects will shift nonexistent times by the timedelta\n- \u2018raise\u2019 will raise an NonExistentTimeError if there are nonexistent times.",
+        "Array/Index converted to the specified time zone.",
+        "Same type as self",
+        "TypeError \u2013 If the Datetime Array/Index is tz-aware and tz is not None.",
+        "See also",
+        "Convert tz-aware DatetimeIndex from one time zone to another.",
+        "Examples",
+        "Localize DatetimeIndex in US/Eastern time zone:",
+        "With the tz=None, we can remove the time zone information while keeping the local time (not converted to UTC):",
+        "Be careful with DST changes. When there is sequential data, pandas can infer the DST time:",
+        "In some cases, inferring the DST is impossible. In such cases, you can pass an ndarray to the ambiguous parameter to set the DST explicitly",
+        "If the DST transition causes nonexistent times, you can shift these dates forward or backwards with a timedelta object or \u2018shift_forward\u2019 or \u2018shift_backwards\u2019.",
+        "Was this page helpful?"
+    ]
+}

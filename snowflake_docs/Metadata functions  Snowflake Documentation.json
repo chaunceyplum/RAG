@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions-metadata",
+    "title": "Metadata functions | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake provides functions that return metadata information, such as descriptions of the statements used to create database\nobjects (e.g. tables).",
+        "Function\u00a0Name",
+        "Notes",
+        "GENERATE_COLUMN_DESCRIPTION",
+        "Generate a list of columns from a set of staged files that contain semi-structured data.",
+        "GET_DDL",
+        "Get DDL to [re-]create a database object.",
+        "Was this page helpful?"
+    ]
+}

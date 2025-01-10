@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_intersection_agg",
+    "title": "ST_INTERSECTION_AGG | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Given a GEOGRAPHY column, returns a GEOGRAPHY object that represents the shape containing the combined set of points that are\ncommon to the shapes represented by the objects in the column (that is, the intersection of the shapes).",
+        "ST_INTERSECTION , ST_UNION_AGG",
+        "A GEOGRAPHY column.",
+        "The function returns a value of type GEOGRAPHY.",
+        "The following example uses a table that contains GEOGRAPHY objects that represent counties in different states. For each state,\nthe example returns the shape that consists of the intersection of the areas of the counties in that state.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

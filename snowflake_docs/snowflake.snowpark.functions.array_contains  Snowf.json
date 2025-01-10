@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.array_contains",
+    "title": "snowflake.snowpark.functions.array_contains | Snowflake Documentation",
+    "paragraphs": [
+        "Returns True if the specified VARIANT is found in the specified ARRAY.",
+        "variant \u2013 Column containing the VARIANT to find.",
+        "array \u2013 Column containing the ARRAY to search.",
+        "Was this page helpful?"
+    ]
+}

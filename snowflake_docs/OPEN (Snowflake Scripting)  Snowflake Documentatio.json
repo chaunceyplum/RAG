@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/snowflake-scripting/open",
+    "title": "OPEN (Snowflake Scripting) | Snowflake Documentation",
+    "paragraphs": [
+        "Opens a cursor.",
+        "For more information on cursors, see Working with cursors.",
+        "Note",
+        "This Snowflake Scripting construct is valid only within a\nSnowflake Scripting block.",
+        "DECLARE, FETCH, CLOSE",
+        "Where:",
+        "The name of the cursor.",
+        "A bind variable holds a value to be used in the cursor\u2019s query definition (e.g. in a WHERE clause).",
+        "An example of binding is included in the examples later in this section.",
+        "The result set of a query can be thought of as a set of rows. Internally, opening a cursor executes the query,\nreads the rows, and positions an internal pointer to the first of the rows.",
+        "As with any SQL query, if the query definition does not contain an\nORDER BY at the outermost level, then the result\nset has no defined order. When the result set for the cursor is created, its order persists until the cursor is\nclosed. However, re-declaring or re-opening the cursor might produce the rows in a different order.",
+        "Similarly, if a cursor is closed, and then the underlying table(s) are updated before it is re-opened, the\nresult set can also change.",
+        "The following shows how to bind a variable when opening a cursor:",
+        "For a more complete example of using a cursor, see\nthe introductory cursor example.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

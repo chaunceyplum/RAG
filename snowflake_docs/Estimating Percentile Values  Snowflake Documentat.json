@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/querying-approximate-percentile-values",
+    "title": "Estimating Percentile Values | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake uses an improved version of the t-Digest algorithm, a space and time efficient way of estimating approximate percentile\nvalues in data sets.",
+        "Snowflake provides an improved version of an implementation of the\nt-Digest algorithm papers by Dunning and Ertl.\nIt has been implemented through the\nAPPROX_PERCENTILE family of functions.",
+        "As documented, the algorithm has a constant relative error. Note that the algorithm has substantial empirical support, but no rigorous proof of any accuracy guarantees.",
+        "The following Aggregate functions are provided for using t-Digest to approximate percentile values:",
+        "APPROX_PERCENTILE: Returns an approximation of the desired percentile value.",
+        "APPROX_PERCENTILE_ACCUMULATE: Skips the final estimation step and, instead, returns the intermediate t-Digest state at the end of an aggregation.",
+        "APPROX_PERCENTILE_COMBINE: Combines (i.e. merges) multiple input states into a single output state.",
+        "APPROX_PERCENTILE_ESTIMATE: Computes a percentile estimate of a t-Digest state produced by APPROX_PERCENTILE_ACCUMULATE or APPROX_PERCENTILE_COMBINE.",
+        "The estimation uses a constant amount of space regardless of the size of the input.",
+        "The t-Digest state is independent from the percentile value. This enables calculating the t-Digest state once, and then querying the state for multiple percentile values.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

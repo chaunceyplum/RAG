@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-06-25-dcr",
+    "title": "June 25, 2024 \u2014 Snowflake Data Clean Rooms Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the availability of the following new features and enhancements in this update to Snowflake\nData Clean Rooms.",
+        "The provider of a clean room can now run analyses in their own clean room. This feature allows providers to directly extract insights\nfrom data shared by the consumer within the clean room. Previously, providers could only be a data provider.",
+        "For information about using the web app to execute provider-run analyses, see Run an analysis as a provider.",
+        "For information about using the developer API to execute provider-run analyses, see\nSnowflake Data Clean Rooms: Running an Analysis as a Provider.",
+        "Consumers can now request that a provider allow them to add their own template to a clean room. After a request is raised, a provider can\nreview the template definition and decide whether to accept or reject the consumer\u2019s request to add the template.",
+        "Because a consumer is often in the best position to know how to extract insights from data coming from multiple providers, the ability to\nadd a consumer-defined template is especially important when the consumer wants to execute a multi-provider analysis.",
+        "For more information, see Using the developer API to add consumer-defined templates.",
+        "Providers can now control which consumers can access a specific table or template in the clean room. This allows a provider to share the\nsame clean room with multiple consumers without giving full access to every consumer. Previously, all consumers could access a table or\ntemplate if it was included in the clean room.",
+        "Developers can now specify which consumers can access a table or template when executing the API to add it to the clean room. In addition,\nthe following new APIs control access:",
+        "provider.restrict_table_options_to_consumers",
+        "provider.restrict_template_options_to_consumers",
+        "For more information about these APIs, see Snowflake Data Clean Rooms: Provider API reference guide.",
+        "Consumers can now activate results back to the provider even if the provider is in a different cloud/region. To take advantage of this\nenhancement, consumers must enable cross-cloud auto-fulfillment on their account.",
+        "When a provider allows another party to query data via the SQL template, the provider can now specify custom aggregation threshold values\nfor each entity column they want to protect. This provides more flexible controls from the previous version of privacy controls, which\napplied the same aggregation threshold across all join columns. Additionally, users no longer need to supply provider [p] & consumer [c]\naliases for tables and columns.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

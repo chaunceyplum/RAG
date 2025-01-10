@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.reset_index",
+    "title": "modin.pandas.DataFrame.reset_index | Snowflake Documentation",
+    "paragraphs": [
+        "Reset the index, or a level of it.",
+        "Reset the index of the DataFrame, and use the default one instead.\nIf the DataFrame has a MultiIndex, this method can remove one or more\nlevels.",
+        "level (int, str, tuple, or list, default None) \u2013 Only remove the given levels from the index. Removes all levels by\ndefault.",
+        "drop (bool, default False) \u2013 Do not try to insert index into dataframe columns. This resets\nthe index to the default integer index.",
+        "inplace (bool, default False) \u2013 Whether to modify the DataFrame rather than creating a new one.",
+        "col_level (int or str, default 0) \u2013 If the columns have multiple levels, determines which level the\nlabels are inserted into. By default, it is inserted into the first\nlevel.",
+        "col_fill (object, default '') \u2013 If the columns have multiple levels, determines how the other\nlevels are named. If None then the index name is repeated.",
+        "allow_duplicates (bool, optional, default lib.no_default) \u2013 Allow duplicate column labels to be created.",
+        "names (int, str or 1-dimensional list, default None) \u2013 Using the given string, rename the DataFrame column which contains the\nindex data. If the DataFrame has a MultiIndex, this has to be a list or\ntuple with length equal to the number of levels.",
+        "DataFrame with the new index or None if inplace=True.",
+        "DataFrame or None",
+        "See also",
+        "Analogous function for Series.",
+        "Opposite of reset_index.",
+        "Change to new indices or expand indices.",
+        "Change to same indices as other DataFrame.",
+        "Examples",
+        "When we reset the index, the old index is added as a column, and a\nnew sequential index is used:",
+        "We can use the drop parameter to avoid the old index being added as\na column:",
+        "You can also use reset_index with MultiIndex.",
+        "Using the names parameter, choose a name for the index column:",
+        "If the index has multiple levels, we can reset a subset of them:",
+        "If we are not dropping the index, by default, it is placed in the top\nlevel. We can place it in another level:",
+        "When the index is inserted under another level, we can specify under\nwhich one with the parameter col_fill:",
+        "If we specify a nonexistent level for col_fill, it is created:",
+        "Was this page helpful?"
+    ]
+}

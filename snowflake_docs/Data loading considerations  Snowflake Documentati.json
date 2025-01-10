@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/data-load-considerations",
+    "title": "Data loading considerations | Snowflake Documentation",
+    "paragraphs": [
+        "This set of topics provides best practices, general guidelines, and important considerations for bulk data loading using the COPY INTO <table> command. It is intended to help simplify and optimize importing of data from data files into Snowflake tables.",
+        "Note",
+        "Most considerations in this set of topics pertain to bulk data loading only. However, the Preparing your data files topic applies to both bulk loading and continuous loading using Snowpipe.",
+        "Next Topics:",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

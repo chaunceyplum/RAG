@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/spcs-commands/compute-pool-commands/overview",
+    "title": "snow spcs compute-pool commands | Snowflake Documentation",
+    "paragraphs": [
+        "Note",
+        "You can use Snowpark Container Services from Snowflake CLI only if you have the necessary permissions to use Snowpark Container Services.",
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Snowflake CLI supports the following commands to support compute pools:",
+        "snow spcs compute-pool create",
+        "snow spcs compute-pool describe",
+        "snow spcs compute-pool drop",
+        "snow spcs compute-pool resume",
+        "snow spcs compute-pool set",
+        "snow spcs compute-pool status",
+        "snow spcs compute-pool stop-all",
+        "snow spcs compute-pool suspend",
+        "snow spcs compute-pool unset",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.getActiveSession",
+    "title": "snowflake.snowpark.Session.getActiveSession | Snowflake Documentation",
+    "paragraphs": [
+        "Gets the active session if one is created. If no session is created, returns None.",
+        "Was this page helpful?"
+    ]
+}

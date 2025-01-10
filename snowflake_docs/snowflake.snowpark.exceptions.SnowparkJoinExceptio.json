@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.exceptions.SnowparkJoinException",
+    "title": "snowflake.snowpark.exceptions.SnowparkJoinException | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SnowparkDataframeException",
+        "Exception for join related errors during dataframe operations.",
+        "Includes error codes: 1103, 1110, 1111, 1112.",
+        "Was this page helpful?"
+    ]
+}

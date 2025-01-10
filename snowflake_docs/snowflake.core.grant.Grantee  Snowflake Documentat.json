@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.grant.Grantee",
+    "title": "snowflake.core.grant.Grantee | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: object",
+        "Class to represent type of resource that is the privilege grantee.",
+        "Examples",
+        "Setting test-user to user and test-role to role:",
+        "Attributes",
+        "String that specifies the type of resource that is the privilege grantee.",
+        "String that specifies the name of the privilege grantee.",
+        "Was this page helpful?"
+    ]
+}

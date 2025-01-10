@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_06/bcr-1722",
+    "title": "CURRENT_DATABASE and CURRENT_SCHEMA functions: Ensure deterministic outputs with policies, views, and UDFs | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of the CURRENT_DATABASE and CURRENT_SCHEMA functions is as\nfollows:",
+        "The return values when calling the CURRENT_DATABASE or CURRENT_SCHEMA function are not deterministic:",
+        "When you call the function inside of a data access policy, such as a masking or row access policy, the functions return one of two values:",
+        "The database or schema that contains the policy.",
+        "The database or schema in use in the session.",
+        "When you call the function in the definition of a view or a UDF and the SELECT keyword does not precede the function, the function\nreturns one of two values:",
+        "The database or schema in use in the session.",
+        "The database or schema that contains the UDF or the view.",
+        "The return values when calling the CURRENT_DATABASE or CURRENT_SCHEMA function are deterministic:",
+        "When you call the function inside of a data access policy, such as a masking or row access policy, the functions return the database or\nschema that contains the protected table or view.",
+        "When you call the function in the definition of a view or a UDF, the function returns the database or schema that contains the UDF or\nthe view.",
+        "To minimize the impact of these changes, do the following:",
+        "If your view definition or UDF uses either of these functions and the SELECT keyword does not precede the function, double-check to\nensure that the UDF definition is correct for how the function should be used.",
+        "If your policy calls either of these functions, double check to ensure that the body of the policy is written for the database or\nschema that contains the protected table and not the database or schema in use for the session.",
+        "Note",
+        "The updates in this announcement were previously announced in the 2024_03 bundle. The behavior change process for these\nupdates has restarted, beginning with the 2024_06 bundle.",
+        "Ref: 1722",
+        "Was this page helpful?"
+    ]
+}

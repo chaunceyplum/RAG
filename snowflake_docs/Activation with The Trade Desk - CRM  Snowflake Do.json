@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cleanrooms/activation-trade-desk-crm",
+    "title": "Activation with The Trade Desk - CRM | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "This topic describes how to activate analysis results with the The Trade Desk CRM. The Trade Desk CRM integrates customer relationship\nmanagement (CRM) data to activate and target audience segments within The Trade Desk\u2019s platform for personalized advertising campaigns.",
+        "If you are an administrator who needs to configure the The Trade Desk - CRM connector so clean room users can activate results with it, see\nThe Trade Desk - CRM connector.",
+        "To push the results of an analysis to The Trade Desk - CRM for activation:",
+        "Run an analysis that returns data that can be activated. For example, analyses using the Audience Overlap & Segmentation template can be\nactivated.",
+        "For more information about running an analysis, see Run an analysis as a provider or Run an analysis as a consumer.",
+        "In the Results section, select Activate.",
+        "In the Activation Hub dialog, select The Trade Desk - CRM.",
+        "In the Segment Name field, enter a descriptive name for your results.",
+        "In the Activation IDs section, select a column that contains identifiers, then select the type of those identifiers.",
+        "Select Push Data.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

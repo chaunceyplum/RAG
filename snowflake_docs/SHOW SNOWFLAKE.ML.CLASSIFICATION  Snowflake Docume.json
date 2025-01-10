@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/classification/commands/show-classification",
+    "title": "SHOW SNOWFLAKE.ML.CLASSIFICATION | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to all accounts.",
+        "Lists all classification models.",
+        "SHOW SNOWFLAKE.ML.CLASSIFICATION INSTANCES is an alias for SHOW SNOWFLAKE.ML.CLASSIFICATION.",
+        "CREATE SNOWFLAKE.ML.CLASSIFICATION",
+        "The order of results is not guaranteed.",
+        "The command output provides model properties and metadata in the following columns.",
+        "Column",
+        "Description",
+        "created_on",
+        "Date and time when the model was created.",
+        "name",
+        "Name of the model.",
+        "database_name",
+        "Database in which the model is stored.",
+        "schema_name",
+        "Schema in which the model is stored.",
+        "current_version",
+        "The version of the model.",
+        "comment",
+        "Comment for the model.",
+        "owner",
+        "The role that owns the model.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

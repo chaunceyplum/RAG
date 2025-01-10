@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.groupby",
+    "title": "modin.pandas.DataFrame.groupby | Snowflake Documentation",
+    "paragraphs": [
+        "Group DataFrame using a mapper or by a Series of columns.",
+        "by \u2013 mapping, function, label, Snowpark pandas Series or a list of such. Used to determine the groups for the groupby.\nIf by is a function, it\u2019s called on each value of the object\u2019s index. If a dict or Snowpark pandas Series is\npassed, the Series or dict VALUES will be used to determine the groups (the Series\u2019 values are first aligned;\nsee .align() method). If a list or ndarray of length equal to the selected axis is passed (see the groupby\nuser guide), the values are used as-is to determine the groups. A label or list of labels may be passed\nto group by the columns in self. Notice that a tuple is interpreted as a (single) key.",
+        "axis \u2013 {0 or \u2018index\u2019, 1 or \u2018columns\u2019}, default 0\nSplit along rows (0) or columns (1). For Series this parameter is unused and defaults to 0.",
+        "level \u2013 int, level name, or sequence of such, default None\nIf the axis is a MultiIndex (hierarchical), group by a particular level or levels. Do not specify both by and level.",
+        "as_index \u2013 bool, default True\nFor aggregated output, return object with group labels as the index. Only relevant for DataFrame input.\nas_index=False is effectively \u201cSQL-style\u201d grouped output.",
+        "sort \u2013 bool, default True\nSort group keys. Groupby preserves the order of rows within each group. Note that in pandas,\nbetter performance can be achieved by turning sort off, this is not going to be true with\nSnowparkPandas. When sort=False, the performance will be no better than sort=True.",
+        "group_keys \u2013 bool, default True\nWhen calling apply and the by argument produces a like-indexed (i.e. a transform) result, add group\nkeys to index to identify pieces. By default group keys are not included when the result\u2019s index\n(and column) labels match the inputs, and are included otherwise.",
+        "observed \u2013 bool, default False\nThis only applies if any of the groupers are Categoricals. If True: only show observed values for\ncategorical groupers. If False: show all values for categorical groupers. This parameter is\ncurrently ignored with Snowpark pandas API, since Category type is currently not supported with\nSnowpark pandas API.",
+        "dropna \u2013 bool, default True\nIf True, and if group keys contain NA values, NA values together with row/column will be dropped.\nIf False, NA values will also be treated as the key in groups.",
+        "Returns a groupby object that contains information about the groups.",
+        "Snowpark pandas DataFrameGroupBy",
+        "Examples:",
+        "Was this page helpful?"
+    ]
+}

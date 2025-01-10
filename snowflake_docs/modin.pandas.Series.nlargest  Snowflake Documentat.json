@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.nlargest",
+    "title": "modin.pandas.Series.nlargest | Snowflake Documentation",
+    "paragraphs": [
+        "Return the largest n elements.",
+        "n (int, default 5) \u2013 Return this many descending sorted values.",
+        "keep ({'first', 'last', 'all'}, default 'first') \u2013",
+        "When there are duplicate values that cannot all fit in a\nSeries of n elements:",
+        "first : return the first n occurrences in order\nof appearance.",
+        "last : return the last n occurrences in reverse\norder of appearance.",
+        "all : keep all occurrences. This can result in a Series of\nsize larger than n.",
+        "",
+        "The n largest values in the Series, sorted in decreasing order.",
+        "Series",
+        "See also",
+        "Get the n smallest elements.",
+        "Sort Series by values.",
+        "Return the first n rows.",
+        "Examples",
+        "The n largest elements where n=5 by default.",
+        "The n largest elements where n=3. Default keep value is \u2018first\u2019\nso Malta will be kept.",
+        "The n largest elements where n=3 and keeping the last duplicates.\nBrunei will be kept since it is the last with value 434000 based on\nthe index order.",
+        "The n largest elements where n=3 with all duplicates kept. Note\nthat the returned Series has five elements due to the three duplicates.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.rank",
+    "title": "modin.pandas.Series.rank | Snowflake Documentation",
+    "paragraphs": [
+        "Compute numerical data ranks (1 through n) along axis.",
+        "axis ({0 or 'index', 1 or 'columns'}, default 0) \u2013 Index to direct ranking. For Series this parameter is unused and defaults to 0.",
+        "method ({'average', 'min', 'max', 'first', 'dense'}, default 'average') \u2013 How to rank the group of records that have the same value (i.e. break ties):\n- average: average rank of the group\n- min: lowest rank in the group\n- max: highest rank in the group\n- first: ranks assigned in order they appear in the array\n- dense: like \u2018min\u2019, but rank always increases by 1 between groups.",
+        "numeric_only (bool, default False) \u2013 For DataFrame objects, rank only numeric columns if set to True.",
+        "na_option ({'keep', 'top', 'bottom'}, default 'keep') \u2013 How to rank NaN values:\n- keep: assign NaN rank to NaN values\n- top: assign lowest rank to NaN values\n- bottom: assign highest rank to NaN values",
+        "ascending (bool, default True) \u2013 Whether or not the elements should be ranked in ascending order.",
+        "pct (bool, default False) \u2013 Whether or not to display the returned rankings in percentile form.",
+        "Series or DataFrame with data ranks as values.",
+        "Was this page helpful?"
+    ]
+}

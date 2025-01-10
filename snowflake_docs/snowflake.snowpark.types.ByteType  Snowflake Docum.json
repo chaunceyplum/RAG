@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.types.ByteType",
+    "title": "snowflake.snowpark.types.ByteType | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: _IntegralType",
+        "Byte data type. This maps to the TINYINT data type in Snowflake.",
+        "Methods",
+        "simpleString()",
+        "",
+        "simple_string()",
+        "",
+        "Was this page helpful?"
+    ]
+}

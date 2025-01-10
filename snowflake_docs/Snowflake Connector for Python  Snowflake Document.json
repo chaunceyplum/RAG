@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/python-connector.html",
+    "title": "Snowflake Connector for Python | Snowflake Documentation",
+    "paragraphs": [
+        "Note",
+        "This driver currently does not support GCP regional endpoints. Please ensure that any workloads using through this driver do not require support for regional endpoints on GCP. If you have questions about this, please contact Snowflake Support.",
+        "The Snowflake Connector for Python provides an interface for developing Python applications that can connect to Snowflake and perform all standard operations. It provides a programming alternative to\ndeveloping applications in Java or C/C++ using the Snowflake JDBC or ODBC drivers.",
+        "The connector is a native, pure Python package that has no dependencies on JDBC or ODBC. It can be installed using pip on\nLinux, MacOS, and Windows platforms where Python is installed.",
+        "The connector supports developing applications using the Python Database API v2 specification (PEP-249), including using the following standard API objects:",
+        "Connection objects for connecting to Snowflake.",
+        "Cursor objects for executing DDL/DML statements and queries.",
+        "For more information, see PEP-249.",
+        "SnowSQL, the command line client provided by Snowflake, is an example of an application developed using the connector.",
+        "Note",
+        "Snowflake now provides first-class Python APIs for managing core Snowflake resources including databases, schemas, tables, tasks, and\nwarehouses, without using SQL. For more information, see Snowflake Python APIs: Managing Snowflake objects with Python.",
+        "Next Topics:",
+        "Was this page helpful?",
+        "Related content",
+        "Related info",
+        "For a tutorial on using the Snowflake Connector for Python, see the following page:",
+        "Getting Started with Python (Snowflake Quickstarts)",
+        "For information about changes in the latest version of the Snowflake Connector for Python, see the following page:",
+        "Python Connector Release Notes (GitHub)"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_02/bcr-1551",
+    "title": "Snowflake Native App Framework: Update error message when an app is disabled | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_02 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "After a consumer installs a Snowflake Native App, the app can become disabled for multiple reasons.",
+        "When a Snowflake Native App becomes disabled, the app returns a single error message that does not mention\nthe reason the app is no longer available.",
+        "When a Snowflake Native App becomes disabled, the app returns an error message that provides information\non why the app is no longer available. The possible error messages are:",
+        "Application is no longer available for use: Application manually disabled.",
+        "Application is no longer available for use: Account or organization is inactive.",
+        "Application is no longer available for use: The version of this application is no longer available from\nthe provider. The application must be dropped and recreated.",
+        "Application is no longer available for use: The Customer Managed Key (CMK) is not available for this account.",
+        "Application is no longer available for use: Access to the listing this application was installed from has\nbeen revoked, please contact the application provider for more details.",
+        "Ref: 1551",
+        "Was this page helpful?"
+    ]
+}

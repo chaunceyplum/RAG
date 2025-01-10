@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/approx_percentile_estimate",
+    "title": "APPROX_PERCENTILE_ESTIMATE | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (Percentile Estimation) , Window function syntax and usage",
+        "Returns the desired approximated percentile value for the specified t-Digest state.",
+        "A t-Digest state produced by APPROX_PERCENTILE_ACCUMULATE and APPROX_PERCENTILE_COMBINE can be used to compute a percentile estimate using this function.",
+        "As such, APPROX_PERCENTILE_ESTIMATE(APPROX_PERCENTILE_ACCUMULATE(\u2026)) is equivalent to APPROX_PERCENTILE(\u2026).",
+        "APPROX_PERCENTILE , APPROX_PERCENTILE_ACCUMULATE , APPROX_PERCENTILE_COMBINE",
+        "An expression that contains state information generated\nby a call to APPROX_PERCENTILE_ACCUMULATE or\nAPPROX_PERCENTILE_COMBINE.",
+        "A constant real value greater than or equal to 0.0 and less than 1.0.\nThis indicates the percentile from 0 to 99.999\u2026 (e.g. the value 0.65 indicates the 65th percentile).",
+        "Consider a scenario where you need to approximate multiple percentile values from a given set of numbers. This can be done by creating the state and then using APPROX_PERCENTILE_ESTIMATE to calculate\nall the percentiles:",
+        "First, store the state:",
+        "Then, query the state for multiple percentiles:",
+        "For a more extensive example, see the Examples section in\nAPPROX_PERCENTILE_ACCUMULATE.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

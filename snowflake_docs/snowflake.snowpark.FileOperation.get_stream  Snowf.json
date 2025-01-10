@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.FileOperation.get_stream",
+    "title": "snowflake.snowpark.FileOperation.get_stream | Snowflake Documentation",
+    "paragraphs": [
+        "Downloads the specified files from a path in a stage and expose it through a stream.",
+        "stage_location \u2013 The full stage path with prefix and file name, from which you want to download the file.",
+        "parallel \u2013 Specifies the number of threads to use for downloading the files.\nThe granularity unit for downloading is one file.\nIncreasing the number of threads might improve performance when downloading large files.\nSupported values: Any integer value from 1 (no parallelism) to 99 (use 99 threads for downloading files). Defaults to 10.",
+        "statement_params \u2013 Dictionary of statement level parameters to be set while executing this action. Defaults to None.",
+        "decompress \u2013 Specifies whether to use gzip to decompress file after download. Defaults to False.",
+        "Examples",
+        "An BytesIO object which points to the downloaded file.",
+        "Was this page helpful?"
+    ]
+}

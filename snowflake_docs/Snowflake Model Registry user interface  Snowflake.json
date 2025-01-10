@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-ml/model-registry/snowsight-ui",
+    "title": "Snowflake Model Registry user interface | Snowflake Documentation",
+    "paragraphs": [
+        "The Models page in Snowsight allows you to find and explore machine learning models that you can use in Snowflake.",
+        "The Models page displays user-created models logged in the Snowflake Model Registry, including models developed with\nSnowpark ML and externally sourced models (for example, from Hugging Face). It also shows\nCortex Fine-tuned models, and in future releases, will include\nother model types that you can create in Snowflake, providing a unified view of available models.",
+        "To display the Models page, in the Snowsight navigation menu, select AI & ML, and then select Models. The\nresulting list contains all the models in the Snowflake Model Registry in all the databases and schemas that your current role\nhas access to.",
+        "Note",
+        "If you do not see any models, make sure your role has the\nrequired privileges.",
+        "To open a model\u2019s details page, select the corresponding row in the Models list. The details page displays\nkey model information, including the model\u2019s description, tags, and versions.",
+        "To edit the model description or delete the model, select the \u2026 button.",
+        "To open the version\u2019s details page, select a model version. This page displays model version metadata, such\nas metrics, and a list of available methods that can be called from Python or SQL.",
+        "To view code that calls the model function, select the SQL or Python link next to it. You can copy this code\nsnippet into a Snowsight SQL worksheet or a Python notebook.",
+        "To add or modify metadata or delete the model version, select the \u2026 button.",
+        "The Files tab contains a list of the model version\u2019s underlying artifacts. You can download individual files from this page.",
+        "Was this page helpful?"
+    ]
+}

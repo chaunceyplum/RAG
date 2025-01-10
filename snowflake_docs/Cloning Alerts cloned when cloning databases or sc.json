@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1211",
+    "title": "Cloning: Alerts cloned when cloning databases or schemas | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the current Snowflake release, when you clone a database or schema, any Snowflake alerts in that database or\nschema will also be cloned:",
+        "When you clone a database or schema, any alerts in that database or schema are not cloned.",
+        "When you clone a database or schema, any alerts in that database or schema will be cloned.",
+        "The cloned alerts are suspended.",
+        "Ref: 1211",
+        "Was this page helpful?"
+    ]
+}

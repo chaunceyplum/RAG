@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/octet_length",
+    "title": "OCTET_LENGTH | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (General)",
+        "Returns the length of a string or binary value in bytes. This will be the same as LENGTH for ASCII strings and greater than\nLENGTH for strings using Unicode code points. For binary, this is always the same as LENGTH.",
+        "The string or binary value for which the length is returned.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

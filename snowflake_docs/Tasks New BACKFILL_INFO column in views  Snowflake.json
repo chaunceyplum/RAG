@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1375",
+    "title": "Tasks: New BACKFILL_INFO column in views | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "This behavior change affects the output of the following Information Schema table functions and Account Usage views:",
+        "TASK_HISTORY (Information Schema)",
+        "CURRENT_TASK_GRAPHS (Information Schema)",
+        "COMPLETE_TASK_GRAPHS (Information Schema)",
+        "TASK_HISTORY view (Account Usage)",
+        "COMPLETE_TASK_GRAPHS view (Account Usage)",
+        "The output of the aforementioned Information Schema table functions and Account Usage views does not include the BACKFILL_INFO column.",
+        "The output of the aforementioned Information Schema table functions and Account Usage views includes the BACKFILL_INFO column.",
+        "Column name",
+        "Data type",
+        "Description",
+        "BACKFILL_INFO",
+        "OBJECT",
+        "Reserved for future use. The returned value for all rows is NULL.",
+        "Ref: 1375",
+        "Was this page helpful?"
+    ]
+}

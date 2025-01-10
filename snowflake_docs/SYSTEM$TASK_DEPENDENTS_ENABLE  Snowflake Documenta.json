@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_task_dependents_enable",
+    "title": "SYSTEM$TASK_DEPENDENTS_ENABLE | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Recursively resumes a specified task and all its dependent tasks. This function allows the owner of a task graph\n(like the role with the OWNERSHIP privilege on the tasks) to resume the tasks by executing a single SQL statement rather than resuming each task individually (using ALTER TASK \u2026 RESUME).",
+        "For more information about tasks, see Introduction to tasks.",
+        "Name of a task in a simple task graph. It does not need to be a root task.",
+        "task_name is a string so it must be enclosed in single quotes:",
+        "Note that the entire name must be enclosed in single quotes, including the database and schema (if the name is fully-qualified), i.e. '<db>.<schema>.<task_name>'.",
+        "If the task name is case-sensitive or includes any special characters or spaces, double quotes are required to process the case/characters. The double quotes must be enclosed within the single quotes, i.e. '\"<task_name>\"'.",
+        "Accounts are currently limited to a maximum of 10000 resumed (i.e. in a Started state) tasks.",
+        "Resume a specified task and all its dependent tasks in a tree where the specified task has a case-insensitive name:",
+        "Resume a specified task and all its dependent tasks in a tree where the specified task has a case-sensitive name:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

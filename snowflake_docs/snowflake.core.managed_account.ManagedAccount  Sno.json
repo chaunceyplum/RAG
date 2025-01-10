@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.managed_account.ManagedAccount",
+    "title": "snowflake.core.managed_account.ManagedAccount | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: object",
+        "A model object representing the ManagedAccount resource.",
+        "Constructs an object of type ManagedAccount with the provided properties.",
+        "name (str) \u2013 A Snowflake object identifier.",
+        "admin_name (str) \u2013 Name of the account administrator.",
+        "admin_password (str) \u2013 Password for the account administrator.",
+        "account_type (str) \u2013 Type of the account.",
+        "cloud (str, optional) \u2013 Cloud in which the managed account is located. For reader accounts, this is always the same as the cloud for the provider account.",
+        "region (str, optional) \u2013 Region in which the managed account is located. For reader accounts, this is always the same as the region for the provider account.",
+        "locator (str, optional) \u2013 Legacy identifier for the account.",
+        "created_on (datetime, optional) \u2013 Date and time the account was created.",
+        "url (str, optional) \u2013 Account URL that is used to connect to the account, in the account name format. The account identifier in this format follows the pattern <orgname>-<account_name>.",
+        "account_locator_url (str, optional) \u2013 Account URL that is used to connect to the account, in the legacy account locator format.",
+        "comment (str, optional) \u2013 Optional comment in which to store information related to the account.",
+        "Methods",
+        "Creates an instance of ManagedAccount from a dict.",
+        "This method constructs a ManagedAccount object from a dictionary with the key-value pairs of its properties.",
+        "obj (dict) \u2013 A dictionary whose keys and values correspond to the properties of the resource object.",
+        "A ManagedAccount object created using the input dictionary; this will fail if the required properties are missing.",
+        "ManagedAccount",
+        "Creates a dictionary of the properties from a ManagedAccount.",
+        "This method constructs a dictionary with the key-value entries corresponding to the properties of the ManagedAccount object.",
+        "A dictionary object created using the input model.",
+        "dict",
+        "Was this page helpful?"
+    ]
+}

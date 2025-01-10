@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-sequence",
+    "title": "DESCRIBE SEQUENCE | Snowflake Documentation",
+    "paragraphs": [
+        "Describes a sequence, including the sequence\u2019s interval.",
+        "DESCRIBE can be abbreviated to DESC.",
+        "ALTER SEQUENCE , CREATE SEQUENCE , DROP SEQUENCE , SHOW SEQUENCES",
+        "Specifies the identifier for the sequence to describe.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/stored-procedures/snowflake_telemetry_add_row_access_policy_on_events_view",
+    "title": "ADD_ROW_ACCESS_POLICY_ON_EVENTS_VIEW | Snowflake Documentation",
+    "paragraphs": [
+        "Note",
+        "Using row access policies on the default event table is an Enterprise Edition feature.",
+        "Binds a row access policy to the EVENTS_VIEW by\nspecifying an array of the table\u2019s columns. The EVENTS_VIEW is a view on the default event table.",
+        "The EVENTS_ADMIN role includes the USAGE privilege on this procedure.",
+        "A reference to a row access policy object to apply for rows in the EVENTS_VIEW.",
+        "Array of view column names on which the policy should be applied.",
+        "For the list of allowed column names, see Event table columns.",
+        "On successful execution, the procedure returns a string indicating success. Otherwise, the procedure returns an error.",
+        "This stored procedure uses owner\u2019s rights. For more details, see Understanding caller\u2019s rights and owner\u2019s rights stored procedures.",
+        "Code in the following example binds the ROW_ACCESS_POLICY policy to two columns in the EVENTS_VIEW:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

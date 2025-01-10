@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_register_cmk_info",
+    "title": "SYSTEM$REGISTER_CMK_INFO | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Registers your customer-managed key (CMK) for use with Tri-Secret Secure.",
+        "Self-registration overview",
+        "Amazon Web Services",
+        "Microsoft Azure",
+        "Google Cloud Platform",
+        "Specifies the Amazon Web Services resource number (ARN) that specifies the customer-managed key (CMK) for use with Tri-Secret Secure.",
+        "Specifies the Microsoft Azure unique endpoint identifier for your Azure Key Vault.",
+        "Specifies the name for your CMK in Microsoft Azure.",
+        "Specifies the unique identifier for your project in Google Cloud Platform.",
+        "Specifies the Google Cloud Platform region that hosts your Snowflake account.",
+        "Specifies the key ring for your CMK in Google Cloud Platform.",
+        "Specifies the name of your CMK.",
+        "Returns a status message stating the registration is complete.",
+        "Only account administrators (users with the ACCOUNTADMIN role) can call this function.",
+        "Register your CMK for your Snowflake account on Amazon Web Services:",
+        "Register your CMK for your Snowflake account on Microsoft Azure:",
+        "Register your CMK for your Snowflake account on Google Cloud Platform:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

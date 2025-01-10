@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-961",
+    "title": "Object Tagging: Tag Assignment Not Allowed When Creating Secondary Databases | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the current release, you are not allowed to set tags on a secondary database using the WITH TAG clause when you create or replace a\ndatabase using the AS REPLICA OF clause.",
+        "You could specify the WITH TAG clause when you create a secondary database using the AS REPLICA OF clause. For example:",
+        "Specifying the WITH TAG clause when creating a secondary database using the AS REPLICA OF clause generates the following error message:",
+        "SQL compilation error: Tags cannot be assigned to a secondary database replica since it is a read-only database.",
+        "Please update existing workflows to remove the WITH TAG clause when creating secondary databases.",
+        "Ref: 961",
+        "Was this page helpful?"
+    ]
+}

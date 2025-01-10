@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-result",
+    "title": "DESCRIBE RESULT | Snowflake Documentation",
+    "paragraphs": [
+        "Describes the columns in the result of a query.",
+        "Snowflake persists the result of a query for a period of time, after which the result is purged. The query can be from the current session or\nany of your other sessions, including past sessions, as long as the limited period has not elapsed. This period is not adjustable. For\nmore details, see Using Persisted Query Results.",
+        "DESCRIBE can be abbreviated to DESC.",
+        "LAST_QUERY_ID (Context function) , RESULT_SCAN (Table function)",
+        "Specifies either the ID for a query you executed (within the last 24 hours in any session) or the\nLAST_QUERY_ID function, which returns the ID for a query within your current session.",
+        "To retrieve the ID for a specific query:",
+        "Locate the query ID in the web interface. The History  page lists the ID along with each query; however, note\nthat you can only use this function for queries you have executed.",
+        "Execute the QUERY_HISTORY , QUERY_HISTORY_BY_* table function, which returns a list of queries and their IDs; however,\nnote that you can only use this function for queries you have executed.",
+        "If the query was executed in the current session, execute the LAST_QUERY_ID function. For example:",
+        "Note that this is equivalent to using LAST_QUERY_ID() as the input for DESC RESULT.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "Describe the columns in the result of the specified query from any of your sessions (within the previous 24 hours):",
+        "Describe the columns in the results from your most recent query in the current session:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

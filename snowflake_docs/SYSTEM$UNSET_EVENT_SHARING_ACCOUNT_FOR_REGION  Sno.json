@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_unset_event_sharing_account_for_region",
+    "title": "SYSTEM$UNSET_EVENT_SHARING_ACCOUNT_FOR_REGION | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Unsets the events account for a region.",
+        "SYSTEM$SET_EVENT_SHARING_ACCOUNT_FOR_REGION",
+        "Specifies the region where the account is located, for example: AWS_US_WEST_2, AWS_US_EAST_1.",
+        "Specifies the region group, for example: PUBLIC.",
+        "Specifies the account name.",
+        "Only users with the ORGADMIN role can execute this SQL function.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

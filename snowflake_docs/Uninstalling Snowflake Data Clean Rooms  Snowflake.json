@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cleanrooms/uninstalling-clean-rooms",
+    "title": "Uninstalling Snowflake Data Clean Rooms | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "This topic describes the tasks an administrator must complete to uninstall Snowflake Data Clean Rooms.",
+        "Important",
+        "This procedure completely uninstalls the entire environment, not just individual clean rooms.",
+        "To uninstall, execute the following steps:",
+        "Delete all clean rooms that you created as a provider. This includes both web app and developer API clean rooms.",
+        "Use the web app to find the tiles associated with clean rooms that you joined as a consumer, then leave the clean rooms.",
+        "Use the consumer.uninstall_cleanroom command to uninstall developer API clean rooms that you installed as a consumer.",
+        "Contact your Snowflake representative to retrieve your account metadata.",
+        "When instructed, run the following cleanup script:",
+        "Note",
+        "Make sure to leave clean rooms (consumer side) and delete clean rooms (provider side)\nin the web app prior to running this script. The consumer databases are dropped automatically\nby the application drop (final step). Run all SELECT statements very carefully.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

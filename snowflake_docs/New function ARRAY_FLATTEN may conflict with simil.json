@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1239",
+    "title": "New function: ARRAY_FLATTEN may conflict with similarly named UDFs | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the current Snowflake release, Snowflake has introduced a new built-in function named ARRAY_FLATTEN.",
+        "ARRAY_FLATTEN flattens an ARRAY of ARRAYs into a single ARRAY.",
+        "If the ARRAY is nested more than two levels deep, then only a single level of nesting is removed.",
+        "If the input ARRAY is NULL or contains any NULL elements, then the result is NULL.",
+        "If you have a UDF named ARRAY_FLATTEN, this behavior change has the following effect:",
+        "Calls to ARRAY_FLATTEN resolve to your UDF.",
+        "Calls to ARRAY_FLATTEN will resolve to the new built-in ARRAY_FLATTEN function.",
+        "The built-in ARRAY_FLATTEN function might work differently than your UDF.",
+        "If the documented semantics of the new built-in ARRAY_FLATTEN function does not match the semantics of your UDF, you can either:",
+        "Rename your UDF (using ALTER FUNCTION \u2026 RENAME TO \u2026) and replace all references\nto the original UDF name with the new name.",
+        "Fully qualify all references to your UDF by specifying the names of the database and\nschema containing the UDF. For example:",
+        "Ref: 1239",
+        "Was this page helpful?"
+    ]
+}

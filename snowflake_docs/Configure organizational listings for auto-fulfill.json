@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/collaboration/listings/organizational/org-listing-auto-fulfillment",
+    "title": "Configure organizational listings for auto-fulfillment | Snowflake Documentation",
+    "paragraphs": [
+        "Auto-fulfillment ensures that data products in organizational listings are propagated across regions\nautomatically, eliminating the need for manual replication. This mechanism provides seamless regional\navailability for data consumers, enhancing consistency and reducing administrative overhead in multi-region\ndata environments.",
+        "Before you begin, make sure you have the necessary privileges to manage auto-fulfillment settings for\norganizational listing.",
+        "If your organization spans multiple regions, you can enable auto-fulfillment for your organizational listings\nto ensure that data products are available in all regions where your organization has a presence.\nAuto-fulfillment happens automatically if it\u2019s enabled for your organization.",
+        "To find your account name (account_name), run this command:",
+        "To check if global data sharing is enabled for your organization account, run this command:",
+        "To enable global data sharing for an organization account, run this command:",
+        "To disable global data sharing for an organization account, run this command:",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-07-18-native-app-external-table",
+    "title": "July 18, 2024 \u2014  Snowflake Native App Framework - Support for shared external table and Apache Iceberg\u2122 tables \u2014 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "We are pleased to announce the preview support for shared external and Apache Iceberg\u2122 tables\nin a Snowflake Native App. This feature allows providers to share\nexternal tables and\niceberg tables with consumers.",
+        "For information on how providers can share an external or Iceberg table in an app, see\nSupport for  external and Iceberg tables.",
+        "Was this page helpful?"
+    ]
+}

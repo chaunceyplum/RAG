@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/querying-approximate-frequent-values",
+    "title": "Estimating Frequent Values | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake uses the Space-Saving algorithm, a space and time efficient way of estimating approximate frequent values in data sets.",
+        "Snowflake provides an implementation of the Space-Saving algorithm presented in Efficient Computation of Frequent and Top-k Elements in Data Streams by Metwally, Agrawal and Abbadi. It is implemented through the APPROX_TOP_K family of functions.",
+        "Additionally, the APPROX_TOP_K_COMBINE function utilizes the parallel Space-Saving algorithm outlined by Cafaro, Pulimeno and Tempesta.",
+        "The percentage of error for the algorithm depends heavily on how skewed the data is, and the number of counters used in the algorithm. As data becomes more skewed, or more counters are used, the output\nwill be more accurate.",
+        "The following Aggregate functions are provided for using Space-Saving to estimate frequent values:",
+        "APPROX_TOP_K: Returns an approximation of frequent values in the input.",
+        "APPROX_TOP_K_ACCUMULATE: Skips the final estimation step and returns the Space-Saving state at the end of an aggregation.",
+        "APPROX_TOP_K_COMBINE: Combines (i.e. merges) input states into a single output state.",
+        "APPROX_TOP_K_ESTIMATE: Computes a cardinality estimate of a Space-Saving state produced by APPROX_TOP_K_ACCUMULATE and APPROX_TOP_K_COMBINE.",
+        "Each counter in our implementation tracks an item and its frequency. Notably, our implementation does not track the epsilon values of counters, as they are only useful for giving guarantees about the\noutput of the algorithm, they are not used for the algorithm itself.",
+        "The maximum number of counters is set to 100 thousand. In this case, there are 100 thousand counters stored in memory, but only a fraction of these are stored in an exported state.",
+        "The maximum number of k is 100 thousand. This value is automatically reduced if all the values cannot fit in the output.",
+        "In most cases, the runtime of our implementation does not depend on the number of counters. Our implementation ensures the number of counters does not have a noticeable effect on the runtime of the\nalgorithm.",
+        "Each counter in each aggregation state uses a constant amount of memory overhead of around 100 bytes. Thus, if an aggregation uses c counters and there are g aggregation groups, the\naggregation will use c * g * 100B of memory, plus memory to store the values. If this memory exceeds the total memory budget, memory is spilled to disk. This is far less memory than the\nexact version would use, especially when there a large number of unique values.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

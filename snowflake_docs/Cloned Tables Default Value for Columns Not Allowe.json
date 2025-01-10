@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_03/bcr-948",
+    "title": "Cloned Tables: Default Value for Columns Not Allowed | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The default value for a column cannot be dropped if the column was added to a table using the ALTER TABLE command. This restriction prevents inconsistency between values in rows inserted before the column was added and rows inserted after the column was added.",
+        "If you create a clone of that table, the column with the DEFAULT value does not inherit the restriction in some cases.",
+        "Columns in cloned tables behave as follows:",
+        "If a source table has a column with a default value that was added after table creation time (that is, using the ALTER TABLE command), dropping the default value for that column is blocked.",
+        "If a table is cloned from that source table, it might not inherit the restriction on dropping the DEFAULT value in some cases.",
+        "The columns in the cloned table will inherit the intended behavior from its source table.",
+        "Ref: 948",
+        "Was this page helpful?"
+    ]
+}

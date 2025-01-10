@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_08/bcr-1773",
+    "title": "CREATE DYNAMIC ICEBERG TABLE command: Write data types to table files (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "With this release, the CREATE DYNAMIC ICEBERG TABLE command behaves as follows:",
+        "Snowflake-managed dynamic Apache Iceberg\u2122 tables created with explicit column definitions do not write iceberg data types to table files.",
+        "Snowflake-managed dynamic Apache Iceberg\u2122 tables created with explicit column definitions write iceberg data types to table files.",
+        "The following is an example of a Snowflake-managed dynamic Apache Iceberg\u2122 table with explicit column definitions:",
+        "Ref: 1773",
+        "Was this page helpful?"
+    ]
+}

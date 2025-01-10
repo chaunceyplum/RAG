@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/sql-api/using-transactions",
+    "title": "Using explicit transactions | Snowflake Documentation",
+    "paragraphs": [
+        "To execute SQL statements in an explicit transaction, you must use a\nsingle HTTP request to specify the start, end, and statements in the\ntransaction. For example:",
+        "As is the case when you specify multiple statements in a request,\nif the request was processed successfully, Snowflake returns a response containing the statementHandles field, which is\nset to an array of handles for the statements in the request (including the BEGIN TRANSACTION and COMMIT statements).",
+        "The handles in the statementHandles field correspond to the statements in the request. In this example, the statements and\ntheir corresponding handles are:",
+        "BEGIN TRANSACTION (019d6ed0-0502-3101-0000-096d00421082)",
+        "INSERT (019d6ed0-0502-3101-0000-096d00421086)",
+        "COMMIT (019d6ed0-0502-3101-0000-096d0042108a)",
+        "SELECT (019d6ed0-0502-3101-0000-096d0042108e)",
+        "You can use these handles to check the status of each statement.",
+        "Was this page helpful?"
+    ]
+}

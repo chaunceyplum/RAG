@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.sample",
+    "title": "snowflake.snowpark.DataFrame.sample | Snowflake Documentation",
+    "paragraphs": [
+        "Samples rows based on either the number of rows to be returned or a\npercentage of rows to be returned.",
+        "frac \u2013 the percentage of rows to be sampled.",
+        "n \u2013 the number of rows to sample in the range of 0 to 1,000,000 (inclusive).",
+        "a DataFrame containing the sample of rows.",
+        "Was this page helpful?"
+    ]
+}

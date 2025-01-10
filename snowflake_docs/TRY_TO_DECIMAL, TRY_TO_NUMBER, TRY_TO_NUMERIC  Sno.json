@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/try_to_decimal",
+    "title": "TRY_TO_DECIMAL, TRY_TO_NUMBER, TRY_TO_NUMERIC | Snowflake Documentation",
+    "paragraphs": [
+        "Conversion functions",
+        "A special version of TO_DECIMAL , TO_NUMBER , TO_NUMERIC that performs the same operation (i.e.\nconverts an input expression to a fixed-point number), but with error-handling\nsupport (i.e. if the conversion cannot be performed, it returns a NULL value\ninstead of raising an error).",
+        "These functions are synonymous.",
+        "For more information, see Error-handling conversion functions.",
+        "Required:",
+        "An expression of type VARCHAR.",
+        "Optional:",
+        "The SQL format model used to parse the input expr and return. For more\ninformation, see SQL format models.",
+        "The maximal number of decimal digits in the resulting number; from 1\nto 38. In Snowflake, precision is not used for determination of the\nnumber of bytes needed to store the number and does not have any effect\non efficiency, so the default is the maximum (38).",
+        "The number of fractional decimal digits (from 0 to precision - 1).\n0 indicates no fractional digits (i.e. an integer number). The default scale\nis 0.",
+        "The function returns NUMBER(p,s), where p is the precision and\ns is the scale.",
+        "If the precision is not specified, then it defaults to 38.",
+        "If the scale is not specified, then it defaults to 0.",
+        "The input must be a string expression.",
+        "This first example fails because the last column (dec_with_range_error)\ndoes not store enough significant digits to hold the value that it is asked\nto hold.",
+        "The next query is the same as the preceding query, except that it uses\nTRY_TO_DECIMAL rather than TO_DECIMAL, so it converts the\nout-of-range value to NULL.",
+        "The next example fails because the input string contains a dollar sign and\na comma to separate groups of digits, not just digits and decimal points. However,\nthe format specifier for the last column does not tell the TO_DECIMAL function\nto expect the dollar sign and comma.",
+        "The next query is the same as the preceding query, except that it uses\nTRY_TO_DECIMAL rather than TO_DECIMAL, so it converts the input\nto NULL.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

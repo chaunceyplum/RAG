@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/document-intelligence",
+    "title": "DOCUMENT_INTELLIGENCE (SNOWFLAKE.ML) | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Available to accounts in AWS and Microsoft Azure commercial regions, with some exceptions. For more information, see Document AI availability.",
+        "Document AI allows you to extract data from documents using a large language model (LLM).",
+        "<model_build_name>!PREDICT",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

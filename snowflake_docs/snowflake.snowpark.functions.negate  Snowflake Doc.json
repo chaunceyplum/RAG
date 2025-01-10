@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.negate",
+    "title": "snowflake.snowpark.functions.negate | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the negation of the value in the column (equivalent to a unary minus).",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/bitshiftright",
+    "title": "BITSHIFTRIGHT | Snowflake Documentation",
+    "paragraphs": [
+        "Bitwise expression functions",
+        "Shifts the bits for a numeric or binary expression n positions to the right.",
+        "BIT_SHIFTRIGHT",
+        "BITSHIFTLEFT",
+        "This expression must evaluate to an INTEGER value, a BINARY value, or a value of a data type\nthat can be cast to an INTEGER value.",
+        "The number of bits to shift by.",
+        "Returns an INTEGER value, a BINARY value, or NULL:",
+        "When the input expression contains an INTEGER value, returns a signed 128-bit (16-byte) integer,\nregardless of the size or data type of the input data value.",
+        "When the input expression contains a BINARY value, returns a BINARY value.",
+        "If any argument is NULL, returns NULL.",
+        "If the data type of the argument is numeric\nbut not INTEGER (e.g. FLOAT, DECIMAL, etc.), then the argument is cast to an INTEGER value.",
+        "If the data type of the argument is a string (e.g. VARCHAR), then the\nargument is cast to an INTEGER value if possible. For example, the string 12.3\nis cast to 12. If the value cannot be cast to an INTEGER value, then the\nvalue is treated as NULL.",
+        "The function does not implicitly cast arguments to BINARY values.",
+        "The following sections contain examples for INTEGER argument values and BINARY argument values.",
+        "Create a simple table and data:",
+        "Run the query:",
+        "Create a simple table and insert the data:",
+        "Note",
+        "The BINARY values are inserted using the x'value' notation, where value contains\nhexadecimal digits. For more information, see Binary input and output.",
+        "Run the query:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

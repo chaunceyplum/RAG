@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/schemas/schemas-introduction",
+    "title": "Manage database schemas | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "The Snowflake REST Schema API provides the following endpoints to manage Snowflake schemas:",
+        "Endpoint",
+        "Description",
+        "GET /api/v2/databases/database/schemas",
+        "Lists the available schemas.",
+        "POST /api/v2/databases/database/schemas",
+        "Creates a schema.",
+        "POST /api/v2/databases/database/schemas/name/clone",
+        "Clones a schema.",
+        "POST /api/v2/databases/database/schemas/name/clone",
+        "Undrop a schema.",
+        "POST /api/v2/databases/database/schemas/name:undrop",
+        "Fetches a schema.",
+        "PUT /api/v2/databases/database/schemas/name",
+        "Creates a new or alters an existing schema.",
+        "DELETE /api/v2/databases/database/schemas/name",
+        "Deletes a schema.",
+        "For reference documentation, see Snowflake Schema API reference.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

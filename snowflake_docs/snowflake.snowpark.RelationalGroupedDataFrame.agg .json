@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.RelationalGroupedDataFrame.agg",
+    "title": "snowflake.snowpark.RelationalGroupedDataFrame.agg | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a DataFrame with computed aggregates. See examples in DataFrame.group_by().",
+        "exprs \u2013",
+        "A variable length arguments list where every element is",
+        "A Column object",
+        "A tuple where the first element is a column object or a column name and the second element is the name of the aggregate function",
+        "A list of the above",
+        "or a dict maps column names to aggregate function names.",
+        "",
+        "Note",
+        "The name of the aggregate function to compute must be a valid Snowflake aggregate function.",
+        "See also",
+        "DataFrame.agg()",
+        "DataFrame.group_by()",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_get_directory_table_status",
+    "title": "SYSTEM$GET_DIRECTORY_TABLE_STATUS | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Returns a list of records that contain the directory table consistency status for\nstages in your account. Consistency status indicates whether a directory table on a replicated stage has information about (is consistent with) all of the replicated files on the stage.",
+        "Stage, pipe, and load history replication , Directory tables",
+        "Optional:",
+        "Stage for which you want to retrieve the directory table consistency status. When you specify a stage name, the function returns a list\nwith a single record for the directory table on that stage.",
+        "Returns a list of directory table consistency records for each stage in your account.  The list contains a maximum of 10,000 records.\nIf you specify a 'stage_name' argument, the function returns a list with a single record for the directory table on that stage.",
+        "The records are in JSON format and contain the following name/value pairs:",
+        "Where:",
+        "The stage on which the directory table is enabled.",
+        "Consistency status for the directory table. CONSISTENT if the directory table is fully consistent with the replicated content\non the stage; INCONSISTENT otherwise. A status of INCONSISTENT means that Snowflake cannot verify consistency,\nand that the directory table might be missing information about some files that exist on the stage.",
+        "To call this function, you must use a role that is granted or inherits the READ privilege on the stage(s) for which you want to\nretrieve consistency status.",
+        "To update the consistency status from INCONSISTENT to CONSISTENT, perform a full refresh using the\nALTER STAGE \u2026 REFRESH command.",
+        "The following example retrieves a list of consistency status records for the stages in the account:",
+        "Output:",
+        "The following example retrieves a consistency status record for a stage named stage1:",
+        "Output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

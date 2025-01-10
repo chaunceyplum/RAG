@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.exceptions.ServerError",
+    "title": "snowflake.core.exceptions.ServerError | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: APIError",
+        "Raised when we encounter an HTTP error code of 5NN.",
+        "Was this page helpful?"
+    ]
+}

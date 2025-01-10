@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/trunc",
+    "title": "TRUNCATE , TRUNC | Snowflake Documentation",
+    "paragraphs": [
+        "Numeric functions (Rounding and Truncation)",
+        "Rounds the input expression down to the nearest (or equal) integer closer to zero,\nor to the nearest equal or smaller value with the specified number of places after the decimal point.",
+        "These functions are synonymous.",
+        "Note",
+        "TRUNC is overloaded; it can also be used as a date/time function to truncate dates, times, and timestamps to a specified part.",
+        "CEIL , FLOOR , ROUND",
+        "The value or expression to operate on. The data type should be one of the numeric data types, such as FLOAT or NUMBER.",
+        "The number of digits the output should include after the decimal point. The expression should evaluate to an\ninteger from -38 to +38.",
+        "The default scale_expr is zero, meaning that the function removes all digits after the decimal point.",
+        "For information about negative scales, see the Usage Notes below.",
+        "The data type of the returned value is NUMBER(precision, scale).",
+        "If the input scale was greater than or equal to zero, then the output scale generally matches the input scale.",
+        "If the input scale was negative, then the output scale is 0.",
+        "The data type returned by TRUNCATE(3.14, 1) is NUMBER(4, 1).",
+        "The data type returned by TRUNCATE(3.14, 0) is NUMBER(4, 0).",
+        "The data type returned by TRUNCATE(33.33, -1) is NUMBER(5, 0).",
+        "If the scale is zero, then the value is effectively an integer.",
+        "If scale_expr is negative, then it specifies the number of places before the decimal point to\nwhich to adjust the number. For example, if the scale is -2, then the result is a multiple of 100.",
+        "If scale_expr is larger than the input expression scale, the function does not have any effect.",
+        "If either the input_expr or the scale_expr is NULL, then the result is NULL.",
+        "Truncation is performed towards 0, not towards the smaller number. For example, TRUNCATE(-9.6) results in -9, not -10.",
+        "The following examples demonstrate the TRUNC function.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

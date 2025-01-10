@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/unstructured-ts",
+    "title": "Troubleshooting processing of unstructured data | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides instructions for resolving issues specific to processing unstructured data.",
+        "When attempting to open a file downloaded from a stage using a URL, you could encounter an error such as invalid format.",
+        "Verify that the ENCRYPTION property for the stage is configured for server-side encryption. Server-side encryption is required to access\nstaged files using a URL. For more information, see Server-side encryption for unstructured data access.",
+        "For external stages, the server-side encryption setting varies by cloud storage provider. For internal stages, set the ENCRYPTION property\nvalue to SNOWFLAKE_SSE.",
+        "The encryption type is specified when creating a stage (using CREATE STAGE) or later\n(using ALTER STAGE).",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

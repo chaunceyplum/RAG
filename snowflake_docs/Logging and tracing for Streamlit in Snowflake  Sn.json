@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/streamlit/logging-tracing",
+    "title": "Logging and tracing for Streamlit in Snowflake | Snowflake Documentation",
+    "paragraphs": [
+        "You can capture log messages and trace events of your Streamlit app code as it executes and then analyze the results with SQL,\nfor example, to analyze errors. For more information, see Logging, tracing, and metrics.",
+        "To log and trace Streamlit app code, you need to create an event table, associate the event table with an account,\nand set the log and trace events levels. For example:",
+        "For more information, see Event table overview.",
+        "Note",
+        "The following example requires installing the snowflake-telemetry-python package.\nFor more information, see Adding support for the telemetry package.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

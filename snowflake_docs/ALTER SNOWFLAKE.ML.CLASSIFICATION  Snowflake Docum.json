@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/classification/commands/alter-classification",
+    "title": "ALTER SNOWFLAKE.ML.CLASSIFICATION | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to all accounts.",
+        "You can change the name, description, and tags of a classification model object using forms of the ALTER command. Models\nthemselves are immutable and cannot be updated in place. To update a model, drop the existing model and train a new one.",
+        "CREATE SNOWFLAKE.ML.CLASSIFICATION",
+        "Rename a model:",
+        "Set or change a tag value on a model:",
+        "Set or change a model\u2019s comment:",
+        "Remove a tag from a model:",
+        "Remove a model\u2019s comment:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

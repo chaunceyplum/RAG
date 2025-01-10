@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/classification/methods/show_global_evaluation_metrics",
+    "title": "<model_name>!SHOW_GLOBAL_EVALUATION_METRICS | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to all accounts.",
+        "Returns overall evaluation metrics for models where evaluation was enabled at instantiation.  This method\ntakes no arguments. See Metrics in show_global_evaluation_metrics.",
+        "Column",
+        "Type",
+        "Description",
+        "dataset_type",
+        "VARCHAR",
+        "The name of the dataset used for metrics calculation, currently EVAL.",
+        "average_type",
+        "VARCHAR",
+        "The method of aggregation used to calculate overall metrics from the individual class metrics, currently MACRO.",
+        "error_metric",
+        "VARCHAR",
+        "The error metric name. Can include Precision, Recall, F1, etc.",
+        "metric_value",
+        "FLOAT",
+        "The error metric value",
+        "logs",
+        "VARIANT",
+        "Contains error or warning messages.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

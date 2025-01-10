@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/least_ignore_nulls",
+    "title": "LEAST_IGNORE_NULLS | Snowflake Documentation",
+    "paragraphs": [
+        "Conditional expression functions",
+        "Returns the smallest non-NULL value from a list of expressions. LEAST_IGNORE_NULLS supports all data types,\nincluding VARIANT.",
+        "LEAST",
+        "The arguments must include at least one expression. All the expressions\nshould be of the same type or compatible types.",
+        "The first argument determines the return type:",
+        "If the first type is numeric, then the return type is \u2018widened\u2019\naccording to the numeric types in the list of all arguments.",
+        "If the first type is not numeric, then all other arguments must be\nconvertible to the first type.",
+        "If all arguments are NULL, returns NULL.",
+        "The collation specifications of all input arguments must be compatible.",
+        "The comparisons follow the collation based on the input arguments\u2019 collations and precedences.",
+        "The collation of the result of the function is the highest-precedence collation of the inputs.",
+        "Create a table and insert some values:",
+        "Run a SELECT statement that returns the lowest non-null value in each row of the table:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

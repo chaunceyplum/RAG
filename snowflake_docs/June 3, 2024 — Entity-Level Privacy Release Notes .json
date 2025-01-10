@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-06-03-entity-level",
+    "title": "June 3, 2024 \u2014 Entity-Level Privacy Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the general availability of entity-level privacy with aggregation policies. Aggregation\npolicies require queries to aggregate data into groups rather than return row-level results. Aggregation policies with entity-level privacy\nensures that each of those groups contains a minimum number of entities, where an entity is a logical object that needs to be protected\nsuch as people, organizations, and locations.",
+        "For more information, see Implementing entity-level privacy with aggregation policies.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

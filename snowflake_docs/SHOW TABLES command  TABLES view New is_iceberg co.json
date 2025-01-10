@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1448",
+    "title": "SHOW TABLES command / TABLES view: New is_iceberg column | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of the following command and views is as follows:",
+        "SHOW TABLES command",
+        "TABLES view (Account Usage)",
+        "TABLES view (Information Schema)",
+        "The command output views do not include the is_iceberg column.",
+        "The command output and views include the is_iceberg column.\nThis column is a placeholder for future functionality.",
+        "Ref: 1448",
+        "Was this page helpful?"
+    ]
+}

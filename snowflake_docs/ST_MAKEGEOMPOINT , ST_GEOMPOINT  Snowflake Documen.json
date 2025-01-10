@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_makegeompoint",
+    "title": "ST_MAKEGEOMPOINT , ST_GEOMPOINT | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Constructs a GEOMETRY object that represents a Point with the specified longitude and latitude.",
+        "TO_GEOMETRY",
+        "A REAL that represents the longitude.",
+        "A REAL that represents the latitude.",
+        "The function returns a value of type GEOMETRY.",
+        "ST_GEOMPOINT is an alias for ST_MAKEGEOMPOINT.",
+        "For examples, see Examples comparing the GEOGRAPHY and GEOMETRY data types. The examples use the\nST_GEOMPOINT alias.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

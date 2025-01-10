@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-02-15",
+    "title": "February 15, 2024 \u2014 Geospatial Functions Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "H3 functions for GEOGRAPHY objects are now generally available. H3 is a\nhierarchical geospatial index that partitions the world into hexagonal cells in\na discrete global grid system. Snowflake provides the SQL functions that\nenable you to use H3 with geospatial data that are either stored in a GEOGRAPHY object or as\ndiscrete latitude and longitude columns.",
+        "For more information, see Using GEOGRAPHY objects with H3.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

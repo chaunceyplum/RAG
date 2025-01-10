@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/performance-query-warehouse",
+    "title": "Optimizing warehouses for performance | Snowflake Documentation",
+    "paragraphs": [
+        "In the Snowflake architecture, virtual warehouses provide the computing power that is required to execute queries. Fine-tuning the compute\nresources provided by a warehouse can improve the performance of a query or set of queries.",
+        "A warehouse owner or administrator can try the following warehouse-related strategies as they attempt to improve the performance of one or\nmore queries. As they adjust a warehouse based on one of these strategies, they can test the change by re-running the query and\nchecking its execution time.",
+        "Warehouse-related strategies are just one way to boost the performance of queries. For performance strategies involving how data\nis stored, refer to Optimizing storage for performance.",
+        "Strategy",
+        "Description",
+        "Reduce queues",
+        "Minimizing queuing can improve performance because the time between submitting a query and getting its results is longer when the\nquery must wait in a queue before starting.",
+        "Resolve memory spillage",
+        "Adjusting the available memory of a warehouse can improve performance because a query runs substantially slower when a warehouse runs\nout of memory, which results in bytes \u201cspilling\u201d onto storage.",
+        "Increase warehouse size",
+        "The larger a warehouse, the more compute resources are available to execute a query or set of queries.",
+        "Try query acceleration",
+        "The query acceleration service offloads portions of query processing to serverless compute resources, which speeds up the processing\nof a query while reducing its demand on the warehouse\u2019s compute resources.",
+        "Optimize the warehouse cache",
+        "Query performance improves if a query can read from the warehouse\u2019s cache instead of from tables.",
+        "Limit concurrently running queries",
+        "Limiting the number of queries that are running concurrently in a warehouse can improve performance because there are fewer queries\nputting demands on the warehouse\u2019s resources.",
+        "Tip",
+        "Optimizing a warehouse for query performance is more straightforward when the warehouse runs similar workloads. For example, if a\nwarehouse runs significantly different queries, the cost of a performance enhancement might be wasted on a query that does not benefit\nfrom the optimization.",
+        "For general guidelines about distributing workloads to your organization\u2019s warehouses, see the Analyzing Your Workloads section of\nthe Managing Snowflake\u2019s Compute Resources (Snowflake blog).",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

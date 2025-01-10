@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/h3_latlng_to_cell",
+    "title": "H3_LATLNG_TO_CELL | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns the INTEGER value of the H3 cell ID for a given latitude, longitude, and\nresolution.",
+        "H3_LATLNG_TO_CELL_STRING",
+        "A FLOAT that represents the latitude.",
+        "Values outside the standard latitude range are wrapped to the range [-90, 90].",
+        "A FLOAT that represents the longitude.",
+        "Values outside the standard longitude range are wrapped to the range [-180, 180].",
+        "An INTEGER between 0 and 15 (inclusive) specifying the H3 resolution that you want to use for the returned H3 cell.",
+        "Specifying any other INTEGER value results in an error.",
+        "Returns an INTEGER value that corresponds to the H3 cell ID for the given location and resolution.",
+        "Specifying NaN or Inf values for any input argument results in an error.",
+        "The following example returns the H3 cell ID for the Brandenburg Gate at resolution 8.",
+        "The following example specifies a longitude value (373.377704) that is outside of the traditional longitude range\n(-180 to 180). The function interprets this value as 13.377704 (373.377704 modulo 180).",
+        "The following example demonstrates that you cannot specify a resolution outside of 0 through 15.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

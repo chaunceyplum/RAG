@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/billing-reconcile",
+    "title": "Reconcile a billing usage statement | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake generates billing usage statements for customers with at least one active contract,\nalso known as the Snowflake Order Form.",
+        "This topic describes how to use queries to reconcile a statement with the usage data found in the billing views of the\nOrganization Usage schema. You need to execute these queries using the ACCOUNTADMIN role in an\naccount that has the ORGADMIN role enabled.",
+        "Note",
+        "When executing queries to reconcile usage incurred prior to March 1, 2024, the results of the query might differ slightly from those in\nthe usage statement. Before this date, some billing views did not round values to match the usage statement. For example, prior to March\n1, 2024:",
+        "Usage of $0.001 or -$0.001 were not included in usage statements but were included in the billing views.",
+        "Usage of $1.004 was rounded down to $1.00 in the usage statement but not in the billing views.",
+        "Usage of $1.006 was rounded up to $1.01 in the usage statement but not in the billing views.",
+        "Differences between query results and usage statements are small, ranging from a few cents to less than 10 dollars, depending on how long\nthe contract has been active.",
+        "Snowflake customers with a contract make an upfront financial commitment to pay for a specified amount of usage (that is, a capacity\ncommitment). As the customer uses Snowflake, the currency spent is deducted from this capacity commitment. The Summary section of each\nusage statement identifies the remaining balance on a contract, which is calculated by subtracting the total usage since the start of the\ncontract from the original capacity commitment.",
+        "Use the following query to reconcile the remaining balance shown on a usage statement with data in the\nREMAINING_BALANCE_DAILY view. Replace the date with the last day of the month shown on the usage\nstatement.",
+        "Note",
+        "If the subscription term of a contract has ended, the preceding query correctly returns 0, but the value in the usage statement might\nbe a number other than zero. This is a known discrepancy that will be addressed in a future update.",
+        "Snowflake keeps track of how much has been spent on usage since the start of a contract, and classifies this amount as Total Consumed, which\nis found in the Summary section of a usage statement. This consumption is tracked in currency spent, not credits consumed.",
+        "Use the following query to reconcile the total consumption shown on a usage statement with data in the\nUSAGE_IN_CURRENCY_DAILY view. The total consumption returned by the query does not include usage whose\nbalance_source is overage. Replace the date with the last day of the month shown on the usage statement.",
+        "The Monthly Usage section of a statement includes a line item for each account in the organization. Each line item shows the total usage in\nan account for the month. It shows how many credits were consumed and the amount spent in currency.",
+        "Use the following query to reconcile the total monthly usage of each account with the data in the\nUSAGE_IN_CURRENCY_DAILY view. The total usage returned by the query does not include usage whose\nbalance_source is overage. Replace the date with the last day of the month shown on the usage statement.",
+        "Note",
+        "There are different naming conventions for regions within Snowflake. The name of the region returned by the preceding query might not\nmatch what you see in the Monthly Usage section of the usage statement, but it refers to the same region. This is a known\ndiscrepancy that will be addressed in a future update.",
+        "Snowflake usage can be attributed to different features and architectural components. The Monthly\nUsage section of a statement itemizes usage based on the source of the usage, grouped by the account where the usage occurred. For example,\nusage attributed to automatic clustering in account account_1 appears on a different line than automatic clustering usage in account\naccount_2. Each line shows how many credits were consumed and the amount spent in currency.",
+        "Use the following query to reconcile individual categories of usage shown in the statement\u2019s Monthly Usage section with data in the\nUSAGE_IN_CURRENCY_DAILY view. Like the statement, each type of usage is grouped by account in the\nquery results. Replace the date with the last day of the month shown on the usage statement.",
+        "Note",
+        "There are different naming conventions for regions within Snowflake. The name of the region returned by the preceding query might not\nmatch what you see in the Monthly Usage section of the usage statement, but it refers to the same region. This is a known\ndiscrepancy that will be addressed in a future update.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

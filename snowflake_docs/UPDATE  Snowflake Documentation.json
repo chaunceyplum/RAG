@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/update",
+    "title": "UPDATE | Snowflake Documentation",
+    "paragraphs": [
+        "Updates specified rows in the target table with new values.",
+        "Specifies the table to update.",
+        "Specifies the name of a column in target_table. Do not include the table name. For example, UPDATE t1 SET t1.col = 1\nis invalid.",
+        "Specifies the new value to set in col_name.",
+        "Specifies one or more tables to use for selecting rows to update or for setting new values. Note that repeating the target table results\nin a self-join.",
+        "Expression that specifies the rows in the target table to update.",
+        "Default: No value (all rows of the target table are updated)",
+        "When a FROM clause contains a JOIN between\ntables (e.g. t1 and t2), a target row in t1 may join against (i.e. match) more than one row in table t2. When\nthis occurs, the target row is called a multi-joined row. When updating a multi-joined row, the\nERROR_ON_NONDETERMINISTIC_UPDATE session parameter controls the outcome of the update:",
+        "If FALSE (default value), no error is returned and one of the joined rows is used to update the target row; however, the\nselected joined row is nondeterministic.",
+        "IF TRUE, an error is returned, including an example of the values of a target row that joins multiple rows.",
+        "To set the parameter:",
+        "Perform a standard update using two tables:",
+        "Update with join that produces nondeterministic results:",
+        "With ERROR_ON_NONDETERMINISTIC_UPDATE = FALSE, the statement randomly updates the single row in target using\nvalues from one of the following rows in src:",
+        "(0, 11) , (0, 12) , (0,13)",
+        "With ERROR_ON_NONDETERMINISTIC_UPDATE = TRUE, an error is returned reporting a duplicate DML row [0, 10].",
+        "To avoid this nondeterministic behavior and error, use a 1-to-1 join:",
+        "This statement results in the single row in target updated to (0, 11) (values from the row with the minimum value for\nv in src) and will never result in an error.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

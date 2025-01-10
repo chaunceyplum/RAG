@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/native-apps/create-manage-apps",
+    "title": "Creating and managing Snowflake Native App objects | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "You can perform the following operations when creating and managing Snowflake Native App objects:",
+        "Creating a Snowflake Native App project",
+        "Preparing a local folder with configured Snowflake Native App artifacts",
+        "Validating an application package",
+        "Creating and installing your application",
+        "Creating an application package with a version (or patch)",
+        "Listing all versions defined in an application package",
+        "Opening an app in a browser",
+        "Dropping an existing version of an app in an application package",
+        "Dropping Snowflake Native App objects",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

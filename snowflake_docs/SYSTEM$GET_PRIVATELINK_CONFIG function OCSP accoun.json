@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1212",
+    "title": "SYSTEM$GET_PRIVATELINK_CONFIG function: OCSP account identifier URL added to output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of the SYSTEM$GET_PRIVATELINK_CONFIG function is as follows:",
+        "The output of this function does not include the OCSP URL for your account identifier.",
+        "The output of this function does include the OCSP URL for your account identifier. The value is recorded as follows:",
+        "\"regionless-privatelink-ocsp-url\": \"ocsp.org_name-account_name.privatelink.snowflakecomputing.com\"",
+        "Where:",
+        "org_name is the name of your Snowflake organization.",
+        "account_name is the unique name of your account within your organization.",
+        "Call the function to obtain the value:",
+        "Ref: 1212",
+        "Was this page helpful?"
+    ]
+}

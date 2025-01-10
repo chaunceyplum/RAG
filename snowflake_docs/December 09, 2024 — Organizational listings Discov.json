@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-12-09-dbna",
+    "title": "December 09, 2024 \u2014 Organizational listings: Discovery and access \u2014 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake would like to announce the preview of enhancements to Organizational listing: discovery and access.",
+        "With this release, Listing creators can now configure both the access and discovery of organizational listings.\nListing creators can now define how various accounts and roles in their organization can discover and access the organizational listings.\nFor example, to specify who can discover and request access to a listing, the Listing owner can select the entire organization,\na list of accounts, or a specific role(s) in an account.\nSimilarly, the listing creator can also specify who can access the Listing directly in the Internal Marketplace.\nThe possible values are the entire organization, a list of accounts, or a specific role(s) in an account.",
+        "For more information see Create an organizational listing.",
+        "Note",
+        "The rollout of this feature is scheduled to begin on December 9th and continue for approximately 6 weeks.\nFor questions, contact Snowflake Support or your  Snowflake representative.",
+        "Was this page helpful?"
+    ]
+}

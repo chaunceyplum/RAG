@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/snowflake-scripting/return",
+    "title": "RETURN (Snowflake Scripting) | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the value of a specified expression.",
+        "For more information about returning values, see Returning a value.",
+        "Note",
+        "This Snowflake Scripting construct is valid only within a\nSnowflake Scripting block.",
+        "Where:",
+        "An expression that evaluates to the value to return.",
+        "A RETURN statement can be executed in:",
+        "A stored procedure.",
+        "An anonymous block.",
+        "A RETURN statement returns one of the following types:",
+        "A SQL data type",
+        "A table. Use TABLE(...) in the RETURN statement.",
+        "If your block is in a stored procedure, you must also specify the RETURNS TABLE... clause in the\nCREATE PROCEDURE statement.",
+        "Note",
+        "Currently, in the RETURNS TABLE(...) clause, you can\u2019t specify GEOGRAPHY as a column type. This\napplies whether you are creating a stored or anonymous procedure.",
+        "If you attempt to specify GEOGRAPHY as a column type, calling the stored procedure results in the error:",
+        "To work around this issue, you can omit the column arguments and types in RETURNS TABLE().",
+        "If you want to return the data that a RESULTSET points to, pass the RESULTSET to TABLE(\u2026), as shown in the example below:",
+        "See Returning a RESULTSET as a table.",
+        "You can set a variable to the return value of a stored procedure. For more information, see\nUsing the value returned from a stored procedure call.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

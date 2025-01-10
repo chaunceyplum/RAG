@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrameReader.format",
+    "title": "snowflake.snowpark.DataFrameReader.format | Snowflake Documentation",
+    "paragraphs": [
+        "Specify the format of the file(s) to load.",
+        "format \u2013 The format of the file(s) to load. Supported formats are csv, json, avro, parquet, orc, and xml.",
+        "a DataFrameReader instance that is set up to load data from the specified file format in a Snowflake stage.",
+        "Was this page helpful?"
+    ]
+}

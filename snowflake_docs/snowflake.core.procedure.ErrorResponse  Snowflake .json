@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.procedure.ErrorResponse",
+    "title": "snowflake.core.procedure.ErrorResponse | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: BaseModel",
+        "A model object representing the ErrorResponse resource.",
+        "Constructs an object of type ErrorResponse with the provided properties.",
+        "message (str, optional) \u2013 Error message returned by the server",
+        "code (str, optional) \u2013 Error code.",
+        "error_code (str, optional) \u2013 Error code, same as code above. This property has been deprecated and will be removed in a future release, but is temporarily supported for for short-term backward compatibility.",
+        "request_id (str, optional) \u2013 Unique request ID.",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of ErrorResponse from a dict.",
+        "Create an instance of ErrorResponse from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/rollback",
+    "title": "ROLLBACK | Snowflake Documentation",
+    "paragraphs": [
+        "Rolls back an open transaction in the current session.",
+        "BEGIN , COMMIT , SHOW TRANSACTIONS , DESCRIBE TRANSACTION",
+        "Optional keyword that provides compatibility with other database systems.",
+        "Begin a transaction, insert some values into a table, and then complete the transaction by rolling back the changes made in the transaction:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/atan",
+    "title": "ATAN | Snowflake Documentation",
+    "paragraphs": [
+        "Numeric functions (Trigonometric)",
+        "Computes the inverse tangent (arc tangent) of its argument; the result is a number in the interval [-pi, pi].",
+        "This expression should evaluate to a real number.",
+        "Returns the arc tangent in radians (not degrees) in the range [-pi, pi].",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

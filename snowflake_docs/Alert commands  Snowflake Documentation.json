@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/commands-alert",
+    "title": "Alert commands | Snowflake Documentation",
+    "paragraphs": [
+        "Alert commands enable you to manage your alerts.",
+        "CREATE ALERT",
+        "ALTER ALERT",
+        "DESCRIBE ALERT",
+        "DROP ALERT",
+        "SHOW ALERTS",
+        "EXECUTE ALERT",
+        "Was this page helpful?"
+    ]
+}

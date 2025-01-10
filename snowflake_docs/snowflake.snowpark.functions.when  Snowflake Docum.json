@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.when",
+    "title": "snowflake.snowpark.functions.when | Snowflake Documentation",
+    "paragraphs": [
+        "Works like a cascading if-then-else statement.\nA series of conditions are evaluated in sequence.\nWhen a condition evaluates to TRUE, the evaluation stops and the associated\nresult (after THEN) is returned. If none of the conditions evaluate to TRUE,\nthen the result after the optional OTHERWISE is returned, if present;\notherwise NULL is returned.",
+        "condition \u2013 A Column expression or SQL text representing the specified condition.",
+        "value \u2013 A Column expression or a literal value, which will be returned\nif condition is true.",
+        "Example:",
+        "Multiple when statements can be changed and otherwise/else_ used to create expressions similar to CASE WHEN ... ELSE ... END in SQL.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

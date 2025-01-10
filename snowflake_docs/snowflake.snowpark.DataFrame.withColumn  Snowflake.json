@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.withColumn",
+    "title": "snowflake.snowpark.DataFrame.withColumn | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a DataFrame with an additional column with the specified name\ncol_name. The column is computed by using the specified expression col.",
+        "If a column with the same name already exists in the DataFrame, that column is\nreplaced by the new column.",
+        "Example 1:",
+        "Example 2:",
+        "col_name \u2013 The name of the column to add or replace.",
+        "col \u2013 The Column or table_function.TableFunctionCall with single column output to add or replace.",
+        "Was this page helpful?"
+    ]
+}

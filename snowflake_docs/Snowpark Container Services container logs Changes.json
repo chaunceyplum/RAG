@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_07/bcr-1682",
+    "title": "Snowpark Container Services container logs: Changes to resource attributes | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_07 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Snowflake can capture and record local container logs from your application containers into the event table configured for your account.",
+        "The JSON object in the RESOURCE_ATTRIBUTES column in the event table provides information such as  the service container that generated the log message, compute pool where the service is running, and others.",
+        "When this behavior change bundle is enabled, the JSON object in the RESOURCE_ATTRIBUTES column in the event table will change as described below:",
+        "Field names before the change",
+        "Field names after the change",
+        "\u201csnow.containers.compute_pool.id\u201d .\n\u201csnow.containers.compute_pool.name\u201d",
+        "\u201csnow.compute_pool.id\u201d .\n\u201csnow.compute_pool.name\u201d",
+        "Not previously present",
+        "\u201csnow.compute_pool.node.id\u201d .\n\u201csnow.compute_pool.node.instance_family\u201d",
+        "\u201csnow.containers.container.name\u201d .\n\u201csnow.containers.instance.name\u201d .\n\u201csnow.containers.restart.id\u201d",
+        "\u201csnow.service.container.name\u201d .\n\u201csnow.service.container.instance\u201d .\n\u201csnow.service.container.run.id\u201d",
+        "\u201csnow.executable.id\u201d .\n\u201csnow.executable.name\u201d .\n\u201csnow.executable.type\u201d",
+        "\u201csnow.service.id\u201d .\n\u201csnow.service.name\u201d .\n\u201csnow.service.type\u201d .",
+        "\u201csnow.executable.type\u201d",
+        "Removed",
+        "\u201csnow.account.name\u201d .\n\u201csnow.database.id\u201d .\n\u201csnow.database.name\u201d .\n\u201csnow.schema.id\u201d",
+        "No change. These field remain as is.",
+        "The following is an example of resource attributes for a container log entry in the event table when this behavior change is enabled.",
+        "Ref: 1682",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/classification/methods/show_confusion_matrix",
+    "title": "<model_name>!SHOW_CONFUSION_MATRIX | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to all accounts.",
+        "Returns a table containing the number of instances of each combination of actual class and predicted class in models\nwhere evaluation was enabled at instantiation. You can use this dataset to plot a confusion matrix. This method takes no\narguments. See Confusion Matrix in show_confusion_matrix.",
+        "Column",
+        "Type",
+        "Description",
+        "dataset_type",
+        "VARCHAR",
+        "The name of the dataset used for metrics calculation, currently EVAL.",
+        "actual_class",
+        "VARCHAR",
+        "The actual class.",
+        "predicted_class",
+        "VARCHAR",
+        "The predicted class.",
+        "count",
+        "INTEGER",
+        "The number of instances of the given combination of actual and predicted class.",
+        "logs",
+        "VARIANT",
+        "Contains error or warning messages.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

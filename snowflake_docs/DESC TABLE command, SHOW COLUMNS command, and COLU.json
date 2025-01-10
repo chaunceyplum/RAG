@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1377",
+    "title": "DESC TABLE command, SHOW COLUMNS command, and COLUMNS views: Add new SchemaEvolutionRecord column | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this bundle is enabled, a new SchemaEvolutionRecord column is added to the output of the following commands and views:",
+        "DESC TABLE command",
+        "SHOW COLUMNS command",
+        "COLUMNS View (Information Schema)",
+        "COLUMNS View (Account Usage)",
+        "The output of the aforementioned commands and views does not have the SchemaEvolutionRecord column.",
+        "The output of the aforementioned commands and views adds a new SchemaEvolutionRecord column.",
+        "The DESC TABLE command displays the SchemaEvolutionRecord column for tables that have Table Schema Evolution enabled (that is, the ENABLE_SCHEMA_EVOLUTION parameter is set to TRUE). In the case that no evolutions have occurred for the table, the column shows all NULLs.",
+        "The SHOW COLUMNS command and COLUMNS views (Information_schema and Account_usage) always display the SchemaEvolutionRecord column. In the case that no tables have schema evolution enabled or no evolutions have occurred, the column shows all NULLs.",
+        "This new column will be set to NULL when the user manually modifies the table column after an evolution has occurred. The record will be reinstated if another schema evolution occurs on the column.",
+        "Column name",
+        "Description",
+        "SchemaEvolutionRecord",
+        "Records information about the latest triggered Schema Evolution for a given table column. This column contains the following subfields:",
+        "EvolutionType: The type of the triggered schema evolution (ADD_COLUMN or DROP_NOT_NULL).",
+        "EvolutionMode: The triggering ingestion mechanism (COPY or SNOWPIPE).",
+        "FileName: The file name that triggered the evolution.",
+        "TriggeringTime: The approximate time when the column was evolved.",
+        "QueryId or PipeID: A unique identifier of the triggering query or pipe (QUERY ID for COPY or PIPE ID for SNOWPIPE).",
+        "Ref: 1377",
+        "Was this page helpful?"
+    ]
+}

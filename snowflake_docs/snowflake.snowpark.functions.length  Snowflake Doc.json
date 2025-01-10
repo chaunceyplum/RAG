@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.length",
+    "title": "snowflake.snowpark.functions.length | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the length of an input string or binary value. For strings,\nthe length is the number of characters, and UTF-8 characters are counted as a\nsingle character. For binary, the length is the number of bytes.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

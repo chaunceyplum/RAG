@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/notebook-commands/overview",
+    "title": "snow notebook commands | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Snowflake CLI supports the following commands for managing Snowflake notebooks:",
+        "snow notebook create",
+        "snow notebook execute",
+        "snow notebook get-url",
+        "snow notebook open",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

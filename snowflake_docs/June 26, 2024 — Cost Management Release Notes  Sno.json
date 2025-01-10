@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-06-26-cost",
+    "title": "June 26, 2024 \u2014 Cost Management Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the general availability of an Organization Overview page in Snowsight that\nallows you to gain organization-level insights into the cost of using Snowflake, including:",
+        "Details about the current contract.",
+        "The remaining balance of the contract.",
+        "The accumulated cost of Snowflake usage since the start of the contract.",
+        "The monthly spend for the organization.",
+        "An overview of the consumption of each account in the organization.",
+        "For more details about using the Organization Overview page, see Overview of organization-level costs.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

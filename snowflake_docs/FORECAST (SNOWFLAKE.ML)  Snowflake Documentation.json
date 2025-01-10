@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/forecast",
+    "title": "FORECAST (SNOWFLAKE.ML) | Snowflake Documentation",
+    "paragraphs": [
+        "A forecast model produces a forecast for a single time series or for multiple time series. You use\nCREATE SNOWFLAKE.ML.FORECAST to create and train the forecasting model, then use the model\u2019s\n<model_name>!FORECAST method to produce forecasts. The <model_name>!EXPLAIN_FEATURE_IMPORTANCE\nmethod provides information about how each feature in the training data influences the forecast. The\n<model_name>!SHOW_TRAINING_LOGS method provides error messages for any time series whose models failed to\nfit. The <model_name>!SHOW_EVALUATION_METRICS method provides evaluation metrics on out-of-sample data.",
+        "Important",
+        "Legal notice. This Snowflake ML function is powered by machine learning technology. Machine\nlearning technology and results provided may be inaccurate, inappropriate, or biased. Decisions based on machine\nlearning outputs, including those built into automatic pipelines, should have human oversight and review processes\nto ensure model-generated content is accurate. Snowflake Cortex ML function queries will be treated as any\nother SQL query and may be considered metadata.",
+        "Metadata. When you use Snowflake Cortex ML functions, Snowflake logs generic error messages returned by an ML\nfunction. These error logs help us troubleshoot issues that arise and improve these functions to serve you better.",
+        "For further information, see Snowflake AI Trust and Safety FAQ.",
+        "CREATE SNOWFLAKE.ML.FORECAST",
+        "DROP SNOWFLAKE.ML.FORECAST",
+        "SHOW SNOWFLAKE.ML.FORECAST",
+        "<model_name>!FORECAST",
+        "<model_name>!EXPLAIN_FEATURE_IMPORTANCE",
+        "<model_name>!SHOW_EVALUATION_METRICS",
+        "<model_name>!SHOW_TRAINING_LOGS",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

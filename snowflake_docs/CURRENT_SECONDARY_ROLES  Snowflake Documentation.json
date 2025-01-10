@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/current_secondary_roles",
+    "title": "CURRENT_SECONDARY_ROLES | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (Session Object)",
+        "Returns the secondary roles in use for the current session.",
+        "To activate a different set of secondary roles for the session, execute the USE SECONDARY ROLES command.",
+        "None.",
+        "Returns a string (VARCHAR) that is a JSON-encoded object containing the following name/value pairs:",
+        "Contains a list of the activated secondary roles. This list includes only those roles that are directly granted to the user; roles lower\nin the hierarchy of these roles are not listed.",
+        "Contains a list of the requested secondary roles, either those requested with the current user\u2019s DEFAULT_SECONDARY_ROLES property or\nwith the USE SECONDARY ROLES command.",
+        "Granting access on a secure UDF or secure view that contains CURRENT_SECONDARY_ROLES to a share is allowed. When the\nsecure UDF or secure view is accessed from the data-sharing consumer account, CURRENT_SECONDARY_ROLES always returns a\nNULL value.",
+        "The current user has DEFAULT_SECONDARY_ROLES=('ALL'). Custom roles role1, role2, and role3 are granted\nto the current user and are active as secondary roles:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

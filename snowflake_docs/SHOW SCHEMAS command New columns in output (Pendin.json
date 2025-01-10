@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_08/bcr-1757",
+    "title": "SHOW SCHEMAS command: New columns in output (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, the output of the SHOW SCHEMAS command includes the following new\ncolumns at the end:",
+        "Column name",
+        "Description",
+        "CLASSIFICATION_PROFILE_DATABASE",
+        "Reserved for future use.",
+        "CLASSIFICATION_PROFILE_SCHEMA",
+        "Reserved for future use.",
+        "CLASSIFICATION_PROFILE",
+        "Reserved for future use.",
+        "Ref: 1757",
+        "Was this page helpful?"
+    ]
+}

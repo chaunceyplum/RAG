@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/initcap",
+    "title": "INITCAP | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Case Conversion)",
+        "Returns the input string with the first letter of each word in uppercase and the subsequent letters in lowercase.",
+        "The string expression.",
+        "A string of one or more characters that INITCAP uses as separators for words in the input expression:",
+        "If delimiters isn\u2019t specified, any of the following characters in the input expressions are\ntreated as word separators:",
+        "If delimiters is specified, the specified value overrides all of the characters listed above.",
+        "Supports any UTF-8 characters, including whitespace characters, and is case-sensitive.",
+        "Must be enclosed in single quotes, for example ', ' (delimiters in this example are , and blank spaces).",
+        "When specified as an empty string (that is, ''), INITCAP ignores all delimiters, including whitespace characters,\nin the input expression. The input expression is treated as a single, continuous word. The resulting output is\na string with the first character capitalized (if the first character is a letter) and all other letters in lowercase.",
+        "This function returns a value of type VARCHAR.",
+        "Arguments with collation specifications currently aren\u2019t supported.",
+        "This example provides various outputs in different languages using the default delimiters:",
+        "These examples specify delimiters using the delimiters argument:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.explain",
+    "title": "snowflake.snowpark.DataFrame.explain | Snowflake Documentation",
+    "paragraphs": [
+        "Prints the list of queries that will be executed to evaluate this DataFrame.\nPrints the query execution plan if only one SELECT/DML/DDL statement will be executed.",
+        "For more information about the query execution plan, see the\nEXPLAIN command.",
+        "Was this page helpful?"
+    ]
+}

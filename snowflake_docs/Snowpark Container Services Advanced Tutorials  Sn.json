@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark-container-services/overview-advanced-tutorials",
+    "title": "Snowpark Container Services Advanced Tutorials | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Available to accounts in AWS and Microsoft Azure commercial regions, with some exceptions. For more information, see Available regions.",
+        "These tutorials provide step-by-step instructions for you to explore Snowpark Container Services.",
+        "In this tutorial you explore how service to service communications works.",
+        "In this tutorial you create a service that uses a block storage volume.",
+        "In this tutorial you create a service that uses a block storage volume.",
+        "In this tutorial, you explore how to grant a role the USAGE privilege on service endpoint so the role can communicate with the service.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

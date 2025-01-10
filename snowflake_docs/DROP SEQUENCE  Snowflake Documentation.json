@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-sequence",
+    "title": "DROP SEQUENCE | Snowflake Documentation",
+    "paragraphs": [
+        "Removes a sequence from the current/specified schema.",
+        "CREATE SEQUENCE , ALTER SEQUENCE , SHOW SEQUENCES , DESCRIBE SEQUENCE",
+        "Specifies the identifier of the sequence to drop.",
+        "If the sequence identifier is not fully-qualified (in the form of db_name.schema_name.sequence_name or\nschema_name.sequence_name), the command looks for the sequence in the current schema for the session.",
+        "Snowflake allows the keywords CASCADE and RESTRICT syntactically, but does not act on them. For example,\ndropping a sequence with the CASCADE keyword does not actually drop a table that uses the sequence.\nDropping a sequence with the RESTRICT keyword does not issue a warning if a table is still using the sequence.",
+        "To drop a sequence, you must be using a role that has ownership privilege on the sequence.",
+        "After dropping a sequence, creating a sequence with the same name creates a new version of the sequence. The\nnew sequence does not resume generating numbers where the old sequence left off.",
+        "Before dropping a sequence, verify that no tables or other database objects reference the sequence.",
+        "If the dropped sequence was referenced in the DEFAULT clause of a table, then calling GET_DDL() for that\ntable results in an error, rather than in the DDL that created the table.",
+        "Drop a sequence:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

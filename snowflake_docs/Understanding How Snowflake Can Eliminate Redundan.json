@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/join-elimination",
+    "title": "Understanding How Snowflake Can Eliminate Redundant Joins | Snowflake Documentation",
+    "paragraphs": [
+        "In some cases, a join on a key column can refer to tables that are not needed for the join. If your tables have key columns and\nyou are using and enforcing the UNIQUE, PRIMARY KEY, and FOREIGN KEY constraints, Snowflake can improve query performance by\neliminating unnecessary joins on key columns.",
+        "These optimizations are performed only if you use the RELY constraint property to indicate that the data in your tables complies\nwith the constraints around primary keys and foreign keys.",
+        "Snowflake only performs this optimization on joins if you indicate that the data in your tables comply with the UNIQUE, PRIMARY\nKEY, and FOREIGN KEY constraints.",
+        "As mentioned in Supported Constraint Types, Snowflake does not enforce UNIQUE, PRIMARY KEY, and FOREIGN KEY\nconstraints on standard tables, but does enforce them on hybrid tables. For standard tables, you are\nresponsible for enforcing constraints on the data.",
+        "If you have ensured that the data complies with these constraints and you want Snowflake to eliminate unnecessary joins, set the\nRELY constraint property on the UNIQUE, PRIMARY KEY, FOREIGN KEY constraints.",
+        "Note",
+        "You are responsible for maintaining the integrity of your constraints (UNIQUE, PRIMARY KEY, and FOREIGN KEY). If the integrity\nof your constraints is not maintained, the query results might differ if the RELY constraint property is set (compared to the\nresults with NORELY).",
+        "The following examples demonstrates cases in which Snowflake eliminates joins and references to tables that are not necessary:",
+        "Example 1: Eliminating an Unnecessary Left Outer Join",
+        "Example 2: Eliminating an Unnecessary Self-Join",
+        "Example 3: Eliminating an Unnecessary Join on a Primary Key and Foreign Key",
+        "In these examples:",
+        "dim_products is a table that contains a row for each product available for purchase.",
+        "In this table, product_id is a column that uniquely identifies a product.",
+        "fact_sales is a table that contains a row for each sale of a product.",
+        "In this table, product_id is a column that identifies the product that was sold. The IDs in this column correspond to the\nIDs in the product_id column of the dim_products table.",
+        "This following is an example of an unnecessary left outer join that Snowflake can optimize:",
+        "The join is unnecessary because the statement does not refer to any columns in the dim_products table on the right (other than\nthe primary key column for the join).",
+        "If the dim_products.product_id column has the UNIQUE or PRIMARY KEY constraint with the RELY property, Snowflake can identify\nthis join as unnecessary and can eliminate the reference to the dim_products table on the right.",
+        "This following is an example of an unnecessary self-join that Snowflake can optimize:",
+        "The statement unnecessarily joins the dim_products table with itself and selects columns from that table.",
+        "If the dim_products.product_id column has the UNIQUE or PRIMARY KEY constraint with the RELY property, Snowflake can identify\nthis join as unnecessary and can eliminate the reference to the dim_products table on the right.",
+        "This following is an example of an unnecessary inner join that Snowflake can optimize.",
+        "The statement does not refer to any columns in the dim_products table on the right, other than the primary key column for the\njoin.",
+        "If the dim_products.product_id column has the PRIMARY KEY constraint and the fact_sales.product_id column has the FOREIGN\nKEY constraint, Snowflake can identify this join as unnecessary and can eliminate the reference to the dim_products table on\nthe right.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

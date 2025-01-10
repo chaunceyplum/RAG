@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_user_task_cancel_ongoing_executions",
+    "title": "SYSTEM$USER_TASK_CANCEL_ONGOING_EXECUTIONS | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Aborts a run of the specified task that the system has already started to process (i.e. a run with an EXECUTING state in the TASK_HISTORY output).",
+        "Name of the task.",
+        "Only the task owner (i.e. the role with the OWNERSHIP privilege on the task) or a role with the OPERATE privilege on the task can call this function.",
+        "task_name is a string so it must be enclosed in single quotes:",
+        "Note that the entire name must be enclosed in single quotes, including the database and schema (if the name is fully-qualified), i.e. '<db>.<schema>.<task_name>'.",
+        "If the task name is case-sensitive or includes any special characters or spaces, double quotes are required to process the case/characters. The double quotes must be enclosed within the single quotes, i.e. '\"<task_name>\"'.",
+        "This function returns a success message before the current run of the specified task is actually cancelled.",
+        "If the current run of the specified task is almost completed, this function might not cancel the run.",
+        "This function only cancels the current run of the specified task. Additional tasks in a task graph that includes this\ntask might also be running. To cancel these runs, you must call this function and specify the name of each additional child task separately.",
+        "To check if a task run has been cancelled or completed, or if any child tasks are currently running, query the\nTASK_HISTORY function.",
+        "To prevent future runs of the task from starting, we recommend first suspending the task (using ALTER TASK \u2026 SUSPEND) and then executing this function.",
+        "Note that if the task is not suspended when this function is executed, it currently takes several minutes for the Snowflake cloud services to begin scheduling executions of this task again.",
+        "Abort the current run of a task with a case-insensitive name:",
+        "Abort the current run of a task with a case-sensitive name:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

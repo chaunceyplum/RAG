@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1397",
+    "title": "SHOW GRANTS command: Updates for managed access schema | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of the SHOW GRANTS command with a managed access schema is as follows:",
+        "The grant_options column returns TRUE when you run a SHOW GRANTS ON object_type object_name command for an\nobject in the managed access schema.",
+        "The privilege column includes the OWNERSHIP privilege for the role that owns the managed access schema when you run a\nSHOW GRANTS ON SCHEMA managed_access_schema command.",
+        "The grant_options column returns FALSE when you run a SHOW GRANTS ON object_type object_name command for an\nobject in the managed access schema.",
+        "In addition to the OWNERSHIP privilege, the privilege column includes the MANAGE GRANTS privilege for the role that owns the\nmanaged access schema when you run a SHOW GRANTS ON SCHEMA managed_access_schema command.",
+        "Ref: 1397",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/native-apps-commands/version/overview",
+    "title": "snow app version commands | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Snowflake CLI supports the following commands for managing versioned Native Apps:",
+        "snow app version create",
+        "snow app version drop",
+        "snow app version list",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

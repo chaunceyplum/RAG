@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-1097",
+    "title": "Data Sharing Usage Views: New CONSUMER_NAME Column in Select Views | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The following views in the DATA_SHARING_USAGE schema include the CONSUMER_NAME column:",
+        "LISTING_ACCESS_HISTORY",
+        "LISTING_CONSUMPTION_DAILY",
+        "LISTING_EVENTS_DAILY",
+        "Added column:",
+        "Column Name",
+        "Data Type",
+        "Description",
+        "CONSUMER_NAME",
+        "VARCHAR",
+        "Contains the name of the consumer account that accessed, used, or requested a listing. If no name is available, such as for trial accounts, the value is NULL.",
+        "To help minimize the impact of this addition, the column was added as the last column in the output.",
+        "Ref: 1097",
+        "Was this page helpful?"
+    ]
+}

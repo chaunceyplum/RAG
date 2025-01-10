@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/ascii",
+    "title": "ASCII | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (General)",
+        "Returns the ASCII code for the first character of a string. If the string is empty, a value of 0 is returned.",
+        "See also:",
+        "CHAR , UNICODE",
+        "The string for which the ASCII code for the first character in the string is returned.",
+        "The value is an integer that is the numeric representation of the ASCII character. For example, if the\ninput is the letter \u2018a\u2019, then the return value is 97.",
+        "The value 0 is returned for either of the following cases:",
+        "The first character of the string contains the ASCII character corresponding to 0.",
+        "The string is empty.",
+        "To distinguish between these two cases, use the LENGTH function to determine whether the string is empty.",
+        "This example demonstrates the behavior for single ASCII characters, as well as special cases, such as multi-character strings, empty strings, and NULL values:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

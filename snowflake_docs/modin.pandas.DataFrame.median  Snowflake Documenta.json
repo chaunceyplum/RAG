@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.median",
+    "title": "modin.pandas.DataFrame.median | Snowflake Documentation",
+    "paragraphs": [
+        "Return the median of the values over the requested axis.",
+        "axis ({index (0), columns (1)}) \u2013 Axis for the function to be applied on.\nFor Series this parameter is unused and defaults to 0.",
+        "skipna (bool, default True) \u2013 Exclude NA/null values when computing the result.",
+        "numeric_only (bool, default False) \u2013 If True, Include only float, int, boolean columns. Not implemented for Series.",
+        "**kwargs \u2013 Additional keyword arguments to be passed to the function.",
+        "Series",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

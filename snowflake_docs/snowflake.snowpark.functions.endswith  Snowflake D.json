@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.endswith",
+    "title": "snowflake.snowpark.functions.endswith | Snowflake Documentation",
+    "paragraphs": [
+        "Returns true if col ends with str.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

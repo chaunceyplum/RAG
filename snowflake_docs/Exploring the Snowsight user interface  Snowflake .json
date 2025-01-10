@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/ui-snowsight-homepage",
+    "title": "Exploring the Snowsight user interface | Snowflake Documentation",
+    "paragraphs": [
+        "The Snowsight interface is one of the many methods that can be used to access Snowflake.\nUsers wishing to access Snowflake to run queries, create schemas, databases, and related objects can do so using Snowsight.",
+        "The Snowsight home page is opened by selecting  in the navigation menu, and is automatically displayed when\ninitially opening Snowsight.",
+        "The Snowsight user interface is composed of four sections or panes:",
+        "Navigation menu: Selections for creating and managing data products, notebooks, worksheets, databases and all related artifacts.\nSee Exploring the Snowsight navigation menu for additional details.",
+        "Search: Easily discover content for data products, database elements such as tables and views, functions and more.",
+        "Quick actions: Quickly and easily perform operations specific to your current role.\nFor example: query data using a worksheet, upload files directly to tables, create worksheets to execute python code and more.",
+        "Recently viewed: Tabs with recent operations and associated content. For example, select the Worksheets tab to show all recently\naccessed worksheets. Tabs are also available to show projects, Snowflake Notebooks, Streamlits, and Dashboards.",
+        "Snowsight homepage\u00b6",
+        "Note",
+        "Note that all features are not available in all regions and platforms. If a feature is not available in your region or platform, it will\nnot be available in quick actions or otherwise.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

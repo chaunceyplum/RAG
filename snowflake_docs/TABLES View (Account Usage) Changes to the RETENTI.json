@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_01/bcr-853",
+    "title": "TABLES View (Account Usage): Changes to the RETENTION_TIME Column | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The RETENTION_TIME column value in the Account Usage TABLES view has changed\nas follows:",
+        "In the following cases, the RETENTION_TIME column might have displayed an incorrect data retention time for tables:",
+        "If the DATA_RETENTION_TIME_IN_DAYS was not explicitly set for a transient table, the RETENTION_TIME column displayed the value\ninherited from a parent object. This value might have been incorrect. The maximum data retention time for transient tables\nis 1 day.",
+        "If the MIN_DATA_RETENTION_TIME_IN_DAYS parameter was set for an account, the RETENTION_TIME column ignored this minimum\nretention time and might have displayed an incorrect value for a table.",
+        "The RETENTION_TIME column now display the correct data retention time for tables.",
+        "Ref: 853",
+        "Was this page helpful?"
+    ]
+}

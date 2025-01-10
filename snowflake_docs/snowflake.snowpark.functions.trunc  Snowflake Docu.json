@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.trunc",
+    "title": "snowflake.snowpark.functions.trunc | Snowflake Documentation",
+    "paragraphs": [
+        "Rounds the input expression down to the nearest (or equal) integer closer to zero,\nor to the nearest equal or smaller value with the specified number of\nplaces after the decimal point.",
+        "Example:",
+        "Note that the function trunc is overloaded with date_trunc for datetime types. It allows to round datetime\nobjects.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

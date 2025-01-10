@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-04-23-svnc",
+    "title": "April 23, 2024 \u2014 Snowflake Connector for ServiceNow\u00ae V2  \u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the general availability of the Snowflake Connector for ServiceNow\u00ae V2.",
+        "The Snowflake Connector for ServiceNow\u00ae provides instant access to up-to-date ServiceNow\u00ae\ndata without needing to manually integrate against API endpoints or manage third-party solutions.\nBuilt on the Snowflake Native App Framework, the connector ingests data from ServiceNow\u00ae into\nSnowflake automatically leveraging built-in security and reliability capabilities.",
+        "The connector supports both the initial load of historical data as well as incremental updates.\nThe latest data is regularly pulled from ServiceNow\u00ae and you control how frequently it is refreshed.",
+        "ServiceNow\u00ae is a cloud-based platform that delivers workflows for Service Management\nincluding Incident Management, Change Management, Asset Management, Configuration Management,\nService Catalog, Request Fulfillment, and more.",
+        "For more information, see About the Snowflake Connector for ServiceNow\u00ae.",
+        "Was this page helpful?"
+    ]
+}

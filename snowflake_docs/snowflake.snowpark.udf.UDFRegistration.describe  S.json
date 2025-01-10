@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.udf.UDFRegistration.describe",
+    "title": "snowflake.snowpark.udf.UDFRegistration.describe | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a DataFrame that describes the properties of a UDF.",
+        "udf_obj \u2013 A UserDefinedFunction returned by\nudf() or register().",
+        "Was this page helpful?"
+    ]
+}

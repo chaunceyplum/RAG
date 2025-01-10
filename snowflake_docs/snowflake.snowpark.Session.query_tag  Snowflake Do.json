@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.query_tag",
+    "title": "snowflake.snowpark.Session.query_tag | Snowflake Documentation",
+    "paragraphs": [
+        "The query tag for this session.",
+        "Returns the query tag. You can use the query tag to find all queries\nrun for this session in the History page of the Snowflake web interface.",
+        "Sets the query tag. If the input is None or an empty str,\nthe session\u2019s query_tag will be unset. If the query tag is not set, the default\nwill be the call stack when a DataFrame method that pushes down the SQL\nquery to the Snowflake Database is called. For example, DataFrame.collect(),\nDataFrame.show(), DataFrame.create_or_replace_view() and\nDataFrame.create_or_replace_temp_view() will push down the SQL query.",
+        "Was this page helpful?"
+    ]
+}

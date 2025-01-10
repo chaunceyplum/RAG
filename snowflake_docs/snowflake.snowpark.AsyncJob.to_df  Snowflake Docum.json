@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.AsyncJob.to_df",
+    "title": "snowflake.snowpark.AsyncJob.to_df | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a DataFrame built from the result of this asynchronous job.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.pad",
+    "title": "modin.pandas.DataFrame.pad | Snowflake Documentation",
+    "paragraphs": [
+        "Synonym for DataFrame.fillna() with method='ffill'.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/try_hex_decode_string",
+    "title": "TRY_HEX_DECODE_STRING | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Encoding/Decoding)",
+        "A special version of HEX_DECODE_STRING that\nreturns a NULL value if an error occurs during decoding.",
+        "A hex-encoded string expression. Typically the input was created by a\ncall to HEX_ENCODE.",
+        "The returned value is a string (VARCHAR).",
+        "This shows how to use the function:",
+        "Create a table and data:",
+        "Now run the query:",
+        "Output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

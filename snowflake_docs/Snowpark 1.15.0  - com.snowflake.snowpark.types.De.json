@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/scala/com/snowflake/snowpark/types/DecimalType.html",
+    "title": "Snowpark 1.15.0  - com.snowflake.snowpark.types.DecimalType",
+    "paragraphs": [
+        "This package contains all Snowpark logical types.",
+        "This package contains all Snowpark logical types.",
+        "0.1.0",
+        "com\n        \n        .\n        \n         snowflake\n        \n        .\n        \n         snowpark\n        \n        .\n        \n         types",
+        "Decimal data type.\nMapped to NUMBER Snowflake date type.",
+        "0.1.0",
+        "Returns Decimal Info.",
+        "Returns Decimal Info. Decimal(precision, scale)",
+        "0.1.0",
+        "Returns Decimal Info.",
+        "Returns Decimal Info. Decimal(precision, scale), Alias of\n              \n               toString",
+        "0.1.0"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.array_sort",
+    "title": "snowflake.snowpark.functions.array_sort | Snowflake Documentation",
+    "paragraphs": [
+        "Returns rows of array column in sorted order. Users can choose the sort order and decide where to keep null elements.",
+        "array \u2013 name of the column or column element which describes the column",
+        "sort_ascending \u2013 Boolean that decides if array elements are sorted in ascending order.\nDefaults to True.",
+        "nulls_first \u2013 Boolean that decides if SQL null elements will be placed in the beginning\nof the array. Note that this does not affect JSON null. Defaults to False.",
+        "See also",
+        "https://docs.snowflake.com/en/user-guide/semistructured-considerations#null-values",
+        "sort_array() which is an alias of array_sort().",
+        "Was this page helpful?"
+    ]
+}

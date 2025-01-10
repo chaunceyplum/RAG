@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-06-15-anomaly-detection",
+    "title": "June 15, 2024 \u2014 Anomaly Detection | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce an update to the Anomaly Detection ML Function that improves its algorithm, and results in improved performance.\nIf you noticed degraded performance from a model you trained between May 27, 2024, and June 15, 2024, please train and use a new model.",
+        "For more information, see Anomaly Detection (Snowflake ML Functions).",
+        "Was this page helpful?"
+    ]
+}

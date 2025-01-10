@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.dropna",
+    "title": "snowflake.snowpark.DataFrame.dropna | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a new DataFrame that excludes all rows containing fewer than\na specified number of non-null and non-NaN values in the specified\ncolumns.",
+        "how \u2013 An str with value either \u2018any\u2019 or \u2018all\u2019. If \u2018any\u2019, drop a row if\nit contains any nulls. If \u2018all\u2019, drop a row only if all its values are null.\nThe default value is \u2018any\u2019. If thresh is provided, how will be ignored.",
+        "thresh \u2013",
+        "The minimum number of non-null and non-NaN\nvalues that should be in the specified columns in order for the\nrow to be included. It overwrites how. In each case:",
+        "If thresh is not provided or None, the length of subset\nwill be used when how is \u2018any\u2019 and 1 will be used when how\nis \u2018all\u2019.",
+        "If thresh is greater than the number of the specified columns,\nthe method returns an empty DataFrame.",
+        "If thresh is less than 1, the method returns the original DataFrame.",
+        "",
+        "subset \u2013",
+        "A list of the names of columns to check for null and NaN values.\nIn each case:",
+        "If subset is not provided or None, all columns will be included.",
+        "If subset is empty, the method returns the original DataFrame.",
+        "",
+        "Examples:",
+        "See also",
+        "DataFrame.dropna()",
+        "Was this page helpful?"
+    ]
+}

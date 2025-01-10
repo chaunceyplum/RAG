@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/snowpark-commands/overview",
+    "title": "snow snowpark commands | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Snowflake CLI supports the following Snowpark commands:",
+        "snow snowpark build",
+        "snow snowpark deploy",
+        "snow snowpark describe",
+        "snow snowpark drop",
+        "snow snowpark execute",
+        "snow snowpark list",
+        "snow snowpark package commands",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

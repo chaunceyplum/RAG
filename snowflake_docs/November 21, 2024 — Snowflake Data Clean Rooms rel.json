@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-11-21-dcr",
+    "title": "November 21, 2024 \u2014 Snowflake Data Clean Rooms release notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the availability of the following new features and enhancements in this update to Snowflake\nData Clean Rooms.",
+        "Important",
+        "You must log out and back into the web app for these updates to take effect in your account.",
+        "Clean room statistics now include non-overlap metrics when using the Audience Overlap & Segmentation template in the web app. This shows how\nmany records in your data did not match join IDs in the collaborator\u2019s data. This capability must be enabled by the data provider.",
+        "Users can now unlink datasets that were previously linked to the clean room using the API.",
+        "For more information, see the provider reference API guide.",
+        "Users can now register and use dynamic tables in their clean rooms. To register these objects via the APIs, see library.register_objects in the consumer or provider documentation.",
+        "Consumers who create a custom template can now upload and reference custom Python code in their template.",
+        "For more information, see consumer.generate_python_request_template.",
+        "The Merkury Identity connector is an identity service provided by Merkle to Snowflake Data Clean Room customers so that they can\nencode their customer identifiers into encoded Merkury IDs prior to collaborating within the clean room. The Merkury Identity connector\nsupports multiple type of IDs: HMID (hashed Merkury ID), email (in clear-form, or encoded in MD5, SHA1 or SHA256), device ID, IP address,\nand phone (only supported in cleartext).",
+        "For more information, see the identity connectors guide.",
+        "Push your first-party, custom-audience data into your Google DV360 account. For more information, see the activation connectors guide",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

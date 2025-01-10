@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/git/overview",
+    "title": "Managing Git repositories | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "You can integrate your remote Git repository with Snowflake so that files from the repository are synchronized to a special kind of stage called a repository stage. The repository stage acts as a local Git repository with a full clone of the remote repository, including branches, tags, and commits.",
+        "For more information, see Using a Git repository in Snowflake.",
+        "Snowflake CLI supports the following git operations:",
+        "Setting up a Git repository",
+        "Refreshing a repository",
+        "Listing the contents of a repository",
+        "Copying files in Git",
+        "Executing files from a repository",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

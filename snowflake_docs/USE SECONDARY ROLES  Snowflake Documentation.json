@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/use-secondary-roles.html",
+    "title": "USE SECONDARY ROLES | Snowflake Documentation",
+    "paragraphs": [
+        "Specifies the active/current secondary roles for the session. The currently-active secondary roles set the context that determines whether\nthe current user has the necessary privileges to perform SQL actions.",
+        "Note that authorization to execute CREATE <object> statements to create objects is provided by the primary role.",
+        "For more information, see secondary role enforcement.",
+        "USE ROLE",
+        "All roles that have been granted to the user in addition to the current active primary role.",
+        "Note that the set of roles is reevaluated when each SQL statement executes. If additional roles are granted to the user, and that user\nexecutes a new SQL statement, the newly granted roles are active secondary roles for the new SQL statement.  The same logic applies to\nroles that are revoked from a user.",
+        "Disables secondary roles. The authorization for all SQL actions is provided via the primary role.",
+        "Allows the specified roles as secondary roles. The secondary roles can be user-defined account roles or system roles. Specify the role\nname as it is stored in Snowflake.",
+        "If the identifier contains spaces or special characters, the entire string must be enclosed in double quotes.\nIdentifiers enclosed in double quotes are also case-sensitive.",
+        "For more information, see Identifier requirements.",
+        "To use a role, the role must have been granted to the user.",
+        "Note that you cannot select multiple roles in the context dropdown.",
+        "If the session policy specifies ALLOWED_SECONDARY_ROLES = () and the session policy is set on\nthe account or user in the account, an error message occurs:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

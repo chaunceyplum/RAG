@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/notification-integration/notification-integration-introduction",
+    "title": "Use notification integrations | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "The Snowflake REST Notification Integration API provides the following endpoints to access, update, and perform certain actions on Notification Integration resources.",
+        "Endpoint",
+        "Description",
+        "GET /api/v2/notification-integrations",
+        "Lists available notification integrations.",
+        "POST /api/v2/notification-integrations",
+        "Creates a notification integration.",
+        "GET /api/v2/notification-integrations/name",
+        "Fetches a notification integration.",
+        "DELETE /api/v2/notification-integrations/name",
+        "Deletes a notification integration.",
+        "For reference documentation, see Snowflake Notification Integration API reference.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

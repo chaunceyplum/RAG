@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/external-functions-creating-gcp-common-api-integration",
+    "title": "Step 3: Create the API integration for GCP in Snowflake | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides instructions for creating an API integration object in Snowflake to work with your proxy service (i.e. Google Cloud API\nGateway).",
+        "Step 2: Create the proxy service (Google Cloud API Gateway) in the console",
+        "Use the CREATE API INTEGRATION command to create the API integration object:",
+        "Open a Snowflake session, typically a Snowflake web interface session.",
+        "Execute the USE ROLE command to use the ACCOUNTADMIN role or a role with the CREATE INTEGRATION privilege. For example:",
+        "Enter a CREATE API INTEGRATION statement. The statement should look similar to the following:",
+        "In the statement:",
+        "Replace <integration_name> with a unique integration name (e.g. my_api_integration_name. The name must follow the rules for\nObject identifiers.",
+        "In addition, record the integration name in the API Integration Name field in your tracking worksheet. You will need the name when\nyou execute the CREATE EXTERNAL FUNCTION command later in the creation process.",
+        "For google_audience, replace <google_audience_claim> with the value from the Managed Service Identifier field in your\ntracking worksheet.",
+        "During authentication, Snowflake passes a JWT (JSON Web Token) to Google. The JWT contains an \u201caud\u201d (\u201caudience\u201d) claim, which\nSnowflake sets to the value for google_audience.",
+        "For more information about authenticating with Google, see the Google service account\nauthentication documentation.",
+        "For api_allowed_prefixes, replace <url> with the value from the Gateway Base URL field in your tracking worksheet.",
+        "This field allows you to restrict the URLs to which this API integration can be applied. You can use a value that is more restrictive\nthan the Gateway Base URL.",
+        "If you haven\u2019t already, execute the CREATE API INTEGRATION statement you entered.",
+        "Execute the DESCRIBE INTEGRATION command. For example:",
+        "Record the value for API_GCP_SERVICE_ACCOUNT in the API_GCP_SERVICE_ACCOUNT field in your tracking worksheet.",
+        "Step 4: Create the external function for GCP in Snowflake",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

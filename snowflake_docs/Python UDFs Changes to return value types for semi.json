@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_03/bcr-1546",
+    "title": "Python UDFs: Changes to return value types for semi-structured data | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of Python UDFs that return an Array, Object, or Variant has changed slightly. When Python UDFs return a floating point number in the handler,\nthe behavior is as follows:",
+        "For Python float numeric type values, scientific notation values are deserialized as scientific notation values; otherwise, they are deserialized to FIXED values.",
+        "All Python float numbers are deserialized as scientific notation values.",
+        "Ref: 1546",
+        "Was this page helpful?"
+    ]
+}

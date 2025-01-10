@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/organizations-gs",
+    "title": "Getting started with organizations | Snowflake Documentation",
+    "paragraphs": [
+        "This topic discusses how to work with organizations, including how to assign the ORGADMIN role to organization administrators.",
+        "Snowflake customers never directly create an organization. For users who sign-up for a Snowflake account using the self-service option,\nan organization is automatically created with a system-generated name when the account is created. For entities who work directly with\nSnowflake personnel to set up accounts, Snowflake creates the organization to which the accounts belong using a custom name. In either\ncase, users can create additional accounts that belong to the organization after it is created with the initial account.",
+        "If you are the organization administrator, you can view the name of your organization and its accounts through the web interface or using\nSQL:",
+        "Execute a SHOW ACCOUNTS command.",
+        "Select Admin \u00bb Accounts. The organization name is listed above the account names.",
+        "Users with any role, not just ORGADMIN, can execute the CURRENT_ORGANIZATION_NAME\nfunction to return the organization of the current account.",
+        "Users with any role can also find the organization name and account name for a specific account that they have previously signed in to.\nSee Finding the organization and account name for an account.",
+        "If you want to change the name of an organization, for example to change a system-generated name to a more user-friendly one,\ncontact Snowflake Support.",
+        "When you contact Snowflake Support, you must decide whether users can temporarily access accounts in the\norganization using the original account URL. If you keep the original account URL, it is automatically dropped\nafter 90 days, at which time users must use the new account URL to access the account. If you want to drop the account URL before the 90 days\nexpire, see Deleting an organization URL.",
+        "To delete your Snowflake organization:",
+        "Use an ORGADMIN-enabled account to delete all accounts in the organization,\nexcept the account being used for the deletion.",
+        "Contact Snowflake Support to delete the last account and the organization.",
+        "An organization administrator uses an account with the ORGADMIN role enabled to work with data and features that pertain to\nall accounts in the organization. Once the ORGADMIN role is enabled, the organization administrator can log in to the account and use the\nrole to perform organization-focused tasks like listing all accounts in the organization and creating new accounts.",
+        "Every organization has at least one account with the ORGADMIN role enabled. The organization administrator can use the\nALTER ACCOUNT \u2026 SET IS_ORG_ADMIN command to enable the role in additional accounts.",
+        "For example, to enable the ORGADMIN role for existing account my_account1, the organization administrator can execute the following\ncommand from an account that already has the ORGADMIN role enabled:",
+        "Keep the following in mind when enabling the ORGADMIN role:",
+        "The ALTER ACCOUNT syntax only accepts the account name format of the account identifier. You cannot use the\naccount locator to specify the account.",
+        "By default, the ORGADMIN role can be enabled in a maximum of 8 accounts. If your organization requires more accounts with the ORGADMIN\nrole, contact Snowflake Support.",
+        "The ORGADMIN role cannot be enabled for a reader account.",
+        "An organization administrator can use the ALTER ACCOUNT command to remove the ORGADMIN role from an account by setting the\nIS_ORG_ADMIN property to FALSE. For example:",
+        "Tip",
+        "The ORGADMIN role cannot be removed for the current account. As a workaround, enable the role in a different account, and then switch to\nthat account before executing the ALTER ACCOUNT command.",
+        "Once enabled in an account, the ORGADMIN role can be granted to any user or role in the account by an ACCOUNTADMIN using\nthe GRANT ROLE command. For more information about system roles and best practices for managing access control,\nsee Access control considerations.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

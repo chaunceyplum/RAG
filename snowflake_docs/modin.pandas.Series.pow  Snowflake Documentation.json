@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.pow",
+    "title": "modin.pandas.Series.pow | Snowflake Documentation",
+    "paragraphs": [
+        "Return Exponential power of series and other, element-wise (binary operator pow).",
+        "Equivalent to series ** other, but with support to substitute a fill_value for\nmissing data in either one of the inputs.",
+        "other (Series or scalar value) \u2013",
+        "level (int or name) \u2013 Broadcast across a level, matching Index values on the\npassed MultiIndex level.",
+        "fill_value (None or float value, default None (NaN)) \u2013 Fill existing missing (NaN) values, and any new element needed for\nsuccessful Series alignment, with this value before computation.\nIf data in both corresponding Series locations is missing\nthe result of filling (at that location) will be missing.",
+        "axis ({0 or 'index'}) \u2013 Unused. Parameter needed for compatibility with DataFrame.",
+        "The result of the operation.",
+        "Series",
+        "See also",
+        "Reverse of the Exponential power operator, see Python documentation for more details.",
+        "Caution",
+        "In Snowpark pandas API, zero raised to negative powers produces inf value as the result while pandas raises a ValueError. In Snowpark pandas API, None raised to 0 and 1 raised to None produce 1.0 as the result. pandas produces np.nan for both cases.",
+        "Caution",
+        "In Snowpark pandas API, whenever a binary operation involves a NULL value, the result will preserve NULL values, e.g. NULL.pow(<other>) will yield NULL.",
+        "Caution",
+        "Snowpark pandas API denotes invalid numeric results with None while pandas uses NaN.",
+        "Caution",
+        "Snowpark pandas API does not support fill_value and level except for default values.",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

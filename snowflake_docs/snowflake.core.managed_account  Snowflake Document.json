@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.managed_account",
+    "title": "snowflake.core.managed_account | Snowflake Documentation",
+    "paragraphs": [
+        "Manages Snowflake ManagedAccounts.",
+        "Example",
+        "Refer to snowflake.core.Root to create the root.",
+        "Classes",
+        "ManagedAccount(name,\u00a0admin_name,\u00a0admin_password)",
+        "A model object representing the ManagedAccount resource.",
+        "ManagedAccountCollection(root)",
+        "Represents the collection operations of the Snowflake ManagedAccount resource.",
+        "ManagedAccountResource(name,\u00a0collection)",
+        "A reference to a ManagedAccount in Snowflake.",
+        "Was this page helpful?"
+    ]
+}

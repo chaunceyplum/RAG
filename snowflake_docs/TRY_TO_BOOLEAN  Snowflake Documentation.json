@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/try_to_boolean",
+    "title": "TRY_TO_BOOLEAN | Snowflake Documentation",
+    "paragraphs": [
+        "Conversion functions",
+        "A special version of TO_BOOLEAN that performs the same operation\n(that is, converts an input expression to a Boolean value), but with error-handling\nsupport. If the conversion can\u2019t be performed, TRY_TO_BOOLEAN returns a NULL value\ninstead of raising an error.",
+        "For more information, see Error-handling conversion functions.",
+        "A string expression that can be evaluated to a BOOLEAN value.",
+        "This function returns a value of type BOOLEAN.",
+        "The input argument must be a string expression. The function evaluates the string expression\nin the following way:",
+        "'true', 't', 'yes', 'y', 'on', '1' return TRUE.",
+        "'false', 'f', 'no', 'n', 'off', '0' return FALSE.",
+        "All other strings return NULL.",
+        "The evaluations of the strings are case-insensitive.",
+        "This example uses the TRY_TO_BOOLEAN function:",
+        "For more examples, see TO_BOOLEAN.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

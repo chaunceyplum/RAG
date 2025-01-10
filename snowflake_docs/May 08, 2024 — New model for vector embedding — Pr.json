@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-05-08-embed-text-model",
+    "title": "May 08, 2024 \u2014 New model for vector embedding \u2014 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "We\u2019re pleased to announce a change that will make it easier for you to build generative AI workflows using\nthe EMBED_TEXT_768 (SNOWFLAKE.CORTEX) function, part of the\nCortex LLM Functions.",
+        "The snowflake-arctic-embed-m model is now available for text embedding tasks. This model was trained by\nSnowflake. It outperforms the existing e5-base-v2 model on standard retrieval benchmarks, while keeping the same\nnumber of parameters. Read more in the model announcement blog.",
+        "Was this page helpful?"
+    ]
+}

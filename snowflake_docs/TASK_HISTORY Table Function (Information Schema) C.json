@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_03/bcr-990",
+    "title": "TASK_HISTORY Table Function (Information Schema): Consistent Values for Failed and Auto-suspended Tasks in ERROR_ONLY Output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Auto suspended tasks which fail will be in state FAILED_AND_AUTO_SUSPENDED across all calls of the INFORMATION_SCHEMA.TASK_HISTORY table function:",
+        "Calling TASK_HISTORY with ERROR_ONLY = true with auto-suspended tasks returns state = FAILED.",
+        "Calling TASK_HISTORY with ERROR_ONLY = true with auto-suspended tasks returns state = FAILED_AND_AUTO_SUSPENDED.",
+        "Ref: 990",
+        "Was this page helpful?"
+    ]
+}

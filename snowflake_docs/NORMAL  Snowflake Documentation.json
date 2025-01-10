@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/normal",
+    "title": "NORMAL | Snowflake Documentation",
+    "paragraphs": [
+        "Data generation functions",
+        "Generates a normally-distributed pseudo-random floating point number with specified\nmean and stddev (standard deviation).",
+        "A constant specifying the value that the output values should be centered on.",
+        "A constant specifying the width of one standard deviation.",
+        "For example, if you specify a mean of 0.0 and a standard deviation of 1.0,\napproximately 68.2% of returned values from multiple calls will be between\n-1.0 and +1.0 (i.e. within one standard deviation of the mean).",
+        "Similarly, if you choose a mean of 5.0 and a standard deviation of 2, then\napproximately 68.2% of values will be between 3.0 and 7.0.",
+        "An expression that serves as a raw source of uniform random numbers,\ntypically the RANDOM function. For more information, see the Data\nGeneration Functions Usage notes.",
+        "Returns a random floating-point number. The accumulated results of a large\nnumber of repeated calls approximate a normal distribution.",
+        "This function is related to, but different from, the\nRANDOM function, both in the ranges\nof the values returned and their distribution.",
+        "RANDOM generates random 64-bit integers in a uniform distribution.\nIt accepts an optional seed that allows random sequences to be repeated.",
+        "When RANDOM is called a large number of times, the results are more or less\nevenly distributed over the range of possible values. For example, the number of\nresults with values between 1000 and 2000 is similar to the number of\nvalues between 2000 and 3000.",
+        "NORMAL generates random integer or floating-point numbers centered on the\nspecified mean, with the specified standard deviation.",
+        "When NORMAL is called a large number of times, the distribution of the\nresults is likely to approximate a \u201cnormal\u201d curve (a \u201cbell-shaped curve\u201d).\nThe center of the curve and its \u201cbreadth\u201d are influenced by the mean\nand stddev parameters. Values closer to the specified mean are more\nlikely to occur than values far from the mean.",
+        "This shows typical usage with a mean of 0 and a standard deviation of 1:",
+        "This shows that if the gen parameter is a constant, then the\noutput is a constant:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

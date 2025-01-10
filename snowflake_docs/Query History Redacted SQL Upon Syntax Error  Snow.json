@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_01/bcr-936",
+    "title": "Query History: Redacted SQL Upon Syntax Error | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "For the most up-to-date details about the version and date in which it will be enabled, as well as other release-related details,\nsee the Behavior Change Log.\nThe views, pages, and functions that provide a query history now redact the content of a query that fails due to a syntax or parsing\nerror:",
+        "When a query failed due to a syntax or parsing error, its content could be viewed in the views, pages, and functions that\nprovide a query history.",
+        "The query history redacts the content of a query that fails due to a syntax or parsing error. The query text is replaced with\n<redacted>.",
+        "This implementation is done mainly for security reasons, where sensitive information like passwords cannot be redacted for queries with\ninvalid syntax (which is done for syntactically valid queries). However, the user who executed the query would still be able to view the\nun-redacted query.",
+        "Note that \u201credacted\u201d means that only the query text will be redacted, not the whole row in the query history for that syntactically\ninvalid query.",
+        "In order to clarify who can see this text un-redacted, please be aware that the USER who executed the query (no matter what role they\nuse) can see the query text. However, another user (even if they use the same role used for executing the failed query) will not be able\nto see the query text. The entry in the QUERY_HISTORY view is available for everyone\nwho has the necessary privileges to check this view.",
+        "Ref: 936",
+        "Was this page helpful?"
+    ]
+}

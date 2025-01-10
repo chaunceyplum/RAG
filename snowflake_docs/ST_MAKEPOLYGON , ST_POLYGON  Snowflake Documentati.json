@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_makepolygon",
+    "title": "ST_MAKEPOLYGON , ST_POLYGON | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Constructs a GEOGRAPHY or GEOMETRY object that represents\na Polygon without holes. The function uses the specified LineString as the outer loop.",
+        "This function corrects the orientation of the loop to prevent the creation of Polygons that span more than half of the globe. In\ncontrast, ST_MAKEPOLYGONORIENTED does not attempt to correct the orientation of the loop.",
+        "TO_GEOGRAPHY , TO_GEOMETRY , ST_MAKEPOLYGONORIENTED",
+        "A GEOGRAPHY or GEOMETRY object that represents a LineString in which the last point is the same as the first (i.e. a\nloop).",
+        "The function returns a value of type GEOGRAPHY or GEOMETRY.",
+        "The lines of the Polygon must form a loop. In other words, the last Point in the sequence of Points defining the LineString\nmust be the same Point as the first Point in the sequence.",
+        "ST_POLYGON is an alias for ST_MAKEPOLYGON.",
+        "For GEOMETRY objects, the returned GEOMETRY object has the same SRID as the input.",
+        "This shows a simple use of the ST_MAKEPOLYGON function. The sequence of points below defines a geodesic\nrectangular area 1 degree wide and 2 degrees high, with the lower left corner of the polygon starting at the\nequator (latitude) and Greenwich (longitude). The last point in the sequence is the same as the first point,\nwhich completes the loop.",
+        "This shows a simple use of the ST_MAKEPOLYGON function.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

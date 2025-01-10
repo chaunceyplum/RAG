@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.diff",
+    "title": "modin.pandas.DataFrame.diff | Snowflake Documentation",
+    "paragraphs": [
+        "First discrete difference of element.",
+        "Calculates the difference of a DataFrame element compared with another element\nin the DataFrame (default is element in previous row).",
+        "periods (int, default 1) \u2013 Periods to shift for calculating difference, accepts negative values.",
+        "axis ({0 or 'index', 1 or 'columns'}, default 0) \u2013 Take difference over rows (0) or columns (1).",
+        "DataFrame with the first differences of the Series.",
+        "DataFrame",
+        "Notes",
+        "For boolean dtypes, this uses operator.xor() rather than operator.sub(). The result\nis calculated according to current dtype in DataFrame, however dtype of the result\nis always float64.",
+        "Examples",
+        "Difference with previous row",
+        "Difference with previous column",
+        "Difference with 3rd previous row",
+        "Difference with following row",
+        "Was this page helpful?"
+    ]
+}

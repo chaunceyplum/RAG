@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/scim-security-integrations",
+    "title": "SCIM security integrations | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake supports SCIM integration with the following identity providers to provision, manage, and synchronize users and groups in Snowflake:",
+        "Okta",
+        "Microsoft Azure Active Directory",
+        "Custom integrations",
+        "Note",
+        "You can use custom SCIM integrations with identity providers that do not have a dedicated integration to provision, manage, and\nsynchronize users and groups in Snowflake.",
+        "You should use custom SCIM integrations for identity providers that are neither Okta nor Microsoft Azure AD.",
+        "Was this page helpful?"
+    ]
+}

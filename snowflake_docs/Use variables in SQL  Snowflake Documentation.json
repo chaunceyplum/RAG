@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/project-definitions/use-sql-variables",
+    "title": "Use variables in SQL | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Note",
+        "Support for variables requires project definition version 1.1.",
+        "You can also use project files to define variables that other commands, such as snow sql, can use. The env section in the project definition file(typically, snowflake.yml) lets you define variables as shown:",
+        "After adding the env section to the project definition file, you can pass the variables to the snow sql command instead of specifying the variable and value on the command line.",
+        "Instead specifying the database and role on the command line with the --variable option, as shown:",
+        "you can specify the variables defined in the env section as shown:",
+        "You can include the env section in addition to any other sections you include in the project definition file.",
+        "Note",
+        "If your current project definition file uses definition_version: 1, you must update it to definition_version: 1.1 if you want to take advantage of the variables feature. If you do not change the value, Snowflake CLI ignores the env section, but the other types of projects (snowpark, in this example) still work as expected.",
+        "You can override any variable defined the in snowflake.yml project definition file by setting a shell environment variable by the same name (case-sensitive). For example, to override the database value defined in the example, you can execute the following shell command:",
+        "For more information about using env variables, see Storing variables in the snowflake.yml project definition file.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

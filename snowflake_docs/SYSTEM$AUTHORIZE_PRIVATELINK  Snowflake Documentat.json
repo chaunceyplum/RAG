@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_authorize_privatelink",
+    "title": "SYSTEM$AUTHORIZE_PRIVATELINK | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Business Critical Feature",
+        "This function requires Business Critical (or higher). To inquire about upgrading, please contact Snowflake Support.",
+        "Enables private connectivity to the Snowflake service for the current account.",
+        "SYSTEM$REVOKE_PRIVATELINK , SYSTEM$GET_PRIVATELINK ,\nSYSTEM$GET_PRIVATELINK_AUTHORIZED_ENDPOINTS",
+        "AWS:",
+        "Azure:",
+        "The 12-digit identifier that uniquely identifies your Amazon Web Services (AWS) account, as a string.",
+        "The identifier that uniquely identifies your Snowflake account in Microsoft Azure (Azure) as a string.",
+        "The federated token value that contains access credentials for a federated user as a string.",
+        "To obtain this value, execute the appropriate command for the cloud platform that hosts your Snowflake account. Use the command-line tool\nprovided by the platform:",
+        "For Snowflake on AWS:",
+        "For Snowflake on Azure:",
+        "Where:",
+        "The unique identifier for your subscription. For example:",
+        "13c...",
+        "To obtain this value, execute the following Azure CLI command in your command line environment:",
+        "Note the output value in the SubscriptionID column, which is truncated in this example:",
+        "Only account administrators (i.e. users with the ACCOUNTADMIN role) can execute this function.",
+        "This function can be used with Snowflake accounts on AWS or Azure; Google Cloud Platform (GCP) is not currently supported.",
+        "Call the SYSTEM$GET_PRIVATELINK function to verify whether your Snowflake account is authorized\nto use private connectivity to the Snowflake service.",
+        "Call the SYSTEM$REVOKE_PRIVATELINK function disable your Snowflake account to use private\nconnectivity to the Snowflake service.",
+        "Enable AWS PrivateLink for your Snowflake account on AWS. Note that the values are truncated in this example.",
+        "Enable Azure Private Link for your Snowflake account on Azure. Note that the values are truncated in this example.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

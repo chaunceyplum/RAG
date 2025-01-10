@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.to_snowflake",
+    "title": "modin.pandas.to_snowflake | Snowflake Documentation",
+    "paragraphs": [
+        "Save the Snowpark pandas DataFrame or Series as a Snowflake table.",
+        "obj \u2013 Either a Snowpark pandas DataFrame or Series",
+        "name \u2013 Name of the SQL table or fully-qualified object identifier",
+        "if_exists \u2013 How to behave if table already exists. default \u2018fail\u2019\n- fail: Raise ValueError.\n- replace: Drop the table before inserting new values.\n- append: Insert new values to the existing table. The order of insertion is not guaranteed.",
+        "index \u2013 default True\nIf true, save DataFrame index columns as table columns.",
+        "index_label \u2013 Column label for index column(s). If None is given (default) and index is True,\nthen the index names are used. A sequence should be given if the DataFrame uses MultiIndex.",
+        "table_type \u2013 The table type of table to be created. The supported values are: temp, temporary,\nand transient. An empty string means to create a permanent table. Learn more about table\ntypes here.",
+        "See also",
+        "DataFrame.to_snowflake",
+        "Series.to_snowflake",
+        "read_snowflake",
+        "Was this page helpful?"
+    ]
+}

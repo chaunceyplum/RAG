@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1231",
+    "title": "DYNAMIC_TABLE_REFRESH_HISTORY function: DATA_TIMESTAMP value in output displayed in new format | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "After manually refreshing a dynamic table using the ALTER DYNAMIC TABLE \u2026 REFRESH command,\nwhen you call the DYNAMIC_TABLE_REFRESH_HISTORY function (in INFORMATION_SCHEMA),\nthe DATA_TIMESTAMP returned result behaves as follows:",
+        "DATA_TIMESTAMP is shown as a raw value (seconds since epoch). Documentation lists the column data type incorrectly as TIMESTAMP_LTZ.",
+        "DATA_TIMESTAMP will be shown as a human readable timestamp.",
+        "Ref: 1231",
+        "Was this page helpful?"
+    ]
+}

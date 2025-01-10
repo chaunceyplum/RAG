@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.rename",
+    "title": "modin.pandas.Series.rename | Snowflake Documentation",
+    "paragraphs": [
+        "Alter Series index labels or name.",
+        "Function / dict values must be unique (1-to-1). Labels not contained in\na dict / Series will be left as-is. Extra labels listed don\u2019t throw an\nerror.",
+        "Alternatively, change Series.name with a scalar value.",
+        "index (scalar, hashable sequence, dict-like or function optional) \u2013 Functions or dict-like are transformations to apply to\nthe index.\nScalar or hashable sequence-like will alter the Series.name\nattribute.",
+        "axis ({0 or 'index'}) \u2013 Unused. Parameter needed for compatibility with DataFrame.",
+        "copy (bool, default True) \u2013 Also copy underlying data. copy has been ignored with Snowflake execution engine.",
+        "inplace (bool, default False) \u2013 Whether to return a new Series. If True the value of copy is ignored.",
+        "level (int or level name, default None) \u2013 In case of MultiIndex, only rename labels in the specified level.",
+        "errors ({'ignore', 'raise'}, default 'ignore') \u2013 If \u2018raise\u2019, raise KeyError when a dict-like mapper or\nindex contains labels that are not present in the index being transformed.\nIf \u2018ignore\u2019, existing keys will be renamed and extra keys will be ignored.",
+        "Series with index labels or name altered or None if inplace=True.",
+        "Series or None",
+        "See also",
+        "Corresponding DataFrame method.",
+        "Set the name of the axis.",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

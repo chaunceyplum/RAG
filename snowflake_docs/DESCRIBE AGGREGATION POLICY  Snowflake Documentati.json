@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-aggregation-policy",
+    "title": "DESCRIBE AGGREGATION POLICY | Snowflake Documentation",
+    "paragraphs": [
+        "Enterprise Edition Feature",
+        "This feature requires Enterprise Edition (or higher). To inquire about upgrading, please contact Snowflake Support.",
+        "Describes the details about an aggregation policy, including the creation date, name, and the\nSQL expression.",
+        "DESCRIBE can be abbreviated to DESC.",
+        "Aggregation policy DDL reference",
+        "Specifies the identifier for the aggregation policy to describe.",
+        "If the identifier contains spaces or special characters, the entire string must be enclosed in double quotes.\nIdentifiers enclosed in double quotes are also case-sensitive.",
+        "For more information, see Identifier requirements.",
+        "A role used to execute this SQL command must have at least one of the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "APPLY AGGREGATION POLICY",
+        "Account",
+        "APPLY",
+        "Aggregation policy",
+        "OWNERSHIP",
+        "Aggregation policy",
+        "OWNERSHIP is a special privilege on an object that is automatically granted to the role that created the object, but can also be transferred using the GRANT OWNERSHIP command to a different role by the owning role (or any role with the MANAGE GRANTS privilege).",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "For additional details on aggregation policy DDL and privileges, see Privileges and commands.",
+        "Describe the aggregation policy:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

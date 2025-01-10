@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/md5_number_upper64",
+    "title": "MD5_NUMBER_UPPER64 | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Checksum)",
+        "Calculates the 128-bit MD5 message digest, interprets it as a signed 128-bit big endian number, and returns the upper 64 bits of\nthe number as an unsigned integer. This representation is useful for maximally efficient storage and comparison of MD5 digests.",
+        "MD5 , MD5_HEX, MD5_BINARY, MD5_NUMBER_LOWER64",
+        "A string expression, the message to be hashed.",
+        "A 64 bit unsigned integer that represents the upper 64 bits of the message digest.",
+        "Although the MD5* functions were originally developed as cryptographic functions, they are now\nobsolete for cryptography and should not be used for that purpose. They can be used for other purposes\n(for example, as \u201cchecksum\u201d functions to detect accidental data corruption).",
+        "If you need to encrypt and decrypt data, use the following functions:",
+        "ENCRYPT and DECRYPT",
+        "ENCRYPT_RAW and DECRYPT_RAW",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

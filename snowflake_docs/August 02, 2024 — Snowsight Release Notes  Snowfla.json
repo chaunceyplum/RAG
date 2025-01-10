@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/ui/2024-08-02",
+    "title": "August 02, 2024 \u2014 Snowsight Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "This document provides an overview of the new features, enhancements, and other important changes introduced in this update to\nSnowsight.",
+        "If you have additional questions, please feel free to contact Snowflake Support.",
+        "With this release, we are pleased to announce the preview of the Cortex Search in Snowsight.\nCortex Search enables low-latency, high-quality \u201cfuzzy\u201d search over your Snowflake data. Now you can create your own search service\nthrough Snowsight without writing any SQL.",
+        "For more details, see Cortex Search.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

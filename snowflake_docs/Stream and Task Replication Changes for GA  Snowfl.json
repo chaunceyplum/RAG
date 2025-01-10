@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_03/bcr-1048",
+    "title": "Stream and Task Replication: Changes for GA | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Stream and task replication is currently in preview and can be explicitly enabled for a database, replication or failover group, or an account.",
+        "In a future release, stream and task replication will be generally enabled and will change as follows:",
+        "Streams and tasks in a database are not replicated unless you have enabled the stream and task replication preview.",
+        "If you have not explicitly enabled stream and task replication, replication of a database with streams succeeds,\nbut the streams are ignored (that is to say, they are not replicated to the target account).",
+        "Replication of databases that contain streams will fail in the following scenarios:",
+        "If the database that contains the stream and the database that contains the base object referenced by the stream:",
+        "Are separate databases or",
+        "Are in different replication or failover groups",
+        "If a database contains a stream that references an unsupported object. These include:",
+        "Directory tables",
+        "External tables",
+        "Tables or views in shared databases (i.e. databases shared from provider accounts to your account)",
+        "Dropped objects",
+        "Tasks that have an initial version of the task set in the source account will be replicated to target accounts. For task replication scenarios, refer to Replication Scenarios.",
+        "To avoid replication failures for databases containing streams:",
+        "The replicated database must include both the stream and its base object or",
+        "The database that contains the stream and the database that contains the base object referenced by the stream must be included in the same replication or failover group.",
+        "For detailed information on stream and task replication, refer to Replication and Streams and Replication and Tasks.",
+        "Ref: 1048",
+        "Was this page helpful?"
+    ]
+}

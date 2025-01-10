@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.array_size",
+    "title": "snowflake.snowpark.functions.array_size | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the size of the input ARRAY.",
+        "If the specified column contains a VARIANT value that contains an ARRAY, the size of the ARRAY\nis returned; otherwise, NULL is returned if the value is not an ARRAY.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/data-load-dirtables-pipeline",
+    "title": "Building a data processing pipeline using a directory table | Snowflake Documentation",
+    "paragraphs": [
+        "Build a data processing pipeline by combining a directory table,\nwhich tracks and stores file-level metadata on a stage, with other Snowflake objects\nsuch as streams and tasks.",
+        "A stream records data manipulation language (DML) changes made to a directory table,\ntable, external table, or the underlying tables in a view. A task executes a single action,\nwhich can be a SQL command or an extensive user-defined function (UDF).\nYou can schedule a task to run periodically, or run a task on demand.",
+        "This example builds a simple data processing pipeline that does the following:",
+        "Detects PDF files added to a stage.",
+        "Extracts data from the files.",
+        "Inserts the data into a Snowflake table.",
+        "The pipeline uses a stream to detect changes to a directory table on the stage,\nand a task that executes a UDF to extract data from the files.",
+        "The following diagram summarizes how the example pipeline works:",
+        "Create an internal stage with a directory table enabled.\nThe example statement sets the ENCRYPTION type to SNOWFLAKE_SSE to\nenable unstructured data access on the stage.",
+        "Create a stream on the directory table by specifying the stage that the directory table belongs to.\nThe stream will track changes to the directory table. In step 5 of this example, we use this stream to construct a task.",
+        "Create a UDF that extracts data from PDF files. The task that you create in a later step will call this UDF to process\nnewly-added files on the stage.",
+        "The following example statement creates a Python UDF named PDF_PARSE that processes PDF files containing product review data.\nThe UDF extracts form field data using the PyPDF2 library.\nIt returns a dictionary that contains the form names and values as key-value pairs.",
+        "Note",
+        "The UDF reads dynamically-specified files using the SnowflakeFile class. To learn more about SnowflakeFile,\nsee Reading a dynamically-specified file with SnowflakeFile.",
+        "Next, create a table where each row stores information about a file on the\nstage in columns named file_name and file_data. The task that you create in a later step\nwill load data into this table.",
+        "Create a scheduled task that checks the stream for new files on the stage and inserts the file data into the prod_reviews table.",
+        "The following statement creates a scheduled task using the stream created previously.\nThe task uses the SYSTEM$STREAM_HAS_DATA function\nto check whether the stream contains change data capture (CDC) records.",
+        "To check that the pipeline works, you can add files to the stage, manually execute the task, and then query the product_reviews table.",
+        "Start by adding some PDF files to the my_pdf_stage stage, and then refresh the stage.",
+        "Note",
+        "This example uses PUT commands, which you can\u2019t run from a worksheet in the Snowflake web interface.\nTo upload files with Snowsight, see Upload files onto a named internal stage.",
+        "You can query the stream to verify that it has recorded the two PDF files that we added to the stage.",
+        "Now, execute the task to process the PDF files and update the product_reviews table.",
+        "Query the product_reviews table to see that the task has added a row for each PDF file.",
+        "Finally, you can create a view that parses the objects in the FILE_DATA column into separate columns.\nYou can then query the view to analyze and work with the file contents.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

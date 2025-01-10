@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-integration",
+    "title": "DESCRIBE INTEGRATION | Snowflake Documentation",
+    "paragraphs": [
+        "Describes the properties of an integration.",
+        "DESCRIBE can be abbreviated to DESC.",
+        "CREATE INTEGRATION , DROP INTEGRATION , ALTER INTEGRATION , SHOW INTEGRATIONS",
+        "ALTER API INTEGRATION , CREATE API INTEGRATION",
+        "CREATE CATALOG INTEGRATION",
+        "ALTER EXTERNAL ACCESS INTEGRATION , CREATE EXTERNAL ACCESS INTEGRATION",
+        "ALTER NOTIFICATION INTEGRATION , CREATE NOTIFICATION INTEGRATION",
+        "ALTER SECURITY INTEGRATION , CREATE SECURITY INTEGRATION",
+        "ALTER STORAGE INTEGRATION , CREATE STORAGE INTEGRATION",
+        "Specifies the identifier for the integration to describe. If the identifier contains spaces or special characters, the entire string\nmust be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "If the integration is an API integration, then the output includes the API_KEY column. The API_KEY displays a masked value if an\nAPI key was entered. (This does not display either the original unencrypted key or the\nencrypted version of the key.)",
+        "If the security integration has the TYPE property set to OAUTH (i.e. Snowflake OAuth), Snowflake returns two additional security\nintegration properties in the query result that cannot be set with either a CREATE SECURITY INTEGRATION or an ALTER SECURITY INTEGRATION\ncommand:",
+        "A list of all supported endpoints for a client application to receive an authorization code from Snowflake.",
+        "A list of all supported endpoints for a client application to exchange an authorization code for an access token or to obtain a refresh\ntoken.",
+        "Create a notification integration:",
+        "Describe the columns in the integration:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

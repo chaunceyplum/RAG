@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.types.Variant",
+    "title": "snowflake.snowpark.types.Variant | Snowflake Documentation",
+    "paragraphs": [
+        "The type hint for annotating Variant data when registering UDFs.",
+        "alias of TypeVar(\u2018Variant\u2019)",
+        "Was this page helpful?"
+    ]
+}

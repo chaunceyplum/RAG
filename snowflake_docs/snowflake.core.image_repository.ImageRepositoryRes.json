@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.image_repository.ImageRepositoryResource",
+    "title": "snowflake.core.image_repository.ImageRepositoryResource | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SchemaObjectReferenceMixin[ImageRepositoryCollection]",
+        "Represents a reference to a Snowflake image repository.",
+        "With this image repository reference, you can create and fetch information about image repositories, as well as\nperform certain actions on them.",
+        "Attributes",
+        "Methods",
+        "Delete this image repository.",
+        "Examples",
+        "Deleting an image repository using its reference:",
+        "Drop this image repository.",
+        "if_exists (bool, optional) \u2013 Check the existence of this image repository before dropping it.\nDefault is None, which is equivalent to False.",
+        "Examples",
+        "Deleting an image repository using its reference:",
+        "Fetch the details of an image repository.",
+        "Examples",
+        "Fetching a reference to an image repository to print its name and properties:",
+        "List the images in an image repository.",
+        "Examples",
+        "Listing images in an image repository using an image repository reference:",
+        "Was this page helpful?"
+    ]
+}

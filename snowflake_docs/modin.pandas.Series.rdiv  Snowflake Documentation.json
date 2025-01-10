@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.rdiv",
+    "title": "modin.pandas.Series.rdiv | Snowflake Documentation",
+    "paragraphs": [
+        "Return Floating division of series and other, element-wise (binary operator rtruediv).",
+        "Equivalent to other / series, but with support to substitute a fill_value for\nmissing data in either one of the inputs.",
+        "other (Series or scalar value) \u2013",
+        "level (int or name) \u2013 Broadcast across a level, matching Index values on the\npassed MultiIndex level.",
+        "fill_value (None or float value, default None (NaN)) \u2013 Fill existing missing (NaN) values, and any new element needed for\nsuccessful Series alignment, with this value before computation.\nIf data in both corresponding Series locations is missing\nthe result of filling (at that location) will be missing.",
+        "axis ({0 or 'index'}) \u2013 Unused. Parameter needed for compatibility with DataFrame.",
+        "The result of the operation.",
+        "Series",
+        "See also",
+        "Element-wise Floating division, see Python documentation for more details.",
+        "Caution",
+        "Snowpark pandas API will always produce a division by zero error if the right hand side contains one or more zeroes. This is different from pandas which only produces a ZeroDivisionError exception when dtype='object'.",
+        "Caution",
+        "In Snowpark pandas API, whenever a binary operation involves a NULL value, the result will preserve NULL values, e.g. NULL.rtruediv(<other>) will yield NULL.",
+        "Caution",
+        "Snowpark pandas API denotes invalid numeric results with None while pandas uses NaN.",
+        "Caution",
+        "Snowpark pandas API does not support fill_value and level except for default values.",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

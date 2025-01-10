@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/un-bundled/bcr-1675",
+    "title": "Snowsight: Default all users, including VPS and Private Link, to Snowsight (Postponed) | Snowflake Documentation",
+    "paragraphs": [
+        "All Snowflake Private Link and VPS account customers are upgraded to Snowsight\nand see Snowsight after signing in to the Snowflake web interface.",
+        "Users see their default experience in the web interface, as specified in their user\nprofile for each account: Classic Console or Snowsight.",
+        "All users, including Private Link and VPS account customers see Snowsight after logging in.\nPrivate Link and VPS account users can no longer choose Classic Console as the default experience for their user profile.\nIf needed, users can access Classic Console from Snowsight.",
+        "In order to ensure that users can access Snowsight, it is vital that you validate connectivity\nto Snowsight URLs within your private network.",
+        "We strongly encourage you to confirm users can connect and log into Snowsight.",
+        "If there are problems, we encourage you to review the information in Configuring private connectivity for Snowsight\nor contact Snowflake Support to discuss next steps.",
+        "Ref: 1675",
+        "Was this page helpful?"
+    ]
+}

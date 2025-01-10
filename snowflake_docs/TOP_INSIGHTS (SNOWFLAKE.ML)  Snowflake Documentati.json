@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/top-insights",
+    "title": "TOP_INSIGHTS (SNOWFLAKE.ML) | Snowflake Documentation",
+    "paragraphs": [
+        "The GET_DRIVERS method of the TOP_INSIGHTS class determines the dimensions in your data that have the most influence on\na specified metric. You use CREATE SNOWFLAKE.ML.TOP_INSIGHTS to create an instance of the class, then use the\n<instance_name>!GET_DRIVERS method to get the insights.",
+        "Important",
+        "Legal notice. This Snowflake ML function is powered by machine learning technology. Machine\nlearning technology and results provided may be inaccurate, inappropriate, or biased. Decisions based on machine\nlearning outputs, including those built into automatic pipelines, should have human oversight and review processes\nto ensure model-generated content is accurate. Snowflake Cortex ML function queries will be treated as any\nother SQL query and may be considered metadata.",
+        "Metadata. When you use Snowflake Cortex ML functions, Snowflake logs generic error messages returned by an ML\nfunction. These error logs help us troubleshoot issues that arise and improve these functions to serve you better.",
+        "For further information, see Snowflake AI Trust and Safety FAQ.",
+        "CREATE SNOWFLAKE.ML.TOP_INSIGHTS",
+        "DROP SNOWFLAKE.ML.TOP_INSIGHTS",
+        "SHOW SNOWFLAKE.ML.TOP_INSIGHTS",
+        "<instance_name>!GET_DRIVERS",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

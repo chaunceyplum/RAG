@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.cancel_all",
+    "title": "snowflake.snowpark.Session.cancel_all | Snowflake Documentation",
+    "paragraphs": [
+        "Cancel all action methods that are running currently.\nThis does not affect any action methods called in the future.",
+        "Was this page helpful?"
+    ]
+}

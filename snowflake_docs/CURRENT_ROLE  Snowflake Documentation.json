@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/current_role",
+    "title": "CURRENT_ROLE | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (Session Object)",
+        "Returns the name of the primary role in use for the current session when the primary role is an account-level role or NULL if the role in use for the current session is a database role.",
+        "To specify a different role for the session, execute the USE ROLE\ncommand.",
+        "None.",
+        "Granting access on a secure UDF or secure view that\ncontains this function to a share is allowed. When the secure UDF or secure view is accessed from the data sharing consumer account, this\nfunction always returns a NULL value.",
+        "Snowflake returns a NULL value if this function is used in a masking policy or\nrow access policy that is assigned to a shared table or view.",
+        "This demonstrates CURRENT_ROLE():",
+        "Output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

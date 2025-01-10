@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.GetResult.file",
+    "title": "snowflake.snowpark.GetResult.file | Snowflake Documentation",
+    "paragraphs": [
+        "The downloaded file path.",
+        "Was this page helpful?"
+    ]
+}

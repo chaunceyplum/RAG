@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/python/testing-python-snowpark",
+    "title": "Writing Tests for Snowpark Python | Snowflake Documentation",
+    "paragraphs": [
+        "This topic explains how to test your Snowpark code while connected to Snowflake.\nYou can use standard testing utilities, like PyTest, to test your Snowpark Python UDFs, DataFrame transformations, and stored procedures.",
+        "Thorough testing can help to prevent unintended breaking changes. Unit tests verify that a section of code works as expected.\nIntegration tests help ensure that components work together correctly for an end-to-end use case.",
+        "The examples in this document use PyTest, one of the most popular testing frameworks for Python.\nFor additional guidance and best practices, see the PyTest documentation.",
+        "Alternatively, you can use the Snowpark Python local testing framework to create and operate on Snowpark Python DataFrames locally without\nconnecting to a Snowflake account. For more information, see Local testing framework.",
+        "Install PyTest in your project, by running pip install pytest or conda install pytest.\nYou can also add it to your requirements.txt or conda environment file.",
+        "Create a test directory next to your source code directory and add your unit and integration tests to it.\nTo see an example, refer to the Snowpark Python project template.",
+        "PyTest fixtures are functions that are executed before a test (or module of tests) to provide data or connections to tests.\nIn this scenario, create a PyTest fixture that returns a Snowpark Session object.",
+        "Create a test directory if you do not already have one.",
+        "Create a conftest.py under test with the following contents, where connection_parameters is a dictionary with your Snowflake\naccount credentials. For more information about the dictionary format, see Creating a Session.",
+        "Create the Session fixture as a module-scoped fixture instead of as a file-scoped fixture to prevent multiple sessions from being created\nand causing issues due to conflicting session objects.",
+        "You can test your Python UDF logic by testing the UDF handler as a generic Python method.",
+        "Create a file under your test directory for the UDF unit tests. For example, name the file test_functions.py.",
+        "Import the Python methods to test.",
+        "For each test scenario, create a Python method named test_<scenario_to_test>.",
+        "For example, here is a Python UDF handler:",
+        "You can import this method into the test file (test/test_functions.py) and test it as a generic Python method.",
+        "Adding unit tests for your DataFrame transformations helps to protect against unexpected bugs and regressions.\nTo make your DataFrame logic easily testable, encapsulate the transformations into a Python method that takes as\ninput the DataFrames to be transformed and returns the transformed DataFrames.",
+        "In the example below, mf_df_transformer contains the transformation logic. It can be imported into other\nmodules in the Python project and tested easily.",
+        "To test this transformation, follow these steps:",
+        "Create a file for the DataFrame tests, test_transformers.py, under the test directory (test/test_transformers.py).",
+        "Create a test method for the transformer to be tested: test_my_df_transformer(session). The session parameter here refers to the session fixture created in the earlier section.",
+        "Using the session fixture, create the input and expected output DataFrames within the test method.",
+        "Pass the input DataFrame to the transformer and compare the expected DataFrame to the actual DataFrame returned by the transformer.",
+        "To test your stored procedure handlers, use the session fixture to call the stored procedure handler.\nIf your stored procedure reads from tables, such as in an ETL pipeline, you can create those tables prior to calling the stored procedure handler,\nas shown in the example below. This pattern ensures that your input data is tracked in source control and does not unexpectedly change between test executions.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

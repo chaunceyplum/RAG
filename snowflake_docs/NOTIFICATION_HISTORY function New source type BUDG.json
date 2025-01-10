@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_06/bcr-1687",
+    "title": "NOTIFICATION_HISTORY function: New source type BUDGET in MESSAGE_SOURCE column | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, the output of the\nNOTIFICATION_HISTORY function behaves as follows:",
+        "If you are using the Budgets feature, the output of the NOTIFICATION_HISTORY function is as follows for the message source and\ninformation columns:",
+        "MESSAGE_SOURCE: STORED_PROCEDURE",
+        "MESSAGE_SOURCE_INFO: NULL",
+        "If you are using the Budgets feature, the output of the NOTIFICATION_HISTORY function is as follows for the message source and\ninformation columns:",
+        "MESSAGE_SOURCE: BUDGET",
+        "MESSAGE_SOURCE_INFO: Budget ID and name",
+        "Ref: 1687",
+        "Was this page helpful?"
+    ]
+}

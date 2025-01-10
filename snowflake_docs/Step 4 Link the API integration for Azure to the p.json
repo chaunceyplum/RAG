@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/external-functions-creating-azure-common-api-integration-proxy-link",
+    "title": "Step 4: Link the API integration for Azure to the proxy service in the Portal | Snowflake Documentation",
+    "paragraphs": [
+        "When an external function is called, Snowflake sends an HTTP POST command to the proxy service (i.e. Azure API Management service), which\nrelays the POST to the remote service (i.e. Azure Functions). A service principal in your Azure AD tenant allows Snowflake to\nauthenticate with Azure AD when calling the API Management service in your tenant.",
+        "This topic provides instructions for creating a service principal to link the API integration you created in the previous step with\nyour Azure API Management service. The instructions are the same regardless of whether you are using the Azure Portal or ARM template.",
+        "For more information about service principals, see the Microsoft documentation:\nApplications and service principals.",
+        "Step 3: Create the API integration for Azure in Snowflake",
+        "Before you create a service principal, you need some information about the API integration:",
+        "If you haven\u2019t already, log into the Snowflake web interface.",
+        "Execute the DESCRIBE INTEGRATION command for the API integration you created in the previous step:",
+        "From the DESCRIBE results:",
+        "Record the app name (from the AZURE_MULTI_TENANT_APP_NAME column) in the corresponding field in your tracking worksheet.",
+        "Record the consent URL (from the AZURE_CONSENT_URL column) in the corresponding field in your tracking worksheet.",
+        "The URL looks similar to the following:",
+        "To grant Snowflake access to your Azure tenancy, you need the AZURE_CONSENT_URL that you recorded earlier:",
+        "Paste the URL into your browser. When your browser resolves this URL, Azure automatically creates a service principal that represents\nSnowflake in the tenant.",
+        "Note that you only need to create a service principal for Snowflake once per tenancy. After Snowflake has been granted access, access\ndoes not need to be granted again. In other words, you do not need to grant access again for each new external function you create for\nAzure.",
+        "If Snowflake has already been granted access to your Azure tenancy, you should see the Snowflake web site, which should show something\nsimilar to SNOWFLAKE THE CLOUD DATA PLATFORM. You can then skip the remaining tasks and proceed to\nStep 5: Create the external function for Azure in Snowflake.",
+        "If Snowflake has not yet been granted access, you should see a Microsoft Permissions requested page, and you should continue\nto the next task.",
+        "Click the Accept button. This allows the Azure service principal created for your Snowflake account to obtain an access token\non any resource inside your Azure AD tenant.",
+        "At this point, you have finished creating a service principal in your tenant to represent Snowflake.",
+        "However, to enhance security, you should ensure that only authorized clients can access your Azure Function. Instructions for controlling\naccess are provided in the final step of the creation process.",
+        "Step 5: Create the external function for Azure in Snowflake",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

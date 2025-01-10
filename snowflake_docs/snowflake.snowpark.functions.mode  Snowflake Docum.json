@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.mode",
+    "title": "snowflake.snowpark.functions.mode | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the most frequent value for the records in a group. NULL values are ignored.\nIf all the values are NULL, or there are 0 rows, then the function returns NULL.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

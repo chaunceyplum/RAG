@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/budget/methods/deactivate",
+    "title": "account_root_budget!DEACTIVATE | Snowflake Documentation",
+    "paragraphs": [
+        "Deactivate the account budget.",
+        "account_root_budget!ACTIVATE",
+        "The role used to call this method must be granted the following role and privilege:",
+        "BUDGET_ADMIN application role",
+        "Snowflake database role USAGE_VIEWER",
+        "For more information, see Budgets roles and privileges.",
+        "After you deactivate the account budget, you can no longer create new custom budgets using Snowsight.\nHowever, you can continue to create custom budgets using SQL.",
+        "This method is only available on the account budget. Custom budgets can\u2019t be deactivated. They must be dropped using\nthe DROP BUDGET command.",
+        "Calling this method does not return the object. Because of this, you can\u2019t use method chaining to call another method on the\nreturn value of this method. Instead, call each method in a separate SQL statement.",
+        "Dectivate the account budget for your account:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

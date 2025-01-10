@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.get_session_stage",
+    "title": "snowflake.snowpark.Session.get_session_stage | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the name of the temporary stage created by the Snowpark library\nfor uploading and storing temporary artifacts for this session.\nThese artifacts include libraries and packages for UDFs that you define\nin this session via add_import().",
+        "Note",
+        "This temporary stage is created once under the current database and schema of a Snowpark session.\nTherefore, if you switch database or schema during the session, the stage will not be re-created\nin the new database or schema, and still references the stage in the old database or schema.",
+        "Was this page helpful?"
+    ]
+}

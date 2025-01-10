@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/check_json",
+    "title": "CHECK_JSON | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Parsing)",
+        "Checks the validity of a JSON document. If the input string is a valid JSON\ndocument or a NULL, the output is NULL (i.e. no error). If the input cannot be\ntranslated to a valid JSON value, the output string contains the error message.",
+        "A VARIANT or string value (or expression) to check.",
+        "If the expression is of type VARIANT, it should contain a\nstring.",
+        "Create a table and insert some VARCHAR and VARIANT values:",
+        "Use the CHECK_JSON function to check the validity of potential\nJSON-compatible strings in a VARCHAR column:",
+        "Use the CHECK_JSON function to check the validity of potential\nJSON-compatible strings in a VARIANT column:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/snowflake-scripting/repeat",
+    "title": "REPEAT (Snowflake Scripting) | Snowflake Documentation",
+    "paragraphs": [
+        "A REPEAT loop iterates until a specified condition is true. A REPEAT loop tests the condition at\nthe end of the loop. This means that the body of a REPEAT loop always executes at least once.",
+        "For more information on loops, see Working with loops.",
+        "Note",
+        "This Snowflake Scripting construct is valid only within a\nSnowflake Scripting block.",
+        "BREAK, CONTINUE",
+        "Where:",
+        "A statement can be any of the following:",
+        "A single SQL statement (including CALL).",
+        "A control-flow statement (for example, a looping or\nbranching statement).",
+        "A nested block.",
+        "An expression that evaluates to a BOOLEAN.",
+        "An optional label. Such a label can be a jump target for a BREAK or\nCONTINUE statement. A label must follow the naming rules for\nObject identifiers.",
+        "Put parentheses around the condition in the REPEAT. For example: REPEAT ( <condition> ).",
+        "If the condition never evaluates to TRUE, and the loop does not contain a\nBREAK command (or equivalent), then the loop will run and consume credits\nindefinitely.",
+        "If the condition is NULL, then it is treated as FALSE.",
+        "A loop can contain multiple statements. You can use, but are not required to use, a BEGIN \u2026 END\nblock to contain those statements.",
+        "This example uses a loop to calculate a power of 2. (This is an inefficient solution, but it does\ndemonstrate looping.)",
+        "Here is the output of executing the stored procedure:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

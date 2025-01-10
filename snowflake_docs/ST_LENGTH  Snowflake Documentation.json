@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_length",
+    "title": "ST_LENGTH | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns the geodesic length of the LineString(s) in a GEOGRAPHY object or the Euclidean\nlength of the LineString(s) in a GEOMETRY object.",
+        "The argument must be of type GEOGRAPHY or GEOMETRY.",
+        "Returns a REAL value, which represents the length:",
+        "For GEOGRAPHY input values, the length is in meters.",
+        "For GEOMETRY input values, the length is computed with the same units used to define the input coordinates.",
+        "If geography_or_geometry_expression is not a LineString, MultiLineString, or GeometryCollection containing linestrings, ST_LENGTH returns 0.",
+        "If geography_or_geometry_expression is a GeometryCollection, ST_LENGTH returns the sum of the lengths of the linestrings in the collection.",
+        "If you want the perimeter length of a polygon, use the ST_PERIMETER function instead.",
+        "This shows the length in meters of one degree of arc at the equator:",
+        "The following example demonstrates how to use the ST_LENGTH function.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

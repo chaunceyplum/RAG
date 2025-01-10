@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/procedure/procedure-introduction",
+    "title": "Manage procedures | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "The Snowflake REST Procedure API provides the following endpoints to access, update, and perform certain actions on Procedure resources.",
+        "Endpoint",
+        "Description",
+        "GET /api/v2/databases/database/schemas/.schema/procedures",
+        "Lists available procedures.",
+        "POST /api/v2/databases/database/schemas/.schema/procedures",
+        "Creates a procedure.",
+        "GET /api/v2/databases/database/schemas/.schema/procedures/nameWithArgs",
+        "Fetches a procedure.",
+        "DELETE /api/v2/databases/database/schemas/.schema/procedures/nameWithArgs",
+        "Deletes a procedure.",
+        "POST /api/v2/databases/database/schemas/.schema/procedures/nameWithArgs:call",
+        "Calls a procedure.",
+        "For reference documentation, see Snowflake Procedure API reference.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

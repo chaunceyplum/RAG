@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_05/bcr-1080",
+    "title": "SHOW Commands: Pagination Support | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_05 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the current release, the behavior of these commands changes as follows:",
+        "SHOW APPLICATION ROLES",
+        "SHOW DATABASE ROLES",
+        "SHOW GRANTS",
+        "SHOW ROLES",
+        "These commands do not support limiting the row output or pagination of the results.",
+        "These commands support pagination of the output using a LIMIT \u2026 FROM clause:",
+        "SHOW APPLICATION ROLES",
+        "SHOW DATABASE ROLES",
+        "SHOW ROLES",
+        "The SHOW GRANTS command only supports the LIMIT clause. For example:",
+        "Where:",
+        "Use one of the following plural forms of the object domain:",
+        "APPLICATION ROLES",
+        "DATABASE ROLES",
+        "ROLES",
+        "Optionally limits the maximum number of rows returned, while also enabling \u201cpagination\u201d of the results. The actual number of rows\nreturned night be less than the specified limit (e.g. the number of existing objects is less than the specified limit).",
+        "The optional FROM 'name_string' subclause effectively serves as a \u201ccursor\u201d for the results. This enables fetching the\nspecified number of rows following the first row whose object name matches the specified string:",
+        "The string must be enclosed in single quotes and is case-sensitive. In addition, the string does not have to include the full\nobject name; partial names are supported.",
+        "Default: No value (no limit is applied to the output).",
+        "For example:",
+        "The statement returns up to ten application roles in the application named myapp after the first application role named\napp_role2.",
+        "Ref: 1080",
+        "Was this page helpful?"
+    ]
+}

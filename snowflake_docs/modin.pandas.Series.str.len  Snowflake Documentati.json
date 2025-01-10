@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.str.len",
+    "title": "modin.pandas.Series.str.len | Snowflake Documentation",
+    "paragraphs": [
+        "Get the length of a string. For non-string values this\nreturns the length of the string representation.",
+        "A Series with the length of each value",
+        "Series",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

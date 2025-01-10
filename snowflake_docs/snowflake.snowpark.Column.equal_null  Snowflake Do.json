@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Column.equal_null",
+    "title": "snowflake.snowpark.Column.equal_null | Snowflake Documentation",
+    "paragraphs": [
+        "Equal to. You can use this for comparisons against a null value.",
+        "Was this page helpful?"
+    ]
+}

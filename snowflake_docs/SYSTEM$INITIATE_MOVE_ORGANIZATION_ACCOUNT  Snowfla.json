@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_initiate_move_organization_account",
+    "title": "SYSTEM$INITIATE_MOVE_ORGANIZATION_ACCOUNT | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Preview Feature \u2014 Open",
+        "Available to all accounts that are Enterprise Edition (or higher).",
+        "To inquire about upgrading, please contact Snowflake Support.",
+        "Starts the process of moving an organization account to a new region.",
+        "SYSTEM$COMMIT_MOVE_ORGANIZATION_ACCOUNT , SYSTEM$SHOW_MOVE_ORGANIZATION_ACCOUNT_STATUS",
+        "Specifies a temporary account name by which the organization account in the new region can be identified until the move is finalized. The\nname must start with a letter and can only contain uppercase letters, numbers, and underscores.",
+        "The name of the organization account in the new region changes from this temporary account name to the name of the original organization\naccount when the SYSTEM$COMMIT_MOVE_ORGANIZATION_ACCOUNT function finishes successfully.",
+        "Snowflake Region ID of the region where the organization account will be moved.",
+        "List of objects that will be moved to the organization account in its new region. Because Snowflake uses replication groups to move the\nobjects, you can only move objects that are supported by replication groups, which varies depending on your Snowflake edition. For a list\nof objects that can be moved, see Replicated objects.",
+        "To move all objects that can be replicated, specify ALL.",
+        "Only users with the GLOBALORGADMIN role can call this function.",
+        "You cannot sign in to the organization account in the new region until the initiation process is complete. To check the status of the\nprocess, call the SYSTEM$SHOW_MOVE_ORGANIZATION_ACCOUNT_STATUS function.",
+        "After the initiation process completes, you can sign in to the organization account in the new region using its temporary name, but cannot\nexecute any SQL statement other than SELECT, USE, and SHOW.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.str.isupper",
+    "title": "modin.pandas.Series.str.isupper | Snowflake Documentation",
+    "paragraphs": [
+        "Check whether all characters in each string are uppercase.",
+        "This is equivalent to running the Python string method str.isupper() for each element of the Series. If a string has zero characters, False is returned for that check.",
+        "Series of boolean values with the same length as the original Series.",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

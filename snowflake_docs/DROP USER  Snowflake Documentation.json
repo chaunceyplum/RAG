@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-user",
+    "title": "DROP USER | Snowflake Documentation",
+    "paragraphs": [
+        "Removes the specified user from the system.",
+        "CREATE USER , ALTER USER , SHOW USERS , DESCRIBE USER",
+        "Specifies the identifier for the user to drop. If the identifier contains spaces, special characters, or mixed-case characters, the\nentire string must be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Dropped users cannot be recovered; they must be recreated.",
+        "If you want to disable a user, use ALTER USER and set DISABLED = TRUE instead.",
+        "Important",
+        "When you drop a user, the folders, worksheets, and dashboards owned by that user become inaccessible and do not transfer to another user\nunless sharing is enabled.",
+        "Share recipients with View, View + Run, and Edit permissions\nwill retain their assigned permissions and can still access the shared folders, worksheets, and dashboards. However, only users with Edit\npermissions can modify or delete the shared folders, worksheets, and dashboards. If you don\u2019t give Edit permissions to at least one other\nuser before you drop the owner, that owner\u2019s folders, worksheets, and dashboards cannot be deleted.",
+        "If a dropped user\u2019s worksheets do not have sharing enabled, an administrator can recover up to 500 worksheets owned by the user.",
+        "Caution",
+        "Any worksheets in the Classic Console will be permanently deleted, and dashboards will be inaccessible if they were not previously shared\nwith another user.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

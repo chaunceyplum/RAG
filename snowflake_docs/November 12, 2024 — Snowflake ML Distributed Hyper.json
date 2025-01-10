@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-11-12-snowflake-ml-hpo-spcs",
+    "title": "November 12, 2024 \u2014 Snowflake ML: Distributed Hyperparameter Optimization on Snowpark Container Services \u2014 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake is pleased to announce the preview of the Snowflake ML Hyperparameter Optimization (HPO) API, a model-agnostic\nframework that enables efficient, parallelized hyperparameter tuning of models. This API is available within a Snowflake\nNotebook configured to use the Container Runtime on Snowpark Container Services (SPCS).",
+        "For more information, see Parallel Hyperparameter Optimization (HPO) on Container Runtime for ML.",
+        "Was this page helpful?"
+    ]
+}

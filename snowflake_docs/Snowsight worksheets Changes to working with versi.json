@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_07/bcr-1313",
+    "title": "Snowsight worksheets: Changes to working with versions | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_07 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The way that you work with versions of a worksheet in Snowsight is different:",
+        "When you select versions of a worksheet, the code for the selected version updates for the worksheet and replaces the code in\nthe worksheet. Some versions are designated as drafts, and you can see the results for selected past versions of a worksheet.",
+        "When you select versions of a worksheet, the code for the selected version appears in a dialog box where you can copy the code\nto modify in the current worksheet version context.",
+        "You cannot view the results for selected versions of a worksheet, and draft versions are no longer distinguished in the list.",
+        "Versions are de-duplicated based on the query text, and worksheet filters in place, and the context in which the worksheet\nwas executed.",
+        "Ref: 1313",
+        "Was this page helpful?"
+    ]
+}

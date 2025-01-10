@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/snowflake-scripting/continue",
+    "title": "CONTINUE (Snowflake Scripting) | Snowflake Documentation",
+    "paragraphs": [
+        "CONTINUE (or ITERATE) skips the rest of the statements in the iteration of a loop and starts the next iteration of\nthe loop.",
+        "For more information on terminating the current iteration of a loop, see Terminating an iteration without terminating the loop.",
+        "Note",
+        "This Snowflake Scripting construct is valid only within a\nSnowflake Scripting block.",
+        "BREAK",
+        "Where:",
+        "An optional label. If the label is specified, the CONTINUE will start at the first statement in the loop with\nthe label.",
+        "You can use this to continue more than one level higher in a nested loop or a nested branch.",
+        "CONTINUE and ITERATE are synonymous.",
+        "If the loop is embedded in another loop(s), you can break out of not only the current loop and start from the first statement in\nthe enclosing loop by including the enclosing loop\u2019s label as part of the CONTINUE. For an example, see the examples\nsection below.",
+        "The following loop iterates 3 times. Because the code after the CONTINUE statement is not executed, the variable\nnamed counter2 will be 0 rather than 3.",
+        "Note: If you are using SnowSQL, the Classic Console, or the\nexecute_stream or execute_string method in Python Connector\ncode, use this example instead (see Using Snowflake Scripting in SnowSQL, the Classic Console, and Python Connector):",
+        "Here is the output of executing the example:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

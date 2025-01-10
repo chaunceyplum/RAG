@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/tables-iceberg-s3-compatible",
+    "title": "Configure an external volume for S3-compatible storage | Snowflake Documentation",
+    "paragraphs": [
+        "For externally managed Iceberg tables with data and metadata in S3-compatible storage,\nyou can configure an external volume associated with an Amazon S3-compatible storage location.",
+        "Iceberg tables that use S3-compatible storage are cross-region tables and don\u2019t\nsupport the following actions:",
+        "Using Snowflake as the Iceberg catalog or converting a table to use Snowflake as the Iceberg catalog.",
+        "Retrieving information about the latest refreshed snapshot with the\nSYSTEM$GET_ICEBERG_TABLE_INFORMATION function.",
+        "To create an Iceberg table that uses S3-compatible storage, you must have an S3-compatible API endpoint for Snowflake.\nFor more information, see Requirements for S3-compatible storage.",
+        "The following steps demonstrate how to configure an external volume for S3-compatible storage and\nhow to use that volume to create an externally managed Iceberg table.",
+        "Create an external volume that specifies an S3-compatible storage location.\nFor information about the S3-compatible parameters in the CREATE EXTERNAL VOLUME command, see the\ncommand syntax.",
+        "If you don\u2019t have a catalog integration, create one for your Iceberg table.\nIceberg tables that use S3-compatible storage are only supported when you use a catalog integration.\nFor more information, see Create a catalog integration.",
+        "The following example creates a catalog integration for Iceberg files in object storage.",
+        "Use the external volume and catalog integration to create an Iceberg table.",
+        "For example:",
+        "To change or update the credentials for the external volume, you can use the\nALTER EXTERNAL VOLUME \u2026 UPDATE command.\nSpecify the name of the storage location that you want to change the credentials for.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

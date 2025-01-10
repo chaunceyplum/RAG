@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/scim-intro",
+    "title": "Snowflake SCIM support | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake supports SCIM 2.0, lets you integrate Snowflake with Okta and Microsoft Azure AD as identity providers. You can use\ncustom identity providers, which are identity providers that are neither Okta nor Microsoft Azure. You can provision users and groups\n(roles) from the identity provider into Snowflake, which functions as the service provider.",
+        "Note",
+        "SCIM roles in Snowflake must own any users or roles that are imported from the identity provider. If the Snowflake SCIM role does not own\nthe imported users or roles, updates in the identity provider are not be synced to Snowflake. Snowflake SCIM roles correlate with their\nidentity provider (IdP):",
+        "Okta SCIM Role: okta_provisioner",
+        "Microsoft Entra ID SCIM Role: aad_provisioner",
+        "Custom SCIM Role: generic_scim_provisioner",
+        "For more information on how to use the Snowflake SCIM Role, see the SCIM configuration sections for Okta,\nMicrosoft Entra ID, and the Custom SCIM integration.",
+        "The Snowflake SCIM API can address the following use cases.",
+        "Managing users: Administrators can provision and manage their users from their organization\u2019s\nidentity provider to Snowflake. User management is a one-to-one mapping from the identity provider to Snowflake.",
+        "Managing groups: Administrators can provision and manage their groups (i.e. Roles) from\ntheir organization\u2019s identity provider to Snowflake. Role management is a one-to-one mapping from the identity provider to Snowflake.",
+        "Auditing SCIM API requests: Administrators can query the rest_event_history table to determine whether the\nidentity provider is sending updates (i.e. SCIM API requests) to Snowflake.",
+        "Identity providers can use a SCIM client to make RESTful API requests to the Snowflake SCIM server. After validating the API request,\nSnowflake performs actions requested by the identity providers on users or groups.",
+        "Snowflake authenticates SCIM API requests from identity providers through an OAuth Bearer token in the Authorization header of HTTP\nrequests. The token is valid for six months. You must ensure your token is not expired when authenticating. If your token expires, you can\ngenerate a new access token using the SYSTEM$GENERATE_SCIM_ACCESS_TOKEN function.",
+        "Caution",
+        "The Snowflake SCIM API lets administrators manage users and groups from the customer\u2019s identity provider to Snowflake. If you make\nchanges to users and groups in Snowflake directly, the changes do not synchronize back to the customer\u2019s identity provider.",
+        "For more information about making SCIM API requests to Snowflake, see SCIM API references.",
+        "You can query Snowflake to find information about SCIM API requests that were made over a span of time. You can use this information to see\nif your organization\u2019s active users match the users provisioned into Snowflake.",
+        "For example, to determine which SCIM API requests were made in the last five minutes, with a maximum of 200 requests to be returned, you can\nuse the Information Schema table function REST_EVENT_HISTORY:",
+        "For more information on how to modify this query, see DATEADD and\nCURRENT_TIMESTAMP.",
+        "See SCIM security integrations.",
+        "Snowflake supports replication and failover/failback with the SCIM security integration from the source account to the target account.",
+        "For details, see Replication of security integrations & network policies across multiple accounts.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

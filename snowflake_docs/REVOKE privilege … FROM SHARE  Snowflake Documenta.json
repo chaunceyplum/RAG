@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/revoke-privilege-share",
+    "title": "REVOKE <privilege> \u2026 FROM SHARE | Snowflake Documentation",
+    "paragraphs": [
+        "Revokes access privileges for databases and other supported database objects (schemas, tables, and views) from a share. Revoking\nprivileges on these objects effectively removes the objects from the share, disabling access to the objects granted via the database\nrole in all consumer accounts that have created a database from the share.",
+        "For more details, see About Secure Data Sharing and Create and configure shares.",
+        "GRANT <privilege> \u2026 TO SHARE",
+        "REVOKE <privileges>",
+        "Where:",
+        "Specifies the identifier for the object (database, schema, table, or secure view) for which the specified privilege is revoked.",
+        "Specifies the identifier for the schema for which the specified privilege is revoked for all tables or views.",
+        "Specifies the identifier for the share to which the specified privilege is revoked.",
+        "Each object privilege must be revoked individually from a role, except for tables, Apache Iceberg\u2122 tables, and views.\nUsing an ALL clause, you can revoke the SELECT privilege from all the tables or views in the specified schema from a role.",
+        "If you specify a TABLE object that is an Iceberg table, the command revokes the privilege from that Iceberg table.",
+        "This example disallows a shared secure view to reference objects from a different database:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

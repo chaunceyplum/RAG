@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1362",
+    "title": "FUNCTIONS view (Account Usage): New columns | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of the Account Usage FUNCTIONS view is as follows:",
+        "The functions view does not contain the IS_MEMOIZABLE and IS_DATA_METRIC columns.",
+        "The functions view contains the IS_MEMOIZABLE and IS_DATA_METRIC columns, which are defined as follows:",
+        "Column name",
+        "Data type",
+        "Description",
+        "IS_MEMOIZABLE",
+        "Boolean",
+        "Y (yes) if the function is memoizable, N (no) otherwise.",
+        "IS_DATA_METRIC",
+        "Boolean",
+        "This column is a placeholder for future functionality.",
+        "Ref: 1362",
+        "Was this page helpful?"
+    ]
+}

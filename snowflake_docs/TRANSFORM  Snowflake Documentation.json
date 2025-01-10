@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/transform",
+    "title": "TRANSFORM | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Higher-order)",
+        "Transforms an array based on the logic in a lambda expression.",
+        "Use lambda functions on data with Snowflake higher-order functions",
+        "The array that contains the elements to be transformed. The array can be semi-structured or structured.",
+        "A lambda expression that defines the transformation\nlogic on each array element.",
+        "The lambda expression must have only one argument specified in the following syntax:",
+        "The return type of this function is a semi-structured or structured array of the lambda expression result.",
+        "If either argument is NULL, the function returns NULL without reporting an error.",
+        "When the data type for the lambda argument is explicitly specified, the array element is coerced into the specified type\nbefore lambda invocation. For information about coercion, see Data type conversion.",
+        "When there is no data type specified for the lambda argument, its data type is derived from the input array as follows:",
+        "If the input array is semi-structured, the data type of the lambda argument is VARIANT.",
+        "If the input array is structured, the data type of the lambda argument is the data type of the array element.",
+        "For semi-structured array input, a semi-structured array is returned. For structured array input, a structured array\nof the lambda expression result type is returned.",
+        "The following examples use the TRANSFORM function.",
+        "Use the TRANSFORM function to multiply each element in an array by two:",
+        "This example is the same as the previous example, but it specifies a structured array of type INT:",
+        "Use the TRANSFORM function to return the value of each object in an array, and add text to each one:",
+        "Assume you have a table named orders with the columns order_id, order_date, and order_detail. The\norder_detail column is an array of the line items, their purchase quantity, and subtotal. The table contains\ntwo rows of data. The following SQL statement creates this table and inserts the rows:",
+        "Use the TRANSFORM function to add a unit_price element to each array in the orders table:",
+        "Use the TRANSFORM function along with the OBJECT_DELETE function in the logic of the\nlambda expression to delete the quantity element in each array from the orders table:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

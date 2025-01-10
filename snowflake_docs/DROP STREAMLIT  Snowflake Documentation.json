@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-streamlit",
+    "title": "DROP STREAMLIT | Snowflake Documentation",
+    "paragraphs": [
+        "Removes the specified Streamlit object from the current/specified schema.",
+        "CREATE STREAMLIT, SHOW STREAMLITS, DESCRIBE STREAMLIT, ALTER STREAMLIT",
+        "Specifies the identifier for the Streamlit object to drop. If the identifier contains spaces, special characters, or\nmixed-case characters, the entire string must be enclosed in double quotes. Identifiers enclosed in double quotes are\nalso case-sensitive (e.g. \"My Object\").",
+        "If the Streamlit object identifier is not fully-qualified (in the form of\ndb_name.schema_name.streamlit_name or schema_name.streamlit_name), the command looks for\nthe Streamlit object in the current schema for the session.",
+        "This command does not drop the underlying stage because the owner of the Streamlit object may not be the owner\nof the stage. Additionally, multiple Streamlit objects may point to the same stage. If you need to drop the\ncorresponding stage, use the DROP STAGE command.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

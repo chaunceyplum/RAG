@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.variance",
+    "title": "snowflake.snowpark.functions.variance | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the sample variance of non-NULL records in a group. If all records\ninside a group are NULL, a NULL is returned. For a single row, NULL is returned as sample variance.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

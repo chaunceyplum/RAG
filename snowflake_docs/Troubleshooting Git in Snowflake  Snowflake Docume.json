@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/git/git-troubleshooting",
+    "title": "Troubleshooting Git in Snowflake | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Using a Git repository in Snowflake is not supported in the Gov region.",
+        "Use the tips described in this topic to resolve issues when using a Git repository in Snowflake.",
+        "You might see this message for one of multiple reasons, but it\u2019s typically due to a misconfiguration in Snowflake integration with the\nremote Git repository. To eliminate common misconfiguration issues, confirm the following:",
+        "You\u2019re using correct credentials for authenticating with the remote Git repository, such as a correct username-and-password combination or\ncorrect personal access token.",
+        "For more on authenticating from Snowflake, see Create a secret with credentials for authenticating.",
+        "You\u2019ve correctly configured the Git repository URL, including the allowed prefixes in the API configuration.",
+        "Read more about specifying an allowed prefix and\norigin URL.",
+        "You aren\u2019t experiencing a connectivity issue, such as when the repository is in a private network.",
+        "Access to a remote Git repository from Snowflake is allowed only over a public network. See Git in Snowflake limitations\nfor more.",
+        "If you continue to have this issue after verifying that your configuration is correct, try the following:",
+        "If you\u2019re using a fine-grained token for authorization (not the Classic token), confirm that you\u2019ve set the proper permissions on the\ntoken. For read-only access, setting the \u201cContent\u201d to \u201cread-only\u201d should be enough.",
+        "For information about managing a personal access token in GitHub, see\nManaging your personal access tokens\nin the GitHub documentation.",
+        "Outside of Snowflake, clone the repository with the command-line Git client using the same URL and TOKEN values that are resulting in the\nerror in Snowflake.",
+        "This should generate more verbose output, including messages indicating what the issue might be. For example, cloning might fail from the\ncommand line because SSO authorization is required for the operation, and this authorization was not available for the fine-grained token.\nSwitching to a Classic token might resolve this issue.",
+        "You might see this message if you used Git from Snowflake during an early preview of the feature. An optimization in reading from a remote\nGit repository, added in a later release, might be complicating access to remote repositories for which you configured access in that early preview.",
+        "To ensure that you\u2019re benefitting from the optimization \u2014 and to stop receiving this error \u2014 re-create your Git repository stages using\nREPLACE GIT REPOSITORY.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

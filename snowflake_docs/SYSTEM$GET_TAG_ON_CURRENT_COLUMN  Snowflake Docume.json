@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_get_tag_on_current_column",
+    "title": "SYSTEM$GET_TAG_ON_CURRENT_COLUMN | Snowflake Documentation",
+    "paragraphs": [
+        "System functions",
+        "Returns the tag string value assigned to the column based upon the specified tag or NULL if a tag is not assigned to the specified column.",
+        "When the body of a masking policy or projection policy\nincludes this function, the value of a tag assigned to a column can determine the return value of the policy assigned to that column.",
+        "Identifier for the tag as a string.",
+        "For example, if the tag is named cost_center use 'cost_center' as the argument.",
+        "Currently, this function can only be used in a masking policy or projection policy condition to dynamically evaluate the tag string value\nset on a column.",
+        "Snowflake returns an error while using the function in either a SELECT query, a row access policy, a view, or a user-defined function\n(UDF).",
+        "Note that this function applies to all table-like objects (e.g. views).",
+        "The tag must exist when calling this system function; otherwise, Snowflake returns the following error message:",
+        "For a contextual example on how to use this function with a masking policy, see Example 2: Protect column data based on the column tag string value.",
+        "When the following projection policy is assigned to a column, the value of the tags.accounting_col tag on that column must be\npublic in order to project the column.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

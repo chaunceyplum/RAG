@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/current_warehouse",
+    "title": "CURRENT_WAREHOUSE | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (Session Object)",
+        "Returns the name of the warehouse in use for the current session.",
+        "To specify a different warehouse for the session, execute the USE WAREHOUSE\ncommand.",
+        "None.",
+        "Show the current warehouse, database, and schema:",
+        "Output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

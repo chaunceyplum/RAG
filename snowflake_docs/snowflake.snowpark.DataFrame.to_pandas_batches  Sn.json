@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.to_pandas_batches",
+    "title": "snowflake.snowpark.DataFrame.to_pandas_batches | Snowflake Documentation",
+    "paragraphs": [
+        "Executes the query representing this DataFrame and returns an iterator of\npandas dataframes (containing a subset of rows) that you can use to\nretrieve the results.",
+        "Unlike to_pandas(), this method does not load all data into memory\nat once.",
+        "Example:",
+        "statement_params \u2013 Dictionary of statement level parameters to be set while executing this action.",
+        "block \u2013 A bool value indicating whether this function will wait until the result is available.\nWhen it is False, this function executes the underlying queries of the dataframe\nasynchronously and returns an AsyncJob.",
+        "Note",
+        "This method is only available if pandas is installed and available.",
+        "2. If you use Session.sql() with this method, the input query of\nSession.sql() can only be a SELECT statement.",
+        "Was this page helpful?"
+    ]
+}

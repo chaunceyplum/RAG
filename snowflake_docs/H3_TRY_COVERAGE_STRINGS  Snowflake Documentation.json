@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/h3_try_coverage_strings",
+    "title": "H3_TRY_COVERAGE_STRINGS | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "A special version of H3_COVERAGE_STRINGS that returns NULL if an error\noccurs when it attempts to return an array of hexadecimal IDs (as VARCHAR values)\nidentifying the minimal set of H3 cells that completely cover a shape\n(specified by a GEOGRAPHY object).",
+        "A GEOGRAPHY object.",
+        "An INTEGER between 0 and 15 (inclusive) specifying the H3 resolution that you want to use for the returned H3 cells.",
+        "Specifying any other INTEGER value results in an error.",
+        "Returns an array of VARCHAR values or NULL.",
+        "If the function can perform a successful calculation, returns an array of VARCHAR values for the hexadecimal\nIDs of the minimal set of H3 cells that completely cover the specified input shape.",
+        "If the function cannot perform a successful calculation, returns NULL without reporting an error.",
+        "See H3_COVERAGE_STRINGS for the usage notes.",
+        "The following example attempts to return an array of IDs that identify the minimal set of H3\ncells that completely cover a shape (specified by a GEOGRAPHY object). Because the array with\nthe cells that cover the given hexagon at the given resolution exceeds the allowed size limit, the function returns NULL.",
+        "For examples that successfully return an array of IDs, see H3_COVERAGE_STRINGS.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

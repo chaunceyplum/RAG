@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/create-catalog-integration",
+    "title": "CREATE CATALOG INTEGRATION | Snowflake Documentation",
+    "paragraphs": [
+        "Creates a new catalog integration for Apache Iceberg\u2122 tables\nin the account or replaces an existing catalog integration.",
+        "The syntax of the command depends on the type of external Iceberg catalog that you use. The following topics explain the syntax for\ncreating catalog integrations for different use cases:",
+        "CREATE CATALOG INTEGRATION (AWS Glue)",
+        "CREATE CATALOG INTEGRATION (Object storage)",
+        "CREATE CATALOG INTEGRATION (Snowflake Open Catalog)",
+        "CREATE CATALOG INTEGRATION (Apache Iceberg\u2122 REST)",
+        "Tip",
+        "In addition to SQL, you can also use other interfaces, such as Snowflake REST APIs, Snowflake Python APIs, and Snowflake CLI.\nSee Alternate interfaces.",
+        "ALTER CATALOG INTEGRATION , DROP CATALOG INTEGRATION , SHOW CATALOG INTEGRATIONS, DESCRIBE CATALOG INTEGRATION",
+        "Snowflake REST APIs",
+        "Not supported",
+        "Snowflake Python APIs",
+        "catalog_integration.CatalogIntegrationCollection.create method",
+        "Snowflake CLI",
+        "Not supported",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

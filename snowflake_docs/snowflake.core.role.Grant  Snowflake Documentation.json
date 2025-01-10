@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.role.Grant",
+    "title": "snowflake.core.role.Grant | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: BaseModel",
+        "A model object representing the Grant resource.",
+        "Constructs an object of type Grant with the provided properties.",
+        "securable_type (str) \u2013 Type of the securable to be granted.",
+        "securable (Securable, optional)",
+        "containing_scope (ContainingScope, optional)",
+        "grant_option (bool, optional) \u2013 If true, allows the recipient role to grant the privileges to other roles.",
+        "privileges (List[str], optional) \u2013 List of privileges to be granted.",
+        "created_on (datetime, optional) \u2013 Date and time when the grant was created",
+        "granted_by (str, optional) \u2013 The role that granted this privilege to this grantee",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of Grant from a dict.",
+        "Create an instance of Grant from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

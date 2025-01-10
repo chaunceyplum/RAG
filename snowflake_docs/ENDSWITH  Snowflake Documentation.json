@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/endswith",
+    "title": "ENDSWITH | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Matching/Comparison)",
+        "Returns TRUE if the first expression ends with the second expression. Both expressions must be text or binary expressions.",
+        "Tip",
+        "You can use the search optimization service to improve the performance of queries that call this function.\nFor details, see Search Optimization Service.",
+        "The string to search in.",
+        "The string to search for at the end of expr1.",
+        "Returns a BOOLEAN or NULL:",
+        "Returns TRUE if expr2 ends with expr1.",
+        "Returns FALSE if expr2 does not end with expr1.",
+        "Returns NULL if either input expression is NULL.",
+        "The collation specifications of all input arguments must be compatible.",
+        "This function does not support the following collation specifications:",
+        "pi  (punctuation-insensitive).",
+        "cs-ai (case-sensitive, accent-insensitive).",
+        "These examples use the ENDSWITH function.",
+        "Create a table with a single column that contains string values.",
+        "Determine whether the values in column s end with the string te:",
+        "In the following example, ENDSWITH returns different results for the same argument\nvalues with different collation specifications.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

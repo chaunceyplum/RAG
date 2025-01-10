@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.task.dagv1",
+    "title": "snowflake.core.task.dagv1 | Snowflake Documentation",
+    "paragraphs": [
+        "High level, client-side representation of task graphs.",
+        "This set of higher-level classes provides a more convenient way to create, deploy, and manage task graphs\nthan the lower-level Task APIs in snowflake.core.task. Task graphs are directed acyclic graphs (DAG) of tasks.",
+        "Classes",
+        "DAG(name,\u00a0*[,\u00a0schedule,\u00a0warehouse,\u00a0...])",
+        "A graph of tasks composed of a single root task and additional tasks, organized by their dependencies.",
+        "DAGTask(name,\u00a0definition,\u00a0*[,\u00a0condition,\u00a0...])",
+        "Represents a child Task of a task graph.",
+        "DAGRun()",
+        "Contains the history of a task graph run in Snowflake.",
+        "DAGOperation(schema)",
+        "APIs to manage task graph child task operations.",
+        "Was this page helpful?"
+    ]
+}

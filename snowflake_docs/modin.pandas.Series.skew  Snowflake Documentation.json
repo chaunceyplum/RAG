@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.skew",
+    "title": "modin.pandas.Series.skew | Snowflake Documentation",
+    "paragraphs": [
+        "Return unbiased skew, normalized over n-1",
+        "axis (Optional[int]) \u2013 Axis to calculate skew on, only 0 (columnar) is supported",
+        "skipna (Optional[bool]) \u2013 Exclude NA values when calculating result ( only True is supported )",
+        "numeric_only (Optional[bool]) \u2013 Include only the numeric columns ( only True is supported )",
+        "level (Optional[bool]) \u2013 Not Supported, included for compatibility with other stats calls",
+        "A series ( or scalar if used on a series ) with the calculated skew",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

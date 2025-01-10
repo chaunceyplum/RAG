@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/streamlit/troubleshooting",
+    "title": "Troubleshooting Streamlit in Snowflake | Snowflake Documentation",
+    "paragraphs": [
+        "The following scenarios can help you troubleshoot issues that can occur when working with Streamlit in Snowflake.",
+        "Each Streamlit app running in Streamlit in Snowflake uses a unique subdomain.",
+        "Ensure that *.snowflake.app is on the allowlist in your network, including content filtering systems, and can connect to Snowflake.\nWhen this domain is on the allowlist, your apps can communicate with Snowflake servers without any restrictions.",
+        "In addition, to prevent any issues connecting to the Snowflake backend, ensure that WebSockets are not blocked in your network configuration.",
+        "Error",
+        "Cause",
+        "The Snowflake WebSocket connection cannot reach the endpoint associated with the application.",
+        "Solution",
+        "Add *.snowflake.app to the allowlist on the organization\u2019s firewall configuration.",
+        "You might not be able to see your data or change the database, warehouse, or role because Streamlit apps run with owner\u2019s rights, which means that they run with the privileges of the owner, not the privileges of the caller. Streamlit apps use the database and schema that the Streamlit in Snowflake app was created in, not the database and schema that the caller is currently using.",
+        "For more information, see Understanding owner\u2019s rights and Streamlit in Snowflake apps.",
+        "Ensure that you use the Streamlit library version and a feature that are supported by Streamlit in Snowflake. For more information, see Supported versions of the Streamlit library and Unsupported Streamlit features.",
+        "To ask questions on features in the open-source Streamlit library, see Streamlit Community Forum.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

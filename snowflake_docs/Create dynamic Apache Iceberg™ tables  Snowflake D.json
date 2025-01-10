@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/dynamic-tables-create-iceberg",
+    "title": "Create dynamic Apache Iceberg\u2122 tables | Snowflake Documentation",
+    "paragraphs": [
+        "This topic explains how to create the following types of dynamic tables and their\nassociated considerations:",
+        "Dynamic tables that read from Snowflake-managed Apache Iceberg\u2122 tables as the base table.",
+        "Dynamic Iceberg tables, which store query results in the Iceberg table format.",
+        "The Snowflake-managed Iceberg base table can be either a regular\nSnowflake-managed Iceberg table or a\nSnowflake-managed dynamic Iceberg table.",
+        "Dynamic tables that read from a Snowflake-managed Iceberg table are useful if you want\nyour pipelines to operate on data in a Snowflake-managed Iceberg table or if you want\nyour processed data to be queryable from other engines, such as using the Apache Iceberg\nSDK with Spark.",
+        "Creating a dynamic from an Iceberg table is similar to creating a dynamic table from a\nregular table. To do this, execute the\nCREATE DYNAMIC TABLE SQL statement like\nyou would for a regular table.",
+        "Dynamic Iceberg tables combine the benefits of dynamic tables and Snowflake-managed\nIceberg tables, offering features like external cloud storage management, automated data\ntransformation, and performance optimization.",
+        "Dynamic Iceberg tables integrate with data lakes, which let you store data in external\ncloud storage such as AWS S3 or Azure Blob Storage while being managed by Snowflake.\nThese tables support ACID transactions, schema evolution, hidden partitioning, and\ntable snapshots.",
+        "Automated data transformation with dynamic Iceberg tables uses declarative SQL to define\nthe desired end state without managing intermediary steps. Snowflake handles\norchestration, scheduling, and refreshing data transformations based on your specified\ndata freshness targets.",
+        "Performance is optimized through incremental processing, which processes only changed\ndata to improve performance and reduce costs compared to full data refreshes.\nAdditionally, you can transition between batch processing and streaming data with a\nsimple command, providing flexibility in data processing workflows.",
+        "Example use cases for dynamic Iceberg tables include the following:",
+        "Data lake integration: You can store large datasets cost-effectively while\nperforming transformations and analytics within Snowflake, leveraging the Iceberg\nformat for efficient querying and management.",
+        "Defining continuous data transformation pipelines: By using dynamic tables, you\ncan ensure data is always up to date without manual intervention and handle\nhigh-velocity data streams efficiently with incremental processing.",
+        "To create a dynamic Iceberg table, execute the CREATE DYNAMIC ICEBERG TABLE SQL\nstatement. For example, to create a dynamic Iceberg table named product that reads\nfrom my_iceberg_table, use the following syntax:",
+        "To ensure access to any new dynamic Iceberg tables created in the schema, use the\nGRANT \u2026 ON FUTURE ICEBERG TABLES\nsyntax without the DYNAMIC keyword. For example:",
+        "If you use the DYNAMIC keyword, the grant doesn\u2019t provide access to new dynamic\nIceberg tables created in the schema. For instance, the following command doesn\u2019t apply\nfor dynamic Iceberg tables:",
+        "Dynamic Iceberg tables support the same data types as regular Iceberg tables in\nSnowflake. For more information, see Supported data types.",
+        "The Catalog is an account, schema, or database parameter\nthat you can configure to be implicit, just like regular Snowflake managed Iceberg tables.",
+        "Dynamic Iceberg tables don\u2019t currently support the IF NOT EXISTS clause. Using the\nIF NOT EXISTS clause throws an error if the target table already exists.",
+        "Dynamic Iceberg tables are currently only supported for CREATE statements.\nSpecifying DYNAMIC ICEBERG in any other command (for example,\nALTER DYNAMIC ICEBERG TABLE <name>) results in an error.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

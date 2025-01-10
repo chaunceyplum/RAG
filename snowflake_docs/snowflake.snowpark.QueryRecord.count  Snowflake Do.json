@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.QueryRecord.count",
+    "title": "snowflake.snowpark.QueryRecord.count | Snowflake Documentation",
+    "paragraphs": [
+        "Return number of occurrences of value.",
+        "Was this page helpful?"
+    ]
+}

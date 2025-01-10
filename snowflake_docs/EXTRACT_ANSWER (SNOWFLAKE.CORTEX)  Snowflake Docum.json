@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/extract_answer-snowflake-cortex",
+    "title": "EXTRACT_ANSWER (SNOWFLAKE.CORTEX) | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Large Language Model)",
+        "Extracts an answer to a given question from a text document. The document may be a plain-English document or a string\nrepresentation of a semi-structured (JSON) data object.",
+        "A string containing the plain-text or JSON document that contains the answer to the question.",
+        "A string containing the question to be answered.",
+        "A string containing an answer to the given question.",
+        "Users must use a role that has been granted the SNOWFLAKE.CORTEX_USER database role.\nSee Required privileges for more information on granting this privilege.",
+        "In this example, review_content is a column from the reviews table:. To extract an answer from each row\nof the table:",
+        "Refer to Snowflake AI and ML.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

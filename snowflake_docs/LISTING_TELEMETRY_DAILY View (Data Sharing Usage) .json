@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-1084",
+    "title": "LISTING_TELEMETRY_DAILY View (Data Sharing Usage): New Value for EVENT_TYPE Column | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The LISTING_TELEMETRY_DAILY View in the DATA_SHARING_USAGE schema includes a value for the EVENT_TYPE column.",
+        "EVENT_TYPE column contains a value for the event that occurred for the listing. One of: GET, REQUEST, or LISTING CLICK.",
+        "EVENT_TYPE column adds a new value of LISTING VIEW, recorded when a consumer visits a specific listing detail page.",
+        "Ref: 1084",
+        "Was this page helpful?"
+    ]
+}

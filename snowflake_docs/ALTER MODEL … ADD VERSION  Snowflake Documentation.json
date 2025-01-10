@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/alter-model-add-version",
+    "title": "ALTER MODEL \u2026 ADD VERSION | Snowflake Documentation",
+    "paragraphs": [
+        "Adds a new version to an existing model from an existing model version. Versions are the actual model code that contains\nmethods that can be called to perform inference and other functions.",
+        "Note",
+        "Use the Snowflake Model Registry Python API\nto create model versions from scratch. In SQL, you can only create model versions from existing model versions.",
+        "Some version properties can be modified (see ALTER MODEL \u2026 MODIFY VERSION), but the actual model implementation\ncontained in a version is immutable.",
+        "This command also supports the following variant:",
+        "ALTER MODEL .. ADD VERSION \u2026 FROM internalStage (creates a model version from an internal stage)",
+        "ALTER MODEL \u2026 MODIFY VERSION, ALTER MODEL \u2026 DROP VERSION",
+        "This variant is used by the Snowflake Model Registry Python API.\nIt is not possible to create model versions from scratch in SQL.",
+        "Where:",
+        "For additional internal stage details, see Choosing an internal stage for local files.",
+        "Specifies the identifier of the model. If the identifier contains spaces, special characters, or mixed-case\ncharacters, the entire identifier must be enclosed in double quotes. Identifiers enclosed in double quotes are also\ncase-sensitive. For information on identifier syntax, see Identifier requirements.",
+        "Specifies the identifier of the version, which must be unique within the model. If the identifier contains\nspaces, special characters, or mixed-case characters, the entire identifier must be enclosed in double quotes.\nIdentifiers enclosed in double quotes are also case-sensitive. For information on identifier syntax, see\nIdentifier requirements.",
+        "Specifies the name of the model from which the version will be obtained.",
+        "To obtain a specific version of that model, specify the VERSION source_version_or_alias_name clause. If\nyou omit this clause, the command obtains the default version of the source model.",
+        "Specifies the internal stage that contains the version\u2019s files.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

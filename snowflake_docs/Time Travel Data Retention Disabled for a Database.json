@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_02/bcr-945",
+    "title": "Time Travel: Data Retention Disabled for a Database Created from a Share | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_02 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When a data consumer creates a local database from a provider share, that database inherits the\ndefault Time Travel retention period (i.e. the DATA_RETENTION_TIME_IN_DAYS parameter\nsetting). If the database is dropped, its historical data is saved for the specified data retention period. However, once a database\ncreated from a share is dropped, it cannot be recovered from Time Travel (e.g. undropped) regardless of the data retention period setting.",
+        "This behavior has changed as follows:",
+        "When a database created from a share was dropped, its historical data was saved for the retention period specified by the inherited\nvalue of the DATA_RETENTION_TIME_IN_DAYS parameter. However Time Travel could not be used to recover the database (e.g. the database\ncould not be undopped) regardless of the data retention period.",
+        "When a database is created from a share, the DATA_RETENTION_TIME_IN_DAYS parameter value is 0.",
+        "Ref: 945",
+        "Was this page helpful?"
+    ]
+}

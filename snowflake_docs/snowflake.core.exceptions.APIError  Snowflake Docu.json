@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.exceptions.APIError",
+    "title": "snowflake.core.exceptions.APIError | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: _OpenAPIError",
+        "Raised when there is an exception with any of the API Error Codes.",
+        "Was this page helpful?"
+    ]
+}

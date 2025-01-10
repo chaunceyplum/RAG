@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_04/bcr-1603",
+    "title": "Snowflake Native App Framework: Roles with the ATTACH LISTING privilege can run the DESCRIBE APPLICATION PACKAGE command | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "This behavior change alters the privileges required to run the DESCRIBE APPLICATION PACKAGE command.\nThe ATTACH LISTING privilege is a database-level privilege that can be granted on an application package.\nThis privilege allows a provider to add an application package as the data product of a listing.",
+        "Having only the ATTACH LISTING privilege granted on an application package did not allow a user to run the DESCRIBE APPLICATION PACKAGE command.\nOnly users with roles granted the OWNERSHIP privilege on the application package could run this command.",
+        "Users with a role that has been granted only the ATTACH LISTING privilege can run the DESCRIBE APPLICATION PACKAGE command.",
+        "Ref: 1603",
+        "Was this page helpful?"
+    ]
+}

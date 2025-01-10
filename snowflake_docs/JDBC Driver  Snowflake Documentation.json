@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/jdbc/jdbc",
+    "title": "JDBC Driver | Snowflake Documentation",
+    "paragraphs": [
+        "Note",
+        "Version 3.21.0 introduced support for Google Cloud Storage regional endpoints.",
+        "Earlier versions of the driver do not support Google Cloud Storage regional endpoints. Please ensure that any workloads that use this driver do not require support for regional endpoints on Google Cloud. If you have questions about this, please contact Snowflake Support.",
+        "Snowflake provides a JDBC type 4 driver that supports core JDBC functionality. The JDBC driver must be installed in a\n64-bit environment and requires Java LTS (Long-Term Support) versions 1.8 or higher.",
+        "The driver can be used with most client tools/applications that support JDBC for connecting to a database server. sfsql, the now-deprecated command line client provided by\nSnowflake, is an example of a JDBC-based application.",
+        "Next Topics:",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

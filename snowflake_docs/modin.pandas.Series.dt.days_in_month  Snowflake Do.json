@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.dt.days_in_month",
+    "title": "modin.pandas.Series.dt.days_in_month | Snowflake Documentation",
+    "paragraphs": [
+        "The number of days in the month.",
+        "Examples",
+        "For Series:",
+        "period = pd.period_range(\u20182020-1-1 00:00\u2019, \u20182020-3-1 00:00\u2019, freq=\u2019M\u2019)  # doctest: +SKIP\ns = pd.Series(period)  # doctest: +SKIP\ns\n0   2020-01\n1   2020-02\n2   2020-03\ndtype: period[M]\ns.dt.days_in_month  # doctest: +SKIP\n0    31\n1    29\n2    31\ndtype: int64",
+        "For PeriodIndex:",
+        "idx = pd.PeriodIndex([\u201c2023-01\u201d, \u201c2023-02\u201d, \u201c2023-03\u201d], freq=\u201dM\u201d)  # doctest: +SKIP\nidx.days_in_month   # It can be also entered as daysinmonth  # doctest: +SKIP\nIndex([31, 28, 31], dtype=\u2019int64\u2019)",
+        "Was this page helpful?"
+    ]
+}

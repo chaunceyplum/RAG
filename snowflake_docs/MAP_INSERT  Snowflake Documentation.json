@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/map_insert",
+    "title": "MAP_INSERT | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Map)",
+        "Returns a new MAP consisting of the input MAP with a new key-value pair inserted\n(an existing key updated with a new value).",
+        "The source map into which the new key-value pair is inserted.",
+        "The new key to insert into the map. Must be different from all existing keys in the map, unless updateFlag is set to\nTRUE.",
+        "The value associated with the key.",
+        "Optional",
+        "A Boolean flag that, when set to TRUE, specifies the input value is used to update/overwrite an existing key in the map,\nrather than inserting a new key-value pair.",
+        "The default is FALSE.",
+        "Returns a MAP consisting of the input MAP with a new key-value pair inserted or an existing key\nupdated with a new value.",
+        "The type of the key expression must match the type of the map\u2019s key. If the type is VARCHAR,\nthen the types can be different lengths.",
+        "The function supports JSON NULL values, but not SQL NULL values or keys:",
+        "If key is any string other than NULL and value is a JSON NULL (e.g.\nPARSE_JSON(\u2018NULL\u2019)), then the key-value pair is inserted into the returned map.",
+        "If key is any string other than NULL and value is a SQL NULL (e.g.\nNULL), then the value is converted to JSON NULL, and the key-value pair is inserted into the\nreturned map.",
+        "If key is a SQL NULL, the key-value pair is omitted from the returned map.",
+        "If updateFlag is set to TRUE, then the existing input key is updated\nto the input value. If updateFlag is omitted or set to FALSE, and the\ninput key already exists in the map, then an error is returned.",
+        "If updateFlag is set to TRUE, but the corresponding key does not already exist in\nthe map, then the key-value pair is added.",
+        "Insert a third key-value pair into a map containing two key-value pairs:",
+        "Insert two new key-value pairs, while omitting one key-value pair, into an empty map:",
+        "Key_One consists of a JSON NULL value.",
+        "Key_Two consists of a SQL NULL value, which is converted to a JSON NULL value.",
+        "Key_Three consists of a string containing \u201cnull\u201d.",
+        "Update an existing key-value pair (\"k1\": 100) with a new value (\"string-value\"):",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

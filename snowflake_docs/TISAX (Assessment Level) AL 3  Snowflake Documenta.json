@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cert-tisax",
+    "title": "TISAX (Assessment Level) AL 3 | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes how Snowflake supports customers with TISAX compliance requirements.",
+        "Developed by the ENX Association and published by the German Association of the Automotive Industry or VDA, Trusted Information Security\nAssessment Exchange or TISAX is a certification specifically designed to address the automotive industry\u2019s cybersecurity requirements.\nTISAX focuses on the secure processing of information from business partners, the protection of prototypes and data protection in\naccordance with the General Data Protection Regulation (GDPR) for potential business transactions between automobile manufacturers and\ntheir service providers or suppliers. TISAX was established in 2017 by VDA and the ENX Association. All organizations involved in business\nwith major German automotive industry partners must obtain a TISAX certification. Assessment Level 3 is required for data with a very high\nneed for protection, such as data classified as confidential or secret. Snowflake\u2019s TISAX is scoped to Information Security and Assessment\nLevel 3.",
+        "For more information, please visit the official TISAX website.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

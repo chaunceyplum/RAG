@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/collaboration/listings/organizational/org-listing-tutorial",
+    "title": "Tutorial: Create and manage an organizational listing | Snowflake Documentation",
+    "paragraphs": [
+        "Organizational listings in Snowflake allow you to share data products securely within your organization, making it easier\nfor internal teams to discover and use trusted resources. As a provider, you can create listings that centralize access\nto datasets, Native Apps, and other resources, simplifying data sharing and collaboration across your teams. This guide\nwill help you understand the steps and requirements to create and manage organizational listings effectively, ensuring\nthat your data products are accessible while maintaining control over who can see and use them.",
+        "Before you begin, make sure you have the necessary privileges to create and manage organizational listings.",
+        "In this tutorial, we create a custom role (ORG_LISTING_PROVIDER) to manage listings on behalf of the organization.",
+        "Switch to the ORGADMIN role (or ACCOUNTADMIN) to create a new role and add one or more users. These users will be the administrators\nfor organizational listings. Then GRANT the new role the required privileges to create and share organizational listings.",
+        "Switch to the ORG_LISTING_PROVIDER custom role that you just created to create a share and grant usage to the share.",
+        "Create an organizational listings from the share with the required attributes included\nin YAML (entered in $$ delimiters).",
+        "This example shares the listing with all accounts in the organization:",
+        "Alter the organizational listings by including any changes or additional attributes in the YAML.",
+        "This example shares the listing one account only. It also adds a description to the listing:",
+        "To view organizational listings, run the following command:",
+        "To enable auto-fulfillment for your organizational listings, run the following commands:",
+        "Important",
+        "Before you run the command to enable auto-fulfillment, check to see if it\u2019s already enabled and note the current settings.\nIf it\u2019s already turned on, you don\u2019t need to run the command.",
+        "To drop any unwanted objects you created during this tutorial, run one or more of the\nfollowing commands as needed:",
+        "Important",
+        "If auto-fulfillment was enabled when you ran the last step, DO NOT disable it when you clean up after the query.\nDoing so will stop all auto-fulfillment on your account!",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

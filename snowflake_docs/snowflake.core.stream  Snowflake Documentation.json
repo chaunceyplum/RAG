@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.stream",
+    "title": "snowflake.core.stream | Snowflake Documentation",
+    "paragraphs": [
+        "Manages Snowflake Streams.",
+        "Classes",
+        "PointOfTimeOffset(*,\u00a0reference,\u00a0offset)",
+        "A model object representing the PointOfTimeOffset resource.",
+        "Stream(*[,\u00a0created_on,\u00a0comment,\u00a0...])",
+        "A model object representing the Stream resource.",
+        "StreamClone(*,\u00a0name[,\u00a0comment])",
+        "A model object representing the StreamClone resource.",
+        "StreamSource(*,\u00a0name[,\u00a0database_name,\u00a0...])",
+        "A model object representing the StreamSource resource.",
+        "StreamSourceStage(*,\u00a0name[,\u00a0database_name,\u00a0...])",
+        "A model object representing the StreamSourceStage resource.",
+        "StreamSourceTable(*,\u00a0name[,\u00a0database_name,\u00a0...])",
+        "A model object representing the StreamSourceTable resource.",
+        "StreamSourceView(*,\u00a0name[,\u00a0database_name,\u00a0...])",
+        "A model object representing the StreamSourceView resource.",
+        "StreamResource(name,\u00a0collection)",
+        "Represents a reference to a Snowflake Stream resource.",
+        "StreamCollection(schema)",
+        "Represents the collection operations on the Snowflake Stream resource.",
+        "Was this page helpful?"
+    ]
+}

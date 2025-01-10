@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/stored-procedure/python/procedure-python-limitations",
+    "title": "Python stored procedure limitations | Snowflake Documentation",
+    "paragraphs": [
+        "Stored procedures have the following limitations:",
+        "Creating processes is not supported in stored procedures.",
+        "Running concurrent queries is not supported in stored procedures.",
+        "You cannot use APIs that execute PUT and GET commands, including Session.sql(\"PUT ...\") and Session.sql(\"GET ...\").",
+        "When you download files from a stage using session.file.get, pattern matching is not supported.",
+        "If you execute your stored procedure from a task, you must specify a warehouse when creating the task. You cannot use\nserverless compute resources to run the task.",
+        "Creating named temp objects is not supported in an owner\u2019s rights stored procedure. An owner\u2019s rights stored procedure is a stored\nprocedure that runs with the privileges of the stored procedure owner.\nFor more information, refer to caller\u2019s rights or owner\u2019s rights.",
+        "Was this page helpful?"
+    ]
+}

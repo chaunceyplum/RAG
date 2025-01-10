@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cert-fedramp",
+    "title": "FedRAMP | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes how Snowflake supports customers with FedRAMP compliance requirements.",
+        "The Federal Risk and Authorization Management Program (FedRAMP) is a program established to provide an efficient and effective risk based\napproach to use cloud services by the federal government. This program provides the ability for government agencies to leverage cloud\ntechnologies while ensuring these technologies meet the stringent requirements and security necessary to protect federal information.",
+        "You can view the latest of Snowflake\u2019s FedRAMP Authorizations by the FedRAMP PMO within the\nFedRAMP Marketplace.",
+        "Note",
+        "If your Snowflake account is in a U.S. government region and you want to access data products that are\noffered privately or on the Snowflake Marketplace, or offer listings either privately or on the Snowflake Marketplace, you must review and\nacknowledge a cross-region disclaimer for your organization.",
+        "For details, see:",
+        "Prepare to provide listings from accounts in U.S. government regions",
+        "Prepare to access listings from accounts in U.S. government regions",
+        "Limitations for accessing listings from accounts in U.S. government regions",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

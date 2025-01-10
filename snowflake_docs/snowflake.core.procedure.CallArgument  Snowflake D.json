@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.procedure.CallArgument",
+    "title": "snowflake.core.procedure.CallArgument | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: BaseModel",
+        "A model object representing the CallArgument resource.",
+        "Constructs an object of type CallArgument with the provided properties.",
+        "name (str) \u2013 Name of the call argument",
+        "datatype (str) \u2013 Call argument data type",
+        "value (object) \u2013 Value of the call argument",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of CallArgument from a dict.",
+        "Create an instance of CallArgument from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

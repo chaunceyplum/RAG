@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/logging-tracing/tracing-javascript",
+    "title": "Emitting trace events in JavaScript | Snowflake Documentation",
+    "paragraphs": [
+        "You can use the snowflake class in the Snowflake JavaScript API to emit trace events\nfrom a function or procedure handler written in JavaScript. The JavaScript API is already available to your JavaScript handler code.",
+        "Before emitting trace events, be sure you have the trace level set so that the data you want are stored in the event table. For more\ninformation, see Setting levels for logging, metrics, and tracing.",
+        "Note",
+        "Before you can begin emitting trace events, you must set up an event table. For more information, see\nEvent table overview.",
+        "You can access stored trace event data by executing a SELECT command on the event table. For more information, see\nViewing trace data.",
+        "For general information about setting up logging and retrieving messages in Snowflake, see\nTrace events for functions and procedures.",
+        "Note",
+        "For guidelines to keep in mind when adding trace events, see General guidelines for adding trace events.",
+        "You can add trace events by calling the snowflake.addEvent function, passing a name for the event. You can also optionally associate\nattributes \u2013 key-value pairs \u2013 with an event.",
+        "The addEvent method is available in the following form:",
+        "Handler code in the following example adds two events, name_a and name_b. With name_b, the code also adds two\nattributes, score and pass.",
+        "Setting these attributes results in two rows in the event table, each with a different value in the RECORD column:",
+        "The name_b event row includes the following attributes in the row\u2019s RECORD_ATTRIBUTES column:",
+        "You can set attributes \u2013 key-value pairs \u2013 associated with spans by calling the snowflake.setSpanAttribute function.",
+        "The setSpanAttribute function is available in the following form:",
+        "For details on spans, see How Snowflake represents trace events.",
+        "Code in the following example creates four attributes and sets their values:",
+        "Setting these attributes results in the following in the event table\u2019s RECORD_ATTRIBUTES column:",
+        "Note",
+        "Support for custom spans is a preview feature available to all accounts.",
+        "You can add custom spans that are separate from the default span created by Snowflake. For details on custom spans, see\nAdding custom spans to a trace.",
+        "Code in the following example uses the OpenTelemetry API to create a new\nexample_custom_span span. It then adds an event and attribute to the new span. Finally, the code ends the span to have the span\u2019s\nevent data captured in the event table. If the code doesn\u2019t call the Span.end method, data is not captured in the event table.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

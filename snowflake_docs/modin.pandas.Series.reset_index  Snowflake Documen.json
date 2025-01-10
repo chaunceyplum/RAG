@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.reset_index",
+    "title": "modin.pandas.Series.reset_index | Snowflake Documentation",
+    "paragraphs": [
+        "Generate a new DataFrame or Series with the index reset.",
+        "This is useful when the index needs to be treated as a column, or\nwhen the index is meaningless and needs to be reset to the default\nbefore another operation.",
+        "level (int, str, tuple, or list, default optional) \u2013 For a Series with a MultiIndex, only remove the specified levels\nfrom the index. Removes all levels by default.",
+        "drop (bool, default False) \u2013 Just reset the index, without inserting it as a column in\nthe new DataFrame.",
+        "name (object, optional) \u2013 The name to use for the column containing the original Series\nvalues. Uses self.name by default. This argument is ignored\nwhen drop is True.",
+        "inplace (bool, default False) \u2013 Modify the Series in place (do not create a new object).",
+        "allow_duplicates (bool, default False) \u2013 Allow duplicate column labels to be created.",
+        "When drop is False (the default), a DataFrame is returned.\nThe newly created columns will come first in the DataFrame,\nfollowed by the original Series values.\nWhen drop is True, a Series is returned.\nIn either case, if inplace=True, no value is returned.",
+        "Series or DataFrame or None",
+        "See also",
+        "Analogous function for DataFrame.",
+        "Examples",
+        "Generate a DataFrame with default index.",
+        "To specify the name of the new column use name.",
+        "To generate a new Series with the default set drop to True.",
+        "To update the Series in place, without generating a new one\nset inplace to True. Note that it also requires drop=True.",
+        "The level parameter is interesting for Series with a multi-level\nindex.",
+        "To remove a specific level from the Index, use level.",
+        "If level is not set, all levels are removed from the Index.",
+        "Was this page helpful?"
+    ]
+}

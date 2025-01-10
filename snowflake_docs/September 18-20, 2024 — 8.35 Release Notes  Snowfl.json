@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/8_35",
+    "title": "September 18-20, 2024 \u2014 8.35 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "The release has completed.",
+        "For differences between the in-advance and final versions of these release notes, see Release notes change log.",
+        "With this release, we are pleased to announce the availability of RANGE BETWEEN window frames with explicit offsets for two\nmore functions: FIRST_VALUE and LAST_VALUE.",
+        "For more information, see Window function syntax and usage and Range-based versus row-based window frames.",
+        "As of this release, Snowflake Notebook cells can no longer emit logs, spans, or span events to event tables. This\nintegration has been disabled only temporarily and will be re-enabled in a future release. Any logs or traces emitted from\nother objects called from Notebooks, such as stored procedures and UDFs, will continue to emit telemetry data into your\naccount\u2019s event table. To re-enable Notebooks cells to emit telemetry to your event tables, please contact Snowflake Support\nor your account team.",
+        "If your Snowflake account was previously emitting logs or traces to the Event Table, the integration was not disabled for\nyour Snowflake account to prevent disruption. However, you should be aware of the following known issues:",
+        "Notebooks will not start if the log level is DEBUG for your Notebooks (or the account, database, or schema that the\nNotebook is in). Set the log level to INFO or higher.",
+        "When executing SQL cells, you may see additional, unexpected spans from the snowflake-snowpark-python library,\nspecifically DataFrame.collect and DataFrame.count. These are emitted from the internals of Notebooks executing\nyour SQL statements. You can remove these by setting your TRACE_LEVEL parameter to ON_EVENT or OFF.",
+        "With this release, we are pleased to announce the availability of pandas on Snowflake. pandas on Snowflake lets you run your\npandas code in a distributed manner directly on your data in Snowflake. Just by changing the import statement and a few\nlines of code, you can get the familiar pandas experience you know and love with the scalability and security benefits of\nSnowflake. With pandas on Snowflake, you can work with much larger datasets and avoid the time and expense of porting your\npandas pipelines to other big data frameworks or provisioning large and expensive machines. It runs workloads natively in\nSnowflake through transpilation to SQL, enabling it to take advantage of parallelization and the data governance and\nsecurity benefits of Snowflake. pandas on Snowflake is delivered through the Snowpark pandas API as part of the Snowpark\nPython library, which enables scalable data processing of Python code within the Snowflake platform.",
+        "For more information, see pandas on Snowflake",
+        "With this release, we are pleased to announce preview support for automated metadata refreshes for Apache Iceberg\u2122 tables that use\nan external catalog. With automated refreshes, Snowflake polls your external Iceberg catalog in a continuous and serverless\nfashion to synchronize the metadata with the most recent remote changes.",
+        "For more information, see Automatically refresh Apache Iceberg\u2122 tables.",
+        "Announcement",
+        "Update",
+        "Date",
+        "Release notes",
+        "Initial publication (preview)",
+        "13-Sep-24",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

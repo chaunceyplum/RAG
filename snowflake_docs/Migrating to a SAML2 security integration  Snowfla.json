@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/admin-security-fed-auth-configure-snowflake",
+    "title": "Migrating to a SAML2 security integration | Snowflake Documentation",
+    "paragraphs": [
+        "Important",
+        "The SAML_IDENTITY_PROVIDER and SSO_LOGIN_PAGE parameters used for SAML SSO configuration and management are\ndeprecated. Snowflake configurations should use a\nSAML2 security integration instead of these parameters.",
+        "Snowflake will continue to support these deprecated parameters as long as there are implementations that use them.",
+        "If you are implementing federated authentication for the first time, refer to\nConfiguring Snowflake to use federated authentication.",
+        "If you have an existing SSO implementation that uses the SAML_IDENTITY_PROVIDER account parameter, follow the steps below to migrate your\nSSO implementation to a SAML2 security integration:",
+        "Run the SYSTEM$MIGRATE_SAML_IDP_REGISTRATION function.",
+        "Confirm that a SAML2 security integration was created by running the following SQL statement:",
+        "If you want to configure your security integration, refer to Configuring Snowflake to use federated authentication.",
+        "Was this page helpful?"
+    ]
+}

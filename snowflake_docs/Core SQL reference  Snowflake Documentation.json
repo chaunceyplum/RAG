@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/native-apps/connector-sdk/reference/core_reference",
+    "title": "Core SQL reference | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to accounts in all regions in all cloud providers (including government regions). For details, contact your Snowflake representative.",
+        "File: core.sql",
+        "An un-versioned schema containing the internal state of the Connector. This schema is persisted between different versions of the application.",
+        "Table to store the current status of the connector. This table is only accessible internally.\nThe table contains the following columns:",
+        "key STRING",
+        "value VARIANT",
+        "updated_at TIMESTAMP_NTZ",
+        "The following status is set as a default value during the installation:",
+        "To retrieve the status use the GET_CONNECTOR_STATUS procedure below.",
+        "This procedure retrieves the current status from the APP_STATE table. An exception will be thrown when status does not exist in the table.",
+        "The core.sql file introduces the following roles into the application:",
+        "ADMIN - has access to all publicly exposed procedures and views",
+        "VIEWER - has access to all read only procedures and views",
+        "DATA_READER - no access to anything by default. Should be used to access sink database only",
+        "The following Java objects are tightly connected with the APP_STATE table:",
+        "ConnectorStatusService",
+        "ConnectorStatusRepository",
+        "KeyValueTable",
+        "FullConnectorStatus",
+        "ConnectorStatus",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

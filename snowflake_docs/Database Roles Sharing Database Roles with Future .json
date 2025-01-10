@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_05/bcr-1144",
+    "title": "Database Roles: Sharing Database Roles with Future Grants Not Allowed | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_05 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of future grants and database roles is as follows:",
+        "You can grant future privileges to a database role and grant the database role to a share. There are two scenarios:",
+        "Grant the privileges to the database role, and then grant the database role to the share.",
+        "Grant the database role to a share, and then grant the future privileges to the database role.",
+        "You can use the following commands to identify whether you have database roles that are affected by the pending changes:",
+        "You will not be able to grant future grants on objects when the database role is granted to a share. Snowflake returns a unique error\nmessage depending on the scenario that you try:",
+        "With scenario one, the error message is:",
+        "Use a REVOKE <privileges> statement to revoke the future grant from the database role. If necessary, update the\nGRANT <privileges> statement so that it does not specify future grants. Finally, grant the database role to the\nshare.",
+        "With scenario two, the error message is:",
+        "Modify the GRANT <privileges> statement so that it does not specify future grants.",
+        "Ref: 1144",
+        "Was this page helpful?"
+    ]
+}

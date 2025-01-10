@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/concat_ws",
+    "title": "CONCAT_WS | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (General)",
+        "Concatenates two or more strings, or concatenates two or more binary values.\nIf any of the values is null, the result is also null.",
+        "The CONCAT_WS operator requires at least two arguments, and uses the first argument to separate all following\narguments.",
+        "CONCAT",
+        "The separator must meet the same requirements as expressionN.",
+        "The input expressions must all be strings, or all be binary values.",
+        "The function returns a VARCHAR or BINARY that contains the 2nd through Nth arguments, separated by the first\nargument.",
+        "The data type of the returned value is the same as the data type of the input value(s).",
+        "Metadata functions such as GET_DDL accept only constants as input. Concatenated\ninput generates an error.",
+        "CONCAT_WS puts separators between arguments, not after the last argument. If CONCAT_WS is called\nwith only one argument after the separator, then no separator is appended.",
+        "The collation specifications of all input arguments must be compatible.",
+        "The collation of the result of the function is the highest-precedence collation of the inputs.",
+        "Concatenate three strings with separator:",
+        "When there is only one string to concatenate, CONCAT_WS does not append a separator:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

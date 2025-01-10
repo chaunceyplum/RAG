@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/try_parse_json",
+    "title": "TRY_PARSE_JSON | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Parsing)",
+        "A special version of PARSE_JSON that\nreturns a NULL value if an error occurs during parsing.",
+        "Required:",
+        "An expression of string type (for example, VARCHAR) that holds valid JSON information.",
+        "Optional:",
+        "String constant that specifies the parameter used to search for matches. Supported values:",
+        "Parameter",
+        "Description",
+        "d",
+        "Allow duplicate keys in JSON objects. If a JSON object contains a duplicate key, the returned object has a single instance\nof that key with the last value specified for that key.",
+        "s",
+        "Don\u2019t allow duplicate keys in JSON objects (strict). This value is the default.",
+        "Returns a value of type VARIANT that contains a JSON document.",
+        "If the input is NULL or if an error occurs during parsing, the function returns NULL.",
+        "This function doesn\u2019t return a structured type.",
+        "See PARSE_JSON for the usage notes.",
+        "This shows an example of storing different types of data in a VARIANT column by calling TRY_PARSE_JSON to parse\nstrings that contain values that can be parsed as JSON:",
+        "Create and fill a table.",
+        "Query the data, using TRY_PARSE_JSON. Note that the value for the third line is NULL. If the query used\nPARSE_JSON rather than TRY_PARSE_JSON, it would fail.",
+        "See PARSE_JSON for more examples.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_04/bcr-1602",
+    "title": "SHOW/DESC COMPUTE POOL command: New columns | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The output of the SHOW COMPUTE POOLS and DESCRIBE COMPUTE POOL commands change as follows:",
+        "The output of the commands do not include the IS_EXCLUSIVE and APPLICATION columns.",
+        "The output of the commands include the IS_EXCLUSIVE and APPLICATION columns.",
+        "Column name",
+        "Data type",
+        "Description",
+        "IS_EXCLUSIVE",
+        "BOOLEAN",
+        "true if the compute pool is created exclusively for a Snowflake Native App; false otherwise.",
+        "APPLICATION",
+        "TEXT",
+        "Name of the Snowflake Native App if the compute pool is created exclusively for the app. Otherwise, NULL.",
+        "Ref: 1602",
+        "Was this page helpful?"
+    ]
+}

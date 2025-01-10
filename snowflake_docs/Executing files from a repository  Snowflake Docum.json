@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/git/execute-sql",
+    "title": "Executing files from a repository | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "You can use the snow git execute command for all .sql and .py files in a repository path. The command searches for all SQL and Python files and then executes the EXECUTE IMMEDIATE command on each of them.",
+        "where:",
+        "<REPO_PATH> can be any of the following:",
+        "A repository stage, such as @snowcli_git/branches/main/, to execute commands from all .sql files in the stage.",
+        "A glob-like pattern, such as  @snowcli_git/branches/main/scripts/*, to execute commands from all .sql files in the scripts directory.",
+        "A specific .sql file, such as @snowcli_git/branches/main/scripts/script.sql, to execute commands contained only the script.sql file.",
+        "--silent hides intermediate messages with file execution results.",
+        "Note",
+        "The snow git execute command does not display the output of any of the SQL commands it processes.",
+        "The following example shows how to execute SQL commands in all files within the project directory that match a regular expression.",
+        "Adding the --silent option to the same command hides the intermediate messages showing the progression of the files processed.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

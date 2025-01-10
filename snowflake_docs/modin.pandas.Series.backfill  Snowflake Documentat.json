@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.backfill",
+    "title": "modin.pandas.Series.backfill | Snowflake Documentation",
+    "paragraphs": [
+        "Synonym for DataFrame.fillna with method='bfill'.",
+        "Was this page helpful?"
+    ]
+}

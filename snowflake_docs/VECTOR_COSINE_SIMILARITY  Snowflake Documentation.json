@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/vector_cosine_similarity",
+    "title": "VECTOR_COSINE_SIMILARITY | Snowflake Documentation",
+    "paragraphs": [
+        "Vector similarity functions",
+        "Computes the cosine similarity between two vectors.",
+        "Cosine similarity is based on the angle between two vectors in a multi-dimensional space; the magnitude of the vectors is not\nconsidered. The cosine similarity value is the inner product of the vectors divided by the product of their lengths. The cosine\nsimilarity is always in the interval [-1, 1]. For example, identical vectors have a cosine similarity of 1, two\northogonal vectors have a similarity of 0, and two opposite vectors have a similarity of -1.",
+        "VECTOR_INNER_PRODUCT , VECTOR_L1_DISTANCE , VECTOR_L2_DISTANCE , Vector Embeddings",
+        "The VECTOR value to calculate the angle from.",
+        "The VECTOR value to calculate the angle to.",
+        "Returns a FLOAT value, in the interval [-1, 1] which indicates the\ncosine similarity between the two input vectors.",
+        "Due to computational optimizations in the vector comparison functions, floating-point errors may be slightly\nlarger than usual (e.g. about 1e-4).",
+        "This example calls the VECTOR_COSINE_SIMILARITY function to find the vector closest to [1,2,3].",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

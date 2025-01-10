@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/split",
+    "title": "SPLIT | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (General)",
+        "Splits a given string with a given separator and returns the result in an array of strings.",
+        "Contiguous split strings in the source string, or the presence of a split string at the beginning or end of the source string, results in an empty string in the output. An empty separator string results in an array containing\nonly the source string. If either parameter is a NULL, a NULL is returned.",
+        "The result can be used with functions and constructs operating on semi-structured data (e.g. FLATTEN and ARRAY_SIZE).",
+        "SPLIT_PART",
+        "Text to be split into parts.",
+        "Text to split string by.",
+        "The data type of the returned value is ARRAY.",
+        "This function does not support the following collation specifications:",
+        "pi  (punctuation-insensitive).",
+        "cs-ai (case-sensitive, accent-insensitive).",
+        "The values in the output array do not include a collation specification and therefore do not support further\ncollation operations.",
+        "Split the localhost IP address 127.0.0.1 into an array consisting of each of the four parts:",
+        "Split a string that contains vertical lines as separators (note that the output\nwill contain empty strings):",
+        "Use the result of SPLIT to generate multiple records from a single string using the LATERAL FLATTEN construct. FLATTEN is a\ntable function that takes a VARIANT, OBJECT, or ARRAY column and produces a lateral view (i.e.\nan inline view that contains correlation referring to other tables that precede it in the FROM clause):",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

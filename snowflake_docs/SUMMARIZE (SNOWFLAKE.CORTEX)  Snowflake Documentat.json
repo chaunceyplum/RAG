@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/summarize-snowflake-cortex",
+    "title": "SUMMARIZE (SNOWFLAKE.CORTEX) | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Large Language Model)",
+        "Summarizes the given English-language input text.",
+        "A string containing the English text from which a summary should be generated.",
+        "A string containing a summary of the original text.",
+        "Users must use a role that has been granted the SNOWFLAKE.CORTEX_USER database role.\nSee Required privileges for more information on this privilege.",
+        "In this example, a table named reviews contains a column named review_content containing the text of reviews\nsubmitted by users. The query returns a summary of each review.",
+        "Refer to Snowflake AI and ML.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

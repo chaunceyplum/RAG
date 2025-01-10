@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/binary-examples",
+    "title": "Using binary data | Snowflake Documentation",
+    "paragraphs": [
+        "The usefulness and flexibility of the BINARY data type is best demonstrated by example. This topic provides\npractical examples of tasks that involve the BINARY data type and its three encoding schemes.",
+        "The BINARY data type can be used as an intermediate step when converting between hex and base64 strings.",
+        "Convert from hex to base64 using TO_CHAR:",
+        "Convert from base64 to hex:",
+        "Strings in Snowflake are composed of Unicode characters, while binary values are composed of bytes. By converting a\nstring to a binary value with the UTF-8 format, you can directly manipulate the bytes that make up the Unicode characters.",
+        "Convert single-character strings to their UTF-8 representation in bytes using TO_BINARY:",
+        "Convert a UTF-8 byte sequence to a string using TO_CHAR , TO_VARCHAR:",
+        "Convert the binary MD5 digest to a base64 string using TO_CHAR:",
+        "Convert strings to binary values using a binary format extracted from the string. The statement includes\nthe TRY_TO_BINARY and SPLIT_PART\nfunctions:",
+        "Try multiple formats for the conversion:",
+        "Note",
+        "Since the above queries use TRY_TO_BINARY, the result is NULL if the format\nisn\u2019t recognized or if the string can\u2019t be parsed with the given format.",
+        "Convert the results from the previous example back to strings using SUBSTR\nand DECODE:",
+        "The BINARY data type allows the storage of arbitrary data. Since JavaScript UDFs support the data type via Uint8Array\n(see Introduction to JavaScript UDFs), it is possible to implement custom decoding\nlogic in JavaScript. This isn\u2019t the most efficient way to work, but it is very powerful.",
+        "Create a function that decodes based on the first byte:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/bitand_agg",
+    "title": "BITAND_AGG | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (Bitwise) , Window functions (General) , Bitwise expression functions",
+        "Returns the bitwise AND value of all non-NULL numeric records in a group.",
+        "For each bit position, if all rows have the bit set to 1, then the bit is set to 1 in the result.\nIf any rows have that bit set to zero, the result is zero.",
+        "If all records inside the group are NULL, or if the group is empty, the function returns NULL.",
+        "BITANDAGG , BIT_AND_AGG , BIT_ANDAGG",
+        "BITOR_AGG , BITXOR_AGG ,",
+        "BITAND",
+        "Aggregate function",
+        "Window function",
+        "This expression must evaluate to a numeric value or a value\nof a data type that can be cast to a numeric value.",
+        "This expression is used to group the rows in partitions.",
+        "The data type of the returned value is NUMBER(38, 0).",
+        "Numeric values are aggregated to the nearest INTEGER data type. Decimal and floating-point values are rounded to the\nnearest integer before aggregation.",
+        "Aggregating a character/text column (data type VARCHAR, CHAR, STRING, etc.) implicitly casts the input values\nto FLOAT, then rounds the values to the nearest integer. If the cast is not possible, the value is treated as NULL.",
+        "The DISTINCT keyword can be specified for these functions, but it does not have any effect.",
+        "When this function is called as a window function, it does not support:",
+        "An ORDER BY clause within the OVER clause.",
+        "Explicit window frames.",
+        "Create the table and load the data:",
+        "Display the data:",
+        "Query the data:",
+        "Query the data and use a GROUP BY clause:",
+        "If you pass this function strings that can\u2019t be converted to NUMBER values, an error is returned:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

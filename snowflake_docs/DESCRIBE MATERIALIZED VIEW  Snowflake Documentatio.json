@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-materialized-view",
+    "title": "DESCRIBE MATERIALIZED VIEW | Snowflake Documentation",
+    "paragraphs": [
+        "Enterprise Edition Feature",
+        "Materialized views require Enterprise Edition. To inquire about upgrading, please contact Snowflake Support.",
+        "Describes the columns in a materialized view.",
+        "DESCRIBE can be abbreviated to DESC.",
+        "CREATE MATERIALIZED VIEW , DROP MATERIALIZED VIEW , ALTER MATERIALIZED VIEW , SHOW MATERIALIZED VIEWS",
+        "Specifies the identifier for the materialized view to describe. If the identifier contains spaces or special characters, the\nentire string must be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "The command output does not include the view definition. To see the materialized view\u2019s definition, use SHOW MATERIALIZED VIEWS\nor GET_DDL.",
+        "DESC MATERIALIZED VIEW and DESCRIBE TABLE are interchangeable. Either command retrieves the details for the table\nor view that matches the criteria in the statement.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "Example setup:",
+        "Describe the materialized view:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

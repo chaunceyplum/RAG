@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.call",
+    "title": "snowflake.snowpark.Session.call | Snowflake Documentation",
+    "paragraphs": [
+        "Calls a stored procedure by name.",
+        "sproc_name \u2013 The name of stored procedure in Snowflake.",
+        "args \u2013 Arguments should be basic Python types.",
+        "statement_params \u2013 Dictionary of statement level parameters to be set while executing this action.",
+        "log_on_exception \u2013 Log warnings if they arise when trying to determine if the stored procedure\nas a table return type.",
+        "Example:",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

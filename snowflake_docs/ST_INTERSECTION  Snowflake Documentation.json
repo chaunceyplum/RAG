@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_intersection",
+    "title": "ST_INTERSECTION | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Given two input GEOGRAPHY objects, returns a GEOGRAPHY object that represents the shape containing the set of points that are\ncommon to both input objects (i.e. the intersection of the two objects).",
+        "ST_INTERSECTION_AGG , ST_UNION , ST_DIFFERENCE , ST_SYMDIFFERENCE",
+        "A GEOGRAPHY object.",
+        "A GEOGRAPHY object.",
+        "The function returns a value of type GEOGRAPHY.",
+        "If any vertex of one input object is on the boundary of the other input object (excluding the vertices), the output might or\nmight not include that vertex point.",
+        "For example, suppose that geography_expression_1 is POINT(1 1) and geography_expression_2 is\nLINESTRING(1 0, 1 2). In this case, geography_expression_1 is on the boundary of geography_expression_2\nbut is not a vertex of it.",
+        "In this example, the expected output is POINT(1 1), but the actual output might be an empty geography (represented by NULL).",
+        "To help to detect and work around these cases, one potential idea is to use ST_DWITHIN to\ndetermine if the minimum distance between the two input objects is 0. For example, you can check if a point lies on top of a\nLineString by checking if the minimum distance between the two objects is zero:",
+        "This statement produces the following output:",
+        "The function is not guaranteed to produce normalized and/or minimal results. For example, an output could consist of a\nLineString containing several points that actually forms just one straight segment.",
+        "The following example returns a GEOGRAPHY object that represents the intersection of two input GEOGRAPHY objects:",
+        "This example produces the following output:",
+        "The following images illustrate the differences in the areas that represent the input and output objects:",
+        "Input",
+        "Output",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

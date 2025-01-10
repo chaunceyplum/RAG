@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/try_base64_decode_string",
+    "title": "TRY_BASE64_DECODE_STRING | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Encoding/Decoding)",
+        "A special version of BASE64_DECODE_STRING that\nreturns a NULL value if an error occurs during decoding.",
+        "BASE64_DECODE_STRING and TRY_BASE64_DECODE_STRING are \u201creciprocal\u201d\n(or \u201cconverse\u201d) functions of BASE64_ENCODE.",
+        "The base64-encoded string to decode to a normal string.",
+        "A string consisting of up to three ASCII characters:",
+        "The first two characters in the string specify the last two characters (indexes 62 and 63) in the alphabet used to encode the input:",
+        "A to Z (indexes 0-25).",
+        "a to z (indexes 26-51).",
+        "0 to 9 (indexes 52-61).",
+        "+ and / (indexes 62, 63).",
+        "Defaults: + and /",
+        "The third character in the string specifies the character used for padding.",
+        "Default: =",
+        "A string.",
+        "For more information about base64 format, see base64.",
+        "This shows how to use the function and demonstrates that\nTRY_BASE64_DECODE_STRING is the converse of BASE64_ENCODE:",
+        "This shows a more realistic example:",
+        "Create a table and data:",
+        "Query the data using the TRY_BASE64_DECODE_STRING function:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

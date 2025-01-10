@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/vector_l2_distance",
+    "title": "VECTOR_L2_DISTANCE | Snowflake Documentation",
+    "paragraphs": [
+        "Vector similarity functions",
+        "Computes the L2 distance between two vectors.",
+        "L2 distance, also known as the Euclidean distance, is a measure of the distance between two vectors in a vector space. The\ndistance is calculated by taking the square root of the sum of the squared differences of vector elements. The distance can be\na value of zero or higher. If the distance is zero, the vectors are identical. The larger the distance, the farther apart the\nvectors are.",
+        "VECTOR_INNER_PRODUCT , VECTOR_COSINE_SIMILARITY , VECTOR_L1_DISTANCE , Vector Embeddings",
+        "The VECTOR value to calculate the distance from.",
+        "The VECTOR value to calculate the distance to.",
+        "Returns the distance between the two input vectors as a FLOAT value.",
+        "Due to computational optimizations in the vector comparison functions, floating-point errors may be slightly\nlarger than usual (e.g. about 1e-4).",
+        "This example uses the VECTOR_L2_DISTANCE function to determine which vectors in the table\nare closest to each other between columns a and b:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

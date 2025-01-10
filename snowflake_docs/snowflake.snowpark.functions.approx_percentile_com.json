@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.approx_percentile_combine",
+    "title": "snowflake.snowpark.functions.approx_percentile_combine | Snowflake Documentation",
+    "paragraphs": [
+        "Combines (merges) percentile input states into a single output state.\nThis allows scenarios where APPROX_PERCENTILE_ACCUMULATE is run over horizontal partitions\nof the same table, producing an algorithm state for each table partition. These states can\nlater be combined using APPROX_PERCENTILE_COMBINE, producing the same output state as a\nsingle run of APPROX_PERCENTILE_ACCUMULATE over the entire table.",
+        "Was this page helpful?"
+    ]
+}

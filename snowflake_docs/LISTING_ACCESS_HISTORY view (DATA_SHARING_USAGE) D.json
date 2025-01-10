@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_08/bcr-1758",
+    "title": "LISTING_ACCESS_HISTORY view (DATA_SHARING_USAGE): Deprecate LISTING_OBJECTS_ACCESSED column (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "BCR-1641 introduced a new column named SHARE_OBJECTS_ACCESSED\nthat replaces the LISTING_OBJECTS_ACCESSED column.",
+        "This behavior change removes the original LISTING_OBJECTS_ACCESSED column.",
+        "When this behavior change bundle is enabled, the output of the LISTING_ACCESS_HISTORY view changes as follows:",
+        "The LISTING_OBJECTS_ACCESSED column appears in the output of the LISTING_ACCESS_HISTORY view.",
+        "The LISTING_OBJECTS_ACCESSED column no longer appears in the output of the LISTING_ACCESS_HISTORY view.",
+        "Ref: 1758",
+        "Was this page helpful?"
+    ]
+}

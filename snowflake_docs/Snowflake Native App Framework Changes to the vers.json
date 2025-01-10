@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/un-bundled/bcr-add-unversioned-status",
+    "title": "Snowflake Native App Framework Changes to the version output for the SHOW APPLICATIONS and DESC APPLICATION commands | Snowflake Documentation",
+    "paragraphs": [
+        "For applications created using staged files,\nthe output of the SHOW APPLICATIONS and\nDESCRIBE APPLICATION will change as follows:",
+        "The value of the version column of the SHOW APPLICATIONS command\nis dev_stage.",
+        "The value of the version row of the DESCRIBE APPLICATION command\nis dev_stage.",
+        "The value of the version column of the SHOW APPLICATIONS command\nwill be UNVERSIONED.",
+        "The value of the version row of the DESCRIBE APPLICATION command\nis UNVERSIONED.",
+        "Ref: n/a",
+        "Was this page helpful?"
+    ]
+}

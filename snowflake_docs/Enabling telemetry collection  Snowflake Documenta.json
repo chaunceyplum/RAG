@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/logging-tracing/logging-tracing-enabling",
+    "title": "Enabling telemetry collection | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Metrics data collection is a preview feature available to all accounts.",
+        "You must enable telemetry collection before you can use telemetry data \u2014 including log messages, trace event data, and metrics data \u2014\nto debug, optimize, and troubleshoot your Snowflake applications.",
+        "Use this topic to confirm that you\u2019re set up to capture data.",
+        "To enable telemetry collection:",
+        "Ensure that you have an active event table.",
+        "By default, Snowflake includes a predefined event table that is active for your account\nuntil you deactivate it or specify an event table you create.",
+        "Set logging, tracing, and metrics levels.",
+        "You must set levels for the data you want to capture. For example, you\nmust set the tracing level to a level other than OFF for tracing data to be collected.",
+        "Add code to your applications, if needed.",
+        "For some telemetry data, data is emitted without your needing to add your own code. For example, Snowflake can record metrics data\nwithout your needing to add code. For other cases, such as logging and tracing, you can add code to emit your own data to be\ncaptured in an event table.",
+        "For information on languages supported to emit your own data, see the following:",
+        "Logging from handler code",
+        "Event tracing from handler code",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

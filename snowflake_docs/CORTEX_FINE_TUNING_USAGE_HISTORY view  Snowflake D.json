@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/account-usage/cortex_fine_tuning_usage_history",
+    "title": "CORTEX_FINE_TUNING_USAGE_HISTORY view | Snowflake Documentation",
+    "paragraphs": [
+        "ACCOUNT_USAGE",
+        "This Account Usage view can be used to query the usage history of Cortex Fine-tuning.\nThe information in this view includes the number of training credits consumed per hour for a Cortex Fine-tuning job. This view\nonly contains credits consumed for fine-tuning, not the inference cost for using the fine-tuned model. For more information, see\nCost considerations.",
+        "Column Name",
+        "Data Type",
+        "Description",
+        "START_TIME",
+        "TIMESTAMP_LTZ",
+        "Start of the specified time range in which the Cortex Fine-tuning usage took place.",
+        "END_TIME",
+        "TIMESTAMP_LTZ",
+        "End of the specified time range in which the Cortex Fine-tuning usage took place.",
+        "WAREHOUSE_ID",
+        "NUMBER",
+        "System-generated identifier for the warehouse used by the query calling the Cortex Fine-tuning.",
+        "MODEL_NAME",
+        "TEXT",
+        "Name of the fine-tuned model.",
+        "TOKEN_CREDITS",
+        "NUMBER",
+        "Number of credits billed for Cortex Fine-tuning usage based on tokens processed for training a model during the START_TIME and END_TIME window.",
+        "TOKENS",
+        "NUMBER",
+        "Number of tokens billed.",
+        "The view provides up-to-date credit usage for an account within the last 365 days (1 year).",
+        "In some cases where a model is used but is not billed, the model column may be empty.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

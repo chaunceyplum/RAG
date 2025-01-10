@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_01/bcr-938",
+    "title": "Tag Must Exist When Calling System Functions | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of the SYSTEM$GET_TAG_ON_CURRENT_COLUMN and\nSYSTEM$GET_TAG_ON_CURRENT_TABLE functions has changed as follows:",
+        "If the tag did not exist, Snowflake allowed using these functions when creating or altering a masking policy or row access\npolicy. The query on the protected column failed because the tag did not exist.",
+        "The tag must exist when using these functions while creating a masking policy or row access policy. If the tag does not exist,\nSnowflake returns the following error message:",
+        "Tag '<tag_name>' does not exist or not authorized.",
+        "Ref: 938",
+        "Was this page helpful?"
+    ]
+}

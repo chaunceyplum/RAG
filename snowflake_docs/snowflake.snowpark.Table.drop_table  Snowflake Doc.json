@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Table.drop_table",
+    "title": "snowflake.snowpark.Table.drop_table | Snowflake Documentation",
+    "paragraphs": [
+        "Drops the table from the Snowflake database.",
+        "Note that subsequent operations such as DataFrame.select(), DataFrame.collect() on this Table instance and the derived DataFrame will raise errors because the underlying\ntable in the Snowflake database no longer exists.",
+        "Was this page helpful?"
+    ]
+}

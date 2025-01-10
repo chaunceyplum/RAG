@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/object_keys",
+    "title": "OBJECT_KEYS | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Array/Object)",
+        "Returns an array containing the list of keys in the top-most level of the input object.",
+        "The value for which you want the keys. The input value must be one of the following:",
+        "An OBJECT.",
+        "A VARIANT that contains a value of type OBJECT.",
+        "The function returns an ARRAY containing the keys.",
+        "If object is a structured OBJECT, the function returns an ARRAY(VARCHAR).",
+        "If the object contains nested objects (e.g. objects within objects), this returns only the keys from the top-most level.",
+        "The next example shows OBJECT_KEYS working with both an OBJECT and a\nVARIANT that contains a value of type OBJECT.",
+        "Create a table that contains columns of types OBJECT and\nVARIANT.",
+        "INSERT values:",
+        "Retrieve the keys from both the OBJECT and the VARIANT:",
+        "This example shows that if the object contains nested objects, only the keys from the top-most level are returned.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

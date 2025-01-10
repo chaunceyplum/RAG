@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_aswkb",
+    "title": "ST_ASWKB , ST_ASBINARY | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Given a value of type GEOGRAPHY or GEOMETRY, return the\nbinary representation of that value in\nWKB (well-known binary) format.",
+        "ST_ASEWKB",
+        "Use one of the following:",
+        "The argument must be an expression of type GEOGRAPHY or GEOMETRY.",
+        "A value of type BINARY.",
+        "ST_ASBINARY is an alias for ST_ASWKB.",
+        "To return the output in EWKB format, use ST_ASEWKB instead.",
+        "The following example demonstrates the ST_ASWKB function. For the WKB output, it is assumed that the BINARY_OUTPUT_FORMAT\nparameter is set to HEX (the default value for the parameter).",
+        "The example below demonstrates how to use the ST_ASEWKB function. The example returns the EWKB representations of two geometries.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

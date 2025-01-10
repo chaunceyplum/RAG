@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/array_remove_at",
+    "title": "ARRAY_REMOVE_AT | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Array/Object)",
+        "Given a source ARRAY, returns an ARRAY with the element at the specified position removed.",
+        "For example, ARRAY_REMOVE_AT([2, 5, 7], 0) returns an ARRAY with the element at position 0 removed ([5, 7]).",
+        "The source array.",
+        "The (zero-based) position of the element to be removed. The function removes the element at this position.",
+        "A negative position is interpreted as an index from the back of the array (e.g. -1 removes the last element in the array).",
+        "An ARRAY with the element at the specified position removed.",
+        "If position is NULL, the function returns NULL.",
+        "If the absolute value of position exceeds the length of array, the function returns array without\nany elements removed.",
+        "The following example returns an ARRAY with elements with the first element removed.",
+        "The following example returns an ARRAY with elements with the last element removed.",
+        "In the following example, position is greater than the length of the ARRAY, so the function returns the ARRAY without\nmaking any changes.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

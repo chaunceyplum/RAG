@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.network_policy.NetworkPolicyResource",
+    "title": "snowflake.core.network_policy.NetworkPolicyResource | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: ObjectReferenceMixin[NetworkPolicyCollection]",
+        "Represents a reference to a Snowflake Network Policy resource.",
+        "With this network policy reference, you can create, update, and fetch information about network policies, as well\nas perform certain actions on them.",
+        "Attributes",
+        "Methods",
+        "Drop this network policy.",
+        "if_exists (bool, optional) \u2013 Check the existence of this network policy before dropping it.\nDefault is None, which is equivalent to False.",
+        "Examples",
+        "Deleting a network policy using its reference:",
+        "Deleting a network policy using its reference if it exists:",
+        "Fetch the details of a network policy.",
+        "Examples",
+        "Fetching a network policy reference to print its time of creation:",
+        "Was this page helpful?"
+    ]
+}

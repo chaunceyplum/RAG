@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-09-04-call-stored-procedure-in-from-clause",
+    "title": "September 04, 2024 \u2014 Calling stored procedures in the FROM clause of SELECT statements | Snowflake Documentation",
+    "paragraphs": [
+        "You can now call a stored procedure that returns tabular data directly in the FROM clause\nof a SELECT statement. You can use this technique to simplify the SQL statements for saving\nresults to a table. For example, rather than using the\nSQLID Snowflake Scripting variable with the\nRESULT_SCAN function to create a table containing these results,\nyou can use a query that directly selects from the results.",
+        "When calling the stored procedure, omit the CALL command. Instead, put the call\nin parentheses, preceded by the TABLE keyword.",
+        "For more information, see Selecting from a stored procedure.",
+        "Was this page helpful?"
+    ]
+}

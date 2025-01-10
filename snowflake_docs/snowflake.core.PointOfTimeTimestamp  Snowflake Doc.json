@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.PointOfTimeTimestamp",
+    "title": "snowflake.core.PointOfTimeTimestamp | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: PointOfTime",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises ValidationError if the input data cannot be parsed to form a valid model.",
+        "Methods",
+        "Create an instance of PointOfTime from a dict.",
+        "Return the discriminator value (object type) of the data.",
+        "Was this page helpful?"
+    ]
+}

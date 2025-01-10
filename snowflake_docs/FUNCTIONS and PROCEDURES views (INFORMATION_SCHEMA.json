@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1404",
+    "title": "FUNCTIONS and PROCEDURES views (INFORMATION_SCHEMA): Corrections to columns When name contains special characters | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "This behavior change affects UDFs and stored procedures that have names or argument names containing any of the following\ncharacters:",
+        "A colon ( : )",
+        "An open parenthesis ( ( )",
+        "A close parenthesis ( ) )",
+        "In the INFORMATION_SCHEMA FUNCTIONS and\nPROCEDURES views, the argument_signature and data_type columns contain\nthe following values for these functions and procedures:",
+        "argument_signature and data_type do not contain the correct argument signature and return data type.",
+        "The value in the argument_signature column might contain an open parenthesis or the part of the function or procedure name\nthat starts with an open parenthesis.",
+        "The value in the data_type column might contain the prefix TABLE.",
+        "argument_signature and data_type contain the correct argument signature and return data type.",
+        "For example, suppose that a UDF name contains a colon:",
+        "The argument_signature and data_type columns contain the following values:",
+        "Note that this change just addresses the problem in the FUNCTIONS and PROCEDURES views in INFORMATION_SCHEMA. The fix for the\nFUNCTIONS and PROCEDURES views\nin ACCOUNT_USAGE will be made available in a future behavior change release.",
+        "Ref: 1404",
+        "Was this page helpful?"
+    ]
+}

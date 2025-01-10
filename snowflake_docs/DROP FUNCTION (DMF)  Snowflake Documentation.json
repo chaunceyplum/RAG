@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-function-dmf",
+    "title": "DROP FUNCTION (DMF) | Snowflake Documentation",
+    "paragraphs": [
+        "Enterprise Edition Feature",
+        "Data Quality and data metric functions (DMFs) require Enterprise Edition. To inquire about upgrading, please contact\nSnowflake Support.",
+        "Removes the specified data metric function (DMF) from the current or specified schema.",
+        "Identifier for the DMF to drop.",
+        "If the identifier contains spaces or special characters, the entire string must be enclosed in double quotes.\nIdentifiers enclosed in double quotes are also case-sensitive.",
+        "For more information, see Identifier requirements.",
+        "Specifies the data type of the argument(s), if any, for the DMF. The argument types are necessary because DMFs support name overloading\n(that is, two DMFs in the same schema can have the same name), and the argument types are used to identify the DMF you want to drop.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "OWNERSHIP",
+        "Data metric function",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "Drop the DMF from the system:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

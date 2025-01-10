@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.sql",
+    "title": "snowflake.snowpark.Session.sql | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a new DataFrame representing the results of a SQL query.",
+        "Note",
+        "You can use this method to execute a SQL query lazily,\nwhich means the SQL is not executed until methods like DataFrame.collect()\nor DataFrame.to_pandas() evaluate the DataFrame.\nFor immediate execution, chain the call with the collect method: session.sql(query).collect().",
+        "query \u2013 The SQL statement to execute.",
+        "params \u2013 binding parameters. We only support qmark bind variables. For more information, check\nhttps://docs.snowflake.com/en/developer-guide/python-connector/python-connector-example#qmark-or-numeric-binding",
+        "_ast_stmt \u2013 when invoked internally, supplies the AST to use for the resulting dataframe.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

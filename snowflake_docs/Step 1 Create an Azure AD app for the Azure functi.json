@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/external-functions-creating-azure-template-apps",
+    "title": "Step 1: Create an Azure AD app for the Azure functions app in the Portal | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides detailed instructions for creating an Azure AD app for the Azure Functions app.",
+        "Planning an external function for Azure",
+        "If you haven\u2019t already, log into the Azure Portal.",
+        "Search for the App registrations page.",
+        "Click on New registration, which takes you to the Register an application screen.",
+        "Enter a unique name for your Azure AD app.",
+        "Record the name of the Azure AD app in the Azure Function AD app registration name field in your tracking worksheet.",
+        "Under Supported account types, choose\nAccounts in this organizational directory only (Default Directory only - Single tenant).",
+        "Click on Register.",
+        "This takes you to the Home \u00bb App registrations screen and shows the newly created Azure AD\napp.",
+        "Record the Application (client) ID from the Azure AD app you just created in the Azure Function AD Application ID field in\nyour tracking worksheet. This ID should be in the form of a UUID.",
+        "Step 2: Use the template to create the remote service (Azure function) and proxy service (API Management service)",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-ml/feature-store/modeling",
+    "title": "Model Training and Inference | Snowflake Documentation",
+    "paragraphs": [
+        "Enterprise Edition Feature",
+        "The Snowflake Feature Store requires Enterprise Edition. To inquire about upgrading, please contact\nSnowflake Support.",
+        "Note",
+        "The Snowflake Feature Store API is available in the Snowpark ML Python package (snowflake-ml-python) v1.5.0 and later.",
+        "You can generate a training data set with the feature store\u2019s generate_training_set method, which enriches a\nSnowpark DataFrame that contains the source data with the derived feature values. To select a subset of features from a\nfeature view, use fv.slice.",
+        "For time-series features, provide the timestamp column name to automate the point-in-time feature value lookup.",
+        "Note",
+        "Here, the spine_df (MySourceDataFrame) is a DataFrame containing the entity IDs in source data, the time\nstamp, label columns, and additional columns containing training data. Requested features are retrieved for the list\nof entity IDs, with point-in-time correctness with respect to the provided time stamp.",
+        "Training sets are ephemeral by default; they exist only as Snowpark DataFrames and are not materialized. To materialize\nthe training set to a Table, specify the argument save_as with a valid, non-existing table name. The training set\nis written to the newly created table.",
+        "Materialized tables currently don\u2019t guarantee immutability and have limited metadata support. If you require these\nfeatures, consider using Snowflake Datasets instead.",
+        "Note",
+        "The generate_training_set API is available in snowflake-ml-python version 1.5.4 or later.",
+        "You can generate a Snowflake Dataset using the feature store\u2019s\ngenerate_dataset method. The method signature is similar to generate_training_set; the key\ndifferences are the required name argument, optional version argument, and additional metadata fields.\ngenerate_dataset always materializes the result.",
+        "Snowflake Datasets provide an immutable, file-based snapshot of data, which helps to ensure model reproducibility\nand efficient data ingestion for large datasets and/or distributed training. Datasets also have expanded metadata\nsupport for easier discoverability and consumption.",
+        "The following code illustrates the generation of a dataset from a feature view:",
+        "After creating a training data set, you can pass it to your model when training as follows.",
+        "If you generated a Snowpark DataFrame, pass it directly to your model:",
+        "If you generated a Snowflake Dataset, convert it to a Snowpark DataFrame and pass it to your model:",
+        "Once trained, the model can be logged in the Snowflake Model Registry.",
+        "If you created a model in your Python session, you can retrieve the feature view from the feature store and pass\nit to your model for prediction, as shown here:",
+        "You can exclude specified columns using the exclude_columns argument, or include the timestamp column from the\nfeature view by setting include_feature_view_timestamp_col.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

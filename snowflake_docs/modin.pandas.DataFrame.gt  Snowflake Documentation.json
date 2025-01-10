@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.gt",
+    "title": "modin.pandas.DataFrame.gt | Snowflake Documentation",
+    "paragraphs": [
+        "Get greater than comparison of DataFrame and other, element-wise (binary operator ge).",
+        "Was this page helpful?"
+    ]
+}

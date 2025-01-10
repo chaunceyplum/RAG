@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-09-12-dcr",
+    "title": "September 12, 2024 \u2014 Snowflake Data Clean Rooms Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the availability of the following new features and enhancements in this update to Snowflake\nData Clean Rooms.",
+        "When an analysis provides the Activation Hub, consumers can now activate the results of the analysis to their Yahoo DSP account. This lets\nconsumers buy against audiences they are generating within the clean room through Yahoo DSP.",
+        "For more information, see the following:",
+        "If you are an administrator who is configuring the connector so clean room users can activate to Yahoo DSP, see\nYahoo DSP connector.",
+        "If you are a clean room user who is using the Activation Hub after running an analysis, see\nActivation with Yahoo DSP.",
+        "Publishers and advertisers can leverage the Google PAIR protocol so the advertiser can run an audience overlap analysis on encrypted\nidentifiers, then push the results to their Google DV 360 account for activation without ever exposing unencrypted sensitive data.",
+        "For more information, see Using Google PAIR with Snowflake Data Clean Rooms.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

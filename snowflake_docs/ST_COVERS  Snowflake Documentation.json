@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_covers",
+    "title": "ST_COVERS | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns TRUE if no point in one geospatial object is outside of another geospatial object. In other words:",
+        "GEOGRAPHY object g2 is outside GEOGRAPHY object g1.",
+        "GEOMETRY object g2 is outside GEOMETRY object g1.",
+        "ST_COVERS is similar to, but subtly different from, ST_CONTAINS. For details on the differences between \u201ccovers\u201d and \u201ccontains\u201d,\nsee the Dimensionally Extended 9-Intersection Model (DE-9IM).",
+        "Although ST_COVERS and ST_CONTAINS might seem similar, the two functions have subtle differences. For details on the differences\nbetween \u201ccovers\u201d and \u201ccontains\u201d, see the\nDimensionally Extended 9-Intersection Model (DE-9IM).",
+        "Note",
+        "This function does not support using a GeometryCollection or FeatureCollection as input values.",
+        "Tip",
+        "You can use the search optimization service to improve the performance of queries that call this function.\nFor details, see Search Optimization Service.",
+        "ST_CONTAINS , ST_COVEREDBY",
+        "A GEOGRAPHY object that is not a GeometryCollection or FeatureCollection.",
+        "A GEOGRAPHY object that is not a GeometryCollection or FeatureCollection.",
+        "A GEOMETRY object that is not a GeometryCollection or FeatureCollection.",
+        "A GEOMETRY object that is not a GeometryCollection or FeatureCollection.",
+        "BOOLEAN.",
+        "For GEOMETRY objects, the function reports an error if the two input GEOMETRY objects have different SRIDs.",
+        "This shows a simple use of the ST_COVERS function:",
+        "The query below shows several examples of using ST_COVERS. Note how the Polygon covers (but does not\ncontain) a LineString on its border.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

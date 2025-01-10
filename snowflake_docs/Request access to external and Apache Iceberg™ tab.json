@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/native-apps/requesting-external-tables",
+    "title": "Request access to external and Apache Iceberg\u2122 tables | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "The Snowflake Native App Framework is generally available on supported cloud platforms. For additional information, see\nSupport for private connectivity, VPS, and government regions.",
+        "This topic describes how a provider can configure an app to request that a consumer allow the app to\naccess external and Apache Iceberg\u2122 tables that a provider shares in an app.",
+        "The Snowflake Native App Framework allows providers to share external tables and\nApache Iceberg\u2122 tables with consumers. For general information,\nsee Support for  external and Iceberg tables.",
+        "To include an external or Iceberg table in an app:",
+        "Add the table to the app. See Share data content in a Snowflake Native App.",
+        "Add an entry for external and Iceberg tables to the manifest",
+        "Request permissions to access external and Iceberg tables",
+        "To include external or Iceberg tables in an app, providers must add\nan entry in the manifest file as shown in the following example:",
+        "For security and cost considerations, consumers must explicitly give an app permissions\nto use an external or Iceberg table.",
+        "Note",
+        "If an app attempts to resolve an external or Iceberg table directly in setup script\nthe setup script fails if the consumer has not yet given permission to the app. To access external\ndata, for example to create a view from an external table, providers should create the view\nin a stored procedure in the setup script. The app can then call the stored procedure after the\nconsumer gives the app permission.",
+        "To allow a custom Streamlit app to access external and Iceberg tables, the Python Permission SDK provides the following functions:",
+        "Causes Snowsight to display a dialog that prompts the consumer to allow the app to\naccess the external or Iceberg tables required by the app.",
+        "Determines if the consumer has allowed the app to use external or Iceberg tables. Returns\nTrue if allowed. Returns False, otherwise.",
+        "Alternatively, a consumer can run the SYSTEM$SET_APPLICATION_RESTRICTED_FEATURE_ACCESS system function to allow an app access to external and Iceberg tables.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

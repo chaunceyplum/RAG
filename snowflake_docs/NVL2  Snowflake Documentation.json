@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/nvl2",
+    "title": "NVL2 | Snowflake Documentation",
+    "paragraphs": [
+        "Conditional expression functions",
+        "Returns values depending on whether the first input is NULL:",
+        "If expr1 is NOT NULL, then NVL2 returns expr2.",
+        "If expr1 is NULL, then NVL2 returns expr3.",
+        "The expression to be checked to see whether it is NULL.",
+        "If expr1 is not NULL, this expression will be evaluated and\nits value will be returned.",
+        "If expr1 is NULL, this expression will be evaluated and\nits value will be returned.",
+        "All three expressions should have the same (or compatible) data type.",
+        "The collation specification for expr1 is ignored because all that matters about this expression is\nwhether it is NULL or not.",
+        "The collation specifications for expr2 and expr3 must be compatible.",
+        "The value returned from the function is the\nhighest-precedence collation of expr2 and\nexpr3.",
+        "If a is not null, then return b, else return c:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

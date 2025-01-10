@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_01/bcr-1489",
+    "title": "Dynamic tables: disallow using SQL UDFs and UDTFs in new dynamic tables | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "SQL user-defined functions (UDF) and user-defined tabular functions (UDTF) in dynamic tables\ncan cause unexpected behavior, resulting in confusing errors or unexpected behavior.",
+        "You can use SQL UDFs and/or UDTFs in new and existing dynamic tables.",
+        "You cannot use SQL UDFs or UDTFs in new dynamic tables.",
+        "Existing dynamic tables that use SQL UDFs and/or UDTFs are not affected by this behavior change,\nbut they may be subject to unexpected behavior.",
+        "UDFs and UDTFs written in other supported programming languages\nare not affected by this behavior change.",
+        "Ref: 1489",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/revoke-role",
+    "title": "REVOKE ROLE | Snowflake Documentation",
+    "paragraphs": [
+        "Removes a role from another role or a user.",
+        "GRANT ROLE",
+        "Specifies the identifier for the role to revoke. If the identifier contains spaces or special characters, the entire string must\nbe enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Revokes the role from the specified role.",
+        "Revokes the role from the specified user.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

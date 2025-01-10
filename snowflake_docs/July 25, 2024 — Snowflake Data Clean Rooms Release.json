@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-07-25-dcr",
+    "title": "July 25, 2024 \u2014 Snowflake Data Clean Rooms Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the availability of the following new features and enhancements in this update to Snowflake\nData Clean Rooms.",
+        "A new third-party connector integrates Acxiom Real ID, an identity solution, with the clean room environment, allowing multiple entities to\ncollaborate without needing to directly expose or share sensitive data.",
+        "For information about how an administrator configures the new connector so it becomes available in clean rooms, see\nSnowflake Data Clean Rooms: Identity and data provider connectors.",
+        "Collaborators can now use the developer APIs to send a consumer\u2019s analysis results back to the provider for activation. For more\ninformation, see Using the developer APIs to send results to a Snowflake account for activation.",
+        "When creating a user interface for a custom template, the provider can now create a drop-down list of tables in the clean room without\nhaving to individually specify them. In addition, the provider can create a drop-down list of all available columns that can be used in\nfilters and joins without specifying them individually.",
+        "For more information about these enhancements, see the provider.add_ui_form_customizations command in the\nSnowflake Data Clean Rooms: Provider API reference guide.",
+        "The SQL Query template now allows the consumer to select a warehouse when running an analysis.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

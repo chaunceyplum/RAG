@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-06-03-embed-text-1024",
+    "title": "June 03, 2024 \u2014 New EMBED_TEXT_1024 function for 1024 dimensional output vectors | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the availability of a vector embedding function that outputs 1024 dimension vectors.\nThis function enables important applications that require semantic vector search and retrieval.",
+        "The EMBED_TEXT_1024 function is available in the following region:",
+        "AWS US West 2 (Oregon)",
+        "For more information, see Vector Embeddings.",
+        "The following functions are now generally available with this release:",
+        "Function Category",
+        "New Function",
+        "Description",
+        "LLM Function",
+        "EMBED_TEXT_1024 (SNOWFLAKE.CORTEX)",
+        "Creates a vector embedding of 1024 dimensions for a given string of text in English.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-06-05",
+    "title": "June 05, 2024 \u2014 New geospatial functions in preview | Snowflake Documentation",
+    "paragraphs": [
+        "Four new functions for GEOGRAPHY objects are now available in preview:",
+        "H3_TRY_COVERAGE - A special version of H3_COVERAGE\nthat returns NULL if an error occurs when it attempts to return an array of IDs\n(as INTEGER values) identifying the minimal set of H3 cells that completely\ncover a shape (specified by a GEOGRAPHY object).",
+        "H3_TRY_COVERAGE_STRINGS - A special version of H3_COVERAGE_STRINGS\nthat returns NULL if an error occurs when it attempts to return an array of hexadecimal IDs (as VARCHAR values)\nidentifying the minimal set of H3 cells that completely cover a shape\n(specified by a GEOGRAPHY object).",
+        "H3_TRY_POLYGON_TO_CELLS - A special version of H3_POLYGON_TO_CELLS\nthat returns NULL if an error occurs when it attempts to return an array of INTEGER values of the IDs of\nH3 cells that have centroids contained by a Polygon\n(specified by a GEOGRAPHY object).",
+        "H3_TRY_POLYGON_TO_CELLS_STRINGS - A special version of H3_POLYGON_TO_CELLS_STRINGS\nthat returns NULL if an error occurs when it attempts to return an array of VARCHAR values of the\nhexadecimal IDs of H3 cells that have centroids contained by\na Polygon (specified by a GEOGRAPHY object).",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

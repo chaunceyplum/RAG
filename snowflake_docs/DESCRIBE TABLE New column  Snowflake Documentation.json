@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1350",
+    "title": "DESCRIBE TABLE: New column | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The output of the DESCRIBE TABLE command is as follows:",
+        "The DESCRIBE TABLE output does not contain the PRIVACY_DOMAIN column.",
+        "The last column of the DESCRIBE TABLE output is the PRIVACY_DOMAIN column, which is reserved for future use.",
+        "Ref: 1350",
+        "Was this page helpful?"
+    ]
+}

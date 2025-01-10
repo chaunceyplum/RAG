@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/randstr",
+    "title": "RANDSTR | Snowflake Documentation",
+    "paragraphs": [
+        "Data generation functions",
+        "Returns a random string of specified length.",
+        "Individual characters are chosen uniformly at random from the following pool of characters: 0-9, a-z, A-Z.",
+        "The value for the generator expression, gen, is used as the seed for this uniform random distribution. For more information about generator expressions, see Usage notes.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

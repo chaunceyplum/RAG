@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-11-08",
+    "title": "November 08, 2024 \u2014 Snowflake Microsoft Sharepoint connector | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the preview of Snowflake Connector for SharePoint.",
+        "The Snowflake Connector for SharePoint connector connects a Microsoft 365 SharePoint site and Snowflake to ingest\nfiles and user permissions and keeps them up to date.\nSnowflake Connector for SharePoint also supports the Cortex Search service and can make ingested files ready for conversational\nanalysis for use in AI Assistants using SQL, Python or REST APIs.",
+        "For more details, see About the Snowflake Connector for SharePoint.",
+        "Release notes:",
+        "Snowflake Connector for SharePoint release notes",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

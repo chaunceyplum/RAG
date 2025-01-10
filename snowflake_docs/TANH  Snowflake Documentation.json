@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/tanh",
+    "title": "TANH | Snowflake Documentation",
+    "paragraphs": [
+        "Numeric functions (Trigonometric)",
+        "Computes the hyperbolic tangent of its argument.",
+        "This expression should evaluate to a real number.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

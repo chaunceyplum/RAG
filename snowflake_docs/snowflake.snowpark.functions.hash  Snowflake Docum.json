@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.hash",
+    "title": "snowflake.snowpark.functions.hash | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a signed 64-bit hash value. Note that HASH never returns NULL, even for NULL inputs.",
+        "Examples:",
+        "Was this page helpful?"
+    ]
+}

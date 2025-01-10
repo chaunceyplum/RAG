@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/udf-stored-procedure-build-maven",
+    "title": "Packaging Java or Scala Handler Code with Maven | Snowflake Documentation",
+    "paragraphs": [
+        "If you are using Maven to build and package your code, you can use the\nMaven Assembly Plugin to create a JAR file that contains\nall of the dependencies.",
+        "Once you have a JAR file, you can upload the file to a Snowflake stage, then reference it in an IMPORTS statement when you create a\nfunction or procedure. For more information on uploading JAR files, refer to Making dependencies available to your code. For more\ninformation on choosing whether to have code inline or on a stage, refer to Keeping handler code in-line or on a stage.",
+        "To create an JAR file with your handler code, use the following steps.",
+        "In the directory for your project (for example, hello-snowpark/), create a subdirectory named assembly/.",
+        "In that directory, create an\nassembly descriptor file\nthat specifies that you want to include dependencies in your JAR file.",
+        "For an example, see\njar-with-dependencies.",
+        "If your project requires the Snowpark library, exclude its JAR file from the output archive because the library is already included on\nSnowflake.",
+        "In the assembly descriptor, add a <dependencySet> element that excludes the Snowpark library from your JAR file.",
+        "For example:",
+        "For information about the elements in an assembly descriptor, see\nAssembly Descriptor Format.",
+        "In your pom.xml file, under the <project> \u00bb <build> \u00bb <plugins>, add a <plugin>\nelement for the Maven Assembly Plugin.",
+        "In addition, under <configuration> \u00bb <descriptors>, add a <descriptor> that points to the assembly\ndescriptor file that you created in the previous steps.",
+        "For example:",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

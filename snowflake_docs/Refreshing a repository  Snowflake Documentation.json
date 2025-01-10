@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/git/refresh-repo",
+    "title": "Refreshing a repository | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "The snow git fetch command updates a repository stage with all branches, tags, and new commits from a remote repository.",
+        "To fetch changes in a repository, use the following command:",
+        "where:",
+        "<REPO_NAME> is the ID of the repository stage.",
+        "The following example refreshes a repository named my_snow_git:",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

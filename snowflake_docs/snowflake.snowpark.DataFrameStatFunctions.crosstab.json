@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrameStatFunctions.crosstab",
+    "title": "snowflake.snowpark.DataFrameStatFunctions.crosstab | Snowflake Documentation",
+    "paragraphs": [
+        "Computes a pair-wise frequency table (a contingency table) for the specified columns.\nThe method returns a DataFrame containing this table.",
+        "The first column of each row contains the distinct values of col1.",
+        "The name of the first column is the name of col1.",
+        "The rest of the column names are the distinct values of col2.",
+        "For pairs that have no occurrences, the contingency table contains 0 as the count.",
+        "Note",
+        "The number of distinct values in col2 should not exceed 1000.",
+        "Example:",
+        "col1 \u2013 The name of the first column to use.",
+        "col2 \u2013 The name of the second column to use.",
+        "statement_params \u2013 Dictionary of statement level parameters to be set while executing this action.",
+        "Was this page helpful?"
+    ]
+}

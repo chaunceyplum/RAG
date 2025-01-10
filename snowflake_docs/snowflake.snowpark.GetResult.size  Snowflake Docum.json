@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.GetResult.size",
+    "title": "snowflake.snowpark.GetResult.size | Snowflake Documentation",
+    "paragraphs": [
+        "The size in bytes of the downloaded file.",
+        "Was this page helpful?"
+    ]
+}

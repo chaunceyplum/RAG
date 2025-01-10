@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_02/bcr-1487",
+    "title": "Query Acceleration Service: Expanded support for INSERT statements | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_02 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The query acceleration service can accelerate\neligible queries by offloading portions of the query processing to serverless compute\nresources that are provided by the service.",
+        "Query acceleration service support for INSERT statements behaves as follows:",
+        "Eligible INSERT statements that include a SELECT statement can be accelerated. Only the scan portion with a selective filter can be\neligible for acceleration.",
+        "All portions of eligible INSERT statements can be accelerated.",
+        "This change might result in additional query acceleration service usage for your account.",
+        "Ref: 1487",
+        "Was this page helpful?"
+    ]
+}

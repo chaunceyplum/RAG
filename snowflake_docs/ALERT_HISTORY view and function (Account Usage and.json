@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1183",
+    "title": "ALERT_HISTORY view and function (Account Usage and Information Schema): Changes to output when action contains RETURN statement | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the current Snowflake release, the values in the state and action_query_id columns of the output of the\nALERT_HISTORY table function and\nALERT_HISTORY Account Usage view have changed, if the action of the query\ncontains a Snowflake Scripting RETURN statement:",
+        "The state column contains the value SUCCEEDED, and the action_query_id column contains the incorrect query ID.",
+        "The state column contains the value TRIGGERED (if the action successfully executed) or ACTION_FAILED (if the\naction failed to execute), and the action_query_id column contains the correct query ID.",
+        "Ref: 1183",
+        "Was this page helpful?"
+    ]
+}

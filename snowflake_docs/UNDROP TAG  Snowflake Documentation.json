@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/undrop-tag",
+    "title": "UNDROP TAG | Snowflake Documentation",
+    "paragraphs": [
+        "Enterprise Edition Feature",
+        "This feature requires Enterprise Edition or higher. To inquire about upgrading,\nplease contact Snowflake Support.",
+        "Restores the most recent version of a tag to the system.",
+        "For details about this command and tag references, see Tag quotas for objects and columns.",
+        "Tag DDL reference",
+        "Identifier for the tag.",
+        "The identifier value must start with an alphabetic character and cannot contain spaces or special characters unless the entire\nidentifier string is enclosed in double quotes (e.g. \"My object\"). Identifiers enclosed in double quotes are also case-sensitive.",
+        "For more details, see Identifier requirements.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "OWNERSHIP",
+        "Tag",
+        "OWNERSHIP is a special privilege on an object that is automatically granted to the role that created the object, but can also be transferred using the GRANT OWNERSHIP command to a different role by the owning role (or any role with the MANAGE GRANTS privilege).",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "For additional details on tag DDL and privileges, see Managing tags.",
+        "Restoring tags is only supported in the current schema or current database, even if the table name is fully-qualified.",
+        "If the tag was assigned to one or more objects when the DROP TAG command was executed, the UNDROP command\nrestores the tag assignments to the objects. For details, see Tag quotas for objects and columns.",
+        "If a tag with the same name already exists, an error is returned.",
+        "UNDROP relies on the Snowflake Time Travel feature. An object can be restored only if\nthe object was deleted within the Data retention period. The default value is 24 hours.",
+        "The following example restores the most recent version of the tag named cost_center:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

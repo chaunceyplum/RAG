@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/hll_import",
+    "title": "HLL_IMPORT | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (Cardinality Estimation) , Window function syntax and usage",
+        "Converts input in OBJECT format to BINARY format.",
+        "The HyperLogLog states operated on by HLL_ACCUMULATE, HLL_COMBINE, and HLL_ESTIMATE are in a proprietary binary format that may change in future versions of Snowflake. For long-term storage of HyperLogLog states, and for integration\nwith external tools, Snowflake supports using HLL_IMPORT to convert states from an OBJECT format to BINARY, and vice versa.",
+        "HLL , HLL_ACCUMULATE , HLL_ESTIMATE , HLL_EXPORT",
+        "See examples for HLL_EXPORT.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

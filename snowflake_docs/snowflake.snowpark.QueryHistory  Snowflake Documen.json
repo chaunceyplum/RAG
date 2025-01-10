@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.QueryHistory",
+    "title": "snowflake.snowpark.QueryHistory | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: QueryListener",
+        "A context manager that listens to and records SQL queries that are pushed down to the Snowflake database.",
+        "See also",
+        "snowflake.snowpark.Session.query_history().",
+        "Attributes",
+        "include_describe",
+        "When True, QueryRecords for describe queries are recorded by this listener.",
+        "include_error",
+        "When True, queries that have error during execution are recorded by this listener.",
+        "include_thread_id",
+        "When True, thread id of the query are recorded by this listener.",
+        "queries",
+        "",
+        "Was this page helpful?"
+    ]
+}

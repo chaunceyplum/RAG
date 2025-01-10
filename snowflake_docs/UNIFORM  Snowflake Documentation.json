@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/uniform",
+    "title": "UNIFORM | Snowflake Documentation",
+    "paragraphs": [
+        "Data generation functions",
+        "Generates a uniformly-distributed pseudo-random number in the inclusive\nrange [min, max].",
+        "A constant specifying the minimum value (inclusive) of the generated number.",
+        "A constant specifying the maximum value (inclusive) of the generated number.",
+        "An expression that serves as a raw source of uniform random numbers,\ntypically the RANDOM function. For more information, see the Data\nGeneration Functions Usage notes.",
+        "If either or both of min or max is a floating-point number,\nUNIFORM returns a floating-point number. If both min and\nmax are integers, UNIFORM returns an integer.",
+        "This function is related to, but different from, the\nRANDOM function. Both functions generate\nuniform distributions, but there are differences in the ranges of the\nvalues returned.",
+        "RANDOM generates pseudo-random 64-bit integers. It accepts an optional\nseed that allows sequences to be repeated.",
+        "UNIFORM generates random integer or floating-point numbers in the\nspecified range.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

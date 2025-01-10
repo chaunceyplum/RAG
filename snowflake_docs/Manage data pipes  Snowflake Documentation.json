@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/pipe/pipe-introduction",
+    "title": "Manage data pipes | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "The Snowflake REST Pipe API provides the following endpoints to access, update, and perform certain actions on Pipe resources.",
+        "Endpoint",
+        "Description",
+        "GET /api/v2/databases/database/schemas/.schema/pipes",
+        "Lists available pipes.",
+        "POST /api/v2/databases/database/schemas/.schema/pipes",
+        "Creates a pipe.",
+        "GET /api/v2/databases/database/schemas/.schema/pipes/name",
+        "Fetches a pipe.",
+        "DELETE /api/v2/databases/database/schemas/.schema/pipes/name",
+        "Deletes a pipe.",
+        "POST /api/v2/databases/database/schemas/.schema/pipes/name:refresh",
+        "Refreshes a pipe.",
+        "For reference documentation, see Snowflake Pipe API reference.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

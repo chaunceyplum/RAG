@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.cortex.search_service.QueryRequest",
+    "title": "snowflake.core.cortex.search_service.QueryRequest | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: BaseModel",
+        "A model object representing the QueryRequest resource.",
+        "Constructs an object of type QueryRequest with the provided properties.",
+        "query (str) \u2013 Unstructured text query.",
+        "columns (List[str]) \u2013 List of columns to return.",
+        "filter (object, optional) \u2013 Filter query.",
+        "limit (int,  default 10) \u2013 Max number of results to return.",
+        "experimental (object, optional) \u2013 reserved",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of QueryRequest from a dict.",
+        "Create an instance of QueryRequest from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

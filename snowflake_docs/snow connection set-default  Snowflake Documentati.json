@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/connection-commands/set-default-connection",
+    "title": "snow connection set-default | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Changes default connection to provided value.",
+        "Name of the connection, as defined in your config.toml file.",
+        "Specifies the output format. Default: TABLE.",
+        "Displays log entries for log levels info and higher. Default: False.",
+        "Displays log entries for log levels debug and higher; debug logs contain additional information. Default: False.",
+        "Turns off intermediate output to console. Default: False.",
+        "Displays the help text for this command.",
+        "This command lets you change the default connection from the command line instead of changing the value of default_connection_name in the config.toml file each time. Using this command can simplify changing between multiple connections.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

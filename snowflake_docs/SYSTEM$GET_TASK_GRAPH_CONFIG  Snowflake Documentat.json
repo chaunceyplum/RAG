@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_get_task_graph_config",
+    "title": "SYSTEM$GET_TASK_GRAPH_CONFIG | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Returns the value of the configuration string for the task currently executing when invoked from the\nstatement or stored procedure defined by the task.",
+        "Path to the configuration value to return.",
+        "Optional argument specifying the path of the value to be retrieved.\nUses the same syntax as Snowflake queries for semi-structured data.\nRefer to GET_PATH for more information.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

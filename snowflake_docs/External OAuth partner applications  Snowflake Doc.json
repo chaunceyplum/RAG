@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/oauth-ext-partner",
+    "title": "External OAuth partner applications | Snowflake Documentation",
+    "paragraphs": [
+        "The following External OAuth Partner applications are available to access Snowflake:",
+        "Microsoft Power BI",
+        "Sigma",
+        "ThoughtSpot",
+        "Next Topics:",
+        "Was this page helpful?"
+    ]
+}

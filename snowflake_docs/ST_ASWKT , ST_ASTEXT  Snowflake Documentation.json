@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_aswkt",
+    "title": "ST_ASWKT , ST_ASTEXT | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Given a value of type GEOGRAPHY or GEOMETRY, return the\ntext (VARCHAR) representation of that value in\nWKT (well-known text) format.",
+        "ST_ASEWKT",
+        "Use one of the following:",
+        "The argument must be an expression of type GEOGRAPHY or GEOMETRY.",
+        "A VARCHAR.",
+        "ST_ASTEXT is an alias for ST_ASWKT.",
+        "To return the output in EWKT format, use ST_ASEWKT instead.",
+        "The following example demonstrates the ST_ASWKT function:",
+        "The example below demonstrates how to use the ST_ASEWKT function. The example returns the EWKT representations of two geometries.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

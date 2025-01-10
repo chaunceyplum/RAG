@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_01/bcr-882",
+    "title": "ARRAY_POSITION Function: Changes to Finding the Position of a NULL Value | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When you call the ARRAY_POSITION function and pass in a value as the first argument, the\nfunction returns the position of the first ARRAY element with that value.",
+        "The ARRAY_POSITION function has changed when you specify NULL as the first argument:",
+        "The function returned NULL. For example:",
+        "The function returns the position of the first NULL in the ARRAY. For example:",
+        "This change was implemented for consistency with the ARRAY_CONTAINS function. When you use the\nARRAY_CONTAINS function to determine if an ARRAY contains NULL, the function returns TRUE.",
+        "Ref: 882",
+        "Was this page helpful?"
+    ]
+}

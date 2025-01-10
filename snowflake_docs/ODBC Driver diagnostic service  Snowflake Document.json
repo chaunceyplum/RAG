@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/odbc/odbc-diagnostic-service",
+    "title": "ODBC Driver diagnostic service | Snowflake Documentation",
+    "paragraphs": [
+        "To aid Snowflake Support in diagnosing customer incidents, the Snowflake ODBC driver utilizes a diagnostic service that runs in the background. When the driver encounters an issue that prevents\nit from performing normally, the diagnostic service records information about the issue:",
+        "The service writes a single compressed sf_incident_log.dmp.gz file to the /tmp folder by default.",
+        "A different ODBC dump file location can be specified using the LogPath property in the simba.snowflake.ini configuration file.",
+        "Important",
+        "The dump file may contain sensitive information (such as IP addresses) to further assist in solving the issue. Note that this file is only stored locally; it is not sent to Snowflake.\nYou must choose to share the files, such as when diagnosing issues with Snowflake Support.",
+        "If you wish to prevent the creation of dump files by the drivers, set the DisableSfDumps=true parameter in the simba.snowflake.ini configuration file.",
+        "When a driver encounters an issue, the service may also send diagnostic information to Snowflake to help fix the problem. This information includes:",
+        "Driver version information.",
+        "A generic description of the issue.",
+        "Stack traces for the driver that pertain to the issue. Other than the account identifier, these stack traces include no customer information.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

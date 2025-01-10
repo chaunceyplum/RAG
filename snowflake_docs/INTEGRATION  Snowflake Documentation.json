@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/integration",
+    "title": "INTEGRATION | Snowflake Documentation",
+    "paragraphs": [
+        "Notification functions (Integration Configuration)",
+        "Returns a JSON object that specifies the notification integration to use to send a message. This is a helper function that you\nuse to construct an integration configuration object for the\nSYSTEM$SEND_SNOWFLAKE_NOTIFICATION stored procedure.",
+        "Using SYSTEM$SEND_SNOWFLAKE_NOTIFICATION to send notifications ,\nSYSTEM$SEND_SNOWFLAKE_NOTIFICATION ,\nEMAIL_INTEGRATION_CONFIG",
+        "Name of the notification integration to use.",
+        "A JSON-formatted string that specifies a notification integration for the\nSYSTEM$SEND_SNOWFLAKE_NOTIFICATION stored procedure to send.",
+        "For example, if you pass in the notification integration name 'my_queue_int', the function returns:",
+        "See Using SYSTEM$SEND_SNOWFLAKE_NOTIFICATION to send notifications.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

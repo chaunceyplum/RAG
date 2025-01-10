@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/un-bundled/bcr-prevent-unversioned-in-version-name",
+    "title": "Snowflake Native App Framework Cannot use \u201cUNVERSIONED\u201d as the prefix of a version label | Snowflake Documentation",
+    "paragraphs": [
+        "Beginning with the 7.40 release, applications installed from staged files will use the string \u201cUNVERSIONED\u201d as the version name.\nThis means that providers will not be able to create a version name using \u201cUNVERSIONED\u201d as a prefix.",
+        "Providers can begin a version name with \u201cUNVERSIONED\u201d as a prefix.",
+        "Providers can no longer begin a version name with \u201cUNVERSIONED\u201d as a prefix.",
+        "Attempts to use \u201cUNVERSIONED\u201d in the version name will result in an error.",
+        "Ref: n/a",
+        "Was this page helpful?"
+    ]
+}

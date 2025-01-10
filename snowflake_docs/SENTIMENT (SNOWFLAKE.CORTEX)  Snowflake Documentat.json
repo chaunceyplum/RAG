@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/sentiment-snowflake-cortex",
+    "title": "SENTIMENT (SNOWFLAKE.CORTEX) | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Large Language Model)",
+        "Returns a sentiment score for the given English-language input text.",
+        "A string containing the text for which a sentiment score should be calculated.",
+        "A floating-point number from -1 to 1 (inclusive) indicating the level of negative or positive sentiment in the text.\nValues around 0 indicate neutral sentiment.",
+        "Users must use a role that has been granted the SNOWFLAKE.CORTEX_USER database role.\nSee Required privileges for more information on this privilege.",
+        "In this example, a table named reviews contains a column named review_content containing the text of reviews\nsubmitted by users. The query returns a sentiment score for each review.",
+        "Refer to Snowflake AI and ML.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

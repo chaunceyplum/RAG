@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-10-02-notebooks-on-spcs",
+    "title": "October 02, 2024 \u2014 Notebooks on Container Runtime \u2014 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the preview of Snowflake Notebooks on Container Runtime.\nYou can now run Snowflake Notebooks on Snowpark Container Services through Container Runtime. Snowpark Container Services gives you a flexible container\ninfrastructure that supports building and operationalizing a wide variety of workflows entirely within Snowflake. Container Runtime\nprovides software and hardware options to support advanced data science and machine learning workloads on Snowpark Container Services.",
+        "For more information, see Notebooks on Container Runtime for ML.",
+        "Was this page helpful?"
+    ]
+}

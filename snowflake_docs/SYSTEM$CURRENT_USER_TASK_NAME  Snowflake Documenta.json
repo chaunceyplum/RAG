@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_current_user_task_name",
+    "title": "SYSTEM$CURRENT_USER_TASK_NAME | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Returns the name of the task currently executing when invoked from the statement or stored procedure defined by the task.",
+        "None.",
+        "Insert the name of the current task into a table along with the current time:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/constructs/group-by-cube.html",
+    "title": "GROUP BY CUBE | Snowflake Documentation",
+    "paragraphs": [
+        "Query syntax",
+        "GROUP BY CUBE is an extension of the GROUP BY clause similar to\nGROUP BY ROLLUP. In addition to producing all the rows of a\nGROUP BY ROLLUP, GROUP BY CUBE adds all the \u201ccross-tabulations\u201d rows. Sub-total rows are\nrows that further aggregate whose values are derived by computing the same aggregate functions that were used to produce the grouped rows.",
+        "A CUBE grouping is equivalent to a series of grouping sets and is essentially a shorter specification. The N elements of a CUBE specification correspond to 2^N GROUPING SETS.",
+        "GROUP BY GROUPING SETS , GROUP BY ROLLUP",
+        "Where:",
+        "Column alias appearing in the query block\u2019s SELECT list.",
+        "Position of an expression in the SELECT list.",
+        "Any expression on tables in the current scope.",
+        "Snowflake allows up to 7 elements (equivalent to 128 grouping sets) in each cube.",
+        "Start by creating and loading a table with information about sales from\na chain store that has branches in different cities and states/territories.",
+        "Run a cube query that shows profit by city, state, and total across all states.\nThe example below shows a query that has three \u201clevels\u201d:",
+        "Each city.",
+        "Each state.",
+        "All revenue combined.",
+        "This example uses ORDER BY state, city NULLS LAST to ensure that each state\u2019s rollup comes immediately after all of\nthe cities in that state, and that the final rollup appears at the end of the output.",
+        "Some rollup rows contain NULL values. For example, the last row in the table contains a NULL value for the city and\na NULL value for the state because the data is for all cities and states, not a specific city and state.",
+        "Both GROUP BY CUBE and GROUP BY ROLLUP produce one row for each city/state pair, and both GROUP BY clauses also produce\nrollup rows for each individual state and for all states combined. The difference between the two GROUP BY clauses is that\nGROUP BY CUBE also produces an output row for each city name (\u2018Miami\u2019, \u2018SJ\u2019, etc.).",
+        "Be careful using GROUP BY CUBE on hierarchical data. In this example, the row for \u201cSJ\u201d contains totals for both the city\nnamed \u201cSJ\u201d in the state of \u201cCA\u201d and the city named \u201cSJ\u201d in the territory of \u201cPR\u201d, even though the only relationship between those\ncities is that they have the same name. In general, use GROUP BY ROLLUP to analyze hierarchical data, and GROUP BY CUBE to\nanalyze data across independent axes.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

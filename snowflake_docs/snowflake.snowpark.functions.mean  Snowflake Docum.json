@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.mean",
+    "title": "snowflake.snowpark.functions.mean | Snowflake Documentation",
+    "paragraphs": [
+        "Return the average for the specific numeric columns. Alias of avg().",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

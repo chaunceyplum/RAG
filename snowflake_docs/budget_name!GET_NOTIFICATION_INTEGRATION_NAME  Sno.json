@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/budget/methods/get_notification_integration_name",
+    "title": "<budget_name>!GET_NOTIFICATION_INTEGRATION_NAME | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the name of the email notification integration configured for a budget.",
+        "To get the names of the notification integrations for cloud provider queues and webhooks, call\n<budget_name>!GET_NOTIFICATION_INTEGRATIONS instead.",
+        "<budget_name>!GET_NOTIFICATION_EMAIL,\n<budget_name>!GET_NOTIFICATION_INTEGRATIONS,\n<budget_name>!GET_NOTIFICATION_MUTE_FLAG,\n<budget_name>!SET_EMAIL_NOTIFICATIONS,\n<budget_name>!SET_NOTIFICATION_MUTE_FLAG",
+        "The name of the notification integration.",
+        "An empty string if the notification email address is not set.",
+        "The following minimum privileges and roles are required to view results for custom budgets:",
+        "Any instance role for the budget instance.",
+        "USAGE privilege on the database and schema that contains the budget instance.",
+        "The following role is required to view results for the account budget:",
+        "Any application role for the account budget.",
+        "For more information, see Budgets roles and privileges.",
+        "Calling this method does not return the object. Because of this, you can\u2019t use method chaining to call another method on the\nreturn value of this method. Instead, call each method in a separate SQL statement.",
+        "View the name of the notification integration used by my_budget in schema budget_db.budget_schema:",
+        "View the name of the notification integration used by the account budget:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

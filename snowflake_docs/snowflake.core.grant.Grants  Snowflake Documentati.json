@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.grant.Grants",
+    "title": "snowflake.core.grant.Grants | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: object",
+        "The entry point of the Snowflake Core Python APIs to manage Snowflake Grants.",
+        "Methods",
+        "Grant the specified privilege(s) on the named securable to the named grantee.",
+        "grant (Grant) \u2013 The Grant object, together with the Grant\u2019s properties:\ngrantee, securable, privilege; grant_option is optional.",
+        "Examples",
+        "Applying a grant to a test role:",
+        "Revoke the specified privilege(s) on the named securable to the named grantee.",
+        "grant (Grant) \u2013 The Grant object, together with the Grant\u2019s properties:\ngrantee, securable, privilege; grant_option is optional.",
+        "Examples",
+        "Revoking a Privilege from test role:",
+        "Revoke the grant option on the specified privilege(s) on the named securable to the named grantee.",
+        "grant (Grant) \u2013 The Grant object, together with the Grant\u2019s properties:\ngrantee, securable, privilege; grant_option is optional.",
+        "Examples",
+        "Revoking grant option for a Privilege from test role:",
+        "List the roles and privileges granted to the specified grantee.",
+        "grantee (Grantee) \u2013 The Grantee to list the roles and privileges of.",
+        "Examples",
+        "Listing the roles and privileges granted to the grantee:",
+        "Was this page helpful?"
+    ]
+}

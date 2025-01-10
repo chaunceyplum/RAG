@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-iceberg-table",
+    "title": "DESCRIBE ICEBERG TABLE | Snowflake Documentation",
+    "paragraphs": [
+        "Describes either the columns in an Apache Iceberg\u2122 table or the current values,\nas well as the default values, for the properties of an Iceberg table.",
+        "DESCRIBE can be abbreviated to DESC.",
+        "Note that this topic refers to Iceberg tables as simply \u201ctables\u201d except where specifying Iceberg tables avoids confusion.",
+        "ALTER ICEBERG TABLE, DROP ICEBERG TABLE, CREATE ICEBERG TABLE, SHOW ICEBERG TABLES",
+        "Specifies the identifier for the table to describe. If the identifier contains spaces or special characters, the entire string must be\nenclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Specifies whether to display the columns for the table or the stage properties (including their current and default values) for the\ntable.",
+        "Default: TYPE = COLUMNS",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "SELECT",
+        "Iceberg table",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "This command does not show the object parameters for a table. Instead, use\nSHOW PARAMETERS IN TABLE.",
+        "DESC ICEBERG TABLE, DESCRIBE TABLE, and DESCRIBE VIEW are interchangeable. Any of these\ncommands retrieves the details for the table or view that matches the criteria in the statement; however, TYPE = STAGE does\nnot apply for views because views don\u2019t have stage properties.",
+        "The output includes a POLICY NAME column to indicate the masking policy set on the column.",
+        "If a masking policy isn\u2019t set on the column or if the Snowflake account isn\u2019t Enterprise Edition or higher, Snowflake returns\nNULL.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "Create an example Iceberg table:",
+        "Describe the columns in the table:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

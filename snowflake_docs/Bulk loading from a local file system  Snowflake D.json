@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/data-load-local-file-system",
+    "title": "Bulk loading from a local file system | Snowflake Documentation",
+    "paragraphs": [
+        "This set of topics describes how to use the COPY command to bulk load data from a local file system into tables using an internal (i.e.\nSnowflake-managed) stage. For instructions on loading data from a cloud storage location that you manage, refer to Bulk loading from Amazon S3, Bulk loading from Google Cloud Storage, or Bulk loading from Microsoft Azure.",
+        "As illustrated in the diagram below, loading data from a local file system is performed in two, separate steps:",
+        "Upload (i.e. stage) one or more data files to a Snowflake stage (named internal stage or table/user stage) using the PUT command.",
+        "Use the COPY INTO <table> command to load the contents of the staged file(s) into a Snowflake database table.",
+        "Regardless of the stage you use, this step requires a running virtual warehouse that is also the current (i.e. in use) warehouse for the session. The warehouse provides the compute resources to\nperform the actual insertion of rows into the table.",
+        "Tip",
+        "The instructions in this set of topics assume you have read Preparing to load data and have created a named file format, if desired.",
+        "Before you begin, you may also want to read Data loading considerations for best practices, tips, and other guidance.",
+        "Next Topics:",
+        "Configuration tasks (complete as needed):",
+        "Data loading tasks (complete for each set of files you load):",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_startpoint",
+    "title": "ST_STARTPOINT | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns the first Point in a LineString.",
+        "ST_ENDPOINT , ST_POINTN",
+        "The argument must be an expression of type GEOGRAPHY or GEOMETRY that represents a LineString.",
+        "The function returns a value of type GEOGRAPHY or GEOMETRY that contains the first Point of the specified LineString.",
+        "If geography_or_geometry_expression is not a LineString, the function reports an error.",
+        "The following query returns the first Point in a LineString:",
+        "The following query returns the first Point in a LineString:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

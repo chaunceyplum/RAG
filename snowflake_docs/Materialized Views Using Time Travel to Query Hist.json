@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_01/bcr-923",
+    "title": "Materialized Views: Using Time Travel to Query Historical Data Produces Expected Error Message | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When Time Travel is incorrectly used to query historical data for materialized views, an error message\nnow states that Time Travel is not supported:",
+        "Although Time Travel is not supported for materialized views, queries with the AT or BEFORE keyword in the FROM clause might have\nreturned unexpected results. In some cases, queries might also have returned an unexpected error message. For example, for the Time Travel\nclause: CAST('2022-11-29 00:00:00' AS TIMESTAMP_LTZ(9)).",
+        "Querying historical data using Time Travel on materialized views produces a SQL compilation error:",
+        "Time travel is not supported for materialized views.",
+        "Ref: 923",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/ui/2024-07-29-wh",
+    "title": "July 29, 2024 \u2014 Snowsight Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "This document provides an overview of the new features, enhancements, and other important changes introduced in this update to\nSnowsight.",
+        "If you have additional questions, please feel free to contact Snowflake Support.",
+        "With this release, we are pleased to announce a new default warehouse for Notebooks. SYSTEM$STREAMLIT_NOTEBOOK_WH is a\nnew, Snowflake-managed warehouse that is provisioned in each account for running Notebooks. This default warehouse helps in reducing cluster fragmentation and optimizing your overall costs on Notebooks.",
+        "ACCOUNTADMINS can grant or revoke USAGE privileges on this warehouse. By default, the PUBLIC role is granted USAGE privileges on this warehouse.",
+        "For more details, see Overview of warehouses, Warehouse considerations, and Set up Snowflake Notebooks.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

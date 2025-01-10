@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/streamlit-commands/overview",
+    "title": "snow streamlit commands | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Snowflake CLI supports the following commands for managing Streamlit apps:",
+        "snow streamlit deploy",
+        "snow streamlit describe",
+        "snow streamlit drop",
+        "snow streamlit execute",
+        "snow streamlit get-url",
+        "snow streamlit list",
+        "snow streamlit share",
+        "For more information about Streamlit apps, refer to About Streamlit in Snowflake and Add a Streamlit app.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

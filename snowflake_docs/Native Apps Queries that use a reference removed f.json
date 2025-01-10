@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1218",
+    "title": "Native Apps: Queries that use a reference removed from an app\u2019s manifest file fail | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "A Snowflake Native App may request a reference to authorize access on an object in a consumer account.\nThese references are defined by the app provider in the manifest file of an\napplication version. If a new version of the app removes a previously included reference definition from the manifest file, the original\nreference no longer exists in the current version.",
+        "For example, in version V1 of app my_app, the app provider defines a reference REF_TO_TABLE. The app contains a stored\nprocedure CREATE_VIEW_FROM_TABLE that uses the table reference REF_TO_TABLE to create a view VIEW_SELECT_FROM_DEFINED_REF.",
+        "A consumer can install my_app,\nassociate a reference\nto a table in their account to my_app, call the app\u2019s CREATE_VIEW_FROM_TABLE procedure, then select from the view\nVIEW_SELECT_FROM_DEFINED_REF.",
+        "In version V2 of app my_app, the app provider removes the reference definition for REF_TO_TABLE. When the consumer\nupgrades their installed app my_app to V2, calling the CREATE_VIEW_FROM_TABLE procedure should fail because the procedure\nuses a reference that is no longer defined in the manifest file for version V2.",
+        "Queries in a Snowflake Native App that use a reference that has been removed from the manifest file behave as follows:",
+        "Queries that use a reference that is no longer defined in the manifest file for the current version of the app succeed.",
+        "Queries that use a reference that is no longer defined in the manifest file for the current version of the app fail with the\nfollowing error:",
+        "Ref: 1218",
+        "Was this page helpful?"
+    ]
+}

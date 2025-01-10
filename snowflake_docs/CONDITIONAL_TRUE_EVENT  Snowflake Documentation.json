@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/conditional_true_event",
+    "title": "CONDITIONAL_TRUE_EVENT | Snowflake Documentation",
+    "paragraphs": [
+        "Window functions (General)",
+        "Returns a window event number for each row within a window partition based on the result of the boolean argument\nexpr1. The number starts from 0 and is incremented by 1 for each row on which the expr1 evaluates\nto true.",
+        "One use of this function is to sessionize window partitions. For example, in click stream data, it can be used to\ndetermine whether a user has started a new session by checking whether the last event was longer ago than a threshold.",
+        "This is a boolean expression that changes the window event number value when it evaluates true.",
+        "This is the optional expression to partition by.",
+        "This is the expression to order by within each partition.",
+        "The conditional expression expr1 can contain the rank-related functions LAG and LEAD, which allow us to build\nmore expressive windows. If used, these functions have to use the same OVER specification as the\nCONDITIONAL_TRUE_EVENT.",
+        "The first example illustrates that:",
+        "The number within a partition increments each time the specified column is TRUE (non-zero in this case).",
+        "NULL values are not considered a TRUE value.",
+        "The number starts over at 0 for each partition.",
+        "Create and load the table:",
+        "Query the table:",
+        "The next example shows that:",
+        "expr1 can be an expression other than a column. This query uses the expression o_col > 20,\nand the output of the query shows when the value in o_col changes from a value less than or equal to 20\nto a value greater than 20.",
+        "expr3 does not need to match expr1.  In other words, the expression in the ORDER BY\nsub-clause of the OVER clause does not need to match the expression in the CONDITIONAL_TRUE_EVENT function.",
+        "Query the table:",
+        "The next example compares CONDITIONAL_CHANGE_EVENT and CONDITIONAL_TRUE_EVENT:",
+        "This example also compares CONDITIONAL_CHANGE_EVENT and CONDITIONAL_TRUE_EVENT:",
+        "Here is a more extensive example:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

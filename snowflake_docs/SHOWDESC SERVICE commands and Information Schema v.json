@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_04/bcr-1596",
+    "title": "SHOW/DESC SERVICE commands and Information Schema view: New STATUS column | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The output of the SHOW SERVICES and DESCRIBE SERVICE commands, and the\nInformation Schema SERVICES view, change as follows:",
+        "The view and the output of the commands do not include the status column.",
+        "The view and the output of the commands include the status column, which is defined as follows:",
+        "Column name",
+        "Data type",
+        "Description",
+        "STATUS",
+        "TEXT",
+        "Current status of the service: PENDING, RUNNING, FAILED, DONE, SUSPENDING, SUSPENDED, DELETING, DELETED, or INTERNAL_ERROR.",
+        "Ref: 1596",
+        "Was this page helpful?"
+    ]
+}

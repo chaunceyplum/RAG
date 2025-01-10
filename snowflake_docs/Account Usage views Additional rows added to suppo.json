@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_02/bcr-1544",
+    "title": "Account Usage views: Additional rows added to support versioned schemas | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_02 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Note",
+        "This is a follow-up to this behavior change\nthat added new columns to views to support versioned schema.",
+        "Some Account Usage views may not display information about versioned schemas.",
+        "The Account Usage views contain information about versioned schemas as described.",
+        "Changes to Account Usage views",
+        "This behavior change modifies the following views to include additional rows if the schema is a versioned schema:",
+        "ELEMENT_TYPES",
+        "FIELDS",
+        "PASSWORD_POLICIES",
+        "DATA_CLASSIFICATION_LATEST",
+        "SERVICES",
+        "Ref: 1544",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_08/bcr-1761",
+    "title": "Network security: Cannot activate an empty network policy (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Network policies are activated on an account, user, or integration to control incoming network traffic.",
+        "This change behaves as follows:",
+        "An administrator can activate a network policy on an account, user, or integration even if that network policy and its attached network\nrules do not contain network identifiers.",
+        "A network policy or its attached network rules must contain at least one allowed or blocked network identifier when it is activated.\nAttempting to activate an empty network policy results in an error.",
+        "This change is being made to eliminate confusion about whether an empty network policy allows or blocks traffic. Administrators must\nexplicitly allow or block identifiers, including whether to allow or block the wildcard range 0.0.0.0/0.",
+        "Ref: 1761",
+        "Was this page helpful?"
+    ]
+}

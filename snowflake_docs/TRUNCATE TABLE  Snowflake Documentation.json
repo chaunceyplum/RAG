@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/truncate-table",
+    "title": "TRUNCATE TABLE | Snowflake Documentation",
+    "paragraphs": [
+        "Removes all rows from a table but leaves the table intact (including all privileges and constraints on the table). Also deletes the load\nmetadata for the table, which allows the same files to be loaded into the table again after the command completes.",
+        "Note that this is different from DROP TABLE, which removes the table from the system but retains a version of the table\n(along with its load history) so that they can be recovered.",
+        "CREATE TABLE",
+        "Specifies the identifier for the table to truncate. If the identifier contains spaces or special characters, the entire string must be\nenclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive (e.g. \"My Object\").",
+        "If the table identifier is not fully-qualified (in the form of db_name.schema_name.table_name or\nschema_name.table_name), the command looks for the table in the current schema for the session.",
+        "Both DELETE and TRUNCATE TABLE maintain deleted data for recovery purposes (i.e. using Time Travel) for the data retention period.\nHowever, when a table is truncated, the load metadata cannot be recovered.",
+        "The TABLE keyword is optional if the table name is fully qualified or a database and schema are currently in use for the session.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

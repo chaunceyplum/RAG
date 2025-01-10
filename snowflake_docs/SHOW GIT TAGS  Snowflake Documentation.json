@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/show-git-tags",
+    "title": "SHOW GIT TAGS | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Using a Git repository in Snowflake is not supported in the Gov region.",
+        "Lists the Git repository tags in the specified Git repository.",
+        "ALTER GIT REPOSITORY, CREATE GIT REPOSITORY, DESCRIBE GIT REPOSITORY, DROP GIT REPOSITORY,\nSHOW GIT BRANCHES, SHOW GIT REPOSITORIES",
+        "Optionally filters the command output by object name. The filter uses case-insensitive pattern matching, with support for SQL\nwildcard characters (% and _).",
+        "For example, the following patterns return the same results:",
+        ". Default: No value (no filtering is applied to the output).",
+        "Specifies the Git repository stage containing the tags to show.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "READ",
+        "Git repository",
+        "Repository containing the tags to show",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "The following example lists tags in the Git repository snowflake_extensions.",
+        "The preceding command generates output such as the following:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

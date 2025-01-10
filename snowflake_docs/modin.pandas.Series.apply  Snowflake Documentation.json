@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.apply",
+    "title": "modin.pandas.Series.apply | Snowflake Documentation",
+    "paragraphs": [
+        "Invoke function on values of Series.",
+        "Can be ufunc (a NumPy function that applies to the entire Series)\nor a Python function that only works on single values.",
+        "func (function) \u2013 Python function or NumPy ufunc to apply.",
+        "convert_dtype (bool, default None) \u2013 Try to find better dtype for elementwise function results. convert_dtype has been\nignored with Snowflake execution engine.",
+        "args (tuple) \u2013 Positional arguments passed to func after the series value.",
+        "**kwargs \u2013 Additional keyword arguments passed to func.",
+        "If func returns a Series object the result will be a DataFrame.",
+        "Snowpark pandas Series or Snowpark pandas DataFrame",
+        "See also",
+        "Series.map : For applying more complex functions on a Series.",
+        "DataFrame.apply : Apply a function row-/column-wise.",
+        "DataFrame.applymap : Apply a function elementwise on a whole DataFrame.",
+        "Notes",
+        "1. When func has a type annotation for its return value, the result will be cast\nto the corresponding dtype. When no type annotation is provided, data will be converted\nto VARIANT type in Snowflake, and the result will have dtype=object. In this case, the return value must\nbe JSON-serializable, which can be a valid input to json.dumps (e.g., dict and\nlist objects are JSON-serializable, but bytes and datetime.datetime objects\nare not). The return type hint is used only when func is a series-to-scalar function.",
+        "2. Under the hood, we use Snowflake Vectorized Python UDFs.\nto implement apply() method. You can find type mappings from Snowflake SQL types to pandas\ndtypes here.",
+        "3. Snowflake supports two types of NULL values in variant data: JSON NULL and SQL NULL.\nWhen no type annotation is provided and Variant data is returned, Python None is translated to\nJSON NULL, and all other pandas missing values (np.nan, pd.NA, pd.NaT) are translated to SQL NULL.",
+        "For working with 3rd-party-packages see DataFrame.apply.",
+        "Was this page helpful?"
+    ]
+}

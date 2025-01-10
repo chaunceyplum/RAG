@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/data-load-gcs",
+    "title": "Bulk loading from Google Cloud Storage | Snowflake Documentation",
+    "paragraphs": [
+        "If you already have a Google Cloud Storage account and use Cloud Storage buckets for storing and managing your data files, you can make use of your existing buckets and folder paths for bulk loading into Snowflake.",
+        "Note",
+        "Snowflake supports Regional Storage and Multi-Regional Storage accounts only.",
+        "This set of topics describes how to use the COPY INTO <table> command to load data from a Cloud Storage bucket into tables.",
+        "As illustrated in the diagram below, loading data from a Cloud Storage bucket is performed in two steps:",
+        "Snowflake assumes the data files have already been staged in a Cloud Storage bucket. If they haven\u2019t been staged yet, use the upload interfaces/utilities provided by Google to stage the files.",
+        "Use the COPY INTO <table> command to load the contents of the staged file(s) into a Snowflake database table. You can load directly from the bucket, but\nSnowflake recommends creating an external stage that references the bucket and using the external stage instead.",
+        "Regardless of the method you use, this step requires a running, current virtual warehouse for the session if you execute the command\nmanually or within a script. The warehouse provides the compute resources to perform the actual insertion of rows into the table.",
+        "Note",
+        "As long as your Snowflake account is hosted on Google Cloud, your network traffic does not traverse the public internet.",
+        "Tip",
+        "The instructions in this set of topics assume you have read Preparing to load data and have created a named file format, if desired.",
+        "Before you begin, you may also want to read Data loading considerations for best practices, tips, and other guidance.",
+        "Next Topics:",
+        "Configuration tasks (complete as needed):",
+        "Data loading tasks (complete for each set of files you load):",
+        "Troubleshooting:",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

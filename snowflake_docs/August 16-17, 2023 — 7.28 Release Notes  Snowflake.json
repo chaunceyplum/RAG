@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2023/7_28",
+    "title": "August 16-17, 2023 \u2014 7.28 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the general availability of a new function, SYSTEM$BLOCK_INTERNAL_STAGES_PUBLIC_ACCESS, that\nallows an account administrator to block all public network traffic from accessing the internal stage of an Azure account. By blocking all\npublic IP addresses, the administrator ensures that all successful requests to the internal stage originate from a Private Endpoint and\ntraverse Azure Private Link rather than a public network.",
+        "Two additional functions complement this feature:",
+        "The SYSTEM$INTERNAL_STAGES_PUBLIC_ACCESS_STATUS function determines whether public access to the Azure internal stage is currently\nblocked.",
+        "The SYSTEM$UNBLOCK_INTERNAL_STAGES_PUBLIC_ACCESS allows public access to an internal stage that was previously blocked.",
+        "For more information about using these functions, see Blocking public access \u2014 Recommended.",
+        "When you create a Python UDF or stored procedure, you can now specify a range of package versions in the PACKAGES section of the handler\ndefinition. You can specify a particular package version or a range of versions by using version specifiers such as: ==, <=,\n>=, <, or >.",
+        "For more information, see CREATE FUNCTION and CREATE PROCEDURE.",
+        "With this release, we are pleased to announce that the COPY INTO command supports a new file format option USE_LOGICAL_TYPE for Parquet.",
+        "With this new file format option, Snowflake can interpret Parquet logical types during data loading. To enable Parquet logical types, set\nUSE_LOGICAL_TYPE to TRUE when you create a new file format option.",
+        "For more information, see Parquet Logical Type Definitions and\nCREATE FILE FORMAT.",
+        "With this release, we are pleased to announce the general availability of opening worksheets in tabs in Snowsight.",
+        "Opening Snowsight worksheets in tabs lets you mimic the experience in Classic Console. You can use tabs to refer to multiple active\nworksheets and explore the databases and schemas in Snowflake while writing SQL or Snowpark Python.",
+        "For more information, see Opening worksheets in tabs.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

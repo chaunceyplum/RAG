@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_08/bcr-1714",
+    "title": "WAREHOUSE_METERING_HISTORY view (ACCOUNT_USAGE): New column (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, the Account Usage WAREHOUSE_METERING_HISTORY view includes the following new column:",
+        "Column name",
+        "Data type",
+        "Description",
+        "CREDITS_ATTRIBUTED_COMPUTE_QUERIES",
+        "NUMBER",
+        "Number of credits attributed to queries in the hour.",
+        "Includes only the credit usage for query execution and doesn\u2019t include usage for any warehouse idle time.",
+        "Latency for this column might be up to six hours.",
+        "Warehouse idle time is not included in the CREDITS_ATTRIBUTED_COMPUTE_QUERIES column. See Examples for a query that calculates the cost of idle time.",
+        "For example, to determine the cost of idle time for each warehouse for the last 10 days, execute the following statement:",
+        "Ref: 1714",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

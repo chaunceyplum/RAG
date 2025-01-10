@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.write",
+    "title": "snowflake.snowpark.DataFrame.write | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a new DataFrameWriter object that you can use to write the data in the DataFrame to\na Snowflake database or a stage location",
+        "Was this page helpful?"
+    ]
+}

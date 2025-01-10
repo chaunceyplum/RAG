@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/array_intersection",
+    "title": "ARRAY_INTERSECTION | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Array/Object)",
+        "Returns an array that contains the matching elements in the two input arrays.",
+        "The function is NULL-safe, meaning it treats NULLs as known values for comparing equality.",
+        "ARRAY_EXCEPT , ARRAYS_OVERLAP",
+        "An array that contains elements to be compared.",
+        "An array that contains elements to be compared.",
+        "This function returns an ARRAY that contains the elements of the input arrays that match.",
+        "If no elements overlap, the function returns an empty array.",
+        "If one or both arguments are NULL, the function returns NULL.",
+        "The order of the values within the returned array is unspecified.",
+        "When comparing data of type OBJECT, the objects must be identical to be considered matching. For details,\nsee Examples (in this topic).",
+        "The difference between ARRAY_INTERSECTION and the related ARRAYS_OVERLAP function is that the\nARRAYS_OVERLAP function simply returns TRUE or FALSE, while ARRAY_INTERSECTION returns the actual\noverlapping values.",
+        "In Snowflake, arrays are multi-sets, not sets. In other words, arrays can contain multiple copies of the same value.\nARRAY_INTERSECTION compares arrays by using multi-set semantics (sometimes called \u201cbag semantics\u201d),\nwhich means that the function can return multiple copies of the same value. If one array has N copies of a value,\nand the other array has M copies of the same value, then the number of copies in the returned array is\nthe smaller of N or M. For example, if N is 4 and M is 2, then the returned value contains 2 copies.",
+        "Both arguments must either be structured ARRAYs or\nsemi-structured ARRAYs.",
+        "If you are passing in structured ARRAYs:",
+        "The function returns an ARRAY of a type that can accommodate both input types.",
+        "The ARRAY in the second argument must be comparable to the ARRAY in the\nfirst argument.",
+        "This example shows simple use of the function:",
+        "The sets might have more than one matching value:",
+        "There might be more than instance of the same matching value. For example, in the query below, one array has three\ncopies of the letter \u2018B\u2019, and the other array has two copies of the letter \u2018B\u2019. The result contains two matches:",
+        "This example uses a larger amount of data:",
+        "This shows usage with NULL values:",
+        "This example shows usage with the OBJECT data type:",
+        "Although NULL values in an array are treated as comparable values, if you pass NULL instead of an\narray, then the result is NULL:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

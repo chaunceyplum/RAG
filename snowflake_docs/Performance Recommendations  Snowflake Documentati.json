@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/performance#caching-intermediate-results",
+    "title": "Performance Recommendations | Snowflake Documentation",
+    "paragraphs": [
+        "This page contains recommendations to help improve performance when using the Snowpark pandas API.",
+        "Snowpark pandas uses a lazy paradigm - when operations are called on a Snowpark pandas object,\na lazy operator graph is built up and executed only when an output operation is called (e.g. printing\nthe data, or persisting it to a table in Snowflake). This paradigm mirrors the Snowpark DataFrame paradigm,\nand enables larger queries to be optimized using Snowflake\u2019s SQL Query Optimizer. Certain workloads, however,\ncan generate large operator graphs that include repeated, computationally expensive, subgraphs.\nTake the following code snippet as an example:",
+        "The above code snippet creates a 30x5 DataFrame using concatenation of 30 smaller 1x5 DataFrames,\nprints it, resets its index, and prints it again. The concatenation step can be expensive, and is\nlazily recomputed every time the dataframe is materialized - once per print. Instead, we recommend using\nSnowpark pandas\u2019 cache_result API in order to materialize expensive computations that are reused\nin order to decrease the latency of longer pipelines.",
+        "Consider using the cache_result API whenever a DataFrame or Series that is expensive to compute sees high reuse.",
+        "Using the cache_result API after an apply, an applymap or a groupby.apply is unlikely to yield performance savings.\napply(func, axis=1) when func has no return type annotation and groupby.apply are implemented internally via UDTFs, and feature\nintermediate result caching as part of their implementation. apply(func, axis=1) when func has a return type annotation, and applymap\ninternally use UDFs - any overhead observed when using these APIs is likely due to the set-up and definition of the UDF, and is unlikely to be\nalleviated via the cache_result API.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

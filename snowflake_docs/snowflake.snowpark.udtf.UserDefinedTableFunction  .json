@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.udtf.UserDefinedTableFunction",
+    "title": "snowflake.snowpark.udtf.UserDefinedTableFunction | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: object",
+        "Encapsulates a user defined table function that is returned by\nudtf(), UDTFRegistration.register() or\nUDTFRegistration.register_from_file(). The constructor of this class is not supposed\nto be called directly.",
+        "Call an instance of UserDefinedTableFunction to generate a\nTableFunctionCall instance. The input type can be\na column name as a str, or a Column object.",
+        "See also",
+        "UDTFRegistration",
+        "udtf()",
+        "Attributes",
+        "handler",
+        "The Python class or a tuple containing the Python file path and the function name.",
+        "name",
+        "The UDTF name.",
+        "Was this page helpful?"
+    ]
+}

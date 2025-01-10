@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/ui-snowsight-data-databases-function",
+    "title": "Working with user-defined functions in Snowsight | Snowflake Documentation",
+    "paragraphs": [
+        "You can work with user-defined functions (UDFs) in SQL or in Snowsight.",
+        "For any user-defined function in Snowflake, you can open Data \u00bb Databases and search for or browse to the UDF.\nSelect the UDF to review details about and manage the function.",
+        "You must have the relevant privileges to access and manage the UDF in Snowsight.",
+        "After opening a UDF in Snowsight, you can do the following:",
+        "Identify when the function was created, and any comment on the function.\nYou can hover over the time details to see the exact creation date and time.",
+        "Review additional details about the UDF, including:",
+        "Arguments that the UDF takes, and their expected data types, if applicable.",
+        "The data type of the result of the function.",
+        "Whether the function is an aggregate function.",
+        "Whether the function is a secure function.",
+        "Whether the function is a table function.",
+        "The language in which the UDF is written. For example, Java.",
+        "Review the SQL definition of the UDF in the Function definition section.",
+        "Review the roles with privileges on the function in the Privileges section.",
+        "You can perform the following basic management tasks for a UDF in Snowsight:",
+        "To edit the name of the function or add a comment, select  \u00bb Edit.",
+        "To drop the function, select  \u00bb Drop.",
+        "To transfer ownership of the function to another role, select  \u00bb Transfer Ownership",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

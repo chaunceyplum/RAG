@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/user-defined-function/user-defined-function-introduction",
+    "title": "Manage user-defined functions | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "The Snowflake REST User-Defined Function API provides the following endpoints to access, update, and perform certain actions on User-Defined Function resources.",
+        "Endpoint",
+        "Description",
+        "GET /api/v2/databases/database/schemas/.schema/user-defined-function",
+        "Lists available user-defined functions.",
+        "POST /api/v2/databases/database/schemas/.schema/user-defined-functions",
+        "Creates a user-defined function.",
+        "GET /api/v2/databases/database/schemas/.schema/user-defined-functions/nameWithArgs",
+        "Fetches a user-defined function.",
+        "DELETE /api/v2/databases/database/schemas/.schema/user-defined-functions/nameWithArgs",
+        "Deletes a user-defined function.",
+        "POST /api/v2/databases/database/schemas/.schema/user-defined-functions/.nameWithArgs:rename",
+        "Renames a user-defined function.",
+        "For reference documentation, see Snowflake User-Defined Function API reference.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

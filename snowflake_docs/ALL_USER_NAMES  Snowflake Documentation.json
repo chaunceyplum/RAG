@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/all_user_names",
+    "title": "ALL_USER_NAMES | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (Session)",
+        "Returns all user names in the current account.",
+        "None.",
+        "The data type of the returned value is ARRAY.",
+        "Users with any active role can retrieve the list of all usernames in the current account. However, simply knowing the usernames does not\nallow a role the ability to perform further actions on the users. User management requires a minimum set of privileges.",
+        "Usernames (i.e. the NAME property value) are the unique identifier of the user object in Snowflake, while login names (i.e. the LOGIN_NAME property value) are used to authenticate to Snowflake. Usernames are not sensitive data and are returned by other commands and functions (e.g. SHOW GRANTS). Login names are sensitive data.",
+        "As a best practice, username and login name values should be different. To update existing username or login name values, execute the ALTER USER command. When creating new users with the CREATE USER command, ensure that the NAME and LOGIN_NAME values are different.",
+        "Return all user names for the current account.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/min",
+    "title": "MIN | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (General) , Window functions",
+        "Returns the minimum value for the records within expr. NULL values are ignored unless all the records are NULL, in which case a NULL value is returned.",
+        "COUNT , SUM , MAX",
+        "Aggregate function",
+        "Window function",
+        "For detailed window_frame syntax, see Window function syntax and usage.",
+        "The data type of the returned value is the same as the data type of the input values.",
+        "For compatibility with other systems, you can specify the DISTINCT keyword as an argument for the function,\nbut it does not have any effect.",
+        "If the function is called as a window function, the window can include an optional window_frame.\nThe window_frame (either cumulative or sliding) specifies the subset of rows within the window for which\nthe summed values are returned. If no window_frame is specified, the default is the following\ncumulative window frame (in accordance with the ANSI standard for window functions):",
+        "RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW",
+        "For more details about window frames, including syntax and examples, see Usage notes for window frames.",
+        "The comparisons follow the collation based on the input arguments\u2019 collations and precedences.",
+        "The collation of the result is the same as the collation of the input.",
+        "The following examples demonstrate how to use the MIN function.",
+        "Create a table and data:",
+        "Display the data:",
+        "Use the MIN function to retrieve the smallest value in the column named d:",
+        "Combine the GROUP BY clause with the MIN function\nto retrieve the smallest values in each group (where each\ngroup is based on the value of column k):",
+        "Use a PARTITION BY clause to break the data into groups based on the\nvalue of k. This is similar to, but not identical to, using\nGROUP BY. In particular, GROUP BY produces one output\nrow per group, while PARTITION BY produces one output row per input\nrow.",
+        "Use an ORDER BY clause to create a sliding window two rows wide,\nand output the lowest value within that window. (Remember that ORDER BY in\nthe OVER clause is separate from ORDER BY at the statement level.)\nThis example uses a single partition, so there is no PARTITION BY clause\nin the OVER clause.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/native-apps/drop-objects",
+    "title": "Dropping Snowflake Native App objects | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "You must have an existing connection in your config.toml file.",
+        "You must have a snowflake.yml file in your Snowflake Native App project.",
+        "The snow app teardown drops both the application object and the application package defined in the resolved project definition.\nThis command succeeds even if one or both of these objects do not exist.",
+        "Create a connection, if necessary.",
+        "Execute the snow app teardown command from within your project, similar to the following:",
+        "When successful, the command returns the following message:",
+        "Note",
+        "When dropping applications that own objects outside of the application object, such as compute pools, Snowflake CLI shows a list of these dependent objects and asks whether you would like to drop them in addition to the application object and package.",
+        "You can choose this option non-interactively by passing in the --cascade option.",
+        "If Snowflake CLI is unable to drop the application, it does note drop the application package either.\nFor more information about dropping Snowflake Native App objects, see the snow app teardown command.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

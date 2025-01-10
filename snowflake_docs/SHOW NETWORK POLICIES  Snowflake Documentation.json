@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/show-network-policies",
+    "title": "SHOW NETWORK POLICIES | Snowflake Documentation",
+    "paragraphs": [
+        "Lists all network policies defined in the system.",
+        "ALTER NETWORK POLICY , CREATE NETWORK POLICY , DESCRIBE NETWORK POLICY , DROP NETWORK POLICY",
+        "Only the network policy owner (i.e. role with the OWNERSHIP privilege on the network policy) or higher can execute this command.",
+        "Columns that start with the prefix is_ return either Y (yes) or N (no).",
+        "The command does not require a running warehouse to execute.",
+        "The command returns a maximum of 10K records for the specified object type, as dictated by the access privileges for the role used to execute the command; any records above the 10K limit\nare not returned, even with a filter applied.",
+        "To view results for which more than 10K records exist, query the corresponding view (if one exists) in the Snowflake Information Schema.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "List all network policies:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

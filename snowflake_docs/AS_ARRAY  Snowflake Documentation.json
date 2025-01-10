@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/as_array",
+    "title": "AS_ARRAY | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Cast)",
+        "Casts a VARIANT value to an ARRAY value.",
+        "AS_<object_type> , AS_OBJECT",
+        "An expression that evaluates to a value of type VARIANT.",
+        "The function returns a value of type ARRAY or NULL:",
+        "If the type of the value in the variant_expr argument is ARRAY, the function returns a value of type ARRAY.",
+        "If the type of the value in the variant_expr argument doesn\u2019t match the type of the output\nvalue, the function returns NULL.",
+        "If the variant_expr argument is NULL, the function returns NULL.",
+        "This function doesn\u2019t support a structured type as an input argument.",
+        "Create a table and load data into it:",
+        "Use the AS_ARRAY function in a query to cast a VARIANT value to ARRAY values:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

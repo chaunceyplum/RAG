@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/native-apps/connector-sdk/reference/create_resource_reference",
+    "title": "Create resource reference | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to accounts in all regions in all cloud providers (including government regions). For details, contact your Snowflake representative.",
+        "The following database objects are created when the file ingestion/resource_management.sql is executed.",
+        "Entry point procedure available to the ADMIN role. This procedure invokes the Java function CreateResourceHandler.createResource.",
+        "Procedure used for connector specific validation of create process. By default, it returns 'response_code': 'OK'.\nIt is invoked by DefaultCreateResourceValidator. Can be overwritten both in SQL and Java.",
+        "Procedure used for adding connector specific logic which is invoked before a resource is created.\nBy default, it returns 'response_code': 'OK'.\nIt is invoked by DefaultPreCreateResourceCallback. Can be overwritten both in SQL and Java.",
+        "Procedure used for adding connector specific logic which is invoked after a resource is created and scheduled.\nBy default, it returns 'response_code': 'OK'.\nIt is invoked by DefaultPostCreateResourceCallback. Can be overwritten both in SQL and Java.",
+        "The following Java objects from the com.snowflake.connectors.application.ingestion.create package and some common components are tightly connected with the above procedures:",
+        "CreateResourceHandler",
+        "CreateResourceHandlerBuilder",
+        "CreateResourceValidator",
+        "PreCreateResourceCallback",
+        "PostCreateResourceCallback",
+        "ConnectorErrorHelper",
+        "The handler and its internals can be customized using the following approaches.",
+        "The following components can be replaced using SQL.",
+        "To provide whole custom implementation of CreateResourceHandler, the PUBLIC.CREATE_RESOURCE procedure must be replaced. For example:",
+        "Internal procedures CREATE_RESOURCE_VALIDATE, PRE_CREATE_RESOURCE and POST_CREATE_RESOURCE can be also customized through the SQL. They can also invoke another Java handler:",
+        "CreateResourceHandler can be customized using CreateResourceHandlerBuilder. This builder allows user to provide custom implementations of the following interfaces:",
+        "CreateResourceValidator",
+        "PreCreateResourceCallback",
+        "PostCreateResourceCallback",
+        "ConnectorErrorHelper",
+        "In case a function is not provided the default implementation provided by the SDK will be used.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/classification/methods/show_feature_importance",
+    "title": "<model_name>!SHOW_FEATURE_IMPORTANCE | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the relative feature importance for each feature used by the model. This method takes no arguments.",
+        "Column",
+        "Type",
+        "Description",
+        "rank",
+        "INTEGER",
+        "The importance rank of a feature.",
+        "feature",
+        "VARCHAR",
+        "The name of the feature used to train the model.",
+        "score",
+        "FLOAT",
+        "The feature\u2019s importance score: a value in [0, 1], with 0 being the lowest possible importance, and 1 the highest.",
+        "feature_type",
+        "VARCHAR",
+        "The source of the feature. Currently this is always user_provided, which denotes feature data provided by the user.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

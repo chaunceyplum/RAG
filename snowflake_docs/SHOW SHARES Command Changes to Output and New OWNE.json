@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_05/bcr-1180",
+    "title": "SHOW SHARES Command: Changes to Output and New OWNER_ACCOUNT Column in Output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_05 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the current release, the output of the SHOW SHARES or SHOW SHARES IN REPLICATION GROUP\ncommands includes the column OWNER_ACCOUNT and changes the output of an existing column which behaves as follows:",
+        "The output from the SHOW SHARES or SHOW SHARES IN REPLICATION GROUP commands shows a fully-qualified name in the NAME column.",
+        "For example: COMPANY.SFC_SAMPLES.SAMPLE_DATA.",
+        "The output from the commands includes the column, OWNER_ACCOUNT, that contains the account identifier\nfor the account that owns the share, and the NAME column only shows the share name.",
+        "For example, OWNER_ACCOUNT contains COMPANY.SFC_SAMPLES and NAME contains SAMPLE_DATA.",
+        "The OWNER_ACCOUNT column is added before the NAME column in the output.",
+        "Ref: 1180",
+        "Was this page helpful?"
+    ]
+}

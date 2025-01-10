@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.tail",
+    "title": "modin.pandas.DataFrame.tail | Snowflake Documentation",
+    "paragraphs": [
+        "Return the last n rows.",
+        "Was this page helpful?"
+    ]
+}

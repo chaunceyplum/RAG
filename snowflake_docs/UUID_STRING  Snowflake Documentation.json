@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/uuid_string",
+    "title": "UUID_STRING | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (General) , Data generation functions",
+        "Generates either a version 4 (random) or version 5 (named) RFC 4122-compliant universally unique identifier (UUID)\nas a formatted string.",
+        "A valid UUID string. This value is the namespace used to generate the returned UUID.",
+        "The name used to generate the returned UUID.",
+        "This function returns a 128-bit value, formatted as a string (VARCHAR data type).",
+        "UUID_STRING supports generating two versions of UUIDs, both compliant with RFC 4122:",
+        "A version 4 (random) UUID is returned when no arguments are provided to the function. For random-number generation, the\n64-bit Mersenne twister known as MT19937-64 is used.",
+        "A version 5 (named) UUID can be produced by providing a uuid string (known as the namespace) as the first\nargument and a name string as the second argument.",
+        "Generate a random UUID:",
+        "Generate a named UUID:",
+        "Create a table and insert random UUIDs:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

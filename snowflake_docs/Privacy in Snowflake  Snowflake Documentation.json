@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/guides-overview-privacy",
+    "title": "Privacy in Snowflake | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake provides industry-leading features that maintain the privacy of individuals and sensitive data.",
+        "Protect the identity and information of entities against targeted privacy attacks. Data providers assign privacy policies to tables and\nviews to protect their data with differential privacy.",
+        "Require queries to aggregate data in order to return results.",
+        "Prevent queries from using a SELECT statement to project values from a column.",
+        "Programmatically create realistic datasets that closely mirror your original data. This allows you to safely represent sensitive, confidential, or restricted information across various workloads, such as testing and validation.",
+        "Was this page helpful?"
+    ]
+}

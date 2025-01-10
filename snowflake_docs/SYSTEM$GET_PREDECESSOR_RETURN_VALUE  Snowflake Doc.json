@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_get_predecessor_return_value",
+    "title": "SYSTEM$GET_PREDECESSOR_RETURN_VALUE | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Retrieves the return value for the predecessor task in a task graph. The return value is explicitly set by the predecessor task by calling the SYSTEM$SET_RETURN_VALUE function.",
+        "Identifier for the predecessor task that sets the return value to be retrieved.",
+        "If the task has multiple predecessor tasks that are enabled, this argument is required.",
+        "If the task has only one predecessor task that is enabled, the argument is optional.\nIf this argument is omitted, the function retrieves the return value for the only enabled predecessor task.",
+        "If the immediate predecessor task name does not match the requested task name, but an ancestor predecessor does match the task name,\nthe return value of the matching ancestor is returned.",
+        "The task name argument should not include the database name or schema name. All tasks in a graph are required to be within the same schema, so there should be no need to reference a task in a different schema. For example, you should use MYTASK as an input to this function, instead of using MYDATABASE.MYSCHEMA.MYTASK.",
+        "Task names are case sensitive.",
+        "When a task name is specified, it must match an enabled predecessor, otherwise the call will fail.",
+        "See complete examples for this function in SYSTEM$SET_RETURN_VALUE.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql-dml",
+    "title": "Data Manipulation Language (DML) commands | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides links to all the DML commands, grouped by category.",
+        "Commands for inserting, deleting, updating, and merging data in Snowflake tables:",
+        "INSERT",
+        "INSERT (multi-table)",
+        "MERGE",
+        "UPDATE",
+        "DELETE",
+        "TRUNCATE TABLE",
+        "Commands for bulk copying data into and out of Snowflake tables:",
+        "COPY INTO <table>  (loading/importing data)",
+        "COPY INTO <location> (unloading/exporting data)",
+        "VALIDATE (table function)",
+        "These commands do not perform any actual DML, but are used to stage and manage files stored in Snowflake locations (named internal stages, table stages,\nand user stages), for the purpose of loading and unloading data:",
+        "PUT",
+        "GET",
+        "LIST (can also be used with named external stages)",
+        "REMOVE",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

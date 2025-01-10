@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.exceptions.SnowparkGeneralException",
+    "title": "snowflake.snowpark.exceptions.SnowparkGeneralException | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SnowparkClientException",
+        "Exception for general exceptions.",
+        "Includes all error codes in range 15XX (where XX is 0-9).",
+        "Was this page helpful?"
+    ]
+}

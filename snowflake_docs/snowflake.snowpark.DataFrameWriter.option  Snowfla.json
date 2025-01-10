@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrameWriter.option",
+    "title": "snowflake.snowpark.DataFrameWriter.option | Snowflake Documentation",
+    "paragraphs": [
+        "Depending on the file_format_type specified, you can include more format specific options.\nUse the options documented in the Format Type Options.",
+        "Was this page helpful?"
+    ]
+}

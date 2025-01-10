@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cleanrooms/external-data-troubleshoot",
+    "title": "Snowflake Data Clean Rooms: Troubleshooting external data connectors | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Note",
+        "Snowflake Data Clean Rooms do not currently support data subject consent management. Customers are responsible for ensuring they have\nobtained all necessary rights and consents to use the data linked in their clean rooms. Customers must also ensure compliance with all\napplicable laws and regulations when using Data Clean Rooms, including in connection with third-party connectors.",
+        "This topic describes how to troubleshoot external data errors. It applies to Amazon Web Services, Microsoft Azure, and Google Cloud.",
+        "Ensure the path URL/URI is correct. See the associated related topic for the correct URL/URI.",
+        "Ensure there is at least one file in the bucket or blob storage.",
+        "Ensure the file is in parquet format.",
+        "Ensure the parquet file is not empty.",
+        "Ensure the parquet file is not compressed using the Snappy format.",
+        "If none of the above resolves the issue, then debug with the following script:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

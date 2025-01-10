@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.group_by_grouping_sets",
+    "title": "snowflake.snowpark.DataFrame.group_by_grouping_sets | Snowflake Documentation",
+    "paragraphs": [
+        "Performs a SQL\nGROUP BY GROUPING SETS.\non the DataFrame.",
+        "GROUP BY GROUPING SETS is an extension of the GROUP BY clause\nthat allows computing multiple GROUP BY clauses in a single statement.\nThe group set is a set of dimension columns.",
+        "GROUP BY GROUPING SETS is equivalent to the UNION of two or\nmore GROUP BY operations in the same result set.",
+        "Examples:",
+        "grouping_sets \u2013 The list of GroupingSets to group by.",
+        "Was this page helpful?"
+    ]
+}

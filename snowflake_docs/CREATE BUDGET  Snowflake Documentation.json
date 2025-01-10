@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/budget/commands/create-budget",
+    "title": "CREATE BUDGET | Snowflake Documentation",
+    "paragraphs": [
+        "Fully qualified name: SNOWFLAKE.CORE.BUDGET",
+        "Creates a new budget instance or replaces and existing budget instance in the current or\nspecified schema.",
+        "ALTER BUDGET,\nSHOW BUDGET,\nDROP BUDGET",
+        "Specifies the identifier for the budget. The identifier must start with an alphabetic character and cannot contain spaces or\nspecial characters unless the identifier string is enclosed in double quotes (e.g. \"My object\"). Identifiers enclosed in double\nquotes are also case-sensitive.",
+        "For more details, refer to Identifier requirements.",
+        "Specifies a comment for the budget.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege / Role",
+        "Object",
+        "Notes",
+        "CREATE SNOWFLAKE.CORE.BUDGET",
+        "Schema",
+        "The role used to create a budget must be granted this privilege on the schema\nin which the budget is created.",
+        "SNOWFLAKE.BUDGET_CREATOR",
+        "Role",
+        "The role used to create a budget must be granted this\ndatabase role.",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For more information, see Budgets roles and privileges.",
+        "To refer to this class by its unqualified name, include the database and schema of the class in your\nsearch path.",
+        "Replication isn\u2019t supported for class instances except for instances\nof the CUSTOM_CLASSIFIER class.",
+        "An account can contain a maximum of 100 custom budgets.",
+        "Create budget my_budget in the current schema:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

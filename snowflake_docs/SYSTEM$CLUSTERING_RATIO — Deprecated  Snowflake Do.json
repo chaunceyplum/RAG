@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_clustering_ratio",
+    "title": "SYSTEM$CLUSTERING_RATIO \u2014 Deprecated | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Deprecated Feature",
+        "This function has been deprecated. It will be obsoleted in a future release (TBD).",
+        "Use SYSTEM$CLUSTERING_DEPTH or SYSTEM$CLUSTERING_INFORMATION instead.",
+        "Calculates the clustering ratio for a table, based on one or more columns in the table. The ratio is a number from 0 to 100. The higher the ratio, the better clustered the table is.",
+        "The clustering ratio for a table can be calculated using any columns in the table or columns that have been explicitly defined as a clustering key for the table. A clustering key can be defined for a table\nusing either CREATE TABLE or ALTER TABLE.",
+        "For more information about clustering ratio and clustering keys, see Understanding Snowflake Table Structures.",
+        "Table for which you want to calculate the clustering ratio.",
+        "Column(s) in the table used to calculate the clustering ratio:",
+        "For a table with no clustering key, this argument is required. If this argument is omitted, an error is returned.",
+        "For a table with a clustering key, this argument is optional; if the argument is omitted, Snowflake uses the defined clustering key to calculate the ratio.",
+        "Note",
+        "You can use this argument to calculate the ratio for any columns in the table, regardless of the clustering key defined for the table.",
+        "Clause that filters the range of values in the columns on which to calculate the clustering ratio. Note that predicate does not utilize a WHERE keyword at the beginning of the clause.",
+        "All arguments are strings (i.e. they must be enclosed in single quotes).",
+        "If predicate contains a string, the string must be enclosed in single quotes, which then must be escaped using single quotes. For example:",
+        "SYSTEM$CLUSTERING_RATIO( ... , 'col1 = 100 and col2 = ''A''' )",
+        "Calculate the clustering ratio for a table using two columns in the table:",
+        "Calculate the clustering ratio for a table using two columns in the table and a predicate on one of the columns:",
+        "Calculate the clustering ratio for a table using the clustering key defined for the table:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

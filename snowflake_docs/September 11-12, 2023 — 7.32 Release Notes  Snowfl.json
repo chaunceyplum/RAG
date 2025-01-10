@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2023/7_32",
+    "title": "September 11-12, 2023 \u2014 7.32 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "The following function is available with this release:",
+        "Function Category",
+        "New Function",
+        "Description",
+        "Context",
+        "IS_DATABASE_ROLE_IN_SESSION",
+        "Verifies whether the database role is in the user\u2019s active primary or secondary role\nhierarchy for the current session or if the specified column contains a database role that is in\nthe user\u2019s active primary or secondary role hierarchy for the current session.",
+        "For more information, see Share data protected by a role-based policy \u2014 Preview.",
+        "With this release, we are pleased to announce that Snowflake supports replicating streams on Snowflake tables populated by Snowpipe\nStreaming. For more information, see Replication and Snowpipe Streaming.",
+        "With the 2.0.3 release of the Snowpipe Streaming SDK, we are pleased to announce that Snowpipe Streaming supports OAuth authentication and\nthe role property for Snowpipe Streaming is now optional. When configuring Snowpipe Streaming, you can set the authorization_type\nto OAuth and create an OAuth integration with the custom client.",
+        "For more information, see Configure Snowflake OAuth for custom clients and Configuration for Snowpipe Streaming.",
+        "With this release, we are pleased to announce that the INFER_SCHEMA table function supports two new options, MAX_FILE_COUNT and\nMAX_RECORDS_PER_FILE. You can use MAX_FILE_COUNT to specify the maximum number of files scanned from stage. You can use MAX_RECORDS_PER_FILE\nto specify the maximum number of records scanned per file.",
+        "For more information, see INFER_SCHEMA.",
+        "With this release, Snowflake is pleased to announce that policy administrators can reference a mapping table that is protected by a row\naccess policy in the policy conditions of a different row access policy. The result is more assurance to compliance officers when a user\nqueries a table protected by a row access policy.",
+        "For more information, see Example: Protect the mapping table with a row access policy.",
+        "With this release, Snowflake is pleased to announce the preview to enable a data sharing provider to use the IS_DATABASE_ROLE_IN_SESSION\nfunction in the conditions of a masking policy or a row access policy to allow a data sharing consumer to access shared data that is\nprotected by either of these policies. The function argument takes either the name of a database role or a column that contains database\nroles. This provides more options to the provider to share data, allows the consumer to access sensitive data that the provider makes\navailable, and removes restrictions on policy-protected data when the consumer queries a shared table protected by a policy.",
+        "For details, see Share data protected by a policy and IS_DATABASE_ROLE_IN_SESSION.",
+        "With this release, we are pleased to announce the general availability of the Data Governance interface in Snowsight. The\nGovernance interface includes a Dashboard tab to monitor the most frequently used masking policies, row access policies,\nand tags with their usage on tables and columns. The Governance interface also includes a Tagged Objects tab to report\non the Dashboard data, with the option to manually report on the usage of tags and policies on tables and columns.",
+        "When you select an element in the Dashboard, Snowsight automatically updates the Tagged Objects tab filters. Additionally,\nwhen you select a row in the Tagged Objects tab, Snowsight automatically redirects you to the object or column in the\nData \u00bb Databases interface. You can then manage the policy and tag assignments as needed.",
+        "For more information, see:",
+        "Create and assign tags",
+        "Monitor tags with Snowsight",
+        "Monitor masking policies with Snowsight",
+        "Monitor row access policies with Snowsight",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/async_job",
+    "title": "AsyncJob | Snowflake Documentation",
+    "paragraphs": [
+        "Classes",
+        "AsyncJob(query_id,\u00a0query,\u00a0session[,\u00a0...])",
+        "Provides a way to track an asynchronous query in Snowflake.",
+        "Methods",
+        "AsyncJob.cancel()",
+        "Cancels the query associated with this instance.",
+        "AsyncJob.is_done()",
+        "Checks the status of the query associated with this instance and returns a bool value indicating whether the query has finished.",
+        "AsyncJob.result([result_type])",
+        "Blocks and waits until the query associated with this instance finishes, then returns query results.",
+        "AsyncJob.to_df()",
+        "Returns a DataFrame built from the result of this asynchronous job.",
+        "Attributes",
+        "AsyncJob.query",
+        "The SQL text of of the executed query.",
+        "AsyncJob.query_id",
+        "The query ID of the executed query",
+        "Was this page helpful?"
+    ]
+}

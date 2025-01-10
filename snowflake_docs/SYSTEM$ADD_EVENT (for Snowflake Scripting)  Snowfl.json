@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_add_event",
+    "title": "SYSTEM$ADD_EVENT (for Snowflake Scripting) | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Add an event for trace.",
+        "Use SYSTEM$ADD_EVENT to add an event when using trace events from a handler written in Snowflake Scripting.",
+        "For more information, refer to Emitting trace events in Snowflake Scripting.",
+        "The name of the event to add.",
+        "An object containing name-value pairs representing the attributes to add.",
+        "Code in the following example uses the SYSTEM$ADD_EVENT function to add an event named name_a and an event named name_b.\nWith name_b, it associates two attributes, score and pass. The code also sets two attributes for the span,\nkey1 and key2.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

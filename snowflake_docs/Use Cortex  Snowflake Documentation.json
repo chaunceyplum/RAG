@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/cortex-inference/cortex-inference-introduction",
+    "title": "Use Cortex | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "The Snowflake REST Cortex Inference API provides the following Snowflake endpoints:",
+        "Endpoint",
+        "Description",
+        "POST /api/v2/cortex/inference/complete",
+        "Perform LLM text completion inference, similar to snowflake.cortex.",
+        "For reference documentation, see Snowflake Cortex Inference API reference.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

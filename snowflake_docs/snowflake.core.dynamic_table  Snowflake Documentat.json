@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.dynamic_table",
+    "title": "snowflake.core.dynamic_table | Snowflake Documentation",
+    "paragraphs": [
+        "Manages Snowflake Dynamic Tables.",
+        "Classes",
+        "DownstreamLag()",
+        "A model object representing the DownstreamLag resource.",
+        "DynamicTable(*,\u00a0name[,\u00a0kind,\u00a0columns,\u00a0...])",
+        "A model object representing the DynamicTable resource.",
+        "DynamicTableClone(*,\u00a0name[,\u00a0target_lag,\u00a0...])",
+        "A model object representing the DynamicTableClone resource.",
+        "DynamicTableResource(name,\u00a0collection)",
+        "Represents a reference to a Snowflake dynamic table.",
+        "DynamicTableCollection(schema)",
+        "Represents the collection operations on the Snowflake Dynamic Table resource.",
+        "DynamicTableColumn(*,\u00a0name[,\u00a0datatype,\u00a0comment])",
+        "A model object representing the DynamicTableColumn resource.",
+        "TargetLag()",
+        "A model object representing the TargetLag resource.",
+        "UserDefinedLag(*,\u00a0seconds)",
+        "A model object representing the UserDefinedLag resource.",
+        "Was this page helpful?"
+    ]
+}

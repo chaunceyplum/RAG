@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1357",
+    "title": "SYSTEM$ALLOWLIST function: Fail query when socket connection hangs | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of the SYSTEM$ALLOWLIST function is as follows:",
+        "Occasionally, the socket connection between the client that calls the function and Snowflake results in a state that Snowflake cannot\nresolve. In these cases, Snowflake returns the function results and includes an empty list for the OCSP values.",
+        "When Snowflake cannot resolve the socket connection, the query that calls either allowlist function fails with one of the following error\nmessages:",
+        "SYSTEM$ALLOWLIST: Fail to get SSL context",
+        "SYSTEM$ALLOWLIST: SSLContext init failed",
+        "SYSTEM$ALLOWLIST: Could not find host in OCSP dumping",
+        "SYSTEM$ALLOWLIST: Peer unverified",
+        "SYSTEM$ALLOWLIST: Connection failure",
+        "If your network connection is transient, wait a few minutes and rerun the query. If the issue persists, contact Snowflake Support.",
+        "Ref: 1357",
+        "Was this page helpful?"
+    ]
+}

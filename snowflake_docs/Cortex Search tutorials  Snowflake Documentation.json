@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-search/overview-tutorials",
+    "title": "Cortex Search tutorials | Snowflake Documentation",
+    "paragraphs": [
+        "These tutorials provide step-by-step instructions for you to explore how to use Cortex Search.",
+        "Walks through building a simple search experience using Cortex Search on a dataset consisting of AirBnb listing reviews.",
+        "Walks through building a basic chatbot with Cortex Search and LLM functions on a dataset consisting of TED Talk transcripts.",
+        "Walks through an end-to-end setup for creating a Chatbot using Cortex Search on a PDF dataset consisting of Federal Open Market Committee (FOMC) meeting minutes.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

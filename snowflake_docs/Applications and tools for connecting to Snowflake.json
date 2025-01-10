@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/guides-overview-connecting",
+    "title": "Applications and tools for connecting to Snowflake | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake provides several different applications and tools that you can use to access databases in Snowflake.",
+        "Note",
+        "For information about configuring clients, driver, libraries, and third-party applications to connect to Snowflake, see\nConfiguring a client, driver, library, or third-party application to connect to Snowflake.",
+        "Snowsight distills Snowflake\u2019s powerful SQL support into a unified, easy-to-use experience.\nUse Snowsight to perform your critical Snowflake operations.",
+        "Use the Classic Console to perform tasks that would normally performed using SQL and the command line.",
+        "Use the command line to create, manage, update, and view apps running on Snowflake across workloads.",
+        "Detailed instructions for installing, configuring, and using the Snowflake command-line client.",
+        "Use the Snowflake Extension for Visual Studio Code to connect to Snowflake within Visual Studio Code and perform SQL operations.",
+        "Note",
+        "The following content is not supported by Snowflake. All code is provided \u201cAS IS\u201d and without warranty.",
+        "Documentation and resources for the Snowflake Terraform provider.",
+        "Lists the drivers and APIs provided by Snowflake for writing applications that connect to Snowflake.",
+        "Snowflake Connectors allow you to integrate third-party applications and database systems with Snowflake.",
+        "Overview of the third-party tools and technologies, as well as the Snowflake-provided clients, in the Snowflake ecosystem.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

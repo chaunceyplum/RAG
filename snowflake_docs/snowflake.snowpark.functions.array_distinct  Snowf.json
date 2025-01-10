@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.array_distinct",
+    "title": "snowflake.snowpark.functions.array_distinct | Snowflake Documentation",
+    "paragraphs": [
+        "The function excludes any duplicate elements that are present in the input ARRAY.\nThe function is not guaranteed to return the elements in the ARRAY in a specific order.\nThe function is NULL safe, which means that it treats NULLs as known values when identifying duplicate elements.",
+        "col \u2013 The array column",
+        "Returns a new ARRAY that contains only the distinct elements from the input ARRAY.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

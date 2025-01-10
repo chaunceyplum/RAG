@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.explode",
+    "title": "snowflake.snowpark.functions.explode | Snowflake Documentation",
+    "paragraphs": [
+        "Flattens a given array or map type column into individual rows. The default\ncolumn name for the output column in case of array input column is VALUE,\nand is KEY and VALUE in case of map input column.",
+        "Was this page helpful?"
+    ]
+}

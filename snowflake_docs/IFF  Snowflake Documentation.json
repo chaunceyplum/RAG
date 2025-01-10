@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/iff.html",
+    "title": "IFF | Snowflake Documentation",
+    "paragraphs": [
+        "Conditional expression functions",
+        "Returns one of two values depending on whether a Boolean expression evaluates to true or false.\nThis function is similar to a single-level if-then-else expression. It is similar to CASE,\nbut only allows a single condition. You can use it to add conditional logic to SQL statements.",
+        "The condition is an expression that should evaluate to a BOOLEAN value\n(TRUE, FALSE, or NULL).",
+        "If condition evaluates to TRUE, returns expr1, otherwise\nreturns expr2.",
+        "A general expression. The function returns this value if the condition\nis true.",
+        "A general expression. The function returns this value if the condition\nis not true (that is, if it is false or NULL).",
+        "This function can return a value of any type. The function can return NULL if the value of the\nexpression that is returned is NULL.",
+        "The condition can include a SELECT statement containing set\noperators, such as UNION, INTERSECT, and EXCEPT (MINUS). When using set operators,\nmake sure that data types are compatible. For details, see the General usage notes\nin the Set operators topic.",
+        "The value returned from the function retains the collation specification of the\nhighest-precedence collation\nof the expr1 and expr2 arguments.",
+        "The following examples use the IFF function.",
+        "Return expr1 because the condition evaluates to true:",
+        "Return expr2 because the condition evaluates to false:",
+        "Return expr2 because the condition evaluates to NULL:",
+        "Return NULL because the value of the expression returned is NULL:",
+        "Return expr1 (integer) if the value is an integer, or return\nexpr2 (non-integer) if the value is not an integer:",
+        "Return expr1 (High) if the value is greater than 50, or return\nexpr2 (Low) if the value is 50 or lower (or NULL):",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrameReader.with_metadata",
+    "title": "snowflake.snowpark.DataFrameReader.with_metadata | Snowflake Documentation",
+    "paragraphs": [
+        "Define the metadata columns that need to be selected from stage files.",
+        "a DataFrameReader instance with metadata columns to read.",
+        "See also",
+        "https://docs.snowflake.com/en/user-guide/querying-metadata",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/tutorials-overview",
+    "title": "Tutorials: Getting started with the Snowflake REST APIs | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "With the Snowflake REST APIs, you can use REST to manage Snowflake resource objects. You can create, drop, and alter\ntables, schemas, warehouses, tasks, and more, without writing SQL or using the Snowflake Connector for Python.",
+        "In the following tutorials, you learn how to get started with the API for object and task management in Snowflake.",
+        "A Snowflake account",
+        "A Snowflake AUTHENTICATION POLICY",
+        "A JWT token for authentication",
+        "Postman installed on your systems",
+        "Familiarity with using Postman",
+        "How to import Postman collections",
+        "How to authenticate your connection using Postman",
+        "How to create databases, schemes, tables, and warehouses using the API",
+        "How to create and manage tasks using the API",
+        "The following tutorials provide step-by-step instructions for you to explore the Snowflake REST APIs:",
+        "Setup steps for exploring the tutorials",
+        "Step-by-step instructions to create a Snowflake database, schema, table, and virtual warehouse",
+        "Step-by-step instructions to create and manage tasks and task graphs",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

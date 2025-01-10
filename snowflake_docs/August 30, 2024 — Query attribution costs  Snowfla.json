@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-08-30-per-query-cost-attribution",
+    "title": "August 30, 2024 \u2014 Query attribution costs | Snowflake Documentation",
+    "paragraphs": [
+        "The new QUERY_ATTRIBUTION_HISTORY view in the ACCOUNT_USAGE schema provides information about the warehouse cost for queries and\nenables the attribution of query costs by tag, user, or query hash.",
+        "For more information, see Attribute cost for queries and\nQUERY_ATTRIBUTION_HISTORY view.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

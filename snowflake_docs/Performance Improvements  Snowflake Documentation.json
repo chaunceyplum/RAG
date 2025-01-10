@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/performance-improvements",
+    "title": "Performance Improvements | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake is constantly introducing features that improve performance. Many of these features require no user interaction and no additional\ncost. Improvements that make queries run faster can reduce costs because a warehouse only consumes credits while it is running.",
+        "Important",
+        "Performance improvements often target specific query patterns or workloads. These improvements might or might not have a material impact\non a specific workload.",
+        "If you have questions about any of these features, please feel free to contact\nSnowflake Support.",
+        "Was this page helpful?"
+    ]
+}

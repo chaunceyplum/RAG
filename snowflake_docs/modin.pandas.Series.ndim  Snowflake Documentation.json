@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.ndim",
+    "title": "modin.pandas.Series.ndim | Snowflake Documentation",
+    "paragraphs": [
+        "Number of dimensions of the underlying data, by definition 1.",
+        "Was this page helpful?"
+    ]
+}

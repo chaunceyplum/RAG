@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.datediff",
+    "title": "snowflake.snowpark.functions.datediff | Snowflake Documentation",
+    "paragraphs": [
+        "Calculates the difference between two date, time, or timestamp columns based on the date or time part requested, and\nreturns result of col2 - col1 based on the requested date or time part.",
+        "Supported date and time parts",
+        "Example:",
+        "part \u2013 The time part to use for calculating the difference",
+        "col1 \u2013 The first timestamp column or subtrahend in the datediff",
+        "col2 \u2013 The second timestamp column or the minuend in the datediff",
+        "See also",
+        "Snowflake Datediff",
+        "Was this page helpful?"
+    ]
+}

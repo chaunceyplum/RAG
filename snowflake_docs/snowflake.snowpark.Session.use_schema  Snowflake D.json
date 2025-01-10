@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.use_schema",
+    "title": "snowflake.snowpark.Session.use_schema | Snowflake Documentation",
+    "paragraphs": [
+        "Specifies the active/current schema for the session.",
+        "schema \u2013 The schema name.",
+        "Was this page helpful?"
+    ]
+}

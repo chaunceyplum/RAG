@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_02/bcr-1516",
+    "title": "SHOW/DESC SERVICE commands and Information Schema and Account Usage SERVICES views: New IS_JOB column | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_02 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The output of the SHOW SERVICES and DESCRIBE SERVICE commands, and the\nInformation Schema SERVICES and Account Usage SERVICES views, change as follows:",
+        "The views and the output of the commands do not include the is_job column.",
+        "The views and the output of the commands include the is_job column, which is defined as follows:",
+        "Column name",
+        "Data type",
+        "Description",
+        "IS_JOB",
+        "BOOLEAN",
+        "Y if the service is started by running the EXECUTE JOB SERVICE command.",
+        "Ref: 1516",
+        "Was this page helpful?"
+    ]
+}

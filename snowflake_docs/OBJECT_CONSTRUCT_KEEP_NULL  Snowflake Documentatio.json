@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/object_construct_keep_null",
+    "title": "OBJECT_CONSTRUCT_KEEP_NULL | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Array/Object)",
+        "Returns an OBJECT constructed from the arguments\nthat retains key-values pairs with NULL values.",
+        "OBJECT_CONSTRUCT",
+        "The key in a key-value pair. Each key is a VARCHAR value.",
+        "The value that is associated with the key. The value can be any data type.",
+        "When invoked with an asterisk (wildcard), the OBJECT value is constructed from the\nspecified data using the attribute names as keys and the associated values as values.\nSee the examples below.",
+        "When you pass a wildcard to the function, you can qualify the wildcard with the name or alias for the table.\nFor example, to pass in all of the columns from the table named mytable, specify the following:",
+        "You can also use the ILIKE and EXCLUDE keywords for filtering:",
+        "ILIKE filters for column names that match the specified pattern. Only one\npattern is allowed. For example:",
+        "EXCLUDE filters out column names that don\u2019t match the specified column or columns. For example:",
+        "Qualifiers are valid when you use these keywords. The following example uses the ILIKE keyword to\nfilter for all of the columns that match the pattern col1% in the table mytable:",
+        "The ILIKE and EXCLUDE keywords can\u2019t be combined in a single function call.",
+        "For this function, the ILIKE and EXCLUDE keywords are valid only in a SELECT list or GROUP BY clause.",
+        "For more information about the ILIKE and EXCLUDE keywords, see the \u201cParameters\u201d section in SELECT.",
+        "The data type of the returned value is OBJECT.",
+        "If the key is NULL (i.e. SQL NULL), the key-value pair is omitted from the resulting object. However,\nif the value is NULL, then the key-value pair is kept.",
+        "The constructed object does not necessarily preserve the original order of the key-value pairs.",
+        "This example shows the difference between OBJECT_CONSTRUCT and OBJECT_CONSTRUCT_KEEP_NULL:",
+        "The following example also shows the difference between OBJECT_CONSTRUCT and OBJECT_CONSTRUCT_KEEP NULL, but this example\nuses a small table (which is shown prior to the query):",
+        "For examples that use the closely-related function OBJECT_CONSTRUCT, see OBJECT_CONSTRUCT.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/network-policy/network-policy-introduction",
+    "title": "Manage network policies | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "The Snowflake REST Network Policy API provides the following endpoints to access, update, and perform certain actions on Network Policy resources.",
+        "Endpoint",
+        "Description",
+        "GET /api/v2/network-policies",
+        "Lists available network policies.",
+        "POST /api/v2/network-policies",
+        "Creates a network policy.",
+        "GET /api/v2/network-policies/name",
+        "Fetches a network policy.",
+        "DELETE /api/v2/network-policies/name",
+        "Deletes a network policy.",
+        "For reference documentation, see Snowflake Network Policy API reference.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

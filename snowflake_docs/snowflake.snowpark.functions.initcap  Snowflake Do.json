@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.initcap",
+    "title": "snowflake.snowpark.functions.initcap | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the input string with the first letter of each word in uppercase\nand the subsequent letters in lowercase.",
+        "delimiters is an optional argument specifying a string of one or more\ncharacters that initcap uses as separators for words in the input expression.",
+        "If delimiters is not specified, any of the following characters in the\ninput expressions are treated as word separators:",
+        "<whitespace> ! ? @ \" ^ # $ & ~ _ , . : ; + - * % / | \\ [ ] ( ) { } < >",
+        "Examples:",
+        "Was this page helpful?"
+    ]
+}

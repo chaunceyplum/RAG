@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.not_",
+    "title": "snowflake.snowpark.functions.not_ | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the inverse of a boolean expression.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

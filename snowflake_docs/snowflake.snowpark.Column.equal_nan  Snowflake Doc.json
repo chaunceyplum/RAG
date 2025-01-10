@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Column.equal_nan",
+    "title": "snowflake.snowpark.Column.equal_nan | Snowflake Documentation",
+    "paragraphs": [
+        "Is NaN.",
+        "Was this page helpful?"
+    ]
+}

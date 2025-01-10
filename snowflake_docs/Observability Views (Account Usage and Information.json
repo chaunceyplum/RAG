@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-1070",
+    "title": "Observability Views (Account Usage and Information Schema): New Columns in Views | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The ATTEMPT_NUMBER and SCHEDULED FROM columns were added to the following views:",
+        "Column Name",
+        "Data Type",
+        "Description",
+        "Affected Views",
+        "ATTEMPT_NUMBER",
+        "NUMBER",
+        "The number of manual retries for a given graph run. For tasks which have never been restarted a value of 0 is returned.",
+        "In both ACCOUNT_USAGE and INFORMATION_SCHEMA:",
+        "TASK_HISTORY",
+        "COMPLETE_TASK_GRAPHS",
+        "CURRENT_TASK_GRAPHS",
+        "SCHEDULED_FROM",
+        "TEXT",
+        "SCHEDULE for DAG run as a result of its cron/interval schedule.",
+        "EXECUTE TASK for DAG run as a result of \u2018executing task\u2019 command.",
+        "MANUAL RETRY for DAG runs as a result of manual retry initiated by the user.",
+        "In both ACCOUNT_USAGE and INFORMATION_SCHEMA:",
+        "COMPLETE_TASK_GRAPHS",
+        "CURRENT_TASK_GRAPHS",
+        "Ref: 1070",
+        "Was this page helpful?"
+    ]
+}

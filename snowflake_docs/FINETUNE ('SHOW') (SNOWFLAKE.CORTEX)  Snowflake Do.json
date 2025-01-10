@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/finetune-show",
+    "title": "FINETUNE ('SHOW') (SNOWFLAKE.CORTEX) | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Support for this feature is available to accounts in the following regions:",
+        "AWS US West 2 (Oregon)",
+        "AWS US East 1 (N. Virginia)",
+        "AWS Europe Central 1 (Frankfurt)",
+        "Azure East US 2 (Virginia)",
+        "Lists the fine-tuning jobs for which you have access privileges.",
+        "Specifies that you want a list of the fine-tuning jobs for which you have access.",
+        "A list of all the fine-tuning jobs in the current account that the role has USAGE privilege on.",
+        "Column",
+        "Type",
+        "Description",
+        "SNOWFLAKE.CORTEX.FINETUNE(\u2018SHOW\u2019)",
+        "ARRAY",
+        "An array of objects containing the job ID and the job status.",
+        "The status is one of the following:",
+        "PENDING",
+        "IN_PROGRESS",
+        "SUCCESS",
+        "ERROR",
+        "CANCELLED",
+        "For access requirements, see Access control requirements.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

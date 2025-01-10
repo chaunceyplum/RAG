@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_deprovision_privatelink_endpoint",
+    "title": "SYSTEM$DEPROVISION_PRIVATELINK_ENDPOINT | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Business Critical Feature",
+        "This feature requires Business Critical (or higher). It is not available in government regions.",
+        "To inquire about upgrading, please contact Snowflake Support.",
+        "Deprovisions a private connectivity endpoint in the Snowflake VPC or VNet to prevent Snowflake from connecting to an external service using\nprivate connectivity. The endpoint can be a service endpoint or a resource endpoint depending on the cloud platform that hosts your\nSnowflake account.",
+        "If you call this function and specify the wrong private connectivity endpoint, call the SYSTEM$RESTORE_PRIVATELINK_ENDPOINT system\nfunction to restore the endpoint within a seven day period. After seven days, the endpoint is deleted and cannot be recovered; you\nwill need to recreate the endpoint with the SYSTEM$PROVISION_PRIVATELINK_ENDPOINT system function.",
+        "AWS:",
+        "Azure:",
+        "Specifies the external service or resource endpoint. For example, com.amazonaws.us-west-2.execute-api for the Amazon API\nGateway or com.amazonaws.us-west-2.s3 for Amazon S3.",
+        "Specifies the fully-qualified identifier for the resource in your VPC or VNet.",
+        "Specifies the name of the subresource of the Azure resource.",
+        "This argument is not required for Azure Private Link Service and Azure API Management Service.",
+        "For all supported values, see the Sub-resource table.",
+        "Returns a status message stating that the endpoint, with its identifier, is deprovisioned successfully.",
+        "Only account administrators (users with the ACCOUNTADMIN role) can call this function.",
+        "An error message occurs if a private connectivity endpoint is not associated with the specified arguments.",
+        "AWS:",
+        "Deprovision a private endpoint with external access to Amazon S3:",
+        "Azure:",
+        "Deprovision a private endpoint to prevent Snowflake on Microsoft Azure from connecting to the Microsoft Azure API Management service in your\nMicrosoft Azure VNet:",
+        "Deprovision a private endpoint to prevent Snowflake on Microsoft Azure from connecting to an external service using external network access:",
+        "Deprovision a private endpoint to prevent Snowflake from connecting to an external stage for Microsoft Azure:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

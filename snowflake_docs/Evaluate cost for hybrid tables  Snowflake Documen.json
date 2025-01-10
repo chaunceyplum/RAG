@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/tables-hybrid-cost",
+    "title": "Evaluate cost for hybrid tables | Snowflake Documentation",
+    "paragraphs": [
+        "When using hybrid tables, your account is charged based on three modes of consumption.",
+        "Hybrid table storage: Cost for storage of hybrid tables depends on the\namount of data that you are storing in hybrid tables. Storage cost is based\non a flat monthly rate per gigabyte (GB). See Table 3(b) in the\nSnowflake Service Consumption Table,\nwhich covers unit pricing for hybrid table storage.\nNote that hybrid table storage is more expensive than traditional Snowflake storage.",
+        "Virtual warehouse compute: Queries against hybrid tables are executed\nthrough virtual warehouses. The consumption rate of a warehouse is the same\nfor querying hybrid tables as it is for standard tables.\nSee Virtual warehouse credit usage.",
+        "Hybrid table requests: Hybrid tables consume additional credits because they use\nserverless resources on the\nunderlying row storage clusters. Consumption is measured based on the amount of data\nthat is read from or written to these clusters. Credits are also consumed for compute\nresources used to perform background operations, such as compaction.",
+        "See Table 5 in the Snowflake Service Consumption Table, which\ncovers serverless resource unit pricing for hybrid table requests. Because\nhybrid tables store data in pages, even small read or write operations incur a\nminimum 4 KB of hybrid table request usage. Snowflake may consolidate concurrent and\nbatch write operations to optimize consumption for hybrid table requests.",
+        "You can view storage usage for hybrid tables and monitor your\nconsumption of hybrid table storage credits by querying Account Usage views.",
+        "To monitor storage resources, use the following views:",
+        "STORAGE_USAGE view (see the HYBRID_TABLE_STORAGE_BYTES column).",
+        "DATABASE_STORAGE_USAGE_HISTORY view (see the AVERAGE_HYBRID_TABLE_STORAGE_BYTES column).",
+        "HYBRID_TABLES view (data is on a specific hybrid table; see the BYTES column).",
+        "To monitor virtual warehouse compute resources used during specific queries that are executed against hybrid tables, use the AGGREGATE_QUERY_HISTORY view (see, for example, the WAREHOUSE_SIZE column) .",
+        "To monitor historical consumption of hybrid table request credits (serverless compute), use the HYBRID_TABLE_USAGE_HISTORY view.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

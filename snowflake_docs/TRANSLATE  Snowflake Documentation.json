@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/translate",
+    "title": "TRANSLATE | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (General)",
+        "Replaces characters in a string. Specifically, given a string, a set of characters to replace, and\nthe characters to substitute for the original characters, TRANSLATE makes the specified substitutions.",
+        "Attention",
+        "This function doesn\u2019t translate between languages. See the TRANSLATE (SNOWFLAKE.CORTEX) function\nfor translating text between natural languages.",
+        "A string expression that is translated. If a character in subject isn\u2019t\nin sourceAlphabet, the character is added to the result without any translation.",
+        "A string with all characters that are modified by\nthis function. Each character is either translated to the corresponding\ncharacter in the targetAlphabet or omitted in the result. A character is\nomitted in the result if the targetAlphabet has no corresponding character\n(that is, has fewer characters than the sourceAlphabet).",
+        "A string with all characters that are used to replace characters from the\nsourceAlphabet.",
+        "If targetAlphabet is longer than sourceAlphabet, Snowflake reports the\nfollowing error:",
+        "This function returns a value of type VARCHAR.",
+        "Arguments with collation specifications currently aren\u2019t supported. Collation specifications are ignored without returning an error.",
+        "Translate the character \u00f1 to n:",
+        "Translate X to c, Y to e, Z to f, and remove \u2744 characters:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/reverse",
+    "title": "REVERSE | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (General)",
+        "Reverses the order of characters in a string, or of bytes in a binary value.",
+        "The returned value is the same length as the input, but with the characters/bytes in reverse order. If subject is  NULL, the result is also NULL.",
+        "No impact.",
+        "The collation of the result is the same as the collation of the input.",
+        "In languages where the alphabet contains digraphs or trigraphs (such as \u201cDz\u201d and \u201cDzs\u201d in Hungarian), each character in each digraph and trigraph is treated as an independent character, not as part of a single multi-character letter.",
+        "For example, languages with 2-character and 3-character letters (e.g. \u201cdzs\u201d in Hungarian, \u201cch\u201d in Czech)\nare reversed based on the individual characters, not the letters. See the Examples section below for an example.",
+        "This example reverses a string:",
+        "This example reverses a date:",
+        "The following shows that in languages where a single letter is composed of multiple characters, REVERSE\nreverses based on characters, not letters:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/commands-integration",
+    "title": "Integration commands | Snowflake Documentation",
+    "paragraphs": [
+        "Integration commands enable you to manage your integrations.",
+        "CREATE INTEGRATION",
+        "ALTER INTEGRATION",
+        "SHOW INTEGRATIONS",
+        "DESCRIBE INTEGRATION",
+        "DROP INTEGRATION",
+        "ALTER API INTEGRATION",
+        "CREATE API INTEGRATION",
+        "CREATE CATALOG INTEGRATION",
+        "ALTER CATALOG INTEGRATION",
+        "DROP CATALOG INTEGRATION",
+        "SHOW CATALOG INTEGRATIONS",
+        "DESCRIBE CATALOG INTEGRATION",
+        "ALTER EXTERNAL ACCESS INTEGRATION",
+        "CREATE EXTERNAL ACCESS INTEGRATION",
+        "ALTER NOTIFICATION INTEGRATION",
+        "CREATE NOTIFICATION INTEGRATION",
+        "ALTER SECURITY INTEGRATION",
+        "CREATE SECURITY INTEGRATION",
+        "SHOW DELEGATED AUTHORIZATIONS",
+        "ALTER STORAGE INTEGRATION",
+        "CREATE STORAGE INTEGRATION",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

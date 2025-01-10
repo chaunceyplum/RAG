@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/monitoring",
+    "title": "MONITORING schema | Snowflake Documentation",
+    "paragraphs": [
+        "In the SNOWFLAKE database, the MONITORING schema contains views that provide historical usage data for your account.",
+        "The MONITORING schema provides the following views:",
+        "View",
+        "Notes",
+        "ICEBERG_ACCESS_ERRORS",
+        "Data is retained for 14 days.",
+        "The MONITORING_VIEWER database role has the SELECT privilege on all views in the MONITORING schema.",
+        "The MONITORING_VIEWER database role is granted to the PUBLIC role in all Snowflake accounts containing a shared SNOWFLAKE\ndatabase.",
+        "The Snowflake-specific views are subject to change. Avoid selecting all columns from these views. Instead, select the columns that you want.\nFor example, if you want the name column, use SELECT name, rather than SELECT *.",
+        "The rows returned in a query of a view depend on the privileges granted to the user\u2019s current role. When you query a view in\nthe MONITORING schema, only objects for which the current role has been granted access privileges are returned.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

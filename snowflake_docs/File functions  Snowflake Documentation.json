@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions-file",
+    "title": "File functions | Snowflake Documentation",
+    "paragraphs": [
+        "File functions enable you to access files staged in cloud storage.",
+        "Function Name",
+        "Notes",
+        "Returns the URL for an external or internal named stage using the stage name as the input.",
+        "Extracts the path of a staged file relative to its location in the stage using the stage name and absolute file path in cloud storage as inputs.",
+        "Returns the absolute path of a staged file using the stage name and path of the file relative to its location in the stage as inputs.",
+        "Generates the pre-signed URL to a staged file using the stage name and relative file path as inputs. Access files in an external stage using the function.",
+        "Generates a scoped Snowflake file URL to a staged file using the stage name and relative file path as inputs.",
+        "Generates a Snowflake file URL to a staged file using the stage name and relative file path as inputs.",
+        "GET_PRESIGNED_URL and BUILD_SCOPED_FILE_URL are non-deterministic functions; the others are deterministic.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

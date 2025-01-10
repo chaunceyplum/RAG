@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/try_to_time",
+    "title": "TRY_TO_TIME | Snowflake Documentation",
+    "paragraphs": [
+        "Conversion functions",
+        "A special version of TO_TIME , TIME that performs the same operation (i.e.\nconverts an input expression into a time), but with error-handling\nsupport (i.e. if the conversion cannot be performed, it returns a NULL value\ninstead of raising an error).",
+        "For more information, see Error-handling conversion functions.",
+        "TO_TIME , TIME",
+        "Required:",
+        "One of:",
+        "A string that can be converted to a valid time.",
+        "An expression that evaluates to a string containing an integer, for example '15000000'. Depending\non the magnitude of the string, it can be interpreted as seconds, milliseconds, microseconds, or\nnanoseconds. For details, see the Usage Notes.",
+        "Optional:",
+        "Format specifier for string_expr or\nAUTO.\nFor more information, see Date and time formats in conversion functions.",
+        "The default is the current value of the TIME_INPUT_FORMAT\nsession parameter (default AUTO).",
+        "The data type of the returned value is TIME.",
+        "The display format for times in the output is determined by the TIME_OUTPUT_FORMAT\nsession parameter (default HH24:MI:SS).",
+        "If the format of the input parameter is a string that contains an integer, the unit of measurement for the value (seconds,\nmicroseconds, milliseconds, or nanoseconds) is determined as follows:",
+        "After the string is converted to an integer, the integer is treated as a number of seconds, milliseconds,\nmicroseconds, or nanoseconds after the start of the Unix epoch (1970-01-01 00:00:00.000000000 UTC).",
+        "If the integer is less than 31536000000 (the number of milliseconds in a year), then the value is treated as\na number of seconds.",
+        "If the value is greater than or equal to 31536000000 and less than 31536000000000, then the value is treated\nas milliseconds.",
+        "If the value is greater than or equal to 31536000000000 and less than 31536000000000000, then the value is\ntreated as microseconds.",
+        "If the value is greater than or equal to 31536000000000000, then the value is\ntreated as nanoseconds.",
+        "If more than one row is evaluated (for example, if the input is the column name of a table that contains more than\none row), each value is examined independently to determine if the value represents seconds, milliseconds, microseconds, or\nnanoseconds.",
+        "This example uses TRY_TO_TIME:",
+        "See TO_TIME , TIME for examples that convert an input expression to a time.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

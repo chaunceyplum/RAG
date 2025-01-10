@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrameWriter.options",
+    "title": "snowflake.snowpark.DataFrameWriter.options | Snowflake Documentation",
+    "paragraphs": [
+        "Sets multiple specified options for this DataFrameWriter.",
+        "This method is same as calling option() except that you can set multiple options at once.",
+        "Was this page helpful?"
+    ]
+}

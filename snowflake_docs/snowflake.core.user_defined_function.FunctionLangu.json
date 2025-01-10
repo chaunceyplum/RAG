@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.user_defined_function.FunctionLanguage",
+    "title": "snowflake.core.user_defined_function.FunctionLanguage | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: BaseModel",
+        "A model object representing the FunctionLanguage resource.",
+        "Constructs an object of type FunctionLanguage with the provided properties.",
+        "called_on_null_input (bool, optional) \u2013 Decide if the function/procedure can receive null input",
+        "is_volatile (bool, optional) \u2013",
+        "Specifies the behavior of the UDF when returning results. This Field is deprecated for Procedure.",
+        "If true, UDF might return different values for different rows, even for the same input.\nThis field is deprecated for Procedure.",
+        "If false, UDF assumes that the function, when called with the same inputs, will always return the same result.\nThis guarantee is not checked. Specifying IMMUTABLE for a UDF that returns different values for the same input will result in undefined behavior.",
+        "",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of FunctionLanguage from a dict.",
+        "Create an instance of FunctionLanguage from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

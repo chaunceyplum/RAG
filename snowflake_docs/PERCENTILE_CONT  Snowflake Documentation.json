@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/percentile_cont",
+    "title": "PERCENTILE_CONT | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (General) , Window functions",
+        "Return a percentile value based on a continuous distribution of the input\ncolumn (specified in order_by_expr). If no input row lies exactly\nat the desired percentile, the result is calculated using linear interpolation\nof the two nearest input values. NULL values are ignored in the calculation.",
+        "PERCENTILE_DISC",
+        "Aggregate function",
+        "Window function",
+        "The percentile of the value that you want to find. The percentile must be a\nconstant between 0.0 and 1.0. For example, if you want to find the value\nat the 90th percentile, specify 0.9.",
+        "The expression (typically a column name) by which to order the values. For\nexample, if you want to want to find the student whose math SAT score is at\nthe 90th percentile, then specify the column containing the math SAT score.",
+        "Note that this is also implicitly the column from which the returned value\nis chosen. For example, if you order by math SAT scores, then the result\nis one of the math SAT scores. You cannot order by one column and get\na percentile value for a different column.",
+        "This is the optional expression used to group rows into partitions.",
+        "Returns the value that is at the specified percentile. If no input row lies\nexactly at the desired percentile, the result is calculated using linear\ninterpolation of the two nearest input values.",
+        "Note",
+        "If a group contains only one value, then that value will be returned\nfor any specified percentile (e.g. both percentile 0.0 and\npercentile 1.0 will return that one row).",
+        "The percentile argument to the function must be a constant.",
+        "DISTINCT is not supported for this function.",
+        "The function PERCENTILE_CONT interpolates between the two closest\nvalues, while the function PERCENTILE_DISC chooses the closest value\nrather than interpolating.",
+        "When this function is called as a window function, it does not support:",
+        "An ORDER BY clause within the OVER clause.",
+        "Explicit window frames.",
+        "The following example shows the values at the 25th percentile (0.25) within\nvarious groups:",
+        "Create and populate a table with values:",
+        "Run a query and show the output (note that some values are exact and some are interpolated):",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

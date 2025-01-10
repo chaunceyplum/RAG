@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/udaf",
+    "title": "User-Defined Aggregate Functions | Snowflake Documentation",
+    "paragraphs": [
+        "User-defined aggregate functions (UDAFs) in Snowpark. Refer to UDAFRegistration for details and sample code.",
+        "Classes",
+        "UserDefinedAggregateFunction(handler,\u00a0name,\u00a0...)",
+        "Encapsulates a user defined aggregate function that is returned by udaf(), UDAFRegistration.register() or UDAFRegistration.register_from_file().",
+        "UDAFRegistration(session)",
+        "Provides methods to register lambdas and functions as UDAFs in the Snowflake database.",
+        "Methods",
+        "describe(udaf_obj)",
+        "Returns a DataFrame that describes the properties of a UDAF.",
+        "register(handler[,\u00a0return_type,\u00a0...])",
+        "Registers a Python function as a Snowflake Python UDAF and returns the UDAF.",
+        "register_from_file(file_path,\u00a0handler_name)",
+        "Registers a Python class as a Snowflake Python UDAF from a Python or zip file, and returns the UDAF.",
+        "Attributes",
+        "handler",
+        "The Python class or a tuple containing the Python file path and the function name.",
+        "name",
+        "The UDAF name.",
+        "Was this page helpful?"
+    ]
+}

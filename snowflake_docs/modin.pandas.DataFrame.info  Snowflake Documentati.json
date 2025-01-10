@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.info",
+    "title": "modin.pandas.DataFrame.info | Snowflake Documentation",
+    "paragraphs": [
+        "Print a concise summary of the DataFrame. Snowflake\nDataFrames mirror the output of pandas df.info but with some\nspecific limitations ( zeroed memory usage, no index information ).",
+        "verbose (bool, optional) \u2013 Whether to print the full summary. By default, the setting in\npandas.options.display.max_info_columns is followed.",
+        "buf (writable buffer, defaults to sys.stdout) \u2013 Where to send the output. By default, the output is printed to\nsys.stdout. Pass a writable buffer if you need to further process\nthe output.",
+        "max_cols (int, optional) \u2013 When to switch from the verbose to the truncated output. If the\nDataFrame has more than max_cols columns, the truncated output\nis used. By default, the setting in\npandas.options.display.max_info_columns is used.",
+        "memory_usage (bool, str, optional) \u2013 Displays 0 for memory usage, since the memory usage of a snowflake\ndataframe is remote and partially indeterminant.",
+        "show_counts (bool, optional) \u2013 Whether to show the non-null counts. By default, this is shown\nonly if the DataFrame is smaller than\npandas.options.display.max_info_rows and\npandas.options.display.max_info_columns. A value of True always\nshows the counts, and False never shows the counts.",
+        "This method prints a summary of a DataFrame and returns None.",
+        "None",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

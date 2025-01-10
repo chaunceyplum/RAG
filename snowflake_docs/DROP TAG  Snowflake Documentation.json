@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-tag",
+    "title": "DROP TAG | Snowflake Documentation",
+    "paragraphs": [
+        "Enterprise Edition Feature",
+        "This feature requires Enterprise Edition or higher. To inquire about upgrading, please contact Snowflake Support.",
+        "Removes a tag from the system.",
+        "For details about this command and tag references, see Tag quotas for objects and columns.",
+        "Tag DDL reference",
+        "Identifier for the tag.",
+        "The identifier value must start with an alphabetic character and cannot contain spaces or special characters unless the entire\nidentifier string is enclosed in double quotes (e.g. \"My object\"). Identifiers enclosed in double quotes are also case-sensitive.",
+        "For more details, see Identifier requirements.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "OWNERSHIP",
+        "Tag",
+        "OWNERSHIP is a special privilege on an object that is automatically granted to the role that created the object, but can also be transferred using the GRANT OWNERSHIP command to a different role by the owning role (or any role with the MANAGE GRANTS privilege).",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "For additional details on tag DDL and privileges, see Managing tags.",
+        "Prior to dropping a tag, determine all of the objects the tag is assigned to by calling the Account Usage table function\nTAG_REFERENCES_WITH_LINEAGE.",
+        "A tag can be dropped if it is currently assigned to an object. If dropping the tag was\nunintentional, execute an UNDROP TAG command. Note that the UNDROP TAG command restores the tag assignments\nprior to the DROP TAG operation.",
+        "A tag cannot be dropped if a masking policy is assigned to the tag.",
+        "In this scenario, unset the masking policy from the tag first and then execute the DROP TAG statement.",
+        "For more information on tag DDL authorization, see required privileges.",
+        "The following example drops a tag:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

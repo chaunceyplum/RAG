@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.dynamic_table.UserDefinedLag",
+    "title": "snowflake.core.dynamic_table.UserDefinedLag | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: TargetLag",
+        "A model object representing the UserDefinedLag resource.",
+        "Constructs an object of type UserDefinedLag with the provided properties.",
+        "seconds (int) \u2013 Target lag time in seconds.",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of UserDefinedLag from a dict.",
+        "Create an instance of UserDefinedLag from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

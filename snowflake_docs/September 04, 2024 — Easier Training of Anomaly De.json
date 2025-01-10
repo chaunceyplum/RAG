@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-09-04-anomaly-detection-preprocessing",
+    "title": "September 04, 2024 \u2014 Easier Training of Anomaly Detection Models from Real-World Data | Snowflake Documentation",
+    "paragraphs": [
+        "We are pleased to announce that the Anomaly Detection ML Function now includes preprocessing features that allow\nyou to successfully train an anomaly detection model even when your training data has missing, duplicate, or misaligned time\nsteps. In the past, such issues, which are common in real-world data, typically prevented the model from being trained.\nThe new preprocessing features let you:",
+        "Manually specify an event cadence in case the model fails to infer it or infers it incorrectly.",
+        "Automatically interpolate missing target values from nearby time steps.",
+        "Aggregate dimensional values from events occurring outside the canonical event cadence. You can specify aggregation\nbehaviors for the type of value or per column, or use defaults.",
+        "A relatively small number of such corrections does not noticeably affect detection accuracy.",
+        "For more information, see Dealing with real-world data in Time-Series Forecasting.",
+        "Was this page helpful?"
+    ]
+}

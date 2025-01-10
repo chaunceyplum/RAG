@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.isin",
+    "title": "modin.pandas.DataFrame.isin | Snowflake Documentation",
+    "paragraphs": [
+        "Whether each element in the DataFrame is contained in values.",
+        "values (list-like, Series, DataFrame or dict) \u2013",
+        "The result will only be true at a location if all the\nlabels match. If values is a Series, that\u2019s the index. If\nvalues is a dict, the keys must be the column names,\nwhich must match. If values is a DataFrame,\nthen both the index and column labels must match.",
+        "Snowpark pandas assumes that in the case of values being Series or DataFrame that the index of\nvalues is unique (i.e., values.index.is_unique() = True)",
+        "",
+        "DataFrame of booleans showing whether each element in the DataFrame\nis contained in values.",
+        "DataFrame",
+        "Examples",
+        "When values is a list check whether every value in the DataFrame\nis present in the list (which animals have 0 or 2 legs or wings)",
+        "To check if values is not in the DataFrame, use the ~ operator:",
+        "When values is a dict, we can pass values to check for each\ncolumn separately:",
+        "When values is a Series or DataFrame the index and column must\nmatch. Note that \u2018falcon\u2019 does not match based on the number of legs\nin other.",
+        "Caution",
+        "Snowpark pandas does not perform a check for the case that values is a DataFrame or Series nor does it check\nwhether the index is unique. Snowpark pandas preserves NULL values; if the DataFrame contains NULL in\na cell the output cell will be NULL.",
+        "Was this page helpful?"
+    ]
+}

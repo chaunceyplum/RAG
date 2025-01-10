@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-11-11-dcr",
+    "title": "Nov 11, 2024 \u2014 Snowflake Data Clean Rooms release notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the availability of the following new features and enhancements in this update to Snowflake\nData Clean Rooms.",
+        "Clean rooms created via developer APIs are now available by default in the web app. This allows users to manage these clean rooms directly\nin the web app while still being able to run any template with a custom web app form. Providers no longer need to call the register clean\nroom to web app APIs, in order to make clean rooms available in the web app. The following APIs have been deprecated:",
+        "provider.register_cleanroom_in_ui",
+        "provider.view_ui_registration_request_log",
+        "In order to make clean rooms and any changes made to the clean room reflect in the web app, providers MUST call the following API going\nforward:",
+        "Additionally, both providers and consumers can specify whether their developer API clean rooms should be accessible to their users in the\nweb app. Please note that it may take up to 10 minutes for the clean rooms or updates from developer APIs to reflect in the web app.",
+        "For more information, see Snowflake Data Clean Rooms: Create a custom analysis template with a user interface.",
+        "Providers can now enable provider run on custom web app templates. This enables consumers to install and set their respective policies\ndirectly through the web app, while allowing the provider to configure and execute the template query via the web app as well. Providers\nmust request provider run to be enabled via developer APIs and then call the create or update listings API, prior to the consumer\ninstalling this in the web app. Additionally, providers can customize web app form drop downs to reference options for consumer join &\ncolumn policies.",
+        "For more information, see Snowflake Data Clean Rooms: Provider API reference guide",
+        "Providers can now  add a custom activation template to their custom analysis template in the web app. This enables collaborators to support\nactivation use cases, while deploying custom analysis templates within the web app. Providers will need to add a reference to their\nactivation template in the web app form.",
+        "For more information, see provider.add_ui_form_customizations",
+        "Previously, all join columns required an aggregation policy and would have a projection policy applied by default in the SQL Query\ntemplate. With this release, join columns will be selected by default for both aggregation and projection policies. Users can remove\nand customize their policy requirements as they see fit, while no longer being required to add a join column for every table in the clean\nroom.",
+        "Users can now manually sync their data connectors to reflect any changes in the metadata related to the table in the web app. Additionally,\nusers can provide their preferred name for these external tables, which is prefixed with the cloud identifier for ease of reference.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

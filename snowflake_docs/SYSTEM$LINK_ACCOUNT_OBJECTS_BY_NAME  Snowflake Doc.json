@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_link_account_objects_by_name",
+    "title": "SYSTEM$LINK_ACCOUNT_OBJECTS_BY_NAME | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Business Critical Feature",
+        "Requires Business Critical Edition (or higher). To inquire about upgrading, please contact Snowflake Support.",
+        "Adds a global identifier to account objects in the target (current) account that were created using scripts\nand that match objects with the same names in the source account.",
+        "Global identifiers are only added to account objects that are included in a replication or failover group for the\nfollowing object types:",
+        "RESOURCE_MONITOR",
+        "ROLE",
+        "USER",
+        "WAREHOUSE",
+        "For more information, refer to Apply global IDs to objects created by scripts in target accounts.",
+        "Specifies the identifier for the replication or failover group.",
+        "Only account administrators (users with the ACCOUNTADMIN role) can execute this SQL function.",
+        "To retain account objects that exist only in the target account, replicate them\nmanually in the source account before executing this function.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

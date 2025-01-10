@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-stage",
+    "title": "DROP STAGE | Snowflake Documentation",
+    "paragraphs": [
+        "Removes the specified named internal or external stage from the current/specified schema. The status of the files in the stage depends on\nthe stage type:",
+        "For an internal stage, all of the files in the stage are purged from Snowflake, regardless of their load status. This\nprevents the files from continuing to using storage and, consequently, accruing storage charges. However, this also means that the\nstaged files cannot be recovered after a stage is dropped.",
+        "For an external stage, only the stage itself is dropped; any data files in the referenced external location (Amazon S3, Google Cloud\nStorage, or Microsoft Azure) are not removed.",
+        "CREATE STAGE , ALTER STAGE , SHOW STAGES , DESCRIBE STAGE",
+        "Specifies the identifier for the stage to drop. If the identifier contains spaces, special characters, or mixed-case characters, the\nentire string must be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Dropped stages cannot be recovered; they must be recreated.",
+        "This command cannot be used to drop the stage associated with a table or user; only named stages (internal or external) can be dropped.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

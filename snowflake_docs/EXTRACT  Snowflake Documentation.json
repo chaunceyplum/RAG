@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/extract",
+    "title": "EXTRACT | Snowflake Documentation",
+    "paragraphs": [
+        "Date & time functions",
+        "Extracts the specified date or time part from a date, time, or timestamp.",
+        "Tip",
+        "To extract the date from a timestamp, use the TO_DATE function.",
+        "DATE_PART , HOUR / MINUTE / SECOND , YEAR* / DAY* / WEEK* / MONTH / QUARTER",
+        "The unit of time. Must be one of the values listed in Supported date and time parts (e.g. month).\nThe value can be a string literal or can be unquoted (e.g. 'month' or month).",
+        "When date_or_time_part is week (or any of its variations), the output is controlled by the WEEK_START session parameter.",
+        "When date_or_time_part is dayofweek or yearofweek (or any of their variations), the output is controlled by the WEEK_OF_YEAR_POLICY and WEEK_START session parameters.",
+        "For more details, including examples, see Calendar weeks and weekdays.",
+        "A date, a time, a timestamp, or an expression that can be evaluated to\na date, a time, or a timestamp.",
+        "Returns a value of NUMBER data type.",
+        "Currently, when date_or_timestamp_expr is a DATE value, the following date_or_time_part\nvalues are not supported:",
+        "epoch_millisecond",
+        "epoch_microsecond",
+        "epoch_nanosecond",
+        "Other date and time parts (including epoch_second) are supported.",
+        "Specify the year part to extract the year from a timestamp:",
+        "Use EXTRACT with the DECODE function and the dayofweek part to return the full name of the\ncurrent day of the week:",
+        "Note",
+        "The output depends on the value returned by the SYSTIMESTAMP function when you run the query. Also, you can use the\nDAYNAME function to extract the three-letter day-of-week name from the specified date or timestamp.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

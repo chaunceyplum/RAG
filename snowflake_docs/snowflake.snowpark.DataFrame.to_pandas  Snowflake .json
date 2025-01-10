@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.to_pandas",
+    "title": "snowflake.snowpark.DataFrame.to_pandas | Snowflake Documentation",
+    "paragraphs": [
+        "Executes the query representing this DataFrame and returns the result as a\npandas DataFrame.",
+        "When the data is too large to fit into memory, you can use to_pandas_batches().",
+        "statement_params \u2013 Dictionary of statement level parameters to be set while executing this action.",
+        "block \u2013 A bool value indicating whether this function will wait until the result is available.\nWhen it is False, this function executes the underlying queries of the dataframe\nasynchronously and returns an AsyncJob.",
+        "Note",
+        "This method is only available if pandas is installed and available.",
+        "2. If you use Session.sql() with this method, the input query of\nSession.sql() can only be a SELECT statement.",
+        "3. For TIMESTAMP columns:\n- TIMESTAMP_LTZ and TIMESTAMP_TZ are both converted to datetime64[ns, tz] in pandas,\nas pandas cannot distinguish between the two.\n- TIMESTAMP_NTZ is converted to datetime64[ns] (without timezone).",
+        "Was this page helpful?"
+    ]
+}

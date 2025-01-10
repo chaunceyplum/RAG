@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-11-18-s3-compatible-externally-managed-iceberg-ga",
+    "title": "November 18, 2024 \u2014 S3-compatible storage for externally managed Apache Iceberg\u2122 tables \u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "We are pleased to announce the general availability of support for Amazon S3-compatible storage for\nexternally managed Iceberg tables.",
+        "You can now use an external volume to connect to and query Iceberg tables in an S3-compatible storage location.",
+        "For more information, see the following pages:",
+        "Configure an external volume for S3-compatible storage",
+        "Working with Amazon S3-compatible storage",
+        "Was this page helpful?"
+    ]
+}

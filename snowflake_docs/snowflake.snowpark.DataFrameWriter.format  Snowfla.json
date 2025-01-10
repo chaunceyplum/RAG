@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrameWriter.format",
+    "title": "snowflake.snowpark.DataFrameWriter.format | Snowflake Documentation",
+    "paragraphs": [
+        "Specifies the file format type to use for unloading data from the table. Allowed values are \u201ccsv\u201d, \u201cjson\u201d, and \u201cparquet\u201d.\nThe file format name can be case insensitive and will be used when calling save().",
+        "Was this page helpful?"
+    ]
+}

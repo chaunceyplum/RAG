@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/classification",
+    "title": "CLASSIFICATION (SNOWFLAKE.ML) | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to all accounts.",
+        "Classification commands enable you to manage classification\nmodels in your account. Classification uses machine learning algorithms to sort data into different classes using patterns\ndetected in training data.",
+        "ALTER SNOWFLAKE.ML.CLASSIFICATION",
+        "CREATE SNOWFLAKE.ML.CLASSIFICATION",
+        "DROP SNOWFLAKE.ML.CLASSIFICATION",
+        "SHOW SNOWFLAKE.ML.CLASSIFICATION",
+        "model_name!PREDICT",
+        "<model_name>!SHOW_CONFUSION_MATRIX",
+        "<model_name>!SHOW_EVALUATION_METRICS",
+        "<model_name>!SHOW_FEATURE_IMPORTANCE",
+        "<model_name>!SHOW_GLOBAL_EVALUATION_METRICS",
+        "<model_name>!SHOW_THRESHOLD_METRICS",
+        "<model_name>!SHOW_TRAINING_LOGS",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

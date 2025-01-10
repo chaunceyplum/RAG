@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-session-policy",
+    "title": "DROP SESSION POLICY | Snowflake Documentation",
+    "paragraphs": [
+        "Enterprise Edition Feature",
+        "Session policies requires Enterprise Edition or higher. To inquire about upgrading, please contact Snowflake Support.",
+        "Removes a session policy from the system.",
+        "Session Policy DDL Reference",
+        "Identifier for the session policy; must be unique for your account.",
+        "The identifier value must start with an alphabetic character and cannot contain spaces or special characters unless the entire identifier\nstring is enclosed in double quotes (e.g. \"My object\"). Identifiers enclosed in double quotes are also case-sensitive.",
+        "For more details, see Identifier requirements.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "OWNERSHIP",
+        "Session policy",
+        "OWNERSHIP is a special privilege on an object that is automatically granted to the role that created the object, but can also be transferred using the GRANT OWNERSHIP command to a different role by the owning role (or any role with the MANAGE GRANTS privilege).",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "For additional details on session policy DDL and privileges, see Managing session policies.",
+        "Prior to dropping a session policy, execute the following statement to determine if any session policies are applied to accounts or\nusers. For more information, see POLICY_REFERENCES.",
+        "A session policy cannot be dropped successfully if it is currently attached to an account or user. Before executing a DROP statement,\nUNSET the session policy from the account with an ALTER ACCOUNT statement or unset the session policy from a\nuser with an ALTER USER statement.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

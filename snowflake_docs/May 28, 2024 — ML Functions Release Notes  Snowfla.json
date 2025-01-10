@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-05-28-call-method-in-from-clause",
+    "title": "May 28, 2024 \u2014 ML Functions Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "You can now call the Forecast and\nDetect Anomalies ML Functions directly in the FROM clause\nof a SELECT statement. You can call methods like <model_name>!DETECT_ANOMALIES,\n<model_name>!FORECAST, and\n<model_name>!SHOW_EVALUATION_METRICS in the FROM clause.",
+        "You can use this technique to simplify the SQL statements for saving results to a table. For example, rather than using the\nSQLID Snowflake Scripting variable with the\nRESULT_SCAN function to create a table containing these results:",
+        "you can use a query that directly selects from the results of calling the methods:",
+        "As shown in the example above, when calling the method, omit the CALL command. Instead, put the call\nin parentheses, preceded by the TABLE keyword.",
+        "For details, see Selecting columns from SQL class instance methods that return tabular data.",
+        "In addition, as announced earlier and shown in the example above,\nyou can use the TABLE keyword (rather than calling SYSTEM$REFERENCE) to create a reference to\npass in to the method.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

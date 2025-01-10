@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.str.capitalize",
+    "title": "modin.pandas.Series.str.capitalize | Snowflake Documentation",
+    "paragraphs": [
+        "Convert strings in the Series/Index to be capitalized.",
+        "Series or Index of object",
+        "See also",
+        "Converts all characters to lowercase.",
+        "Converts all characters to uppercase.",
+        "Converts first character of each word to uppercase and remaining to lowercase.",
+        "Converts first character to uppercase and remaining to lowercase.",
+        "Converts uppercase to lowercase and lowercase to uppercase.",
+        "Removes all case distinctions in the string.",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

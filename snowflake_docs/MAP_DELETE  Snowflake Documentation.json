@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/map_delete",
+    "title": "MAP_DELETE | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Map)",
+        "Returns a MAP based on an existing MAP with one or more keys removed..",
+        "The map that contains the key to remove.",
+        "The key to be omitted from the returned map.",
+        "Returns a MAP that contains the contents of the input (source) map with one or more keys removed.",
+        "The type of the key expression must match the type of the map\u2019s key. If the type is VARCHAR,\nthen the types can be different lengths.",
+        "Key values that are not found in the map are ignored.",
+        "Remove two key-value pairs from a map containing three key-value pairs:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

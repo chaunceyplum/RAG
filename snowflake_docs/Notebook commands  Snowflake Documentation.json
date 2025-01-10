@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/commands-notebook",
+    "title": "Notebook commands | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Generally available in Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP) commercial regions.",
+        "Snowflake provides SQL commands to create and modify a notebook.",
+        "Command",
+        "Description",
+        "CREATE NOTEBOOK",
+        "Creates a new Snowflake notebook or replaces an existing notebook.",
+        "EXECUTE NOTEBOOK",
+        "Executes all the cells in the live version of a notebook.",
+        "ALTER NOTEBOOK",
+        "Modifies the properties of an existing notebook.",
+        "SHOW NOTEBOOKS",
+        "Lists the notebooks for which you have access privileges.",
+        "DESCRIBE NOTEBOOK",
+        "Describes the properties of a notebook.",
+        "DROP NOTEBOOK",
+        "Removes the specified notebook from the current/specified schema.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

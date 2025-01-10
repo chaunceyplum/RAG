@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/tables-iceberg-configure-catalog-integration-object-storage",
+    "title": "Configure a catalog integration for files in object storage | Snowflake Documentation",
+    "paragraphs": [
+        "Create a catalog integration for Apache Iceberg\u2122 table files or Delta table files in object storage.",
+        "After you create a catalog integration, you can create an Iceberg table.",
+        "Create a catalog integration for Iceberg metadata that\u2019s in an external cloud storage location\nby setting OBJECT_STORE as the CATALOG_SOURCE value and ICEBERG as the TABLE_FORMAT.",
+        "Preview Feature \u2014 Open",
+        "Available to all accounts.",
+        "Create a catalog integration for Iceberg tables based on\nDelta table files by setting OBJECT_STORE as the CATALOG_SOURCE value and DELTA as the TABLE_FORMAT.",
+        "CATALOG_SOURCE = OBJECT_STORE",
+        "TABLE_FORMAT = DELTA",
+        "Note",
+        "Snowflake doesn\u2019t support creating Iceberg tables from Delta table definitions in the AWS Glue Data Catalog.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

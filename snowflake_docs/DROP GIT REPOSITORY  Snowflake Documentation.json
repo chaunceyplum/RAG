@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-git-repository",
+    "title": "DROP GIT REPOSITORY | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Using a Git repository in Snowflake is not supported in the Gov region.",
+        "Removes the specified Git repository stage from the current/specified schema.",
+        "ALTER GIT REPOSITORY, CREATE GIT REPOSITORY, DESCRIBE GIT REPOSITORY, SHOW GIT BRANCHES,\nSHOW GIT REPOSITORIES, SHOW GIT TAGS",
+        "Specifies the identifier for the repository stage to drop.",
+        "If the identifier contains spaces or special characters, the entire string must be enclosed in double quotes.\nIdentifiers enclosed in double quotes are also case-sensitive.",
+        "For more information, see Identifier requirements.",
+        "Dropped Git repositories cannot be recovered; they must be recreated.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

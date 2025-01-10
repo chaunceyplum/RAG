@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/streamlit/example-multi-page",
+    "title": "Multi-page Streamlit apps | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides an example of a multi-page Streamlit app. The following examples show\na multi-page Streamlit app that contains the following files:",
+        "The main Streamlit app (streamlit_main.py): This is the Streamlit app that you provide\nas the value to the MAIN_FILE property of the  CREATE STREAMLIT command. This file is also\ndisplayed by default when you view the Streamlit app in Snowsight.",
+        "data_frame_demo.py: Displays a data frame for the application.",
+        "plot_demo.py: Displays a plot of the data for the application.",
+        "Note",
+        "To deploy a multi-page Streamlit app in Snowflake, you must create the application by using\nSQL commands. See Create and deploy Streamlit apps using SQL for more information.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

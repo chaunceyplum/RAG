@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_02/bcr-1514",
+    "title": "Transforming data during a load: Disallow using MATCH_BY_COLUMN_NAME with a SELECT statement | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_02 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Using COPY with MATCH_BY_COLUMN_NAME is still a recommended approach. This behavior change only fixes a corner case where the behavior of transforming data during a load is undefined.",
+        "Use of the MATCH_BY_COLUMN_NAME copy option and a SELECT statement for transforming data during a load behaves as follows:",
+        "You are allowed to use the MATCH_BY_COLUMN_NAME copy option with a SELECT statement for transforming data during a load in certain cases. However, these cases may result in undefined behavior.",
+        "You are not allowed to use the MATCH_BY_COLUMN_NAME copy option with a SELECT statement for transforming data during a load in all cases. These two options can still be used separately, but cannot be used together. Any attempt to do so will result in the following error: SQL compilation error: match_by_column_name is not supported with copy transform.",
+        "Ref: 1514",
+        "Was this page helpful?"
+    ]
+}

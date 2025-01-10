@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/acos",
+    "title": "ACOS | Snowflake Documentation",
+    "paragraphs": [
+        "Numeric functions (Trigonometric)",
+        "Computes the inverse cosine (arc cosine) of its input; the result is a number in the interval [0, pi].",
+        "This expression should evaluate to a real number greater than or equal\nto -1.0 and less than or equal to +1.0.",
+        "The data type of the return value is FLOAT.",
+        "Returns the arc cosine in radians (not degrees) as a value in the range [0, pi].",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

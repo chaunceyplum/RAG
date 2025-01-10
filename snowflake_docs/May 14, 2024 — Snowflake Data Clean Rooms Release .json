@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-05-14-dcr",
+    "title": "May 14, 2024 \u2014 Snowflake Data Clean Rooms Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce that Snowflake Data Clean Room administrators can attribute activity in the web app to specific\nusers. All activities performed in the web app are logged in the query history of the Snowflake account associated with the clean room\nenvironment. Now, this query history includes a user_email query tag that identifies which user performed an action.",
+        "For more information about tracing user activity in the web app, see Monitor web app activity.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

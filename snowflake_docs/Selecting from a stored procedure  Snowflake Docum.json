@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/stored-procedure/stored-procedures-selecting-from",
+    "title": "Selecting from a stored procedure | Snowflake Documentation",
+    "paragraphs": [
+        "Some stored procedures return tabular data. To select and manipulate this tabular data, you can call these\nstored procedures in the FROM clause of a SELECT statement.",
+        "When calling the stored procedure, omit the CALL command. Instead, use the TABLE keyword,\nand name the procedure inside parentheses:",
+        "This example uses the data in the following table:",
+        "The following stored procedure returns order information based on a user ID:",
+        "Note: If you are using SnowSQL, the Classic Console, or the\nexecute_stream or execute_string method in Python Connector\ncode, use this example instead (see Using Snowflake Scripting in SnowSQL, the Classic Console, and Python Connector):",
+        "The following SELECT statement retrieves the stored procedure\u2019s results:",
+        "The following limitations apply to selecting from a stored procedure:",
+        "Only stored procedures that perform SELECT, SHOW, DESCRIBE, or CALL statements can be placed in the FROM clause\nof a SELECT statement. Stored procedures that make modifications using DDL or DML operations aren\u2019t allowed.\nFor stored procedures that issue CALL statements, these limitations apply to the stored procedures that are called.",
+        "Only stored procedures that return tabular data with a static output schema can be placed in the FROM clause\nof a SELECT statement. The output columns must be named and typed. For example, a stored procedure with the\nfollowing RETURNS clause is supported:",
+        "A stored procedure with the following RETURNS clause is not supported because it doesn\u2019t return tabular data:",
+        "A stored procedure with the following RETURNS clause is not supported because it doesn\u2019t provide\na fixed output schema:",
+        "The stored procedure must be called in the FROM clause of a SELECT block in one of the following statements:",
+        "SELECT",
+        "INSERT, UPDATE, DELETE, or MERGE",
+        "CREATE TABLE AS SELECT",
+        "The stored procedure can\u2019t accept correlated input arguments from their outer scope, such as a reference to any\nCTE defined outside of the SELECT statement.",
+        "If an argument contains a subquery, then that subquery can\u2019t use a CTE defined by the WITH clause.",
+        "A SELECT statement containing a stored procedure call can\u2019t be used in the body of a view, a user-defined function (UDF),\na user-defined table function (UDTF), or in objects such as row access policies and\ndata masking policies.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

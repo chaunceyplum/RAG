@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.unionAll",
+    "title": "snowflake.snowpark.DataFrame.unionAll | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a new DataFrame that contains all the rows in the current DataFrame\nand another DataFrame (other), including any duplicate rows. Both input\nDataFrames must contain the same number of columns.",
+        "Example:",
+        "other \u2013 the other DataFrame that contains the rows to include.",
+        "Was this page helpful?"
+    ]
+}

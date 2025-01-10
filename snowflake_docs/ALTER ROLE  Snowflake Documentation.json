@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/alter-role",
+    "title": "ALTER ROLE | Snowflake Documentation",
+    "paragraphs": [
+        "Modifies the properties for an existing custom role. Currently, the only supported\noperations are renaming a role or adding/overwriting/removing a comment for a role.",
+        "CREATE ROLE , DROP ROLE , SHOW ROLES",
+        "Specifies the identifier for the role to alter. If the identifier contains spaces or special characters, the entire string must be enclosed in\ndouble quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Specifies the new identifier for the role; must be unique for your account.",
+        "For more details, see Identifier requirements.",
+        "Specifies the properties to set for the role:",
+        "Specifies the tag name and the tag string value.",
+        "The tag value is always a string, and the maximum number of characters for the tag value is 256.",
+        "For information about specifying tags in a statement, see Tag quotas for objects and columns.",
+        "Adds a comment or overwrites an existing comment for the role.",
+        "Specifies the properties to unset for the role, which resets them to the defaults.",
+        "TAG tag_name [ , tag_name ... ]",
+        "COMMENT",
+        "Only the role owner (i.e. the role with the OWNERSHIP privilege on the role), or a higher role, can execute this command.",
+        "To rename a role (using the RENAME TO new_name parameter) the role that executes this command must also have the global CREATE ROLE\nprivilege.",
+        "Regarding metadata:",
+        "Attention",
+        "Customers should ensure that no personal data (other than for a User object), sensitive data, export-controlled data, or other regulated data is entered as metadata when using the Snowflake service. For more information, see Metadata fields in Snowflake.",
+        "Rename role role1 to role2:",
+        "Add a comment for role myrole:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

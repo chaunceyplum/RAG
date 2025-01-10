@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.get_current_database",
+    "title": "snowflake.snowpark.Session.get_current_database | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the name of the current database for the Python connector session attached\nto this session. See the example in table().",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.col",
+    "title": "snowflake.snowpark.DataFrame.col | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a reference to a column in the DataFrame.",
+        "Was this page helpful?"
+    ]
+}

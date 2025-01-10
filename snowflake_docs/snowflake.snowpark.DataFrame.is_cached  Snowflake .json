@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.is_cached",
+    "title": "snowflake.snowpark.DataFrame.is_cached | Snowflake Documentation",
+    "paragraphs": [
+        "Whether the dataframe is cached.",
+        "Was this page helpful?"
+    ]
+}

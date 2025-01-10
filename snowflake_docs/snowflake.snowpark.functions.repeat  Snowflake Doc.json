@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.repeat",
+    "title": "snowflake.snowpark.functions.repeat | Snowflake Documentation",
+    "paragraphs": [
+        "Builds a string by repeating the input for the specified number of times.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

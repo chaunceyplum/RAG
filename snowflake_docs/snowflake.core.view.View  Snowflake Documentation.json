@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.view.View",
+    "title": "snowflake.core.view.View | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: BaseModel",
+        "A model object representing the View resource.",
+        "Constructs an object of type View with the provided properties.",
+        "name (str) \u2013 Name of the view",
+        "columns (List[ViewColumn]) \u2013 The columns of the view",
+        "query (str) \u2013 Query used to create the view",
+        "secure (bool, optional) \u2013 Whether or not this view is secure",
+        "kind (str, optional) \u2013 Kind of the view, permanent (default) or temporary",
+        "recursive (bool, optional) \u2013 Whether or not this view can refer to itself using recursive syntax withot requiring a CTE (common table expression)",
+        "comment (str, optional) \u2013 user comment associated to an object in the dictionary",
+        "created_on (datetime, optional) \u2013 Date and time when the view was created.",
+        "database_name (str, optional) \u2013 Database in which the view is stored",
+        "schema_name (str, optional) \u2013 Schema in which the view is stored",
+        "owner (str, optional) \u2013 Role that owns the view",
+        "owner_role_type (str, optional) \u2013 The type of role that owns the view",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of View from a dict.",
+        "Create an instance of View from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

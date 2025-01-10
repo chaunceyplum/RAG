@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_registry_list_images",
+    "title": "SYSTEM$REGISTRY_LIST_IMAGES \u2014 Deprecated | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Deprecated Feature",
+        "This function has been deprecated. Use the SHOW IMAGES IN IMAGE REPOSITORY command instead.",
+        "Feature \u2014 Generally Available",
+        "Available to accounts in AWS and Microsoft Azure commercial regions, with some exceptions. For more information, see Available regions.",
+        "Lists images in an image repository.",
+        "Working with an Image Registry and Repository",
+        "Required:",
+        "Name of the database in which the repository is created.",
+        "Name of the database in which the repository is created.",
+        "Name of the image repository.",
+        "Returns a JSON object listing all the images.",
+        "You need the read permission on the repository to get a list of images.",
+        "This function retrieves a list of images from the /tutorial_db/data_schema/tutorial_repository repository.",
+        "Sample output showing a list of two images in the repository:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

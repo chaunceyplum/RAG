@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cert-iso-27018",
+    "title": "ISO-27018 | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes how Snowflake supports customers with ISO-27018 compliance requirements.",
+        "The International Organization for Standardization provides requirements for establishing, implementing, maintaining, and continually\nimproving an information security management system. Snowflake\u2019s ISO Certificate is available for download by\nclicking here.\nThe statement of applicability also includes control objectives from the ISO 27017:2015 & ISO 27018:2019 framework.",
+        "ISO/IEC 27018:2019 is a code of practice concerned with the protection of personally identifiable information (PII) in public clouds in\naccordance with the privacy principles in ISO/IEC 29100.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2023/7_36",
+    "title": "October 09-10, 2023 \u2014 7.36 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "The release has completed.",
+        "For differences between the in-advance and final versions of these release notes, see Release Notes Change Log.",
+        "With this release, we are pleased to announce support for Python 3.11 in Snowpark Python, Python UDFs, Python UDTFs and Python stored procedures as a preview feature to all accounts.",
+        "For more information, see:",
+        "Setting Up Your Development Environment for Snowpark Python.",
+        "Introduction to Python UDFs",
+        "Writing stored procedures in Python.",
+        "With this release, you can see the name of the company or organization that is a consumer of your listings on the Analytics tab in\nProvider Studio. Previously, you could see the account name and organization name for a consumer, but not the name of the company.",
+        "For more details, see Monitoring usage of your listing.",
+        "With this release, we are pleased to announce the general availability of using Snowsight to view and download billing usage statements, starting with the July 2023 statement. The retention period will be 1 year.",
+        "For more information, see Access a billing usage statement.",
+        "With this release, we are pleased to announce the preview of Query History in worksheets in Snowsight. When you view Query History\nfor a worksheet, you can review the queries run in a Snowsight worksheet, as well as the query results.",
+        "For more information, see View query history.",
+        "Announcement",
+        "Update",
+        "Company name for listing analytics",
+        "Added to Data Collaboration Updates",
+        "Logging and tracing from handler code \u2014 General Availability",
+        "Removed from New Features",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

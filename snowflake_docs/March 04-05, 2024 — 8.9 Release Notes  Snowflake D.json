@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/8_09",
+    "title": "March 04-05, 2024 \u2014 8.9 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "The release has completed.",
+        "For differences between the in-advance and final versions of these release notes, see Release Notes Change Log.",
+        "The following changes are not part of a bundle, and therefore cannot be enabled for testing:",
+        "Dynamic tables: Changes to ACCOUNT_USAGE.TABLES and INFORMATION_SCHEMA.TABLES",
+        "With this release, Snowflake is pleased to announce Custom Classification in preview. Snowflake provides the CUSTOM_CLASSIFIER class in the SNOWFLAKE.DATA_PRIVACY schema to enable data engineers to extend Snowflake\u2019s data classification capabilities based on their own knowledge of the data. You can define your own semantic category, specify the privacy category, and specify regular expressions to match column value patterns while optionally matching the column name.",
+        "For more information, see Custom sensitive data classification.",
+        "With this release, we are pleased to announce that Snowflake now writes information for primary key columns to\nApache Iceberg\u2122 table metadata using the Apache Iceberg identifier-field-ids property.",
+        "Announcement",
+        "Update",
+        "Date",
+        "Release notes",
+        "Initial publication (preview)",
+        "04-Mar-24",
+        "New SQL functions",
+        "Removed from SQL Updates",
+        "05-Mar-24",
+        "Primary key information added to |iceberg-tm| table metadata",
+        "Added to Data lake updates",
+        "07-Mar-24",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

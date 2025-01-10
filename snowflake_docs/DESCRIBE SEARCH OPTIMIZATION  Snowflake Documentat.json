@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-search-optimization",
+    "title": "DESCRIBE SEARCH OPTIMIZATION | Snowflake Documentation",
+    "paragraphs": [
+        "Describes the search optimization configuration for a specified table and\nits columns.",
+        "DESCRIBE can be abbreviated to DESC.",
+        "Search Optimization Service",
+        "Specifies the identifier for the table to describe. If the identifier contains spaces or special characters, the entire string\nmust be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "The command prints a table containing information on each search method and target in the search optimization configuration. The\ntable contains the following columns:",
+        "Column Name",
+        "Description",
+        "expression_id",
+        "Unique identifier for a search method and target.",
+        "method",
+        "Search method for optimizing queries for a particular type of predicate:",
+        "EQUALITY (for equality and IN predicates).",
+        "SUBSTRING (for predicates that match substrings \u2013 e.g. LIKE, ILIKE, etc.).",
+        "GEO (for predicates that use GEOGRAPHY types).",
+        "target",
+        "Column or VARIANT field that the method applies to.",
+        "target_data_type",
+        "Data type of the column or VARIANT field.",
+        "active",
+        "Specifies whether or not the expression has finished the initial build of the search access paths for the expression.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "See Displaying the search optimization configuration for a table.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

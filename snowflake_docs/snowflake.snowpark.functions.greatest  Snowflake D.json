@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.greatest",
+    "title": "snowflake.snowpark.functions.greatest | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the largest value from a list of expressions.\nIf any of the argument values is NULL, the result is NULL.\nGREATEST supports all data types, including VARIANT.",
+        "Examples:",
+        "Was this page helpful?"
+    ]
+}

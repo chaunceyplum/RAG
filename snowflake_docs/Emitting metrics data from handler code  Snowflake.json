@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/logging-tracing/metrics-handler",
+    "title": "Emitting metrics data from handler code | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Metrics data collection is a preview feature available to all accounts.",
+        "To have your procedure or UDF emit metrics data, you don\u2019t need to add any code to your handler. Snowflake generates the data collected in an\nevent table.",
+        "Due to the way the Java and Python execution environments differ, the metrics data collected also differs. For reference information\nabout the data collected, see RECORD column reference.",
+        "The following describes how the captured data corresponds to the execution environment.",
+        "JVM (Java Virtual Machine) CPU and memory metrics are reported for each query ID.",
+        "Each stored procedure is allocated its own JVM. The following describes the metric data collected:",
+        "process.memory.usage: Amount of memory, in bytes, consumed by the JVM executing the stored procedure handler.",
+        "process.cpu.utilization: Total CPU time divided by the wall-clock time per logical CPU, measured as a percentage where\n1.0 indicates 100 percent utilization. Total CPU time is the total time spent on non-idle tasks.",
+        "Each Java and Scala UDF called in a query shares a single JVM. Metric values are aggregated across each Java or Scala function in the query.  The\nfollowing describes the metric data collected:",
+        "process.memory.usage: Memory use, shown as the sum of all the associated Java functions called in the query.",
+        "process.cpu.utilization: CPU use, shown as the average of all the Java and Scala functions called in the query.",
+        "CPU and memory metrics are reported for each Python function or procedure.",
+        "Each stored procedure executes on only one Python process. The following describes the metric data collected:",
+        "process.memory.usage: Amount of memory, in bytes, consumed by the Python process executing the stored procedure handler.",
+        "process.cpu.utilization: Total CPU time divided by the wall-clock time per logical CPU, measured as a percentage where 1.0\nindicates 100 percent use. Total CPU time is the total time spent on non-idle tasks.",
+        "Each UDF can be executed on multiple Python execution processes. Values are aggregated across multiple processes. The following describes\nthe metric data collected:",
+        "process.memory.usage: Memory use, shown as the sum of all the associated Python processes of that UDF.",
+        "process.cpu.utilization: Reported CPU, shown as the average of all the associated Python processes of that UDF.",
+        "Use the following steps to generate metrics example data.",
+        "Set the metrics level of your session. The METRIC_LEVEL parameter controls whether to emit auto-instrumented resource\nmetrics data points to the event table. You can set the parameter to NONE or ALL, and set it on the object and\nsession level. For more information, see Setting levels for logging, metrics, and tracing.",
+        "Create a stored procedure.",
+        "Run the stored procedure",
+        "When the query is completed, view metrics data as described in Viewing metrics data.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

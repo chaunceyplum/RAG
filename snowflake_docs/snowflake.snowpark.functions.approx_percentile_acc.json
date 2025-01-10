@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.approx_percentile_accumulate",
+    "title": "snowflake.snowpark.functions.approx_percentile_accumulate | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the internal representation of the t-Digest state (as a JSON object) at the end of aggregation.\nThis function uses the t-Digest algorithm.",
+        "Was this page helpful?"
+    ]
+}

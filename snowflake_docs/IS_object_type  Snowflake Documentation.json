@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/is",
+    "title": "IS_<object_type> | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Type Predicates)",
+        "This family of functions serves as Boolean predicates that can be used to determine the data type of a value stored in a VARIANT column:",
+        "IS_ARRAY",
+        "IS_BINARY",
+        "IS_BOOLEAN",
+        "IS_CHAR , IS_VARCHAR",
+        "IS_DATE , IS_DATE_VALUE",
+        "IS_DECIMAL",
+        "IS_DOUBLE , IS_REAL",
+        "IS_INTEGER",
+        "IS_NULL_VALUE",
+        "IS_OBJECT",
+        "IS_TIME",
+        "IS_TIMESTAMP_*",
+        "AS_<object_type> , TYPEOF",
+        "All the functions are unary, taking a VARIANT expression as the only argument.",
+        "All the functions return FALSE if the input is SQL NULL or the VARIANT expression contains NULL.",
+        "Create and fill the vartab table. The INSERT statement uses the PARSE_JSON function to insert\nVARIANT values in the v column of the table.",
+        "Query the data. The query uses the TYPEOF function to show the data types of\nthe values stored in the VARIANT column.",
+        "Count all rows in vartab table where the VARIANT column v contains a string value:",
+        "Select rows in vartab table where the VARIANT column v contains the specified data type:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

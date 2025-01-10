@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/document-ai/extract-information",
+    "title": "Extract information with Document AI | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Available to accounts in AWS and Microsoft Azure commercial regions, with some exceptions. For more information, see Document AI availability.",
+        "This topic describes extracting information from documents using Document AI.",
+        "If you previously published or trained the Document AI model build, you can now extract information from documents by\nrunning the extracting query in worksheets.\nYou can also create processing pipelines to continuously process\nnew documents in a stage.",
+        "Note",
+        "Document AI has known limitations, including the number and size of documents you can process in a single query.\nFor more information, see Known limitations to Document AI.",
+        "Successful information extraction requires the following conditions:",
+        "The documents used for information extraction are stored in either an internal or external stage.\nFor more information, see Setting up Document AI.",
+        "You are using the database and schema you set up for Document AI. For example:",
+        "You are using an account role that is granted the SNOWFLAKE.DOCUMENT_INTELLIGENCE_CREATOR database role.\nFor more information, see Setting up Document AI.",
+        "You previously published a Document AI model build or trained a Document AI model.\nFor more information, see Publish a Document AI model build.",
+        "An extracting query is a SQL query based on the PREDICT method. For more information,\nsee <model_build_name>!PREDICT.",
+        "To extract information from documents, run the extracting query in worksheets. After you publish or train the\nDocument AI model, you can see the extracting query defined in Snowsight.",
+        "To view the extracting query in Snowsight:",
+        "Sign in to Snowsight.",
+        "In the navigation menu, select AI & ML \u00bb Document AI.",
+        "Select a warehouse.",
+        "The list of model builds appears.",
+        "From the list of model builds, select the name of the model build you want to see the query for.",
+        "To view the Extracting Query, select the Build Details tab.",
+        "With Document AI, you can create pipelines that automatically process document files to extract information.\nTo create a processing pipeline, you need to create both a stream on a stage and a task to continuously process new documents\nin the stage.",
+        "For more information, see Tutorial: Create a document processing pipeline with Document AI.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

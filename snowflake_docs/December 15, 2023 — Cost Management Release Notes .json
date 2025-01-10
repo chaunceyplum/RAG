@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2023/other/2023-12-15",
+    "title": "December 15, 2023 \u2014 Cost Management Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "This document provides an overview of the new features related to cost management in Snowsight.",
+        "With this release, we are pleased to announce the preview of a new Account Overview page in Snowsight that allows you to\ngain high-level insights into the cost of using Snowflake. It improves visibility into incurred costs and provides information that can be\na starting off point for reporting and optimizing your spend. For example, you can view your total spend for a time period in dollars and\ncredits, and discover what is contributing to your costs, such as top warehouses by spend and most expensive queries.",
+        "Only users with the ACCOUNTADMIN role can view the Account Overview page.",
+        "For more details about using the Account Overview page, see Overview of account-level costs.",
+        "As part of this change, all Snowsight pages related to cost have been grouped together under Admin \u00bb Cost Management\nin the left navigation bar. This changes:",
+        "Where you work with budgets and resource monitors. Both pages are found as tabs under Admin \u00bb Cost Management. Previously,\nresource monitors were accessed from Admin \u00bb Resource Monitors.",
+        "Where to find usage information that allows you to drill down into incurred costs. Previously, this information was found on the\nUsage page, but now this same information is found by selecting the Consumption tab under Admin \u00bb\nCost Management.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

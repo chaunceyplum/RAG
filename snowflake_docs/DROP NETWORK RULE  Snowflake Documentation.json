@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-network-rule",
+    "title": "DROP NETWORK RULE | Snowflake Documentation",
+    "paragraphs": [
+        "Removes the specified network rule from the system.",
+        "CREATE NETWORK RULE , ALTER NETWORK RULE , SHOW NETWORK RULES , DESCRIBE NETWORK RULE",
+        "Specifies the identifier for the network rule to drop.",
+        "If the identifier contains spaces or special characters, the entire string must be enclosed in double quotes. Identifiers enclosed in\ndouble quotes are case-sensitive.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "OWNERSHIP",
+        "Network Rule",
+        "OWNERSHIP is a special privilege on an object that is automatically granted to the role that created the object, but can also be transferred using the GRANT OWNERSHIP command to a different role by the owning role (or any role with the MANAGE GRANTS privilege).",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "Dropped network rules cannot be recovered; they must be recreated.",
+        "Drop a network rule named myrule:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

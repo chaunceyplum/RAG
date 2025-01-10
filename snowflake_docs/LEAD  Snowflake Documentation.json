@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/lead",
+    "title": "LEAD | Snowflake Documentation",
+    "paragraphs": [
+        "Window function syntax and usage (Ranking)",
+        "Accesses data in a subsequent row in the same result set without having to join the table to itself.",
+        "LAG",
+        "The string expression to be returned.",
+        "The number of rows forward from the current row from which to obtain a value. For example, an offset of 2 returns the\nexpr value with an interval of 2 rows.",
+        "Note that setting a negative offset has the same effect as using the LAG function.",
+        "Default is 1. If IGNORE NULLS is specified, maximum is 1,000,000.",
+        "The expression to return when the offset goes out of the bounds of the window. Supports any expression whose type is compatible with expr.",
+        "Default is NULL.",
+        "When the IGNORE NULLS clause is set, any row whose expression evaluates to NULL is not included when offset rows are counted. If { IGNORE | RESPECT } NULLS is not specified, the default is RESPECT NULLS.",
+        "The PARTITION BY clause partitions the result set produced by the FROM clause into partitions to which the function is applied. For more information, see Window function syntax and usage.",
+        "The ORDER BY clause orders the data within each partition.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/ntile",
+    "title": "NTILE | Snowflake Documentation",
+    "paragraphs": [
+        "Window function syntax and usage (Ranking)",
+        "Divides an ordered data set equally into the number of buckets specified by constant_value. Buckets are sequentially numbered 1 through constant_value.",
+        "The desired number of buckets; must be a positive integer value.",
+        "If you wish to partition the data into groups, specify the criterion\n(usually a column) to partition by. For example, you might partition by\nprovince.",
+        "The expression (usually a column) by which to order the rows in the window.\nFor example, you might order by timestamp.",
+        "If the data is partitioned, then the data is divided into buckets equally\nwithin each partition. For example, if the number of buckets is 3, and if\nthe data is partitioned by province, then approximately 1/3 of the\nrows for each province are put into each bucket.",
+        "If the statement has an ORDER BY clause for the output, as well as an ORDER BY\nclause for the NTILE function, the two operate independently; the ORDER BY\nfor the NTILE function influences which rows are assigned to each bucket,\nwhile the ORDER BY for the output determines the order in which the output\nrows are shown.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

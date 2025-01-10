@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.percent_rank",
+    "title": "snowflake.snowpark.functions.percent_rank | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the relative rank of a value within a group of values, specified as a percentage\nranging from 0.0 to 1.0.",
+        "Was this page helpful?"
+    ]
+}

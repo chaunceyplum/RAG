@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/8_25",
+    "title": "July 08-12, 2024  \u2014 8.25 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "The release has completed.",
+        "For differences between the in-advance and final versions of these release notes, see Release notes change log.",
+        "You can now use wildcards in OBJECT constants. When you construct OBJECT data, you can use a wildcard by specifying {*}. The SQL statement constructs the OBJECT value from the specified data using the attribute names as keys and the associated values as values. Specifying {*} is equivalent to specifying OBJECT_CONSTRUCT(*).",
+        "For example, the following SQL statement uses a wildcard to construct OBJECT data:",
+        "For more information, see OBJECT constants.",
+        "Announcement",
+        "Update",
+        "Date",
+        "Release notes",
+        "Initial publication (preview)",
+        "05-Jul-24",
+        "New TYPE property for USER",
+        "Removed from SQL updates section",
+        "09-Jul-24",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

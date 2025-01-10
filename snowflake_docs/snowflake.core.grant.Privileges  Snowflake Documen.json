@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.grant.Privileges",
+    "title": "snowflake.core.grant.Privileges | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: Enum",
+        "Enum for Snowflake privileges that can be granted to a role or user.",
+        "Attributes",
+        "Was this page helpful?"
+    ]
+}

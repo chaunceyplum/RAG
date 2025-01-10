@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2023/7_33",
+    "title": "September 18-19, 2023 \u2014 7.33 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the preview of network rules, which group related network identifiers into logical units.\nWhen a Snowflake feature needs to restrict network traffic based on the origin or destination of a request, it can allow or block a\nnetwork rule that contains the identifiers that should be permitted or denied.",
+        "Network rules make possible the following preview features:",
+        "Enhanced network security",
+        "External network access overview",
+        "For general information about network rules, see Network rules.",
+        "With this release, we are pleased to announce the preview of enhanced security when using network policies to restrict access to\nSnowflake. When combined with network rules, network policies can now:",
+        "Restrict access to the internal stage of a Snowflake account on AWS.",
+        "Restrict access based on the identifier of an AWS S3 endpoint.",
+        "For more information about using network rules with a network policy, see About network rules.",
+        "With this release, we are pleased to announce the preview of the ability to isolate network traffic to Snowflake internal stages when\nconnecting to them over AWS PrivateLink for Amazon S3. Snowflake recommends this approach for organizations that use AWS PrivateLink\nto access the internal stages of multiple Snowflake accounts.",
+        "In this approach, an AWS administrator creates multiple S3 interface endpoints, one for each internal stage. Then the Snowflake\nadministrator uses the new S3_STAGE_VPCE_DNS_NAME parameter to associate an internal stage with its dedicated S3\ninterface endpoint.",
+        "Benefits of isolating private connectivity traffic include simplified DNS management, the ability to chargeback costs to a specific\nSnowflake account, and the ability to implement different security requirements for each Snowflake account.",
+        "For more details, see Accessing Internal stages with dedicated interface endpoints.",
+        "With this release, we are pleased to announce the general availability of the cross-platform support for Snowpipe auto-ingest. Triggering\nautomated Snowpipe data loads using S3 event messages, GCS Pub/Sub event messages, and Azure Event Grid messages are now supported by\nSnowflake accounts hosted on any supported cloud platforms.",
+        "For more information, see Automating continuous data loading using cloud messaging.",
+        "With this release, we are pleased to announce the general availability of Amazon EventBridge support for Snowpipe auto-ingest. You can\nset up Amazon EventBridge for Snowpipe auto-ingest by following the steps in\nAutomating Snowpipe for Amazon S3 with SNS.",
+        "With this release, we are pleased to announce the general availability of setting a tag-based masking policy on a database and schema.\nThis update enables data engineers to protect all columns in a schema or database when the data type of the column matches the data type\nof the policy set on the tag. Additionally, a new column is protected when its data type matches the data type of the policy set on the\ntag. Setting the tag-based masking policy on the database or schema simplifies data protection management because you can set the\ntag-based policy once and not have to set a masking policy on every column in the database or schema.",
+        "For more information, see Tag-based masking policies.",
+        "With this release, Snowflake is pleased to announce the preview to allow users in the data sharing consumer account to view shared tags\nand the tag references on shared objects when the tags and shared objects are in the same database. This update helps the consumer to\nunderstand the data sensitivity of a shared object, such as a table containing PII data when the PII tag is set on a table and its columns.",
+        "To enable the consumer to view the tag references of shared objects, the provider grants the READ privilege on the tag to a shared\ndatabase role or directly to the share. The consumer can use SQL to identify the shared tags and the tag references on shared objects.",
+        "For details, see Shared tag references.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

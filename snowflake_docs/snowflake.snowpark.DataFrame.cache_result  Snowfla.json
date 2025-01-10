@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.cache_result",
+    "title": "snowflake.snowpark.DataFrame.cache_result | Snowflake Documentation",
+    "paragraphs": [
+        "Caches the content of this DataFrame to create a new cached Table DataFrame.",
+        "All subsequent operations on the returned cached DataFrame are performed on the cached data\nand have no effect on the original DataFrame.",
+        "You can use Table.drop_table() or the with statement to clean up the cached result when it\u2019s not needed.\nRefer to the example code below.",
+        "Note",
+        "An error will be thrown if a cached result is cleaned up and it\u2019s used again,\nor any other DataFrames derived from the cached result are used again.",
+        "statement_params \u2013 Dictionary of statement level parameters to be set while executing this action.",
+        "A Table object that holds the cached result in a temporary table.\nAll operations on this new DataFrame have no effect on the original.",
+        "Note",
+        "A temporary table is created to store the cached result and a Table object is returned.\nYou can retrieve the table name by accessing Table.table_name. Note that this temporary\nSnowflake table",
+        "may be automatically removed when the Table object is no longer referenced if\nSession.auto_clean_up_temp_table_enabled is set to True.",
+        "will be dropped after the session is closed.",
+        "To retain a persistent table, consider using DataFrameWriter.save_as_table() to persist\nthe cached result.",
+        "Was this page helpful?"
+    ]
+}

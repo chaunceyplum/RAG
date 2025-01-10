@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.approx_percentile_estimate",
+    "title": "snowflake.snowpark.functions.approx_percentile_estimate | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the desired approximated percentile value for the specified t-Digest state.\nAPPROX_PERCENTILE_ESTIMATE(APPROX_PERCENTILE_ACCUMULATE(.)) is equivalent to\nAPPROX_PERCENTILE(.).",
+        "Was this page helpful?"
+    ]
+}

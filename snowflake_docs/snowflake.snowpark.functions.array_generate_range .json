@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.array_generate_range",
+    "title": "snowflake.snowpark.functions.array_generate_range | Snowflake Documentation",
+    "paragraphs": [
+        "Generate a range of integers from start to stop, incrementing by step.\nIf step is not set, incrementing by 1.",
+        "start \u2013 the column that contains the integer to start with (inclusive).",
+        "stop \u2013 the column that contains the integer to stop (exclusive).",
+        "step \u2013 the column that contains the integer to increment.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.lineage.LineageDirection",
+    "title": "snowflake.snowpark.lineage.LineageDirection | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: Enum",
+        "Directions for tracing the lineage.",
+        "Represents the downstream direction in lineage tracing.",
+        "str",
+        "Represents the upstream direction in lineage tracing.",
+        "str",
+        "Represents both upstream and downstream direction in lineage tracing.",
+        "str",
+        "Methods",
+        "values()",
+        "",
+        "value_of(value)",
+        "",
+        "Attributes",
+        "DOWNSTREAM",
+        "",
+        "UPSTREAM",
+        "",
+        "BOTH",
+        "",
+        "Was this page helpful?"
+    ]
+}

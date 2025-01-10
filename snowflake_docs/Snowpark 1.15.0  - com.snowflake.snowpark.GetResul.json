@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/scala/com/snowflake/snowpark/GetResult.html",
+    "title": "Snowpark 1.15.0  - com.snowflake.snowpark.GetResult",
+    "paragraphs": [
+        "This package contains all Snowpark logical types.",
+        "This package contains all Snowpark logical types.",
+        "0.1.0",
+        "com\n        \n        .\n        \n         snowflake\n        \n        .\n        \n         snowpark",
+        "Represents the results of downloading a file from a stage location to the local file system.",
+        "NOTE:\n         \n          fileName\n         \n         is the relative path to the file on the stage. For example, if you\n      download\n         \n          @myStage/prefix1/file1.csv.gz\n         \n         ,\n         \n          fileName\n         \n         is\n         \n          prefix1/file1.csv.gz\n         \n         .",
+        "0.4.0"
+    ]
+}

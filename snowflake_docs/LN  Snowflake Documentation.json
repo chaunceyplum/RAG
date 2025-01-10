@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/ln",
+    "title": "LN | Snowflake Documentation",
+    "paragraphs": [
+        "Numeric functions (Logarithmic)",
+        "Returns the natural logarithm of a numeric expression.",
+        "Always returns a floating point number, even if the input expression\nis of type integer.",
+        "If the input expression is less than or equal to 0, an error is\nreturned.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_01/bcr-1470",
+    "title": "NOTIFICATION_HISTORY table function: New column in output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The output of the NOTIFICATION_HISTORY table function changes as follows:",
+        "The output of the table function does not include an ERROR_MESSAGE column.",
+        "The output of the table function includes an ERROR_MESSAGE column that contains details about why a notification failed.",
+        "Column name",
+        "Data type",
+        "Description",
+        "ERROR_MESSAGE",
+        "VARCHAR",
+        "Details about why the notification failed.",
+        "Ref: 1470",
+        "Was this page helpful?"
+    ]
+}

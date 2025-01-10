@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.replace",
+    "title": "snowflake.snowpark.functions.replace | Snowflake Documentation",
+    "paragraphs": [
+        "Removes all occurrences of a specified subject and optionally replaces them with replacement.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

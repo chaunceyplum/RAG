@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/case.html",
+    "title": "CASE | Snowflake Documentation",
+    "paragraphs": [
+        "Conditional expression functions",
+        "Works like a cascading \u201cif-then-else\u201d statement. In the more general form,\na series of conditions are evaluated in sequence. When a condition evaluates\nto TRUE, the evaluation stops and the associated result (after THEN) is\nreturned. If none of the conditions evaluate to TRUE, then the result after\nthe optional ELSE is returned, if present; otherwise NULL is returned.",
+        "In the second, \u201cshorthand\u201d form, the expression after CASE is compared to\neach of the WHEN expressions in sequence, until one matches; then the\nassociated result (after THEN) is returned. If none of the expressions\nmatch, the result after the optional ELSE is returned, if present;\notherwise NULL is returned.",
+        "Note that in the second form, a NULL CASE expression matches none of\nthe WHEN expressions, even if one of the WHEN expressions is also NULL.",
+        "IFF",
+        "In the first form of CASE, each condition is an expression that\nshould evaluate to a BOOLEAN value (True, False, or NULL).",
+        "A general expression.",
+        "In the second form of CASE, each value is a potential match\nfor expr. The value can be a literal or an expression.\nThe value must be the same data type as the expr, or\nmust be a data type that can be cast to the data type of the expr.",
+        "In the first form of the CASE clause, if condition# is true,\nthen the function returns the corresponding result#. If more than\none condition is true, then the result associated with the first true\ncondition is returned.",
+        "In the second form of the CASE statement, if value# matches the\nexpr, then the corresponding result is returned. If more\nthan one value matches the expr, then the first matching\nvalue\u2019s result is returned.",
+        "The result should be an expression that evaluates to a single value.",
+        "In both forms of CASE, if the optional ELSE clause is present, and\nif no matches are found, then the function returns the result in the\nELSE clause. If no ELSE clause is present, and no matches are found,\nthen the result is NULL.",
+        "Note that, contrary to DECODE, a NULL value in the condition\ndoes not match a NULL value elsewhere in the condition.\nFor example WHEN <null_expr> = NULL THEN 'Return me!' does not\nreturn \u201cReturn me!\u201d. If you want to compare to NULL values, use\nIS NULL rather than = NULL.",
+        "The condition#, expr, value, and\nresult can all be general expressions and thus can include\nsubqueries that include set operators, such\nas UNION, INTERSECT, EXCEPT, and MINUS.\nWhen using set operators, make sure that data types are compatible. For\ndetails, see the General usage notes in the\nSet operators topic.",
+        "In the first form of CASE, each expression is independent, and the collation specifications in different\nbranches are independent. For example, in the following, the collation specifications in\ncondition1 are independent of the collation specification(s) in condition2,\nand those collation specifications do not need to be identical or even compatible.",
+        "In the second form of CASE, although all collation-related operations must use compatible collation specifications,\nthe collation specifications do not need to be identical. For example, in the following statement, the collation\nspecifications of both value1 and value2 must be compatible with the collation specification of\nexpr, but the collation specifications of value1 and value2 do not need to be identical\nto each other or to the collation specification of expr.",
+        "The value returned from the function has the\nhighest-precedence collation of the THEN/ELSE\narguments.",
+        "This example shows a typical use of CASE:",
+        "This example shows that if none of the values match, and there is no ELSE clause,\nthen the value returned is NULL:",
+        "This example handles NULL explicitly.",
+        "The following examples combine CASE with collation:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

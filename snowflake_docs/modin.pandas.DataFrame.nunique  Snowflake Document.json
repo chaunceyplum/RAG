@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.nunique",
+    "title": "modin.pandas.DataFrame.nunique | Snowflake Documentation",
+    "paragraphs": [
+        "Count number of distinct elements in specified axis.",
+        "Return Series with number of distinct elements. Can ignore NaN values.\nSnowpark pandas API does not distinguish between different NaN types like None,\npd.NA, and np.nan, and treats them as the same.",
+        "axis ({0 or 'index', 1 or 'columns'}, default 0) \u2013 The axis to use. 0 or \u2018index\u2019 for row-wise, 1 or \u2018columns\u2019 for\ncolumn-wise. Snowpark pandas currently only supports axis=0.",
+        "dropna (bool, default True) \u2013 Don\u2019t include NaN in the counts.",
+        "Series",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

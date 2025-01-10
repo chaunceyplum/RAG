@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/create-integration",
+    "title": "CREATE INTEGRATION | Snowflake Documentation",
+    "paragraphs": [
+        "Creates a new integration in the system or replaces an existing integration. An integration is a Snowflake object that provides an\ninterface between Snowflake and third-party services.",
+        "ALTER INTEGRATION, DROP INTEGRATION, SHOW INTEGRATIONS , DESCRIBE INTEGRATION",
+        "Where  integration_type_params are specific to the integration type.",
+        "For specific syntax, usage notes, and examples, see:",
+        "CREATE API INTEGRATION",
+        "CREATE CATALOG INTEGRATION",
+        "CREATE EXTERNAL ACCESS INTEGRATION",
+        "CREATE NOTIFICATION INTEGRATION",
+        "CREATE SECURITY INTEGRATION",
+        "CREATE STORAGE INTEGRATION",
+        "OR REPLACE and IF NOT EXISTS clauses are mutually exclusive; they cannot both be used in the same statement.",
+        "CREATE OR REPLACE <object> statements are atomic. That is, when an object is replaced, the old object is deleted and the new object is created in a single transaction.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

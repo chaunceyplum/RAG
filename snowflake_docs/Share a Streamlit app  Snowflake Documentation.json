@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/streamlit-apps/manage-apps/share-app",
+    "title": "Share a Streamlit app | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Before sharing a Streamlit app with Snowflake CLI, you should meet the following prerequisites:",
+        "Ensure that your account has the correct privileges as described in Privileges required to create and use a Streamlit app.",
+        "Ensure that the app is already deployed in your connection.",
+        "Ensure that your connection has the right ROLE and that the connnection uses the correct database and schema.",
+        "To share a Streamlit app from the stage, enter the following command:",
+        "For more information about sharing Streamlit apps, see the CLI snow streamlit share command.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

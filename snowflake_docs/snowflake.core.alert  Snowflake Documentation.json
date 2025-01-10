@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.alert",
+    "title": "snowflake.core.alert | Snowflake Documentation",
+    "paragraphs": [
+        "Manages Snowflake Alerts.",
+        "Classes",
+        "Alert(*,\u00a0name[,\u00a0comment,\u00a0warehouse,\u00a0...])",
+        "A model object representing the Alert resource.",
+        "AlertResource(name,\u00a0collection)",
+        "Represents a reference to a Snowflake Alert resource.",
+        "AlertCollection(schema)",
+        "Represents the collection operations on the Snowflake Alert resource.",
+        "AlertClone(*,\u00a0name[,\u00a0point_of_time])",
+        "A model object representing the AlertClone resource.",
+        "CronSchedule(*,\u00a0cron_expr,\u00a0timezone)",
+        "A model object representing the CronSchedule resource.",
+        "MinutesSchedule(*,\u00a0minutes)",
+        "A model object representing the MinutesSchedule resource.",
+        "Was this page helpful?"
+    ]
+}

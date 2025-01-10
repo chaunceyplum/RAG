@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-dynamic-table",
+    "title": "DROP DYNAMIC TABLE | Snowflake Documentation",
+    "paragraphs": [
+        "Removes a dynamic table from the current/specified schema.",
+        "CREATE DYNAMIC TABLE, ALTER DYNAMIC TABLE, DESCRIBE DYNAMIC TABLE,\nSHOW DYNAMIC TABLES, UNDROP DYNAMIC TABLE",
+        "Specifies the identifier for the dynamic table to drop. If the identifier contains spaces, special characters, or mixed-case\ncharacters, the entire string must be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive\n(e.g. \"My Object\").",
+        "If the table identifier is not fully-qualified (in the form of db_name.schema_name.table_name or\nschema_name.table_name), the command looks for the table in the current schema for the session.",
+        "To drop a dynamic table, you must be using a role that has OWNERSHIP privilege on that dynamic table.",
+        "You can also drop a dynamic table using the DROP TABLE command.",
+        "Drop the dynamic table named product:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

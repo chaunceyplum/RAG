@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-03-05-snowflake-cortex-llm-functions",
+    "title": "March 05, 2024 \u2014 Snowflake Cortex LLM Functions Release Notes \u2013\u2014 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the preview of Snowflake Cortex LLM functions, which provide instant\naccess to a suite of features powered by state-of-the-art large language models (LLMs). These models are fully hosted\nand managed by Snowflake, so they require no setup and operate within the Snowflake governance and security framework.",
+        "The available functions include:",
+        "COMPLETE: Given a prompt, returns a response that completes the prompt. This function accepts either a single prompt\nor a conversation with multiple prompts and responses.",
+        "EXTRACT_ANSWER: Given a question and unstructured data, returns the answer to the question if it can be found in the\ndata.",
+        "SENTIMENT: Returns a sentiment score, from -1 to 1, representing the detected positive or negative sentiment of the\ngiven text.",
+        "SUMMARIZE: Summarizes the given text.",
+        "TRANSLATE: Translates the given text from any supported language to any other.",
+        "For more information, see\nSnowflake Cortex Large Language Model (LLM) Functions.",
+        "Was this page helpful?"
+    ]
+}

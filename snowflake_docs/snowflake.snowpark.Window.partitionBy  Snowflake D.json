@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Window.partitionBy",
+    "title": "snowflake.snowpark.Window.partitionBy | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a WindowSpec object with partition by clause.",
+        "cols \u2013 A column, as str, Column\nor a list of those.",
+        "Was this page helpful?"
+    ]
+}

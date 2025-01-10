@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.add_packages",
+    "title": "snowflake.snowpark.Session.add_packages | Snowflake Documentation",
+    "paragraphs": [
+        "Adds third-party packages as dependencies of a user-defined function (UDF).\nUse this method to add packages for UDFs as installing packages using\nconda. You can also find examples in\nUDFRegistration. See details of\nthird-party Python packages in Snowflake.",
+        "To use Python packages that are not available in Snowflake, refer to custom_package_usage_config().",
+        "packages \u2013 A requirement specifier,\na module object or a list of them for installing the packages. An exception\nwill be raised if two conflicting requirement specifiers are provided.\nThe syntax of a requirement specifier is defined in full in\nPEP 508, but currently only the\nversion matching clause (==)\nis supported as a version specifier\nfor this argument. If a module object is provided, the package will be\ninstalled with the version in the local environment.",
+        "Example:",
+        "Note",
+        "1. This method will add packages for all UDFs created later in the current\nsession. If you only want to add packages for a specific UDF, you can use\npackages argument in functions.udf() or\nsession.udf.register().",
+        "2. We recommend you to setup the local environment with Anaconda,\nto ensure the consistent experience of a UDF between your local environment\nand the Snowflake server.",
+        "Was this page helpful?"
+    ]
+}

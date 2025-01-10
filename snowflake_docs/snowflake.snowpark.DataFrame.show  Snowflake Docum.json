@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.show",
+    "title": "snowflake.snowpark.DataFrame.show | Snowflake Documentation",
+    "paragraphs": [
+        "Evaluates this DataFrame and prints out the first n rows with the\nspecified maximum number of characters per column.",
+        "n \u2013 The number of rows to print out.",
+        "max_width \u2013 The maximum number of characters to print out for each column.\nIf the number of characters exceeds the maximum, the method prints out\nan ellipsis (\u2026) at the end of the column.",
+        "statement_params \u2013 Dictionary of statement level parameters to be set while executing this action.",
+        "Was this page helpful?"
+    ]
+}

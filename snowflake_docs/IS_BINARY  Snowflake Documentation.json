@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/is_binary",
+    "title": "IS_BINARY | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Type Predicates)",
+        "Returns TRUE if its VARIANT argument contains a binary string value.",
+        "IS_<object_type>",
+        "An expression that evaluates to a value of type VARIANT.",
+        "Returns a BOOLEAN value or NULL.",
+        "Returns TRUE if the VARIANT value contains a BINARY value. Otherwise, returns FALSE.",
+        "If the input is NULL, returns NULL without reporting an error.",
+        "Return all of the BINARY values in a VARIANT column.",
+        "Note",
+        "The output format for BINARY values is set using the BINARY_OUTPUT_FORMAT parameter.\nThe default setting is HEX.",
+        "Create and load a table with a BINARY value in a VARIANT column:",
+        "Show the BINARY values in the data by using the IS_BINARY function in a WHERE clause:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

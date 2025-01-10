@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/sql/execute-sql",
+    "title": "Executing SQL statements | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Snowflake CLI lets you execute SQL queries, ad-hoc queries or files containing SQL queries, by using the snow sql command.",
+        "To execute an ad-hoc query, run a command similar to the following:",
+        "To execute a file containing a SQL query, run a command similar to the following:",
+        "The snow sql command can execute multiple statements, in which case multiple result sets are returned. For example running:",
+        "results in the following output:",
+        "For more information, see the snow sql command.",
+        "In certain situations, you might want to change your SQL queries based on the context. The snow sql command supports client-side variable substitution that lets you use variables in the command that are resolved locally before submitting the query.  Variables in the SQL string take the form <% variable_name %>, and the -D (or --variable) option specifies the value of the variable.",
+        "Note",
+        "You can currently use the SnowSQL &variable_name and <% variable_name %> syntax for templates. However, Snowflake recommends using the <% variable_name %> syntax.",
+        "For example, to specify a database using a client-side variable, you can enter a command similar to the following:",
+        "When executed, the command substitutes the value dev in the <% database %> variable to create the dev.logs filename and then sends the select * from dev.logs SQL query to Snowflake for processing.",
+        "You can also specify multiple variable inputs, as shown:",
+        "This example generates the following SQL query:",
+        "Specifying variables as snow sql command-line options might not always be practical, or perhaps you might not want to specify sensitive values on the command line. In such cases, you can define variables and values in the snowflake.yml project definition file. Then you can just specify the variable names in the form <% ctx.env.<variable_name> %> instead of using the -D \"<variable> = <value>\" option.",
+        "Using the example from the previous section, you could store the database and role variables in snowflake.yml file and change the query to:",
+        "In this example, the snow sql command looks for the variable definitions in the project definition file and extracts the values without making them visible on the command line.\nThe snowflake.yml file should be located either in the current working directory or in the location specified with the -p option.",
+        "For more information about storing these values in the project definition file, see Use variables in SQL.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

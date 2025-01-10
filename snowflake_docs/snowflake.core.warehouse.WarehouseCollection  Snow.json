@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.warehouse.WarehouseCollection",
+    "title": "snowflake.core.warehouse.WarehouseCollection | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: AccountObjectCollectionParent[WarehouseResource]",
+        "Represents the collection operations of the Snowflake Warehouse resource.",
+        "With this collection, you can create, iterate through, and search for warehouses that you have access to\nin the current context.",
+        "Examples",
+        "Creating a warehouse instance:",
+        "Attributes",
+        "Methods",
+        "Create a warehouse in Snowflake.",
+        "warehouse (Warehouse)",
+        "mode (CreateMode, optional) \u2013",
+        "One of the below enum values.",
+        "CreateMode.error_if_exists: Throw an snowflake.core.exceptions.ConflictError if the\nwarehouse already exists in Snowflake. Equivalent to SQL create warehouse <name> ....",
+        "CreateMode.or_replace: Replace if the warehouse already exists in Snowflake. Equivalent to SQL\ncreate or replace warehouse <name> ....",
+        "CreateMode.if_not_exists: Do nothing if the warehouse already exists in Snowflake. Equivalent to SQL\ncreate warehouse <name> if not exists...",
+        "Default value is CreateMode.error_if_exists.",
+        "",
+        "Examples",
+        "Creating a warehouse in Snowflake and getting the reference to it:",
+        "Iterate through Warehouse objects in Snowflake, filtering on any optional like pattern.",
+        "like (str, optional) \u2013 A case-insensitive string functioning as a filter, with support for SQL\nwildcard characters (% and _).",
+        "Examples",
+        "Showing all warehouses that you have access to see:",
+        "Showing information of the exact warehouse you want to see:",
+        "Showing warehouses starting with \u2018your-warehouse-name-\u2018:",
+        "Using a for loop to retrieve information from iterator:",
+        "Was this page helpful?"
+    ]
+}

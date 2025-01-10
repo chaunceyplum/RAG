@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/un-bundled/bcr-1013-1014",
+    "title": "Stronger UTF-8 validation for external files | Snowflake Documentation",
+    "paragraphs": [
+        "This behavior change has been implemented with the 7.34 release. For the most up-to-date details about behavior changes,\nsee the Behavior Change Log.",
+        "Snowflake has stronger UTF-8 validation for external files.",
+        "When you query external Avro, Parquet, Orc, CSV, JSON, or XML files that contain invalid UTF-8 data, the queries usually succeed.",
+        "When you query external Avro, Parquet, Orc, CSV, JSON, or XML files on a stage that contain invalid UTF-8 data, the queries fail.",
+        "If you load external files with COPY INTO <table> or Snowpipe\nthat contain invalid UTF-8 data, Snowflake proceeds with the copy option ON_ERROR specified in the object definition.",
+        "When you query an external table, Snowflake omits results for records that contain invalid UTF-8 data.\nAfter encountering invalid data, Snowflake continues to scan the file (similar to ON_ERROR = CONTINUE) but doesn\u2019t return an error message.",
+        "To avoid UTF-8 validation errors, Snowflake recommends that you specify REPLACE_INVALID_CHARACTERS = TRUE for your file format\nso that any invalid UTF-8 characters will be replaced with the Unicode replacement character (\ufffd).",
+        "For Parquet files, you can also set BINARY_AS_TEXT = FALSE for your file format so that the columns\nwith no defined logical data type will be interpreted as binary data instead of as UTF-8 text.",
+        "Note that this behavior change does not apply to existing accounts that are currently loading invalid UTF8.\nIt only affects new accounts. For any issues, contact Snowflake Support.",
+        "Ref: 1013 1014",
+        "Was this page helpful?"
+    ]
+}

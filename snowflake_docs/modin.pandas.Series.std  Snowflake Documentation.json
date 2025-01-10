@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.std",
+    "title": "modin.pandas.Series.std | Snowflake Documentation",
+    "paragraphs": [
+        "Return sample standard deviation over requested axis.",
+        "Normalized by N-1 by default. This can be changed using the ddof argument.",
+        "axis ({index (0), columns (1)}) \u2013 For Series this parameter is unused and defaults to 0.",
+        "skipna (bool, default True) \u2013 Exclude NA/null values. If an entire row/column is NA, the result\nwill be NA.",
+        "ddof (int, default 1) \u2013 Delta Degrees of Freedom. The divisor used in calculations is N - ddof,\nwhere N represents the number of elements.",
+        "numeric_only (bool, default False) \u2013 If True, Include only float, int, boolean columns. Not implemented for Series.",
+        "Series",
+        "Notes",
+        "To have the same behaviour as numpy.std, use ddof=0 (instead of the\ndefault ddof=1)",
+        "Examples",
+        "The standard deviation of the columns can be found as follows:",
+        "Alternatively, ddof=0 can be set to normalize by N instead of N-1:",
+        "Was this page helpful?"
+    ]
+}

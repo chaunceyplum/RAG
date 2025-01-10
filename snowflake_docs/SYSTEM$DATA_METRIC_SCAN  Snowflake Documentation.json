@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_data_metric_scan",
+    "title": "SYSTEM$DATA_METRIC_SCAN | Snowflake Documentation",
+    "paragraphs": [
+        "System functions, Table functions",
+        "Enterprise Edition Feature",
+        "Data Quality and data metric functions (DMFs) require Enterprise Edition. To inquire about upgrading, please contact\nSnowflake Support.",
+        "Returns the rows identified by a data quality metric as containing data that failed a data quality\ncheck. For example, if you use the NULL_COUNT data metric function as an argument, the function returns the rows in the table that contain a\nNULL value in a specific column.",
+        "Required:",
+        "Name of the table or view on which the specified data metric function will run. The function returns rows from this object.",
+        "Name of the system data metric that you want to run to evaluate the specified table or view. Only the following system functions are\nsupported:",
+        "SNOWFLAKE.CORE.NULL_COUNT",
+        "SNOWFLAKE.CORE.NULL_PERCENT",
+        "SNOWFLAKE.CORE.BLANK_COUNT",
+        "SNOWFLAKE.CORE.BLANK_PERCENT",
+        "SNOWFLAKE.CORE.DUPLICATE_COUNT",
+        "Name of the column in the specified table or view that is being passed as an argument to the specified data metric function.",
+        "Optional:",
+        "Timestamp that is being passed as an argument to check the results of a DMF evaluation on the table or view in the past.",
+        "Rows from the specified table or view.",
+        "Executing this function requires the following privileges:",
+        "SELECT on the specified table.",
+        "USAGE on the specified data metric function.",
+        "This function does not support user-defined metrics.",
+        "If the specified table is protected by a policy, such as a masking policy or row access policy, the function might return unexpected or\nincomplete data because results depend on the user\u2019s role when executing the function.",
+        "Given that the SNOWFLAKE.CORE.NULL_COUNT system metric returns the total number of NULL values in a particular column, the following returns\nthe rows of the employeesTable table that have NULL values in the SSN column.",
+        "Given that the SNOWFLAKE.CORE.BLANK_COUNT system metric returns the count of how many values in a column are blank, the following returns\nthe rows of the employeesTable table that had a blank value in the name column  in the version of the table that existed at a specific time in the past.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

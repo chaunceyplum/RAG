@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.update",
+    "title": "modin.pandas.Series.update | Snowflake Documentation",
+    "paragraphs": [
+        "Modify Series in place using values from passed Series.",
+        "Was this page helpful?"
+    ]
+}

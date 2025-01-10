@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/current_account",
+    "title": "CURRENT_ACCOUNT | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (Session)",
+        "Returns the account locator used by the user\u2019s current session.",
+        "Note",
+        "If you want to find the account name rather than the account locator, use\nCURRENT_ACCOUNT_NAME instead. The preferred account identifier (orgname-account_name) uses\nthe account name, not the account locator.",
+        "None.",
+        "The data type of the returned value is VARCHAR.",
+        "This shows how to call the CURRENT_ACCOUNT function:",
+        "Output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

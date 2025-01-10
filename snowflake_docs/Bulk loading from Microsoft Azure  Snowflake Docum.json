@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/data-load-azure",
+    "title": "Bulk loading from Microsoft Azure | Snowflake Documentation",
+    "paragraphs": [
+        "If you already have a Microsoft Azure account and use Azure blob storage containers for storing and managing your data files, you can make\nuse of your existing containers and folder paths for bulk loading into Snowflake.",
+        "Note",
+        "To harden your security posture, you can configure your bulk load to use private connectivity rather than the public Internet. For more\ninformation, see Azure private connectivity for external stages and Snowpipe automation.",
+        "This set of topics describes how to use the COPY command to load data from an Azure container into tables.",
+        "Snowflake currently supports loading from blob storage only. Snowflake supports the following types of storage accounts:",
+        "Blob storage",
+        "Data Lake Storage Gen2",
+        "General-purpose v1",
+        "General-purpose v2",
+        "Snowflake does not support Data Lake Storage Gen1.",
+        "Note",
+        "Loading from block, append, and page blobs is supported. Unloaded files are created as block blobs. For information about these blob\ntypes, see the Azure documentation on blob types.",
+        "If a hierarchical namespace is enabled on Data Lake Storage Gen2, Snowflake doesn\u2019t support purging files with the COPY command. A\nhierarchical namespace organizes data into directories and subdirectories. Azure only allows you to delete empty directories, which means\nthat you can\u2019t delete directories recursively by using the PURGE option with the COPY command.",
+        "As illustrated in the diagram below, loading data from an Azure container is performed in two steps:",
+        "Snowflake assumes the data files have already been staged in an Azure container. If they haven\u2019t been staged yet, use the upload interfaces/utilities provided by Microsoft to stage the files.",
+        "Use the COPY INTO <table> command to load the contents of the staged file(s) into a Snowflake database table. You can load directly from the bucket, but\nSnowflake recommends creating an external stage that references the bucket and using the external stage instead.",
+        "Regardless of the method you use, this step requires a running, current virtual warehouse for the session if you execute the command\nmanually or within a script. The warehouse provides the compute resources to perform the actual insertion of rows into the table.",
+        "Note",
+        "As long as your Snowflake account is hosted on Azure, your network traffic does not traverse the public internet.",
+        "Tip",
+        "The instructions in this set of topics assume you have read Preparing to load data and have created a named file format, if desired.",
+        "Before you begin, you may also want to read Data loading considerations for best practices, tips, and other guidance.",
+        "Next Topics:",
+        "Configuration tasks (complete as needed):",
+        "Data loading tasks (complete for each set of files you load):",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

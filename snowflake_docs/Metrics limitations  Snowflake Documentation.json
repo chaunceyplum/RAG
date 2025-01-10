@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/logging-tracing/metrics-limitations",
+    "title": "Metrics limitations | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Metrics data collection is a preview feature available to all accounts.",
+        "Metrics are collected from the Python and Java environments at regular 10-second intervals.\nIf a UDF or stored procedure is completed before the first interval, no metrics are collected for the execution.",
+        "Snowpark CPU and memory metrics are not supported for JavaScript stored procedures or UDFs.",
+        "Was this page helpful?"
+    ]
+}

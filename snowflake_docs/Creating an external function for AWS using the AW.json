@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/external-functions-creating-aws-ui",
+    "title": "Creating an external function for AWS using the AWS Management Console | Snowflake Documentation",
+    "paragraphs": [
+        "These topics provide detailed instructions for using the AWS Management Console user interface to create an external function\nhosted on AWS (Amazon Web Services). You can use these instructions either to create the sample external function provided by\nSnowflake or as a guide to create your own external function.",
+        "These topics explain how to:",
+        "Create a basic AWS Lambda Function as a remote service and an Amazon API Gateway as a proxy service.",
+        "Create an API integration and the external function itself in Snowflake.",
+        "Link the API integration to the API Management service.",
+        "Secure the API Management service through a security policy.",
+        "These topics assume that you are already familiar with the AWS Management Console. They describe the general steps that you need\nto complete, but do not describe the Console in detail.",
+        "See also:",
+        "Planning an external function for AWS",
+        "Steps:",
+        "Was this page helpful?"
+    ]
+}

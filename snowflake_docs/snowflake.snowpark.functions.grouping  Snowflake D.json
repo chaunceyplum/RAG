@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.grouping",
+    "title": "snowflake.snowpark.functions.grouping | Snowflake Documentation",
+    "paragraphs": [
+        "Describes which of a list of expressions are grouped in a row produced by a GROUP BY query.",
+        "grouping_id() is an alias of grouping().",
+        "Was this page helpful?"
+    ]
+}

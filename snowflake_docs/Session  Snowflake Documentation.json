@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/session#examples",
+    "title": "Session | Snowflake Documentation",
+    "paragraphs": [
+        "modin.pandas.session is the Snowpark session that new\nSnowpark pandas DataFrames and Series will use to execute queries.",
+        "session starts as None.",
+        "When there is no active Snowpark session and session is None, accessing\nsession or creating a Snowpark pandas Dataframe or Series will raise an\nexception. You will need to create a Snowpark session to acccess session or\ncreate a DataFrame or Series.",
+        "When there a single active Snowpark session and session is None,\nSnowpark pandas automatically assigns that session to session.",
+        "When there are multiple active Snowpark sessions and session is None,\naccessing session or creating a Snowpark pandas Dataframe or Series will\nraise an exception. To make Snowpark pandas populate\nmodin.pandas.session, you can\nclose\none of the sessions, or assign a particular session to session. For\nexample, if you execute modin.pandas.session = session1,\nSnowpark pandas will use session1.",
+        "If you have set a default Snowflake connection,\nyou can use use that connection to create a Snowpark session for Snowpark pandas:",
+        "Note that Snowpark pandas uses the unique active Snowpark session, even though\nthe code does not explicitly assign that session to Snowpark pandas.",
+        "You can create multiple Snowpark sessions, then assign one of them to Snowpark\npandas.",
+        "The code below will cause a SnowparkSessionException\nwith a message like Snowpark pandas requires an active snowpark session, but there is none.\nOnce you create a session, you can use Snowpark pandas.",
+        "The code below will cause a SnowparkSessionException\nwith a message like There are multiple active snowpark sessions, but you need\nto choose one for Snowpark pandas.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

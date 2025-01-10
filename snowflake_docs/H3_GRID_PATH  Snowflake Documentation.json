@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/h3_grid_path",
+    "title": "H3_GRID_PATH | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns an array of the IDs of the H3 cells that represent\nthe line between two cells. The IDs in the returned ARRAY are INTEGER values (if INTEGER values were provided as the input IDs)\nor VARCHAR values containing the hexadecimal IDs (if hexadecimal IDs were provided as the input IDs).",
+        "An INTEGER that represents the H3 cell ID (index), or a VARCHAR that represents the cell ID in hexadecimal format.",
+        "An INTEGER that represents the H3 cell ID (index), or a VARCHAR that represents the cell ID in hexadecimal format.",
+        "Returns an ARRAY of the IDs of H3 cells that represent the line between the cells specified by cell_id_1 and\ncell_id_2. The IDs are in one of the following formats:",
+        "If cell_id_1 and cell_id_2 are INTEGER values, the function returns the IDs as INTEGER values.",
+        "If cell_id_1 and cell_id_2 are VARCHAR values containing the hexadecimal IDs, the function returns the\nhexadecimal IDs as VARCHAR values.",
+        "The two input cell IDs must use the same resolution.",
+        "The following example returns an ARRAY of the IDs of H3 cells that represent the line between the cells with the IDs\n617540519103561727 and 617540519052967935 (both specified as INTEGER values).",
+        "The following example returns an ARRAY of the IDs of H3 cells that represent the line between the cells with the IDs\n891f1d48b93ffff and 891f1d4888fffff (both specified as VARCHAR values).",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

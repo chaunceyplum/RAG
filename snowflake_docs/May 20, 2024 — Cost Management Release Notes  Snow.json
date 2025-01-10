@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-05-20-cost",
+    "title": "May 20, 2024 \u2014 Cost Management Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release we are pleased to announce the general availability of cost insights, a cost management tool that lets you identify\nopportunities for savings within an account. There are several different cost insights. For example, one cost insight identifies large\ntables that are rarely queried, giving you an opportunity to optimize your spend on storage by potentially dropping the table. Another\ninsight identifies data that could be stored in temporary or transient tables, which saves on Fail-safe and Time Travel costs.",
+        "The cost insights appear as a tile on the Account Overview page, which is available from Admin \u00bb Cost Management.",
+        "For more information about the available insights along with recommended actions to take to optimize your spend, see\nCost insights: Finding opportunities for savings.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

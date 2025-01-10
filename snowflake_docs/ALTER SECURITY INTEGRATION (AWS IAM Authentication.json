@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/alter-security-integration-aws-iam",
+    "title": "ALTER SECURITY INTEGRATION (AWS IAM Authentication) | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to all accounts.",
+        "Modifies the properties of an existing security integration created for authenticating with AWS IAM.",
+        "For information about modifying other types of security integrations (such as Snowflake OAuth), see ALTER SECURITY INTEGRATION.",
+        "CREATE SECURITY INTEGRATION (AWS IAM Authentication) , DESCRIBE INTEGRATION , DROP INTEGRATION , SHOW INTEGRATIONS",
+        "String that specifies the identifier (such as the name) for the integration.",
+        "Specifies one or more properties/parameters to set for the integration (separated by blank spaces, commas, or new lines):",
+        "Specifies that the integration uses AWS IAM to authenticate to the external service.",
+        "Specifies whether to enable or disable this security integration.",
+        "Allows the integration to run based on the parameters specified in the integration definition.",
+        "Suspends the integration for maintenance. Any integration between Snowflake and a third-party service fails to work.",
+        "Specifies the Amazon Resource Name (ARN) of the AWS identity and access management (IAM) role that grants privileges for AWS resources.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "OWNERSHIP",
+        "Integration",
+        "OWNERSHIP is a special privilege on an object that is automatically granted to the role that created the object, but can also be transferred using the GRANT OWNERSHIP command to a different role by the owning role (or any role with the MANAGE GRANTS privilege).",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "Regarding metadata:",
+        "Attention",
+        "Customers should ensure that no personal data (other than for a User object), sensitive data, export-controlled data, or other regulated data is entered as metadata when using the Snowflake service. For more information, see Metadata fields in Snowflake.",
+        "The following example initiates operation of a suspended integration:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

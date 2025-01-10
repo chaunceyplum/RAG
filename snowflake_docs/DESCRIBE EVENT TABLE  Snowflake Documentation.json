@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-event-table",
+    "title": "DESCRIBE EVENT TABLE | Snowflake Documentation",
+    "paragraphs": [
+        "Describes the columns in an event table.",
+        "DESCRIBE can be abbreviated to DESC.",
+        "ALTER TABLE (event tables) , CREATE EVENT TABLE , SHOW EVENT TABLES",
+        "Specifies the identifier for the event table to describe. If the identifier contains spaces or special characters, the entire\nstring must be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "This command does not show the object parameters for a table. Instead, use\nSHOW PARAMETERS IN TABLE \u2026.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "Describe the columns in the event table named my_logged_events:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.types.PandasSeries",
+    "title": "snowflake.snowpark.types.PandasSeries | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: Series, Generic[_T]",
+        "The type hint for annotating pandas Series data when registering UDFs.",
+        "Methods",
+        "Attributes",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/alter-security-integration",
+    "title": "ALTER SECURITY INTEGRATION | Snowflake Documentation",
+    "paragraphs": [
+        "Modifies the properties for an existing security integration.",
+        "CREATE SECURITY INTEGRATION , DROP INTEGRATION , SHOW INTEGRATIONS , DESCRIBE INTEGRATION",
+        "The syntax varies considerably among security environments (i.e. types of security integrations). For specific syntax, usage notes, and\nexamples, see:",
+        "ALTER SECURITY INTEGRATION (AWS IAM Authentication)",
+        "ALTER SECURITY INTEGRATION (External API Authentication)",
+        "ALTER SECURITY INTEGRATION (External OAuth)",
+        "ALTER SECURITY INTEGRATION (Snowflake OAuth)",
+        "ALTER SECURITY INTEGRATION (SAML2)",
+        "ALTER SECURITY INTEGRATION (SCIM)",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_show_event_sharing_accounts",
+    "title": "SYSTEM$SHOW_EVENT_SHARING_ACCOUNTS | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Shows event accounts in a provider organization.",
+        "This system function returns a string in JSON format containing a list of event accounts within the organization.\nBecause the metadata takes some time to propagate to all regions, this function might experience some delay when\nshowing latest events account after the user sets or unsets an events account for the organization.",
+        "None.",
+        "Only users with the ORGADMIN role can execute this SQL function.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

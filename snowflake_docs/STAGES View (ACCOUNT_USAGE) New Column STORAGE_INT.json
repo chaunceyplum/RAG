@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_04/bcr-1547",
+    "title": "STAGES View (ACCOUNT_USAGE): New Column STORAGE_INTEGRATION | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, the ACCOUNT_USAGE.STAGES view includes the following new column:",
+        "Column name",
+        "Data type",
+        "Description",
+        "STORAGE_INTEGRATION",
+        "TEXT",
+        "The name of the storage integration associated with the stage; NULL for\ninternal stages or stages that do not use a storage integration.",
+        "Ref: 1547",
+        "Was this page helpful?"
+    ]
+}

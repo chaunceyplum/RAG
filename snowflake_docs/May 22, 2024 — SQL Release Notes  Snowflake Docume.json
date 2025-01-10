@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-05-22-table-references",
+    "title": "May 22, 2024 \u2014 SQL Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "You can now use the TABLE keyword to get a\nreference to a table, view, secure view, or query.",
+        "The reference created by this keyword is valid only for the scope of the call. In addition, the reference only confers the SELECT\nprivilege on the table, view, or secure view.",
+        "For example, rather than calling the SYSTEM$REFERENCE function to get a reference to a table:",
+        "you can use the TABLE keyword:",
+        "For details, see Using the TABLE keyword to create a reference to a table, view, or query.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

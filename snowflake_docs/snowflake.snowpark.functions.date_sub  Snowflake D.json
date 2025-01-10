@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.date_sub",
+    "title": "snowflake.snowpark.functions.date_sub | Snowflake Documentation",
+    "paragraphs": [
+        "Subtracts a number of days from a date column.",
+        "col \u2013 The column to subtract from.",
+        "num_of_days \u2013 The number of days to subtract.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/git/git-limitations",
+    "title": "Git in Snowflake limitations | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Using a Git repository in Snowflake is not supported in the Gov region.",
+        "This topic describes limitations for using Git repositories from within Snowflake.",
+        "Currently, only Notebooks applications can write to the repository. For other Snowflake code, access to the repository is read-only.",
+        "Access to Git repositories from Snowflake is supported only over the public internet. For example, access is not supported to\nrepositories that are behind a private network.",
+        "Sharing repository stages is not supported through data sharing or apps built on the Snowflake Native App Framework.",
+        "Creating repository stages inside application packages is not supported and might be blocked in the future.",
+        "Creating repository stages inside native applications on the consumer side is not supported.",
+        "Accessing files from a repository stage may perform more slowly than accessing files from an internal Snowflake stage.",
+        "Snowflake doesn\u2019t currently support submodules, so you won\u2019t be able to see submodule files. Snowflake won\u2019t download those files\nfrom the remote repository nor upload them to the remote repository.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

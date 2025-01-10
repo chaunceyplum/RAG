@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_get_cmk_akv_consent_url",
+    "title": "SYSTEM$GET_CMK_AKV_CONSENT_URL | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Returns a consent URL to the Azure Key Vault account related to customer-managed keys.",
+        "You can use the consent URL for your customer-managed keys with Tri-Secret Secure for Snowflake accounts on Microsoft Azure.",
+        "Customer-managed keys",
+        "Specifies the account identifier for your Snowflake account on Azure.",
+        "Required.",
+        "Specifies the unique identifier for the tenant in your Azure\nsubscription. This value is in the GUID/UUID format, such as b3ddabe4-e5ed-4e71-8827-0cefb99af240.",
+        "Required.",
+        "To locate this value, follow the instructions in How to find your Azure Active Directory tenant ID.",
+        "This function is for use in Snowflake accounts on Microsoft Azure only.",
+        "Only account administrators (i.e. users with the ACCOUNTADMIN role) or a role that is granted the global MONITOR SECURITY privilege can\ncall this function.",
+        "Return the consent URL to the Azure Key Vault account related to customer-managed keys, where my-account\nis the Snowflake account identifier in the account name format for your Snowflake account on Azure and\nb3ddabe4-e5ed-4e71-8827-0cefb99af240 is the tenant identifier for your Azure subscription:",
+        "Returns:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

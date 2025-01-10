@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.exceptions.SnowparkSessionException",
+    "title": "snowflake.snowpark.exceptions.SnowparkSessionException | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SnowparkServerException",
+        "Exception for any session related errors.",
+        "Includes error codes: 1402, 1403, 1404, 1405.",
+        "Was this page helpful?"
+    ]
+}

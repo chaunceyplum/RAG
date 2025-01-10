@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/ui/2024-05-14",
+    "title": "May 14, 2024 \u2014 Snowsight Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "This document provides an overview of the new features, enhancements, and other important changes introduced in this update to\nSnowsight.",
+        "If you have additional questions, please feel free to contact Snowflake Support.",
+        "With this release, we are pleased to announce the preview of task editing in Snowsight.",
+        "You can now edit the following fields in your existing tasks:",
+        "Comment",
+        "Schedule",
+        "Compute type and warehouse",
+        "Task parameters",
+        "Task graph parameters",
+        "For more information, see View and manage individual tasks.",
+        "With this release, we are pleased to announce that finalizer tasks are now linked to the root task of task graphs in the task graph view.",
+        "For more information, see View and manage task graphs.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

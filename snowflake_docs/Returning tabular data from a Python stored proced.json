@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/stored-procedure/python/procedure-python-tabular-data",
+    "title": "Returning tabular data from a Python stored procedure | Snowflake Documentation",
+    "paragraphs": [
+        "You can write a procedure that returns data in tabular form. To write a procedure that returns tabular data, do the following:",
+        "Specify TABLE(...) as the procedure\u2019s return type in your CREATE PROCEDURE statement.",
+        "As TABLE parameters, you can specify the returned data\u2019s column names and types if you know them.\nIf you don\u2019t know the returned columns when defining the procedure \u2014 such as when they\u2019re specified at run time \u2014 you can leave out the\nTABLE parameters. When you do, the procedure\u2019s return value columns will be converted from the columns in the DataFrame returned by its\nhandler. Column data types will be converted to SQL according to the mapping specified in SQL-Python Data Type Mappings.",
+        "Write the handler so that it returns the tabular result in a Snowpark DataFrame.",
+        "For more information about dataframes, see Working with DataFrames in Snowpark Python.",
+        "The examples in this section illustrate returning tabular values from a procedure that filters for rows where a column matches a string.",
+        "Code in the following example creates a table of employees.",
+        "This example specifies column names and types in the RETURNS TABLE() statement.",
+        "Code in the following example declares a procedure that allows return value column names and types to be extrapolated from columns in the\nhandler\u2019s return value. It omits the column names and types from the RETURNS TABLE() statement.",
+        "The following example calls the stored procedure:",
+        "The procedure call produces the following output:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

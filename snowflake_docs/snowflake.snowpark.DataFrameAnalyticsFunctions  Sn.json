@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrameAnalyticsFunctions",
+    "title": "snowflake.snowpark.DataFrameAnalyticsFunctions | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: object",
+        "Provides data analytics functions for DataFrames.\nTo access an object of this class, use DataFrame.analytics.",
+        "Methods",
+        "compute_lag(cols,\u00a0lags,\u00a0order_by,\u00a0group_by)",
+        "Creates lag columns to the specified columns of the DataFrame by grouping and ordering criteria.",
+        "compute_lead(cols,\u00a0leads,\u00a0order_by,\u00a0group_by)",
+        "Creates lead columns to the specified columns of the DataFrame by grouping and ordering criteria.",
+        "cumulative_agg(aggs,\u00a0group_by,\u00a0order_by,\u00a0...)",
+        "Applies cummulative aggregations to the specified columns of the DataFrame using defined window direction, and grouping and ordering criteria.",
+        "moving_agg(aggs,\u00a0window_sizes,\u00a0order_by,\u00a0...)",
+        "Applies moving aggregations to the specified columns of the DataFrame using defined window sizes, and grouping and ordering criteria.",
+        "time_series_agg(time_col,\u00a0aggs,\u00a0windows,\u00a0...)",
+        "Applies aggregations to the specified columns of the DataFrame over specified time windows, and grouping criteria.",
+        "Was this page helpful?"
+    ]
+}

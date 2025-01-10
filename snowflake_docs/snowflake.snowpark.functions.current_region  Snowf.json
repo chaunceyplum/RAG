@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.current_region",
+    "title": "snowflake.snowpark.functions.current_region | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the name of the region for the account where the current user is logged in.",
+        "Example",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/skew",
+    "title": "SKEW | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (General)",
+        "Returns the sample skewness of non-NULL records. If all records inside a group are NULL, the function returns NULL.",
+        "The following formula is used to compute the sample skewness:",
+        "where:",
+        "\\(n\\) denotes the number of non-null records.",
+        "\\(m_3\\) denotes the sample third central moment.",
+        "\\(k_2\\) denotes the symmetric unbiased estimator of the variance.",
+        "Intuitively, skew describes how asymmetric the underlying distribution is.",
+        "This is an expression that evaluates to a numeric data type (INTEGER, FLOAT, DECIMAL, etc.).",
+        "This function returns a value of type DOUBLE.",
+        "For inputs with fewer than three records, SKEW returns NULL.",
+        "Create a table and load the data:",
+        "Display the data:",
+        "Query the data:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.str.lstrip",
+    "title": "modin.pandas.Series.str.lstrip | Snowflake Documentation",
+    "paragraphs": [
+        "Remove leading characters.",
+        "Strip whitespaces (including newlines) or a set of specified characters from each string in the Series/Index from left side. Replaces any non-strings in Series with NaNs. Equivalent to str.lstrip().",
+        "to_strip (str or None, default None) \u2013 Specifying the set of characters to be removed. All combinations of this set of characters will be stripped. If None then whitespaces are removed.",
+        "Series or Index of object",
+        "See also",
+        "Remove leading and trailing characters in Series/Index.",
+        "Remove leading characters in Series/Index.",
+        "Remove trailing characters in Series/Index.",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

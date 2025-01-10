@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/external-functions-creating-azure-ui-proxy-service",
+    "title": "Step 2: Create the proxy service (Azure API Management service) in the Portal | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake does not send data (HTTP POST requests) directly to a remote service. Instead, Snowflake sends the data to a proxy service that\nrelays the data from Snowflake to the remote service (i.e. Azure Function) and back again.",
+        "This topic provides instructions for creating and configuring an Azure API Management service for use as the proxy service for your\nexternal function.",
+        "Step 1: Create the remote service (Azure function) in the Portal",
+        "The first step is to create the API Management service in the Azure Portal:",
+        "If you haven\u2019t already, log into the Portal.",
+        "To create the API Management service, follow the instructions provided in the Microsoft documentation:\nCreate an API Management service.",
+        "As you perform the tasks described in the instructions, remember to record the API Management service name (which might be titled\nResource name) in the API Management service name field in your tracking worksheet.",
+        "Note",
+        "Deploying the API Management service can take 30-40 minutes or more. When deployment completes, you should see a message similar\nto Your deployment is complete.",
+        "After the deployment completes, click the Go to resource button.",
+        "After you create the API Management service, the next step is to import and publish the Azure Functions app that contains the APIs\n(functions) to call through that API Management service:",
+        "To import and publish an Azure Function, follow the instructions provided in the Microsoft documentation:\nImport a function app.",
+        "This document includes instructions for other tasks, as well as importing APIs. For this demonstration, you typically need only the\ninstructions for importing an Azure Functions app as a new API.",
+        "As you perform the tasks described in the instructions, remember the following:",
+        "One of the steps requires that you specify an option for Product. For this demonstration, choose Starter rather\nthan Unlimited. For a production system, you might choose differently.",
+        "Record the API URL suffix in the API Management API URL suffix field in your tracking worksheet.",
+        "After completing the tasks to import an Azure Functions app, you should be back on the API Management service page.",
+        "Find and click on the Settings tab, which is next to the Design tab on the panel of the screen\nbelow your API\u2019s revision number (e.g. REVISION 1).",
+        "If the Subscription Required checkbox has a checkmark, then uncheck it unless you want to require a subscription.",
+        "If you do not see the Subscription section, scroll down.",
+        "Click the Save button.",
+        "Note",
+        "Snowflake strongly recommends\ncreating a security policy on the Azure API Management service.",
+        "You can create the security policy now or you can finish creating the external function first and test the external function before\ncreating the security policy. To simplify debugging, this topic finishes creating and testing the external function before creating\nthe security policy.",
+        "Step 3: Create the API integration for Azure in Snowflake",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

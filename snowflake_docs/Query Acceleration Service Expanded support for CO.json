@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_07/bcr-1749",
+    "title": "Query Acceleration Service: Expanded support for COPY statements | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_07 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The Query Acceleration Service (QAS) can accelerate\neligible queries by offloading portions of the query processing to\nserverless compute resources that are provided by the service.",
+        "QAS support for COPY statements changes as follows:",
+        "COPY statements are not accelerated by the Query Acceleration Service.",
+        "Eligible COPY statements are accelerated by the Query Acceleration Service and appear in the Account Usage\nQUERY_ACCELERATION_ELIGIBLE view.",
+        "This change might result in additional QAS usage for your account. Additionally, you can check the QUERY_ACCELERATION_ELIGIBLE\nview to see if you have new warehouses that may benefit from QAS.",
+        "Ref: 1749",
+        "Was this page helpful?"
+    ]
+}

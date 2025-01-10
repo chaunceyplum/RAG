@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.exceptions.RetryTimeoutError",
+    "title": "snowflake.core.exceptions.RetryTimeoutError | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SnowflakePythonError",
+        "Raised when a request times out after any amount of retries.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-ml/model-registry/partitioned-models",
+    "title": "Snowflake Model Registry: Partitioned Models | Snowflake Documentation",
+    "paragraphs": [
+        "Many datasets can be partitioned into multiple independent subsets. For example, a dataset containing sales data\nfor a chain of stores can be partitioned by store number. A separate model can then be trained for each partition.\nTraining and inference operations on the partitions can be parallelized, reducing the wall-clock time for these\noperations. Furthermore, since individual stores likely differ significantly in how their features affect their\nsales, this approach can lead to more accurate inference at the store level.",
+        "The Snowflake Model Registry supports distributed processing of training and inference of partitioned data when:",
+        "The dataset contains a column that reliably identifies partitions in the data.",
+        "The data in each individual partition is uncorrelated with the data in the other partitions and contains enough\nrows to train the model.",
+        "Models may be stateless (training is performed each time inference is called) or stateful (training is performed once\nbefore inference and retained for use in multiple inference operations).",
+        "With the Snowflake Model Registry, implement partitioned training and inference using\ncustom models. During inference, the model\ninference method partitions the dataset, generates predictions for each partition in parallel using all the nodes and\ncores in your warehouse, and combines the results into a single dataset afterward.",
+        "Note",
+        "For partitioned models, it\u2019s important to distinguish the registered model from the individual models that\nare created by or compose the registered model. Where possible, we will refer to the individual underlying models\nas submodels.",
+        "Note",
+        "Partitioned training and inference requires Snowpark ML (snowflake-ml-python package) version 1.5.0 or later.",
+        "The partitoned model class inherits from snowflake.ml.model.custom_model.CustomModel, and inference methods are\ndeclared with the @custom_model.partitioned_inference_api decorator (Snowpark ML version 1.5.4 or later) or\n@custom_model.inference_api decorator (Snowpark ML version 1.5.0 to 1.5.3). See\nWriting the Custom Model Class for information on defining standard custom models.",
+        "When logging the model, provide a function_type of TABLE_FUNCTION in the options dictionary along with any\nother options your model requires.",
+        "If your partitioned model also has regular (non-table) functions as methods, you can use the method_options\ndictionary to specify the type of each method instead.",
+        "Use the run method of a Python ModelVersion object to invoke the table function methods in a partitioned\nfashion, passing partition_column to specify the name of the column that contains a numeric or string value that\nidentifies the partition of each record. As usual, you may pass a Snowpark or pandas DataFrame (the latter is useful for\nlocal testing). You will receive the same type of DataFrame as the result.  In these examples, inference is partitioned\non a store number.",
+        "You can also call these methods using partitioned data from SQL, as shown here.",
+        "The input data is automatically split among the nodes and cores in your warehouse and the partitions are processed\nin parallel.",
+        "In the simplest application of partitioned models, training and inference are both done when predict is\ncalled. The model is fitted, inference is run, and the fitted model is discarded immediately afterward. This type\nof model is called \u201cstateless\u201d because no fit state is stored. Here is a example of where each partition trains\nan XGBoost model:",
+        "See the Partitioned Model Quickstart Guide\nfor an example of a stateless partitioned model, including sample data.",
+        "It\u2019s also possible to implement \u201cstateful\u201d partitioned models that load submodel fit state. This can be done by providing\nmodels in memory to the snowflake.ml.model.custom_model.ModelContext or by providing file paths pointing to fitted\nmodel artifacts when logging the model, then loading fitted models during inference.",
+        "The following example shows how to provide models in memory to the model context.",
+        "When logging my_stateful_model, the submodels provided in the context are stored along with all model files.\nThey can then be accessed in the inference method logic by retrieving them from context, as shown below:",
+        "It\u2019s also possible to access the models programmatically by partition ID in the predict method. If a partition column is\nprovided as an input feature, it can be used to access a model fitted for the partition. For example, if the partition column\nis MY_PARTITION_COLUMN, the following model class can be defined:",
+        "Similarly, submodels can be stored as artifacts and loaded at runtime. This approach is useful when the models are too\nlarge to fit into memory. Provide string file paths to the model context. The filepaths are accessible during inference\nwith self.context.path(artifact_id). For more information, see Defining Model Context.",
+        "See the Partitioned Model Quickstart Guide\nfor an example, including sample data.",
+        "See the Many Model Inference in Snowflake Quickstart Guide\nfor an example of a stateful partitioned custom model.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

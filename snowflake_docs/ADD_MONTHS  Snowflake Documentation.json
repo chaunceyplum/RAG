@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/add_months",
+    "title": "ADD_MONTHS | Snowflake Documentation",
+    "paragraphs": [
+        "Date & time functions",
+        "Adds or subtracts a specified number of months to a date or timestamp, preserving the end-of-month information.",
+        "Required:",
+        "This is the date or timestamp expression to which you want to add\na specified number of months.",
+        "This is the number of months you want to add. This should be an\ninteger. It may be positive or negative. If the value is a\nnon-integer numeric value (for example, FLOAT) the value will be\nrounded to the nearest integer.",
+        "The data type of the returned value is the same as the data type of the\nfirst parameter. For example, if the input is a DATE, then the\noutput is a DATE. If the input is a TIMESTAMP_NTZ, then the\noutput is a TIMESTAMP_NTZ.",
+        "ADD_MONTHS returns slightly different results than DATEADD used with a MONTH component:",
+        "For both ADD_MONTHS and DATEADD, if the result month has fewer days than the original day, the result day of the month is the last day of the result month.",
+        "For ADD_MONTHS only, if the original day is the last day of the month, the result day of month will be the last day of the result month.",
+        "num_months_expr can be a positive or negative integer to either add or subtract months, respectively.",
+        "Add 2 months to a date and cast the date to a timestamp with no time zone:",
+        "Demonstrate preservation of end-of-month information:",
+        "Add one month to the last day of February 2016 (a leap year).",
+        "Subtract one month from the last day of May 2016.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

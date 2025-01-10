@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_01/bcr-913",
+    "title": "Task Parameters Preserved When Cloning Databases, Schemas, and Tables | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When a schema, database, or table is cloned, the target (cloned) object now includes the same parameter set, with each parameter value\nset to match the source:",
+        "The following four parameters were not propagated to the clone target instance if set on the source schema or database:",
+        "ENABLE_STREAM_TASK_REPLICATION",
+        "SUSPEND_TASK_AFTER_NUM_FAILURES",
+        "USER_TASK_MANAGED_INITIAL_WAREHOUSE_SIZE",
+        "USER_TASK_TIMEOUT_MS",
+        "Note that these parameters do not apply to tables.",
+        "All parameters set on the schema, database, or table are now copied intact to the cloned target instance.",
+        "Ref: 913",
+        "Was this page helpful?"
+    ]
+}

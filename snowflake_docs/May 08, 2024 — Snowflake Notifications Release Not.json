@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-05-08",
+    "title": "May 08, 2024 \u2014 Snowflake Notifications Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "If you need to send notifications to an email address or a queue provided by a Cloud service (Amazon SNS, Google Cloud PubSub,\nor Azure Event Grid), use the\nSYSTEM$SEND_SNOWFLAKE_NOTIFICATION stored procedure.",
+        "With a single call to this stored procedure, you can:",
+        "Send a message to multiple types of destinations (email addresses and queues).",
+        "Send a message to multiple email addresses and queues.",
+        "Send a message in a specified format, according to the type of notification integration (plain text or HTML for email, or\nJSON for queues).",
+        "For example, with a single call, you can send messages in plain text, HTML, and JSON formats to multiple email addresses and\nmultiple SNS, PubSub, and Event Grid topics.",
+        "You can use multiple notification integrations to send the notification to different queues. You can also create multiple email\nnotification integrations that have different sets of email addresses and subject lines, making it easier to configure email\nmessages for different recipients.",
+        "For details, see Using SYSTEM$SEND_SNOWFLAKE_NOTIFICATION to send notifications.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

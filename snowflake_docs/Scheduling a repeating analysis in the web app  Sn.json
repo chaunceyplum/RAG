@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cleanrooms/schedule-analysis",
+    "title": "Scheduling a repeating analysis in the web app | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Some types of analyses can be scheduled to run automatically at a regular interval. These analyses include the following:",
+        "SQL Query template",
+        "Audience Overlap & Segmentation template",
+        "Custom templates created using the developer APIs",
+        "An administrator must configure the clean room environment to allow scheduled analyses before a user can schedule an analysis to repeat.",
+        "Limitation: Only consumers can schedule analyses.",
+        "An administrator with credentials to the Snowflake account associated with a clean room environment must enable scheduled analyses for the\nenvironment. Users cannot schedule an analysis until the administrator completes this step.",
+        "To enable scheduled analyses for the clean room environment:",
+        "Sign in to your clean room environment in the web app.",
+        "In the left navigation, select Admin \u00bb Snowflake Admin.",
+        "Select Login to Snowflake, and authenticate as a Snowflake user with the ACCOUNTADMIN role.",
+        "In the Account Features section, enable Schedule Analysis Run.",
+        "If an analysis template supports scheduling analyses, you can configure an analysis to repeat at a regular interval when you run it for the\nfirst time in the clean room. When prompted to save the analysis, use the Schedule Run drop-down list to select an interval.",
+        "If you want to change the scheduled interval for an analysis or turn off scheduling, complete these steps:",
+        "Sign in to your clean room environment in the web app.",
+        "In the left navigation, select Analyses & Queries.",
+        "Find the analysis in the list and select it.",
+        "Expand the Save Analysis & Query section, and use the Schedule Run drop-down list to make the change.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

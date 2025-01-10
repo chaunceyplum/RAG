@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-985",
+    "title": "Automatic Clustering: SYSTEM$CLUSTERING_INFORMATION Syntax and Output Changes | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Currently you can use the SYSTEM$CLUSTERING_INFORMATION function to view Automatic Clustering errors that have\noccurred in the last 14 days.",
+        "Users cannot obtain descriptive messages for errors encountered during Automatic Clustering.",
+        "The JSON output of the SYSTEM$CLUSTERING_INFORMATION function includes a new field, clustering_errors, which contains an array of errors.\nEach error contains a timestamp and descriptive message.",
+        "For example, the new output of the function might be:",
+        "By default, the 10 most recent messages are returned by the function. New function syntax allows you to specify an integer as the\noptional second argument in order to return more or fewer messages. For example, the following returns the 25 most recent errors:",
+        "Ref: 985",
+        "Was this page helpful?"
+    ]
+}

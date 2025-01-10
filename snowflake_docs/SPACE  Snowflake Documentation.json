@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/space",
+    "title": "SPACE | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (General)",
+        "Builds a string consisting of the specified number of blank spaces.",
+        "The number of blank spaces used to build the string.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

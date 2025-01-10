@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-04-22",
+    "title": "April 22, 2024 \u2014 Snowpark Container Services release notes | Snowflake Documentation",
+    "paragraphs": [
+        "Snowpark Container Services now supports block storage volumes for your services. For more information, see\nUsing block storage volumes with services.",
+        "Was this page helpful?"
+    ]
+}

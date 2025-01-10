@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/as_timestamp",
+    "title": "AS_TIMESTAMP_* | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Cast)",
+        "Casts a VARIANT value to the respective\ntimestamp value:",
+        "AS_TIMESTAMP_LTZ (value with local time zone)",
+        "AS_TIMESTAMP_NTZ (value with no time zone)",
+        "AS_TIMESTAMP_TZ (value with time zone)",
+        "AS_<object_type> , AS_DATE , AS_TIME",
+        "An expression that evaluates to a value of type VARIANT.",
+        "The function returns a value of a timestamp type or NULL:",
+        "If the type of the value in the variant_expr argument is a timestamp type, the function returns a value of same timestamp type.",
+        "If the type of the value in the variant_expr argument doesn\u2019t match the type of the output\nvalue, the function returns NULL.",
+        "If the variant_expr argument is NULL, the function returns NULL.",
+        "Create a table and load data into it:",
+        "Use the AS_TIMESTAMP_NTZ function in a query to cast a VARIANT value to a TIMESTAMP_NTZ value:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

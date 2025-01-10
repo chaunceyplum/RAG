@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1415",
+    "title": "SHOW TABLES command: New is_hybrid column | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "A new column is added to the output of the SHOW TABLES command.",
+        "The output of the SHOW TABLES command does not include an IS_HYBRID column.",
+        "The output of the SHOW TABLES command includes an IS_HYBRID column:",
+        "Column name",
+        "Description",
+        "is_hybrid",
+        "Y if it is a hybrid table; N otherwise.",
+        "Ref: 1415",
+        "Was this page helpful?"
+    ]
+}

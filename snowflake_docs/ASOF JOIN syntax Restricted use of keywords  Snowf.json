@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_01/bcr-1138",
+    "title": "ASOF JOIN syntax: Restricted use of keywords | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The ASOF JOIN feature behaves as follows:",
+        "The use of ASOF and MATCH_CONDITION as object names, object aliases, session variables,\nand bind variables is not restricted.",
+        "ASOF and MATCH_CONDITION are new keywords. The use of these keywords in SELECT commands\nand commands that set or use session or bind variables is restricted.",
+        "Names of objects",
+        "If a SELECT statement uses ASOF or MATCH_CONDITION as the name of a table, view, or inline view, you must\nidentify it as follows:",
+        "If the object was created with double quotes in the name, use the same double-quoted name.",
+        "If the object was created without double quotes in the name, use double quotes and capital letters.",
+        "For example, the following statements are no longer allowed and return errors:",
+        "If you created the objects with double quotes, fix the problem by using double quotes:",
+        "If you created the objects without double quotes, fix the problem by using double quotes and capital letters:",
+        "Note",
+        "Snowflake recommends that you discontinue the use of these object names in your applications.",
+        "Names of aliases",
+        "If a SELECT statement uses ASOF or MATCH_CONDITION as an alias, you must use AS before the alias or double-quote\nthe alias. For example, the following statements are no longer allowed and return errors:",
+        "Fix the problem in one of the following ways:",
+        "Names of variables",
+        "If you are using session variables or bind variables with the name ASOF or MATCH_CONDITION,\nand their names were not double-quoted when they were created, they must be renamed or removed.",
+        "For example, you can no longer set a session variable named asof:",
+        "However, you can set a variable that is explicitly double-quoted and named \"asof\" or \"ASOF\":",
+        "The same rules apply to bind variables, such as :asof and :match_condition.",
+        "Ref: 1138",
+        "Was this page helpful?"
+    ]
+}

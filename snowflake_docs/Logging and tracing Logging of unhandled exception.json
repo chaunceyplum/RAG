@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1428",
+    "title": "Logging and tracing: Logging of unhandled exceptions in handler code on by default | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Logging of unhandled exceptions in procedure and UDF handler code\nbehaves as follows:",
+        "When an event table has been associated with the Snowflake account,\nan unhandled exception occurring in procedure or UDF handler code won\u2019t, by default, be logged in the event table.",
+        "In other words, you can set up logging and tracing, including\ncreating an event table and associating it with your account, but leave unhandled exception logging off, such as to avoid having those\nexceptions logged. You can turn on exception logging by setting the ENABLE_UNHANDLED_EXCEPTIONS_REPORTING parameter to true.",
+        "Unhandled exceptions in procedure or UDF handler code do, by default, result in log entries when you have an event table associated\nwith the account.",
+        "You can turn off logging for unhandled exceptions by setting the ENABLE_UNHANDLED_EXCEPTIONS_REPORTING parameter to false.",
+        "When log entries might contain sensitive data, consider doing the following to protect the data:",
+        "Turn off unhandled exception logging.",
+        "If you leave unhandled exception logging on, take steps to protect sensitive data, such as by doing the following:",
+        "Improve your exception handling code to minimize the risk of unhandled exceptions.",
+        "Apply row access policies to your event table to restrict access to rows that contain\npersonally identifiable information (PII).",
+        "Create a view on top of the event table and\napply masking policies to it to mask or delete personally identifiable\ninformation (PII).",
+        "Ref: 1428",
+        "Was this page helpful?"
+    ]
+}

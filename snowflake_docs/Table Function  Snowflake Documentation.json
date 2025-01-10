@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/table_function",
+    "title": "Table Function | Snowflake Documentation",
+    "paragraphs": [
+        "Contains table function related classes.",
+        "Classes",
+        "TableFunctionCall(func_name,\u00a0...)",
+        "Represents a table function call.",
+        "Methods",
+        "alias(*aliases)",
+        "Alias the output columns from the output of this table function call.",
+        "as_(*aliases)",
+        "Alias the output columns from the output of this table function call.",
+        "over(*[,\u00a0partition_by,\u00a0order_by])",
+        "Specify the partitioning plan for this table function call when you lateral join this table function.",
+        "Attributes",
+        "name",
+        "The table function name",
+        "arguments",
+        "The positional arguments used to call this table function.",
+        "named_arguments",
+        "The named arguments used to call this table function.",
+        "Was this page helpful?"
+    ]
+}

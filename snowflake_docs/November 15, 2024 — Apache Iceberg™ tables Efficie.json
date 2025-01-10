@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-11-15-iceberg-tables-loading",
+    "title": "November 15, 2024 \u2014 Apache Iceberg\u2122 tables: Efficient bulk loading, continuous ingestion, and data streaming \u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, Snowflake is pleased to announce the general availability of the following features,\nwhich support efficient bulk loading, continuous ingestion, and data streaming into Snowflake-managed Iceberg tables.",
+        "You can now use the same core Snowflake ingestion features like COPY INTO <table>, Snowpipe, and Snowpipe Streaming, to\nload data into both standard Snowflake tables and Iceberg tables.",
+        "For more information, see Load data into Apache Iceberg\u2122 tables.",
+        "You can use the following LOAD_MODE options with the COPY INTO <table> command\nand Snowpipe automated loading to load data from files into a Snowflake-managed Iceberg table:",
+        "FULL_INGEST: Loads data from any supported file format, converts to validated Iceberg-compatible Parquet,\nand optionally lets you transform or filter the data before loading.",
+        "ADD_FILES_COPY: Loads data from Iceberg-compatible Parquet data files by performing a server-side copy of the files\ninto the table\u2019s base location and fast registering the files to the table.",
+        "With Snowflake Ingest SDK versions 3.0.0 and later, Snowpipe Streaming can stream rows into Snowflake-managed Iceberg tables.\nTo enable this feature, set the property ENABLE_ICEBERG_STREAMING=true in the profile.json file.",
+        "For more information, see Load data into Apache Iceberg\u2122 tables.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

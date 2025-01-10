@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.ntile",
+    "title": "snowflake.snowpark.functions.ntile | Snowflake Documentation",
+    "paragraphs": [
+        "Divides an ordered data set equally into the number of buckets specified by n.\nBuckets are sequentially numbered 1 through n.",
+        "e \u2013 The desired number of buckets; must be a positive integer value.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

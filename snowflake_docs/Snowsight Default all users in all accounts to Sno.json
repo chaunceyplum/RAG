@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_03/bcr-1511",
+    "title": "Snowsight: Default all users in all accounts to Snowsight | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "All Snowflake customers are upgraded to Snowsight and all users see Snowsight after signing in to the Snowflake\nweb interface.",
+        "If you use private connectivity to access Snowflake, you are not yet affected by this change.\nSee Configuring private connectivity for Snowsight to prepare to upgrade to Snowsight.",
+        "Users can choose which web interface is the default experience for their user profile within an account. After signing in, users see\nthe web interface specified as the default experience, Classic Console or Snowsight.",
+        "All users in an account see Snowsight after signing in.",
+        "Users can no longer choose a default experience for their user profile. If needed, users can access\nClassic Console from Snowsight.",
+        "Important",
+        "This change happens slowly during the behavior change periods.",
+        "If your account enables the bundle during the opt-in testing period, this change does not happen in your account immediately.\nInstead, you see this change within one week of the bundle being enabled on your account.",
+        "During the opt-out period, this change rolls out slowly and all accounts see the change within three weeks of the start of the opt-out\nperiod.",
+        "Ref: 1511",
+        "Was this page helpful?"
+    ]
+}

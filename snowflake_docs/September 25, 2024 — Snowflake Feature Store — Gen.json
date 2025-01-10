@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-09-25-feature-store-ga",
+    "title": "September 25, 2024 \u2014 Snowflake Feature Store \u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "We are pleased to announce that the Snowflake Feature Store is now Generally Available in all regions. The Snowflake\nFeature Store lets data scientists and ML engineers create, maintain, and use ML features in data science and ML\nworkloads, all within Snowflake, by standardizing commonly used feature transformations in a central repository.\nFor more information, see Snowflake Feature Store.",
+        "Was this page helpful?"
+    ]
+}

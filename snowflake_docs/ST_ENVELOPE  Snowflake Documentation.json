@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_envelope",
+    "title": "ST_ENVELOPE | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Deprecated Feature",
+        "This function has been deprecated for GEOGRAPHY objects. The use of this function with GEOGRAPHY objects will be obsoleted in\na future release (TBD).",
+        "As an alternative, for GEOGRAPHY objects, use ST_XMIN, ST_XMAX, ST_YMIN, and ST_YMAX to determine\nthe vertices of the bounding box around an input GEOGRAPHY object.",
+        "Returns the minimum bounding box (a rectangular \u201cenvelope\u201d) that encloses a specified\nGEOGRAPHY or GEOMETRY object.",
+        "The argument must be of type GEOGRAPHY or GEOMETRY.",
+        "The function returns a value of type GEOGRAPHY or GEOMETRY\nthat represents the minimum bounding box around the input object.",
+        "For GEOGRAPHY objects:",
+        "If geography_expression is a LineString that represents a meridian arc (an arc along a line of longitude),\nST_ENVELOPE returns that LineString.",
+        "If geography_expression is a LineString that represents an arc on a parallel (an arc along a line of latitude)\nother than the equator, ST_ENVELOPE returns a Polygon that represents the bounding box for the arc.",
+        "If geography_expression is a single Point, ST_ENVELOPE returns that Point.",
+        "For GEOMETRY objects:",
+        "In degenerate cases (e.g. where the input is a point or a vertical or horizontal line), the function may return a geometry of\nlower dimension (i.e. a Point or LineString).",
+        "For GEOMETRY objects, the returned GEOMETRY object has the same SRID as the input.",
+        "The following example returns the minimum bounding box for a polygon:",
+        "The following example passes in a LineString that represents a meridian arc. The function returns the same LineString, rather\nthan a Polygon.",
+        "The following example passes in a LineString that represents an arc on a parallel that is not the equator. The function\nreturns a Polygon that represents the bounding box:",
+        "The following example passes in a single Point. The function returns the same Point:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

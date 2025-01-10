@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/commands-model",
+    "title": "Model commands | Snowflake Documentation",
+    "paragraphs": [
+        "Model commands allow you to manage machine learning models in the Snowflake Model Registry.",
+        "You can create and manage models in Python using the\nSnowpark Model Registry API.",
+        "CREATE MODEL",
+        "ALTER MODEL",
+        "DROP MODEL",
+        "SHOW MODELS",
+        "ALTER MODEL \u2026 ADD VERSION",
+        "ALTER MODEL \u2026 MODIFY VERSION",
+        "ALTER MODEL \u2026 DROP VERSION",
+        "SHOW VERSIONS IN MODEL",
+        "SHOW FUNCTIONS IN MODEL",
+        "You can call or invoke methods of a model using the model_name!method_name(...) syntax. The methods\navailable on a model are determined by the underlying Python model class. For example, many types of models use a method\nnamed predict for inference.",
+        "To invoke a method of the default version of a model, use the syntax shown here, passing arguments to the method,\nif any, between the parentheses, and providing the name of the table containing the inference data in the FROM clause.",
+        "To invoke a method of a specific version of a model, first create an alias to the specific version of the model using\nWITH, then invoke the desired method through the alias.",
+        "For example, to call the latest version of a model through the LAST alias:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

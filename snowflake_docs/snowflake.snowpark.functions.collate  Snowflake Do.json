@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.collate",
+    "title": "snowflake.snowpark.functions.collate | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a copy of the original Column with the specified collation_spec\nproperty, rather than the original collation specification property.",
+        "For details, see the Snowflake documentation on\ncollation specifications.",
+        "Was this page helpful?"
+    ]
+}

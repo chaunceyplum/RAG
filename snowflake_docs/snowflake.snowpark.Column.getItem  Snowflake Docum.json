@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Column.getItem",
+    "title": "snowflake.snowpark.Column.getItem | Snowflake Documentation",
+    "paragraphs": [
+        "Accesses an element of ARRAY column by ordinal position, or an element of OBJECT column by key.",
+        "Was this page helpful?"
+    ]
+}

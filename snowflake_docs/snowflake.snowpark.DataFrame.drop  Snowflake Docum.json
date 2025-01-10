@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.drop",
+    "title": "snowflake.snowpark.DataFrame.drop | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a new DataFrame that excludes the columns with the specified names\nfrom the output.",
+        "This is functionally equivalent to calling select() and passing in all\ncolumns except the ones to exclude. This is a no-op if schema does not contain\nthe given column name(s).",
+        "Example:",
+        "*cols \u2013 the columns to exclude, as str, Column or a list\nof those.",
+        "SnowparkClientException \u2013 if the resulting DataFrame\n    contains no output columns.",
+        "Was this page helpful?"
+    ]
+}

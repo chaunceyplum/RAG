@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/native-apps/container-services-job",
+    "title": "Add job services to an app | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "The Snowflake Native App Framework is generally available on supported cloud platforms. For additional information, see\nSupport for private connectivity, VPS, and government regions.",
+        "This topic describes how to create and manage job services within a Snowflake Native App with Snowpark Container Services. For information\non using services in an app, see Add job services to an app.",
+        "A Snowflake Native App with Snowpark Container Services can run a Snowpark Container Services job service.",
+        "A service created using CREATE SERVICE is long-running. An app must\nexplicitly stop the service when it is no longer needed. In contrast, a job service created using\nEXECUTE JOB SERVICE is a service that terminates when the code of the service\nexits, similar to a stored procedure. When all containers exit, the job is done.",
+        "Job services run synchronously. The EXECUTE JOB SERVICE command completes after\nall containers exit.",
+        "To execute a job service in an app, add the EXECUTE JOB SERVICE command\nto the setup script.",
+        "The following example shows how to execute a job service in the context of a Snowflake Native App with Snowpark Container Services:",
+        "Note",
+        "Note that the command parameters must be specified in the order shown in this example.",
+        "When called from the setup script, the EXECUTE JOB SERVICE command\ncreates a job in a compute pool in the consumer account.",
+        "If the consumer creates the compute pool manually, they must grant the USAGE privilege on the compute\npool to the app before this command will succeed. Therefore, providers must include logic in a stored\nprocedure that tests if the correct privileges have been granted before running the\nEXECUTE JOB SERVICE.",
+        "The FROM SPECIFICATION_FILE = clause specifies the relative path to the service specification\nfile on a stage. See Create the service specification file for more information.",
+        "The NAME = clause specifies the identifier for the job service. The name of this job service\nmust be unique within the schema where it is located.",
+        "Note",
+        "Job services cannot be executed within a version schema.",
+        "The NAME = clause should use the schema and name of the job within the application.\nFor , services_schema.job_service If the schema name is not specified the job service\nis created in the schema of the stored procedure or function that is executing the job service.",
+        "To monitor the status of a job service within an app, use the\nSYSTEM$GET_SERVICE_STATUS \u2014 Deprecated command as shown in the following\nexample:",
+        "This system function returns a JSON object that contains information about the specified job service\nwithin the app.  Providers can call this system function from within the app to determine if the services\nhas started or failed.",
+        "Consumers can also call this system function to determine the status of a service. This requires\nthat providers grant the MONITOR privilege on the service an application role. See\nExecute a job service in an app for more information.",
+        "To obtain the system logs for a job service within an app, use the\nSYSTEM$GET_SERVICE_LOGS system function as shown in the following\nexample:",
+        "Providers can call this system function from within an app. In this context, the provider does not\nhave to specify the app_name as part of the fully qualified job name.",
+        "Consumers can also run this system command. This requires that providers grant the MONITOR privilege\non the service to an application role. See Execute a job service in an app for more\ninformation.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

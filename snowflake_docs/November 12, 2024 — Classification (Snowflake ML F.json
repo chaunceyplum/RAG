@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-11-12-ml-functions-classification-ga",
+    "title": "November 12, 2024 \u2014 Classification (Snowflake ML Function) \u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "We are pleased to announce the general availability of Snowflake ML Classification, a machine learning function that\nsorts data into different classes using patterns detected in training data, making it easy for data scientists and\nanalysts to quickly get binary or multi-class predictions. Top use cases for Snowflake ML Classification include\npowering buy and churn predictions, credit card detection, and spam detection.",
+        "Snowflake ML Classification is fully managed and abstracts away the complexity of working with different machine\nlearning frameworks and algorithms for categorical prediction.  For more information,\nsee Classification.",
+        "Was this page helpful?"
+    ]
+}

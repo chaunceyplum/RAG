@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_01/bcr-732",
+    "title": "Account Usage: New and Changed Columns in Certain Views | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "To differentiate between account-level roles and database roles, the following changes have been made to the specified Account Usage\nviews in the shared SNOWFLAKE database:",
+        "New column, OWNER_ROLE_TYPE, has been added to the following views:",
+        "FILE_FORMATS",
+        "FUNCTIONS",
+        "MASKING_POLICIES",
+        "PIPES",
+        "ROLES",
+        "ROW_ACCESS_POLICIES",
+        "SCHEMATA",
+        "SEQUENCES",
+        "STAGES",
+        "TABLES",
+        "TAGS",
+        "VIEWS",
+        "The new column specifies the type of role (ROLE or DATABASE_ROLE) that owns the object.",
+        "GRANTS_TO_ROLES view:",
+        "Existing column, GRANTED_TO, now differentiates between ROLE and DATABASE_ROLE. Previously, it was always ROLE,",
+        "New column, GRANTED_BY_ROLE_TYPE, that displays ROLE or DATABASE_ROLE depending on whether the grantor is an account-level\nor database role.",
+        "QUERY_HISTORY view:",
+        "New column, ROLE_TYPE, that displays ROLE or DATABASE_ROLE depending on whether the job was executed by an account-level or\ndatabase role.",
+        "Ref: 732",
+        "Was this page helpful?"
+    ]
+}

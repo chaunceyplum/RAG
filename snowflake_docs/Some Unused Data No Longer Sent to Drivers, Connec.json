@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_01/bcr-916",
+    "title": "Some Unused Data No Longer Sent to Drivers, Connectors, and Clients | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The server no longer includes some unused data in the response sent to drivers, connectors, and clients:",
+        "When the server sent a response to drivers, connectors, and clients, the response included some data that is not used.",
+        "The server no longer returns this unused data in the response.",
+        "Ref: 916",
+        "Was this page helpful?"
+    ]
+}

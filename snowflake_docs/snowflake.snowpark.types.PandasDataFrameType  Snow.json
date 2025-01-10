@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.types.PandasDataFrameType",
+    "title": "snowflake.snowpark.types.PandasDataFrameType | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: _PandasType",
+        "pandas DataFrame data type. The input should be a list of data types for all columns in order.\nIt cannot be used as the return type of a pandas UDF.",
+        "Methods",
+        "fromJson(json_dict)",
+        "",
+        "from_json(json_dict)",
+        "",
+        "get_snowflake_col_datatypes()",
+        "Get the column types of the dataframe as the input/output of a vectorized UDTF.",
+        "jsonValue()",
+        "",
+        "json_value()",
+        "",
+        "simpleString()",
+        "",
+        "simple_string()",
+        "",
+        "typeName()",
+        "",
+        "type_name()",
+        "",
+        "Was this page helpful?"
+    ]
+}

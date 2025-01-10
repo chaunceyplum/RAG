@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/native-apps/drop-app-package-version",
+    "title": "Dropping an existing version of an app in an application package | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "You must have an existing connection in your config.toml file.",
+        "You must have a snowflake.yml file in your Snowflake Native App project.",
+        "The snow app version drop drops the specified app version of an application package, if it exists, and is not referenced by a release directive. If you want to drop a version referenced by a release directive, you must first set that release directive to a different version. This command uses the resolved project definition to determine the name of the application package version to drop.",
+        "This command does not allow dropping patches, because Snowflake does not currently support that functionality for a Snowflake Native App.",
+        "To drop a version of an existing application package, do the following:",
+        "Create a connection, if necessary.",
+        "Set the release directive to a different version, if not already done.",
+        "Execute the snow app version drop command from within your project, as shown:",
+        "For more information about dropping a version of an application package, see the snow app version drop command.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.describe",
+    "title": "modin.pandas.DataFrame.describe | Snowflake Documentation",
+    "paragraphs": [
+        "Generate descriptive statistics for columns in the dataset.",
+        "For non-numeric columns, computes count (# of non-null items), unique (# of unique items),\ntop (the mode; the element at the lowest position if multiple), and freq (# of times the mode appears)\nfor each column.",
+        "For numeric columns, computes count (# of non-null items), mean, std, min,\nthe specified percentiles, and max for each column.",
+        "If both non-numeric and numeric columns are specified, the rows for statistics of\nnon-numeric columns appear first in the output.",
+        "percentiles (Optional[ListLike], default None) \u2013 The percentiles to compute for numeric columns. If unspecified, defaults to [0.25, 0.5, 0.75],\nwhich returns the 25th, 50th, and 75th percentiles. All values should fall between 0 and 1.\nThe median (0.5) will always be added to the displayed percentile if not already included;\nthe min and max are always displayed in addition to the percentiles.",
+        "include (Optional[List[str, ExtensionDtype | np.dtype]] | \"all\", default None) \u2013",
+        "A list of dtypes to include in the result (ignored for Series).",
+        "\u201dall\u201d: Include all columns in the output.",
+        "list-like: Include only columns of the listed dtypes. To limit the result to numeric\ntypes submit numpy.number. To limit it instead to object columns submit the\nnumpy.object data type. Strings can also be used in the style of select_dtypes\n(e.g. df.describe(include=[\u2018O\u2019])).",
+        "None: If the dataframe has at least one numeric column, then include only numeric\ncolumns; otherwise include all columns in the output.",
+        "",
+        "exclude (Optional[List[str, ExtensionDtype | np.dtype]], default None) \u2013",
+        "A list of dtypes to omit from the result (ignored for Series).",
+        "list-like: Exclude all columns of the listed dtypes. To exclude numeric types submit\nnumpy.number. To exclude object columns submit the data type numpy.object. Strings\ncan also be used in the style of select_dtypes (e.g. df.describe(exclude=[\u2018O\u2019])).",
+        "None: Exclude nothing.",
+        "",
+        "Snowpark DataFrame if this was a DataFrame, and Snowpark Series if this was a Series.\nEach column contains statistics for the corresponding column in the input dataset.",
+        "BasePandasDataset",
+        "Examples",
+        "Describing a frame with both numeric and object columns:",
+        "Describing only numeric columns:",
+        "Excluding numeric columns:",
+        "Was this page helpful?"
+    ]
+}

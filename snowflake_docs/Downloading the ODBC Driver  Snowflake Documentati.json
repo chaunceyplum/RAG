@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/odbc/odbc-download",
+    "title": "Downloading the ODBC Driver | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake provides an installer for the ODBC driver.",
+        "Note",
+        "If you plan to use yum to download and install the ODBC driver for Linux, skip ahead to\nUsing yum to download and install the driver.",
+        "To download the installer:",
+        "Review the license agreement.",
+        "If you are already using the ODBC driver and need to download an updated version, check the version that you are using, and\nreview the changes between your version and the updated version in the ODBC Driver release notes",
+        "To find the version of the driver that you are using, call the CURRENT_CLIENT SQL function from\nan application using the driver. You can also verify the driver version by\nexamining queries executed by the driver in the QUERY_HISTORY view.",
+        "Go to the ODBC Download page, and download the installer.",
+        "Note",
+        "The Linux installation package is provided in three variations:",
+        "TGZ (TAR file compressed using .GZIP)",
+        "RPM",
+        "DEB",
+        "The TGZ package requires some manual configuration tasks. The RPM and DEB packages include an automated installer and support\nvalidation using the public GPG key provided by Snowflake.",
+        "See the following topics to install and configure the driver:",
+        "Installing and configuring the ODBC Driver for Windows",
+        "Installing and configuring the ODBC Driver for macOS",
+        "Installing and configuring the ODBC Driver for Linux",
+        "ODBC configuration and connection parameters",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

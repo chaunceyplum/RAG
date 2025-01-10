@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/finetune-cancel",
+    "title": "FINETUNE ('CANCEL') (SNOWFLAKE.CORTEX) | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Support for this feature is available to accounts in the following regions:",
+        "AWS US West 2 (Oregon)",
+        "AWS US East 1 (N. Virginia)",
+        "AWS Europe Central 1 (Frankfurt)",
+        "Azure East US 2 (Virginia)",
+        "Cancels the specified fine-tuning job from the current schema.",
+        "Specifies that you want to cancel a fine-tuning job.",
+        "The ID of the fine-tuning job that was generated when you created the job.",
+        "Column",
+        "Type",
+        "Description",
+        "SNOWFLAKE.CORTEX.FINETUNE",
+        "STRING",
+        "Message that the job was canceled.",
+        "For access requirements, see Access control requirements.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

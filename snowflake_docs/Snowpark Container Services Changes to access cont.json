@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_04/bcr-1611",
+    "title": "Snowpark Container Services: Changes to access control for services and endpoints | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "With this behavior change bundle, Snowpark Container Services now supports fine-grained access control allowing you to manage access privileges for endpoints that a service exposes. You can now grant a service role (defined in the service specification) access privileges to a specific endpoint and use service roles to control who can access the service endpoints.",
+        "Note",
+        "The owner role for a service always has access to that service\u2019s endpoints. This change applies only if the current role is not the owner role.",
+        "The privileges required to create or alter a service function are changing:",
+        "Privileges required to create and manage service functions:",
+        "To create a service function: The current role must have the USAGE privilege on the service being referenced.",
+        "To alter a service function: You can alter a service function and associate it with another service. The current role must have the USAGE privilege on that other service.",
+        "Privileges required to create and manage service functions:",
+        "To create a service function: The current role must have the USAGE privilege on the endpoint. You grant this privilege by granting the service role to the current role.",
+        "To alter a service function: You can alter a service function and associate it with another endpoint. The current role must have been granted the service role with the USAGE privilege on the new endpoint being referenced.",
+        "Users in the Snowflake account where the service is created can use  ingress to a public endpoint. The privileges required to use the public endpoint are changing:",
+        "The current role must have the USAGE privilege on a service that exposes the endpoint.",
+        "The current role must have the USAGE privilege on the endpoint. You grant this privilege by granting the service role to the current role.",
+        "The list of endpoints returned by this command is changing:",
+        "Returns a list of all the endpoints associated with the service.",
+        "Returns a list of endpoints associated with the service that the current role has USAGE privileges for.",
+        "Ref: 1611",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

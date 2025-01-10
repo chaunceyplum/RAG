@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/guides-overview-performance",
+    "title": "Optimizing performance in Snowflake | Snowflake Documentation",
+    "paragraphs": [
+        "The following topics help guide efforts to improve the performance of Snowflake.",
+        "Gain insights into the historical performance of queries using the web interface or by writing queries against data in the ACCOUNT_USAGE\nschema.",
+        "Learn about strategies to fine-tune computing power in order to improve the performance of a query or set of\nqueries running on a warehouse, including enabling the Query Acceleration Service.",
+        "Learn how storing similar data together, creating optimized data structures, and defining specialized data sets can improve the\nperformance of queries.",
+        "Helpful when choosing between Automatic Clustering, Search Optimization Service, and materialized views.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.monthname",
+    "title": "snowflake.snowpark.functions.monthname | Snowflake Documentation",
+    "paragraphs": [
+        "Extracts the three-letter month name from the specified date or timestamp.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

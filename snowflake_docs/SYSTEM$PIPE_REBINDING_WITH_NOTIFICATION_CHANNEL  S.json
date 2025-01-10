@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_pipe_rebinding_with_notification_channel",
+    "title": "SYSTEM$PIPE_REBINDING_WITH_NOTIFICATION_CHANNEL | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Retries the notification channel binding process when a replicated pipe has not been successfully bound to a notification channel during replication time. Binding can be unsuccessful for one of the following reasons:",
+        "The cloud messaging is not correctly set up in the secondary deployment during replication. For example, a notification integration with the same name is not created manually, or SNS policy is not set to allow subscription, etc.",
+        "There is a cloud provider error when Snowpipe tries to bind the pipe to the notification channel.",
+        "The pipe and its source stage are in different replication groups, and the stage is not replicated when the pipe is replicated.",
+        "You can also retry the notification binding by refreshing the replication group or database. However, if the primary account is down, or a failover has already completed, the only option is to call this system function.",
+        "For more information, see Snowpipe and Stage, pipe, and load history replication.",
+        "The name of the pipe that needs to go through the rebind notification process.",
+        "Only the pipe owner (that is, the role with the OWNERSHIP privilege on the pipe) or a role with the OPERATE privilege on the pipe can call this SQL\nfunction.",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "pipe_name is a string so it must be enclosed in single quotes:",
+        "Note that the entire name must be enclosed in single quotes, including the database and schema (if the name is fully qualified), that is, 'db.schema.pipe_name'.",
+        "If the pipe name is case-sensitive or includes any special characters or spaces, double quotes are required to process the case/characters. The double quotes must be enclosed within the single quotes, that is, '\"pipe_name\"'.",
+        "Retries the notification channel binding process for mypipe:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

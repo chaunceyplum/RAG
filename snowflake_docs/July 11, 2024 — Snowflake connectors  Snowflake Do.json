@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-07-11",
+    "title": "July 11, 2024 \u2014 Snowflake connectors | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the preview of the Snowflake Connector for PostgreSQL.",
+        "The Snowflake Connector for PostgreSQL allows you to:",
+        "Load data into Snowflake from a PostgreSQL database.",
+        "Configure replication so that changes in your PostgreSQL database are replicated to Snowflake.",
+        "For more details, see Snowflake connector for PostgreSQL.",
+        "See also Snowflake Connector for PostgreSQL release notes.",
+        "With this release, we are pleased to announce the preview of the Snowflake Connector for MySQL.",
+        "The Snowflake Connector for MySQL allows you to:",
+        "Load data into Snowflake from a MySQL database.",
+        "Configure replication so that changes in your MySQL database are replicated to Snowflake.",
+        "For more details, see Snowflake connector for MySQL.",
+        "See also Snowflake Connector for MySQL release notes.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

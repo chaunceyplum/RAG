@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cleanrooms/activation-trade-desk",
+    "title": "Activation with The Trade Desk - UID 2.0 | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "This topic describes how to activate analysis results with the The Trade Desk - UID 2.0. The Trade Desk - UID 2.0 is a demand-side platform\n(DSP) that provides a technology platform for advertisers to plan, buy, and manage digital advertising campaigns across various channels.",
+        "If you are an administrator who needs to configure the The Trade Desk - UID 2.0 connector so clean room users can activate results with it,\nsee The Trade Desk - UID 2.0 connector.",
+        "To push the results of an analysis to The Trade Desk for activation:",
+        "Run an analysis that returns data that can be activated. For example, analyses using the Audience Overlap & Segmentation template can be\nactivated.",
+        "For more information about running an analysis, see Run an analysis as a provider or Run an analysis as a consumer.",
+        "In the Results section, select Activate.",
+        "In the Activation Hub dialog, select The Trade Desk - UID 2.0.",
+        "In the Segment Name field, enter a descriptive name for your results.",
+        "In the Activation IDs section, select a column that contains identifiers, then select the type of those identifiers.",
+        "Select Push Data.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

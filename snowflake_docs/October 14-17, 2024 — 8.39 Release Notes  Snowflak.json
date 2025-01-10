@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/8_39",
+    "title": "October 14-17, 2024 \u2014 8.39 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "The release has completed.",
+        "For differences between the in-advance and final versions of these release notes, see Release notes change log.",
+        "With this release, Cortex Analyst is now fully supported in Streamlit in Snowflake.\nYou no longer need to implement an authentication workaround to use Cortex Analyst in a Streamlit in Snowflake app.",
+        "For a step by step example, see Creating a Streamlit in Snowflake App.",
+        "With this release, the GET_DDL function will return target_lag instead of lag for dynamic tables to match the CREATE DYNAMIC TABLE\nstatement.",
+        "With the new SYSTEM$VERIFY_EXTERNAL_VOLUME function, you can validate the configuration of an external volume for Apache Iceberg\u2122 tables.",
+        "For more information, see SYSTEM$VERIFY_EXTERNAL_VOLUME.",
+        "Announcement",
+        "Update",
+        "Date",
+        "Release notes",
+        "Initial publication (preview)",
+        "11-Oct-24",
+        "Cortex Analyst fully supported in Streamlit in Snowflake",
+        "Added to New features section",
+        "16-Oct-24",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

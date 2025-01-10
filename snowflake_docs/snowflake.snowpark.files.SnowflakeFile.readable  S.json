@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.files.SnowflakeFile.readable",
+    "title": "snowflake.snowpark.files.SnowflakeFile.readable | Snowflake Documentation",
+    "paragraphs": [
+        "See https://docs.python.org/3/library/io.html#io.IOBase.readable",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/get_stage_location",
+    "title": "GET_STAGE_LOCATION | Snowflake Documentation",
+    "paragraphs": [
+        "File functions",
+        "Retrieves the URL for an external or internal named stage using the stage name as the input.",
+        "Name of an external or internal named stage.",
+        "Note",
+        "If the stage name includes spaces or special characters, it must be enclosed in single quotes (e.g. '@\"my stage\"' for a stage\nnamed \"my stage\").",
+        "URL of the cloud storage location in the stage definition.",
+        "This SQL function returns a value for any role that has the USAGE privilege on the stage.",
+        "If files downloaded from an internal stage are corrupted, verify with the stage creator that ENCRYPTION = (TYPE = 'SNOWFLAKE_SSE') is set for the stage.",
+        "Retrieve the URL for an external stage:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

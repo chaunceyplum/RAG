@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.WindowSpec.orderBy",
+    "title": "snowflake.snowpark.WindowSpec.orderBy | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a new WindowSpec object with the new order by clause.",
+        "See also",
+        "Window.order_by()",
+        "Was this page helpful?"
+    ]
+}

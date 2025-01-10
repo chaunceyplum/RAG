@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-07-11-dcr",
+    "title": "July 11, 2024 \u2014 Snowflake Data Clean Rooms Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the availability of the following new features and enhancements in this update to Snowflake\nData Clean Rooms.",
+        "A provider can use a template chain to define a sequence of templates to be executed in a particular order. The results of one template\nwithin the sequence can be used as input for a subsequent template in the chain. A clean room user executes a template chain to perform an\nanalysis that runs the templates in their predefined order.",
+        "For more information, see Using the developer APIs to execute templates sequentially.",
+        "For increased security, users are required to use multi-factor authentication (MFA) when signing in to the web app. Existing\nSnowflake Data Clean Room customers will be sent an email explaining how to enable MFA.",
+        "For information about enabling and authenticating with MFA, see Sign in to the web app.",
+        "Collaborators can now register individual tables and views in a managed access schema (that is, a schema created with the WITH MANAGE\nACCESS clause) without registering other objects in the schema. Objects must be registered before they can be linked into a clean room.",
+        "For more information, see Registering data.",
+        "Snowflake Data Clean Rooms are now available in the following region:",
+        "Cloud platform",
+        "Supported region",
+        "Cloud region ID",
+        "Amazon Web Service",
+        "EU (Zurich)",
+        "eu-central-2",
+        "Consumers can use the SQL Query template to run analyses without adding tables or defining joins when installing the clean room, which lets\na provider share a clean room designed for SQL queries against the provider\u2019s data only.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

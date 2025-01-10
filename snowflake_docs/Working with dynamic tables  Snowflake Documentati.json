@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/dynamic-tables-working-with",
+    "title": "Working with dynamic tables | Snowflake Documentation",
+    "paragraphs": [
+        "Dynamic tables are created, managed, and monitored during their lifetime. The following topics describe\neach of these operational areas.",
+        "Task",
+        "Description",
+        "Dynamic table access control",
+        "Understand the privileges required for working with dynamic tables.",
+        "Create dynamic tables",
+        "Create a new dynamic table.",
+        "Create dynamic Apache Iceberg\u2122 tables",
+        "Create a new dynamic Apache Iceberg\u2122 table or a new dynamic table using Snowflake-managed Iceberg tables as the base table.",
+        "About managing dynamic tables",
+        "Manage dynamic tables, including listing, viewing, and examining lag time.",
+        "About monitoring dynamic tables",
+        "Monitor dynamic tables.",
+        "Was this page helpful?"
+    ]
+}

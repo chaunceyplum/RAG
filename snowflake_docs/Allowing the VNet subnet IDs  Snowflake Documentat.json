@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/data-load-azure-allow",
+    "title": "Allowing the VNet subnet IDs | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides guidance for explicitly granting Snowflake access to\nyour Microsoft Azure storage account (containers, the objects in those containers, and your storage queues).\nThe process involves allowing the Azure Virtual Network (VNet) subnet IDs for your Snowflake account.",
+        "Allowing VNet subnet IDs is required\nonly if Azure storage firewall is configured\nto block all unauthorized traffic to your Azure storage account.",
+        "Note",
+        "This process must be completed by an Azure administrator in your organization.",
+        "To allow the Snowflake VNet subnet IDs:",
+        "Log in to your Snowflake account using any supported client.",
+        "Run USE ROLE to set ACCOUNTADMIN as the active role for the user session.",
+        "Query the SYSTEM$GET_SNOWFLAKE_PLATFORM_INFO function to retrieve the IDs of the VNet subnet\nin which your Snowflake account is located:",
+        "Record the VNet subnet IDs that the query returns.",
+        "Follow the instructions in\nManaging virtual network rules\nto add a network rule for each Snowflake VNet subnet ID. You must add a network rule for each of the subnet IDs returned\nby the SYSTEM$GET_SNOWFLAKE_PLATFORM_INFO function.",
+        "Note",
+        "Azure might return an error similar to the following:",
+        "The error indicates that your Azure storage account may not initiate connections to Snowflake because those permissions are not granted. You can ignore this error. It will not block the allow feature.",
+        "For additional options for managing virtual network rules, see the Azure documentation.",
+        "For help with this configuration process or any of the other Azure configuration steps, contact the Azure administrator for your organization.",
+        "Next: Configuring an Azure container for loading data",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

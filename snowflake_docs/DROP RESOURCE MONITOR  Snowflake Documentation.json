@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-resource-monitor",
+    "title": "DROP RESOURCE MONITOR | Snowflake Documentation",
+    "paragraphs": [
+        "Removes the specified resource monitor from the system.",
+        "CREATE RESOURCE MONITOR , ALTER RESOURCE MONITOR , SHOW RESOURCE MONITORS",
+        "Specifies the identifier for the resource monitor to drop. If the identifier contains spaces or special characters, the entire string\nmust be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Dropped resource monitors cannot be recovered; they must be recreated.",
+        "Dropping a resource monitor immediately enables resuming any assigned warehouses that have been suspended due to the monitor reaching\nits monthly threshold.",
+        "For more information, see Working with resource monitors.",
+        "Drop resource monitor my_rm, but don\u2019t raise an error if the resource monitor doesn\u2019t exist:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

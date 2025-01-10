@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cleanrooms/web-app-provider-activation",
+    "title": "Provider activation in the web app | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Some types of analyses allow a clean room user to activate results. One of the activation options is to push the results of the analysis to\nthe provider\u2019s Snowflake account. The consumer can push results back to the provider or, in the case of provider-run analyses, the provider\ncan push the results to their own Snowflake account.",
+        "In both cases, the results of the analysis are pushed to the provider\u2019s Snowflake account outside of the clean room.",
+        "To activate results back to the provider\u2019s Snowflake account, complete these steps:",
+        "After running the analysis,  select Activate in the Results section.",
+        "Select the name of the provider account.",
+        "In the Segment Name field, enter a descriptive name for the segment being activated.",
+        "Use the ID Columns drop-down list to select the columns that contain identifiers.",
+        "Optionally, use the Attribute Columns drop-down list to enrich results with values in the selected columns.",
+        "Select Push Data.",
+        "The first time a collaborator pushes data to the provider\u2019s Snowflake account, the provider must sign in to the web app to establish\na data pipeline. This only needs to be done once. To establish the data pipeline, the provider must:",
+        "Sign in to the clean room environment in the web app.",
+        "Stay signed in to the web app for 30-60 minutes.",
+        "After the data pipeline has been established, the provider can do the following to view the activation data in their Snowflake account:",
+        "Sign in to Snowsight.",
+        "Use a SQL query or the database object explorer in Snowsight to view the data:",
+        "In the left navigation, select Data \u00bb Database.",
+        "Navigate to SAMOOHA_BY_SNOWFLAKE_LOCAL_DB \u00bb PUBLIC \u00bb Tables \u00bb PROVIDER_ACTIVATION_SUMMARY.",
+        "Select Data Preview.",
+        "Open Projects \u00bb Worksheets.",
+        "Select + \u00bb SQL Worksheet.",
+        "To list the activation data that was pushed from the collaborator\u2019s clean room environment, paste and run the following\nstatement:",
+        "You can also use filters in your query to focus on a particular segment or clean room.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

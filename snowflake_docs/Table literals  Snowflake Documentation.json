@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/literals-table",
+    "title": "Table literals | Snowflake Documentation",
+    "paragraphs": [
+        "Table literals are used to pass the name of a table or a placeholder value (instead of a table name) to a query. Table literals appear in the FROM clause of a SQL\nstatement and consist of either the table name, or a SQL variable or API bind variable in place of the table name.",
+        "Informally, when using TABLE(...) to construct a table literal, you can think of TABLE()  as like a\ntable function. Syntactically, TABLE() looks like a function. Semantically,\nTABLE() behaves similarly to a table function because it:",
+        "Accepts a scalar value as input.",
+        "Returns a set of 0 or more rows.",
+        "Can be used as a source of rows in a FROM clause.",
+        "A string literal that contains an identifier for a table:",
+        "The identifier can be fully-qualified in the form of:",
+        "Double quotes are supported for individual object identifiers that are case-sensitive or contain spaces and special characters.",
+        "The entire identifier string must be enclosed in single quotes or $$. For example:",
+        "A SQL variable that has been set for the session.",
+        "A bind variable, in the standard form of ? or :name, for use with APIs that support bindings (Java, Python, etc.).",
+        "Table literals are supported in the FROM clause only.",
+        "Where TABLE() is supported, it is equivalent to using IDENTIFIER().",
+        "When a bind variable is used to prepare a statement, table metadata is not available after preparing the statement.",
+        "Query the table mytable using a table literal (note that the following two examples are syntactically equivalent):",
+        "Query the table mytable in the schema myschema and the database mydb using a table literal (note that the following two examples are syntactically equivalent):",
+        "Set a session variable that references a table name and then query the table using the variable passed as a table literal:",
+        "Prepare a statement with a binding that represents a table (note that the following two examples are syntactically equivalent):",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.service.ServiceInstance",
+    "title": "snowflake.core.service.ServiceInstance | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: BaseModel",
+        "A model object representing the ServiceInstance resource.",
+        "Constructs an object of type ServiceInstance with the provided properties.",
+        "database_name (str, optional) \u2013 A Snowflake object identifier.",
+        "schema_name (str, optional) \u2013 A Snowflake object identifier.",
+        "service_name (str, optional) \u2013 A Snowflake object identifier.",
+        "instance_id (str, optional) \u2013 ID of the service instance (this is the index of the service instance starting from 0).",
+        "status (str, optional) \u2013 The current status of the service instance.",
+        "spec_digest (str, optional) \u2013 The unique and immutable identifier that represents the service specification content.",
+        "creation_time (str, optional) \u2013 The time when Snowflake started creating the service instance.",
+        "start_time (str, optional) \u2013 The time when Snowflake acknowledged the service instance is running on a node.",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of ServiceInstance from a dict.",
+        "Create an instance of ServiceInstance from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

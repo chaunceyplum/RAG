@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_08/bcr-1806",
+    "title": "TASK_HISTORY view (ACCOUNT_USAGE): task usage history restricted to 1 year (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "With this behavior change, the TASK_HISTORY view in the ACCOUNT_USAGE schema behaves as follows:",
+        "With the TASK_HISTORY view, you can retrieve the history of task usage longer than 1 year.",
+        "With the TASK_HISTORY view, you can retrieve the history of task usage only within 1 year.",
+        "Ref: 1806",
+        "Was this page helpful?"
+    ]
+}

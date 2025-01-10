@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/streamlit-apps/overview",
+    "title": "Managing Streamlit apps with Snowflake CLI | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "For Streamlit developers who currently use a local IDE development flow and a Git-backed continuous integration and deployment (CI/CD) collaboration workflow, switching to in-browser editing for Streamlit in Snowflake can be difficult. Snowflake CLI gives developers critical and familiar tooling to integrate SiS into their current development flow.",
+        "Using Snowflake CLI, developers can now easily deploy apps from a CLI and perform operations efficiently without requiring any SQL knowledge. Without Snowflake CLI, Streamlit app developers had to deploy locally developed apps to the Snowflake infrastructure by executing SQL commands and copying local files to a stage. Now, these app developers can use whichever method they prefer.",
+        "You can perform the following operations when managing Streamlit apps:",
+        "Creating a Streamlit app",
+        "Deploying a Streamlit app",
+        "Retrieving the URL for a Streamlit app",
+        "Share a Streamlit app",
+        "Managing Streamlit apps",
+        "For more information about Streamlit apps in Native Apps, see Add a Streamlit app.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

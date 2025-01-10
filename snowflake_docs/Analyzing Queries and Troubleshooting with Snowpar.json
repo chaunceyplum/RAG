@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/scala/troubleshooting",
+    "title": "Analyzing Queries and Troubleshooting with Snowpark Scala | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides some guidelines on analyzing queries and troubleshooting problems when working with the Snowpark library.",
+        "To inspect the evaluation plan of a DataFrame, call the explain method of the DataFrame. This prints the SQL statements\nused to evaluate the DataFrame. If there is only one SQL statement, the method also prints the logical plan for the statement.",
+        "After the execution of a DataFrame has been triggered, you can check on the progress of the query in the History\n page in the Classic Console.",
+        "In the Query Tag column, you can find the name of the function and the line number in your code that triggered this query.",
+        "By default, the Snowpark library logs INFO level messages to stdout. To change the logging settings, create a\nsimplelogger.properties file, and configure the logger properties in that file. For example, to set the log level to\nDEBUG:",
+        "Put this file in your classpath. If you are using a Maven directory layout, put the file in the src/main/resources/\ndirectory.",
+        "If a java.lang.OutOfMemoryError exception is thrown, increase the maximum heap size for the JVM.",
+        "If you are using the Scala REPL and you need to increase the maximum heap size, edit the run.sh shell script (provided in\nthe archive file) and add the -J-Xmxmaximum_size flag to the scala command. The following example increases\nthe maximum heap size to 4 GB:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

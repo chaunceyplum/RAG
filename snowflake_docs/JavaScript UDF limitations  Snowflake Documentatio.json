@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/udf/javascript/udf-javascript-limitations",
+    "title": "JavaScript UDF limitations | Snowflake Documentation",
+    "paragraphs": [
+        "To ensure stability within the Snowflake environment, Snowflake places the following limitations on JavaScript UDFs. These\nlimitations are not invoked at the time of UDF creation, but rather at runtime when the UDF is called.\nThis topic covers general JavaScript UDF (user-defined function) requirements and usage details, as well as limitations that are\nspecific to JavaScript UDFs.",
+        "Snowflake limits the maximum size of the JavaScript source code in the body of a JavaScript UDF. Snowflake recommends limiting\nthe size to 100 KB. (The code is stored in a compressed form, and the exact limit depends on the compressibility of the code.)",
+        "JavaScript UDFs will fail if they consume too much memory. The specific limit is subject to change. Using too much memory will\nresult in an error being returned.",
+        "JavaScript UDFs that take too long to complete will be killed and an error returned to the user. In addition, JavaScript UDFs that\nenter endless loops will result in errors.",
+        "Excessive stack depth due to recursion will result in an error.",
+        "Snowflake usually preserves the JavaScript global state between iterations of a UDF. However, you should not rely on previous\nmodifications to the global state being available between function calls. Additionally, you should not assume that all rows will\nexecute within the same JavaScript environment.",
+        "In practice, the global state is relevant with:",
+        "Complex/expensive initialization logic. By default, the provided UDF code is evaluated for every row processed. If that code\ncontains complex logic, this might be inefficient.",
+        "Functions that contain code that is not idempotent. A typical pattern would be:",
+        "The first time that this code is executed, it changes the state of toString and _originalToString. Those changes\nare preserved in the global state, and the second time that this code is executed, the values are changed again in a way that\ncreates recursion. The second time that toString is called, the code recurses infinitely (until it runs out of stack space).",
+        "For these situations, a recommended pattern is to guarantee that relevant code is evaluated only once, using JavaScript\u2019s global\nvariable semantics. For example:",
+        "Note that this mechanism is only safe for caching the effects of code evaluation. It is not guaranteed that after an initialization\nthe global context will be preserved for all rows, and no business logic should depend on it.",
+        "JavaScript UDFs support access to the standard JavaScript library. Note that this excludes many objects and methods typically\nprovided by browsers. There is no mechanism to import, include, or call additional libraries. All required code should be embedded\nwithin the UDF.",
+        "Additionally, the built-in JavaScript eval() function is disabled.",
+        "Returned variant objects are subject to size and nesting-depth limitations:",
+        "Currently limited to several megabytes, but subject to change.",
+        "Currently limited to a nesting depth of 1000, but subject to change.",
+        "If any object is too large or too deep, an error is returned when the UDF is called.",
+        "Certain type characteristics declared for an argument or return value will be ignored when the UDF is called. In these cases, the\nreceived value may be used as received whether or not it conforms to constraints specified in the declaration.",
+        "The following are ignored for UDFs whose logic is written in JavaScript:",
+        "Length for arguments of type VARCHAR",
+        "Code in the following example declares that the arg1 argument and the return value must be a VARCHAR no more than one character\nlong. However, calling this function with an arg1 whose value is longer than one character will succeed as if the constraint were\nnot specified.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

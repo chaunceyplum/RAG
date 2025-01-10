@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/show-shares-in-replication-group",
+    "title": "SHOW SHARES IN REPLICATION GROUP | Snowflake Documentation",
+    "paragraphs": [
+        "Lists shares in a replication group.",
+        "SHOW DATABASES IN REPLICATION GROUP",
+        "Specifies the identifier for the replication group.",
+        "Executing this command requires a role with either the OWNERSHIP or MONITOR privilege on the replication group. The command\nreturns results only for a role with the MONITOR privilege on a share.",
+        "To retrieve the list of replication groups in your organization, use SHOW REPLICATION GROUPS.",
+        "List the shares in the replication group myrg:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

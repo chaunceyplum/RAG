@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/current_schema",
+    "title": "CURRENT_SCHEMA | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (Session Object)",
+        "Returns the name of the current schema, which varies depending on where you call the function:",
+        "If you call this function outside of a policy, UDF, or view, it returns the schema that is in use for the current session.",
+        "If you call this function in the body of a policy, for example a masking policy, it returns the schema that contains the table or view\nthat is protected by the policy.",
+        "If you call this function in the handler code of a UDF, it returns the schema that contains the UDF.",
+        "If you call this function in the definition of a view, it returns the schema that contains the view.",
+        "None.",
+        "Do not confuse this function with the similarly named function CURRENT_SCHEMAS.",
+        "Show the current warehouse, database, and schema:",
+        "Output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

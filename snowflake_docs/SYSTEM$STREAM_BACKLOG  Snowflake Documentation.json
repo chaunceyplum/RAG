@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_stream_backlog",
+    "title": "SYSTEM$STREAM_BACKLOG | Snowflake Documentation",
+    "paragraphs": [
+        "Table functions , System functions (Information)",
+        "Returns the set of table versions between the current offset for a specified stream and the\ncurrent timestamp. This function accepts any stream type as input (e.g. table, external table, or view) with the exception of streams on\ndirectory tables.",
+        "For each table version, the function provides the estimated number of change data capture (CDC) records that comprise the table version,\nas well as the DML operation (INSERT, UPDATE, DELETE, TRUNCATE) associated with the table version.",
+        "Use this function to analyze the volume of CDC records generated for each stream, enabling you to estimate the compute resources required\nfor a task to process the records.",
+        "The name of the stream to query.",
+        "Note that the entire name must be enclosed in single quotes, including the database and schema, if the name is fully-qualified,\n(i.e. '<db>.<schema>.<stream_name>').",
+        "If the stream name is case-sensitive or includes any special characters or spaces, double quotes are required to process the\ncase/characters. The double quotes must be enclosed within the single quotes, i.e. '\"<stream_name>\"'.",
+        "N/A",
+        "Retrieve the current set of unconsumed table versions for stream db1.schema1.s1:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

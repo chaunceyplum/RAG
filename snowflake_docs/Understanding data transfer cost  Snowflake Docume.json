@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cost-understanding-data-transfer",
+    "title": "Understanding data transfer cost | Snowflake Documentation",
+    "paragraphs": [
+        "Data transfer is the process of moving data into (ingress) and out of (egress) Snowflake.",
+        "Snowflake charges a per-byte fee for data egress when users transfer data from a Snowflake account into a different region on the same\ncloud platform or into a completely different cloud platform. Data transfers within the same region are free.",
+        "The per-byte rate for transferring data out of a region depends where your Snowflake account is hosted. For data transfer pricing, see\nthe pricing guide.",
+        "Note",
+        "Snowflake does not charge data ingress fees. However, a cloud storage provider might charge a data egress fee for transferring\ndata from the provider to your Snowflake account.",
+        "Contact your cloud storage provider (Amazon S3, Google Cloud Storage, or Microsoft Azure) to determine whether they apply data egress\ncharges to transfer data from their network and region of origin to the cloud provider\u2019s network and region where your Snowflake\naccount is hosted.",
+        "Snowflake features that transfer data from a Snowflake account into a different region on the same cloud platform or into a completely\ndifferent cloud platform incur data transfer costs. For example, the following actions incur data transfer costs:",
+        "Unloading data - Unloading data from Snowflake to Amazon, Google Cloud Storage, or Microsoft Azure.",
+        "Typically this involves the use of COPY INTO <location> to unload data to cloud storage in a region or cloud\nplatform different from where your Snowflake account is hosted.\nIn addition, unloading data typically involves a stage, with its associated costs.",
+        "Replicating Data - Replication of databases, creating a snapshot of the database to a\nsecondary database.",
+        "Typically this involves replicating data to a Snowflake account in a region or cloud platform different from where your primary (origin)\nSnowflake account is hosted. See also Replication Billing.",
+        "External network access - Accessing network locations\nexternal to Snowflake from procedure or UDF handler code using external access. See also\nCosts of external network access.",
+        "Writing external functions - Use of external functions to transfer data from your Snowflake account to AWS, Microsoft\nAzure, or Google Public cloud. See also External Functions Billing.",
+        "Cross-Cloud Auto-Fulfillment -\nUsing auto-fulfillment to offer listings to consumers in other cloud regions.",
+        "Note",
+        "Snowflake does not apply data egress charges when a Snowflake client or driver retrieves query results across regions within\nthe same cloud platform or across different cloud platforms.",
+        "Next Topic",
+        "Exploring data transfer cost",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/external-functions-creating-azure-ui",
+    "title": "Creating an external function for Azure using the Azure Portal | Snowflake Documentation",
+    "paragraphs": [
+        "These topics provide detailed instructions for using the Azure Portal user interface to create an external function hosted on\nMicrosoft Azure. You can use these instructions either to create the sample external function provided by Snowflake or as a guide to\ncreate your own external function.",
+        "In these topics, you will learn how to:",
+        "Create a basic Azure Function as a remote service and an Azure API Management service as a proxy service.",
+        "Create an API integration and the external function itself in Snowflake.",
+        "Link the API integration to the API Management service.",
+        "Secure the API Management service through a security policy.",
+        "These topics assume that you are already familiar with the Azure Portal. They describe the general steps that you need to complete,\nbut do not describe the Portal in detail.",
+        "See also:",
+        "Planning an external function for Azure",
+        "Steps:",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.collect_nowait",
+    "title": "snowflake.snowpark.DataFrame.collect_nowait | Snowflake Documentation",
+    "paragraphs": [
+        "Executes the query representing this DataFrame asynchronously and returns: class:AsyncJob.\nIt is equivalent to collect(block=False).",
+        "statement_params \u2013 Dictionary of statement level parameters to be set while executing this action.",
+        "case_sensitive \u2013 A bool value which is controls the case sensitivity of the fields in the\nRow objects after collecting the result using AsyncJob.result(). Defaults to\nTrue.",
+        "See also",
+        "collect()",
+        "Was this page helpful?"
+    ]
+}

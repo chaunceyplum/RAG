@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/guides-overview-db",
+    "title": "Databases, Tables and Views - Overview | Snowflake Documentation",
+    "paragraphs": [
+        "All data in Snowflake is maintained in databases. Each database consists of one or more schemas, which are logical groupings of database objects,\nsuch as tables and views. Snowflake does not place any hard limits on the number of databases, schemas (within a database), or objects (within\na schema) you can create.",
+        "Use the following pages to learn about tables and table types, views, design considerations and other related content.",
+        "Introduction to micro-partitions and data clustering, two of the principal concepts utilized in Snowflake physical table structures.",
+        "Snowflake supports creating temporary tables for storing non-permanent, transitory data such as ETL data, session-specific\nor other short lived data.",
+        "Snowflake supports the concept of an external table. External tables are read-only, and their files are stored in an external stage.",
+        "Snowflake supports the concept of a hybrid table. Hybrid tables provide\noptimized performance for read and write operations in transactional and\nhybrid workloads.",
+        "Snowflake supports the Apache Iceberg\u2122 open table format. Iceberg tables use data in external cloud\nstorage and give you the option to use Snowflake as the Iceberg catalog, an external Iceberg catalog, or to create a table\nfrom files in object storage.",
+        "A view allows the result of a query to be accessed as if it were a table.\nViews serve a variety of purposes, including combining, segregating, and protecting data.",
+        "Snowflake supports the concept of a secure view. Secure views are specifically designed for data privacy.\nFor example to limit access to sensitive data that should not be exposed to all users of the underlying table(s).",
+        "Materialized views are views precomputed from data derived from a query specification and stored for later use.\nQuerying a materialized view is faster than executing a query against the base table of the view because the data is pre-computed.",
+        "Best practices, general guidelines, and important considerations when designing and managing tables.",
+        "Best practices, general guidelines, and important considerations when cloning objects in Snowflake, particularly databases, schemas,\nand permanent tables.",
+        "Best practices and guidelines for controlling data storage costs associated with Continuous Data Protection (CDP), particularly for tables.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

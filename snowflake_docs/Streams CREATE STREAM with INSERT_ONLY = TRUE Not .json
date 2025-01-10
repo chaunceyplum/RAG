@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_01/bcr-795",
+    "title": "Streams: CREATE STREAM with INSERT_ONLY = TRUE Not Allowed on Non-external Tables | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "CREATE STREAM with INSERT_ONLY = TRUE specified for a non-external table now produces an error and the\nstatement fails:",
+        "The Snowflake Documentation states that the use of INSERT_ONLY is not allowed on non-external tables. However, when\nINSERT_ONLY was specified, the command executed successfully, but INSERT_ONLY was not enforced.",
+        "Any attempt to create an INSERT_ONLY stream on non-external tables throws the following error:",
+        "Streams of type INSERT_ONLY can only be created on external tables.",
+        "Ref: 795",
+        "Was this page helpful?"
+    ]
+}

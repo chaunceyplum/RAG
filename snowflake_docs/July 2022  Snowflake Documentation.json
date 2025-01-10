@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2022-07",
+    "title": "July 2022 | Snowflake Documentation",
+    "paragraphs": [
+        "The following new features, behavior changes, and updates (enhancements, fixes, etc.) have been introduced this month. If you have any\nquestions about these additions, please contact\nSnowflake Support.",
+        "Important",
+        "Each release may include updates that require the web interface to be refreshed.",
+        "As a general practice, to ensure these updates do not impact your usage, we recommend refreshing the web interface after each Snowflake\nrelease has been deployed.",
+        "We are pleased to announce the immediate availability of the following new regions:",
+        "Cloud Platform",
+        "Region",
+        "Amazon Web Services (AWS)",
+        "South America (Sao Paulo)",
+        "Asia Pacific (Osaka)",
+        "Google Cloud Platform (GCP)",
+        "US East 4 (N. Virginia)",
+        "The new regions support all Snowflake editions. You can provision initial accounts in the regions\nthrough self-service or a Snowflake representative.",
+        "Was this page helpful?",
+        "On this page",
+        "Related info",
+        "For more details about the individual releases in which these changes were introduced, see:",
+        "Releases"
+    ]
+}

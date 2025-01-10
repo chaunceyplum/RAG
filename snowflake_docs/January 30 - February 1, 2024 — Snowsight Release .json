@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/ui/2024-01-30",
+    "title": "January 30 - February 1, 2024 \u2014 Snowsight Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "This document provides an overview of the new features, enhancements, and other important changes introduced in this update to\nSnowsight.",
+        "If you have additional questions, please feel free to contact Snowflake Support.",
+        "With this release, we are pleased to announce the general availability of creating a new table when loading a file in Snowsight.\nSnowsight uses the INFER_SCHEMA table function to automatically detect the file metadata schema,\nretrieve the column definitions, and generate a new table. This feature doesn\u2019t support XML files.",
+        "For more information, see Create a new table using Snowsight.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

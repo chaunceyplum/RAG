@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_07/bcr-1668",
+    "title": "Telemetry: Event table attribute name and value changes | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_07 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, some telemetry data in the event table and in Snowsight changes when a\nfunction or procedure handler is written in Python.",
+        "In the event table when the handler is written in Python, the following is true:",
+        "In the RECORD column for a SPAN RECORD_TYPE, the name attribute\u2019s value is a fixed value such as\nsnow.auto_instrumented.",
+        "The RECORD column for a SPAN RECORD_TYPE can contain a snowflake.max_memory_usage_bytes attribute.",
+        "In Snowsight, in the Query Profile view, the snowflake.max_memory_usage_bytes value is listed as\nPython sandbox max memory usage.",
+        "In the event table when the handler is written in Python, the following is true:",
+        "In the RECORD column for a SPAN RECORD_TYPE, the name attribute\u2019s value identifies the handler for the function or\nprocedure that emitted the data. This varies by executable type:",
+        "Procedure \u2014 handler function name",
+        "User-defined function (UDF) \u2014 handler function name",
+        "User-defined table function (UDTF) \u2014 handler class name",
+        "Client code \u2014 name of the client-side API that began the span",
+        "The RECORD column for a SPAN RECORD_TYPE can contain a snow.process.memory.usage.max attribute renamed from snowflake.max_memory_usage_bytes.",
+        "In Snowsight, in the Query Profile view, the snow.process.memory.usage.max value is listed as Max Python process memory usage.",
+        "Similarly, in the GET_QUERY_OPERATOR_STATS function\u2019s output, the OPERATOR_STATISTICS column\u2019s Python sandbox max memory usage nested key\nhas been renamed to Max Python process memory usage.",
+        "Ref: 1668",
+        "Was this page helpful?"
+    ]
+}

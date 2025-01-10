@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.to_numeric",
+    "title": "modin.pandas.to_numeric | Snowflake Documentation",
+    "paragraphs": [
+        "Convert argument to a numeric type.",
+        "If the input arg type is already a numeric type, the return dtype\nwill be the original type; otherwise, the return dtype is float.",
+        "arg (scalar, list, tuple, 1-d array, or Series) \u2013 Argument to be converted.",
+        "errors ({'ignore', 'raise', 'coerce'}, default 'raise') \u2013",
+        "If \u2018raise\u2019, then invalid parsing will raise an exception.",
+        "If \u2018coerce\u2019, then invalid parsing will be set as NaN.",
+        "If \u2018ignore\u2019, then invalid parsing will return the input.",
+        "",
+        "downcast (str, default None) \u2013 downcast is ignored in Snowflake backend.",
+        "Numeric if parsing succeeded.\nReturn type depends on input.  Series if arg is not scalar.",
+        "ret",
+        "See also",
+        "Cast argument to a specified dtype.",
+        "Convert argument to datetime.",
+        "Convert argument to timedelta.",
+        "Cast a numpy array to a specified type.",
+        "Convert dtypes.",
+        "Examples",
+        "Take separate series and convert to numeric, coercing when told to",
+        "Note: to_numeric always converts non-numeric values to floats\n>>> s = pd.Series([\u20181\u2019, \u20182\u2019, \u2018-3\u2019])\n>>> pd.to_numeric(s)\n0    1.0\n1    2.0\n2   -3.0\ndtype: float64\n>>> pd.to_numeric(s, downcast=\u2019float\u2019)  # downcast is ignored\n0    1.0\n1    2.0\n2   -3.0\ndtype: float64\n>>> pd.to_numeric(s, downcast=\u2019signed\u2019)  # downcast is ignored\n0    1.0\n1    2.0\n2   -3.0\ndtype: float64\n>>> s = pd.Series([\u2018apple\u2019, \u20181.0\u2019, \u20182\u2019, -3])\n>>> pd.to_numeric(s, errors=\u2019coerce\u2019)\n0    NaN\n1    1.0\n2    2.0\n3   -3.0\ndtype: float64",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/array_position",
+    "title": "ARRAY_POSITION | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Array/Object)",
+        "Returns the index of the first occurrence of an element in an array.",
+        "Value to find in array.",
+        "If array is a semi-structured ARRAY, value_expr must evaluate to a\nVARIANT.",
+        "If array is a structured ARRAY, value_expr must evaluate\nto a type that is comparable to the type of the ARRAY.",
+        "The ARRAY to search.",
+        "The function returns an INTEGER specifying the position of value_expr in array.",
+        "The return value is 0-based, not 1-based. In other words, if the value_expr matches the first element in the array,\nthis function returns 0, not 1.",
+        "If the value is not contained in the ARRAY, the function returns NULL.",
+        "If you specify NULL for value_expr, the function returns the position of the first NULL in the array.",
+        "The examples below show how to use this function:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

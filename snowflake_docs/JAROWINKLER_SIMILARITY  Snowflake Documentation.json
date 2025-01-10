@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/jarowinkler_similarity",
+    "title": "JAROWINKLER_SIMILARITY | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Matching/Comparison)",
+        "Computes the Jaro-Winkler similarity between two input strings.\nThe function returns an integer between 0 and 100, where 0 indicates no similarity and 100 indicates an exact match.",
+        "Note",
+        "The similarity computation is case-insensitive.",
+        "The computation is sensitive to all formatting characters, including white space characters.",
+        "The default scaling factor\nof 0.1 is used for the computation.",
+        "Required:",
+        "The input strings.",
+        "When the function compares short strings, the execution time is proportional to the product of the lengths of the input strings.",
+        "When the function compares long strings, the execution time is proportional to the length of the longer string.",
+        "No impact.\nIn languages where the alphabet contains digraphs or trigraphs (such as \u201cDz\u201d and \u201cDzs\u201d in Hungarian), each character in each digraph and trigraph is treated as an independent character, not as part of a single multi-character letter.",
+        "The result is based solely on the characters in the strings, not on the collation specifications of the strings.",
+        "The following example computes the similarity between the strings in the columns s and t in the table ed.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

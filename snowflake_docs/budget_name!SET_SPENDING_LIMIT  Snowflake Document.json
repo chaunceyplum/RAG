@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/budget/methods/set_spending_limit",
+    "title": "<budget_name>!SET_SPENDING_LIMIT | Snowflake Documentation",
+    "paragraphs": [
+        "Set the spending limit for a budget. The spending limit is expressed\nin number of credits.",
+        "<budget_name>!GET_SPENDING_LIMIT",
+        "The number of credits allocated to the budget per month. When total usage for all objects assigned to the budget reaches this\nnumber for the current month, the budget is considered to be at 100% of the spending limit.",
+        "For the account budget, all supported objects contribute to the credit\nusage.",
+        "If a value is not specified for a budget, the budget has no spending limit, will never reach 100% usage, and will not\ntrigger notifications.",
+        "Default: -1 (no spending limit).",
+        "The following minimum privileges and roles are required to view results for custom budgets:",
+        "ADMIN instance role for the budget instance.",
+        "USAGE privilege on the database and schema that contains the budget instance.",
+        "The following role is required to view results for the account budget:",
+        "BUDGET_ADMIN application role for the account budget.",
+        "For more information, see Budgets roles and privileges.",
+        "The number argument must be a positive integer.",
+        "Calling this method does not return the object. Because of this, you can\u2019t use method chaining to call another method on the\nreturn value of this method. Instead, call each method in a separate SQL statement.",
+        "Set the spending limit for the account budget to 500 credits per month:",
+        "Set the spending limit for budget my_database.my_schema.my_budget to 100 credits per month.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

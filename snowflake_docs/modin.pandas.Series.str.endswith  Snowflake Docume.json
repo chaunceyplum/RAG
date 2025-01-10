@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.str.endswith",
+    "title": "modin.pandas.Series.str.endswith | Snowflake Documentation",
+    "paragraphs": [
+        "Test if the end of each string element matches a pattern.",
+        "pat (str or tuple[str, \u2026]) \u2013 Character sequence or tuple of strings. Regular expressions are not accepted.",
+        "na (object, default NaN) \u2013 Object shown if element tested is not a string. The default depends on dtype of the array. For object-dtype, numpy.nan is used. For StringDtype, pandas.NA is used.",
+        "A Series of booleans indicating whether the given pattern matches the end of each string element.",
+        "Series or Index of bool",
+        "See also",
+        "Python standard library string method.",
+        "Same as endswith, but tests the start of string.",
+        "Tests if string element contains a pattern.",
+        "Examples",
+        "Specifying na to be False instead of NaN.",
+        "Was this page helpful?"
+    ]
+}

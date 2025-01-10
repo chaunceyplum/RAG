@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.cortex.search_service.CortexSearchServiceResource",
+    "title": "snowflake.core.cortex.search_service.CortexSearchServiceResource | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SchemaObjectReferenceMixin[CortexSearchServiceCollection]",
+        "Attributes",
+        "Methods",
+        "Was this page helpful?"
+    ]
+}

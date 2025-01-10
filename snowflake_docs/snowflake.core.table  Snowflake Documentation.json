@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.table",
+    "title": "snowflake.core.table | Snowflake Documentation",
+    "paragraphs": [
+        "Manages Snowflake Tables.",
+        "Classes",
+        "Table(*,\u00a0name[,\u00a0kind,\u00a0cluster_by,\u00a0...])",
+        "A model object representing the Table resource.",
+        "TableResource(name,\u00a0collection)",
+        "Represents a reference to a Snowflake table.",
+        "TableCollection(schema)",
+        "Represents the collection operations on the Snowflake Table resource.",
+        "TableColumn(*,\u00a0name,\u00a0datatype[,\u00a0nullable,\u00a0...])",
+        "A model object representing the TableColumn resource.",
+        "ForeignKey(*[,\u00a0name,\u00a0column_names])",
+        "A model object representing the ForeignKey resource.",
+        "PrimaryKey(*[,\u00a0name,\u00a0column_names])",
+        "A model object representing the PrimaryKey resource.",
+        "UniqueKey(*[,\u00a0name,\u00a0column_names])",
+        "A model object representing the UniqueKey resource.",
+        "Constraint(*[,\u00a0name,\u00a0column_names])",
+        "A model object representing the Constraint resource.",
+        "Was this page helpful?"
+    ]
+}

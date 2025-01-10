@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/current_client",
+    "title": "CURRENT_CLIENT | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (General)",
+        "Returns the version of the client from which the function was called. If called from an application using the JDBC or ODBC driver to connect to Snowflake, returns the version of the driver.",
+        "The Worksheet in the Snowflake web interface connects to Snowflake directly through the interface; it doesn\u2019t use the JDBC or ODBC driver. As such, calling CURRENT_CLIENT in the Worksheet returns a\ndifferent value than calling the function from a client application.",
+        "Call CURRENT_CLIENT from within SnowSQL:",
+        "Call CURRENT_CLIENT from within the Worksheet in the Classic Console:",
+        "Results",
+        "row#",
+        "CURRENT_CLIENT()",
+        "1",
+        "Snowflake UI 1434236365",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

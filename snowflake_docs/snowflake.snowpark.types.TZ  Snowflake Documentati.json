@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.types.TZ",
+    "title": "snowflake.snowpark.types.TZ | Snowflake Documentation",
+    "paragraphs": [
+        "The type hint for annotating TIMESTAMP_TZ (e.g., Timestamp[TZ]) data when registering UDFs.",
+        "alias of TypeVar(\u2018TZ\u2019)",
+        "Was this page helpful?"
+    ]
+}

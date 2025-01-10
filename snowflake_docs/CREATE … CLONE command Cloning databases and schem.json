@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_08/bcr-1792",
+    "title": "CREATE \u2026 CLONE command: Cloning databases and schemas that contain hybrid tables (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Given that hybrid tables do not currently support cloning, note the\nfollowing behavior when you attempt to clone a database or a schema that contains hybrid tables:",
+        "All CREATE DATABASE \u2026 CLONE and CREATE SCHEMA \u2026 CLONE commands silently skip hybrid tables if any\nexist in the specified database or schema.",
+        "CREATE SCHEMA \u2026 CLONE commands return an error if any hybrid tables exist in the specified schema.  For example, the following command fails:",
+        "The error prompts you to run the command using the IGNORE HYBRID TABLES parameter. When you use this parameter, the command will create the cloned schema but skip any hybrid tables. For example:",
+        "CREATE DATABASE \u2026 CLONE commands that use Time Travel and specify the time with the STATEMENT parameter return an error if any hybrid tables exist in the specified database. For example, the following command fails:",
+        "The error prompts you to run the command using the IGNORE HYBRID TABLES parameter. When you use this parameter, the command will create the cloned database but skip any hybrid tables. For example:",
+        "Other CREATE DATABASE \u2026 CLONE commands, including those that use Time Travel with TIMESTAMP and OFFSET parameters, silently skip hybrid tables if any exist in the specified database. In other words, the behavior of these commands does not change.",
+        "Ref: 1792",
+        "Was this page helpful?"
+    ]
+}

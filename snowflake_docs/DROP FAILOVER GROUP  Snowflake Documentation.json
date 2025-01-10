@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-failover-group",
+    "title": "DROP FAILOVER GROUP | Snowflake Documentation",
+    "paragraphs": [
+        "Business Critical Feature",
+        "Requires Business Critical Edition (or higher). To inquire about upgrading, please contact Snowflake Support.",
+        "Removes a failover group from the account.",
+        "CREATE FAILOVER GROUP , ALTER FAILOVER GROUP , SHOW FAILOVER GROUPS",
+        "Specifies the identifier for the failover group.",
+        "Only an account administrator (user with the ACCOUNTADMIN role) or the group owner (role with the OWNERSHIP privilege on the group) can\nexecute this SQL command.",
+        "A primary failover group can only be successfully dropped if no linked secondary failover groups exist.",
+        "A database that is included in a failover group is not dropped when the failover group is dropped.",
+        "If a secondary failover group is dropped, any database previously included in the group loses read-only protection and becomes writable.",
+        "If the secondary failover group is re-created from the same primary failover group as before, the databases in the group are\noverwritten by the databases in the primary failover group during the first refresh. These databases are read-only.",
+        "To retrieve the set of accounts in your organization that are enabled for replication, use\nSHOW REPLICATION ACCOUNTS.",
+        "To retrieve the list of failover groups in your organization, use SHOW FAILOVER GROUPS.",
+        "Drop a failover group named myfg in the source account.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

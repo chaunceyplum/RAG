@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrameReader.xml",
+    "title": "snowflake.snowpark.DataFrameReader.xml | Snowflake Documentation",
+    "paragraphs": [
+        "Specify the path of the XML file(s) to load.",
+        "path \u2013 The stage location of an XML file, or a stage location that has XML files.",
+        "a DataFrame that is set up to load data from the specified XML file(s) in a Snowflake stage.",
+        "Was this page helpful?"
+    ]
+}

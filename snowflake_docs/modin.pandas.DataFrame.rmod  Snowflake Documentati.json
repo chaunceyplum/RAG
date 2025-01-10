@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.rmod",
+    "title": "modin.pandas.DataFrame.rmod | Snowflake Documentation",
+    "paragraphs": [
+        "Get modulo of DataFrame and other, element-wise (binary operator rmod).",
+        "Was this page helpful?"
+    ]
+}

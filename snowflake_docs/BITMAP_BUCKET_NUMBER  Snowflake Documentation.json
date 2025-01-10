@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/bitmap_bucket_number",
+    "title": "BITMAP_BUCKET_NUMBER | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (Counting Distinct Values)",
+        "Given a numeric value, returns an identifier (\u201cbucket number\u201d) for the bitmap containing the bit that represents the value..",
+        "Using Bitmaps to Compute Distinct Values for Hierarchical Aggregations",
+        "This expression must evaluate to a data type that can be cast to NUMBER.",
+        "The function returns a number that identifies the bitmap containing the bit that represents the value.",
+        "See Using Bitmaps to Compute Distinct Values for Hierarchical Aggregations.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

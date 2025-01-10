@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.schema",
+    "title": "snowflake.snowpark.DataFrame.schema | Snowflake Documentation",
+    "paragraphs": [
+        "The definition of the columns in this DataFrame (the \u201crelational schema\u201d for\nthe DataFrame).",
+        "Was this page helpful?"
+    ]
+}

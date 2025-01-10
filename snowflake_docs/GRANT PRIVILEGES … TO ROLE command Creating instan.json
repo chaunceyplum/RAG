@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_01/bcr-1462",
+    "title": "GRANT PRIVILEGES \u2026 TO ROLE command: Creating instances and privilege format | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of the GRANT PRIVILEGES \u2026 TO ROLE command and the following classes has changed.",
+        "ANOMALY_DETECTION",
+        "BUDGET",
+        "COMPARE",
+        "FORECAST",
+        "If you grant a privilege to create an instance of one class to a role, the role is automatically granted the privileges to create\ninstances of other classes.",
+        "The name of the privilege to create an instance of a class is as follows:",
+        "CREATE ANOMALY_DETECTION",
+        "CREATE BUDGET",
+        "CREATE COMPARE",
+        "CREATE FORECAST",
+        "If you specify the ALL keyword to grant all privileges on a schema, such as\nGRANT ALL PRIVILEGE ON SCHEMA db.sch TO ROLE r1, the role is granted privileges on each class and allowed to create instances\nof each class.",
+        "The command only grants privileges on the class that is specified in the command. If you specify the ALL keyword to grant\nprivileges on a schema, class privileges are not granted to the specified role.",
+        "To allow a role to create an instance of a class, grant the corresponding privilege manually.",
+        "The format of the privilege to create an instance of a class is as follows:",
+        "CREATE SNOWFLAKE.ML.ANOMALY_DETECTION",
+        "CREATE SNOWFLAKE.CORE.BUDGET",
+        "CREATE SNOWFLAKE.ML.FORECAST",
+        "Ref: 1462",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1271",
+    "title": "Reader accounts: DROP ACCOUNT command not supported | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of a reader account is as follows:",
+        "When you use the DROP ACCOUNT command to remove a reader account from your account, Snowflake returns a successful status message but\nthe reader account is not dropped.",
+        "Snowflake returns an error message if you try to use the DROP ACCOUNT command to remove a reader account from your account.",
+        "Instead, use the DROP MANAGED ACCOUNT command to remove a reader account from your account.",
+        "For details, see Dropping a reader account.",
+        "Ref: 1271",
+        "Was this page helpful?"
+    ]
+}

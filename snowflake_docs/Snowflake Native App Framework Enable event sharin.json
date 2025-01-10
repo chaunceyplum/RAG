@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_06/bcr-1697",
+    "title": "Snowflake Native App Framework: Enable event sharing for all apps in an account | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Currently, consumers with a role that has the MANAGE EVENT SHARING privilege can describe, enable, and disable event\nsharing for any app they have privileges to view.\nHowever, this  requires other privileges to be granted to the role in order to be able to view the app.",
+        "Even if a consumer uses a role that has the MANAGE EVENT SHARING privilege,\nthey require additional privileges on the application object to be able to configure event sharing.",
+        "Consumers with the MANAGE EVENT SHARING privilege can enable or disable event sharing for any app in their account.",
+        "Ref: 1697",
+        "Was this page helpful?"
+    ]
+}

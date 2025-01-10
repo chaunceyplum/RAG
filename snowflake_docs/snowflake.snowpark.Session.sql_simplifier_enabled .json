@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.sql_simplifier_enabled",
+    "title": "snowflake.snowpark.Session.sql_simplifier_enabled | Snowflake Documentation",
+    "paragraphs": [
+        "Set to True to use the SQL simplifier (defaults to True).\nThe generated SQLs from DataFrame transformations would have fewer layers of nested queries if the SQL simplifier is enabled.",
+        "Was this page helpful?"
+    ]
+}

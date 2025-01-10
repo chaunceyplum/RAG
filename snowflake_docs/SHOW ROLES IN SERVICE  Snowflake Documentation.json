@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/show-roles-in-service",
+    "title": "SHOW ROLES IN SERVICE | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Available to accounts in AWS and Microsoft Azure commercial regions, with some exceptions. For more information, see Available regions.",
+        "Lists all the service roles associated with a service. These are the roles defined in the service specification. For more information, see Managing access to service endpoints.",
+        "REVOKE SERVICE ROLE, GRANT SERVICE ROLE,\nSHOW GRANTS",
+        "Name of the service.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "USAGE",
+        "Service",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "The command output provides the following columns:",
+        "Column",
+        "Description",
+        "created_on",
+        "Date and time when the service role was created",
+        "name",
+        "Service role name",
+        "comment",
+        "Comment, if any, for the service role",
+        "List the service roles in the echo_service service.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

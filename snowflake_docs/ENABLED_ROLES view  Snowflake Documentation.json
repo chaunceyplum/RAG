@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/info-schema/enabled_roles",
+    "title": "ENABLED_ROLES view | Snowflake Documentation",
+    "paragraphs": [
+        "This Information Schema view displays a row for each currently-enabled role in the session. A role is enabled if it is currently in use in the session or it has been granted to the role that is currently\nin use.",
+        "For more information about roles, see Overview of Access Control.",
+        "APPLICABLE_ROLES view , OBJECT_PRIVILEGES view , TABLE_PRIVILEGES view",
+        "Column Name",
+        "Data Type",
+        "Description",
+        "ROLE_NAME",
+        "TEXT",
+        "Name of the role",
+        "ROLE_OWNER",
+        "TEXT",
+        "Owner of the role",
+        "The view only displays objects for which the current role for the session has been granted access privileges.",
+        "The view always displays the PUBLIC role because it is always enabled.",
+        "The view does not display any information about database roles.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

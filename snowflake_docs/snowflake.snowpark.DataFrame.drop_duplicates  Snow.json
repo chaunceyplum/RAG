@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.drop_duplicates",
+    "title": "snowflake.snowpark.DataFrame.drop_duplicates | Snowflake Documentation",
+    "paragraphs": [
+        "Creates a new DataFrame by removing duplicated rows on given subset of columns.",
+        "If no subset of columns is specified, this function is the same as the distinct() function.\nThe result is non-deterministic when removing duplicated rows from the subset of columns but not all columns.",
+        "For example, if we have a DataFrame df, which has columns (\u201ca\u201d, \u201cb\u201d, \u201cc\u201d) and contains three rows (1, 1, 1), (1, 1, 2), (1, 2, 3),\nthe result of df.dropDuplicates(\"a\", \"b\") can be either\n(1, 1, 1), (1, 2, 3)\nor\n(1, 1, 2), (1, 2, 3)",
+        "subset \u2013 The column names on which duplicates are dropped.",
+        "dropDuplicates() is an alias of drop_duplicates().",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-08-28-top-insights-preview-refresh",
+    "title": "August 28, 2024 \u2014 Snowflake ML Functions: Top Insights Preview Update | Snowflake Documentation",
+    "paragraphs": [
+        "We are pleased to announce updates to the Top Insights ML Function for key driver analysis, which was already in\npreview. Top Insights lets you easily identify drivers of a metric\u2019s change over time or explain differences in a\nmetric among various verticals. With a few lines of SQL, you can integrate Top Insights into your business intelligence\nworkflows to automatically monitor segments responsible for changes in any metric.",
+        "The changes in this release make using Top Insights more like using the other ML Functions while simplifying output and\nimproving its explanatory ability. You can also now use Top Insights to analyze non-time-series data.",
+        "For more information, see Top Insights.",
+        "Was this page helpful?"
+    ]
+}

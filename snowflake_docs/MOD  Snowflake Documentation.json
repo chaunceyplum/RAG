@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/mod",
+    "title": "MOD | Snowflake Documentation",
+    "paragraphs": [
+        "Numeric functions (Rounding and Truncation)",
+        "Returns the remainder of input expr1 divided by input expr2.",
+        "Equivalent to the modulo arithmetic operator (e.g. expr1 % expr2).",
+        "A numeric expression.",
+        "A numeric expression.",
+        "Returns either an integer or a fixed-point decimal number.",
+        "Both expr1 and expr2 must be numeric expressions.\nThey are not required to be integers.",
+        "The following example shows usage of the MOD() function on both integer\nand non-integer values:",
+        "Output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

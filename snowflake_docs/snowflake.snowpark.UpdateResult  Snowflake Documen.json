@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.UpdateResult",
+    "title": "snowflake.snowpark.UpdateResult | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: NamedTuple",
+        "Result of updating rows in a Table.",
+        "Methods",
+        "Attributes",
+        "multi_joined_rows_updated",
+        "The number of multi-joined rows modified.",
+        "rows_updated",
+        "The number of rows modified.",
+        "Was this page helpful?"
+    ]
+}

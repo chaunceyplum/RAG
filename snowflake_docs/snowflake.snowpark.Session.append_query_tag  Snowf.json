@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.append_query_tag",
+    "title": "snowflake.snowpark.Session.append_query_tag | Snowflake Documentation",
+    "paragraphs": [
+        "Appends a tag to the current query tag. The input tag is appended to the current sessions query tag with the given separator.",
+        "tag \u2013 The tag to append to the current query tag.",
+        "separator \u2013 The string used to separate values in the query tag.",
+        "Note",
+        "Assigning a value via session.query_tag will remove any appended query tags.",
+        "Was this page helpful?"
+    ]
+}

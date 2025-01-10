@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_ymin",
+    "title": "ST_YMIN | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns the minimum latitude (Y coordinate) of all points contained in the specified\nGEOGRAPHY or GEOMETRY object.",
+        "The argument must be an expression of type GEOGRAPHY or GEOMETRY.",
+        "Returns a REAL value.",
+        "The function takes into account the curvature of the edges toward the poles.",
+        "This shows a simple use of the ST_XMIN, ST_XMAX, ST_YMIN, and ST_YMAX functions:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/streams-examples",
+    "title": "Stream Examples | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides practical examples of use cases for streams on objects.",
+        "The following example shows how the contents of a stream change as DML statements execute on the source table:",
+        "The following example shows the differences in behavior between standard (delta) and append-only streams:",
+        "The following example shows how streams can be used in ELT (extract, load, transform) processes. In this example, new data inserted into a\nstaging table is tracked by a stream. A set of SQL statements transform and insert the stream contents into a set of production tables:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

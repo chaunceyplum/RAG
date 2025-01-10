@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.empty",
+    "title": "modin.pandas.DataFrame.empty | Snowflake Documentation",
+    "paragraphs": [
+        "Indicator whether the DataFrame is empty.",
+        "True if the DataFrame is entirely empty (no items), meaning any of the axes are of length 0.",
+        "bool",
+        "Was this page helpful?"
+    ]
+}

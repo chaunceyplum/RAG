@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_08/bcr-1801",
+    "title": "Deprecation of worksheet results sharing and secondary roles in dashboards (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, worksheet results sharing will be deprecated and transition to code-only. Recipients will only\nbe able to view the worksheet code, not the query results. In addition, dashboards can no longer be run with secondary roles.",
+        "Note",
+        "If an account enables this bundle, and then later disables the bundle, users of that account will return to the pre-BCR behavior where\ncached results are again displayed. This could result in the following unexpected behavior:",
+        "Account enables the bundle.",
+        "User 1 shares a worksheet, believing they are only sharing code, with User 2.",
+        "Account disables the bundle.",
+        "User 2 can now see results of the shared worksheet, which could include sensitive data.",
+        "Snowflake recommends testing your dashboards without secondary roles to ensure queries function correctly. To test the dashboards, run\nUSE SECONDARY ROLES 'NONE' for each tile, followed by executing the main query.\nAlternatively, you can request the administrator to temporarily set your user\u2019s DEFAULT_SECONDARY_ROLES to 'NULL' during the testing\nprocess.",
+        "If the queries fail, you may need to rebuild the dashboard:",
+        "A dashboard owner or editor can split the dashboard into multiple dashboards, running in different roles, to gather the required data.",
+        "An administrator can create a new role that is a superset of the necessary permissions and grant this to the dashboard users as their\nprimary role.",
+        "For any broken dashboard tiles, the administrator can grant the primary role access to the necessary source objects to restore dashboard\nfunctionality.",
+        "For more information, see the following Knowledge Base articles:",
+        "Changes to worksheet sharing",
+        "Changes to secondary roles in dashboards",
+        "Ref: 1801",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

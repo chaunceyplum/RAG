@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/un-bundled/bcr-update-app-dev-mode",
+    "title": "Snowflake Native App Framework: Need to recreate or update some APPLICATION objects | Snowflake Documentation",
+    "paragraphs": [
+        "As part of the rollout of the\nSupport for reference and privilege validation in the manifest file\nfeature, an APPLICATION object created in development mode that was based on staged files will no longer\nfunction correctly if the APPLICATION object contains a versioned schema.",
+        "To resolve this issue, Snowflake recommends doing one of the following:",
+        "If you do not need to preserve the existing APPLICATION object, you can delete the app and recreate it\nusing the CREATE APPLICATION command.",
+        "Following this process recreates the app and enables the new functionality added in the\nSupport for reference and privilege validation in the manifest file\nfeature.",
+        "If you need to preserve an existing APPLICATION object, use the ALTER APPLICATION\ncommand and specify the staged files using UPGRADE USING <path_to_stage>.",
+        "Following this process will return the app to a functioning state, but it will not include the new\nfunctionality added in the\nSupport for reference and privilege validation in the manifest file\nfeature.",
+        "Was this page helpful?"
+    ]
+}

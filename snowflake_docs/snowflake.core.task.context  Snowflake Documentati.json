@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.task.context",
+    "title": "snowflake.core.task.context | Snowflake Documentation",
+    "paragraphs": [
+        "Classes",
+        "TaskContext(session)",
+        "Represents the context in a Snowflake Task.",
+        "Was this page helpful?"
+    ]
+}

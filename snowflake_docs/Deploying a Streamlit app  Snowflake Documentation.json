@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/streamlit-apps/manage-apps/deploy-app",
+    "title": "Deploying a Streamlit app | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "The snow streamlit deploy command creates a new Streamlit object\ninside your chosen database and schema. By default, this command looks for a main file called streamlit_app.py\nin your current working directory.",
+        "Before deploying a Streamlit app with Snowflake CLI, you should meet the following prerequisites:",
+        "Ensure that you have a local Streamlit app with the correct directory structure and snowflake.yml project definition file must exist.",
+        "Ensure that your account has the correct privileges as described in Privileges required to create and use a Streamlit app.",
+        "Ensure that you can create or have access to a named stage where you can upload your Streamlit app files.",
+        "The snow streamlit deploy command uploads local files to a stage and creates a new Streamlit object inside your chosen database and schema. Your project definition file should specify the main Python file and query warehouse.",
+        "--replace: Replaces the specified Streamlit app, if it already exists.",
+        "--open: Opens the Streamlit app in your default browser after deploying the app.",
+        "By default the command automatically deploys the environment.yml file and the content of the pages/\ndirectory, if any of those exists. You can use different files by using command line options.",
+        "For more information about creating Streamlit apps, see the CLI snow streamlit deploy and\nSQL CREATE STREAMLIT commands.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_05/bcr-1627",
+    "title": "ALTER APPLICATION PACKAGE command: Expanded validation | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_05 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The ALTER APPLICATION PACKAGE \u2026 [ADD VERSION | ADD PATCH FOR VERSION] command command behaves as follows:",
+        "When altering an application package to either add a new version, or  patch an existing version,\nthe operation could succeed even though there were SQL syntax errors in the associated setup script.",
+        "Such syntax errors would cause errors later in the application lifecycle, such as when a user attempted to install the app.",
+        "When altering an app to either add a new version, or patch an existing version, static validation is performed for setup script syntax errors.",
+        "When a error is detected the command fails with error:",
+        "Ref: 1627",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/commands-file",
+    "title": "File staging commands | Snowflake Documentation",
+    "paragraphs": [
+        "Add files to a stage, manage files on a stage, or remove them from a stage using the following commands:",
+        "PUT",
+        "COPY FILES",
+        "GET",
+        "LIST",
+        "REMOVE",
+        "To learn about creating stages, see CREATE STAGE",
+        "Was this page helpful?"
+    ]
+}

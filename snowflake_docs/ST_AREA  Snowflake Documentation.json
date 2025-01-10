@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_area",
+    "title": "ST_AREA | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns the area of the Polygon(s) in a GEOGRAPHY or\nGEOMETRY object.",
+        "The argument must be of type GEOGRAPHY or GEOMETRY.",
+        "Returns a REAL value, which represents the area:",
+        "For GEOGRAPHY input values, the area is in square meters.",
+        "For GEOMETRY input values, the area is computed with the same units used to define the input coordinates.",
+        "If geography_expression is not a Polygon, MultiPolygon, or GeometryCollection containing polygons, ST_AREA returns 0.",
+        "If geography_expression is a GeometryCollection, ST_AREA returns the sum of the areas of the polygons in the collection.",
+        "This uses the ST_AREA function with GEOGRAPHY objects to calculate the area of Earth\u2019s surface 1 degree on each side with the\nbottom of the area on the equator:",
+        "The following example calls the ST_AREA function with GEOMETRY objects that represent a Point, LineString, and Polygon.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

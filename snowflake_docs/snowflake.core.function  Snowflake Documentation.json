@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.function",
+    "title": "snowflake.core.function | Snowflake Documentation",
+    "paragraphs": [
+        "Manages Snowflake Functions.",
+        "Classes",
+        "Function(*,\u00a0name,\u00a0arguments[,\u00a0returns,\u00a0...])",
+        "A model object representing the Function resource.",
+        "FunctionArgument(*[,\u00a0name,\u00a0datatype,\u00a0value])",
+        "A model object representing the FunctionArgument resource.",
+        "FunctionCollection(schema)",
+        "Represents the collection operations on the Snowflake Function resource.",
+        "FunctionResource(name_with_args,\u00a0collection)",
+        "Represents a reference to a Snowflake function.",
+        "ServiceFunction(*,\u00a0name,\u00a0arguments[,\u00a0...])",
+        "A model object representing the ServiceFunction resource.",
+        "Was this page helpful?"
+    ]
+}

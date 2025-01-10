@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/undrop-iceberg-table",
+    "title": "UNDROP ICEBERG TABLE | Snowflake Documentation",
+    "paragraphs": [
+        "Restores the most recent version of a dropped Apache Iceberg\u2122 table.",
+        "This topic refers to Iceberg tables as simply \u201ctables\u201d except where specifying Iceberg tables avoids confusion.",
+        "CREATE ICEBERG TABLE , ALTER ICEBERG TABLE , DROP ICEBERG TABLE ,\nSHOW ICEBERG TABLES , DESCRIBE ICEBERG TABLE",
+        "Specifies the identifier for the table to restore. If the identifier contains spaces or special characters, the entire string must\nbe enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Restoring Iceberg tables is only supported in the current schema or current database, even if the table name is fully qualified.",
+        "If an Iceberg table with the same name already exists, an error is returned.",
+        "To undrop an Iceberg table whose external volume has been dropped, undrop the external volume first. You can\u2019t undrop the Iceberg table\nby creating a new external volume with same name as the dropped external volume.",
+        "You can\u2019t restore a table that uses an external catalog if the associated catalog integration has been dropped.",
+        "UNDROP relies on the Snowflake Time Travel feature. An object can be restored only if\nthe object was deleted within the Data retention period. The default value is 24 hours.",
+        "Restore the most recent version of a dropped table my_iceberg_table:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/nullifzero",
+    "title": "NULLIFZERO | Snowflake Documentation",
+    "paragraphs": [
+        "Conditional expression functions",
+        "Returns NULL if the argument evaluates to 0; otherwise, returns the argument.",
+        "The input should be an expression that evaluates to a numeric value.",
+        "If the value of the input expression is 0, this returns NULL.\nOtherwise, this returns the value of the input expression.",
+        "The data type of the return value is NUMBER(p, s) (if the input is a\nfixed-point number) or DOUBLE (if the\ninput is a floating point number).",
+        "For fixed-point numbers, the exact values of \u2018p\u2019 (precision) and \u2018s\u2019 (scale) depend upon the input expression. For example,\nif the input expression is 3.14159, then the data type of the output value will be NUMBER(7, 5).",
+        "The following examples show the output of the function for various input values:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_02/bcr-747",
+    "title": "SHOW Commands: New OWNER_ROLE_TYPE Column in Output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_02 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The OWNER_ROLE_TYPE column is now included in the output of the following SHOW <objects> commands:",
+        "SHOW EXTERNAL TABLES",
+        "SHOW FILE FORMATS",
+        "SHOW MASKING POLICIES",
+        "SHOW MATERIALIZED VIEWS",
+        "SHOW OBJECTS",
+        "SHOW PIPES",
+        "SHOW ROW ACCESS POLICIES",
+        "SHOW SCHEMAS",
+        "SHOW SEQUENCES",
+        "SHOW STAGES",
+        "SHOW STREAMS",
+        "SHOW TABLES",
+        "SHOW TAGS",
+        "SHOW TASKS",
+        "SHOW VIEWS",
+        "The column shows the type of role that owns the object: ROLE or DATABASE_ROLE. The new column has be added immediately after the existing\nOWNER column.",
+        "Ref: 747",
+        "Was this page helpful?"
+    ]
+}

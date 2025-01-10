@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1366",
+    "title": "Snowflake Native App Framework: Block creating event tables and temporary stages within an application package | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "This behavior change prohibits providers from creating event tables or temporary stages within an\napplication package.",
+        "Providers could create event tables and temporary stages within an application package",
+        "Providers are prohibited from creating event tables and temporary stages within an application\npackage. If a provider attempts to create an event table or temporary stage within the application\npackage, they receive an error message that the object could not be created.",
+        "To display a list of application packages, a provider can run the\nSHOW APPLICATION PACKAGES command. To display the event tables in an\napplication package, a provider can run the SHOW EVENT TABLES command",
+        "Ref: 1366",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/current_schemas",
+    "title": "CURRENT_SCHEMAS | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (Session Object)",
+        "Returns active search path schemas.",
+        "For more information about search path, see Object name resolution.",
+        "None.",
+        "Do not confuse this function with the similarly named function\nCURRENT_SCHEMA.",
+        "Show the schemas that will be searched if a table or other database object\nis referenced without a schema name:",
+        "Output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/approximate_similarity",
+    "title": "APPROXIMATE_SIMILARITY | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (Similarity Estimation) , Window function syntax and usage",
+        "Returns an estimation of the similarity (Jaccard index) of inputs based on their MinHash states. For more information about MinHash states, see Estimating Similarity of Two or More Sets.",
+        "APPROXIMATE_JACCARD_INDEX",
+        "MINHASH , MINHASH_COMBINE",
+        "The expression(s) should be one or more MinHash states returned by calls to\nthe MINHASH function. In other words, the\nexpressions must be MinHash state information, not the column or\nexpression for which you want the approximate similarity. (The example below\nhelps make this clear.)",
+        "For more information about MinHash states, see\nEstimating Similarity of Two or More Sets.",
+        "A floating point number between 0.0 and 1.0 (inclusive), where 1.0 indicates\nthat the sets are identical, and 0.0 indicates that the sets have no overlap.",
+        "DISTINCT can be included as an argument, but has no effect.",
+        "The input MinHash states must have MinHash arrays of equal length.",
+        "The array length of the input MinHash states is an indicator of the quality of approximation.",
+        "The larger the value of k used in function MINHASH, the better the approximation. However, this value has a linear impact on the computation time for estimating similarity.",
+        "Here is a more extensive example, showing the three related functions\nMINHASH, MINHASH_COMBINE and APPROXIMATE_SIMILARITY. This\nexample creates 3 tables (ta, tb, and tc), two of which (ta and tb) are\nsimilar, and two of which (ta and tc) are completely dissimilar.",
+        "Create and populate tables with values:",
+        "Calculate minhash info for the initial set of data:",
+        "Add more data to one of the tables:",
+        "Demonstrate the MINHASH_COMBINE function:",
+        "This query shows the approximate similarity of the two similar tables\n(ta and tb):",
+        "This query shows the approximate similarity of the two very different tables\n(ta and tc):",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

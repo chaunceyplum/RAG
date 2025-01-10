@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-04-29-dynamic-tables",
+    "title": "April 29, 2024 \u2014 Dynamic Tables \u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the general availability of dynamic\ntables, which are a new table type for continuous processing pipelines. Whether\nyou\u2019re processing batch data daily or real time data in minutes, dynamic tables\nallow you to create data pipelines that are easy to build, operate, and evolve.",
+        "With general availability, the following new enhancements are added:",
+        "Sharing and collaboration: Dynamic tables can now be\nshared across regions and clouds using\nSnowflake\u2019s sharing and collaboration features. This makes it easy to share\nclean, enriched, and transformed data products with consumers in your\norganization, partner organizations, or the broader data cloud community,\nensuring they stay updated according to your specified cadence.",
+        "Disaster recovery and replication: Dynamic tables now support high\navailability through Snowflake\u2019s\nreplication infrastructure. You can\nbuild your production pipelines with peace of mind knowing that you\u2019re supported\nwith Snowflake\u2019s disaster recovery solutions.",
+        "Observability: New functionality added for better observability via Snowsight\nand programmatic interfaces. In Snowsight, there are new account-level views,\nvisibility into warehouse consumption,\nimproved graph and\nrefresh history,\nand the ability to suspend and resume refreshes.\nObservability functions now include new account usage views, extended retention of\ninformation schema functions and added support for consistent metadata across\nSnowflake observability interfaces.",
+        "Data Cloud integrations: Added support for clustering,\ntransient dynamic tables, and governance policies (on\nsources of dynamic tables and dynamic tables themselves), allowing you to benefit\nfrom the best features of the Snowflake Data Cloud.",
+        "Scalability: You can now create four times more dynamic tables in your account,\nand ten times more dynamic table sources feeding into another dynamic table. There\nare no longer any limits on the depth of a directed acyclic graph (DAG) that you can\ncreate.",
+        "Query evolution support: Dynamic tables now automatically evolve to absorb new\ncolumns from base tables without needing to rebuild the dynamic table when new\ncolumns are added, as long as the changes do not affect the schema of the dynamic\ntable.",
+        "New documentation: We\u2019ve added new articles to our documentation covering\ndevelopment best practices,\nperformance optimization guides,\ntroubleshooting pipeline issues,\nand other improvements.",
+        "Additionally, Snowflake has made numerous under-the-hood refinements to enhance refresh\nperformance, system stability and scalability.",
+        "For more information, see Dynamic tables.",
+        "Was this page helpful?"
+    ]
+}

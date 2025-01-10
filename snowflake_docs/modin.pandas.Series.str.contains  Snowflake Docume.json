@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.str.contains",
+    "title": "modin.pandas.Series.str.contains | Snowflake Documentation",
+    "paragraphs": [
+        "Test if pattern or regex is contained within a string of a Series or Index.",
+        "Return boolean Series or Index based on whether a given pattern or regex is contained within a string of a Series or Index.",
+        "pat (str) \u2013 Character sequence or regular expression.",
+        "case (bool, default True) \u2013 If True, case sensitive.",
+        "flags (int, default 0 (no flags)) \u2013 Flags to pass through to the re module, e.g. re.IGNORECASE.",
+        "na (scalar, optional) \u2013 Fill value for missing values. The default depends on dtype of the array. For object-dtype, numpy.nan is used. For StringDtype, pandas.NA is used.",
+        "regex (bool, default True) \u2013 If True, assumes the pat is a regular expression.\nIf False, treats the pat as a literal string.",
+        "A Series or Index of boolean values indicating whether the given pattern is contained within the string of each element of the Series or Index.",
+        "Series or Index of boolean values",
+        "See also",
+        "Analogous, but stricter, relying on re.match instead of re.search.",
+        "Test if the start of each string element matches a pattern.",
+        "Same as startswith, but tests the end of string.",
+        "Examples",
+        "Returning a Series of booleans using only a literal pattern.",
+        "Returning an Index of booleans using only a literal pattern.",
+        "Specifying case sensitivity using case.",
+        "Specifying na to be False instead of NaN replaces NaN values with False. If Series or Index does not contain NaN values the resultant dtype will be bool, otherwise, an object dtype.",
+        "Returning \u2018house\u2019 or \u2018dog\u2019 when either expression occurs in a string.",
+        "Ignoring case sensitivity using flags with regex.",
+        "Returning any digit using regular expression.",
+        "Ensure that pat is not a literal pattern when regex is set to True. Note in the following example, one might expect only s2[1] and s2[3] to return True. However, \u2018.0\u2019 as a regex matches any character followed by a 0.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/current_transaction",
+    "title": "CURRENT_TRANSACTION | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (Session)",
+        "Returns the transaction id of an open transaction in the current session.",
+        "LAST_TRANSACTION , DESCRIBE TRANSACTION",
+        "None.",
+        "This shows the transaction ID of the current transaction:",
+        "Output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

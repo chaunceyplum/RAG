@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/git-commands/overview",
+    "title": "snow git commands | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Snowflake CLI supports the following commands to support Git integration:",
+        "snow git copy",
+        "snow git describe",
+        "snow git drop",
+        "snow git execute",
+        "snow git fetch",
+        "snow git list",
+        "snow git list-branches",
+        "snow git list-files",
+        "snow git list-tags",
+        "snow git setup",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

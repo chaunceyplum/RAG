@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/array_size",
+    "title": "ARRAY_SIZE | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Array/Object)",
+        "Returns the size of the input array.",
+        "A variation of ARRAY_SIZE takes a VARIANT value as input. If the VARIANT value contains an array, the size of the array is returned; otherwise, NULL is returned if the value is not an array.",
+        "The data type of the returned value is INTEGER.",
+        "Takes an ARRAY value as input and returns the size of the array (i.e. the largest index + 1).",
+        "If the array is a sparse array, this means that the size includes the undefined elements as\nwell as the defined elements.",
+        "A NULL argument returns NULL as a result.",
+        "Here is a simple example:",
+        "Here is a slightly more complex example, this time using VARIANT data type:",
+        "Retrieve the size for each array in the VARIANT column:",
+        "Retrieve the last element of each array in the VARIANT column:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

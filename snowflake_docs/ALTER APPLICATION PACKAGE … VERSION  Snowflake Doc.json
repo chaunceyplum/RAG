@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/alter-application-package-version",
+    "title": "ALTER APPLICATION PACKAGE \u2026 VERSION | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "The Snowflake Native App Framework is generally available on supported cloud platforms. For additional information, see\nSupport for private connectivity, VPS, and government regions.",
+        "Modifies the versioning of an existing application package in the Native Apps Framework.",
+        "ALTER APPLICATION PACKAGE , ALTER APPLICATION PACKAGE \u2026 RELEASE DIRECTIVE",
+        "Specifies the identifier for the application package to alter. If the identifier contains\nspaces, special characters, or mixed-case characters, the entire string must be enclosed\nin double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Adds a version or patch using the application files located in the path to a stage location specified by\npath_to_version_directory.",
+        "You can specify an identifier for this version using version_identifier. If you do\nnot specify a version_identifier in the manifest file, you must specify a\nversion_identifier as part of this command. If you specify version_identifier\nas part of this command, it takes precedence over version_identifier specified\nin the manifest file.",
+        "You can use the LABEL clause to specify a label for this new version. This label is displayed\nto the consumer. If you omit the LABEL clause, the label specified in the manifest.yml\nfile is used.",
+        "Drops the version with the specified version name.",
+        "Drops a version with the specified version identifier. A version may only be dropped when\nthere are no release directives that are referring to it. Dropping is an asynchronous\nprocess and completes when all application instances have successfully upgraded from the\nolder version and no longer have code running on the dropping version.",
+        "Use the APPLICATION_STATE view view to monitor\nthe state of the application instances. Use the SHOW VERSIONS command to monitor the\nstatus of the dropped version.",
+        "Adds a patch for the specified version (version_identifier) using the application files located in the specified path to a\nstage location (path_to_version_directory).",
+        "You can use the LABEL clause to specify a label for this new patch. This label is displayed to the consumer. If you omit the LABEL\nclause, the label specified in the manifest.yml file is used.",
+        "Version identifiers have a maximum limit of 30 characters.",
+        "A single version can have up to 130 patches.",
+        "Modifying the version requires a role with the OWNERSHIP privilege on the application or the global MANAGE VERSIONS privilege.",
+        "If you do not specify the values for the optional properties, the command uses the values specified in the\napplication manifest file.",
+        "If you specify values for the properties in the command and in the application manifest file, the values\nspecified in the command take precedence.",
+        "If two versions are active, for example, if the current version has not finished rolling out, adding\na new version results in an error.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

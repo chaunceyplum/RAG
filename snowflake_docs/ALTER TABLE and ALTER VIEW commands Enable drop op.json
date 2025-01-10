@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_07/bcr-1327",
+    "title": "ALTER TABLE and ALTER VIEW commands: Enable drop operation when a row access policy is not set | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_07 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The ALTER TABLE \u2026 DROP ALL ROW ACCESS POLICIES command and ALTER VIEW \u2026 DROP ALL\nROW ACCESS POLICIES command behave as follows:",
+        "For example, if a row access policy is not set on the table and you try to run an ALTER TABLE \u2026 DROP ALL ROW ACCESS POLICIES command,\nSnowflake returns the following error message:",
+        "If a row access policy is not set on the table and you try to run an ALTER TABLE \u2026 DROP ALL ROW ACCESS POLICIES command, Snowflake\nreturns a successful status message:",
+        "This change can simplify your workflow scripts because you no longer need to have a workaround when Snowflake returns the error message.",
+        "Ref: 1327",
+        "Was this page helpful?"
+    ]
+}

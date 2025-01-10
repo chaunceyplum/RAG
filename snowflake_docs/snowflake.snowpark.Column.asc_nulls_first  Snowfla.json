@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Column.asc_nulls_first",
+    "title": "snowflake.snowpark.Column.asc_nulls_first | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a Column expression with values sorted in ascending order\n(null values sorted before non-null values).",
+        "Was this page helpful?"
+    ]
+}

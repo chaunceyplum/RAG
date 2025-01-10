@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/h3_try_grid_distance",
+    "title": "H3_TRY_GRID_DISTANCE | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "A special version of H3_GRID_DISTANCE that returns NULL if an error occurs when it\nattempts to return the distance between two H3 cells.",
+        "An INTEGER value that represents the H3 cell ID (index), or a VARCHAR value that represents the cell ID\nin hexadecimal format.",
+        "An INTEGER value that represents the H3 cell ID (index), or a VARCHAR value that represents the cell ID\nin hexadecimal format.",
+        "Returns an INTEGER value or NULL.",
+        "If the function can perform a successful calculation, returns the INTEGER value that represents the distance in grid\ncells between the two H3 cells.",
+        "If the grid distance cannot be calculated (for example, when two cells belong to non-neighboring\nbase cells), returns NULL without reporting an error.",
+        "See H3_GRID_DISTANCE for the usage notes.",
+        "The following example attempts to calculate the distance between two cells. Because the cells belong to non-neighboring\nbase cells, the function fails to calculate the distance and returns NULL.",
+        "For examples that successfully calculate the distance between two H3 cells, see H3_GRID_DISTANCE.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

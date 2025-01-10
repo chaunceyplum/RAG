@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/snowflake-python-managing-warehouses",
+    "title": "Managing Snowflake virtual warehouses with Python | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "You can use Python to manage Snowflake virtual warehouses, which are clusters of compute resources in Snowflake. For an overview of\nwarehouses, see Virtual warehouses.",
+        "The Snowflake Python APIs represents warehouses with two separate types:",
+        "Warehouse: Exposes a warehouse\u2019s properties such as its name, size, type, and auto-resume and auto-suspend settings.",
+        "WarehouseResource: Exposes methods you can use to fetch a corresponding Warehouse object, suspend and resume the\nwarehouse, and drop the warehouse.",
+        "The examples in this topic assume that you\u2019ve added code to connect with Snowflake and to create a Root object from which to use the\nSnowflake Python APIs.",
+        "For example, the following code uses connection parameters defined in a configuration file to create a connection to Snowflake:",
+        "Using the resulting Session object, the code creates a Root object to use the API\u2019s types and methods. For more information,\nsee Connect to Snowflake with the Snowflake Python APIs.",
+        "To create a warehouse, first create a Warehouse object, and then create a WarehouseCollection object from the API Root\nobject. Using WarehouseCollection.create, add the new warehouse to Snowflake.",
+        "Code in the following example creates a Warehouse object that represents a warehouse named my_wh:",
+        "The code creates a WarehouseCollection variable warehouses and uses WarehouseCollection.create to create a new warehouse in Snowflake.",
+        "You can get information about a warehouse by calling the WarehouseResource.fetch method, which returns a Warehouse object.",
+        "Code in the following example gets information about a warehouse named my_wh:",
+        "You can set properties of a Warehouse object and pass it to the WarehouseResource.create_or_alter method to create a\nwarehouse if it doesn\u2019t exist, or alter it according to the warehouse definition if it does exist. The behavior of create_or_alter\nis intended to be idempotent, which means that the resulting warehouse object will be the same regardless of whether the warehouse exists\nbefore you call the method.",
+        "Note",
+        "The create_or_alter method uses default values for any Warehouse\nproperties that you don\u2019t explicitly define. For example, if you don\u2019t set auto_suspend, its value defaults to None even if\nthe warehouse previously existed with a different value.",
+        "Code in the following example updates the size and auto-suspend setting of the my_wh warehouse, and then alters the warehouse on\nSnowflake.",
+        "In this case, it changes the my_wh warehouse\u2019s size to LARGE and its\nauto-suspend setting to 1800 if you previously created it with different properties.",
+        "You can list warehouses using the WarehouseCollection.iter method, which returns a PagedIter iterator of\nWarehouse objects.",
+        "Code in the following example lists warehouses whose name includes the text my and prints the name of each:",
+        "You can perform common warehouse operations\u2014such as suspending and resuming warehouses and aborting all queries on warehouses\u2014with a\nWarehouseResource object.",
+        "Code in the following example suspends and resumes the my_wh warehouse, aborts all running or queued queries on the warehouse, and\nthen drops the warehouse:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

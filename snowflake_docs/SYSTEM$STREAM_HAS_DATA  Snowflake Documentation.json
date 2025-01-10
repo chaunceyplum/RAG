@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_stream_has_data",
+    "title": "SYSTEM$STREAM_HAS_DATA | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Indicates whether a specified stream contains change data capture (CDC) records.",
+        "The name of the stream to query.",
+        "Note that the entire name must be enclosed in single quotes, including the database and schema (if the name is fully-qualified), i.e. '<db>.<schema>.<stream_name>'.",
+        "If the stream name is case-sensitive or includes any special characters or spaces, double quotes are required to process the case/characters. The double quotes must be enclosed within the single quotes, i.e. '\"<stream_name>\"'.",
+        "This function is intended to be used in the WHEN expression in the definition of tasks. If the specified stream contains no change data, the task skips the current run. This check can help avoid starting or resuming a warehouse unnecessarily. However, note that the function is designed to avoid false negatives (i.e. returning a false value even when the stream contains change data); however, the function is not guaranteed to avoid false positives (i.e. returning a true value when the stream contains no change data).",
+        "This function performs a diff of the table version metadata (between the stream offset and the current transactional time) to determine whether the stream contains CDC records. If the DML activity for the table during that period consisted of the same set of rows being inserted, optionally updated, and deleted, returning to the original table state, then it is possible this function could return a TRUE value even though the stream contains no CDC records.",
+        "When the input is a view stream, the returned value is TRUE when change data capture (CDC) records for the\nunderlying tables change. The function performs a diff on the version metadata for the underlying tables rather than for the\nview itself. The result is a false positive when the query in the source view definition does not reference the rows in the underlying\ntables that have changed. The rate of false positives increases as a view becomes more selective.",
+        "When this function is referenced in the optional WHEN parameter in a task definition, the higher false positive rate means that\ntasks may run when a view stream is empty more often than when a table stream is the input for the function. However, this check still\navoids task runs when there is no change in the underlying table data.",
+        "Calling this function on a stream prevents it from becoming stale, provided the stream is empty and the SYSTEM$STREAM_HAS_DATA function\nreturns FALSE.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

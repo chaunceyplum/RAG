@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/snowflake-scripting/fetch",
+    "title": "FETCH (Snowflake Scripting) | Snowflake Documentation",
+    "paragraphs": [
+        "Uses the specified cursor to fetch one or more rows.",
+        "For more information on cursors, see Working with cursors.",
+        "Note",
+        "This Snowflake Scripting construct is valid only within a\nSnowflake Scripting block.",
+        "DECLARE, OPEN, CLOSE",
+        "Where:",
+        "The name of the cursor.",
+        "The name of the variable into which to retrieve the value of one column of the current row.",
+        "You should have one variable for each column defined in the cursor declaration.",
+        "The variable must already have been declared.",
+        "The variable\u2019s data type must be compatible with the value to be fetched.",
+        "The number of variables should match the number of expressions selected in the SELECT clause of\nthe cursor declaration.",
+        "If you try to FETCH a row after the last row, you get NULL values.",
+        "A RESULTSET or CURSOR does not necessarily cache all the rows of the result set at the time that the query is executed.\nFETCH operations can experience latency.",
+        "For a more complete example of using a cursor, see\nthe introductory cursor example.",
+        "An example using a loop is included in the documentation for FOR loops.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

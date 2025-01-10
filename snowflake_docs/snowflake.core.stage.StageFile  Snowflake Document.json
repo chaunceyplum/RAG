@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.stage.StageFile",
+    "title": "snowflake.core.stage.StageFile | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: BaseModel",
+        "A model object representing the StageFile resource.",
+        "Constructs an object of type StageFile with the provided properties.",
+        "name (str, optional) \u2013 Name of the file.",
+        "size (str, optional) \u2013 Size of the file.",
+        "md5 (str, optional) \u2013 md5 hash of the file.",
+        "last_modified (str, optional) \u2013 Date and time when the file was last modified.",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of StageFile from a dict.",
+        "Create an instance of StageFile from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

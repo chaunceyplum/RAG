@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.asc_nulls_last",
+    "title": "snowflake.snowpark.functions.asc_nulls_last | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a Column expression with values sorted in ascending order\n(null values sorted after non-null values).",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/current_session",
+    "title": "CURRENT_SESSION | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (Session)",
+        "Returns a unique system identifier for the Snowflake session corresponding to the present connection. This will generally be a system-generated alphanumeric string. It is NOT derived from the user name or user account.",
+        "The data type of the returned value is VARCHAR.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

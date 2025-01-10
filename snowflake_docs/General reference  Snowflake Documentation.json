@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference",
+    "title": "General reference | Snowflake Documentation",
+    "paragraphs": [
+        "These topics provide general reference information for using Snowflake.",
+        "Parameters \u2014 parameters that can be used to control system behavior at the account, user, session, and object\nlevel.",
+        "References \u2014 use references to authorize access on objects for owner\u2019s rights stored procedures,\napplications, and classes.",
+        "Ternary logic \u2014 information about the behavior of NULL in boolean expressions and with comparison operators.",
+        "Collation support \u2014 information about sorting and other character-set-dependent operations on text strings.",
+        "SQL format models \u2014 formats for specifying conversion of numeric and date/time values to and from text strings.",
+        "Object identifiers \u2014 rules for defining and using object identifiers, including resolving object names used in SQL\nstatements:",
+        "Identifier requirements",
+        "Literals and variables as identifiers",
+        "Object name resolution",
+        "Constraints \u2014 concepts and reference information for defining and maintaining unique, primary key, and foreign\nkey constraints in tables:",
+        "Overview of Constraints",
+        "Creating Constraints",
+        "Modifying Constraints",
+        "Dropping Constraints",
+        "SQL variables \u2014 concepts and reference for defining and using variables in sessions.",
+        "Transactions \u2014 concepts and reference for using transactions with SQL statements.",
+        "Table literals \u2014 concepts and reference for using table literals instead of a single scalar value in queries.",
+        "SNOWFLAKE database \u2014 reference for the SNOWFLAKE shared database, which is provided by Snowflake for\nquerying/reporting on your organization, account, data sharing, and other object usage.",
+        "Snowflake Information Schema \u2014 concepts and reference for the Snowflake Information Schema, which consists of a set of metadata\nviews and historical table functions for querying/reporting on objects in Snowflake.",
+        "Metadata fields in Snowflake \u2014 concepts and reference for metadata fields in Snowflake.",
+        "Was this page helpful?"
+    ]
+}

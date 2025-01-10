@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/dayname",
+    "title": "DAYNAME | Snowflake Documentation",
+    "paragraphs": [
+        "Date & time functions",
+        "Extracts the three-letter day-of-week name from the specified date or timestamp.",
+        "Note",
+        "To return the full name for the day of the week instead of the three-letter day-of-week name,\nyou can use the EXTRACT function, the DECODE function, and the dayofweek part. See\nEXTRACT for an example.",
+        "A date, a time, a timestamp, or an expression that can be evaluated to\na date, a time, or a timestamp.",
+        "Returns a value of VARCHAR data type.",
+        "Use the TO_DATE function to get the abbreviation for the day of the week of April 1, 2024:",
+        "Use the TO_TIMESTAMP_NTZ function to get the abbreviation for the day of the week of April 2, 2024:",
+        "Get the abbreviation for the day of the week for each day from January 1, 2024, to January 8, 2024:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_05/bcr-1135",
+    "title": "New Functions: ARRAY_SORT, ARRAY_MIN, and ARRAY_MAX May Conflict With Similarly Named UDFs | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_05 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the current release, Snowflake introduces new built-in functions with the following names and signatures:",
+        "ARRAY_SORT returns the elements of the input ARRAY in sorted order. This function has the following signatures:",
+        "ARRAY_SORT(input_array)",
+        "Sorts the elements in ascending order with NULLs placed at the end of the array.",
+        "ARRAY_SORT(input_array, sort_ascending)",
+        "Sorts the elements in ascending order if sort_ascending is TRUE or in descending order if\nsort_ascending is FALSE.",
+        "NULLs are sorted last if sort_ascending is TRUE or first if sort_ascending is FALSE.",
+        "ARRAY_SORT(input_array, sort_ascending, nulls_first)",
+        "Sorts the elements in ascending order if sort_ascending is TRUE or in descending order if\nsort_ascending is FALSE.",
+        "NULLs are sorted first if nulls_first is TRUE or last if nulls_first is FALSE.",
+        "This function is not guaranteed to provide a stable sort when comparing values of two different numeric or timestamp types (or\nobjects containing these types).",
+        "ARRAY_MIN returns the minimum defined element in the input array",
+        "ARRAY_MAX returns the maximum defined element in the input array",
+        "If you have UDFs named ARRAY_SORT, ARRAY_MIN, or ARRAY_MAX with the same signatures, this behavior change has the following\neffect:",
+        "Calls to ARRAY_SORT, ARRAY_MIN, or ARRAY_MAX resolve to your UDFs.",
+        "Calls to ARRAY_SORT, ARRAY_MIN, or ARRAY_MAX will resolve to the new built-in functions.",
+        "The built-in functions might work differently than your UDFs.",
+        "If the documented semantics of the new built-in functions do not match the semantics of your UDFs, you can either:",
+        "Rename your UDFs (using ALTER FUNCTION \u2026 RENAME TO \u2026), and replace all\nreferences to the original UDF name with the new name.",
+        "Fully qualify all references to your UDFs by specifying the names of the database and\nschema containing the UDFs. For example:",
+        "Ref: 1135",
+        "Was this page helpful?"
+    ]
+}

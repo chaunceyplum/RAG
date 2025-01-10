@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/generate_column_description",
+    "title": "GENERATE_COLUMN_DESCRIPTION | Snowflake Documentation",
+    "paragraphs": [
+        "Metadata functions",
+        "Generates a list of columns from a set of staged files that contain semi-structured data using the\nINFER_SCHEMA function output.",
+        "The output from this function can be used as input when manually creating a table, external table, or view (using the appropriate\nCREATE <object> command) based on the column definitions of the staged files.",
+        "Alternatively, the CREATE TABLE command with the USING TEMPLATE clause can be used to create a new table with the\ncolumn definitions derived from the same INFER_SCHEMA function output.",
+        "Output of the INFER_SCHEMA function formatted as an array.",
+        "Type of object that could be created from the column list. The appropriate formatting for this type is applied to the output.",
+        "Possible values are table, external_table, or view.",
+        "The function returns the list of columns in a set of staged files, which can be\nused as input when creating an object of the type identified in the second argument.",
+        "Detect, format, and output the set of column definitions in a set of Parquet files staged in the mystage stage. The output columns are\nformatted for creating a table.",
+        "This example builds on an example in the INFER_SCHEMA topic:",
+        "Same as the previous example, but generates a set of columns formatted for creating an external table:",
+        "Same as the previous examples, but generates a set of columns formatted for creating a view:",
+        "Note",
+        "Using * for ARRAY_AGG(OBJECT_CONSTRUCT()) may result in an error if the returned result is larger than 16MB. It is recommended to avoid using * for larger result sets, and only use the required columns, COLUMN NAME, TYPE, and NULLABLE, for the query. Optional column ORDER_ID can be included when using WITHIN GROUP (ORDER BY order_id).",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

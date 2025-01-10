@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-08-06-na-vps-aws",
+    "title": "August 06, 2024 \u2014 Snowflake Native App Framework: Support for VPS on AWS | Snowflake Documentation",
+    "paragraphs": [
+        "We are pleased to announce general availability for Snowflake Native App Framework support for Virtual Private Snowflake (VPS)\non Amazon Web Services. See Limitations on Virtual Private Snowflake (VPS)\nfor more information.",
+        "Was this page helpful?"
+    ]
+}

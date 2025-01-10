@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/revoke-service-role",
+    "title": "REVOKE SERVICE ROLE | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Available to accounts in AWS and Microsoft Azure commercial regions, with some exceptions. For more information, see Available regions.",
+        "Revokes a service role from an account role, application role, or database role. For more information, see Managing access to service endpoints.",
+        "GRANT SERVICE ROLE, SHOW ROLES IN SERVICE, SHOW GRANTS",
+        "Specifies the identifier for the service role to revoke. If the identifier contains spaces or special\ncharacters, the entire string must be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Specify the service role name in the following format:",
+        "service-name!service-role-name",
+        "For example, echo_service!echoendpoint_role.",
+        "Name of the account role to revoke the service role from.",
+        "Name of the application role to revoke the service role from.",
+        "Name of the database role to revoke the service role from.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege or role",
+        "Object",
+        "Notes",
+        "OWNERSHIP",
+        "Service",
+        "Only the service owner can revoke the service role.",
+        "The following command revoke the echoendpoint_role service role defined in the echo_service service specification from the service_function_user_role role.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

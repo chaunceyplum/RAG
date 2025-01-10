@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.to_variant",
+    "title": "snowflake.snowpark.functions.to_variant | Snowflake Documentation",
+    "paragraphs": [
+        "Converts any value to a VARIANT value or NULL (if input is NULL).",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

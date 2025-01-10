@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_04/bcr-1601",
+    "title": "LISTING_CONSUMPTION_DAILY view: New columns | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, the LISTING_CONSUMPTION_DAILY view includes the following new column(s):",
+        "Column name",
+        "Data type",
+        "Description",
+        "UNIQUE_USERS_1D",
+        "INT",
+        "Count of unique users in 1 day.",
+        "UNIQUE_USERS_7D",
+        "INT",
+        "Count of unique users in 7 days.",
+        "UNIQUE_USERS_28D",
+        "INT",
+        "Count of unique users in 28 days.",
+        "Ref: 1601",
+        "Was this page helpful?"
+    ]
+}

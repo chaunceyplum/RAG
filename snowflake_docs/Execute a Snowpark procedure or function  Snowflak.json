@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/snowpark/execute",
+    "title": "Execute a Snowpark procedure or function | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "To execute a Snowpark procedure or function, use the snow snowpark execute OBJECT_TYPE EXECUTION_IDENTIFIER command, where:",
+        "OBJECT_TYPE is one of function or procedure.",
+        "EXECUTION_IDENTIFIER is function or procedure signature, with all arguments provided.",
+        "The following example calls a Snowpark function called hello_function:",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

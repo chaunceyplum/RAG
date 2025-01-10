@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/date_trunc",
+    "title": "DATE_TRUNC | Snowflake Documentation",
+    "paragraphs": [
+        "Date & time functions",
+        "Truncates a DATE, TIME, or TIMESTAMP value to the specified precision. For example,\ntruncating a timestamp down to the quarter returns the timestamp corresponding\nto midnight of the first day of the original timestamp\u2019s quarter.",
+        "This function provides an alternative syntax for TRUNC by reversing the\ntwo arguments.",
+        "Truncation is not the same as extraction. For example:",
+        "Truncating a timestamp down to the quarter using this function returns the timestamp corresponding\nto midnight of the first day of the quarter for the input timestamp.",
+        "Extracting the quarter date part from a timestamp using the EXTRACT function returns the\nquarter number of the year in the timestamp.",
+        "TRUNC",
+        "DATE_PART , EXTRACT",
+        "This argument must be one of the values listed in Supported date and time parts.",
+        "This argument must evaluate to a date, time, or timestamp.",
+        "The returned value is the same type as the input value.",
+        "For example, if the input value is a TIMESTAMP, then the returned value is a TIMESTAMP.",
+        "When date_or_time_part is week (or any of its variations), the output is controlled\nby the WEEK_START session parameter. For more details, including examples, see\nCalendar weeks and weekdays.",
+        "The DATE_TRUNC function examples use the data in the following table:",
+        "The following examples show date truncation. In all cases, the returned value\nis of the same data type as the input value, but with zeros for the portions,\nsuch as fractional seconds, that were truncated:",
+        "Truncate a date down to the year, month, and day:",
+        "Truncate a time down to the minute:",
+        "Truncate a TIMESTAMP down to the hour, minute, and second:",
+        "Contrast the DATE_TRUNC function with the EXTRACT function:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

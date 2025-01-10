@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/commit",
+    "title": "COMMIT | Snowflake Documentation",
+    "paragraphs": [
+        "Commits an open transaction in the current session.",
+        "BEGIN , ROLLBACK , SHOW TRANSACTIONS , DESCRIBE TRANSACTION",
+        "Optional keyword that provides compatibility with other database systems.",
+        "If two COMMIT statements in a row are executed (within the same scope), the\nsecond one is ignored. For example, in the following code, the second COMMIT has no effect; there is no open\ntransaction to commit.",
+        "The rules can be more complex if you are using\nautonomous scoped transactions and stored procedures.",
+        "Begin a transaction, insert some values into a table, then complete the transaction by committing it:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

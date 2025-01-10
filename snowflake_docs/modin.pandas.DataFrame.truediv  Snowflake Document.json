@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.truediv",
+    "title": "modin.pandas.DataFrame.truediv | Snowflake Documentation",
+    "paragraphs": [
+        "Get floating division of DataFrame and other, element-wise (binary operator truediv).",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/connectors/sharepoint",
+    "title": "Snowflake Connector for SharePoint release notes | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides release notes for the Snowflake Connector for SharePoint.",
+        "For additional information, see About the Snowflake Connector for SharePoint.",
+        "Not applicable",
+        "Not applicable",
+        "Fixed an issue that was causing empty values to be returned in the web_url column in the Cortex Search service responses.",
+        "Not applicable",
+        "Not applicable",
+        "During the data synchronization of Microsoft 365 groups, group members are now retrieved only once for each group.",
+        "Added progress logs in the event table for the entire ingestion process.",
+        "Unprocessed file updates and inserts are now visible through the PUBLIC.CONNECTOR_ERRORS view.",
+        "Not applicable",
+        "Fixed internal table definitions that were causing connector application upgrade issues.",
+        "Files without extensions no longer break the ingestion process.",
+        "When upgrading the connector application, change tracking on connector tables is no longer disabled.\nWe\u2019ve also migrated broken Cortex Search indexes to make them refresh the data.",
+        "You can now use a site URL with a custom domain.",
+        "Not applicable",
+        "The data ingestion no longer continues if an error occurs at any step of ingestion.",
+        "Not applicable",
+        "Not applicable",
+        "Fixed how the connector handles Sharepoint file deletions.",
+        "Initial release",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

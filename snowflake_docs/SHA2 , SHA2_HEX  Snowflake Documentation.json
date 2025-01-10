@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/sha2",
+    "title": "SHA2 , SHA2_HEX | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Cryptographic Hash)",
+        "Returns a hex-encoded string containing the N-bit SHA-2 message digest,\nwhere N is the specified output digest size.",
+        "These functions are synonymous.",
+        "Required:",
+        "A string expression, the message to be hashed",
+        "Optional:",
+        "Size (in bits) of the output, corresponding to the\nspecific SHA-2 function used to encrypt the string:",
+        "224 = SHA-224",
+        "256 = SHA-256 (Default)",
+        "384 = SHA-384",
+        "512 = SHA-512",
+        "SHA-512/224 and SHA-512/256 are not supported.",
+        "The data type of the returned value is VARCHAR.",
+        "Do not use this function to encrypt a message that you need to decrypt. This function has no corresponding decryption function.\n(The length of the output is independent of the length of the input. The output does not necessarily have enough bits to hold\nall of the information from the input, so it is not possible to write a function that can decrypt all possible valid inputs.)",
+        "This function is intended for other purposes, such as calculating a checksum to detect data corruption.",
+        "If you need to encrypt and decrypt data, use the following functions:",
+        "ENCRYPT and DECRYPT",
+        "ENCRYPT_RAW and DECRYPT_RAW",
+        "The data type of the output is string (VARCHAR) and can be stored in a\nVARCHAR column:",
+        "Create and fill a table:",
+        "Here are the query and output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

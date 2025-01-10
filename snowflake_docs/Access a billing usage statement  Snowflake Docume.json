@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/billing-usage-statement",
+    "title": "Access a billing usage statement | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake generates a monthly usage statement for customers who have at least one active contract, also known as the Snowflake Order Form.\nThis statement itemizes usage for the month as expressed in credits consumed and currency spent. It also contains a summary of usage during\nthe life of the contract.",
+        "Snowsight allows you to view and download monthly usage statements, starting with July 2023. You must have been granted the\nACCOUNTADMIN and ORGADMIN roles, and be in an account that has the ORGADMIN role enabled.",
+        "Keep the following in mind when accessing usage statements:",
+        "If your organization has multiple contracts, Snowflake generates a separate usage statement for each contract.",
+        "If you renew a contract in the middle of the month, Snowflake generates two separate usage statements for the contract.",
+        "Customers who signed a contract through a Snowflake reseller cannot view or download usage statements.",
+        "You cannot access usage statements from an account in US SnowGov Regions on AWS\nGovCloud and Microsoft Azure Government.",
+        "To access a usage statement:",
+        "Sign in to Snowsight as a user that has been granted the ORGADMIN and ACCOUNTADMIN roles.",
+        "Select Admin \u00bb Billing & Terms.",
+        "Select Billing Documents.",
+        "If prompted, select a warehouse.",
+        "View or download the usage statement.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

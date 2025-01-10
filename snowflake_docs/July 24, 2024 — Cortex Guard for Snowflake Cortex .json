@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-07-24-cortex-llm-updates",
+    "title": "July 24, 2024 \u2014 Cortex Guard for Snowflake Cortex AI \u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "We\u2019re happy to announce the general availability of Cortex Guard for Snowflake Cortex AI, a new feature that enables enterprises to easily\nimplement safeguards that filter out potentially inappropriate or unsafe large language model (LLM) responses. Cortex Guard introduces a\nnew safety filter you can specify in a call to the COMPLETE function so that\nlanguage model responses associated with harmful content - such as violent crimes, hate, sexual content, self-harm and more - are\nautomatically filtered out.  We are excited to introduce Cortex Guard, the next iteration of our gen AI platform, to help enterprises\nseamlessly introduce safety into the end-to-end gen AI application development process.",
+        "For details on how to use this feature, see Cortex Guard.",
+        "Was this page helpful?"
+    ]
+}

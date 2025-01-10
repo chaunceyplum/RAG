@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_06/bcr-1681",
+    "title": "TASK_HISTORY function: Consistent FAILED state for timed-out tasks | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The TASK_HISTORY function behaves as follows:",
+        "The tasks that are timed out have inconsistent status in task history. The states for these tasks are sometimes FAILED, and sometimes CANCELED.",
+        "The timed-out tasks always have a FAILED state in task history.",
+        "Ref: 1681",
+        "Was this page helpful?"
+    ]
+}

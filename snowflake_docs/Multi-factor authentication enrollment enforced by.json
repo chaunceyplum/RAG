@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_08/bcr-1784",
+    "title": "Multi-factor authentication enrollment enforced by default for new Snowflake accounts (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, newly created Snowflake accounts behave as follows:",
+        "No built-in authentication policy that enforces users to enroll in multi-factor authentication (MFA) on newly created Snowflake accounts.",
+        "A new built-in authentication policy that enforces users to enroll in MFA in newly created Snowflake accounts if the user uses password\nauthentication, and have their TYPE property set to PERSON or NULL.",
+        "Trial accounts are exempt from the new built-in authentication policy. If a trial account converts to a paid account, the paid account has\na built-in authentication policy that requires MFA enrollment.",
+        "Reader accounts are exempt from the new built-in authentication policy.",
+        "When you create a new account, you assign an ACCOUNTADMIN for your account. This behavior change enforces multi-factor authentication (MFA)\nenrollment on new Snowflake accounts. Depending on whether or not a human or a service uses the ACCOUNTADMIN role, you need to specify\nwhether you want to enforce MFA enrollment on the ACCOUNTADMIN to prevent lockouts or to secure your account.",
+        "Follow one of the sections below, depending on your setup:",
+        "Enforce MFA enrollment on a human ACCOUNTADMIN",
+        "Prevent MFA from being enforced on a non-human ACCOUNTADMIN",
+        "Allow password authentication on a non-human ACCOUNTADMIN",
+        "If a human directly uses the ACCOUNTADMIN role on your account, you can secure your account by enforcing the ACCOUNTADMIN to enroll in MFA\nduring account creation.",
+        "Execute the following SQL statement during account creation to specify that a human uses the ACCOUNTADMIN role, and is required to enroll in\nMFA:",
+        "If a human does not use the ACCOUNTADMIN role on your account, you must prevent MFA enrollment from being enforced to allow the service that\nis using the ACCOUNTADMIN role to run successfully. A service-type ACCOUNTADMIN cannot use passwords to authenticate, and must specify an\nADMIN_RSA_PUBLIC_KEY during account creation.",
+        "Execute the following SQL statement during account creation to specify that a service uses the ACCOUNTADMIN role, an RSA key to\nauthenticate, and is not required to enroll in MFA:",
+        "If a human does not use the ACCOUNTADMIN role on your account, you must prevent MFA enrollment from being enforced to allow the service that\nis using the ACCOUNTADMIN role to run successfully. The recommended authentication method for a service-type ACCOUNTADMIN is\nkey-pair authentication, but if the service using the ACCOUNTADMIN ROLE does not support key-pair\nauthentication, then you can specify that a legacy service uses the ACCOUNTADMIN role.",
+        "A legacy service ACCOUNTADMIN cannot log in to Snowsight, and you cannot set the FIRST_NAME or LAST_NAME\nparameters.",
+        "Execute the following SQL statement during account creation to specify that a legacy service uses the ACCOUNTADMIN role, a password to\nauthenticate, and is not required to enroll in MFA:",
+        "Note",
+        "The LEGACY_SERVICE type is a temporary solution. Snowflake highly recommends you set up key-pair authentication.",
+        "See user types for more information about user types and their limitations.",
+        "Ref: 1784",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

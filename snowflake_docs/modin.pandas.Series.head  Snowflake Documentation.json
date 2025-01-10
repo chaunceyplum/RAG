@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.head",
+    "title": "modin.pandas.Series.head | Snowflake Documentation",
+    "paragraphs": [
+        "Return the first n rows.",
+        "Was this page helpful?"
+    ]
+}

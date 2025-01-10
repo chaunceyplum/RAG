@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/degrees",
+    "title": "DEGREES | Snowflake Documentation",
+    "paragraphs": [
+        "Numeric functions (Trigonometric)",
+        "Converts radians to degrees.",
+        "An expression representing the number of radians.",
+        "This returns a value of type\nREAL/FLOAT (double-precision floating point).",
+        "Show the number of degrees for 1/3 of a radian, 1 radian, and 3 radians:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

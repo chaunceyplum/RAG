@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_07/bcr-1333",
+    "title": "DATABASE_STORAGE_USAGE_HISTORY and STORAGE_USAGE views: New column | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_07 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this bundle is enabled, a new column is added to the following views:",
+        "DATABASE_STORAGE_USAGE_HISTORY (Account Usage)",
+        "DATABASE_STORAGE_USAGE_HISTORY (ORGANIZATION_USAGE)",
+        "STORAGE_USAGE (Account Usage)",
+        "The DATABASE_STORAGE_USAGE_HISTORY (Account Usage and ORGANIZATION_USAGE) and STORAGE_USAGE (Account Usage) views do not include a column for hybrid table storage bytes.",
+        "The DATABASE_STORAGE_USAGE_HISTORY (Account Usage and ORGANIZATION_USAGE) view includes a new column:",
+        "Column Name",
+        "Data type",
+        "Description",
+        "average_hybrid_table_storage_usage",
+        "FLOAT",
+        "Number of bytes of hybrid storage used.",
+        "The STORAGE_USAGE (Account Usage) view includes a new column:",
+        "Column Name",
+        "Data type",
+        "Description",
+        "hybrid_table_storage_usage",
+        "FLOAT",
+        "Number of bytes of hybrid storage used.",
+        "Ref: 1333",
+        "Was this page helpful?"
+    ]
+}

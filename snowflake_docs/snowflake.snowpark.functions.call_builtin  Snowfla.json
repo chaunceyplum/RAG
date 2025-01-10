@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.call_builtin",
+    "title": "snowflake.snowpark.functions.call_builtin | Snowflake Documentation",
+    "paragraphs": [
+        "Invokes a Snowflake system-defined function (built-in function) with the specified name\nand arguments.",
+        "function_name \u2013 The name of built-in function in Snowflake",
+        "args \u2013",
+        "Arguments can be in two types:",
+        "Column, or",
+        "Basic Python types, which are converted to Snowpark literals.",
+        "",
+        "Was this page helpful?"
+    ]
+}

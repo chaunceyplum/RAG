@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-08-26-time-series-error-message",
+    "title": "August 26, 2024 \u2014 Time Series ML Functions \u2014 Error Message Improvements | Snowflake Documentation",
+    "paragraphs": [
+        "We are pleased to announce improved error messages for the Forecasting and\nAnomaly Detection ML Functions. These error messages previously\nincluded internal debug traces that were not relevant to end users. Error messages from these functions now contain only\nactionable information.",
+        "Was this page helpful?"
+    ]
+}

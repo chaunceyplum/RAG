@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.sort_index",
+    "title": "modin.pandas.DataFrame.sort_index | Snowflake Documentation",
+    "paragraphs": [
+        "Sort object by labels (along an axis).",
+        "Was this page helpful?"
+    ]
+}

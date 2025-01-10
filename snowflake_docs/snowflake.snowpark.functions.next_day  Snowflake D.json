@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.next_day",
+    "title": "snowflake.snowpark.functions.next_day | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the date of the first specified DOW (day of week) that occurs after the input date.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-role",
+    "title": "DROP ROLE | Snowflake Documentation",
+    "paragraphs": [
+        "Removes the specified role from the system.",
+        "CREATE ROLE , ALTER ROLE , SHOW ROLES",
+        "Specifies the identifier for the role to drop. If the identifier contains spaces or special characters, the entire string must be\nenclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Dropped roles cannot be recovered; they must be recreated.",
+        "A role cannot be dropped if it has the OWNERSHIP privilege on a shared database. Use the GRANT OWNERSHIP command to transfer the\nOWNERSHIP privilege on the shared database first, and then drop the role.",
+        "Ownership of any objects owned by the dropped role is transferred to the role that executes the DROP ROLE command. To transfer\nownership of each of these objects to a different role, use\nGRANT OWNERSHIP \u2026 COPY CURRENT GRANTS.",
+        "If a role has a future privilege as a grantor or grantee, the role can only be dropped by a user with a role that has the\nMANAGE GRANTS privilege.",
+        "All current and future grants that name the role as either the grantor or the grantee are revoked when the role is dropped.",
+        "Query the GRANTS_TO_ROLES Account Usage view to retrieve the privilege grants\nthat name a specified role as the grantor or grantee:",
+        "The following example retrieves the grants where myrole is the grantor or grantee:",
+        "If a role is a grantor of roles to users, dropping the role revokes these grants automatically.",
+        "Revoking grants happens as the DROP ROLE command executes. If there are thousands or millions of grants to revoke, the DROP ROLE\ncommand might time out. It is safe to rerun the command to continue execution where the previous invocation stopped.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

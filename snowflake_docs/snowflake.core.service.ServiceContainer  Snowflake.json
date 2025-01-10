@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.service.ServiceContainer",
+    "title": "snowflake.core.service.ServiceContainer | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: BaseModel",
+        "A model object representing the ServiceContainer resource.",
+        "Constructs an object of type ServiceContainer with the provided properties.",
+        "database_name (str, optional) \u2013 A Snowflake object identifier.",
+        "schema_name (str, optional) \u2013 A Snowflake object identifier.",
+        "service_name (str, optional) \u2013 A Snowflake object identifier.",
+        "instance_id (str, optional) \u2013 ID of the service instance (this is the index of the service instance starting from 0).",
+        "container_name (str, optional) \u2013 Name of the container.",
+        "status (str, optional) \u2013 Service container status.",
+        "message (str, optional) \u2013 Additional clarification about status.",
+        "image_name (str, optional) \u2013 Image name used to create the service container.",
+        "image_digest (str, optional) \u2013 The unique and immutable identifier representing the image content.",
+        "restart_count (int, optional) \u2013 Number of times Snowflake restarted the service.",
+        "start_time (str, optional) \u2013 Date and time when the container started.",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of ServiceContainer from a dict.",
+        "Create an instance of ServiceContainer from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/external-network-access/external-network-access-billing",
+    "title": "Costs of external network access | Snowflake Documentation",
+    "paragraphs": [
+        "Using external network access incurs normal costs associated with:",
+        "Snowflake warehouse usage.",
+        "Data transfer.",
+        "Data transfer charges will appear as a TRANSFER_TYPE of EXTERNAL_ACCESS in the DATA_TRANSFER_HISTORY view.\nAny data egress traffic associated with a \u201cbring-your-own-IP\u201d (BYOIP) destination will be charged at cross-cloud or Internet traffic rates.",
+        "Calling to an external network location from a handler will result in payload egress. As data egress, this call results in data\ntransfer cost.",
+        "In addition, you might need to pay indirect or third-party charges, including charges by the provider of the remote service. Charges can\nvary from vendor to vendor.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

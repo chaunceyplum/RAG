@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/external-network-access/creating-using-private-azure",
+    "title": "External network access and private connectivity on Microsoft Azure | Snowflake Documentation",
+    "paragraphs": [
+        "Business Critical Feature",
+        "This feature requires Business Critical (or higher). It is not available in government regions.",
+        "To inquire about upgrading, please contact Snowflake Support.",
+        "This topic provides configuration details to set up outbound private connectivity to an external service by way of\nexternal network access. The primary differences between\nthe outbound public connectivity and outbound private connectivity configurations are that, with private connectivity, you must do the\nfollowing operations:",
+        "Create a private connectivity endpoint. This step requires the ACCOUNTADMIN role.",
+        "Create the network rule to use the PRIVATE_HOST_PORT property. This property includes the Azure URL and port number, which\nenables the connection from Snowflake to Microsoft Azure to go through the Microsoft Azure internal network, avoiding the public Internet.",
+        "You pay for each private connectivity endpoint along with total data processed. For pricing of these items, see the Snowflake Service Consumption Table.",
+        "You can explore the cost of these items by filtering on the following service types when querying billing views in the ACCOUNT_USAGE and ORGANIZATION_USAGE schemas:",
+        "OUTBOUND_PRIVATELINK_ENDPOINT",
+        "OUTBOUND_PRIVATELINK_DATA_PROCESSED",
+        "For example, you can query the USAGE_IN_CURRENCY_DAILY view and filter on these service types.",
+        "These steps are unique to using outbound private connectivity with external network access on Microsoft Azure:",
+        "Call the SYSTEM$PROVISION_PRIVATELINK_ENDPOINT system function to provision a private\nconnectivity endpoint in your Snowflake VNet to enable Snowflake to connect to an external service using private connectivity:",
+        "In the Azure Portal and as the owner of the Azure API Management resource, approve the private endpoint. For more information, see the\nMicrosoft Azure documentation.",
+        "Create a database and schemas to store the network\nrule, secret, and procedure:",
+        "Create a network rule, specifying the PRIVATE_HOST_PORT property to enable\nprivate connectivity:",
+        "Create a secret to securely store the access credentials:",
+        "Create an external access integration, specifying the network rule from\nthe previous step:",
+        "Create a procedure to connect to the external service:",
+        "Call the procedure to connect to the external service:",
+        "Repeat these steps for each external network access configuration that requires private connectivity.",
+        "If you no longer need the private connectivity endpoint for the external network access integration, call the\nSYSTEM$DEPROVISION_PRIVATELINK_ENDPOINT system function.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

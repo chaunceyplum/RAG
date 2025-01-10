@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.dt.day_of_week",
+    "title": "modin.pandas.Series.dt.day_of_week | Snowflake Documentation",
+    "paragraphs": [
+        "The day of the week with Monday=0, Sunday=6.",
+        "Return the day of the week. It is assumed the week starts on\nMonday, which is denoted by 0 and ends on Sunday which is denoted\nby 6. This method is available on both Series with datetime\nvalues (using the dt accessor) or DatetimeIndex.",
+        "Containing integers indicating the day number.",
+        "Series or Index",
+        "See also",
+        "Alias.",
+        "Alias.",
+        "Returns the name of the day of the week.",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.service.JobService",
+    "title": "snowflake.core.service.JobService | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: BaseModel",
+        "A model object representing the JobService resource.",
+        "Constructs an object of type JobService with the provided properties.",
+        "name (str) \u2013 A Snowflake object identifier.",
+        "compute_pool (str) \u2013 Specifies the name of the compute pool in your account on which to run the service.",
+        "spec (ServiceSpec)",
+        "status (str, optional) \u2013 The current status of the service.",
+        "external_access_integrations (List[str], optional) \u2013 Specifies the names of the external access integrations that allow your service to access external sites.",
+        "query_warehouse (str, optional) \u2013 A Snowflake object identifier.",
+        "comment (str, optional) \u2013 Specifies a comment for the service.",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of JobService from a dict.",
+        "Create an instance of JobService from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

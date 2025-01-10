@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/stage-commands/overview",
+    "title": "snow stage commands | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Snowflake CLI supports the following commands to support Snowflake stage objects:",
+        "snow stage copy",
+        "snow stage create",
+        "snow stage describe",
+        "snow stage drop",
+        "snow stage execute",
+        "snow stage list",
+        "snow stage list-files",
+        "snow stage remove",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

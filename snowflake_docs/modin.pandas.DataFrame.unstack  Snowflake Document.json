@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.unstack",
+    "title": "modin.pandas.DataFrame.unstack | Snowflake Documentation",
+    "paragraphs": [
+        "Pivot a level of the (necessarily hierarchical) index labels.",
+        "Returns a DataFrame having a new level of column labels whose\ninner-most level consists of the pivoted index labels.",
+        "If the index is not a MultiIndex, the output will be a Series\n(the analogue of stack when the columns are not a MultiIndex).",
+        "level (int, str, list, default -1) \u2013 Level(s) of index to unstack, can pass level name.",
+        "fillna (int, str, dict, optional) \u2013 Replace NaN with this value if the unstack produces missing values.",
+        "sort (bool, default True) \u2013 Sort the level(s) in the resulting MultiIndex columns.",
+        "Series or DataFrame",
+        "Notes",
+        "Supports only integer level and sort = True. Internally, calls pivot_table\nor melt to perform unstack operation.",
+        "See also",
+        "Pivot without aggregation that can handle non-numeric data.",
+        "Pivot a level of the column labels (inverse operation from unstack).",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

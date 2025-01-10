@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrameStatFunctions.sampleBy",
+    "title": "snowflake.snowpark.DataFrameStatFunctions.sampleBy | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a DataFrame containing a stratified sample without replacement, based on a dict that specifies the fraction for each stratum.",
+        "Example:",
+        "col \u2013 The name of the column that defines the strata.",
+        "fractions \u2013 A dict that specifies the fraction to use for the sample for each stratum.\nIf a stratum is not specified in the dict, the method uses 0 as the fraction.",
+        "Was this page helpful?"
+    ]
+}

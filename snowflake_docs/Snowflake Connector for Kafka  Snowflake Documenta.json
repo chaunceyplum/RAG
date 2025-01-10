@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/kafka-connector",
+    "title": "Snowflake Connector for Kafka | Snowflake Documentation",
+    "paragraphs": [
+        "The Snowflake Connector for Kafka (\u201cKafka connector\u201d) reads data from one or more Apache Kafka topics and loads the data into a Snowflake table.",
+        "Next Topics:",
+        "Was this page helpful?"
+    ]
+}

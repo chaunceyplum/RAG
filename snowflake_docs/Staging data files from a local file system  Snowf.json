@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/data-load-local-file-system-stage",
+    "title": "Staging data files from a local file system | Snowflake Documentation",
+    "paragraphs": [
+        "Execute PUT using the SnowSQL client or Drivers to upload (stage) local data files into an internal stage.",
+        "If you want to load a few small local data files into a named internal stage, you can also use Snowsight.\nRefer to Staging files using Snowsight.",
+        "The following example uploads a file named data.csv in the /data directory on your local machine to\nyour user stage and prefixes the file with a folder named staged.",
+        "Note that the @~ character combination identifies a user stage.",
+        "Linux or macOS",
+        "Windows",
+        "The following example uploads a file named data.csv in the /data directory on your local machine to\nthe stage for a table named mytable.",
+        "Note that the @% character combination identifies a table stage.",
+        "Linux or macOS",
+        "Windows",
+        "The following example uploads a file named data.csv in the /data directory on your local machine to a\nnamed internal stage called my_stage. See Choosing an internal stage for local files for information on named stages.",
+        "Note that the @ character by itself identifies a named stage.",
+        "Linux or macOS",
+        "Windows",
+        "To see files that have been uploaded to a Snowflake stage, use the LIST command:",
+        "User stage:",
+        "Table stage:",
+        "Named stage:",
+        "Next: Copying data from an internal stage",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

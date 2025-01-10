@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.context.get_active_session",
+    "title": "snowflake.snowpark.context.get_active_session | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the current active Snowpark session.",
+        "Raises: SnowparkSessionException: If there is more than one active session or no active sessions.",
+        "A Session object for the current session.",
+        "Was this page helpful?"
+    ]
+}

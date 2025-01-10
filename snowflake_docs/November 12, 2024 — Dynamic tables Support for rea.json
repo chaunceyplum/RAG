@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-11-12-dynamic-iceberg-tables",
+    "title": "November 12, 2024 \u2014 Dynamic tables: Support for reading from Snowflake-managed Iceberg tables and creating dynamic Apache Iceberg\u2122 tables \u2013\u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "We are pleased to announce the general availability of the following new capabilities related to dynamic tables and Snowflake-managed Apache Iceberg\u2122 tables:",
+        "Creating a dynamic table that reads from a Snowflake-managed Iceberg table as the source, just like regular tables.",
+        "Creating a dynamic Iceberg table, a new dynamic table type that stores query results in the Iceberg table format.",
+        "You can use dynamic Iceberg tables for the following scenarios:",
+        "Data lake integration: You can store large datasets cost-effectively while performing transformations and analytics within\nSnowflake, leveraging the Iceberg format for efficient querying and management.",
+        "Defining continuous data transformation pipelines: By using dynamic tables, you can ensure data is always up to date without\nmanual intervention and handle high-velocity data streams efficiently with incremental processing.",
+        "For more information, see Create dynamic Apache Iceberg\u2122 tables and Introduction to Streams.",
+        "Was this page helpful?"
+    ]
+}

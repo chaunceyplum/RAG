@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.call_udf",
+    "title": "snowflake.snowpark.functions.call_udf | Snowflake Documentation",
+    "paragraphs": [
+        "Calls a user-defined function (UDF) by name.",
+        "udf_name \u2013 The name of UDF in Snowflake.",
+        "args \u2013",
+        "Arguments can be in two types:",
+        "Column, or",
+        "Basic Python types, which are converted to Snowpark literals.",
+        "",
+        "Was this page helpful?"
+    ]
+}

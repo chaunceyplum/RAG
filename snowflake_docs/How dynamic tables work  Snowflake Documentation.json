@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/dynamic-tables-about",
+    "title": "How dynamic tables work | Snowflake Documentation",
+    "paragraphs": [
+        "When creating a dynamic table, you specify the query used to transform the data from one or more base objects or dynamic\ntables. An automated refresh process executes this query regularly and updates the dynamic table with the changes made\nto the base objects.",
+        "This automated process computes the changes that were made to the base objects and merges those changes into the dynamic table.\nTo perform this work, the process uses compute resources that you associate with the dynamic table.  For more information on resources refer to Understanding cost for dynamic tables.",
+        "When creating a dynamic table, you specify a target \u201cfreshness\u201d for the data (a target lag). For example, you can specify\nthat the data should be at most five minutes behind the updates to the base table. Based on this target freshness, the automated\nprocess sets up refreshes so that the data in the dynamic table is kept up to date within this target (that is, within five minutes of\nupdates to the base table).",
+        "If the data does not need to be as fresh, you can specify a longer target freshness time to reduce costs. For example, if the data\nin the target table just needs to be at most one hour behind the updates to the base tables, you can specify a target freshness of\none hour (instead of five minutes) to reduce costs.",
+        "There are several methods of transforming data in your pipeline (for example, streams and tasks, CTAS, your own custom\nsolution). Dynamic tables are one option for transforming your data.",
+        "Dynamic tables are best used when:",
+        "You don\u2019t want to write code to track data dependencies and manage data refresh.",
+        "You don\u2019t need, or want to avoid, the complexity of streams and tasks.",
+        "You do need to materialize the results of a query of multiple base tables.",
+        "You need to build multiple tables to transform data via an ETL pipeline.",
+        "You don\u2019t need fine-grained refresh schedule control and you just want to specify the target data freshness\nfor your pipelines.",
+        "You don\u2019t need to use unsupported dynamic query constructs such as stored procedures,\nnon-deterministic functions not listed in Supported non-deterministic functions in full refresh, or\nexternal functions, or need to use sources for dynamic tables that are external tables, streams, or materialized views.",
+        "Note",
+        "Dynamic tables can be used as the source of a stream.  When used together, a stream based on a dynamic table works like any other stream.\nFor additional information and examples see Dynamic tables compared to streams and tasks and to materialized views.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

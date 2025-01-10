@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1234",
+    "title": "BLOCK_NON_READLIST_OPERATIONS_ON_STAGES_IN_SECONDARY: Parameter set to TRUE by default | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The BLOCK_NON_READLIST_OPERATIONS_ON_STAGES_IN_SECONDARY parameter has a default value of FALSE.\nThis means that the following write operations are allowed on stages in read-only database replicas by default:",
+        "PUT",
+        "REMOVE",
+        "ALTER STAGE \u2026 REFRESH",
+        "To be consistent with replication semantics where there is one primary (writeable)\nand one or more secondary replicas (readable), the BLOCK_NON_READLIST_OPERATIONS_ON_STAGES_IN_SECONDARY\nparameter will have a default value of TRUE.",
+        "Write operations on replicated stages will fail unless you set the value of the parameter to FALSE.",
+        "Ref: 1234",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.rpad",
+    "title": "snowflake.snowpark.functions.rpad | Snowflake Documentation",
+    "paragraphs": [
+        "Right-pads a string with characters from another string, or right-pads a\nbinary value with bytes from another binary value. When called, e is padded to length len\nwith characters/bytes from pad.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

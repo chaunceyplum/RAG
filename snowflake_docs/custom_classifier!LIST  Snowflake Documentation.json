@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/custom_classifier/methods/list",
+    "title": "custom_classifier!LIST | Snowflake Documentation",
+    "paragraphs": [
+        "Enterprise Edition Feature",
+        "Custom Classification requires Enterprise Edition (or higher). To inquire about upgrading, please contact Snowflake Support.",
+        "Lists each custom classification semantic category system tag with its associated regular expressions for the column name and values in the\ncolumn, the description, and the privacy category tag.",
+        "Using custom classifiers for sensitive data classification",
+        "None.",
+        "Returns a JSON object with the following structure:",
+        "Each field value corresponds to the value that you specify when calling the\ncustom_classifier!ADD_REGEX method.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Instance role",
+        "Object",
+        "Notes",
+        "custom_classifier!PRIVACY_USER",
+        "The custom classifier instance.",
+        "The role that calls this method must be granted the instance role.",
+        "By default, the account role used to create the instance can call this method.",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "Call each method in a separate SQL statement (no method chaining).",
+        "Returns:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

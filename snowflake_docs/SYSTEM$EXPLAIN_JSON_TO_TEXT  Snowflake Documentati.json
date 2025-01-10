@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_explain_json_to_text",
+    "title": "SYSTEM$EXPLAIN_JSON_TO_TEXT | Snowflake Documentation",
+    "paragraphs": [
+        "System functions",
+        "This function converts EXPLAIN output from JSON to formatted text.",
+        "SYSTEM$EXPLAIN_PLAN_JSON , EXPLAIN_JSON",
+        "A string, or an expression that evaluates to a string, containing EXPLAIN output as a JSON-compatible string.\nIf the input is a string, the string should be enclosed in single quotes '.",
+        "The function returns a VARCHAR containing the EXPLAIN output as text that has been formatted to be relatively easy for\nhumans to read.",
+        "This function converts EXPLAIN information from JSON to formatted text.\nOften, the JSON value is produced directly or indirectly from the SYSTEM$EXPLAIN_PLAN_JSON function.\nFor example, the output from SYSTEM$EXPLAIN_PLAN_JSON could be stored in a table, then displayed later using this\nSYSTEM$EXPLAIN_JSON_TO_TEXT function.",
+        "If a string literal is passed as input, the delimiter around the string can be either a single quote ' or a\ndouble dollar sign $$. If the string literal contains single quotes (and does not contain double dollar\nsigns), then delimiting the string with double dollar signs avoids the need to escape the embedded single quote\ncharacters inside the string.",
+        "The example(s) below use these tables:",
+        "If you want to store the EXPLAIN output in JSON format, but display it as formatted text, you can call\nSYSTEM$EXPLAIN_JSON_TO_TEXT() as shown below:",
+        "First, get EXPLAIN output in JSON format and store it in a table:",
+        "The JSON looks like the output shown below:",
+        "After you have stored the JSON in a table, you can pass the JSON to the SYSTEM$EXPLAIN_JSON_TO_TEXT function to\nconvert it to a more human-readable text format by calling SYSTEM$EXPLAIN_JSON_TO_TEXT:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/sql-prepare",
+    "title": "SQL Statements Supported for Preparation | Snowflake Documentation",
+    "paragraphs": [
+        "Some drivers and connectors support the ability to send a SQL statement for preparation before execution. Snowflake supports\npreparation for the following types of SQL statements:",
+        "SELECT",
+        "Data Manipulation Language (DML) commands",
+        "SHOW <objects>",
+        "Note that if a driver or connector sends other types of SQL statements for preparation, those statements will not be prepared. For\nexample, if you send a DDL statement for preparation and execution, Snowflake just executes the statement without preparing it.",
+        "Was this page helpful?"
+    ]
+}

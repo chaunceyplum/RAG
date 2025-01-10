@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/haversine",
+    "title": "HAVERSINE | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Calculates the great-circle distance in kilometers between two points on the\nEarth\u2019s surface, using the Haversine formula.\nThe two points are specified by their latitude and longitude in decimal degrees.",
+        "Note",
+        "Snowflake recommends using the ST_DISTANCE function instead of the HAVERSINE function.\nThe ST_DISTANCE function performs the calculation using values of geospatial types, which\nenables you to store geospatial data and use the geospatial functions\non the data. In addition, join predicates that use the ST_DISTANCE function perform better than join predicates\nthat use the HAVERSINE function.",
+        "The latitude of the first point in decimal degrees.",
+        "The longitude of the first point in decimal degrees.",
+        "The latitude of the second point in decimal degrees.",
+        "The longitude of the second point in decimal degrees.",
+        "This function returns a value of type FLOAT.",
+        "The following example returns the geospatial distance in kilometers between New York and Los Angeles:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

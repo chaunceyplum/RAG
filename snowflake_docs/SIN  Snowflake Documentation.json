@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/sin",
+    "title": "SIN | Snowflake Documentation",
+    "paragraphs": [
+        "Numeric functions (Trigonometric)",
+        "Computes the sine of its argument; the argument should be expressed in\nradians.",
+        "This expression should evaluate to a real number. The value should be in\nradians, not degrees.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

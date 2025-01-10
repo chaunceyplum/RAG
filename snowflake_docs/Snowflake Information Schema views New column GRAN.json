@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_07/bcr-1753",
+    "title": "Snowflake Information Schema views: New column GRANTED_TO | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_07 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, the following views in the Snowflake Information Schema include a new column:",
+        "OBJECT_PRIVILEGES",
+        "TABLE_PRIVILEGES",
+        "USAGE_PRIVILEGES",
+        "The new column in these views is:",
+        "Column name",
+        "Data type",
+        "Description",
+        "GRANTED_TO",
+        "VARCHAR",
+        "Object that has been granted the privilege. Possible values currently include ROLE, APPLICATION, and APPLICATION ROLE.",
+        "The GRANTED_TO column appears after the GRANTEE column.",
+        "Ref: 1753",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/boolnot",
+    "title": "BOOLNOT | Snowflake Documentation",
+    "paragraphs": [
+        "Conditional expression functions",
+        "Computes the Boolean NOT of a single numeric expression. In accordance with Boolean semantics:",
+        "Non-zero values (including negative numbers) are regarded as True.",
+        "Zero values are regarded as False.",
+        "As a result, the function returns:",
+        "True if the expression is zero.",
+        "False if the expression is non-zero.",
+        "NULL if the expression is NULL.",
+        "BOOLAND , BOOLOR , BOOLXOR",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/try_to_binary",
+    "title": "TRY_TO_BINARY | Snowflake Documentation",
+    "paragraphs": [
+        "Conversion functions",
+        "A special version of TO_BINARY that performs the same operation (i.e. converts an input expression to a binary value),\nbut with error handling support (i.e. if the conversion cannot be performed, it returns a NULL value instead of raising an error).",
+        "For more information, see:",
+        "Error-handling conversion functions.",
+        "TO_BINARY.",
+        "Binary input and output.",
+        "Required:",
+        "A string expression.",
+        "Optional:",
+        "The binary format for conversion: HEX, BASE64, or UTF-8 (see Binary input and output). The default is the value of the\nBINARY_INPUT_FORMAT session parameter. If this parameter is not set, the\ndefault is HEX.",
+        "Returns a value of type BINARY.",
+        "Only works for string expressions.",
+        "If format is specified but is not HEX, BASE64, or UTF-8, the result will be a NULL value.",
+        "This shows how to use the TRY_TO_BINARY function when loading\nhex-encoded strings into a BINARY column:",
+        "Create and fill a table:",
+        "Query the table, calling TRY_TO_BINARY():",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.catalog_integration.Glue",
+    "title": "snowflake.core.catalog_integration.Glue | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: Catalog",
+        "A model object representing the Glue resource.",
+        "Constructs an object of type Glue with the provided properties.",
+        "glue_aws_role_arn (str) \u2013 ARN for AWS role to assume",
+        "glue_catalog_id (str) \u2013 Glue catalog id",
+        "catalog_namespace (str) \u2013 default AWS Glue catalog namespace for all Iceberg table that use this catalog integration",
+        "glue_region (str, optional) \u2013 AWS region of the Glue catalog. Must be specified if the Snowflake account is not hosted on AWS.",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of Glue from a dict.",
+        "Create an instance of Glue from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

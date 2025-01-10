@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/chr",
+    "title": "CHR , CHAR | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (General)",
+        "Converts a Unicode code point (including 7-bit ASCII) into the character that matches the input Unicode. If an invalid code point is specified, an error is returned.",
+        "CHAR is an alias for CHR.",
+        "ASCII , UNICODE",
+        "The Unicode code point for which the character is returned.",
+        "The data type of the returned value is VARCHAR.",
+        "This example demonstrates the function behavior for some valid Unicode code points:",
+        "This shows the output for the preceding query:",
+        "This example demonstrates the function behavior for an invalid Unicode code point:",
+        "This shows the output for the preceding query:",
+        "This example demonstrates the function behavior for another invalid Unicode code point:",
+        "This shows the output for the preceding query:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

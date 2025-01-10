@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/index",
+    "title": "Snowpark API Reference (Python) | Snowflake Documentation",
+    "paragraphs": [
+        "Snowpark is a new developer experience that provides an intuitive API for querying and handling data.\nSnowpark simplifies the process of building complex data pipelines and allows you to interact with\nSnowflake directly without moving data to the system where your application code runs. For more\ninformation, see the Snowpark Developer Guide for Python.",
+        "Index",
+        "Was this page helpful?"
+    ]
+}

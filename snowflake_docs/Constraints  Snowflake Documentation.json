@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/constraints",
+    "title": "Constraints | Snowflake Documentation",
+    "paragraphs": [
+        "Constraints define integrity and consistency rules for data stored in tables.\nSnowflake provides support for constraints as defined in the ANSI SQL standard,\nas well as some extensions for compatibility with other databases, such as Oracle.",
+        "Important",
+        "For standard tables, Snowflake supports defining and maintaining constraints, but\ndoes not enforce them, except for NOT NULL constraints, which are always enforced.",
+        "Violations of constraints may cause unexpected downstream effects. If you decide to create a\nconstraint that must be relied upon, make sure your downstream processes can maintain data\nintegrity. For more information, see Constraint properties.",
+        "Constraints on standard tables are provided primarily for data modeling purposes and compatibility\nwith other databases, as well as to support client tools that utilize constraints. For example,\nTableau supports using constraints to perform join culling (join elimination), which can improve the\nperformance of generated queries and cube refresh.",
+        "For hybrid tables, Snowflake both supports and enforces\nconstraints. Primary key constraints are required and enforced on all hybrid tables, and other\nconstraints are enforced when used.",
+        "Next Topics:",
+        "Was this page helpful?"
+    ]
+}

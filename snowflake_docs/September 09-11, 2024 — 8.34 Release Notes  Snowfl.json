@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/8_34",
+    "title": "September 09-11, 2024 \u2014 8.34 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "The release has completed.",
+        "For differences between the in-advance and final versions of these release notes, see Release notes change log.",
+        "With this release, we are pleased to announce that the Parquet file format option, USE_VECTORIZED_SCANNER, now supports client-side encryption. To use the USE_VECTORIZED_SCANNER option, you don\u2019t need to configure the stage to use only server-side encryption anymore.",
+        "For more information, see USE_VECTORIZED_SCANNER.",
+        "The new DYNAMIC_TABLE_REFRESH_HISTORY view in the ACCOUNT_USAGE schema provides information about your dynamic tables\u2019\nrefresh history up to a year.",
+        "For more information, see DYNAMIC_TABLE_REFRESH_HISTORY view.",
+        "With this release, we are pleased to announce the preview of Python and JVMsupport for serverless tasks.  Serverless tasks can\nnow invoke the following object types and functions: UDFs (user-defined functions) and stored procedures written in Python,\nJava, and Scala.",
+        "For more information, see Python and Java support for serverless tasks.",
+        "Announcement",
+        "Update",
+        "Date",
+        "Release notes",
+        "Initial publication (preview)",
+        "06-Sep-24",
+        "Dynamic tables: New DYNAMIC_TABLE_REFRESH_HISTORY account usage view",
+        "Added to Data pipeline updates section",
+        "13-Sep-24",
+        "The vectorized scanner option supports client-side encryption",
+        "Added to Data loading/unloading updates section",
+        "18-Sep-24",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

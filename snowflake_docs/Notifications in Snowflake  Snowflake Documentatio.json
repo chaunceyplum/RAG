@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/notifications/about-notifications",
+    "title": "Notifications in Snowflake | Snowflake Documentation",
+    "paragraphs": [
+        "You can configure Snowflake to send notifications to a queue provided by a Cloud service (Amazon SNS, Google Cloud PubSub, or\nAzure Event Grid), an email address, or a webhook. For details, see the following sections:",
+        "Sending notifications to cloud provider queues (Amazon SNS, Google Cloud PubSub, and Azure Event Grid)",
+        "Sending email notifications",
+        "Sending webhook notifications",
+        "To view the history of notifications, call the Information Schema NOTIFICATION_HISTORY table\nfunction.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

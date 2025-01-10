@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.types.NTZ",
+    "title": "snowflake.snowpark.types.NTZ | Snowflake Documentation",
+    "paragraphs": [
+        "The type hint for annotating TIMESTAMP_NTZ (e.g., Timestamp[NTZ]) data when registering UDFs.",
+        "alias of TypeVar(\u2018NTZ\u2019)",
+        "Was this page helpful?"
+    ]
+}

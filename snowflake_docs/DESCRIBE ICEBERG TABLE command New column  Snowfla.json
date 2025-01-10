@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_02/bcr-1554",
+    "title": "DESCRIBE ICEBERG TABLE command: New column | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_02 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The DESCRIBE ICEBERG TABLE command behaves as follows:",
+        "The command output does not contain the source iceberg type column.",
+        "The command output contains the source iceberg type column. The new\ncolumn appears immediately after the type column.",
+        "For the Snowflake data type that is used to process and return table data, see the type column.",
+        "Ref: 1554",
+        "Was this page helpful?"
+    ]
+}

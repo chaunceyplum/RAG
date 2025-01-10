@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-service",
+    "title": "DROP SERVICE | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Available to accounts in AWS and Microsoft Azure commercial regions, with some exceptions. For more information, see Available regions.",
+        "Removes the specified\nSnowpark Container Services service from the current\nor specified schema. The containers for the service are terminated.",
+        "CREATE SERVICE , ALTER SERVICE, SHOW SERVICES , DESCRIBE SERVICE",
+        "Specifies the identifier for the service to be dropped.",
+        "If the identifier contains spaces or special characters, the entire string must be enclosed in double quotes.\nIdentifiers enclosed in double quotes are also case-sensitive.",
+        "For more information, see Identifier requirements.",
+        "Drops the service (including job services) and the associated block storage volumes.",
+        "If FORCE is not specified and the service uses a\nblock storage volume\nan error is returned.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "OWNERSHIP",
+        "Service",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "The following example drops the service named my_tutorial:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

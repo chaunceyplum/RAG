@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/8_19",
+    "title": "May 13-15, 2024 \u2014 8.19 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "The release has completed.",
+        "For differences between the in-advance and final versions of these release notes, see Release notes change log.",
+        "With this release, we are pleased to announce the preview of the serverless compute model for Snowflake alerts.",
+        "When you configure an alert to use the serverless compute model, Snowflake automatically resizes and scales up or down the compute resources\nrequired for the alert. Snowflake determines the ideal size of the compute resources for a given run based on a dynamic analysis of\nstatistics for the most recent previous runs of the same alert.",
+        "To use the serverless compute model for an alert, omit the WAREHOUSE parameter when executing the CREATE ALERT command.",
+        "For more information, see Setting up alerts based on data in Snowflake.",
+        "With this release, we are pleased to announce the Tri-Secret Secure self-registration process for customer-managed keys (CMKs). You can use\nthe process to register and activate a CMK for use with Tri-Secret Secure. Additionally, if you decide to replace a CMK, the\nself-registration process informs you whether your new CMK is registered and activated. After you complete the self-registration process,\nyou can contact Snowflake Support to enable your Snowflake account to use Tri-Secret Secure.",
+        "For more information, see Understanding Tri-Secret Secure in Snowflake.",
+        "With this release, we are pleased to announce the preview of templating support for the EXECUTE IMMEDIATE FROM command. You can generate and\nexecute SQL scripts using a Jinja2 template file. Templating enables more flexible control structures and enables parameterization using\ntemplate variables. For example, the deployment target of the objects defined in a script can be dynamically chosen using a template file.",
+        "For more information, see EXECUTE IMMEDIATE FROM.",
+        "Previously, for CSV only, there was a known issue when the INCLUDE_METADATA copy option was used with MATCH_BY_COLUMN_NAME. With this release, we are pleased to announce that this issue is resolved.",
+        "For more information, see Copy options (copyOptions).",
+        "Announcement",
+        "Update",
+        "Date",
+        "Release notes",
+        "Initial publication (preview)",
+        "13-May-24",
+        "Structured type evolution for |iceberg-tm| tables",
+        "Removed from Data lake updates section",
+        "14-MAY-24",
+        "Resolved a known issue for INCLUDE_METADATA copy option",
+        "Added to Data loading/unloading updates section",
+        "15-MAY-24",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

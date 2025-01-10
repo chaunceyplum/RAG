@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-1100",
+    "title": "Account Usage Views: New INSTANCE_ID Column in Select Views | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The following views in the ACCOUNT_USAGE schema include the column INSTANCE_ID:",
+        "AUTOMATIC_CLUSTERING_HISTORY",
+        "SERVERLESS_TASK_HISTORY",
+        "STAGES",
+        "TABLES",
+        "TASK_HISTORY",
+        "VIEWS",
+        "The INSTANCE_ID column was added to support future functionality.",
+        "Ref: 1100",
+        "Was this page helpful?"
+    ]
+}

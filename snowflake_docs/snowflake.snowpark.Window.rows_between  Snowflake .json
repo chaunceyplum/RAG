@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Window.rows_between",
+    "title": "snowflake.snowpark.Window.rows_between | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a WindowSpec object with the row frame clause.",
+        "start \u2013 The relative position from the current row as a boundary start (inclusive).\nThe frame is unbounded if this is Window.UNBOUNDED_PRECEDING, or any\nvalue less than or equal to -9223372036854775807 (-sys.maxsize).",
+        "end \u2013 The relative position from the current row as a boundary end (inclusive).\nThe frame is unbounded if this is Window.UNBOUNDED_FOLLOWING, or any\nvalue greater than or equal to 9223372036854775807 (sys.maxsize).",
+        "Note",
+        "You can use Window.UNBOUNDED_PRECEDING, Window.UNBOUNDED_FOLLOWING,\nand Window.CURRENT_ROW to specify start and end, instead of using\nintegral values directly.",
+        "Was this page helpful?"
+    ]
+}

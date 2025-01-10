@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference-stored-procedures",
+    "title": "Stored procedures | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake provides stored procedures to facilitate using certain Snowflake features. To find the stored procedures that are associated with a particular Snowflake Class, see SQL class reference.",
+        "Use CALL to call a stored procedure. For example:",
+        "Snowflake supports the following stored procedures, grouped by feature:",
+        "Feature",
+        "Stored procedure",
+        "Data Classification",
+        "ASSOCIATE_SEMANTIC_CATEGORY_TAGS",
+        "SYSTEM$CLASSIFY",
+        "SYSTEM$CLASSIFY_SCHEMA",
+        "SYSTEM$CANCEL_CLASSIFY_SCHEMA",
+        "Differential privacy",
+        "RESET_PRIVACY_BUDGET",
+        "Synthetic data",
+        "GENERATE_SYNTHETIC_DATA",
+        "Notifications",
+        "SYSTEM$SEND_SNOWFLAKE_NOTIFICATION",
+        "SYSTEM$SEND_EMAIL",
+        "Data sharing and collaboration",
+        "SYSTEM$REQUEST_LISTING_AND_WAIT",
+        "Default event table",
+        "ADD_ROW_ACCESS_POLICY_ON_EVENTS_VIEW",
+        "DROP_ROW_ACCESS_POLICY_ON_EVENTS_VIEW",
+        "Was this page helpful?"
+    ]
+}

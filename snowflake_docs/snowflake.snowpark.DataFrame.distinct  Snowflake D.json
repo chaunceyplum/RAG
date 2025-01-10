@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.distinct",
+    "title": "snowflake.snowpark.DataFrame.distinct | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a new DataFrame that contains only the rows with distinct values\nfrom the current DataFrame.",
+        "This is equivalent to performing a SELECT DISTINCT in SQL.",
+        "Was this page helpful?"
+    ]
+}

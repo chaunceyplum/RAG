@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/getbit",
+    "title": "GETBIT | Snowflake Documentation",
+    "paragraphs": [
+        "Bitwise expression functions",
+        "Given an INTEGER value, returns the value of a bit at a specified position.",
+        "This expression must evaluate to a data type that can be cast to an INTEGER value.",
+        "The position of the bit (starting from 0 for the least significant bit up to 127 for the most significant bit) for which\nto retrieve the value.",
+        "The function returns the value of the bit (0 or 1) at the specified position.",
+        "The following example returns the values of the bits at positions 100, 3, 2, 1, and 0 for an INTEGER value.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/sql-api/cancelling-requests",
+    "title": "Canceling the execution of a SQL statement | Snowflake Documentation",
+    "paragraphs": [
+        "To cancel the execution of a statement, send a POST request to the cancel endpoint. See\nPOST /api/v2/statements/{statementHandle}/cancel for details.",
+        "The following flow chart illustrates the steps that you take to cancel a request.",
+        "Was this page helpful?"
+    ]
+}

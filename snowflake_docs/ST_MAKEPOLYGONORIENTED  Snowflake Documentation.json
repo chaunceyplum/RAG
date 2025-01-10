@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_makepolygonoriented",
+    "title": "ST_MAKEPOLYGONORIENTED | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Constructs a GEOGRAPHY object that represents a Polygon without holes. The function uses the\nspecified LineString as the outer loop.",
+        "This function does not attempt to correct the orientation of the loop, thus allowing for the creation of Polygons that span more\nthan half of the globe. In contrast, ST_MAKEPOLYGON inverts the orientation of\nthose large shapes.",
+        "TO_GEOGRAPHY, ST_MAKEPOLYGON",
+        "A GEOGRAPHY object that represents a LineString in which the last point is the same as the first (i.e. a loop).",
+        "The function returns a value of type GEOGRAPHY.",
+        "The lines of the Polygon must form a loop. In other words, the last Point in the sequence of Points defining the LineString\nmust be the same Point as the first Point in the sequence.",
+        "As you follow along the loop, the inside of the Polygon should be on the left, and the outside of the Polygon should be on the\nright.",
+        "The following example demonstrates how to use the ST_MAKEPOLYGONORIENTED function. The sequence of Points below defines a\ngeodesic rectangular area 1 degree wide and 2 degrees high. The lower left corner of the Polygon starts at the equator (latitude)\nand Greenwich (longitude). The last Point in the sequence is the same as the first Point, which completes the loop.",
+        "The example passes the GEOGRAPHY object for the Polygon to the ST_AREA function to return the area of the Polygon.",
+        "The following example is the same shape but has the opposite orientation. As indicated by the difference in the area of the\nPolygon, the Polygon represents the entire globe except for that previous shape.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

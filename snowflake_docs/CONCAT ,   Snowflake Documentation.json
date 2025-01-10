@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/concat",
+    "title": "CONCAT , || | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (General)",
+        "Concatenates one or more strings, or concatenates one or more binary values.",
+        "The || operator provides alternative syntax for CONCAT and requires at least two arguments.",
+        "CONCAT_WS",
+        "The input expressions must all be strings, or all be binary values.",
+        "The data type of the returned value is the same as the data type of the input value(s).",
+        "If any input value is NULL, returns NULL.",
+        "Metadata functions such as GET_DDL accept only constants as input. Concatenated\ninput generates an error.",
+        "The collation specifications of all input arguments must be compatible.",
+        "The collation of the result of the function is the highest-precedence collation of the inputs.",
+        "Concatenate two strings:",
+        "Concatenate two VARCHAR columns. First, create a table and insert data:",
+        "Run a query:",
+        "Concatenate more than two strings:",
+        "Use the IFF function with the CONCAT function to concatenate strings that are\nnot NULL:",
+        "Use the || concatenation operator instead of the function:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

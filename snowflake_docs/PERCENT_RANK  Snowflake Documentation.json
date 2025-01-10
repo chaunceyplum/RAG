@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/percent_rank",
+    "title": "PERCENT_RANK | Snowflake Documentation",
+    "paragraphs": [
+        "Window functions (Ranking)",
+        "Returns the relative rank of a value within a group of values, specified as a percentage ranging from 0.0 to 1.0.",
+        "Where:",
+        "expr1 specifies the column (or expression) to partition by.",
+        "For example, suppose that within each state or province, you want to rank\nfarmers in order by the amount of corn they produced. In this case, you\npartition by state.",
+        "If you want only a single group (e.g. you want to rank all farmers in the U.S.\nregardless of which state they live in), then omit the PARTITION BY clause.",
+        "expr2 specifies the column (or expression) that you want to rank by.",
+        "For example, if you\u2019re ranking farmers to see who produced the most corn\n(within their state), then you would use the bushels_produced column. For details,\nsee Examples (in this topic).",
+        "PERCENT_RANK is calculated as:",
+        "If n is 1:",
+        "PERCENT_RANK = 0",
+        "If n is greater than 1:",
+        "PERCENT_RANK = (r - 1) / (n - 1)",
+        "where r is the RANK of the row and n is the number of rows in the window partition.",
+        "Values range from 0.0 to 1.0. You can multiply by 100 to get a true percent.",
+        "PERCENT_RANK supports range-based window frames with fixed boundaries only. For more information about window frames, including syntax, usage notes, and examples, see Window function syntax and usage.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

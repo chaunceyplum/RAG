@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.translate",
+    "title": "snowflake.snowpark.functions.translate | Snowflake Documentation",
+    "paragraphs": [
+        "Translates src from the characters in source_alphabet to the characters in\ntarget_alphabet. Each character matching a character at position i in the source_alphabet is replaced\nwith the character at position i in the target_alphabet. If target_alphabet is shorter, and there is no corresponding\ncharacter the character is omitted. target_alphabet can not be longer than source_alphabet.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

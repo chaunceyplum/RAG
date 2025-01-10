@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_03/bcr-1563",
+    "title": "SHOW ENDPOINTS command: Output column name change | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The SHOW ENDPOINTS command output behaves as follows:",
+        "Output includes the column ingress_enabled.",
+        "Output includes the column is_public, which was previously named ingress_enabled.",
+        "Ref: 1563",
+        "Was this page helpful?"
+    ]
+}

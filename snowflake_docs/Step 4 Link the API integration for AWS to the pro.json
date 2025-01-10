@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/external-functions-creating-aws-common-api-integration-proxy-link",
+    "title": "Step 4: Link the API integration for AWS to the proxy service in the Management Console | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides instructions for linking the API integration object in Snowflake to your proxy service (i.e.\nAmazon API Gateway). You do this by creating a trust relationship between Snowflake and the IAM (identity and access\nmanagement) role you created earlier.",
+        "The instructions are the same regardless of whether you are using the Management Console or the\nCloudFormation template.",
+        "Step 3: Create the API integration for AWS in Snowflake",
+        "In the AWS Management Console:",
+        "Select IAM.",
+        "Select Roles.",
+        "In the worksheet, look up the value in the New IAM Role Name field, then\nlook for the same value (role name) in the AWS Management Console.",
+        "Click on the Trust relationships tab, then click on the button Edit trust relationship.",
+        "This should open the Policy Document into which you can add authentication information.",
+        "In the Policy Document, find the Statement.Principal.AWS field and replace the value (not the\nkey) with the value in the API_AWS_IAM_USER_ARN field of the worksheet.",
+        "Find the Statement.Condition field. Initially, this should contain only curly braces (\u201c{}\u201d).",
+        "Paste the following between the curly braces:",
+        "\"StringEquals\": { \"sts:ExternalId\": \"xxx\" }",
+        "Replace the xxx with the value for the API_AWS_EXTERNAL_ID field in the worksheet.",
+        "After you are done editing the Policy Document for the trust relationship, it should look similar to the\nfollowing:",
+        "Click on Update Trust Policy.",
+        "Step 5: Create the external function for AWS in Snowflake",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/current_date",
+    "title": "CURRENT_DATE | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (General)",
+        "Returns the current date of the system.",
+        "None.",
+        "The function returns a value of type DATE.",
+        "The setting of the TIMEZONE parameter affects the return value. The returned date is\nin the time zone for the session.",
+        "The display format for dates in the output is determined by the DATE_OUTPUT_FORMAT\nsession parameter (default YYYY-MM-DD).",
+        "To comply with the ANSI standard, this function can be called without parentheses in SQL statements.",
+        "However, if you are setting a Snowflake Scripting variable\nto an expression that calls the function (for example, my_var := CURRENT_DATE();), you must include the\nparentheses. For more information, see the usage notes for context functions.",
+        "Show the current date, time, and timestamp:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

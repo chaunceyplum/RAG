@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/udf-stored-procedure-security-practices",
+    "title": "Security Practices for UDFs and Procedures | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes best practices for writing secure user-defined functions (UDFs) and procedures.",
+        "Your function or method (and any library functions or methods that you call) must act as a pure function, acting only on the data it receives\nand returning a value based on that data, without causing side-effects. Your code should not attempt to affect the\nstate of the underlying system, other than consuming a reasonable amount of memory and processor time.",
+        "Handler code executes within a restricted engine. Neither your code nor the code in library methods that you use\nshould employ any prohibited system calls, including:",
+        "Process control. For example, you cannot fork a process. (However, you can use multiple threads.)",
+        "Access to the file system on which the handler is running.",
+        "With the following exceptions, a handler should not read or write files:",
+        "A handler can read staged files specified in the IMPORTS clause. For more information, see CREATE FUNCTION\nor CREATE PROCEDURE.",
+        "A handler can write files, such as log files, to the /tmp directory.",
+        "Each query gets its own memory-backed file system in which its own /tmp is stored, so different queries cannot\nhave file name conflicts.",
+        "However, conflicts within a query are possible if a single query calls more than one UDF, and those UDFs\ntry to write to the same file name.",
+        "Note",
+        "Also, because Python UDFs may execute in separate worker processes in parallel, you should\nbe careful about writing into the /tmp directory.",
+        "For more on writing files, see Writing files. For an example, see\nUnzipping a staged file.",
+        "A handler can write files to stages using user-defined functions (UDFs), vectorized UDFs, user-defined table functions (UDTFs), and vectorized UDTFs. For more information, see Writing files from Snowpark Python UDFs and UDTFs.",
+        "Network access.",
+        "You can\u2019t use a handler to create sockets, but you can use a handler to\naccess resources on an external network.",
+        "Note",
+        "You cannot use the code in the Snowflake JDBC Driver to access the database. Your UDF cannot itself act as a client of Snowflake.",
+        "Using JNI (Java Native Interface) is not supported. Snowflake prohibits loading libraries that contain native code (as opposed to Java\nbytecode).",
+        "When used within a government region, Java UDFs support encryption algorithms that are validated to meet\nthe Federal Information Processing Standard (140-2) (FIPS 140-2) requirements. Only cryptographic algorithms that are allowed in the\nFIPS approved mode of the BouncyCastle cryptography API for Java can be used.\nFor information about FIPS 140-2, see FIPS 140-2.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

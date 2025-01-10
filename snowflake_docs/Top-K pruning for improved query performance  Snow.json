@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/querying-top-k-pruning-optimization",
+    "title": "Top-K pruning for improved query performance | Snowflake Documentation",
+    "paragraphs": [
+        "If a SELECT statement contains LIMIT and ORDER BY\nclauses, Snowflake ordinarily scans all eligible rows because any row might be part of the top-K results, where K\nis the value from the LIMIT clause. With top-K pruning, Snowflake stops scanning when it determines that none of\nthe remaining rows can be in a result set that consists of K records.",
+        "Top-K pruning can improve the performance of SELECT statements that contain LIMIT and ORDER BY clauses. Queries on large\ntables benefit the most from top-K pruning.",
+        "Snowflake applies top-K pruning only when all of the following are true:",
+        "The query contains both an ORDER BY clause and a LIMIT clause.",
+        "The first column specified in the ORDER BY clause has one of the following data types:",
+        "An integer-representable data type (that is, an INTEGER type, a DATE type,\nor a TIMESTAMP type). Expressions that return integers, such as casts, are not supported.",
+        "A string or binary data type, including collated strings.",
+        "A field in a VARIANT column with a supported underlying type (that is, a type listed\nin the previous two bulleted list items) and cast to that underlying type.",
+        "If multiple columns are specified, Snowflake considers only the first column.",
+        "When the query contains a join, the ORDER BY column is a column from the larger table. In data warehousing, the\nlarger table is often referred to as the fact table or probe side. The smaller table is referred to as the dimension\ntable.",
+        "Queries with LIMIT clauses that are already fast (such as queries in which a full table scan is fast) might not benefit\nfrom top-K pruning. Queries that return fewer than K rows also don\u2019t benefit.",
+        "Queries that contain ORDER BY \u2026 DESCENDING on a nullable field are pruned only if\nthey also specify NULLS LAST.",
+        "This section provides examples of queries on a field in a VARIANT column to show the types of queries that can use top-K\npruning.",
+        "Create a table with a VARIANT column and insert data:",
+        "This table is relatively small to provide an example, but remember that top-K pruning benefits larger tables.",
+        "The following queries on this table can use top-K pruning:",
+        "The following query can\u2019t use top-K pruning because the value isn\u2019t cast to the underlying data type:",
+        "The following query can\u2019t use top-K pruning because the value is cast to a data type that is different from\nthe underlying data type:",
+        "Queries that contain an aggregate function are pruned only if they\nmeet all of the following conditions:",
+        "They include a GROUP BY clause.",
+        "The first ORDER BY column is also a GROUP BY column.",
+        "For example, the following query can use top-K pruning because the first ORDER BY column c2 is also a GROUP BY\ncolumn and isn\u2019t an aggregated column:",
+        "The following query can\u2019t use top-K pruning because the first ORDER BY column agg_col is an aggregated column:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

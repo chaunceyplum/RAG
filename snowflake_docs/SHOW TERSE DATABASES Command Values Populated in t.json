@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_03/bcr-1022",
+    "title": "SHOW TERSE DATABASES Command: Values Populated in the KIND Column | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The SHOW TERSE DATABASES command output includes non-NULL values in the KIND column.",
+        "This column only allows NULL values.",
+        "This column specifies one of the following values:",
+        "STANDARD: Specifies a normal database.",
+        "IMPORTED DATABASE: Specifies a database that is created from a share.",
+        "Ref: 1022",
+        "Was this page helpful?"
+    ]
+}

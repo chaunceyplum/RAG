@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.account.AccountResource",
+    "title": "snowflake.core.account.AccountResource | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: ObjectReferenceMixin[AccountCollection]",
+        "Represents a reference to a Snowflake account.",
+        "With this account reference, you can fetch information about accounts, as well\nas perform certain actions on them.",
+        "Attributes",
+        "Methods",
+        "Drop this account.",
+        "grace_period_in_days (int) \u2013 Specifies the number of days during which the account can be restored.",
+        "if_exists (bool, optional) \u2013 Check the existence of this account before dropping it.\nDefault is None, which is equivalent to False.",
+        "Examples",
+        "Deleting an account using its reference:",
+        "Deleting an account using its reference if it exists:",
+        "Undrop this account.",
+        "Examples",
+        "Undropping an account using its reference:",
+        "Was this page helpful?"
+    ]
+}

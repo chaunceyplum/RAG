@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cert-stateramp",
+    "title": "StateRAMP | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes how Snowflake supports customers with StateRAMP compliance requirements.",
+        "StateRAMP is a 501(c)6 nonprofit that standardizes security requirements for cloud offerings and verifies those cloud offerings for use by\nstate and local governments and public education institutions through independent audits and continuous monitoring. The Snowflake offerings\nthat are working towards or have achieved StateRAMP authorizations are included on the\nAuthorized Product List.",
+        "Snowflake maintains 3 deployments that are currently authorized or under review by the StateRAMP PMO for authorization:",
+        "State and local governments, public education institutions, and special districts are invited to become members of StateRAMP. Government\nmembership provides access to shared services for managing supplier risk. Providers are also eligible for membership. Provider membership\nbenefits include: a public profile on the Authorized Product List, transferrable credentials,\ncommittee eligibility, access to the complete membership directory, an opportunity to provide feedback on policies, and documentation, and\nmember education.",
+        "Snowflake maintains 3 deployments that are currently under review by the StateRAMP PMO for authorization:",
+        "Snowflake The Data Cloud on AWS: Moderate Authorized",
+        "Snowflake The Data Cloud on AWS GovCloud: High Authorized",
+        "Snowflake Data Cloud on Azure Government: Moderate Authorized",
+        "Note",
+        "If your Snowflake account is in a U.S. government region and you want to access data products that are\noffered privately or on the Snowflake Marketplace, or offer listings either privately or on the Snowflake Marketplace, you must review and\nacknowledge a cross-region disclaimer for your organization.",
+        "For details, see:",
+        "Prepare to provide listings from accounts in U.S. government regions",
+        "Prepare to access listings from accounts in U.S. government regions",
+        "Limitations for accessing listings from accounts in U.S. government regions",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

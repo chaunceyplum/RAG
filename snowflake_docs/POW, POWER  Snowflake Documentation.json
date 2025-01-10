@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/pow",
+    "title": "POW, POWER | Snowflake Documentation",
+    "paragraphs": [
+        "Numeric functions (Exponent and Root)",
+        "Returns a number (x) raised to the specified power (y).",
+        "Always returns a floating point number, even if the input expressions are\nof integer types.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

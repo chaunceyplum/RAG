@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/collaboration/listings/organizational/org-listing-governance",
+    "title": "Organizational listing governance | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to all accounts that are Enterprise Edition (or higher).",
+        "To inquire about upgrading, please contact Snowflake Support.",
+        "Organization-level access history provides data governors with the information they need to track\nwhen a consumer\u2019s query reads from a data product made available by a provider through an organizational listing. The data governor can\ndetermine which account provided the organizational listing and exactly which data object was accessed. They can also determine if the data\nobject provided by the organizational listing is protected by a policy (such as a masking policy or row access policy) in the provider\u2019s\naccount.",
+        "You can gain these insights into the consumer queries by using the organization account to query\nthe ACCESS_HISTORY view of the ORGANIZATION_USAGE schema. This ACCESS_HISTORY view contains the\nfollowing columns related to the governance of organizational listings:",
+        "provider_base_accessed_objects - Specifies the data objects in the provider\u2019s account that were accessed by the consumer query.",
+        "provider_policies_referenced - If a consumer query accessed base objects that are protected by a policy in the provider\u2019s\naccount, this column lists the policy.",
+        "For example, if an organization administrator wants to know all the intra-organization, cross-account queries that have accessed data\nobjects via organizational listings, they could execute the following query from the organization account:",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

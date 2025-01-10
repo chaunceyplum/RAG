@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.shift",
+    "title": "modin.pandas.Series.shift | Snowflake Documentation",
+    "paragraphs": [
+        "Shift data by desired number of periods and replace columns with fill_value (default: None).",
+        "Snowpark pandas does not support freq currently.",
+        "The axis parameter is unused, and defaults to 0.",
+        "periods (int) \u2013 Number of periods to shift. Can be positive or negative.",
+        "freq (not supported, default None) \u2013",
+        "axis ({0 or 'index', 1 or 'columns', None}, default None) \u2013 Shift direction. This parameter is unused and expects 0, \u2018index\u2019 or None.",
+        "fill_value (object, optional) \u2013 The scalar value to use for newly introduced missing values.\nthe default depends on the dtype of self.\nFor numeric data, np.nan is used.\nFor datetime, timedelta, or period data, etc. NaT is used.\nFor extension dtypes, self.dtype.na_value is used.",
+        "Copy of input object, shifted.",
+        "Series",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

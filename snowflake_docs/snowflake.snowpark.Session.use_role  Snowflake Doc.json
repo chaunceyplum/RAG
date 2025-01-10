@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.use_role",
+    "title": "snowflake.snowpark.Session.use_role | Snowflake Documentation",
+    "paragraphs": [
+        "Specifies the active/current primary role for the session.",
+        "role \u2013 the role name.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark-ml/reference/latest/index",
+    "title": "Snowpark ML API Reference (Python) | Snowflake Documentation",
+    "paragraphs": [
+        "Snowpark ML is a set of tools for creating and working with machine learning models in Python on Snowflake.\nSee the Snowpark ML Developer Guide for more information.",
+        "Portions of the Snowpark ML API Reference are derived from\nscikit-learn,\nxgboost, and\nlightgbm documentation.",
+        "The following APIs are available only in the version of snowpark-ml-python available in the Container Runtime for ML, accessible in Snowflake Notebooks running on Snowpark Container Services (SPCS).",
+        "The following APIs are available in both the Container Runtime for ML and in the standalone client version of snowpark-ml-python accessible through conda and pip, in Snowsight Python worksheets, and in Snowflake notebooks running on a warehouse.",
+        "Was this page helpful?"
+    ]
+}

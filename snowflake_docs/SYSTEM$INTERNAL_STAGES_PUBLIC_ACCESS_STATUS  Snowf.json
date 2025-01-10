@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_internal_stages_public_access_status",
+    "title": "SYSTEM$INTERNAL_STAGES_PUBLIC_ACCESS_STATUS | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (Information)",
+        "Business Critical Feature",
+        "This function requires Business Critical (or higher). To inquire about upgrading, please contact Snowflake Support.",
+        "Checks to see whether public IP addresses are allowed to access the internal stage of the current Snowflake account on Microsoft Azure.",
+        "SYSTEM$BLOCK_INTERNAL_STAGES_PUBLIC_ACCESS , SYSTEM$UNBLOCK_INTERNAL_STAGES_PUBLIC_ACCESS",
+        "None.",
+        "This function returns the following status messages:",
+        "Status Message",
+        "Description",
+        "Public Access to internal stages is blocked",
+        "Indicates that the Azure settings that control access to the internal stage are currently blocking all public IP addresses.",
+        "Public Access to internal stages is unblocked",
+        "Indicates that at least some public IP addresses can access the internal stage.",
+        "Only account administrators (i.e. users with the ACCOUNTADMIN role) can execute this function.",
+        "This function can take a few minutes to finish executing.",
+        "This function can be used with Snowflake accounts on Azure only. AWS and Google Cloud are not supported.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

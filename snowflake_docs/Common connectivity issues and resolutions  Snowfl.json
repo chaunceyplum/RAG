@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/client-connectivity-troubleshooting/common-issues",
+    "title": "Common connectivity issues and resolutions | Snowflake Documentation",
+    "paragraphs": [
+        "This topic outlines the steps for troubleshooting connectivity issues that are likely to be the root cause of the common error messages.",
+        "Snowflake does not support the alteration or modification of the TLS/SSL certificates for its services. Please work with your network administrator to ensure that all service endpoints returned by the allowing the URLs function have full passthrough access through your network.",
+        "If you have unique requirements specific to your network environment security that require further discussion on this topic, contact your account team.",
+        "All communications with Snowflake use port 443. However, OCSP certification checks are transmitted over port 80. If port 80 is not open in your network, you might experience OCSP-related issues, which can be accompanied by an error mentioning OCSP (such as JDCB Error 5). In these scenarios, your organization\u2019s system or network administrator needs to open the firewall to traffic on ports 443 and 80 and to ensure that all URLs in the Snowflake allowlist are allowed.",
+        "Note",
+        "No customer data is transferred over unencrypted HTTP; it is strictly data related to the OCSP operations. Also, note that Snowflake does not provide or maintain the OCSP Responders. The OCSP Cache Server is an exception, which is provided and operated by Snowflake.",
+        "If the issue persists after enabling port 80, try deleting all OCSP-related temporal cache files and retry connecting based on your operating system:",
+        "Windows: $HOME/AppData/Local/Snowflake/Caches",
+        "MacOS: $HOME/Library/Caches/Snowflake",
+        "Linux: $HOME/.cache/snowflake",
+        "At times, your client can fetch small query results but struggles with large ones because retrieving large results (over 100KB) requires clients to have full network access with certificate passthrough to all STAGE endpoints. You can frequently resolve these issues by allowing the URLs in the Snowflake allowlist in your proxy or firewall.",
+        "In Private Connectivity scenarios, DNS-related settings can be misconfigured on the host or the remote DNS server. These issues are usually accompanied by error messages like \u201cName or service not known\u201d or \u201cnodename nor servname provided, or not known\u201d (such as JDCB Error 2).  If you configure AWS PrivateLink, Azure Private Link, or Google Cloud Private Service Connect, your network administrator must create and manage a DNS record for your connection URL. Ensure that you performed all the configuration steps associated with your provider correctly.",
+        "Sometimes your issue might be transient, which can result from the temporary unavailability of the OCSP servers, remote DNS servers, Snowflake servers, or the client temporarily being unable to reach them.",
+        "If your issue is not transient, or the steps above do not resolve your issue, please follow the steps in Troubleshooting steps.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-index",
+    "title": "DROP INDEX | Snowflake Documentation",
+    "paragraphs": [
+        "Drops a secondary index.",
+        "CREATE INDEX , SHOW INDEXES , CREATE HYBRID TABLE , DROP TABLE , DESCRIBE TABLE , SHOW HYBRID TABLES",
+        "Specifies the identifier for the table.",
+        "Specifies the identifier for the index.",
+        "This command can only be used to drop a secondary index. To drop an index that is used to enforce a UNIQUE\nor FOREIGN KEY constraint, use the ALTER TABLE command to drop the constraint.",
+        "Indexes cannot be undropped.",
+        "Removes the secondary index c_idx on table t0:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

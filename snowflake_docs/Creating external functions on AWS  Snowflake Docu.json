@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/external-functions-creating-aws",
+    "title": "Creating external functions on AWS | Snowflake Documentation",
+    "paragraphs": [
+        "These topics provide detailed instructions for creating an external function for AWS using either the AWS Management Console or an\nAWS CloudFormation template provided by Snowflake.",
+        "Next Topics:",
+        "Was this page helpful?"
+    ]
+}

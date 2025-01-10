@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/intro-bcr-releases",
+    "title": "About Behavior Changes | Snowflake Documentation",
+    "paragraphs": [
+        "Each month (except for December), Snowflake selects one of the weekly full releases for the month to introduce behavior changes.\nThe weekly release selected for the behavior changes varies, but is typically the 4th or 5th release after the previous behavior change release.",
+        "A behavior change is defined as any change to existing behavior that returns different results from before and may impact customer code or\nworkloads.",
+        "Behavior changes are provided in bundles that utilize the following naming convention:",
+        "YYYY_NN",
+        "Where YYYY is the year and NN is the ordinal number of the release within the year. For example, 2022_06 would be the 6th behavior\nchange bundle introduced in 2022.",
+        "For more details about working with behavior change bundles, see Behavior change management.",
+        "The behavior change bundle lifecycle consists of the following two periods:",
+        "The bundle is introduced Disabled by Default. During this period, you can choose to enable the bundle in\none or more accounts. Typically, you would choose accounts designated for development or QA (quality assurance) so that you can test the\nchanges without impacting your production accounts.",
+        "The bundle moves from Disabled by Default to Enabled by Default. During this period, you can choose to\ndisable the bundle in your accounts. This allows you to postpone the changes in the bundle, typically for production accounts, while\nmaking any necessary adjustments to mitigate the impact of the changes.",
+        "You may choose to explicitly enable or disable the behavior change bundle anytime during these two periods. Once explicitly set, the bundle is\nchanged from its default state and Snowflake does not override the setting for the above periods.\nFor example, if you disable a bundle during the testing period, we do not enable it at the beginning of the opt-out period.",
+        "At end of the opt-out period, Snowflake enables the behavior changes in the bundle across all accounts, at which time the bundle is considered\nGenerally Enabled. From this time onwards, any overrides are cleared and you are unable to explicitly enable or disable the bundle.",
+        "A release that contains behavior change bundles includes the following documentation (in addition to the Release Notes for the\nrelease):",
+        "Summary of each bundle in the release.",
+        "Detailed descriptions of the behavior changes in each bundle.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

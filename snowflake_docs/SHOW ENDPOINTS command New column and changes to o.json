@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_04/bcr-1586",
+    "title": "SHOW ENDPOINTS command: New column and changes to output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The SHOW ENDPOINTS command behaves as follows:",
+        "In commands output, the port column always has a value.",
+        "The output includes a new port_range column that appears  immediately after the port column.",
+        "Column name",
+        "Description",
+        "PORT_RANGE",
+        "If port is null, contains a port range in the form ####-####.",
+        "If the port_range column is NOT NULL, the port column is NULL.",
+        "Ref: 1586",
+        "Was this page helpful?"
+    ]
+}

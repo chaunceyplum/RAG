@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/un-bundled/bcr-1321",
+    "title": "TABLE_PRIVILEGES View: Update GRANTOR column value in the consumer account (Postponed) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_07 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "This behavior change was originally planned for September, 2023; however, it has been postponed and a new release date has not been\ndetermined.",
+        "This change is not available for testing.",
+        "For the most up-to-date details about the release date, as well as other release-related details, see the Behavior Change Log.",
+        "The Information Schema TABLE_PRIVILEGES view behaves as follows:",
+        "When a consumer creates a database from a share and queries the Information Schema TABLE_PRIVILEGES view, the GRANTOR column in the view\nspecifies the name of the role in the provider account that made the grant to the share.",
+        "If the consumer queries the TABLE_PRIVILEGES view and the GRANTOR column contains a role from the provider account that made the grant on\nthe table to the share, Snowflake removes this row from the view output.",
+        "Ref: 1321",
+        "Was this page helpful?"
+    ]
+}

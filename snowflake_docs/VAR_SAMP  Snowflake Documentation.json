@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/var_samp",
+    "title": "VAR_SAMP | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (General) , Window function syntax and usage (General)",
+        "Returns the sample variance of non-NULL records in a group. If all records inside a group are NULL, a NULL is returned.",
+        "VARIANCE , VARIANCE_SAMP",
+        "Aggregate function",
+        "Window function",
+        "For detailed window_frame syntax, see Window function syntax and usage.",
+        "The expr1 should evaluate to one of the numeric data types.",
+        "This is the expression to partition by.",
+        "This is the expression to order by within each partition.",
+        "The data type of the returned value is NUMBER(<precision>, <scale>). The scale depends upon the values being processed.",
+        "For single-record inputs, VAR_SAMP, VARIANCE, and VARIANCE_SAMP all return NULL. This is different from the Oracle behavior,\nwhere VAR_SAMP returns NULL for a single record and VARIANCE returns 0.",
+        "When passed a VARCHAR expression, this function implicitly casts the input to floating point values. If the cast\ncannot be performed, an error is returned.",
+        "When this function is called as a window function:",
+        "The syntax allows the DISTINCT keyword, but it is ignored.",
+        "If you do not specify a window frame, the following implied window frame is used:",
+        "RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW",
+        "For more information about window frames, including syntax, usage notes, and examples, see\nWindow function syntax and usage.",
+        "This example shows how to use the VAR_SAMP function:",
+        "Create and fill a table:",
+        "Query the table:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

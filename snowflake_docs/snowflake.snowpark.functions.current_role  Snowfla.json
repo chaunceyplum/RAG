@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.current_role",
+    "title": "snowflake.snowpark.functions.current_role | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the name of the role in use for the current session.",
+        "Example",
+        "Was this page helpful?"
+    ]
+}

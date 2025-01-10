@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.stream.StreamSourceStage",
+    "title": "snowflake.core.stream.StreamSourceStage | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: StreamSource",
+        "A model object representing the StreamSourceStage resource.",
+        "Constructs an object of type StreamSourceStage with the provided properties.",
+        "name (str) \u2013 Name of the source whose changes are tracked by the stream",
+        "database_name (str, optional) \u2013 Database name to which stream source type belongs. If not provided, database  name provided in the path param will be used.",
+        "schema_name (str, optional) \u2013 Schema name to which stream source type belongs. If not provided, schema name provided in the path param will be used.",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of StreamSourceStage from a dict.",
+        "Create an instance of StreamSourceStage from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

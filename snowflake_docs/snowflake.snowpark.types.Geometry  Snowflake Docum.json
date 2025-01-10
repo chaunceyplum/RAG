@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.types.Geometry",
+    "title": "snowflake.snowpark.types.Geometry | Snowflake Documentation",
+    "paragraphs": [
+        "The type hint for annotating Geometry data when registering UDFs.",
+        "alias of TypeVar(\u2018Geometry\u2019)",
+        "Was this page helpful?"
+    ]
+}

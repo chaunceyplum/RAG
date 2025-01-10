@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/corr",
+    "title": "CORR | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (General) , Window functions (General)",
+        "Returns the correlation coefficient for non-null pairs in a group. It is computed for non-null pairs using the following formula:",
+        "COVAR_POP(y, x) / (STDDEV_POP(x) * STDDEV_POP(y))",
+        "Where x is the independent variable and y is the dependent variable.",
+        "COVAR_POP , STDDEV_POP",
+        "Syntax when used as an aggregate function:",
+        "Syntax when used as a window function:",
+        "DISTINCT is not supported for this function.",
+        "When this function is called as a window function, it does not support:",
+        "An ORDER BY clause within the OVER clause.",
+        "Explicit window frames.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

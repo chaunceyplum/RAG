@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/commands-replication",
+    "title": "Replication and failover commands | Snowflake Documentation",
+    "paragraphs": [
+        "Replication and failover commands enable you to manage replication and failover.",
+        "CREATE FAILOVER GROUP",
+        "ALTER FAILOVER GROUP",
+        "DROP FAILOVER GROUP",
+        "SHOW FAILOVER GROUPS",
+        "SHOW DATABASES IN FAILOVER GROUP",
+        "CREATE REPLICATION GROUP",
+        "ALTER REPLICATION GROUP",
+        "DROP REPLICATION GROUP",
+        "SHOW REPLICATION GROUPS",
+        "SHOW DATABASES IN REPLICATION GROUP",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

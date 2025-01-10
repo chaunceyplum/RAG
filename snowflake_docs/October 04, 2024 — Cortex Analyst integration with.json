@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-10-04-cortex-analyst-search-integration",
+    "title": "October 04, 2024 \u2014 Cortex Analyst integration with Cortex Search \u2014 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "We are pleased to announce the preview of Cortex Analyst integration with Cortex Search.",
+        "You can now integrate Cortex Analyst with Cortex Search to mprove literal string searches to help Cortex Analyst generate more accurate\nSQL queries. Cortex Search\nis a feature that enables low-latency, high-quality \u201cfuzzy\u201d search over text data. You can create a Cortex Search service to do a semantic\nsearch over the underlying database column to find any literal values needed for Cortex Analyst to use in the SQL query that answers the\nuser\u2019s question.",
+        "For more details, see Improve literal search to enhance Cortex Analyst responses.",
+        "Was this page helpful?"
+    ]
+}

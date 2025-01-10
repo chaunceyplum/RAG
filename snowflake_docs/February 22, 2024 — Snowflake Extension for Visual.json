@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-02-22",
+    "title": "February 22, 2024 \u2014 Snowflake Extension for Visual Studio Code Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce that the Snowflake Extension for Visual Studio Code now integrates with Snowpark Python to provide authoring and debugging\nfeatures for Snowpark Python code.",
+        "These new features include:",
+        "Inline debugging of Snowpark Python functions.",
+        "Syntax highlighting and autocomplete suggestions for Snowflake SQL in Python strings within Python files or notebook cells.",
+        "Syntax highlighting and bracket autocomplete of Jinja templates in Snowflake SQL.",
+        "For more information, see Snowflake Extension for Visual Studio Code.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

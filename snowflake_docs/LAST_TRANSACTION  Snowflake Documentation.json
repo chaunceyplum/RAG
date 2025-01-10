@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/last_transaction",
+    "title": "LAST_TRANSACTION | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (Session)",
+        "Returns the transaction ID of the last transaction that was either committed or rolled back in the current session.",
+        "CURRENT_TRANSACTION , DESCRIBE TRANSACTION",
+        "None",
+        "This example calls the LAST_TRANSACTION function:",
+        "Output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

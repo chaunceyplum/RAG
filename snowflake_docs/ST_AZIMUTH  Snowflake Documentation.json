@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_azimuth",
+    "title": "ST_AZIMUTH | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Given a Point that represents the origin (the location of the observer) and a specified Point, returns the azimuth in radians.\nBoth Points must be either GEOGRAPHY or GEOMETRY\nobjects.",
+        "The azimuth is the angle between the two Points when the observer at the origin is facing the north (for GEOGRAPHY objects) or\nthe Y-axis (for GEOMETRY objects). The angle is positive in the clockwise direction and is:",
+        "0 for a line segment pointing north.",
+        "\u03c0/2 for a line segment pointing east.",
+        "\u03c0 for a line segment pointing south.",
+        "3\u03c0/2 for a line segment pointing west.",
+        "If the two Points are the same location, the function returns NULL.",
+        "For GEOGRAPHY objects, on spherical Earth,\nthe formula described here is used to determine the azimuth.",
+        "Caution",
+        "Systems using an elliptical Earth model use\na more complex algorithm for Azimuth, which occasionally yields\nsignificantly different results.",
+        "A GEOGRAPHY object that is a Point representing the origin (where the observer is located).",
+        "A GEOGRAPHY object that is a Point for which you want to calculate the azimuth.",
+        "A GEOMETRY object that is a Point representing the origin (where the observer is located).",
+        "A GEOMETRY object that is a Point for which you want to calculate the azimuth.",
+        "Returns a value of type REAL that is the azimuth in radians.",
+        "If one of the input geospatial objects is not a Point, the function reports an error.",
+        "Returns NULL if one or both input points are NULL.",
+        "The following example returns the azimuth in radians for an origin Point (0, 1) and a target Point (0, 0):",
+        "The following example returns the azimuth in degrees for an origin Point (0, 1) and a target Point (1, 2):",
+        "The following example returns the azimuth in radians for an origin Point (0, 1) and a target Point (0, 0):",
+        "The following example returns the azimuth in degrees for an origin Point (0, 1) and a target Point (0.707, 0.707):",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

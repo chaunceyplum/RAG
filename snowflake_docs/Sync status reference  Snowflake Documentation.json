@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/native-apps/connector-sdk/reference/sync_status_reference",
+    "title": "Sync status reference | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to accounts in all regions in all cloud providers (including government regions). For details, contact your Snowflake representative.",
+        "The following database objects are created through the file observability/sync_status.sql.",
+        "View exposed to the ADMIN and VIEWER roles and providing information about the synchronization status of the connector.\nThe main functionalities are based on the tables APP_STATE, GENERIC_CONNECTOR_STATS, INGESTION_DEFINITIONS,\nbe careful when overwriting so that the view is still usable.",
+        "The view contains the following columns:",
+        "status STRING",
+        "last_synced_at TIMESTAMP_NTZ",
+        "With the following statuses available:",
+        "PAUSED when the connector is paused.",
+        "LAST_SYNCED when at least one run ended with COMPLETED status.",
+        "SYNCING_DATA when there is an enabled resource but no runs ended with COMPLETED status.",
+        "NOT_SYNCING when no runs were started and all resources are disabled.",
+        "DISCONNECTED this state is not supported yet.",
+        "Sync Status is related to and dependent on the objects from the following files:",
+        "core.sql (See Core SQL reference)",
+        "observability/connector_stats.sql (See Connector stats reference)",
+        "ingestion/ingestion_definitions_view.sql (See Resource definition and ingestion SQL reference)",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

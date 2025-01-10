@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/udf-stored-procedure-constraints",
+    "title": "Designing Handlers that Stay Within Snowflake-Imposed Constraints | Snowflake Documentation",
+    "paragraphs": [
+        "To ensure stability within the Snowflake environment, Snowflake places the following constraints on handler code. Unless stated otherwise,\nthese limitations are enforced when the handler is executed, not when it is created.",
+        "Avoid the following, which can consume large amounts of memory:",
+        "Large data values. These can include binary values, as well as large arrays, objects, or variant.",
+        "Snowflake converts between SQL data types and corresponding types in the handler language. For more information, see\nData Type Mappings Between SQL and Handler Languages.",
+        "Excessive stack depth. Snowflake has tested simple function calls nested 50 levels deep without error. The practical maximum limit\ndepends upon how much information is put on the stack.",
+        "Handler code will return an error if it consumes too much memory. The specific limit is subject to change.",
+        "If a handler takes too long to complete, Snowflake kills the SQL statement and returns an error to the user. This limits\nthe impact and cost of errors such as infinite loops.",
+        "Although your handler can use functionality in external libraries, Snowflake security restrictions disable some\ncapabilities, such as writing to files. For details about library restrictions, see\nSecurity Practices for UDFs and Procedures.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

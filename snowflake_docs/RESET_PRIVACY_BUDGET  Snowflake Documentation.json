@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/stored-procedures/reset_privacy_budget",
+    "title": "RESET_PRIVACY_BUDGET | Snowflake Documentation",
+    "paragraphs": [
+        "Enterprise Edition Feature",
+        "This feature requires Enterprise Edition (or higher). To inquire about upgrading, please contact Snowflake Support.",
+        "Resets the cumulative privacy loss of a privacy budget to 0.",
+        "Name of the privacy policy that specifies the privacy\nbudget. Must be a fully qualified name that includes the database and schema.",
+        "Name of a privacy budget.",
+        "Name of the organization that contains the account in which the analyst is incurring privacy loss.",
+        "Name of the account in which the analyst is incurring privacy loss, specified using the account name format\nof the account identifier.",
+        "Globally defined stored procedures utilize caller\u2019s rights. For more details, see\nUnderstanding caller\u2019s rights and owner\u2019s rights stored procedures.",
+        "Cumulative privacy loss is reset the next time a query incurs privacy loss. If you view the privacy budget after calling\nRESET_PRIVACY_BUDGET but before the first query incurs privacy loss, the cumulative privacy loss will not be 0.",
+        "Suppose the my_policy privacy policy includes the analyst_budget privacy budget. To reset the cumulative privacy loss incurred by\nusers associated with the analysts_budget privacy budget who are executing their queries in the companyorg.account_123 account:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

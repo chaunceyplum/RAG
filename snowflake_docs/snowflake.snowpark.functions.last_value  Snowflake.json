@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.last_value",
+    "title": "snowflake.snowpark.functions.last_value | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the last value within an ordered group of values.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cert-cyber-essentials-plus",
+    "title": "CE+ (Cyber Essentials Plus) | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes how Snowflake supports customers with CE+ compliance requirements.",
+        "Cyber Essentials Plus (CE+) is a United Kingdom government supported framework that helps protect organizations, regardless of size,\nagainst a wide range of the most common cyber attacks. CE+ certification is required for organizations that plan to bid for central\ngovernment contracts which involve handling sensitive and personal information or the provision of certain technical products and services.\nCE+ certification is supported by industry, including the Federation of Small Businesses, the Confederation of British Industry and a\nnumber of insurance organizations that offer incentives for CSPs holding this certification. CE+ provides the necessary technical controls\nand a related assurance framework conducted via an annual external assessment conducted by an accredited assessor.",
+        "Achievement of the CE+ certification demonstrates Snowflake\u2019s commitment to mitigate the risk from common Internet-based threats and cyber\nsecurity best practices.",
+        "For more information, please visit the Cyber Essentials website.",
+        "You can view the current status of Snowflake\u2019s (Snowflake, Inc.) CE certifications on the\nIASME website.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

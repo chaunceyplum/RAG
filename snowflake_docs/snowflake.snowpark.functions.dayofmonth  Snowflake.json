@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.dayofmonth",
+    "title": "snowflake.snowpark.functions.dayofmonth | Snowflake Documentation",
+    "paragraphs": [
+        "Extracts the corresponding day (number) of the month from a date or timestamp.",
+        "Was this page helpful?"
+    ]
+}

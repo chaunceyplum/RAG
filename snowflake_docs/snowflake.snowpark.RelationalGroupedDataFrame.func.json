@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.RelationalGroupedDataFrame.function",
+    "title": "snowflake.snowpark.RelationalGroupedDataFrame.function | Snowflake Documentation",
+    "paragraphs": [
+        "Computes the builtin aggregate agg_name over the specified columns. Use\nthis function to invoke any aggregates not explicitly listed in this class.\nSee examples in DataFrame.group_by().",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.managed_account.ManagedAccountResource",
+    "title": "snowflake.core.managed_account.ManagedAccountResource | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: ObjectReferenceMixin[ManagedAccountCollection]",
+        "A reference to a ManagedAccount in Snowflake.",
+        "Attributes",
+        "Methods",
+        "Drop this managed account.",
+        "Examples",
+        "Deleting a warehouse using its reference:",
+        "Was this page helpful?"
+    ]
+}

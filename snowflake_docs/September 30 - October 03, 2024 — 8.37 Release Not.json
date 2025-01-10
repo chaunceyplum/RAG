@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/8_37",
+    "title": "September 30 - October 03, 2024 \u2014 8.37 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "The release has completed.",
+        "For differences between the in-advance and final versions of these release notes, see Release notes change log.",
+        "The following function(s) are now available with this release:",
+        "Function category",
+        "New function",
+        "Description",
+        "Semi-structured and structured data",
+        "REDUCE",
+        "Reduces an array to a single value based on the logic in a lambda expression.",
+        "Geospatial",
+        "ST_INTERPOLATE",
+        "Given an input GEOGRAPHY object, returns an interpolated object that is within a specified tolerance.",
+        "You can call this function when you need to see how GEOGRAPHY objects look like in the planar coordinate system (for example, when\nusing visualization tools for geospatial data).",
+        "With this release, we are pleased to announce preview support for authenticating with AWS services from a procedure or functions using\nSnowpark External Access via Identity and Access Management\n(IAM).",
+        "For more information, see Accessing Amazon S3 with AWS IAM.",
+        "Announcement",
+        "Update",
+        "Date",
+        "Release notes",
+        "Initial publication (preview)",
+        "27-Sep-24",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

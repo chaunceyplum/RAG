@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.daydiff",
+    "title": "snowflake.snowpark.functions.daydiff | Snowflake Documentation",
+    "paragraphs": [
+        "Calculates the difference between two dates, or timestamp columns based in days.\nThe result will reflect the difference between col1 - col2",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.to_geography",
+    "title": "snowflake.snowpark.functions.to_geography | Snowflake Documentation",
+    "paragraphs": [
+        "Parses an input and returns a value of type GEOGRAPHY. Supported inputs are strings in",
+        "WKT (well-known text).",
+        "WKB (well-known binary) in hexadecimal format (without a leading 0x).",
+        "EWKT (extended well-known text).",
+        "EWKB (extended well-known binary) in hexadecimal format (without a leading 0x).",
+        "GeoJSON.",
+        "format.",
+        "Besides strings, binary representation in WKB and EWKB format can be parsed, or objects adhering to GeoJSON format.\nFor all supported formats confer https://docs.snowflake.com/en/sql-reference/data-types-geospatial#supported-geospatial-object-types.",
+        "Was this page helpful?"
+    ]
+}

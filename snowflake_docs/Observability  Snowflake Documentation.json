@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/observability",
+    "title": "Observability | Snowflake Documentation",
+    "paragraphs": [
+        "Classes",
+        "QueryHistory(session[,\u00a0include_describe,\u00a0...])",
+        "A context manager that listens to and records SQL queries that are pushed down to the Snowflake database.",
+        "QueryRecord(query_id,\u00a0sql_text[,\u00a0...])",
+        "Contains the query information returned from the Snowflake database after the query is run.",
+        "Methods",
+        "QueryRecord.count(value,\u00a0/)",
+        "Return number of occurrences of value.",
+        "QueryRecord.index(value[,\u00a0start,\u00a0stop])",
+        "Return first index of value.",
+        "Attributes",
+        "QueryHistory.queries",
+        "",
+        "QueryRecord.query_id",
+        "Alias for field number 0",
+        "QueryRecord.sql_text",
+        "Alias for field number 1",
+        "Was this page helpful?"
+    ]
+}

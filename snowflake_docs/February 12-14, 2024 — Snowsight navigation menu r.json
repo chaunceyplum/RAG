@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-02-12",
+    "title": "February 12-14, 2024 \u2014 Snowsight navigation menu release notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the preview of a new navigation menu in Snowsight. The new menu organizes various\nfeatures into categories for more intuitive navigation.",
+        "When working with worksheets, Streamlit apps, or dashboards, you can quickly navigate to other pages in Snowsight with the new\ncollapsed format of the navigation menu.",
+        "The most noticeable changes include:",
+        "Worksheets, dashboards, and Streamlit are part of Projects.",
+        "Sharing and app development resources like Provider Studio, Apps, Marketplace, and Partner Connect are part of Data Products.",
+        "The Activity section is renamed Monitoring.",
+        "Change your role, update your profile, get your account URL and identifier, and access support from one centralized user menu, located\nat the bottom of the navigation menu.",
+        "See Exploring the Snowsight navigation menu for more details.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

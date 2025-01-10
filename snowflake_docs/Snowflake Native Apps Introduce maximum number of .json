@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_01/bcr-1466",
+    "title": "Snowflake Native Apps: Introduce maximum number of scanned patches | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Snowflake requires an automated security scan\nwhen setting the DISTRIBUTION parameter for an application package to EXTERNAL.\nThe security scan applies to active versions and patches defined for the application package. Versions that are not active are not scanned.",
+        "Setting the DISTRIBUTION parameter to EXTERNAL initiates the security scan on all patches for an active version defined in\nthe application package.",
+        "When setting the DISTRIBUTION parameter to EXTERNAL only the ten most recent patches are scanned.\nOnly the ten most recent patches can be published when the DISTRIBUTION parameter is set.",
+        "Note that this is a limit on the number of patches available at the time the version is published. A single version can have up to 130 patches.",
+        "Use the SHOW VERSIONS command to view the versions, patches, and review status for an application package.",
+        "This change is only applicable to new application packages created after the behavior change. Existing application packages are unaffected.",
+        "Ref: 1466",
+        "Was this page helpful?"
+    ]
+}

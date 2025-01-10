@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/guides",
+    "title": "Guides - Snowflake Documentation",
+    "paragraphs": [
+        "Instructions on performing various Snowflake operations",
+        "Snowflake provides a variety of mechanisms for connecting to Snowflake and executing database commands. Choose between the web interface or the command line tool to connect to your Snowflake account. Learn how to use connectors to integrate third-party data into Snowflake.",
+        "Learn the basics of warehouses, tables, and views in Snowflake.",
+        "Snowflake provides several different methods to load data in to Snowflake, such as by using Snowpipe, loading from cloud storage, or uploading files using Snowsight.",
+        "Understanding Data Loading",
+        "Data can be loaded into Snowflake in a number of ways. Learn about data loading concepts, different tasks, tools, and techniques to quickly and easily load data into Snowflake.",
+        "Bulk Data Loading",
+        "Learn to use the COPY command to load data on-demand directly from an AWS S3 bucket, Google Cloud Share, or a Microsoft Azure storage container into Snowflake.",
+        "Snowpipe",
+        "Use Snowflake Snowpipe to load data automatically as it arrives.",
+        "Queries and other standard database features are just the beginning when you work with your data in Snowflake. You also use machine learning functions to analyze data in Snowflake.",
+        "Share data and applications with other Snowflake users. Discover and publish listings of data products on the Snowflake Marketplace, share data products privately, or use a direct share to quickly share data with someone in the same region.",
+        "What are listings?",
+        "With listings, you can provide data and other information to other Snowflake users, and you can access data and other information shared by Snowflake providers.",
+        "Becoming a listing provider",
+        "Becoming a provider of listings in Snowflake makes it easier to manage sharing from your account to other Snowflake accounts.",
+        "Becoming a listing consumer",
+        "Get access to data products shared privately or on the Snowflake Marketplace by becoming a consumer of listings.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/time_from_parts",
+    "title": "TIME_FROM_PARTS | Snowflake Documentation",
+    "paragraphs": [
+        "Date & time functions",
+        "Creates a time from individual numeric components.",
+        "TIMEFROMPARTS",
+        "Required:",
+        "An integer expression to use as an hour for building a time,\nusually in the 0-23 range.",
+        "An integer expression to use as a minute for building a time,\nusually in the 0-59 range.",
+        "An integer expression to use as a second for building a time,\nusually in the 0-59 range.",
+        "Optional:",
+        "A 9-digit integer expression to use as a nanosecond for building\na time.",
+        "TIME_FROM_PARTS is typically used to handle values in \u201cnormal\u201d ranges\n(e.g. hours 0-23, minutes 0-59), but it also handles values from outside\nthese ranges. This allows, for example, choosing the N-th minute in a day,\nwhich can be used to simplify some computations.",
+        "Components in normal ranges:",
+        "Components outside normal ranges:",
+        "100th minute (from midnight)",
+        "12345 seconds (from noon)",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

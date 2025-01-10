@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/object_pick",
+    "title": "OBJECT_PICK | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Array/Object)",
+        "Returns a new OBJECT containing some of the key-value pairs from an existing\nobject.",
+        "To identify the key-value pairs to include in the new object, pass in the keys as arguments, or pass in an array containing\nthe keys.",
+        "If a specified key is not present in the input object, the key is ignored.",
+        "The input object.",
+        "One or more keys identifying the key-value pairs that should be included in the returned object.",
+        "Array of keys identifying the key-value pairs that should be included in the returned object.",
+        "Returns a new OBJECT containing the specified key-value pairs.",
+        "For structured OBJECTs:",
+        "For the arguments that are keys, you must specify constants.",
+        "You can\u2019t pass in an ARRAY of keys as the second argument. You must specify each key as a separate argument.",
+        "The function returns a structured OBJECT value. The type of the OBJECT value includes the keys in the order in which they are specified.",
+        "For example, suppose that you select the state and city keys in that order:",
+        "The function returns an OBJECT value of the type OBJECT(state VARCHAR, city VARCHAR).",
+        "The following example calls OBJECT_PICK to create a new object that contains two of the three key-value pairs from an existing\nobject:",
+        "In the example above, the keys are passed as arguments to OBJECT_PICK. You can also use an array to specify the keys,\nas shown below:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

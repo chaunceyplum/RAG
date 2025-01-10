@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-1023",
+    "title": "Alerts: Support for Account and Database Replication | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Alert objects are replicated when you replicate the objects in an account or database:",
+        "When you replicate objects in your account or database, alert objects are not replicated.",
+        "Alert objects will be replicated. This includes alerts that were created before this behavior change takes effect.",
+        "Note",
+        "This behavior change is enabled by default for the 2023_05 bundle, the replication behavior changes may take\neffect up to 1 business day in advance, due to a known limitation.",
+        "Ref: 1023",
+        "Was this page helpful?"
+    ]
+}

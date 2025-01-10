@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-03-12-snowflake-cortex-classification",
+    "title": "March 12, 2024 \u2014 Snowflake Cortex Classification Release Notes \u2013\u2014 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the preview of Snowflake Cortex Classification, an ML function that\nsorts data into different classes using patterns detected in training data. Binary classification (two classes) and\nmulti-class classification (more than two classes) are supported. Common use cases of classification include customer\nchurn prediction, credit card fraud detection, and spam detection.",
+        "For more information, see\nClassification.",
+        "Was this page helpful?"
+    ]
+}

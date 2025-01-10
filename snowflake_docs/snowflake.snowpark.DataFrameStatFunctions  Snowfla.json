@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrameStatFunctions",
+    "title": "snowflake.snowpark.DataFrameStatFunctions | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: object",
+        "Provides computed statistical functions for DataFrames.\nTo access an object of this class, use DataFrame.stat.",
+        "Methods",
+        "approxQuantile(col,\u00a0percentile,\u00a0*[,\u00a0...])",
+        "For a specified numeric column and a list of desired quantiles, returns an approximate value for the column at each of the desired quantiles.",
+        "approx_quantile(col,\u00a0percentile,\u00a0*[,\u00a0...])",
+        "For a specified numeric column and a list of desired quantiles, returns an approximate value for the column at each of the desired quantiles.",
+        "corr(col1,\u00a0col2,\u00a0*[,\u00a0statement_params])",
+        "Calculates the correlation coefficient for non-null pairs in two numeric columns.",
+        "cov(col1,\u00a0col2,\u00a0*[,\u00a0statement_params])",
+        "Calculates the sample covariance for non-null pairs in two numeric columns.",
+        "crosstab(col1,\u00a0col2,\u00a0*[,\u00a0statement_params])",
+        "Computes a pair-wise frequency table (a contingency table) for the specified columns.",
+        "sampleBy(col,\u00a0fractions)",
+        "Returns a DataFrame containing a stratified sample without replacement, based on a dict that specifies the fraction for each stratum.",
+        "sample_by(col,\u00a0fractions)",
+        "Returns a DataFrame containing a stratified sample without replacement, based on a dict that specifies the fraction for each stratum.",
+        "Was this page helpful?"
+    ]
+}

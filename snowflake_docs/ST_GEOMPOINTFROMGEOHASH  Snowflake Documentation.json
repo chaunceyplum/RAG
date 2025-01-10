@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_geompointfromgeohash",
+    "title": "ST_GEOMPOINTFROMGEOHASH | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns a GEOMETRY object for the point that represents center of a\ngeohash.",
+        "ST_GEOHASH, ST_GEOMFROMGEOHASH",
+        "The argument must be a geohash.",
+        "Returns a value of type GEOMETRY that represents the point that is the\ncenter of the geohash.",
+        "The following example returns the GEOMETRY object for the point at the center of a geohash:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

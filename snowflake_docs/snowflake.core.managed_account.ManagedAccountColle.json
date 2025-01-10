@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.managed_account.ManagedAccountCollection",
+    "title": "snowflake.core.managed_account.ManagedAccountCollection | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: AccountObjectCollectionParent[ManagedAccountResource]",
+        "Represents the collection operations of the Snowflake ManagedAccount resource.",
+        "With this collection, you can create, iterate through, and search for managed accounts that you have access to\nin the current context.",
+        "Examples",
+        "Creating a managed account instance:",
+        "Attributes",
+        "Methods",
+        "Create a managed account in Snowflake.",
+        "managed_account (ManagedAccount)",
+        "Examples",
+        "Creating a managed account instance and getting reference to it:",
+        "Iterate through ManagedAccount objects in Snowflake, filtering on any optional like pattern.",
+        "like (str, optional) \u2013 A case-insensitive string functioning as a filter, with support for SQL\nwildcard characters (% and _).",
+        "Examples",
+        "Showing all managed accounts that you have access to see:",
+        "Showing information of the exact managed account you want to see:",
+        "Showing managed accounts starting with \u2018your-managed-account-name-\u2018:",
+        "Using a for loop to retrieve information from iterator:",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/override_share_restrictions",
+    "title": "Enable sharing from a Business critical account to a non-business critical account | Snowflake Documentation",
+    "paragraphs": [
+        "Provider sharing not enabled for all accounts",
+        "Provider sharing is enabled by default for most, but not all accounts.",
+        "If you encounter errors when attempting to share data with consumers, the feature may not be enabled for your account. To inquire about\nenabling it, please contact Snowflake Support.",
+        "To allow sharing data from a Business Critical to a non-Business Critical account, a user with a role granted the OVERRIDE SHARE RESTRICTIONS\nglobal privilege can specify the SHARE_RESTRICTIONS parameter for a specific share offered by their provider account.",
+        "The OVERRIDE SHARE RESTRICTIONS global privilege is granted to the ACCOUNTADMIN role by default, but it can be granted to other roles.\nTo grant OVERRIDE SHARE RESTRICTIONS to a role, use the ACCOUNTADMIN role and the GRANT <privileges> command.",
+        "Syntax:",
+        "GRANT OVERRIDE SHARE RESTRICTIONS ON ACCOUNT TO ROLE <role_name>",
+        "Where:",
+        "<role_name> is the role to which the privilege is granted.",
+        "For example, to grant the privilege to the SYSADMIN role:",
+        "As a provider in a Business Critical account, you can share data with a consumer in a non-Business Critical edition account using a direct\nshare.",
+        "You must use the ACCOUNTADMIN role, or use a custom role granted the following privileges:",
+        "The OVERRIDE SHARE RESTRICTIONS global privilege.",
+        "OWNERSHIP on the share or the CREATE SHARE global privilege.",
+        "Use the ALTER SHARE command to set the SHARE_RESTRICTIONS parameter on a share:",
+        "For example, to update the share my_share to add a non-Business Critical consumer account consumerorg.consumeraccount, run the\nfollowing:",
+        "See ALTER SHARE for more details.",
+        "Attention",
+        "Snowflake is not responsible for ensuring that HIPAA (and HITRUST) accounts who engage in data sharing have a signed BAA with each other;\nthis is at the discretion of the accounts that are sharing data. Note that failure to have a signed BAA may impact the HIPAA (and HITRUST)\ncompliance of both accounts, particularly the provider account.",
+        "Also, if you have Business Critical account, to maintain the expected level of data protection provided by Business Critical, we\nstrongly recommend considering the following before requesting Snowflake to enable Secure Data Sharing with non-Business Critical\naccounts:",
+        "Do not share sensitive data with non-Business Critical accounts.",
+        "Consider creating a second, non-Business Critical account where you store less sensitive data and share this data with non-Business\nCritical accounts.",
+        "If you are using Tri-Secret Secure with your Business Critical account and you share data with other accounts, Snowflake\ntreats the data access from these accounts as if the access occurred from within your own account. Specifically, granting access to\nthe consumer account might require Snowflake to access the key management service on the cloud platform that hosts your Snowflake\naccount.",
+        "These are only recommendations and are not enforced by Snowflake. The decision to share data is always at the discretion of the data\nprovider and Snowflake does not assume any responsibility for data that is improperly shared.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

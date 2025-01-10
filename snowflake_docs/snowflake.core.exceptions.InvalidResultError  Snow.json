@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.exceptions.InvalidResultError",
+    "title": "snowflake.core.exceptions.InvalidResultError | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: InvalidActionError",
+        "Raised when function result is invalid.",
+        "Was this page helpful?"
+    ]
+}

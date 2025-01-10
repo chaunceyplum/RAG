@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.AsyncJob.query_id",
+    "title": "snowflake.snowpark.AsyncJob.query_id | Snowflake Documentation",
+    "paragraphs": [
+        "The query ID of the executed query",
+        "Was this page helpful?"
+    ]
+}

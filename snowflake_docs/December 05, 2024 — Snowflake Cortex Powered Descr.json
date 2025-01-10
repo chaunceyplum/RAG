@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-12-05-cortex-descriptions",
+    "title": "December 05, 2024 \u2014 Snowflake Cortex Powered Descriptions \u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "We are pleased to announce the general availability of being able to sign in to Snowsight and use Snowflake Cortex to generate\ndescriptions for tables, views, and columns. Snowflake Cortex leverages large language models to generate the descriptions based on object\nmetadata and, optionally, sample data.",
+        "For more information, see Generate descriptions with Snowflake Cortex.",
+        "Was this page helpful?"
+    ]
+}

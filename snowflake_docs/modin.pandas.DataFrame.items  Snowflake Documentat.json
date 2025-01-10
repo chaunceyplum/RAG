@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.items",
+    "title": "modin.pandas.DataFrame.items | Snowflake Documentation",
+    "paragraphs": [
+        "Iterate over (column name, Series) pairs.",
+        "Iterates over the DataFrame columns, returning a tuple with\nthe column name and the content as a Series.",
+        "label (object) \u2013 The column names for the DataFrame being iterated over.",
+        "content (Series) \u2013 The column entries belonging to each label, as a Series.",
+        "See also",
+        "Iterate over DataFrame rows as (index, Series) pairs.",
+        "Iterate over DataFrame rows as namedtuples of the values.",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

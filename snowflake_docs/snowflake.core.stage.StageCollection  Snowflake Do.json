@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.stage.StageCollection",
+    "title": "snowflake.core.stage.StageCollection | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SchemaObjectCollectionParent[StageResource]",
+        "Represents the collection operations on the Snowflake Stage resource.",
+        "With this collection, you can create, iterate through, and fetch stages\nthat you have access to in the current context.",
+        "Examples",
+        "Creating a stage instance:",
+        "Attributes",
+        "Methods",
+        "Create a stage in Snowflake.",
+        "stage (Stage) \u2013 The Stage object, together with the Stage\u2019s properties:\nname; kind, url, endpoint, storage_integration, comment, crendentials, encryption,\ndirectory_table are optional.",
+        "mode (CreateMode, optional) \u2013",
+        "One of the following enum values.",
+        "CreateMode.error_if_exists: Throw an snowflake.core.exceptions.ConflictError\nif the stage already exists in Snowflake.  Equivalent to SQL create stage <name> ....",
+        "CreateMode.or_replace: Replace if the stage already exists in Snowflake. Equivalent to SQL\ncreate or replace stage <name> ....",
+        "CreateMode.if_not_exists: Do nothing if the stage already exists in Snowflake.\nEquivalent to SQL create stage <name> if not exists...",
+        "Default is CreateMode.error_if_exists.",
+        "",
+        "Examples",
+        "Creating a stage, replacing any existing stage with the same name:",
+        "Iterate through Stage objects from Snowflake, filtering on any optional \u2018like\u2019 pattern.",
+        "like (str, optional) \u2013 A case-insensitive string functioning as a filter, with support for SQL\nwildcard characters (% and _).",
+        "Examples",
+        "Showing all stages that you have access to see:",
+        "Showing information of the exact stage you want to see:",
+        "Showing stages starting with \u2018your-stage-name-\u2018:",
+        "Using a for loop to retrieve information from iterator:",
+        "Was this page helpful?"
+    ]
+}

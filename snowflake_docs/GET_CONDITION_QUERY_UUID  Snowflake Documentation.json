@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/get_condition_query_uuid",
+    "title": "GET_CONDITION_QUERY_UUID | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (Alerts)",
+        "Returns the query ID for the SQL statement executed for the condition of an alert. In the action for\nan alert, you can call this function to\ncheck the results of the statement for the condition.",
+        "None.",
+        "The query ID for the SQL statement for the condition of the alert.",
+        "This function is defined in the ALERT schema of the SNOWFLAKE database.",
+        "To call this function, you must use a role that is granted the\nSNOWFLAKE database role ALERT_VIEWER. For example, to call the function as a user\nwith the role alert_role, execute:",
+        "This function can only be called from within an alert.",
+        "Refer to Checking the results of the SQL statement for the condition in the alert action.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

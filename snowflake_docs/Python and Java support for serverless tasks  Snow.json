@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/tasks-python-jvm",
+    "title": "Python and Java support for serverless tasks | Snowflake Documentation",
+    "paragraphs": [
+        "Serverless tasks can invoke the following object types and functions: user-defined functions (UDFs) and stored procedures written in Python, Java, and Scala.",
+        "You can use Python or Java in your tasks in a few different ways. To understand the difference between these options, see\nChoosing whether to write a stored procedure or a user-defined function.",
+        "You can create UDFs to call in your task\u2019s AS clause. You can use UDFs to perform operations not available in SQL. For more information\nabout UDFs, see User-defined functions overview.",
+        "The following examples in Python and Java create a function that adds one to the input value.",
+        "The following examples create my_task2 that adds one to the return value of my_task1.",
+        "You can create stored procedures to call in your task\u2019s AS clause. Stored procedures generally perform administrative operations by\nexecuting SQL statements. For more information about stored procedures, see\nStored procedures overview.",
+        "The following examples in Python and Java accept a table name and role name to return a filtered table with rows that match the specified\nrole.",
+        "The following examples create task2 that calls the stored procedure with the table returned from task1 and the role of dev.",
+        "You can also define Python or Java code directly in the AS clause of your task definition.",
+        "The following example uses Python to set the return value of task2 to a string.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

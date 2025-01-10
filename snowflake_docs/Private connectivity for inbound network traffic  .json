@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/private-connectivity-inbound",
+    "title": "Private connectivity for inbound network traffic | Snowflake Documentation",
+    "paragraphs": [
+        "Business Critical Feature",
+        "This feature requires Business Critical (or higher).",
+        "To inquire about upgrading, please contact Snowflake Support.",
+        "Your connection to Snowflake can be routed over the public Internet or through a private IP address associated with the cloud platform that\nhosts your Snowflake account. By using your cloud platform\u2019s private connectivity solution to create private endpoints, you can harden your\nsecurity posture so that inbound network traffic uses private connectivity when accessing the following features:",
+        "To the Snowflake Service",
+        "To Snowsight",
+        "To Streamlit in Snowflake",
+        "To internal stages",
+        "To Snowpark Container Services",
+        "When the routing is through a private IP address from your VPC or VNET to the Snowflake VPC or VNet, that is private\nconnectivity to the Snowflake Service. These connections use AWS PrivateLink,\nAzure Private Link, or\nGoogle Cloud Private Service Connect. The service depends on the cloud platform that\nhosts your Snowflake account.",
+        "To use private connectivity to access Snowsight, see Configuring private connectivity for Snowsight.",
+        "After private connectivity is configured, users can sign in using private connectivity.",
+        "To access Streamlit in Snowflake with either AWS PrivateLink or Azure Private Link, see Private connectivity for Streamlit in Snowflake.",
+        "You can use private connectivity to connect to Snowflake internal stages for accounts on AWS and Azure. For information, see the following:",
+        "AWS VPC interface endpoints for internal stages",
+        "Azure private endpoints for internal stages",
+        "You can use private connectivity to connect to Snowpark Container Services. For information, see Inbound connectivity.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

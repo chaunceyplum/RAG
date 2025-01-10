@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_abort_transaction",
+    "title": "SYSTEM$ABORT_TRANSACTION | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Aborts the specified transaction, if it is running. If the transaction has already been committed or rolled back, then the state of the\ntransaction is not altered.",
+        "For more information, see Transactions.",
+        "Identifier for the transaction to abort. To obtain transaction IDs,\nyou can use the SHOW TRANSACTIONS or\nSHOW LOCKS commands.",
+        "This function is supported for explicit/multi-statement transactions only. Autocommit transactions can be aborted by aborting the associated job.",
+        "Note that DDL statements, including \u201cCREATE TABLE AS SELECT \u2026\u201d will implicitly commit an open transaction. After the implicit commit finishes, the previously open transaction cannot be aborted.",
+        "Transactions can be aborted only by the user who started the transaction or an account administrator.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

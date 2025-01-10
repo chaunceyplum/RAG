@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/show-delegated-authorizations",
+    "title": "SHOW DELEGATED AUTHORIZATIONS | Snowflake Documentation",
+    "paragraphs": [
+        "Lists the active delegated authorizations for which you have access privileges. This command can be used to list the\nDELEGATED AUTHORIZATIONS for a specified user or integration (or the current user), or your entire account.",
+        "Lists all the active delegated authorizations that have been approved by a user. This variant requires the MODIFY privilege\non the user.",
+        "Lists all the active delegated authorizations that have been approved for an integration. This variant requires the\nACCOUNTADMIN role.",
+        "For more details on each of these variants, see:",
+        "Viewing Delegated Authorizations for OAuth User Consent",
+        "Display OAuth Consents in OAuth Partner Applications",
+        "Columns that start with the prefix is_ return either Y (yes) or N (no).",
+        "The command does not require a running warehouse to execute.",
+        "The command returns a maximum of 10K records for the specified object type, as dictated by the access privileges for the role used to execute the command; any records above the 10K limit\nare not returned, even with a filter applied.",
+        "To view results for which more than 10K records exist, query the corresponding view (if one exists) in the Snowflake Information Schema.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "List all delegated authorizations for your account:",
+        "List all delegated authorizations for a specified user:",
+        "List all delegated authorizations for a specified integration:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

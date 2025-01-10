@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_02/bcr-1553",
+    "title": "GET_DDL function: Return source Apache Iceberg\u2122 data types | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_02 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The GET_DDL function behaves as follows:",
+        "When you execute the function for an Iceberg table, the return value displays the Snowflake data type\nthat is used to process and return table data.",
+        "When you execute the function for an Iceberg table, the return value displays the source Iceberg data type\nthat is associated with the column.",
+        "Ref: 1553",
+        "Was this page helpful?"
+    ]
+}

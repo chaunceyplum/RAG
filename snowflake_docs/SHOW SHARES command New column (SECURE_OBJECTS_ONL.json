@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_04/bcr-1600",
+    "title": "SHOW SHARES command: New column (SECURE_OBJECTS_ONLY) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, the output of the SHOW SHARES command includes the following new column(s):",
+        "Column name",
+        "Data type",
+        "Description",
+        "SECURE_OBJECTS_ONLY",
+        "BOOLEAN",
+        "Indicates if non-secure objects are enabled:",
+        "If TRUE, the share allows secure views only.",
+        "If FALSE, the share also allows non-secure views.",
+        "Ref: 1600",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_get_privatelink_authorized_endpoints",
+    "title": "SYSTEM$GET_PRIVATELINK_AUTHORIZED_ENDPOINTS | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Business Critical Feature",
+        "This function requires Business Critical (or higher). To inquire about upgrading, please contact Snowflake Support.",
+        "Returns a list of the authorized endpoints for your current account to use with private connectivity to the Snowflake service.",
+        "The endpoint value in the command output can be used as the value for the aws_id or the\nprivate-endpoint-resource-id when using these functions:",
+        "SYSTEM$GET_PRIVATELINK",
+        "SYSTEM$AUTHORIZE_PRIVATELINK",
+        "SYSTEM$REVOKE_PRIVATELINK",
+        "None",
+        "Only account administrators (i.e. users with the ACCOUNTADMIN role) can execute this function.",
+        "This function can be used with Snowflake accounts on Amazon Web Services (AWS) or Microsoft Azure (Azure); Google Cloud Platform (GCP) is\nnot currently supported.",
+        "Return the authorized endpoints for your Snowflake account to use with AWS PrivateLink for your Snowflake account on AWS:",
+        "You can optionally use the following command to flatten the query result. For example:",
+        "Returns (endpoints for a Snowflake account on AWS):",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

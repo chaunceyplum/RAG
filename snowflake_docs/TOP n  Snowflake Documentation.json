@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/constructs/top_n",
+    "title": "TOP <n> | Snowflake Documentation",
+    "paragraphs": [
+        "Query syntax",
+        "Constrains the maximum number of rows returned by a statement or subquery.",
+        "LIMIT / FETCH",
+        "The maximum number of rows to return in the result set.",
+        "An ORDER BY clause is not required; however, without an ORDER BY clause, the results are non-deterministic because results within a result set are not necessarily in any particular order. To control the results returned, use an ORDER BY clause.",
+        "n must be a non-negative integer constant.",
+        "TOP n and LIMIT count are equivalent.",
+        "The following example shows the effect of TOP N. For simplicity, these\nqueries omit the ORDER BY clause and assume that the output order is\nalways the same as shown by the first query. Real-world queries should\ninclude ORDER BY.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.exceptions.SnowparkSQLUnexpectedAliasException",
+    "title": "snowflake.snowpark.exceptions.SnowparkSQLUnexpectedAliasException | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SnowparkSQLException",
+        "Exception for having an unexpected alias that are created\nfrom the translated SQL statement.",
+        "Includes error codes: 1301.",
+        "Was this page helpful?"
+    ]
+}

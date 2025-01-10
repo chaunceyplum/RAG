@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1358",
+    "title": "SHOW ORGANIZATION ACCOUNTS command / ACCOUNTS view (Organization Usage): New Column | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of the SHOW ORGANIZATION ACCOUNTS command and the ACCOUNTS view in the Organization Usage schema is as follows:",
+        "The command output and view do not contain the IS_EVENTS_ACCOUNT column.",
+        "The command output and view contain the IS_EVENTS_ACCOUNT column.",
+        "Which is defined as follows:",
+        "Column Name",
+        "Data Type",
+        "Description",
+        "IS_EVENTS_ACCOUNT",
+        "BOOLEAN",
+        "Indicates whether an account is an events account.",
+        "The Snowflake Native Apps Framework uses an events account to set up logging\nand event sharing to help troubleshoot installed applications.",
+        "Ref: 1358",
+        "Was this page helpful?"
+    ]
+}

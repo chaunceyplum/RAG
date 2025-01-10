@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.time_from_parts",
+    "title": "snowflake.snowpark.functions.time_from_parts | Snowflake Documentation",
+    "paragraphs": [
+        "Creates a time from individual numeric components.",
+        "TIME_FROM_PARTS is typically used to handle values in \u201cnormal\u201d ranges (e.g. hours 0-23, minutes 0-59),\nbut it also handles values from outside these ranges. This allows, for example, choosing the N-th minute\nin a day, which can be used to simplify some computations.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

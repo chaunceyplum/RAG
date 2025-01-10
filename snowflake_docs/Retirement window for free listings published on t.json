@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_03/bcr-1574",
+    "title": "Retirement window for free listings published on the Snowflake Marketplace | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When a listing is removed from the Snowflake Marketplace, and the provider of the listing is eligible to offer paid listings,\nthe listing goes through a retirement process before consumers lose access to the data product. The retirement process for free listings\noffered by these providers on the Snowflake Marketplace behaves as follows:",
+        "Consumers retain access to the data product for one full calendar month after they retire the listing, in addition to partial months, and\nlose access on the first calendar day of the next month.",
+        "For free listings published on the Snowflake Marketplace that are retired after May 1, 2024 and offered by providers that are eligible to\noffer paid listings, consumers retain access to the data product for 30 days after they retire the listing.\nPaid listings are unaffected by this change and continue to follow the retirement process from before the change.",
+        "Ref: 1574",
+        "Was this page helpful?"
+    ]
+}

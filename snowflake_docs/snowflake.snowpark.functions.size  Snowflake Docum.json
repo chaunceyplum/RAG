@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.size",
+    "title": "snowflake.snowpark.functions.size | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the size of the input ARRAY, OBJECT or MAP. Returns NULL if the\ninput column does not match any of these types.",
+        "col \u2013 A Column object or column name that determines the values.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/ui/2024-08-05",
+    "title": "August 05, 2024 \u2014 Data Dictionary Data Preview \u2014 Generally available | Snowflake Documentation",
+    "paragraphs": [
+        "We are pleased to announce the general availability of Data Preview in Data Dictionary.",
+        "With this release, Snowflake periodically runs data classification on data previews to identify and\nmask any column with a high likelihood of containing PII and other sensitive data. Once Snowflake identifies and masks a PII column, an\nemail is sent to the technical contact listed in the provider profile to review the details.",
+        "For more information, see Mask PII and other data in data previews.",
+        "If you have additional questions, contact Snowflake Support.",
+        "Was this page helpful?"
+    ]
+}

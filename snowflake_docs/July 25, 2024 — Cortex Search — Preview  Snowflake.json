@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-07-25-cortex-search-preview",
+    "title": "July 25, 2024 \u2014 Cortex Search \u2014 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "We are pleased to announce the preview of Cortex Search.",
+        "Cortex Search is an LLM-powered assistant that simplifies data analysis while maintaining robust data governance and seamlessly\nintegrating into your existing Snowflake workflow.  You can ask open-ended questions about your data structure, send follow-up\ninquiries, or even use it to refine and improve your own SQL queries.",
+        "Note",
+        "With this preview release, Cortex Search will be made available to accounts in the following regions:",
+        "AWS us-east-1",
+        "AWS us-west-2",
+        "For more details, see Cortex Search.",
+        "Was this page helpful?"
+    ]
+}

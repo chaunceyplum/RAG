@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/boolxor_agg",
+    "title": "BOOLXOR_AGG | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (Boolean) , Window functions , Conditional expression functions",
+        "Returns TRUE if exactly one Boolean record in the group evaluates to TRUE.",
+        "If all records in the group are NULL, or if the group is empty, the function returns NULL.",
+        "BOOLXOR , BOOLAND_AGG , BOOLOR_AGG",
+        "Aggregate function",
+        "Window function",
+        "The input expression must be an expression that can be evaluated to a boolean or converted to a boolean.",
+        "This column or expression specifies how to separate the input into partitions (sub-windows).",
+        "The data type of the returned value is BOOLEAN.",
+        "Numeric values are converted to TRUE if they are non-zero.",
+        "Character/text types are not supported as they cannot be converted to Boolean.",
+        "When this function is called as a window function, it does not support:",
+        "An ORDER BY clause within the OVER clause.",
+        "Explicit window frames.",
+        "The following example shows that boolxor_agg returns true when exactly one of the input values is true.",
+        "Create and load the table:",
+        "Display the data:",
+        "Query the data:",
+        "Window function",
+        "This example is similar to the previous example, but it shows usage as a window function, with the input rows\nsplit into two partitions (one for IDs greater than 0 and one for IDs less than or equal to 0). Additional data was\nadded to the table.",
+        "Add rows to the table:",
+        "Display the data:",
+        "Query the data:",
+        "Error example",
+        "If this function is passed strings that cannot be converted to Boolean, the function will give an error:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

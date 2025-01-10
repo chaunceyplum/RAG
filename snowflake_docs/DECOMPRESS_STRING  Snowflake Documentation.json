@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/decompress_string",
+    "title": "DECOMPRESS_STRING | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (Compression/Decompression)",
+        "Decompresses the compressed BINARY input parameter to a string.",
+        "COMPRESS , DECOMPRESS_BINARY",
+        "Required:",
+        "A BINARY value (or expression) with data that was compressed using one\nof the compression methods specified in COMPRESS.",
+        "The compression method originally used to compress the input.\nSee COMPRESS for a list of compression\nmethods.",
+        "The DECOMPRESS_STRING method, unlike the COMPRESS method, does\nnot require you to specify the compression level. If you do specify\nthe compression level, DECOMPRESS_STRING ignores it and uses the\nactual compression level.",
+        "A string with decompressed data.",
+        "If the compression method is unknown or invalid, the query fails.",
+        "The compression method name (e.g. ZLIB) is case insensitive.",
+        "If you use DECOMPRESS_STRING to decompress a compressed BINARY\nvalue, rather than a compressed string value, you do\nnot necessarily get an error; instead, the function attempts to treat\nthe BINARY value as a sequence of hexadecimal digits and then attempts\nto convert those hexadecimal digits into printable characters. Snowflake\nrecommends that you use the DECOMPRESS_BINARY function to decompress\ncompressed data if the original data was BINARY.",
+        "This shows how to compress a string and then decompress back to the original\nvalue.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

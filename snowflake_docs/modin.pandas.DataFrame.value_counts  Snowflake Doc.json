@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.value_counts",
+    "title": "modin.pandas.DataFrame.value_counts | Snowflake Documentation",
+    "paragraphs": [
+        "Return a Series containing the frequency of each distinct row in the Dataframe.",
+        "subset (label or list of labels, optional) \u2013 Columns to use when counting unique combinations.",
+        "normalize (bool, default False) \u2013 Return proportions rather than frequencies. Being different from native pandas,\nSnowpark pandas will return a Series with decimal.Decimal values.",
+        "sort (bool, default True) \u2013 Sort by frequencies when True. Sort by DataFrame column values when False.\nWhen there is a tie between counts, the order is still deterministic, but\nmay be different from the result from native pandas.",
+        "ascending (bool, default False) \u2013 Sort in ascending order.",
+        "dropna (bool, default True) \u2013 Don\u2019t include counts of rows that contain NA values.",
+        "Series",
+        "See also",
+        "Series.value_counts : Equivalent method on Series.",
+        "Notes",
+        "The returned Series will have a MultiIndex with one level per input\ncolumn but an Index (non-multi) for a single label. By default, rows\nthat contain any NA values are omitted from the result. By default,\nthe resulting Series will be in descending order so that the first\nelement is the most frequently-occurring row.",
+        "Examples",
+        "With dropna set to False we can also count rows with NA values.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/search-optimization/conjunctions-disjunctions",
+    "title": "How conjunctions (AND) and disjunctions (OR) work with search optimization | Snowflake Documentation",
+    "paragraphs": [
+        "Enterprise Edition Feature",
+        "This feature requires Enterprise Edition (or higher). To inquire about upgrading, please contact Snowflake Support.",
+        "Search optimization can accelerate queries using conjunctions (AND operator)\nand disjunctions (OR operator) of supported predicates.",
+        "For queries that use conjunctions of predicates (i.e., AND), query performance can be improved by search optimization if\nany of the predicates would benefit.",
+        "For example, suppose that a query has:",
+        "where condition_x and condition_y",
+        "Search optimization can improve performance if either condition separately returns a few rows (i.e., condition_x\nreturns a few rows or condition_y returns a few rows).",
+        "If condition_x returns a few rows but condition_y returns many rows, the query performance can still\nbenefit from search optimization.",
+        "If predicates are individually supported by the search optimization service, then they can be joined by the conjunction\nAND and still be supported by the search optimization service:",
+        "DELETE and UPDATE (and MERGE) can also use the search optimization service:",
+        "For queries that use disjunctions of predicates (i.e., OR), query performance can be improved by search optimization if\nall predicates would benefit.",
+        "For example, suppose that a query has:",
+        "where condition_x or condition_y",
+        "Search optimization can improve performance if each condition separately returns a few rows (i.e., condition_x returns\na few rows and condition_y returns a few rows).",
+        "If condition_x returns a few rows but condition_y returns many rows, the query performance does not\nbenefit from search optimization.",
+        "In the case of disjunctions, each predicate in isolation is not decisive in the query. All predicates must be evaluated\nto determine whether search optimization can improve performance.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

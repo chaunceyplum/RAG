@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/h3_cell_to_children",
+    "title": "H3_CELL_TO_CHILDREN | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns an array of the INTEGER IDs of the children of an\nH3 cell for a given resolution.",
+        "H3_CELL_TO_CHILDREN_STRING , H3_CELL_TO_PARENT",
+        "An INTEGER that represents the H3 cell ID (index).",
+        "An INTEGER between 0 and 15 (inclusive) specifying the H3 resolution that you want to use for the returned H3 cells.",
+        "Specifying any other INTEGER value results in an error.",
+        "Returns an array of the INTEGER values of the IDs of the children of an H3 cell at the specified target resolution.",
+        "The following example returns an array of the IDs of the children of the H3 cell with the ID 613036919424548863:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

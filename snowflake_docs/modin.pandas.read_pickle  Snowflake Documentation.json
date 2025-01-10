@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.read_pickle",
+    "title": "modin.pandas.read_pickle | Snowflake Documentation",
+    "paragraphs": [
+        "Load pickled pandas object (or any object) from file and return unpickled object.",
+        "Warning",
+        "Loading pickled data received from untrusted sources can be unsafe. See here.",
+        "filepath_or_buffer (str, path object, or file-like object) \u2013 String, path object (implementing os.PathLike[str]), or file-like object implementing a binary readlines() function. Also accepts URL. URL is not limited to S3 and GCS.",
+        "compression (str or dict, default \u2018infer\u2019) \u2013 For on-the-fly decompression of on-disk data. If \u2018infer\u2019 and \u2018filepath_or_buffer\u2019 is path-like, then detect compression from the following extensions: \u2018.gz\u2019, \u2018.bz2\u2019, \u2018.zip\u2019, \u2018.xz\u2019, \u2018.zst\u2019, \u2018.tar\u2019, \u2018.tar.gz\u2019, \u2018.tar.xz\u2019 or \u2018.tar.bz2\u2019 (otherwise no compression). If using \u2018zip\u2019 or \u2018tar\u2019, the ZIP file must contain only one data file to be read in. Set to None for no decompression. Can also be a dict with key \u2018method\u2019 set to one of {\u2018zip\u2019, \u2018gzip\u2019, \u2018bz2\u2019, \u2018zstd\u2019, \u2018xz\u2019, \u2018tar\u2019} and other key-value pairs are forwarded to zipfile.ZipFile, gzip.GzipFile, bz2.BZ2File, zstandard.ZstdDecompressor, lzma.LZMAFile or tarfile.TarFile, respectively. As an example, the following could be passed for Zstandard decompression using a custom compression dictionary: compression={\u2018method\u2019: \u2018zstd\u2019, \u2018dict_data\u2019: my_compression_dict}.",
+        "storage_options (dict, optional) \u2013 Extra options that make sense for a particular storage connection, e.g. host, port, username, password, etc. For HTTP(S) URLs the key-value pairs are forwarded to urllib.request.Request as header options. For other URLs (e.g. starting with \u201cs3://\u201d, and \u201cgcs://\u201d) the key-value pairs are forwarded to fsspec.open. Please see fsspec and urllib for more details, and for more examples on storage options refer here.",
+        "The unpickled pandas object (or any object) that was stored in file.",
+        "object",
+        "See also",
+        "Pickle (serialize) DataFrame object to file.",
+        "Pickle (serialize) Series object to file.",
+        "Read HDF5 file into a DataFrame.",
+        "Read SQL query or database table into a DataFrame.",
+        "Load a parquet object, returning a DataFrame.",
+        "Notes",
+        "read_pickle is only guaranteed to be backwards compatible to pandas 1.0 provided the object was serialized with to_pickle.",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

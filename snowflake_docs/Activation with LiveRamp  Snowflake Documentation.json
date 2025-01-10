@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cleanrooms/activation-liveramp",
+    "title": "Activation with LiveRamp | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "This topic describes how to activate analysis results with LiveRamp. LiveRamp is a leading connectivity platform leveraged by brands and\ntheir partners to deliver products and experiences.",
+        "Important",
+        "At this time, Snowflake Data Clean Rooms do not support data subject consent management. Please ensure you are complying with applicable\nlaws and regulations when using Snowflake Data Clean Rooms, including in connection with third-party connectors for activation purposes.",
+        "If you are an administrator who needs to configure the LiveRamp connector so clean room users can activate results with it, see\nLiveRamp connector.",
+        "To push the results of an analysis to LiveRamp for activation:",
+        "Run an analysis that returns data that can be activated. For example, analyses using the Audience Overlap & Segmentation template can be\nactivated.",
+        "For more information about running an analysis, see Run an analysis as a provider or Run an analysis as a consumer.",
+        "In the Results section, select Activate.",
+        "In the Activation Hub dialog, select LiveRamp.",
+        "In the Segment Name field, enter a descriptive name for your results. This name must start with a letter, and can contain only\nletters, numbers, and underscores.",
+        "The string _SNOWDCR will be appended to this name.",
+        "In the RampID drop down, select the column from your table that contains your RampID.",
+        "Select Push Data.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

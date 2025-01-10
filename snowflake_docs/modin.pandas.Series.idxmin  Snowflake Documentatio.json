@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.idxmin",
+    "title": "modin.pandas.Series.idxmin | Snowflake Documentation",
+    "paragraphs": [
+        "Return the row label of the minimum value.",
+        "axis ({0 or 'index'}) \u2013 Unused. Parameter needed for compatibility with DataFrame.",
+        "skipna (bool, default True) \u2013 Exclude NA/null values. If an entire Series is NA, the result will be NA.",
+        "*args \u2013 Additional arguments and keywords have no effect but might be accepted for compatibility with NumPy.",
+        "**kwargs \u2013 Additional arguments and keywords have no effect but might be accepted for compatibility with NumPy.",
+        "Index, the label of the minimum value.",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

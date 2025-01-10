@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/client-connectivity-troubleshooting/snowflake-tools",
+    "title": "Use Snowflake troubleshooting tools | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake provides the following tools to test client connectivity by simplifying tests for a client\u2019s ability to access Snowflake URLs:",
+        "Snowflake Connector for Python diagnostics",
+        "Use the connector\u2019s diagnostic feature for comprehensive testing. For more information and detailed steps,\nsee Running connectivity tests and diagnostics.",
+        "SnowCD",
+        "You can use SnowCD to diagnose connectivity for all Snowflake-related URLs. See the SnowCD User Guide for installation and usage instructions.",
+        "If you cannot use or install these tools in your system, you can follow the alternate steps, based on your platform.",
+        "If you successfully verified connectivity, proceed to follow-up actions.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

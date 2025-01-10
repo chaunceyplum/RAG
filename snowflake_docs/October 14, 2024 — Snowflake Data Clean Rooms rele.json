@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-10-14-snowflake-data-clean-rooms",
+    "title": "October 14, 2024 \u2014 Snowflake Data Clean Rooms release notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the availability of the following new features and enhancements in this update to Snowflake\nData Clean Rooms.",
+        "Clean room statistics now include overlap statistics. These statistics describe how many distinct identifiers within join columns belong to\na certain group based on the attribute columns enabled by the template.",
+        "For more information, see Working with Snowflake Data Clean Rooms in the web app.",
+        "Providers can now activate audiences to third-party activation endpoints (including Google Ads, Meta, Ads, LiveRamp, The Trade Desk, and\nYahoo). Note that consumers still need to enable this option for providers while installing the clean room.",
+        "For more information, see Working with Clean Rooms.",
+        "Providers can view the results of security scans that run automatically to help identify vulnerabilities in custom templates created using\nthe developer APIs. This helps identify parts of the custom template that might be susceptible to SQL injection attacks.",
+        "For more information, see Security scans for custom templates.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

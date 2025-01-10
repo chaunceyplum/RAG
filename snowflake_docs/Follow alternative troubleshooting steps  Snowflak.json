@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/client-connectivity-troubleshooting/alternate-steps",
+    "title": "Follow alternative troubleshooting steps | Snowflake Documentation",
+    "paragraphs": [
+        "Note",
+        "The following steps are not necessary if you can perform tests using Snowflake\u2019s connectivity troubleshooting tools. Follow these steps if using the troubleshooting tools is not an option.",
+        "For platform specific instructions, see:",
+        "MacOS and Linux troubleshooting steps",
+        "Windows troubleshooting steps",
+        "Browser test",
+        "After completing these instructions, proceed to follow-up actions.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

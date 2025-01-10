@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Table.merge",
+    "title": "snowflake.snowpark.Table.merge | Snowflake Documentation",
+    "paragraphs": [
+        "Merges this Table with DataFrame source on the specified\njoin expression and a list of matched or not-matched clauses, and returns\na MergeResult, representing the number of rows inserted,\nupdated and deleted by this merge action.\nSee MERGE\nfor details.",
+        "source \u2013 A DataFrame to join with this Table.\nIt can also be another Table.",
+        "join_expr \u2013 A Column object representing the expression on which\nto join this Table and source.",
+        "clauses \u2013 A list of matched or not-matched clauses specifying the actions\nto perform when the values from this Table and source\nmatch or not match on join_expr. These actions can only be instances\nof WhenMatchedClause and WhenNotMatchedClause, and will\nbe performed sequentially in this list.",
+        "statement_params \u2013 Dictionary of statement level parameters to be set while executing this action.",
+        "block \u2013 A bool value indicating whether this function will wait until the result is available.\nWhen it is False, this function executes the underlying queries of the dataframe\nasynchronously and returns an AsyncJob.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

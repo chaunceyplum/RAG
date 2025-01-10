@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.describe",
+    "title": "snowflake.snowpark.DataFrame.describe | Snowflake Documentation",
+    "paragraphs": [
+        "Computes basic statistics for numeric columns, which includes\ncount, mean, stddev, min, and max. If no columns\nare provided, this function computes statistics for all numerical or\nstring columns. Non-numeric and non-string columns will be ignored\nwhen calling this method.",
+        "cols \u2013 The names of columns whose basic statistics are computed.",
+        "Was this page helpful?"
+    ]
+}

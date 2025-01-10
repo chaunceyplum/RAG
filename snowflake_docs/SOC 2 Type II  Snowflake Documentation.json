@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cert-soc-2",
+    "title": "SOC 2 Type II | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes how Snowflake supports customers with SOC 2 compliance requirements.",
+        "The SOC (System and Organization Controls) 2 Type II report is an independent auditor\u2019s attestation of the design and operating\neffectiveness of the security, availability, and confidentiality controls that Snowflake has had in place during the report\u2019s coverage\nperiod. The framework was created by the American Institute of Certified Public Accountants (AICPA). The control criteria for a SOC 2 Type\nII certification are based on the AICPA Trust Service Principles.",
+        "Tip",
+        "For information about requesting a copy of the report, complete a SOC report request.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

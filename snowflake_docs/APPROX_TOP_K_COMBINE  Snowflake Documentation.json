@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/approx_top_k_combine",
+    "title": "APPROX_TOP_K_COMBINE | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (Frequency Estimation) , Window function syntax and usage",
+        "Combines (merges) input states into a single output state.",
+        "This allows scenarios where APPROX_TOP_K_ACCUMULATE is run over horizontal partitions of the same table, producing an algorithm state for each table partition. These states can later be combined\nusing APPROX_TOP_K_COMBINE, producing the same output state as a single run of APPROX_TOP_K_ACCUMULATE over the entire table.",
+        "APPROX_TOP_K_ACCUMULATE , APPROX_TOP_K_ESTIMATE",
+        "An expression that contains state information generated\nby a call to APPROX_TOP_K_ACCUMULATE.",
+        "This is the maximum number of distinct values that\ncan be tracked at a time during the estimation process. For example, if\ncounters is set to 100000, then the algorithm tracks 100,000\ndistinct values, attempting to keep the 100,000 most frequent values.",
+        "The maximum number of counters is 100000 (100,000).",
+        "This returns information about the \u201cstate\u201d of the top K calculation.",
+        "This state information is not usually useful by itself, but can be passed to\nthe function APPROX_TOP_K_ESTIMATE.",
+        "If counters is defined, the output state uses the specified number of counters.",
+        "If counters is not defined, all input states must have the same number of counters.",
+        "This example shows how to use the three related functions\nAPPROX_TOP_K_ACCUMULATE, APPROX_TOP_K_ESTIMATE, and\nAPPROX_TOP_K_COMBINE.",
+        "Note",
+        "This example uses more counters than distinct data values in order to get\nconsistent results. In real-world applications, the number of distinct values\nis usually larger than the number of counters, so the approximations can vary.",
+        "This example generates one table with 8 rows that have values 1 - 8, and a\nsecond table with 8 rows that have values 5 - 12. Thus the most frequent\nvalues in the union of the two tables are the values 5-8, each of which has a\ncount of 2.",
+        "Create a simple table and data:",
+        "Create a table that contains the \u201cstate\u201d that represents the current\napproximate Top K information for the table named sequence_demo:",
+        "Now create a second table and add data.  (In a more realistic situation,\nthe user could have loaded more data into the first table and divided the\ndata into non-overlapping sets based on the time that the data was loaded.)",
+        "Get the \u201cstate\u201d information for just the new data.",
+        "Combine the \u201cstate\u201d information for the two batches of rows:",
+        "Get the approximate Top K value of the combined set of rows:",
+        "Output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

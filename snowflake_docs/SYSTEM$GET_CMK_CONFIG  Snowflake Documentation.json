@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_get_cmk_config",
+    "title": "SYSTEM$GET_CMK_CONFIG | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Returns configuration information for use with customer-managed keys (CMKs) and Tri-Secret Secure.",
+        "Self-registration overview",
+        "Amazon Web Services and Google Cloud Platform:",
+        "Microsoft Azure:",
+        "Specifies the unique identifier for the Azure Key Vault\ntenant in your Microsoft Azure subscription.",
+        "This value is in the GUID format, such as b3ddabe4-e5ed-4e71-8827-0cefb99af240. You can find this value by logging into the Portal\nand navigating to Key Vault \u00bb Overview. Select the Directory ID value.",
+        "The output depends on the cloud platform that hosts your Snowflake account:",
+        "For Amazon Web Services, a snippet of the statement identifier (Sid) for the CMK policy:",
+        "For Microsoft Azure, a consent URL and the name of the Snowflake service principal:",
+        "For Google Cloud Platform, a gcloud command:",
+        "Only account administrators (users with the ACCOUNTADMIN role) can call this function.",
+        "Obtain the configuration information for the CMK for your Snowflake account on Microsoft Azure:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

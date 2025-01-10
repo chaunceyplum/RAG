@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/h3_cell_to_parent",
+    "title": "H3_CELL_TO_PARENT | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns the ID of the parent of an H3 cell for a given resolution. The ID is returned as\nan INTEGER value (if an INTEGER value was provided as the input ID) or as a VARCHAR containing the hexadecimal ID (if the\nhexadecimal ID was provided as the input ID).",
+        "H3_CELL_TO_CHILDREN , H3_CELL_TO_CHILDREN_STRING",
+        "An INTEGER that represents the H3 cell ID (index), or a VARCHAR that represents the cell ID in hexadecimal format.",
+        "An INTEGER between 0 and 15 (inclusive) specifying the H3 resolution that you want to use for the returned H3 cell.",
+        "Specifying any other INTEGER value results in an error.",
+        "Returns the ID of the H3 parent cell at the specified target resolution. The ID is in one of the following formats:",
+        "If cell_id is an INTEGER value, the function returns the ID as an INTEGER value.",
+        "If cell_id is a VARCHAR value containing the hexadecimal ID, the function returns the hexadecimal ID as a VARCHAR\nvalue.",
+        "The following example returns the H3 cell ID for the parent of the H3 cell with the ID 613036919424548863 (specified as an\nINTEGER value):",
+        "The following example returns the H3 cell ID for the parent of the H3 cell with the ID 881F1D4887FFFFF (specified as a\nVARCHAR value):",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

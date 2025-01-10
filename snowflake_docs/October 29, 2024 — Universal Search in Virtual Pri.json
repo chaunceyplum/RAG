@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-10-29-snowsight-vps",
+    "title": "October 29, 2024 \u2014 Universal Search in Virtual Private Snowflake (VPS) | Snowflake Documentation",
+    "paragraphs": [
+        "We are pleased to announce that Universal Search in Snowsight is now available in VPS. With Universal Search, you can quickly and easily\nfind database objects in your account, data products available to you in the Snowflake Marketplace, relevant Snowflake Documentation\ntopics, and relevant Snowflake Community Knowledge Base articles.",
+        "You can use natural language to search because Universal Search understands your query and information about your database objects and can\nfind objects with names that differ from your search terms.",
+        "For more details, see Search Snowflake objects and resources.",
+        "Was this page helpful?"
+    ]
+}

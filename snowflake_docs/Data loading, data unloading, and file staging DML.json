@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/un-bundled/bcr-209969",
+    "title": "Data loading, data unloading, and file staging DML commands: Single-character pattern matches (Postponed) | Snowflake Documentation",
+    "paragraphs": [
+        "This behavior change was originally planned for February, 2021; however, it has been postponed and a new release date has not been determined.",
+        "For the most up-to-date details about the release date, as well as other release-related details, see the\nBehavior Change Log.",
+        "The PATTERN parameter filters the set of staged files in the output of the following DML commands using a regular expression:",
+        "COPY INTO <location>",
+        "COPY INTO <table>",
+        "GET",
+        "LIST",
+        "REMOVE",
+        "In a future release, the behavior of the PATTERN parameter will change as follows:",
+        "When the regular expression is matched against the file path, an additional internal path is incorrectly prepended to the file\npath. As a result, some regular expressions incorrectly match characters not included in the specified internal path.",
+        "For example, the LIST command could filter filenames against a PATTERN regular expression that matches the letter \u201ct\u201d:",
+        "This LIST statement returns all filenames in the stage, even if the files don\u2019t contain the letter \u2018t\u2019, because the incorrectly\nprepended path contains the letter \u2018t\u2019.",
+        "The source of the issue is an internal/hidden path that the commands apply to all files in a stage. The PATTERN regular\nexpression includes this path when evaluating the filenames in the command output.",
+        "The PATTERN parameter ignores the internal/hidden path when evaluating the filenames in the command output.\nThe regular expression only matches the customer-created paths and filenames in the stage.",
+        "Ref: 209969",
+        "Was this page helpful?"
+    ]
+}

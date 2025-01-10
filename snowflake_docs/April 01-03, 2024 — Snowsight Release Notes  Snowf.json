@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/ui/2024-04-01",
+    "title": "April 01-03, 2024 \u2014 Snowsight Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "This document provides an overview of the new features, enhancements, and other important changes introduced\nin this update to Snowsight.",
+        "If you have additional questions, please feel free to contact Snowflake Support.",
+        "With this release, we are pleased to announce the preview of no limit on rows returned in worksheet results in Snowsight.",
+        "Before this preview, if you ran a query in a worksheet in Snowsight, the results were limited to 10,000 rows of results or 16MB.\nWith this release, there is no longer a limit on the rows displayed in worksheet results.",
+        "For more details, see Exploring the worksheet results.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

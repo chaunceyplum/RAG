@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/boolxor",
+    "title": "BOOLXOR | Snowflake Documentation",
+    "paragraphs": [
+        "Conditional expression functions",
+        "Computes the Boolean XOR of two numeric expressions (i.e. one of the expressions, but not both expressions, is TRUE). In accordance with Boolean semantics:",
+        "Non-zero values (including negative numbers) are regarded as True.",
+        "Zero values are regarded as False.",
+        "As a result, the function returns:",
+        "True if one expression is non-zero and the other expression is zero.",
+        "False if both expressions are non-zero or both expressions are zero.",
+        "NULL if one or both expressions are NULL.",
+        "BOOLAND , BOOLNOT , BOOLOR",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

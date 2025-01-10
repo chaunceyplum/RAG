@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/boolor",
+    "title": "BOOLOR | Snowflake Documentation",
+    "paragraphs": [
+        "Conditional expression functions",
+        "Computes the Boolean OR of two numeric expressions. In accordance with Boolean semantics:",
+        "Non-zero values (including negative numbers) are regarded as True.",
+        "Zero values are regarded as False.",
+        "As a result, the function returns:",
+        "True if both expressions are non-zero or one expression is non-zero and the other expression is zero or NULL.",
+        "False if both expressions are zero.",
+        "NULL if both expressions are NULL or one expression is NULL and the other expression is zero.",
+        "BOOLAND , BOOLNOT , BOOLXOR",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

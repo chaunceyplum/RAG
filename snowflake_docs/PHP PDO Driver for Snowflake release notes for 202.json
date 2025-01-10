@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/clients-drivers/php-pdo-2022",
+    "title": "PHP PDO Driver for Snowflake release notes for 2022 | Snowflake Documentation",
+    "paragraphs": [
+        "This article contains the release notes for the PHP PDO Driver for Snowflake, including the following when applicable:",
+        "Behavior changes",
+        "New features",
+        "Customer-facing bug fixes",
+        "Note",
+        "For release note information for versions released prior to January 2022, see the Client Release History.",
+        "See PHP PDO Driver for Snowflake for documentation.",
+        "Added new proxy and no_proxy connection settings.",
+        "Fixed an issue with key pair authentication.",
+        "Added support for key-pair authentication.",
+        "Fixed an issue that caused autocommit to turn over when creating a connection with options.",
+        "Version 1.2.2 (May 24, 2022)",
+        "Fixed an issue related to loading the PHP driver with php-fpm.",
+        "Upgraded libsnowflakeclient to version 0.6.12.",
+        "Added support for PHP 8.1.",
+        "Updated documentation to update the supported PHP versions.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

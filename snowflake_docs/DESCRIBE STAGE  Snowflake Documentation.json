@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-stage",
+    "title": "DESCRIBE STAGE | Snowflake Documentation",
+    "paragraphs": [
+        "Describes the values specified for the properties in a stage (file format, copy, and location), as well as the default values for\neach property.",
+        "DESCRIBE can be abbreviated to DESC.",
+        "DROP STAGE , ALTER STAGE , CREATE STAGE , SHOW STAGES",
+        "Specifies the identifier for the stage to describe. If the identifier contains spaces or special characters, the entire string must\nbe enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "The command output provides stage properties and metadata in the following columns.",
+        "Column",
+        "Description",
+        "parent_property",
+        "The parent property to which each stage property belongs. Possible values include STAGE_FILE_FORMAT, STAGE_COPY_OPTIONS, STAGE_LOCATION, STAGE_CREDENTIALS, and DIRECTORY.",
+        "property",
+        "The name of the property. For property descriptions, refer to CREATE STAGE.",
+        "property_type",
+        "The property type.",
+        "property_value",
+        "The value assigned to the property.",
+        "property_default",
+        "The default property value.",
+        "Note",
+        "For stages with a directory table, the output includes a property named LAST_REFRESHED_ON of type TIMESTAMP. LAST_REFRESHED_ON indicates when the\nmetadata for the directory table was last synchronized with the associated files on the stage, either manually or automatically.",
+        "Describe an internal stage named my_s3_stage:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

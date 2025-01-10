@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/info-schema/packages",
+    "title": "PACKAGES view | Snowflake Documentation",
+    "paragraphs": [
+        "This Information Schema view displays a row for each Snowpark package version supported for use in the PACKAGES clause in the\nCREATE FUNCTION and CREATE PROCEDURE commands. For Python, this view also displays a\nrow for each version of a third-party package that you can install. For details, see\nUsing third-party packages.",
+        "Column Name",
+        "Data Type",
+        "Description",
+        "PACKAGE_NAME",
+        "TEXT",
+        "The name of the package",
+        "VERSION",
+        "TEXT",
+        "The version number of the package",
+        "LANGUAGE",
+        "TEXT",
+        "The programming language for the package",
+        "Currently, the package versions with the following are supported:",
+        "language = java",
+        "language = python",
+        "language = scala",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

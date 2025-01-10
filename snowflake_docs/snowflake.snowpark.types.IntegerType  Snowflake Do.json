@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.types.IntegerType",
+    "title": "snowflake.snowpark.types.IntegerType | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: _IntegralType",
+        "Integer data type. This maps to the INT data type in Snowflake.",
+        "Methods",
+        "simpleString()",
+        "",
+        "simple_string()",
+        "",
+        "Was this page helpful?"
+    ]
+}

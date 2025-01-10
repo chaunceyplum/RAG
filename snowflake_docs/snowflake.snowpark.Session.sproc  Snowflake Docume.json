@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.sproc",
+    "title": "snowflake.snowpark.Session.sproc | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a stored_procedure.StoredProcedureRegistration object that you can use to register stored procedures.\nSee details of how to use this object in stored_procedure.StoredProcedureRegistration.",
+        "Was this page helpful?"
+    ]
+}

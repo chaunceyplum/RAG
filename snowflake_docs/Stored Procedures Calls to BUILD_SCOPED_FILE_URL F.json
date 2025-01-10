@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_03/bcr-1007",
+    "title": "Stored Procedures: Calls to BUILD_SCOPED_FILE_URL Function Allowed Within Owner\u2019s Rights Procedures | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Calling the BUILD_SCOPED_FILE_URL function in an owner\u2019s right stored procedure behaves as follows",
+        "Attempting to call the BUILD_SCOPED_FILE_URL function in an owner\u2019s rights stored procedure results in an internal error.",
+        "Calling the BUILD_SCOPED_FILE_URL in an owner\u2019s rights stored procedure will succeed.",
+        "Ref: 1007",
+        "Was this page helpful?"
+    ]
+}

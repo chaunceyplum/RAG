@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.create_or_replace_dynamic_table",
+    "title": "snowflake.snowpark.DataFrame.create_or_replace_dynamic_table | Snowflake Documentation",
+    "paragraphs": [
+        "Creates a dynamic table that captures the computation expressed by this DataFrame.",
+        "For name, you can include the database and schema name (i.e. specify a\nfully-qualified name). If no database name or schema name are specified, the\ndynamic table will be created in the current database or schema.",
+        "name must be a valid Snowflake identifier.",
+        "name \u2013 The name of the dynamic table to create or replace. Can be a list of strings\nthat specifies the database name, schema name, and view name.",
+        "warehouse \u2013 The name of the warehouse used to refresh the dynamic table.",
+        "lag \u2013 specifies the target data freshness",
+        "comment \u2013 Adds a comment for the created table. See\nCOMMENT.",
+        "mode \u2013 Specifies the behavior of create dynamic table. Allowed values are:\n- \u201coverwrite\u201d (default): Overwrite the table by dropping the old table.\n- \u201cerrorifexists\u201d: Throw and exception if the table already exists.\n- \u201cignore\u201d: Ignore the operation if table already exists.",
+        "refresh_mode \u2013 Specifies the refresh mode of the dynamic table. The value can be \u201cAUTO\u201d,\n\u201cFULL\u201d, or \u201cINCREMENTAL\u201d.",
+        "initialize \u2013 Specifies the behavior of initial refresh. The value can be \u201cON_CREATE\u201d or\n\u201cON_SCHEDULE\u201d.",
+        "clustering_keys \u2013 Specifies one or more columns or column expressions in the table as the clustering key.\nSee Clustering Keys & Clustered Tables\nfor more details.",
+        "is_transient \u2013 A boolean value that specifies whether the dynamic table is transient.",
+        "data_retention_time \u2013 Specifies the retention period for the dynamic table in days so that\nTime Travel actions can be performed on historical data in the dynamic table.",
+        "max_data_extension_time \u2013 Specifies the maximum number of days for which Snowflake can extend\nthe data retention period of the dynamic table to prevent streams on the dynamic table\nfrom becoming stale.",
+        "statement_params \u2013 Dictionary of statement level parameters to be set while executing this action.",
+        "iceberg_config \u2013",
+        "A dictionary that can contain the following iceberg configuration values:",
+        "external_volume: specifies the identifier for the external volume where\nthe Iceberg table stores its metadata files and data in Parquet format.",
+        "catalog: specifies either Snowflake or a catalog integration to use for this table.",
+        "base_location: the base directory that snowflake can write iceberg metadata and files to.",
+        "catalog_sync: optionally sets the catalog integration configured for Polaris Catalog.",
+        "storage_serialization_policy: specifies the storage serialization policy for the table.",
+        "",
+        "Note",
+        "See understanding dynamic table refresh.\nfor more details on refresh mode.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/external-functions-creating-gcp-planning",
+    "title": "Planning an external function for GCP | Snowflake Documentation",
+    "paragraphs": [
+        "This topic helps you prepare to create an external function for GCP (Google Cloud Platform) using the Google Cloud Console\nuser interface.",
+        "These instructions assume that you are an experienced Google Cloud Console user.",
+        "To create an external function for GCP, you must have the following:",
+        "A Google Cloud project ID.",
+        "The correct services enabled for your Google Cloud Project. For detailed requirements, see the\nQuickstart for Deploying an API/API Gateway using gcloud.",
+        "As you complete the tasks to create an external function in the Google Cloud Console, you are required to enter specific values\n(e.g. Cloud Function Trigger URL) during each step in the process. Often, the values you enter are required in subsequent steps.",
+        "To facilitate recording/tracking this information, we\u2019ve provided a worksheet with fields for each of the required values:",
+        "Step 1: Create the remote service (Google Cloud Function) in the console",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

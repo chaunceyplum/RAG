@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.eq",
+    "title": "modin.pandas.DataFrame.eq | Snowflake Documentation",
+    "paragraphs": [
+        "Perform equality comparison of DataFrame and other (binary operator eq).",
+        "Was this page helpful?"
+    ]
+}

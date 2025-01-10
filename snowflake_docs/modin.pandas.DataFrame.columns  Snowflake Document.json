@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.columns",
+    "title": "modin.pandas.DataFrame.columns | Snowflake Documentation",
+    "paragraphs": [
+        "Get the columns for this Snowpark pandas DataFrame.",
+        "The all columns.",
+        "Index",
+        "Was this page helpful?"
+    ]
+}

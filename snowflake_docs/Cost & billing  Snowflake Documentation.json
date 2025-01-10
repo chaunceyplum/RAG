@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/guides-overview-cost",
+    "title": "Cost & billing | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake provides a robust framework to manage costs. You can also obtain monthly usage statements and reconcile those statements with\nusage data in views.",
+        "The total cost of using Snowflake is the aggregate of the cost of using data transfer, storage, and compute resources.",
+        "Learn about how overall cost is calculated.",
+        "Snowsight allows you to quickly and easily obtain information about cost from a visual dashboard.\nQueries against the usage views allow you to drill down into cost data and can help generate custom reports and dashboards.",
+        "Learn about exploring your spend using various queries to return cost information.",
+        "Learn how to optimize Snowflake in order to reduce costs and maximize your spend.",
+        "Budgets allow you to monitor the credit usage of supported objects and serverless features in your account.\nResource monitors allow you to monitor credit usage by user-managed virtual warehouses and the\ncloud services layer of the Snowflake architecture.",
+        "Learn about how to monitor your costs and spending in Snowflake.",
+        "Gain insight into Snowflake cost by attributing those costs to logical units within the organization such as departments, environments or\nother entities.",
+        "Learn how to attribute cost to differing entities within your organization.",
+        "Cost controls allow you to limit how much is spent on various services such as virtual warehouses.",
+        "Learn how to control costs by controlling access to warehouses, managing queries, enforcing spending limits and more.",
+        "Learn how to use Snowsight to view and download monthly usage statements.",
+        "Learn how to execute queries to reconcile usage data shown on a usage statement with data in the billing views of the Organization Usage\nschema.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

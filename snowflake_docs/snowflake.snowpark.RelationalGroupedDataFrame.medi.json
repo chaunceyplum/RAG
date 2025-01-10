@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.RelationalGroupedDataFrame.median",
+    "title": "snowflake.snowpark.RelationalGroupedDataFrame.median | Snowflake Documentation",
+    "paragraphs": [
+        "Return the median for the specified numeric columns.",
+        "Was this page helpful?"
+    ]
+}

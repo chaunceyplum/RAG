@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/object_delete",
+    "title": "OBJECT_DELETE | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Array/Object)",
+        "Returns an object containing the contents of the input (that is, source) object with\none or more keys removed.",
+        "The source object.",
+        "Key to be omitted from the returned object.",
+        "This function returns a value of type OBJECT.",
+        "For structured OBJECTs:",
+        "For the arguments that are keys, you must specify constants.",
+        "If the specified key isn\u2019t part of the OBJECT type definition, the call fails. For example, the following call fails because\nthe OBJECT value doesn\u2019t contain the specified key zip_code:",
+        "The function returns a structured OBJECT value. The type of the OBJECT value excludes the deleted key. For example, suppose that you\nremove the city key:",
+        "The function returns an OBJECT value of the type OBJECT(state VARCHAR), which doesn\u2019t include the city key.",
+        "If the function removes all keys from the OBJECT value, the function returns an empty structured OBJECT value of the type OBJECT().",
+        "When the type of a structured OBJECT value includes key-value pairs, the names and types of those pairs are included in parentheses\nin the type (for example, OBJECT(city VARCHAR)). Because an empty structured OBJECT value contains no key-value pairs, the\nparentheses are empty.",
+        "This query returns an object that excludes the keys a and b from the source object:",
+        "Create a table and insert rows with OBJECT values. This example uses OBJECT constants\nin the INSERT statements.",
+        "Query the table to see the data:",
+        "To delete the employee_date_of_birth key from the query output, execute the following query:",
+        "To query the employee_contact nested object and remove the phone key from it,\nexecute the following query:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

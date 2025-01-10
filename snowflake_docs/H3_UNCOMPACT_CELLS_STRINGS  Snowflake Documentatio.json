@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/h3_uncompact_cells_strings",
+    "title": "H3_UNCOMPACT_CELLS_STRINGS | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns an array of VARIANT values\nthat contain the VARCHAR hexadecimal IDs of H3\ncells at the specified resolution that cover the same area as the H3 cells in the input.",
+        "An array of VARIANT values that contain VARCHAR hexadecimal values that represent H3 cell IDs (indexes).",
+        "An INTEGER value between 0 and 15 (inclusive) specifying the H3 resolution that you want to use for the returned H3 cells.",
+        "Specifying any other INTEGER value results in an error.",
+        "Returns a value of the ARRAY data type or NULL.",
+        "If the input is an array of VARIANT values that contain VARCHAR hexadecimal values, returns an array of VARIANT values\nthat contain the VARCHAR hexadecimal values that represent the set of H3 cells at the specified resolution.",
+        "If the input is NULL, returns NULL without reporting an error.",
+        "All of the VARCHAR hexadecimal values in the input must represent valid H3 cells.",
+        "The input cells cannot have a higher resolution than the resolution specified in the\ntarget_resolution argument.",
+        "The following example returns an uncompacted set of H3 cells that represent valid H3 cell IDs\nand a target resolution of 10.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

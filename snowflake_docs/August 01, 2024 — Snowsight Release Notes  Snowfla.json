@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/ui/2024-08-01",
+    "title": "August 01, 2024 \u2014 Snowsight Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "This document provides an overview of the new features, enhancements, and other important changes introduced in this update to\nSnowsight.",
+        "If you have additional questions, please feel free to contact Snowflake Support.",
+        "With this release, we are pleased to announce the general availability of the new stage explorer in Snowsight. When you load a staged file into a table, you can select the files directly from a stage explorer. In the stage explorer, you can select the stage root, or folders and files within the stage. You don\u2019t need to navigate to the stage in the object explorer anymore, and you don\u2019t need to copy and paste the path of the staged file when loading a staged file into a table.",
+        "For more information, see Load data using the web interface.",
+        "With this release, we are pleased to announce the preview of schema detection and visual column mapping for loading files into existing tables in Snowsight.",
+        "When you load files into an existing table in Snowsight, you can now visualize the column mapping between the source file and the target table. Use the UI to make adjustments as needed before loading.",
+        "For more information, see Load data using the web interface.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

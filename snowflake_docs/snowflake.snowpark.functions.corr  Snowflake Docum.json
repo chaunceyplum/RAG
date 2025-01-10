@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.corr",
+    "title": "snowflake.snowpark.functions.corr | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the correlation coefficient for non-null pairs in a group.",
+        "Example",
+        "Was this page helpful?"
+    ]
+}

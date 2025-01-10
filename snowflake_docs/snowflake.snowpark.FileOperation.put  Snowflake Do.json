@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.FileOperation.put",
+    "title": "snowflake.snowpark.FileOperation.put | Snowflake Documentation",
+    "paragraphs": [
+        "Uploads local files to the stage.",
+        "References: Snowflake PUT command.",
+        "Example:",
+        "local_file_name \u2013 The path to the local files to upload. To match multiple files in the path,\nyou can specify the wildcard characters * and ?.",
+        "stage_location \u2013 The stage and prefix where you want to upload the files.",
+        "parallel \u2013",
+        "Specifies the number of threads to use for uploading files. The upload process separates batches of data files by size:",
+        "Small files (< 64 MB compressed or uncompressed) are staged in parallel as individual files.",
+        "Larger files are automatically split into chunks, staged concurrently, and reassembled in the target stage. A single thread can upload multiple chunks.",
+        "Increasing the number of threads can improve performance when uploading large files.\nSupported values: Any integer value from 1 (no parallelism) to 99 (use 99 threads for uploading files).",
+        "",
+        "auto_compress \u2013 Specifies whether Snowflake uses gzip to compress files during upload.",
+        "source_compression \u2013 Specifies the method of compression used on already-compressed files that are being staged.\nValues can be \u2018AUTO_DETECT\u2019, \u2018GZIP\u2019, \u2018BZ2\u2019, \u2018BROTLI\u2019, \u2018ZSTD\u2019, \u2018DEFLATE\u2019, \u2018RAW_DEFLATE\u2019, \u2018NONE\u2019.",
+        "overwrite \u2013 Specifies whether Snowflake will overwrite an existing file with the same name during upload.",
+        "statement_params \u2013 Dictionary of statement level parameters to be set while executing this action.",
+        "A list of PutResult instances, each of which represents the results of an uploaded file.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/data-quality-fixing",
+    "title": "Remediation of data quality issues | Snowflake Documentation",
+    "paragraphs": [
+        "Enterprise Edition Feature",
+        "Data Quality and data metric functions (DMFs) require Enterprise Edition. To inquire about upgrading, please contact\nSnowflake Support.",
+        "Data quality metrics (DMFs) let you identify how many records in a table might contain quality issues. For example, the SNOWFLAKE.CORE.NULL_COUNT can identify how many records contain a NULL value in a specific column.",
+        "To help you fix these possible quality issues, you can call the SYSTEM$DATA_METRIC_SCAN system function to return the individual records identified by the DMF as containing data that failed a data quality check. For example, if you pass the NULL_COUNT DMF into the SYSTEM$DATA_METRIC_SCAN function as an argument, then you can obtain the actual records that contain a NULL value, not just the number of records that contain a NULL value.",
+        "The SYSTEM$DATA_METRIC_SCAN function accepts a DMF as an argument to return the records identified by the DMF as containing problematic data. The following system DMFs can be used as arguments:",
+        "SNOWFLAKE.CORE.NULL_COUNT",
+        "SNOWFLAKE.CORE.NULL_PERCENT",
+        "SNOWFLAKE.CORE.BLANK_COUNT",
+        "SNOWFLAKE.CORE.BLANK_PERCENT",
+        "SNOWFLAKE.CORE.DUPLICATE_COUNT",
+        "You cannot use custom DMFs as an argument of the SYSTEM$DATA_METRIC_SCAN function.",
+        "If a table is protected by a policy, such as a masking policy or row access policy, the SYSTEM$DATA_METRIC_SCAN function might return unexpected or\nincomplete data because results depend on the user\u2019s role when executing the function.",
+        "When you call the SYSTEM$DATA_METRIC_SCAN function, it analyses a table with a DMF to identify possible data quality issues. You must pass in the following arguments to the SYSTEM$DATA_METRIC_SCAN function: the name of the table, the DMF, and any arguments being passed to the DMF to help identify problematic records.\nFor example, given that the SNOWFLAKE.CORE.NULL_COUNT system metric function returns the total number of NULL values in a particular column, the following returns\nthe rows of the employeesTable table that have NULL values in the SSN column in the version of the table that existed at a specific time in the past.",
+        "To check the results of a DMF evaluation on the table or view in the past, you can pass the AT_TIMESTAMP argument. The AT_TIMESTAMP argument allows you to use Time Travel to cast the timestamp string to return only those records that existed in the table at the \u20182024-08-28 02:00:00 -0700\u2019 timestamp.",
+        "The SYSTEM$DATA_METRIC_SCAN function is a table function that returns a set of rows. The output of the function can be used within a DML statement to take action on the records that have been identified as containing data that failed a data quality check.",
+        "Suppose you want to replace blank values in the email column of the t table with NULL values. Because the BLANK_COUNT data metric function identifies blank values, you could run the following statement:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

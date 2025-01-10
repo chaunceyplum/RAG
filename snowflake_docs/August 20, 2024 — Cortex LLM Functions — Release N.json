@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-08-20-new-region-llama-405b",
+    "title": "August 20, 2024 \u2014 Cortex LLM Functions \u2014 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the availability of the llama3.1-405b model\nin the following additional Amazon Web Services (AWS) region:",
+        "Cloud Region",
+        "Cloud Region ID",
+        "US East 1 (N. Virginia)",
+        "us-east-1",
+        "For a full list of regions where the llama3.1-405b and other models are available, see\nAvailability.",
+        "Was this page helpful?"
+    ]
+}

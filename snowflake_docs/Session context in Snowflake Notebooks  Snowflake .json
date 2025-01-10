@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/ui-snowsight/notebooks-sessions",
+    "title": "Session context in Snowflake Notebooks | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Generally available in Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP) commercial regions.",
+        "The session context of a notebook is defined by the role, warehouse, database, and schema that you defined when you created the notebook.\nWhen you run the notebook, it runs as that role, using the warehouse defined in the notebook, and in the context of the database and schema\nthat contain the notebook.",
+        "This topic describes how to access or change the session context of your notebook.",
+        "You can access the session context using both Python and SQL.",
+        "If you\u2019re using the Snowpark Python library or Snowflake Python APIs, use the\nget_active_session()\nmethod to get the active session context.",
+        "For SQL, you can use the Context functions SQL functions.",
+        "You can change the session context of the notebook to use a different role, database and schema, and/or warehouse:",
+        "Specify a different role to use with the USE ROLE SQL command.",
+        "You can check the role in use by the notebook by calling the CURRENT_ROLE function.",
+        "If you change your role to one that does not have privileges to use the notebook warehouse, database, or schema,\nqueries that require a warehouse or access to the notebook database or schema fail to run. However,\nyou can still run queries that do not use the notebook warehouse, database, and schema.",
+        "Roles specified with the USE ROLE SQL command do not persist across notebook sessions.",
+        "If you specify a database or schema that the currently active role does not have privileges to access, queries using that database\nand schema fail to run.",
+        "If you run the SQL command USE SECONDARY ROLES to set secondary roles to ALL, the secondary roles associated\nwith your user are used to generate the results of the notebook cells.",
+        "Specify a different warehouse using the SQL command USE WAREHOUSE.",
+        "You can check the warehouse in use for the notebook by calling the CURRENT_WAREHOUSE function.",
+        "Specify a different database or schema using USE DATABASE or\nUSE SCHEMA SQL commands.",
+        "You can check the database in use for the notebook by calling the CURRENT_DATABASE function.",
+        "If you reference objects in the notebook database or the database specified in an earlier notebook cell, you can simplify your\nSQL statements to include only the schema and object that you want to reference, instead of the fully qualified path to the object.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

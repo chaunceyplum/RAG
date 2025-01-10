@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/un-bundled/bcr-812",
+    "title": "Snowflake Connector for Python: Empty results of fetch_arrow and fetch_pandas are typed | Snowflake Documentation",
+    "paragraphs": [
+        "This behavior change is not part of the 2022_07 bundle in the 6.32 release, and can only be tested once the specified version of the Snowflake Connector for Python has been released.",
+        "For the most up-to-date details about the change, as well as other release-related details, refer to the Behavior Change Log.",
+        "Currently, if the fetch_arrow and fetch_pandas Python functions return empty results, the empty columns are returned\nas generic Objects. They do not have a specific data type.",
+        "In a future version of the connector, the behavior of these functions will change as follows:",
+        "If fetch_arrow and fetch_pandas return empty results, the schema columns of the results have a generic Object type.",
+        "If fetch_arrow and fetch_pandas return empty results, the schema columns returned will be assigned the same data type as the column.",
+        "This change will be made in version 2.8.0 of the Snowflake Connector for Python. When this version of the connector is available,\nyou should verify these changes in a test environment before upgrading your production environment.\nRef: 215",
+        "Was this page helpful?"
+    ]
+}

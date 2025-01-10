@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions-vector",
+    "title": "Vector similarity functions | Snowflake Documentation",
+    "paragraphs": [
+        "The measurement of similarity between vectors is a fundamental operation in semantic comparison. For example, you need\nthis operation to find the top N number of closest vectors to a query vector, which can be used for a semantic search. Vector\nsearch also enables developers to improve the accuracy of their generative AI responses by providing related documents\nto a large language model.",
+        "Snowflake Cortex provides four vector similarity functions:",
+        "VECTOR_INNER_PRODUCT",
+        "VECTOR_L1_DISTANCE",
+        "VECTOR_L2_DISTANCE",
+        "VECTOR_COSINE_SIMILARITY",
+        "Each function takes two VECTOR arguments of equal element type and dimension and computes the\nspecified metric over them.",
+        "Note",
+        "Due to computational optimizations in these functions, floating-point errors may be slightly larger than usual (e.g.\nabout 1e-4).",
+        "Function Name",
+        "Notes",
+        "Not supported in Snowpark API.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

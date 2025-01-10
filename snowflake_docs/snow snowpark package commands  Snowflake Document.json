@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/snowpark-commands/package-commands/overview",
+    "title": "snow snowpark package commands | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Snowflake CLI supports the following commands to support Snowpark packages:",
+        "snow package create",
+        "snow package lookup",
+        "snow package upload",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

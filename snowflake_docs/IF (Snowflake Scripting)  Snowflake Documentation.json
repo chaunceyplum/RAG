@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/snowflake-scripting/if",
+    "title": "IF (Snowflake Scripting) | Snowflake Documentation",
+    "paragraphs": [
+        "An IF statement provides a way to execute a set of statements if a condition is met.",
+        "For more information on branching constructs, see Working with conditional logic.",
+        "Note",
+        "This Snowflake Scripting construct is valid only within a\nSnowflake Scripting block.",
+        "Where:",
+        "An expression that evaluates to a BOOLEAN.",
+        "A statement can be any of the following:",
+        "A single SQL statement (including CALL).",
+        "A control-flow statement (for example, a looping or\nbranching statement).",
+        "A nested block.",
+        "The keyword THEN is required.",
+        "ELSEIF is one word (no spaces).",
+        "END IF is two words.",
+        "After each THEN or ELSE clause, the body allows the BEGIN and END keywords, but does not require\nthem, even if the body contains more than one statement.",
+        "If the condition is NULL, then it is treated as FALSE.",
+        "Here is an example of a Snowflake Scripting IF statement inside a stored procedure:",
+        "Here is the command to call the stored procedure, along with the output:",
+        "For more examples that use the IF statement, see:",
+        "Working with conditional logic",
+        "Examples for common use cases of Snowflake Scripting",
+        "BREAK",
+        "EXCEPTION",
+        "LOOP and Working with loops",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/snowpark/overview",
+    "title": "Using Snowpark in Snowflake CLI | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "The Snowpark API provides an intuitive library for querying and processing data at scale\nin Snowflake, without using SQL. Using a library for any of three languages, you can build applications that process data in Snowflake\u2014without moving\ndata to the system where your application code runs\u2014and process at scale as part of the elastic and serverless Snowflake engine.",
+        "Snowflake CLI gives developers convenient tooling for developing and managing their Snowpark functions and procedures.\nTo create and maintain Snowpark functions and procedures, use the following process:",
+        "Initialize \u2014 create a boilerplate",
+        "The snow init <project-name> --template example_snowpark command creates a boilerplate project that you can customize.",
+        "Create \u2014 create a project definition",
+        "You edit the snowflake.yml file with the project details.",
+        "Build \u2014 create artifacts",
+        "The snow snowpark build command builds the Snowpark project as a .zip archive that can be used by the snow snowpark deploy command. The archive is built using only the src directory specified in the snowflake.yml file.",
+        "Deploy \u2014 create Snowflake objects",
+        "The snow snowpark deploy command uploads local files to the specified stage and creates procedure and function objects defined in the project.",
+        "Execute \u2014 use deployed procedures and functions",
+        "The snow snowpark execute command executes deployed procedures and functions.",
+        "Upload \u2014 upload already implemented Snowpark functions, procedures, and custom packages, such as from PyPi, in your projects.",
+        "The snow snowpark package commands let you reuse existing packages.",
+        "Manage \u2014 manage your Snowpark functions and procedures",
+        "The snow snowpark and snow object commands let you create, list, execute, and delete Snowpark functions and procedures.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/grant-service-role",
+    "title": "GRANT SERVICE ROLE | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Available to accounts in AWS and Microsoft Azure commercial regions, with some exceptions. For more information, see Available regions.",
+        "Assigns a service role to an account role, application role, or database role. For more information, see Managing access to service endpoints.",
+        "REVOKE SERVICE ROLE, SHOW ROLES IN SERVICE,\nSHOW GRANTS",
+        "Specifies the identifier for the service role to grant. If the identifier contains spaces or\nspecial characters, the entire string must be enclosed in double quotes. Identifiers enclosed in\ndouble quotes are also case-sensitive.",
+        "Specify the service role name in the following format:",
+        "service-name!service-role-name",
+        "For example, echo_service!echoendpoint_role.",
+        "Name of the account role to grant the service role to.",
+        "Name of the application role to grant the service role to.",
+        "Name of the database role to grant the service role to.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege or role",
+        "Object",
+        "Notes",
+        "OWNERSHIP",
+        "Service",
+        "Only the service owner can grant the service role.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "The following command grants the echoendpoint_role service role defined in the echo_service service specification to the service_function_user_role role.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

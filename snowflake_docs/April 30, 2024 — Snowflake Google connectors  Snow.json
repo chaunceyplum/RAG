@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-04-30-gaad-gard-ga",
+    "title": "April 30, 2024 \u2014 Snowflake Google connectors | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the general availability of Snowflake Connector for Google Analytics Raw Data.\nGoogle Analytics is a cloud-based tool that provides insight into how users interact with your website.\nYou can use it to analyze user actions, track the number of visitors and page views, and analyze bounce rates for a page.",
+        "The Snowflake Connector for Google Analytics Raw Data enables you to automatically ingest event-level Google Analytics 4 (GA4) data into your Snowflake account.",
+        "For more details, see Snowflake Connector for Google Analytics Raw Data.",
+        "With this release, we are pleased to announce the general availability of Snowflake Connector for Google Analytics Aggregate Data.",
+        "The Snowflake Connector for Google Analytics Aggregate Data enables you to automatically ingest Google Analytics 4 (GA4) data into your Snowflake account.\nThe connector extracts aggregated data using the GA4 Reporting API.",
+        "For more details, see Snowflake Connector for Google Analytics Aggregate Data.",
+        "See also:",
+        "Snowflake Connector for Google Analytics Aggregate Data release notes",
+        "Snowflake Connector for Google Analytics Raw Data release notes",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

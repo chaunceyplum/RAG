@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/array_union_agg",
+    "title": "ARRAY_UNION_AGG | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (Counting Distinct Values) , Window functions (Semi-structured Data Aggregation)",
+        "Returns an ARRAY that contains the union of the distinct values from the input ARRAYs in a column.\nYou can use this to aggregate distinct values in ARRAYs produced by ARRAY_UNIQUE_AGG.",
+        "ARRAY_UNIQUE_AGG , Using Arrays to Compute Distinct Values for Hierarchical Aggregations",
+        "The column containing the ARRAYs with the distinct values (the ARRAYs produced by ARRAY_UNIQUE_AGG).",
+        "The function returns an ARRAY containing the distinct values from the ARRAYs in column. The values in the ARRAY are in\nno particular order, and the order is not deterministic.",
+        "Note that this function uses multiset semantics, which means that the maximum number\nof occurrences of an individual value in a single input ARRAY determines the number of occurrences of that value in the output\nARRAY. See Examples.",
+        "The function ignores NULL values in column and in the ARRAYs in column. If column contains only\nNULL values or the table containing column is empty, the function returns an empty ARRAY.",
+        "This function can be used as either of the following types of functions:",
+        "aggregate function",
+        "window function.",
+        "When this function is called as a window function, it does not support explicit window frames.",
+        "When you pass a structured array to the function, the function returns a structured\narray of the same type.",
+        "The following example illustrates how the function returns the union of distinct values from two ARRAYs:",
+        "The operation uses multiset semantics. The value 1 appears twice in the output\nbecause it appears twice in one of the input arrays.",
+        "See Using Arrays to Compute Distinct Values for Hierarchical Aggregations.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

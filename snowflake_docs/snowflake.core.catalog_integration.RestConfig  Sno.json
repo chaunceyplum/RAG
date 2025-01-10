@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.catalog_integration.RestConfig",
+    "title": "snowflake.core.catalog_integration.RestConfig | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: BaseModel",
+        "A model object representing the RestConfig resource.",
+        "Constructs an object of type RestConfig with the provided properties.",
+        "catalog_uri (str) \u2013 Customer\u2019s Polaris account locator URL",
+        "warehouse (str) \u2013 Name of the catalog to use in Polaris",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of RestConfig from a dict.",
+        "Create an instance of RestConfig from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

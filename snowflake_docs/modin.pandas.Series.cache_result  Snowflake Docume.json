@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.cache_result",
+    "title": "modin.pandas.Series.cache_result | Snowflake Documentation",
+    "paragraphs": [
+        "Persists the current Snowpark pandas Series to a temporary table to improve the latency of subsequent operations.",
+        "inplace \u2013 bool, default False\nWhether to perform the materialization inplace.",
+        "",
+        "Cached Snowpark pandas Series or None if inplace=True.",
+        "",
+        "Note",
+        "The temporary table produced by this method lasts for the duration of the session.",
+        "Examples:",
+        "Let\u2019s make a Series using a computationally expensive operation, e.g.:\n>>> series = pd.concat([pd.Series([i]) for i in range(30)])",
+        "Due to Snowpark pandas lazy evaluation paradigm, every time this Series is used, it will be recomputed -\ncausing every subsequent operation on this Series to re-perform the 30 unions required to produce it.\nThis makes subsequent operations more expensive. The cache_result API can be used to persist the\nSeries to a temporary table for the duration of the session - replacing the nested 30 unions with a single\nread from a table.",
+        "Was this page helpful?"
+    ]
+}

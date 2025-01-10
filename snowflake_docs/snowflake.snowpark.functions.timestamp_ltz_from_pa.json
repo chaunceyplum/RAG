@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.timestamp_ltz_from_parts",
+    "title": "snowflake.snowpark.functions.timestamp_ltz_from_parts | Snowflake Documentation",
+    "paragraphs": [
+        "Creates a timestamp from individual numeric components.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

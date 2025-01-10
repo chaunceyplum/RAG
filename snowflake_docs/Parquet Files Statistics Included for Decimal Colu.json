@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_03/bcr-976",
+    "title": "Parquet Files: Statistics Included for Decimal Columns Unloaded as FixedLengthByteArrays | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Parquet files behave as follows:",
+        "Parquet files do not include column statistics for decimal columns unloaded as FixedLengthByteArrays.",
+        "Parquet files will include column statistics for decimal columns unloaded as FixedLengthByteArrays.",
+        "Ref: 976",
+        "Was this page helpful?"
+    ]
+}

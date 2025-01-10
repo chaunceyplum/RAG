@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/log",
+    "title": "LOG | Snowflake Documentation",
+    "paragraphs": [
+        "Numeric functions (Logarithmic)",
+        "Returns the logarithm of a numeric expression.",
+        "natural log (ln)",
+        "The \u201cbase\u201d to use (e.g. 10 for base 10 arithmetic).",
+        "This can be of any numeric data type (INTEGER, fixed-point, or floating\npoint).",
+        "base should be greater than 0.",
+        "base should not be exactly 1.0.",
+        "The value for which you want to know the log.",
+        "This can be of any numeric data type (INTEGER, fixed-point, or floating\npoint).",
+        "expr should be greater than 0.",
+        "Always returns a floating point number, even if one or more of the input\nexpressions are of type integer or fixed-point.",
+        "If base is 1 or less than or equal to 0, an error is returned.",
+        "If expr is less than or equal to 0, an error is returned.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

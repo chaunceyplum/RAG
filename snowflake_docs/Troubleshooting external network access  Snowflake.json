@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/external-network-access/external-network-access-troubleshooting",
+    "title": "Troubleshooting external network access | Snowflake Documentation",
+    "paragraphs": [
+        "The following lists errors you might encounter, along with their likely cause and a suggested resolution.",
+        "This error can have one of multiple causes, as described below.",
+        "The CREATE PROCEDURE or CREATE FUNCTION statement does not reference the\nexternal access integration when creating a procedure or UDF that accesses a URL specified by the network rule.",
+        "When creating the procedure or UDF, be sure to specify the external access integration as a value of the\nCREATE statement\u2019s EXTERNAL_ACCESS_INTEGRATIONS parameter.",
+        "The UDF or procedure is attempting to access a URL that is not part of the network rule included in the external access integration.",
+        "A user with the ACCOUNTADMIN role can add the host URL to the network rule included in the external access integration.",
+        "You are attempting to access an IP address or port that is not part of the network rule included in the external access integration.",
+        "A user with the ACCOUNTADMIN role can add the IP address to the network rule included in the external access integration.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

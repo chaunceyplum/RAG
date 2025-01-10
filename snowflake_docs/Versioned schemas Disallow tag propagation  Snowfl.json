@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_01/bcr-1401",
+    "title": "Versioned schemas: Disallow tag propagation | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of versioned schemas and tags in a Snowflake Native App is as follows:",
+        "Tag propagation in a Snowflake Native App occurs with a versioned schema under the following conditions:",
+        "Create a tag in the versioned schema and assign the tag to an object in a different schema.",
+        "Create a tag in a non-versioned schema and assign the tag to an object in a versioned schema.",
+        "Create tables or views in the versioned schema and assign a tag to the tables or views when the tag exists in a non-versioned schema.",
+        "Create tables or views in a non-versioned schema and assign a tag to the tables or views when the tag exists in a versioned schema.",
+        "In these cases, tag propagation refers to tags being set on objects when the versioned schema increments to the next version.",
+        "Tag propagation does not occur with versioned schemas in a Snowflake Native App and results in the following error message:",
+        "To prevent the error message, the Snowflake Native App provider should update the setup script to ensure that tags are set on objects within the\nsame schema as the tag when a versioned schema contains either the tag or the object on which the tag is set. If a non-versioned schema\ncontains either the tag or the object on which the tag is set, it is not necessary to update the setup script.",
+        "If you are a consumer of the Snowflake Native App and you see this error message after installing the app, ask the provider to update their set\nup script.",
+        "Ref: 1401",
+        "Was this page helpful?"
+    ]
+}

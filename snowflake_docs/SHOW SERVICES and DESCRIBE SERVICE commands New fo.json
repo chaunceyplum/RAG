@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_06/bcr-1656",
+    "title": "SHOW SERVICES and DESCRIBE SERVICE commands: New format for the DNS name of a service | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The SHOW SERVICES and DESCRIBE SERVICE commands behave as follows:",
+        "The dns_name column in the output of these commands contains the Snowflake-assigned DNS name of a service in the following format:",
+        "service-name.schema-name.db-name.snowflakecomputing.internal",
+        "The format of the DNS name in the column has changed to:",
+        "service-name.unique-id.svc.spcs.internal",
+        "The major changes in the format are:",
+        "unique-id replaces the schema-name.db-name and is a 4-8 character long alphanumeric identifier that is unique\nto a particular instance of a database schema.",
+        "To find the unique ID for a schema, call the SYSTEM$GET_SERVICE_DNS_DOMAIN function. For example:",
+        "Note the following:",
+        "If you rename a schema, the identifier remains unchanged.",
+        "If you drop and recreate a schema with the same name, the identifier will change.",
+        "snowflakecomputing is replaced by svc.spcs to reduce the verbosity of the fully qualified DNS name of the service.",
+        "Note the following:",
+        "This is a change in the behavior of the CREATE SERVICE command. When a service is created, Snowflake assigns the DNS name to a service.",
+        "However, the effects of this behavior change are visible when you use the SHOW SERVICES and DESCRIBE SERVICE commands, which include the DNS name in the output.",
+        "For services deployed after the 2024_06 bundle is enabled, the old style DNS names will continue to work for some time. Snowflake recommends that you update your code to use the new DNS format.",
+        "Ref: 1656",
+        "Was this page helpful?"
+    ]
+}

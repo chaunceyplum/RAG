@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/sql-commands/overview",
+    "title": "snow sql commands | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "SQL commands provide developers the ability to execute SQL queries with Snowflake CLI.",
+        "snow sql",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-1132",
+    "title": "Roles: Changes to How Regrants Are Recorded in the GRANTS_TO_USERS View | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The output of the GRANTS_TO_USERS view changed in terms of grants of the same role to the same user were recorded:",
+        "The view included a row for each grant of the same role to the same user. The DELETED_ON column value is NULL for the row containing the\nactive grant. When a regrant occurs, the row containing the previous grant has the DELETED_ON column value updated to the timestamp for\nwhen the regrant occurred.",
+        "The view includes one row for the grant of the same role to the same user. Regrants of the same role to the same user are not recorded as new\nrows. The DELETED_ON column remains NULL while the grant is active, and the column value is updated when the role is REVOKED from the user.",
+        "After revoking the role from the user, a grant of the same role to the same user will be recorded in a new row. In this new row, the DELETED_ON\ncolumn value is NULL because the grant is now active.",
+        "Use the following query to help identify whether your account has records in the view that will be affected:",
+        "TRUE: There are records in the view that will be affected.",
+        "FALSE: There are no records in the view that will be affected.",
+        "Ref: 1132",
+        "Was this page helpful?"
+    ]
+}

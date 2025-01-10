@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.is_null_value",
+    "title": "snowflake.snowpark.functions.is_null_value | Snowflake Documentation",
+    "paragraphs": [
+        "Returns true if the specified VARIANT column contains a JSON null value.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

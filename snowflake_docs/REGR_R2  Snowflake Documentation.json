@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/regr_r2",
+    "title": "REGR_R2 | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (Linear Regression) , Window function syntax and usage",
+        "Returns the coefficient of determination for non-null pairs in a group. It is computed for non-null pairs using the following formula:",
+        "Where x is the independent variable and y is the dependent variable.",
+        "Aggregate function",
+        "Window function",
+        "The dependent variable. This must be an expression that can be evaluated to a numeric type.",
+        "The independent variable. This must be an expression that can be evaluated to a numeric type.",
+        "This is the optional expression used to group rows into partitions.",
+        "Important",
+        "Note the order of the arguments; the dependent variable is first.",
+        "DISTINCT is not supported for this function.",
+        "When this function is called as a window function, it does not support:",
+        "An ORDER BY clause within the OVER clause.",
+        "Explicit window frames.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

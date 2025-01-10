@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.pipe.PipeResource",
+    "title": "snowflake.core.pipe.PipeResource | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SchemaObjectReferenceMixin[PipeCollection]",
+        "Represents a reference to a Snowflake pipe.",
+        "With this pipe reference, you can fetch information about pipes, as well\nas perform certain actions on them.",
+        "Attributes",
+        "Methods",
+        "Drop this pipe.",
+        "if_exists (bool, optional) \u2013 Check the existence of this pipe before dropping it.\nDefault is None, which is equivalent to False.",
+        "Examples",
+        "Deleting a pipe using its reference:",
+        "Using a pipe reference to delete a pipe if it exists:",
+        "Fetch the details of a pipe resource.",
+        "Examples",
+        "Fetching a pipe using its reference:",
+        "Refresh this pipe.",
+        "if_exists (bool, optional) \u2013 Check the existence of this pipe before refreshing it.\nDefault is None, which is equivalent to False.",
+        "prefix (str, optional) \u2013 Path (or prefix) appended to the stage reference in the pipe definition.",
+        "modified_after (datetime, optional) \u2013 Timestamp (in ISO-8601 format) of the oldest data files to copy into the Snowpipe ingest queue based on\nthe LAST_MODIFIED date (i.e. date when a file was staged).",
+        "Examples",
+        "Using a pipe reference to refresh it:",
+        "Was this page helpful?"
+    ]
+}

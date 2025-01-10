@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.case_when",
+    "title": "modin.pandas.Series.case_when | Snowflake Documentation",
+    "paragraphs": [
+        "Replace values where the conditions are True.",
+        "caselist (A list of tuples of conditions and expected replacements) \u2013",
+        "Takes the form:  (condition0, replacement0),\n(condition1, replacement1), \u2026 .\ncondition should be a 1-D boolean array-like object\nor a callable. If condition is a callable,\nit is computed on the Series\nand should return a boolean Series or array.\nThe callable must not change the input Series\n(though pandas doesn`t check it). replacement should be a\n1-D array-like object, a scalar or a callable.\nIf replacement is a callable, it is computed on the Series\nand should return a scalar or Series. The callable\nmust not change the input Series\n(though pandas doesn`t check it).",
+        "New in version 2.2.0.",
+        "",
+        "Series",
+        "See also",
+        "Replace values where the condition is True.",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-1091",
+    "title": "Account Usage Views: New OPTIONS Column in Select Views | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The following ACCOUNT_USAGE views include the OPTIONS column:",
+        "MASKING_POLICIES",
+        "ROW_ACCESS_POLICIES",
+        "The OPTIONS column indicates whether a policy has the EXEMPT_OTHER_POLICIES property set to TRUE or FALSE:",
+        "If the property is set to TRUE, the OPTIONS column returns {\u201cEXEMPT_OTHER_POLICIES\u201d: \u201cTRUE\u201d}.",
+        "If the property is set to FALSE or the property is not specified in the policy, the OPTIONS column returns NULL.",
+        "Ref: 1091",
+        "Was this page helpful?"
+    ]
+}

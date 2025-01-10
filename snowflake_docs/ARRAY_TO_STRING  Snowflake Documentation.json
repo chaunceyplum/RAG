@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/array_to_string",
+    "title": "ARRAY_TO_STRING | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Array/Object)",
+        "Returns an input array converted to a string by casting all values to strings (using TO_VARCHAR) and concatenating them (using the string from the second argument to separate the\nelements).",
+        "The array of elements to convert to a string.",
+        "The string to put between each element, typically a space, comma, or other human-readable separator.",
+        "This function returns a value of type VARCHAR.",
+        "A NULL argument returns NULL as a result.",
+        "A NULL in an array is converted to an empty string in the result.",
+        "To include a blank space between values, you must precede the space with the separator character\n(e.g. ', '). See the examples below.",
+        "Return various arrays as concatenated strings:",
+        "This example returns an array that contains a NULL value as a concatenated string. First, create\na table and insert an array:",
+        "Return the array as a concatenated string:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

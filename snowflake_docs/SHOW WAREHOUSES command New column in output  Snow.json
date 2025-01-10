@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_07/bcr-1725",
+    "title": "SHOW WAREHOUSES command: New column in output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_07 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, the output of the SHOW WAREHOUSES\ncommand will include the following new column:",
+        "Column name",
+        "Data type",
+        "Description",
+        "resource_constraints",
+        "VARCHAR",
+        "Reserved for future use.",
+        "Ref: 1725",
+        "Was this page helpful?"
+    ]
+}

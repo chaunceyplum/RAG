@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-analyst/verified-query-repository",
+    "title": "Cortex Analyst Verified Query Repository | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to accounts in most Snowflake regions. See Region Availability for a full list.",
+        "The Cortex Analyst Verified Query Repository (VQR) can help improve the accuracy and trustworthiness of results by\nproviding a collection of questions and corresponding SQL queries to answer them. Cortex Analyst then leverages\nrelevant SQL queries from the repository when answering similar questions. You can specify verified queries in your\nsemantic model YAML file.",
+        "Important",
+        "Verified SQL queries must use the names of the logical tables and columns defined in the semantic model, not those\nin the underlying dataset. See the example query and its discussion\nfor more information.",
+        "Verified queries are specified in the verified_queries section of the semantic model, as shown here.",
+        "Below is a sample semantic model that includes a verified query.",
+        "In the example above, __sales_data corresponds to the sales_data table defined in the\nmodel. To avoid name conflicts, the name of the logical table is prefixed with two underscores. The columns used\nin the query (state, sale_timestamp, and profit) are the logical columns defined in the model\u2019s\nsale_data table. The names of the underlying columns (d_state, dt, amt, and cst) are not used\ndirectly in the query.",
+        "As illustrated in the example, the question doesn\u2019t need to be a complete sentence, or actually in the form of a\nquestion, but it should reflect something a user might ask. Ensure that the SQL queries are syntactically correct and\nactually answer the posed questions; this is the essence of a \u201cverified query.\u201d Invalid or inaccurate queries can\nnegatively impact Cortex Analyst\u2019s performance and accuracy.",
+        "Tip",
+        "Use the open-source semantic model generator app, described in the next section, to help add verified queries to\nyour semantic model, without needing to concern yourself with SQL or YAML syntax.",
+        "Snowflake provides an open-source Streamlit app to help add verified queries to your model. To\ninstall and use this app, follow these instructions.",
+        "Clone the repository. Start by cloning the semantic-model-generator\nrepository. Follow the setup instructions in the repo\u2019s README\nto provide your Snowflake credentials to the app.",
+        "Install the App. Follow the instructions in the admin_app README\nto install the necessary dependencies and start the app.",
+        "Set Up the App. Once the app is running, enter the database, schema, and stage location of your semantic model YAML\nfile into the provided fields. The YAML file will appear in an interactive editor on the left side of the window.",
+        "Generate a Query. On the right side of the window, use the chat interface to ask a question that will generate a SQL\nquery.",
+        "Verify and Save the Query.",
+        "Inspect the generated query and the results it produces. If it works as expected, select the Save as verified query\nbutton below the assistant\u2019s answer to add the query to your semantic model.",
+        "If the generated query is incorrect, select the Edit button to modify the query. Run the modified query to check if\nit produces the intended results. Continue editing and testing until the query works as desired. Then select\nSave as verified query to add it to your semantic model.",
+        "Update the Semantic Model. Select the Save button in the bottom left of the window to update the semantic model.\nRepeat the process to add more queries.",
+        "Upload the new YAML file. Once you\u2019re satisfied with the queries you\u2019ve added, select the Upload button, enter a file\nname for your new YAML file, and select Submit Upload.",
+        "When you return to your stage in Snowsight, you\u2019ll see the new semantic model YAML file with your verified queries.",
+        "When the user\u2019s question is similar to a query in the Verified Query Repository (VQR), Cortex Analyst uses that query to generate\nthe SQL query in its response. To see which verified query was used, see the confidence field\nin the API response.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/row_number",
+    "title": "ROW_NUMBER | Snowflake Documentation",
+    "paragraphs": [
+        "Window function syntax and usage (Ranking)",
+        "Returns a unique row number for each row within a window partition.",
+        "The row number starts at 1 and continues up sequentially.",
+        "None.",
+        "expr1 and expr2 specify the column(s) or expression(s)\nto partition by. You can partition by 0, 1, or more expressions.",
+        "For example, suppose that you are selecting data across multiple states\n(or provinces) and you want row numbers from 1 to N within each\nstate; in that case, you can partition by the state.",
+        "If you want only a single group, then omit the PARTITION BY clause.",
+        "expr3 and expr4 specify the column(s) or expression(s) to\nuse to determine the order of the rows. You can order by 1 or more\nexpressions.",
+        "For example, if want to list farmers in order by production of corn, then\nuse the bushels_produced column. For details,\nsee Examples (in this topic).",
+        "The query below shows how to assign row numbers within partitions. In this\ncase, the partitions are stock exchanges (for example, \u201cN\u201d for \u201cNASDAQ\u201d).",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/h3_try_polygon_to_cells",
+    "title": "H3_TRY_POLYGON_TO_CELLS | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "A special version of H3_POLYGON_TO_CELLS that returns NULL if an error\noccurs when it attempts to return an array of INTEGER values of the IDs of\nH3 cells that have centroids contained by a Polygon\n(specified by a GEOGRAPHY object).",
+        "A GEOGRAPHY object that represents a Polygon.",
+        "An INTEGER between 0 and 15 (inclusive) that specifies the H3 resolution that you want to use for the returned H3 cells.",
+        "Specifying any other INTEGER value results in an error.",
+        "Returns an array of INTEGER values or NULL.",
+        "If the function can perform a successful calculation, returns an array of INTEGER values for the IDs of the H3 cells that\nhave centroids contained in the specified input Polygon.",
+        "If the function cannot perform a successful calculation, returns NULL without reporting an error.",
+        "See H3_POLYGON_TO_CELLS for the usage notes.",
+        "The following example attempts to return an array of INTEGER values of the IDs of H3\ncells that have centroids contained by a Polygon (specified by a GEOGRAPHY object).\nBecause the array with the cells that cover the given hexagon at the given resolution exceeds the allowed size limit, the function\nreturns NULL.",
+        "For examples that successfully return an array of IDs, see H3_POLYGON_TO_CELLS.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

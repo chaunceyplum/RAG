@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.write_pandas",
+    "title": "snowflake.snowpark.Session.write_pandas | Snowflake Documentation",
+    "paragraphs": [
+        "Writes a pandas DataFrame to a table in Snowflake and returns a\nSnowpark DataFrame object referring to the table where the\npandas DataFrame was written to.",
+        "df \u2013 The pandas DataFrame or Snowpark pandas DataFrame or Series we\u2019d like to write back.",
+        "table_name \u2013 Name of the table we want to insert into.",
+        "database \u2013 Database that the table is in. If not provided, the default one will be used.",
+        "schema \u2013 Schema that the table is in. If not provided, the default one will be used.",
+        "chunk_size \u2013 Number of rows to be inserted once. If not provided, all rows will be dumped once.\nDefault to None normally, 100,000 if inside a stored procedure.",
+        "compression \u2013 The compression used on the Parquet files: gzip or snappy. Gzip gives supposedly a\nbetter compression, while snappy is faster. Use whichever is more appropriate.",
+        "on_error \u2013 Action to take when COPY INTO statements fail. See details at\ncopy options.",
+        "parallel \u2013 Number of threads to be used when uploading chunks. See details at\nparallel parameter.",
+        "quote_identifiers \u2013 By default, identifiers, specifically database, schema, table and column names\n(from DataFrame.columns) will be quoted. If set to False, identifiers\nare passed on to Snowflake without quoting, i.e. identifiers will be coerced to uppercase by Snowflake.",
+        "auto_create_table \u2013 When true, automatically creates a table to store the passed in pandas DataFrame using the\npassed in database, schema, and table_name. Note: there are usually multiple table configurations that\nwould allow you to upload a particular pandas DataFrame successfully. If you don\u2019t like the auto created\ntable, you can always create your own table before calling this function. For example, auto-created\ntables will store list, tuple and dict as strings in a VARCHAR column.",
+        "create_temp_table \u2013 (Deprecated) The to-be-created table will be temporary if this is set to True. Note\nthat to avoid breaking changes, currently when this is set to True, it overrides table_type.",
+        "overwrite \u2013 Default value is False and the pandas DataFrame data is appended to the existing table. If set to True and if auto_create_table is also set to True,\nthen it drops the table. If set to True and if auto_create_table is set to False,\nthen it truncates the table. Note that in both cases (when overwrite is set to True) it will replace the existing\ncontents of the table with that of the passed in pandas DataFrame.",
+        "table_type \u2013 The table type of table to be created. The supported values are: temp, temporary,\nand transient. An empty string means to create a permanent table. Learn more about table types\nhere.",
+        "use_logical_type \u2013 Boolean that specifies whether to use Parquet logical types when reading the parquet files\nfor the uploaded pandas dataframe. With this file format option, Snowflake can interpret Parquet logical\ntypes during data loading. To enable Parquet logical types, set use_logical_type as True. Set to None to\nuse Snowflakes default. For more information, see:\nfile format options:.",
+        "Example:",
+        "Note",
+        "1. Unless auto_create_table is True, you must first create a table in\nSnowflake that the passed in pandas DataFrame can be written to. If\nyour pandas DataFrame cannot be written to the specified table, an\nexception will be raised.",
+        "2. If the dataframe is Snowpark pandas DataFrame\nor Series, it will call\nmodin.pandas.DataFrame.to_snowflake\nor modin.pandas.Series.to_snowflake\ninternally to write a Snowpark pandas DataFrame into a Snowflake table.",
+        "3. If the input pandas DataFrame has datetime64[ns, tz] columns and auto_create_table is set to True,\nthey will be converted to TIMESTAMP_LTZ in the output Snowflake table by default.\nIf TIMESTAMP_TZ is needed for those columns instead, please manually create the table before loading data.",
+        "Was this page helpful?"
+    ]
+}

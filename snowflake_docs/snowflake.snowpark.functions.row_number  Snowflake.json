@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.row_number",
+    "title": "snowflake.snowpark.functions.row_number | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a unique row number for each row within a window partition.\nThe row number starts at 1 and continues up sequentially.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

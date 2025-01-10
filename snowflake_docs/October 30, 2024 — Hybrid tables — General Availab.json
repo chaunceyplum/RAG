@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-10-30-hybrid-tables-ga",
+    "title": "October 30, 2024 \u2014 Hybrid tables \u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, Snowflake is pleased to announce the general availability of hybrid tables in commercial\nAWS regions. Hybrid tables simplify application development by\nsupporting execution of both transactional and analytics use cases within a single database.",
+        "For more information, see Hybrid tables.",
+        "Was this page helpful?"
+    ]
+}

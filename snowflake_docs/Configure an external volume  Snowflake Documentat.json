@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/tables-iceberg-configure-external-volume",
+    "title": "Configure an external volume | Snowflake Documentation",
+    "paragraphs": [
+        "An external volume is a named, account-level Snowflake object that you use to connect Snowflake to your\nexternal cloud storage for Iceberg tables. An external volume stores an identity and access management (IAM) entity\nfor your storage location. Snowflake uses the IAM entity to securely connect to your storage for accessing\ntable data, Iceberg metadata, and manifest files that store the table schema, partitions, and other metadata.",
+        "A single external volume can support one or more Iceberg tables.",
+        "You must create an external volume before you can create an Apache Iceberg\u2122 table in Snowflake.",
+        "The steps to create an external volume depend on your cloud storage provider.",
+        "For instructions, see the following topics:",
+        "Amazon S3",
+        "Google Cloud Storage",
+        "Azure Storage",
+        "S3-compatible storage",
+        "Each external volume is associated with a particular Active storage location,\nand a single external volume can support multiple Iceberg tables. However, the number of external volumes you need depends on how you want to store,\norganize, and secure your table data.",
+        "You can use a single external volume if you want the data and metadata\nfor all of your Snowflake-Iceberg tables in subdirectories under the same storage location (for example, in the same S3 bucket).\nTo configure these directories for Snowflake-managed tables, see Data and metadata directories.",
+        "Alternatively, you can create multiple external volumes to secure various storage locations differently. For example,\nyou might create the following external volumes:",
+        "A read-only external volume for externally managed Iceberg tables.",
+        "An external volume configured with read and write access for Snowflake-managed tables.",
+        "To check that Snowflake can successfully authenticate to your storage provider using an external volume that you\u2019ve configured,\ncall the SYSTEM$VERIFY_EXTERNAL_VOLUME\nfunction.",
+        "Specify the name of the external volume that you want to verify.",
+        "To set an existing external volume as the default to use for Iceberg tables,\nyou can set the EXTERNAL_VOLUME parameter at the following levels:",
+        "Account administrators can use the ALTER ACCOUNT command to set the parameter for the account.\nIf the value is set for the account, all Iceberg tables created in the account read from and write to this external volume by default.",
+        "Users can execute the appropriate CREATE <object> or ALTER <object> command\nto override the EXTERNAL_VOLUME parameter value at the database or schema level.\nThe lowest-scoped declaration is used: schema > database > account.",
+        "In addition to the minimum privileges required to modify an object using the appropriate ALTER <object_type> command,\na role must have the USAGE privilege on the external volume.",
+        "Note",
+        "Changes to the EXTERNAL_VOLUME parameter only apply to tables created after the change. Existing tables continue to use the external\nvolume specified when they were created.",
+        "The following statement sets an external volume (my_s3_vol) for a database named my_database_1:",
+        "After setting an external volume at the database level, you can create an Iceberg table in that database\nwithout specifying an external volume. The following statement creates an Iceberg table in my_database_1\nthat uses Snowflake as the catalog and uses the default external volume (my_s3_vol) set for the database.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

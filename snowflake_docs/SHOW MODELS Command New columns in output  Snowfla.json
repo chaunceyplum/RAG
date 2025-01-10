@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_05/bcr-1653",
+    "title": "SHOW MODELS Command: New columns in output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_05 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, the output of the SHOW MODELS\ncommand includes the following new columns:",
+        "Column Name",
+        "Description",
+        "model_type",
+        "The type of the model. Possible values are:",
+        "USER_MODEL: A Python model in the Snowflake Model Registry",
+        "CORTEX_FINETUNED: A fine-tuned Cortex LLM model",
+        "aliases",
+        "A SQL object whose keys are model version aliases and whose values are the corresponding model version names.\nThe keys include aliases you have created using ALTER MODEL as well as\nany system aliases (DEFAULT, FIRST, or LAST) that apply to the model version.",
+        "If a model version has no aliases, this column contains an empty object, {}, rather than NULL.",
+        "The model_type column is added as the third column of the output, immediately following name. The aliases\ncolumn is added to the end.",
+        "Ref: 1653",
+        "Was this page helpful?"
+    ]
+}

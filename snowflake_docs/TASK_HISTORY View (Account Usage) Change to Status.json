@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_01/bcr-899",
+    "title": "TASK_HISTORY View (Account Usage): Change to Status for Failed and Auto-suspended Tasks | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The Account Usage TASK_HISTORY view has changed as follows when examining a\ntask that has been auto-suspended by hitting its SUSPEND_TASK_AFTER_NUM_FAILURES limit:",
+        "The task displayed the state FAILED.",
+        "The task displays the state FAILED_AND_AUTO_SUSPENDED.",
+        "Ref: 899",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/udf-stored-procedure-guidelines",
+    "title": "Design Guidelines and Constraints for Functions and Procedures | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes constraints and guidelines to keep in mind when writing UDFs and stored procedures.",
+        "Choose whether to have your handler code in-line or packaged in a separate file.",
+        "Ensure stability within the Snowflake environment by developing within constraints described in this topic.",
+        "Learn the rules for naming and overloading procedures and UDFs.",
+        "Specify the arguments for your procedures and UDFs.",
+        "Choose the best data types for argument and return values in handler code.",
+        "Make your handler or its dependencies available for use at runtime on Snowflake.",
+        "Help your handler code execute securely using these best practices.",
+        "Ensure that sensitive information is concealed from users who should not have access to it.",
+        "Learn about the pushdown optimization that makes queries more efficient, but which can also expose data that you might not want to be\nvisible.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

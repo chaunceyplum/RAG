@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.task.dagv1.DAG",
+    "title": "snowflake.core.task.dagv1.DAG | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: object",
+        "A graph of tasks composed of a single root task and additional tasks, organized by their dependencies.",
+        "Snowflake doesn\u2019t have a first-class task graph entity, so this is a client-side object representation which\nmanages Task relationship. A root Task and its successors logically form a task graph or DAG\n(Directed Acyclic Graph).  Refer to\nTask graphs.",
+        "When a task graph is deployed, all child tasks are created in Snowflake. A dummy Task is created as the root.\nA task\u2019s predecessor is the dummy task if it\u2019s added to the task graph with no other predecessors.",
+        "Example",
+        "Refer to snowflake.core.task.Task for the details of each property.",
+        "Attributes",
+        "Returns a list of tasks this task graph has.",
+        "Methods",
+        "Add a child task to this task graph.",
+        "task (DAGTask) \u2013 The child task to be added to this task graph.",
+        "Examples",
+        "Add a task to previously created DAG",
+        "Get the finalizer task for the dag.",
+        "Examples",
+        "Get the finalizer task from previously created DAG:",
+        "Get a child task from this task graph based on task name.",
+        "task_name (str) \u2013 The name of the task to be retrieved from this task graph.",
+        "Examples",
+        "Get a task from previously created DAG",
+        "Was this page helpful?"
+    ]
+}

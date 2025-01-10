@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_02/bcr-943",
+    "title": "Stored Procedures: put_stream Uses Different Way to Get the File Name | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_02 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The way you use put_stream inside stored procedures to upload files to a stage has changed and now aligns with the put_stream\nprotocol to Snowpark Python client.",
+        "Uploading files using put_stream from stored procedures was called using a stage_prefix and an input_stream. The stored\nprocedure infered the file name from input_stream using input_stream.name and uploading it to the stage_prefix.put_stream\nwould break in the case where input_stream did not have the name attribute. This behavior differed from put_stream on\nthe Snowpark Python client.",
+        "Uploading files using put_stream from stored procedures is called using a stage_location = stage_prefix + / + file_name,\nand an input_stream. The stored procedure infers the file name using stage_location. This would work in the case where\ninput_stream does not have a name attribute and the behavior also aligns with the Snowpark Python client.",
+        "Note",
+        "Customers using put_stream without a full stage location should update their code to upload files using a full stage location with\nstage prefix and target file name.",
+        "Ref: 943",
+        "Was this page helpful?"
+    ]
+}

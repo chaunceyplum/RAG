@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/try_to_double",
+    "title": "TRY_TO_DOUBLE | Snowflake Documentation",
+    "paragraphs": [
+        "Conversion functions",
+        "A special version of TO_DOUBLE that performs the same operation (that is,\nconverts an input expression to a double-precision floating-point number), but\nwith error-handling support (that is, if the conversion can\u2019t be performed, it\nreturns a NULL value instead of raising an error).",
+        "For more information, see Error-handling conversion functions.",
+        "An expression of a character type.",
+        "If the expression evaluates to a string, then the function accepts\nan optional format model. Format models are described at\nSQL format models. The format model\nspecifies the format of the input string, not the format of the\noutput value.",
+        "The function only accepts string expressions.",
+        "Strings are converted as decimal integer or fractional numbers,\nscientific notation and special values (nan, inf, infinity)\nare accepted.",
+        "This function returns a value of FLOAT data type.",
+        "If there is a conversion error, the function returns NULL.",
+        "This example uses the TRY_TO_DOUBLE function:",
+        "For additional examples, see TO_DOUBLE.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

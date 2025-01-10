@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.external_volume.Encryption",
+    "title": "snowflake.core.external_volume.Encryption | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: BaseModel",
+        "A model object representing the Encryption resource.",
+        "Constructs an object of type Encryption with the provided properties.",
+        "type (str) \u2013 Specifies the encryption type used.",
+        "kms_key_id (str, optional) \u2013 Specifies the ID for the Cloud KMS-managed key used to encrypt files written to the bucket.",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of Encryption from a dict.",
+        "Create an instance of Encryption from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

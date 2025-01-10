@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/snowflake-scripting/while",
+    "title": "WHILE (Snowflake Scripting) | Snowflake Documentation",
+    "paragraphs": [
+        "A WHILE loop iterates while a specified condition is true.",
+        "For more information on loops, see Working with loops.",
+        "Note",
+        "This Snowflake Scripting construct is valid only within a\nSnowflake Scripting block.",
+        "BREAK, CONTINUE",
+        "Where:",
+        "An expression that evaluates to a BOOLEAN.",
+        "A statement can be any of the following:",
+        "A single SQL statement (including CALL).",
+        "A control-flow statement (for example, a looping or\nbranching statement).",
+        "A nested block.",
+        "An optional label. Such a label can be a jump target for a BREAK or\nCONTINUE statement. A label must follow the naming rules for\nObject identifiers.",
+        "Put parentheses around the condition in the WHILE. For example: WHILE ( <condition> ).",
+        "If the condition never evaluates to FALSE, and the loop doesn\u2019t contain a\nBREAK (Snowflake Scripting) command (or equivalent), then the loop will run and consume credits\nindefinitely.",
+        "If the condition is NULL, then it is treated as FALSE.",
+        "A loop can contain multiple statements. You can use, but are not required to use, a BEGIN \u2026 END\nblock to contain those statements.",
+        "Pair the keyword DO with END WHILE, and pair the keyword LOOP with END LOOP.\nFor example:",
+        "This example uses a loop to calculate a power of 2. The counter variable is the loop counter. The\npower_of_2 variable stores the most recent power of 2 that was calculated. (This is an inefficient\nsolution, but it demonstrates looping.)",
+        "Call the stored procedure:",
+        "This example uses a loop and the DATEADD function to add a day to a date\nuntil the condition is met.",
+        "For more examples, see WHILE loop.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

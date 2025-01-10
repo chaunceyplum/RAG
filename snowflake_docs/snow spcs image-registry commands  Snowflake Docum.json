@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/spcs-commands/image-registry-commands/overview",
+    "title": "snow spcs image-registry commands | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Note",
+        "You can use Snowpark Container Services from Snowflake CLI only if you have the necessary permissions to use Snowpark Container Services.",
+        "Snowflake CLI provides the following commands for managing image registries:",
+        "snow spcs image-registry login",
+        "snow spcs image-registry token",
+        "snow spcs image-registry url",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.udtf.UDTFRegistration.register",
+    "title": "snowflake.snowpark.udtf.UDTFRegistration.register | Snowflake Documentation",
+    "paragraphs": [
+        "Registers a Python class as a Snowflake Python UDTF and returns the UDTF.\nThe usage, input arguments, and return value of this method are the same as\nthey are for udtf(), but register()\ncannot be used as a decorator. See examples in\nUDTFRegistration.",
+        "handler \u2013 A Python class used for creating the UDTF.",
+        "output_schema \u2013 A list of column names, or a StructType instance that represents the table function\u2019s columns, or a PandasDataFrameType instance for vectorized UDTF.\nIf a list of column names is provided, the process method of the handler class must have a return type hint to indicate the output schema data types.",
+        "input_types \u2013 A list of DataType\nrepresenting the input data types of the UDTF. Optional if\ntype hints are provided.",
+        "input_names \u2013 A list of str representing the input column names of the UDTF, this only applies to vectorized UDTF and is essentially a noop for regular UDTFs. If unspecified, default column names will be\nARG1, ARG2, etc.",
+        "name \u2013 A string or list of strings that specify the name or fully-qualified\nobject identifier (database name, schema name, and function name) for\nthe UDTF in Snowflake.\nIf it is not provided, a name will be automatically generated for the UDTF.\nA name must be specified when is_permanent is True.",
+        "is_permanent \u2013 Whether to create a permanent UDTF. The default is False.\nIf it is True, a valid stage_location must be provided.",
+        "stage_location \u2013 The stage location where the Python file for the UDTF\nand its dependencies should be uploaded. The stage location must be specified\nwhen is_permanent is True, and it will be ignored when\nis_permanent is False. It can be any stage other than temporary\nstages and external stages.",
+        "imports \u2013 A list of imports that only apply to this UDTF. You can use a string to\nrepresent a file path (similar to the path argument in\nadd_import()) in this list, or a tuple of two\nstrings to represent a file path and an import path (similar to the import_path\nargument in add_import()). These UDTF-level imports\nwill override the session-level imports added by\nadd_import().",
+        "packages \u2013 A list of packages that only apply to this UDTF. These UDTF-level packages\nwill override the session-level packages added by\nadd_packages() and\nadd_requirements(). To use Python packages that are not available\nin Snowflake, refer to custom_package_usage_config().",
+        "replace \u2013 Whether to replace a UDTF that already was registered. The default is False.\nIf it is False, attempting to register a UDTF with a name that already exists\nresults in a SnowparkSQLException exception being thrown. If it is True,\nan existing UDTF with the same name is overwritten.",
+        "if_not_exists \u2013 Whether to skip creation of a UDTF when one with the same signature already exists.\nThe default is False. if_not_exists and replace are mutually exclusive\nand a ValueError is raised when both are set. If it is True and a UDTF with\nthe same signature exists, the UDTF creation is skipped.",
+        "session \u2013 Use this session to register the UDTF. If it\u2019s not specified, the session that you created before calling this function will be used.\nYou need to specify this parameter if you have created multiple sessions before calling this method.",
+        "parallel \u2013 The number of threads to use for uploading UDTF files with the\nPUT\ncommand. The default value is 4 and supported values are from 1 to 99.\nIncreasing the number of threads can improve performance when uploading\nlarge UDTF files.",
+        "strict \u2013 Whether the created UDTF is strict. A strict UDTF will not invoke the UDTF if any input is\nnull. Instead, a null value will always be returned for that row. Note that the UDTF might\nstill return null for non-null inputs.",
+        "secure \u2013 Whether the created UDTF is secure. For more information about secure functions,\nsee Secure UDFs.",
+        "statement_params \u2013 Dictionary of statement level parameters to be set while executing this action.",
+        "external_access_integrations \u2013 The names of one or more external access integrations. Each\nintegration you specify allows access to the external network locations and secrets\nthe integration specifies.",
+        "secrets \u2013 The key-value pairs of string types of secrets used to authenticate the external network location.\nThe secrets can be accessed from handler code. The secrets specified as values must\nalso be specified in the external access integration and the keys are strings used to\nretrieve the secrets using secret API.",
+        "immutable \u2013 Whether the UDTF result is deterministic or not for the same input.",
+        "max_batch_size \u2013 The maximum number of rows per input pandas DataFrame or pandas Series\ninside a vectorized UDTF. Because a vectorized UDTF will be executed within a time limit,\nwhich is 60 seconds, this optional argument can be used to reduce the running time of\nevery batch by setting a smaller batch size. Note that setting a larger value does not\nguarantee that Snowflake will encode batches with the specified number of rows. It will\nbe ignored when registering a non-vectorized UDTF.",
+        "comment \u2013 Adds a comment for the created object. See\nCOMMENT",
+        "copy_grants \u2013 Specifies to retain the access privileges from the original function when a new function is created\nusing CREATE OR REPLACE FUNCTION.",
+        "See also",
+        "udtf()",
+        "register_from_file()",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1260",
+    "title": "TABLES view (Account Usage and Information Schema): New column and column values | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The version of the TABLES view for Account Usage and Information Schema is as follows:",
+        "For Account Usage TABLES view and  Information Schema TABLES view, a value of EVENT_TABLE for the TABLE_TYPE column is not available.",
+        "For Account Usage TABLES view:",
+        "A new value of EVENT TABLE for the TABLE_TYPE column is enabled. The value indicates whether the table is an event table. See Setting up an Event Table.",
+        "For Information Schema TABLES view:",
+        "A new value of EVENT TABLE for the TABLE_TYPE column is enabled. The value indicates whether the table is an event table. See Setting up an Event Table.",
+        "A new IS_TEMPORARY column is enabled:",
+        "Column Name",
+        "Data Type",
+        "Description",
+        "IS_TEMPORARY",
+        "TEXT",
+        "Indicates whether this is a temporary table. Valid values are YES and NO.",
+        "Ref: 1260",
+        "Was this page helpful?"
+    ]
+}

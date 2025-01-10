@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-969",
+    "title": "Snowsight: Default Interface for All Users of Snowflake On Demand\u2122 | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Customers of Snowflake On Demand accounts default to Snowsight.",
+        "Users could choose which web interface is the default experience for their user profile within an account. After logging in, users see\nthe web interface specified as the default experience, Classic Console or Snowsight.",
+        "For Snowflake On Demand customers, all users in an account see Snowsight after logging in.",
+        "Users can no longer choose Classic Console as the default experience for their user profile. If needed, users can access\nClassic Console from Snowsight.",
+        "Note",
+        "Where possible, customers using private connectivity to connect to Snowsight have been proactively excluded from this behavior\nchange. For more information, see\nPreparing Private Connectivity for Snowsight\n(in the Snowflake Community)",
+        "Ref: 969",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_05/bcr-1178",
+    "title": "Materialized Views: Failed Refresh Invalidates a Materialized View | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_05 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Materialized views are updated automatically on a regular basis by a background process.",
+        "Currently, if the refresh of a materialized view fails, the data for the materialized view is not updated, and the background\nprocess continues to attempt to refresh the materialized view periodically.",
+        "If the failure is due to a problem that will continue to occur (e.g. a division by zero error that is caused by the materialized\nview definition or the data), the background process will continually fail to refresh the materialized view, and the data for the\nmaterialized view will not be updated.",
+        "In the current release, specific types of errors during the refresh process invalidate the materialized view. In addition:",
+        "When you query the materialized view, the output will include the reason for the invalidation.",
+        "The output of the SHOW MATERIALIZED VIEWS command will include the reason why the materialized view\nwas invalidated.",
+        "Using the information from the output of these commands, address the problem with the materialized view, and execute the\nALTER MATERIALIZED VIEW \u2026 RESUME command to resume the materialized view.",
+        "In summary, the process of refreshing and querying the materialized view changed as described below:",
+        "The background process fails to refresh the materialized view.",
+        "Although the data in the materialized view is out of date, the output from querying the materialized view does not indicate\nthat the data is stale.",
+        "When you execute the SHOW MATERIALIZED VIEWS command, the refreshed_on column indicates that the data is out of date, but the\noutput does not include a reason for this.",
+        "The background process invalidates the materialized view.",
+        "Querying the materialized view results in an error that indicates why the refresh process failed to update the materialized\nview. For example:",
+        "When you execute the SHOW MATERIALIZED VIEWS command, the invalid column indicates that the materialized view is invalid,\nand the invalid_reason column contains the reason for the invalidation. For example:",
+        "For example, suppose that you execute the following statements to create a materialized view:",
+        "Suppose that you insert data into the table that will cause the refresh of the materialized view to fail. For example, suppose\nthat you execute the following statement:",
+        "When the materialized view is refreshed next, the refresh will fail with a \u201cdivision by zero\u201d error. Because the refresh fails,\nthe materialized view will be invalidated.",
+        "To view the reason for the invalidation, query the materialized view or execute the SHOW MATERIALIZED VIEWS command:",
+        "Address the problem that caused the invalidation, and execute the ALTER MATERIALIZED VIEW \u2026 RESUME command to resume the\nmaterialized view:",
+        "Ref: 1178",
+        "Was this page helpful?"
+    ]
+}

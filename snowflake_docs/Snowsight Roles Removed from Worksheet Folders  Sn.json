@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_03/bcr-1025",
+    "title": "Snowsight: Roles Removed from Worksheet Folders | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "Folders used to organize worksheets in Snowsight will not have roles assigned.\nThis change affects all customers that use folders to organize worksheets in Snowsight.",
+        "Folders used to organize worksheets in Snowsight are assigned roles, and the role for the folder applies to all worksheets in the folder.",
+        "Folders used to organize worksheets in Snowsight do not have assigned roles. Worksheets keep their previously assigned roles.\nA worksheet in a folder can be assigned a different role than other worksheets in the same folder.",
+        "Ref: 1025",
+        "Was this page helpful?"
+    ]
+}

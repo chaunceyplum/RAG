@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/ui-snowsight/notebooks-limitations",
+    "title": "Limitations with Notebooks | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Generally available in Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP) commercial regions.",
+        "This topic describes unsupported features and limitations of Snowflake Notebooks.",
+        "Only one executable ipynb file is permitted within each notebook. Multiple executables are not permitted.",
+        "You cannot use the GRANT OWNERSHIP or USAGE commands to grant ownership\nor usage on a notebook to a different role.",
+        "Streamlit components and widgets, such as slider values, do not retain their state if you refresh the browser window, open the notebook\nin a new tab, or close and reopen the current tab.",
+        "UNDROP <object> is not supported for Snowflake Notebooks. After you drop a notebook, it cannot be restored.",
+        "When you create a notebook from a repository, only the selected notebook is executable. Any other notebooks in the\nrepository can be selected and edited, but they are not executable.",
+        "Notebooks cannot be created or executed by SNOWFLAKE database roles.",
+        "Notebooks do not support replication.",
+        "Renaming a notebook will invalidate the notebook URL.",
+        "Snowflake Notebooks are hosted in a third-party domain to provide increased security. In Safari, you must enable third-party cookies to\nallow reconnection to a running notebook after losing a connection. To enable this setting, in Safari select\nSettings \u00bb Privacy, and then clear the Prevent cross-site tracking checkbox.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

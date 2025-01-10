@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.notification_integration",
+    "title": "snowflake.core.notification_integration | Snowflake Documentation",
+    "paragraphs": [
+        "Manages Snowflake Notification Integrations.",
+        "Classes",
+        "NotificationHook()",
+        "A model object representing the NotificationHook resource.",
+        "NotificationEmail(*[,\u00a0allowed_recipients,\u00a0...])",
+        "A model object representing the NotificationEmail resource.",
+        "NotificationWebhook(*,\u00a0webhook_url[,\u00a0...])",
+        "A model object representing the NotificationWebhook resource.",
+        "NotificationQueueAwsSnsOutbound(*[,\u00a0...])",
+        "A model object representing the NotificationQueueAwsSnsOutbound resource.",
+        "NotificationQueueAzureEventGridOutbound(*[,\u00a0...])",
+        "A model object representing the NotificationQueueAzureEventGridOutbound resource.",
+        "NotificationQueueGcpPubsubOutbound(*[,\u00a0...])",
+        "A model object representing the NotificationQueueGcpPubsubOutbound resource.",
+        "NotificationQueueAzureEventGridInbound(*[,\u00a0...])",
+        "A model object representing the NotificationQueueAzureEventGridInbound resource.",
+        "NotificationQueueGcpPubsubInbound(*[,\u00a0...])",
+        "A model object representing the NotificationQueueGcpPubsubInbound resource.",
+        "NotificationIntegration(*,\u00a0name[,\u00a0enabled,\u00a0...])",
+        "A model object representing the NotificationIntegration resource.",
+        "NotificationIntegrationCollection(root)",
+        "Represents the collection operations on the Snowflake Notification Integration resource.",
+        "NotificationIntegrationResource(name,\u00a0collection)",
+        "Represents a reference to a Snowflake Notification Integration resource.",
+        "WebhookSecret(*,\u00a0name,\u00a0database_name,\u00a0...)",
+        "A model object representing the WebhookSecret resource.",
+        "Was this page helpful?"
+    ]
+}

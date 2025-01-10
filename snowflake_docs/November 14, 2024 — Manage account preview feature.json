@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-11-14-manage-preview",
+    "title": "November 14, 2024 \u2014 Manage account preview features \u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake is pleased to announce the General Availability of account level management of preview features.\nWith this capability, account administrators can enable, disable and view the status of preview features within their account.",
+        "For additional details, see:",
+        "SYSTEM$DISABLE_PREVIEW_ACCESS",
+        "SYSTEM$ENABLE_PREVIEW_ACCESS",
+        "SYSTEM$GET_PREVIEW_ACCESS_STATUS",
+        "Was this page helpful?"
+    ]
+}

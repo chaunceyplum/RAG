@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/regr_valx",
+    "title": "REGR_VALX | Snowflake Documentation",
+    "paragraphs": [
+        "Conditional expression functions",
+        "Returns NULL if the first argument is NULL; otherwise, returns the second argument.",
+        "Note that REGR_VALX is a NULL-preserving function, while the more commonly-used NVL is a NULL-replacing function.",
+        "An expression that evaluates to type DOUBLE or that can be cast to DOUBLE.",
+        "An expression that evaluates to type DOUBLE or that can be cast to DOUBLE.",
+        "Important",
+        "Note the order of the arguments; y precedes x.",
+        "Returns a value of type DOUBLE.",
+        "Basic example:",
+        "This example is similar to the preceding example, but shows more clearly that the convention is to pass the Y\nvalue first. It also shows the difference between REGR_VALX and REGR_VALY:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

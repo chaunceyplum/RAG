@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_geometryfromwkt",
+    "title": "ST_GEOMETRYFROMWKT | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions, Conversion functions",
+        "Parses a\nWKT (well-known text) or EWKT (extended well-known\ntext) input and returns a value of type GEOMETRY.",
+        "ST_GEOMFROMWKT , ST_GEOMETRYFROMEWKT , ST_GEOMFROMEWKT , ST_GEOMETRYFROMTEXT , ST_GEOMFROMTEXT",
+        "TO_GEOMETRY",
+        "Required:",
+        "The argument must be a string expression in WKT or EWKT that represents a valid geospatial object.",
+        "Optional:",
+        "The integer value of the SRID to use.",
+        "If TRUE, specifies that the function should return a GEOGRAPHY or GEOMETRY object, even when the input shape is invalid and\ncannot be repaired. For details, refer to Specifying how invalid geospatial shapes are handled.",
+        "The function returns a value of type GEOMETRY.",
+        "Issues an error if the input cannot be parsed as WKT or EWKT.",
+        "For WKT input, if the srid argument is not specified, the resulting GEOMETRY object has the SRID set to 0.",
+        "The following example returns the GEOMETRY object for a geospatial object described in EWKT format:",
+        "The following example returns the GEOMETRY object for a geospatial object with a Z coordinate described in EWKT format:",
+        "In the next example, the input is in WKT format, and the function call specifies the SRID to use:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

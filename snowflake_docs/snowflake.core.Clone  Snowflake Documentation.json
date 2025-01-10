@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.Clone",
+    "title": "snowflake.core.Clone | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: BaseModel",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises ValidationError if the input data cannot be parsed to form a valid model.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.bitshiftleft",
+    "title": "snowflake.snowpark.functions.bitshiftleft | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the bitwise negation of a numeric expression.",
+        "Example",
+        "Was this page helpful?"
+    ]
+}

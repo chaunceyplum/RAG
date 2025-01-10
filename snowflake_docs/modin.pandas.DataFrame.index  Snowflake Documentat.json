@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.index",
+    "title": "modin.pandas.DataFrame.index | Snowflake Documentation",
+    "paragraphs": [
+        "Get the index for this Series/DataFrame.",
+        "The index for this Series/DataFrame.",
+        "Index",
+        "Note",
+        "When setting DataFrame.index or Series.index where the length of the\nSeries/DataFrame object does not match with the new index\u2019s length,\npandas raises a ValueError. Snowpark pandas does not raise this error;\nthis operation is valid.\nWhen the Series/DataFrame object is longer than the new index,\nthe Series/DataFrame\u2019s new index is filled with NaN values for\nthe \u201cextra\u201d elements. When the Series/DataFrame object is shorter than\nthe new index, the extra values in the new index are ignored\u2014Series and\nDataFrame stay the same length n, and use only the first n values of\nthe new index.",
+        "Was this page helpful?"
+    ]
+}

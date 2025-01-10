@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.procedure.PythonFunction",
+    "title": "snowflake.core.procedure.PythonFunction | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: BaseLanguage",
+        "A model object representing the PythonFunction resource.",
+        "Constructs an object of type PythonFunction with the provided properties.",
+        "runtime_version (str) \u2013 Runtime version of the function\u2019s/procedure\u2019s specified language",
+        "packages (List[str]) \u2013 Packages to include with the function/procedure",
+        "handler (str) \u2013 Fully qualified method name including the package and the class",
+        "imports (List[str], optional) \u2013 List of imports",
+        "external_access_integrations (List[str], optional) \u2013 List of external access integrations attached to this function/procedure",
+        "secrets (str, optional) \u2013 Secrets to be used with this function/procedure for external access",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of PythonFunction from a dict.",
+        "Create an instance of PythonFunction from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

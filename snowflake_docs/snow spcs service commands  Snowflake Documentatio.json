@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/spcs-commands/service-commands/overview",
+    "title": "snow spcs service commands | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Note",
+        "You can use Snowpark Container Services from Snowflake CLI only if you have the necessary permissions to use Snowpark Container Services.",
+        "Snowflake CLI supports the following commands for managing services:",
+        "snow spcs service create",
+        "snow spcs service describe",
+        "snow spcs service drop",
+        "snow spcs service list",
+        "snow spcs service list-containers",
+        "snow spcs service list-endpoints",
+        "snow spcs service list-instances",
+        "snow spcs service list-roles",
+        "snow spcs service logs",
+        "snow spcs service resume",
+        "snow spcs service set",
+        "snow spcs service status",
+        "snow spcs service suspend",
+        "snow spcs service unset",
+        "snow spcs service upgrade",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

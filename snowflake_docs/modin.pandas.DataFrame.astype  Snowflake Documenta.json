@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.astype",
+    "title": "modin.pandas.DataFrame.astype | Snowflake Documentation",
+    "paragraphs": [
+        "Cast a pandas object to a specified dtype dtype.",
+        "dtype (str, data type, Series or Mapping of column name -> data type) \u2013 Use a str, numpy.dtype, pandas.ExtensionDtype or Python type to\ncast entire pandas object to the same type. Alternatively, use a\nmapping, e.g. {col: dtype, \u2026}, where col is a column label and dtype is\na numpy.dtype or Python type to cast one or more of the DataFrame\u2019s\ncolumns to column-specific types.",
+        "copy (bool, default True) \u2013 Return a copy (i.e., a new object) when copy=True; otherwise, astype\noperates inplace  (be very careful setting copy=False as changes to\nvalues then may propagate to other pandas objects).",
+        "errors ({'raise', 'ignore'}, default 'raise') \u2013",
+        "Control raising of exceptions on invalid data for provided dtype.",
+        "raise : allow exceptions to be raised",
+        "ignore : suppress exceptions. On error return original object.",
+        "",
+        "same type as caller (Snowpark pandas DataFrame or Snowpark pandas Series)",
+        "Examples",
+        "Create a DataFrame:",
+        "Cast all columns to int32 (dtypes will be int64 since Snowpark pandas API will cast all integers to int64):",
+        "Cast col1 to float64 using a dictionary:",
+        "Create a series:",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/undrop",
+    "title": "UNDROP <object> | Snowflake Documentation",
+    "paragraphs": [
+        "Restores the specified object to the system.",
+        "CREATE <object> , DROP <object> , SHOW <objects>",
+        "For specific syntax, usage notes, and examples, see:",
+        "Organization Objects:",
+        "UNDROP ACCOUNT",
+        "Account Objects:",
+        "UNDROP DATABASE",
+        "Database Objects:",
+        "UNDROP DYNAMIC TABLE",
+        "UNDROP EXTERNAL VOLUME",
+        "UNDROP ICEBERG TABLE",
+        "UNDROP SCHEMA",
+        "UNDROP TABLE",
+        "UNDROP TAG",
+        "Not all DROP commands have a corresponding UNDROP.",
+        "UNDROP relies on the Snowflake Time Travel feature. An object can be restored only if\nthe object was deleted within the Data retention period. The default value is 24 hours.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

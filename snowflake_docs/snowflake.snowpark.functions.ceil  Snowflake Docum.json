@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.ceil",
+    "title": "snowflake.snowpark.functions.ceil | Snowflake Documentation",
+    "paragraphs": [
+        "Returns values from the specified column rounded to the nearest equal or larger\ninteger.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

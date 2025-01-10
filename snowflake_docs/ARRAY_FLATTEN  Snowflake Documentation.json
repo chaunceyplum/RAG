@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/array_flatten",
+    "title": "ARRAY_FLATTEN | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Array/Object)",
+        "Flattens an ARRAY of ARRAYs into a single ARRAY. The function effectively concatenates the ARRAYs that\nare elements of the input ARRAY and returns them as a single ARRAY.",
+        "The ARRAY of ARRAYs to flatten.",
+        "If any element of array is not an ARRAY, the function reports an error.",
+        "This function returns an ARRAY that is constructed by concatenating the ARRAYs in array.",
+        "If array is NULL or contains any elements that are NULL, the function returns NULL.",
+        "If array contains multiple levels of nested ARRAYs, the function only removes one level of nesting.",
+        "For example, if the input ARRAY is:",
+        "The function returns:",
+        "The following example flattens an ARRAY of ARRAYs. Each element in the input ARRAY is an ARRAY of numbers. The example flattens\nthe input ARRAY into an ARRAY containing the numbers as elements.",
+        "The following example flattens an ARRAY that contains ARRAYs containing ARRAYs. The function removes the first level of nesting.",
+        "The following example demonstrates that the function returns an error when an element of the input ARRAY is not an ARRAY.",
+        "The following example demonstrates that the function returns NULL when an element of the input ARRAY is NULL.",
+        "The following example demonstrates that the function flattens an ARRAY when an element of the input ARRAY is an ARRAY that\ncontains a NULL element.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

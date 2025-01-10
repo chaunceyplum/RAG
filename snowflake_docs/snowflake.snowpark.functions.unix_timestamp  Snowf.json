@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.unix_timestamp",
+    "title": "snowflake.snowpark.functions.unix_timestamp | Snowflake Documentation",
+    "paragraphs": [
+        "Converts a timestamp or a timestamp string to Unix time stamp (in seconds).",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.array_max",
+    "title": "snowflake.snowpark.functions.array_max | Snowflake Documentation",
+    "paragraphs": [
+        "Returns largest defined non-NULL element in the input array. If the input\narray is empty, or there is no defined element in the input array, then the\nfunction returns NULL.",
+        "array \u2013 the input array",
+        "a VARIANT containing the largest defined element in the array, or NULL",
+        "Was this page helpful?"
+    ]
+}

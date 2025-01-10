@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/vector_l1_distance",
+    "title": "VECTOR_L1_DISTANCE | Snowflake Documentation",
+    "paragraphs": [
+        "Vector similarity functions",
+        "Computes the L1 distance between two vectors.",
+        "L1 distance, also known as the Taxicab or Manhattan distance, is a measure of\nthe distance between two points in a vector space. The distance is calculated by\ntaking the sum of the absolute value of the differences of vector elements. The\nresult is a value of zero or higher. If the distance is zero, the vectors\nare identical. The larger the distance, the farther apart the vectors are.",
+        "VECTOR_INNER_PRODUCT , VECTOR_L2_DISTANCE , VECTOR_COSINE_SIMILARITY , Vector Embeddings",
+        "The VECTOR value to calculate the distance from.",
+        "The VECTOR value to calculate the distance to.",
+        "Returns the L1 distance between the two input vectors as a FLOAT value.",
+        "Due to computational optimizations in the vector comparison functions, floating-point errors may be slightly\nlarger than usual (e.g. about 1e-4).",
+        "This example uses the VECTOR_L1_DISTANCE function to determine which vectors in\nthe table are closest to each other between columns a and b:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

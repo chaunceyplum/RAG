@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.database",
+    "title": "snowflake.core.database | Snowflake Documentation",
+    "paragraphs": [
+        "Manages Snowflake Databases.",
+        "Classes",
+        "Database(name[,\u00a0created_on,\u00a0kind,\u00a0...])",
+        "A model object representing the Database resource.",
+        "DatabaseCollection(root)",
+        "Represents the collection operations on the Snowflake Database resource.",
+        "DatabaseResource(name,\u00a0collection)",
+        "Represents a reference to a Snowflake database.",
+        "Was this page helpful?"
+    ]
+}

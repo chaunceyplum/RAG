@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.table_function",
+    "title": "snowflake.snowpark.functions.table_function | Snowflake Documentation",
+    "paragraphs": [
+        "Create a function object to invoke a Snowflake table function.",
+        "function_name \u2013 The name of the table function.",
+        "Was this page helpful?"
+    ]
+}

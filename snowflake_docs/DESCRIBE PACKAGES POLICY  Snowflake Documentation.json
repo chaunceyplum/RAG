@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-packages-policy",
+    "title": "DESCRIBE PACKAGES POLICY | Snowflake Documentation",
+    "paragraphs": [
+        "Describes the details about a packages policy.",
+        "DESCRIBE can be abbreviated to DESC.",
+        "Specifies the identifier for the packages policy to describe. If the identifier contains spaces or special characters, the entire string must be\nenclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "For more details, see Identifier requirements.",
+        "A role used to execute this SQL command must have at least one of the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "OWNERSHIP",
+        "Packages policy",
+        "OWNERSHIP is a special privilege on an object that is automatically granted to the role that created the object, but can also be transferred using the GRANT OWNERSHIP command to a different role by the owning role (or any role with the MANAGE GRANTS privilege).",
+        "USAGE",
+        "Packages policy",
+        "Enables viewing a packages policy. Grants the ability to view the contents of a packages policy in\na SHOW or DESCRIBE command and INFORMATION_SCHEMA.CURRENT_PACKAGES_POLICY.\nCan be granted to a role using the GRANT <privileges> command.",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

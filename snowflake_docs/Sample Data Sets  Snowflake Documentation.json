@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/sample-data",
+    "title": "Sample Data Sets | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake provides sample data sets, such as the industry-standard TPC-DS and TPC-H benchmarks, for evaluating and testing a broad range of Snowflake\u2019s SQL support.",
+        "Sample data sets are provided in a database named SNOWFLAKE_SAMPLE_DATA that has been\nshared with your account from the Snowflake SFC_SAMPLES account.\nIf you do not see the database, you can create it yourself. Refer to Using the Sample Database.",
+        "The database contains a schema for each data set, with the sample data stored in the tables in each schema. The database and schemas\ndo not use any data storage so they do not incur storage charges for your account. You can execute queries on the tables in\nthese databases just as you would with any other databases in your account. Executing queries requires a running, current warehouse\nfor your session, which consumes credits.",
+        "Next Topics:",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.least",
+    "title": "snowflake.snowpark.functions.least | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the smallest value from a list of expressions.\nIf any of the argument values is NULL, the result is NULL.\nLEAST supports all data types, including VARIANT.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

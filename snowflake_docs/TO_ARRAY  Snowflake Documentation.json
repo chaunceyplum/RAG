@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/to_array",
+    "title": "TO_ARRAY | Snowflake Documentation",
+    "paragraphs": [
+        "Conversion functions , Semi-structured and structured data functions (Array/Object)",
+        "Converts the input expression to an ARRAY:",
+        "If the input is an ARRAY, or VARIANT containing an array value, the\nresult is unchanged.",
+        "For NULL or a JSON null input, returns NULL.",
+        "For any other value, the result is a single-element array containing this\nvalue.",
+        "An expression of any data type.",
+        "To create an array containing more than one value, you can use\nARRAY_CONSTRUCT.",
+        "This example shows how to use TO_ARRAY():",
+        "Create a simple table, and insert data by calling the TO_ARRAY function:",
+        "Execute a query showing the single-item arrays created during the insert,\nand also showing the result of calling ARRAY_CAT to concatenate the\ntwo arrays:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

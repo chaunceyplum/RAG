@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrameNaFunctions.replace",
+    "title": "snowflake.snowpark.DataFrameNaFunctions.replace | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a new DataFrame that replaces values in the specified columns.",
+        "to_replace \u2013 A scalar value, or a list of values or a dict that associates\nthe original values with the replacement values. If to_replace\nis a dict, value and subset are ignored. To replace a null\nvalue, use None in to_replace. To replace a NaN value, use\nfloat(\"nan\") in to_replace. If to_replace is empty,\nthe method returns the original DataFrame.",
+        "value \u2013 A scalar value, or a list of values for the replacement. If\nvalue is a list, value should be of the same length as\nto_replace. If value is a scalar and to_replace is a list,\nthen value is used as a replacement for each item in to_replace.",
+        "subset \u2013 A list of the names of columns in which the values should be\nreplaced. If cols is not provided or None, the replacement\nwill be applied to all columns. If cols is empty, the method\nreturns the original DataFrame.",
+        "Examples:",
+        "Note",
+        "If the type of a given value in to_replace or value doesn\u2019t match the\ncolumn data type (e.g. a float for StringType\ncolumn), this replacement will be skipped in this column. Especially,",
+        "int can replace or be replaced in a column with\nFloatType or\nDoubleType, but float cannot\nreplace or be replaced in a column with IntegerType\nor LongType.",
+        "None can replace or be replaced in a column with any data type.",
+        "See also",
+        "DataFrame.replace()",
+        "Was this page helpful?"
+    ]
+}

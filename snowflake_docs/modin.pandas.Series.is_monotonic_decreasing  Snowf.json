@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.is_monotonic_decreasing",
+    "title": "modin.pandas.Series.is_monotonic_decreasing | Snowflake Documentation",
+    "paragraphs": [
+        "Return boolean if values in the object are monotonically decreasing.",
+        "Whether or not the Series is monotonically decreasing.",
+        "bool",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

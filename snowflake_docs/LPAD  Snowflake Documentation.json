@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/lpad",
+    "title": "LPAD | Snowflake Documentation",
+    "paragraphs": [
+        "String & binary functions (General)",
+        "Left-pads a string with characters from another string, or left-pads a binary value with bytes from another binary value.",
+        "The argument (base) is left-padded to length length_expr with characters/bytes from the pad argument.",
+        "RPAD",
+        "A VARCHAR or BINARY value.",
+        "An expression that evaluates to an integer. It specifies:",
+        "The number of UTF-8 characters to return if the input is VARCHAR.",
+        "The number of bytes to return if the input is BINARY.",
+        "A VARCHAR or BINARY value. The type must match the data type of the base argument.\nCharacters (or bytes) from this argument are used to pad the base.",
+        "The data type of the returned value is the same as the data type of the base input value (VARCHAR or BINARY).",
+        "If the base argument is longer than length_expr, it is truncated to length length_expr.",
+        "The pad argument can be multiple characters/bytes long. The pad\nargument is repeated in the result until the desired length (length_expr) is\nreached, truncating any superfluous characters/bytes in the pad argument.\nIf the pad argument is empty, no padding is inserted, but the result is\nstill truncated to length length_expr.",
+        "When base is a string, the default pad string is ' ' (a single blank space). When\nbase is a binary value, the pad argument must be provided explicitly.",
+        "Collation applies to VARCHAR inputs. Collation doesn\u2019t apply if the input data type of the first argument\nis BINARY.",
+        "No impact.\nAlthough collation is accepted syntactically, collations have no impact on processing. For example, languages with\ntwo-character and three-character letters (for example, \u201cdzs\u201d in Hungarian, \u201cch\u201d in Czech) still count\nthose as two or three characters (not one character) for the length argument.",
+        "The collation of the result is the same as the collation of the input. This can be useful if the returned value is passed to another function as part of nested function calls.",
+        "Currently, Snowflake allows the base and pad arguments to have different collation specifiers.\nHowever, the individual collation specifiers can\u2019t both be retained because the returned value has only one\ncollation specifier. Snowflake recommends that you avoid using pad strings that have a different\ncollation from the base string.",
+        "These examples use the LPAD function to pad VARCHAR and BINARY data on the left.",
+        "Create and fill a table:",
+        "Query the table to show the data:",
+        "This example demonstrates left-padding of VARCHAR values using the LPAD function, with the\nresults limited to 10 characters:",
+        "This example demonstrates left-padding of BINARY values using the LPAD function, with the\nresults limited to 10 bytes:",
+        "This example shows left-padding when multiple characters are used and when\nthe padding isn\u2019t an even multiple of the length of the multi-character\nstring used for padding:",
+        "The output shows that 19 characters were returned, and the last * character doesn\u2019t have\nan accompanying _ character.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

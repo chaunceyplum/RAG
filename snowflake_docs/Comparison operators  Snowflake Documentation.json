@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/operators-comparison",
+    "title": "Comparison operators | Snowflake Documentation",
+    "paragraphs": [
+        "Comparison operators are used to test the equality of two input expressions. They are typically used in the WHERE clause of a query.",
+        "Operator",
+        "Syntax",
+        "Description",
+        "=",
+        "a = b",
+        "a is equal to b.",
+        "!=",
+        "a != b",
+        "a is not equal to b.",
+        "<>",
+        "a <> b",
+        "a is not equal to b.",
+        ">",
+        "a > b",
+        "a is greater than b.",
+        ">=",
+        "a >= b",
+        "a is greater than or equal to b.",
+        "<",
+        "a < b",
+        "a is less than b.",
+        "<=",
+        "a <= b",
+        "a is less than or equal to b.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

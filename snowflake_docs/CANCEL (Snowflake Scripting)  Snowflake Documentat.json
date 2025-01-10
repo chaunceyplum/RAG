@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/snowflake-scripting/cancel",
+    "title": "CANCEL (Snowflake Scripting) | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to all accounts.",
+        "Cancels an asynchronous child job that is running for a\nRESULTSET.",
+        "Note",
+        "This Snowflake Scripting construct is valid only within a\nSnowflake Scripting block.",
+        "AWAIT",
+        "Where:",
+        "The name of the RESULTSET.",
+        "An asynchronous child job is created for a RESULTSET when the ASYNC keyword is specified for the query.",
+        "If the child job for the RESULTSET has already completed, the CANCEL statement has no effect.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Session.get_fully_qualified_name_if_possible",
+    "title": "snowflake.snowpark.Session.get_fully_qualified_name_if_possible | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the fully qualified object name if current database/schema exists, otherwise returns the object name",
+        "Was this page helpful?"
+    ]
+}

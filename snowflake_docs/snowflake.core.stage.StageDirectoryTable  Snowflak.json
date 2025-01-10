@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.stage.StageDirectoryTable",
+    "title": "snowflake.core.stage.StageDirectoryTable | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: BaseModel",
+        "A model object representing the StageDirectoryTable resource.",
+        "Constructs an object of type StageDirectoryTable with the provided properties.",
+        "enable (bool,  default False) \u2013 Specifies whether to add a directory table to the stage. When the value is TRUE, a directory table is created with the stage.",
+        "refresh_on_create (bool,  default True) \u2013 Specifies whether to automatically refresh the directory table metadata once, immediately after the stage is created.",
+        "auto_refresh (bool,  default False) \u2013 Specifies whether Snowflake should enable triggering automatic refreshes of the directory table metadata when new or updated data files are available in the named external stage specified in the URL value.",
+        "notification_integration (str, optional) \u2013 Specifies the name of the notification integration used to automatically refresh the directory table metadata.",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of StageDirectoryTable from a dict.",
+        "Create an instance of StageDirectoryTable from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.simple_file_logging",
+    "title": "snowflake.core.simple_file_logging | Snowflake Documentation",
+    "paragraphs": [
+        "Set up snowflake.core logging to a file.",
+        "If path is not given the tempfile module will be used to determine the\nappropiate temporary location and a file named \u201csnowflake_core.log\u201d\nwill be created.\nThe parameter level controls what logging level is enabled in the file.\nThe format parameter allows to modify the formatter output in the file.",
+        "Was this page helpful?"
+    ]
+}

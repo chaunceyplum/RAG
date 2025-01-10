@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/show-databases-in-failover-group",
+    "title": "SHOW DATABASES IN FAILOVER GROUP | Snowflake Documentation",
+    "paragraphs": [
+        "Business Critical Feature",
+        "Requires Business Critical Edition (or higher). To inquire about upgrading, please contact Snowflake Support.",
+        "Lists databases in a failover group.",
+        "SHOW SHARES IN FAILOVER GROUP",
+        "Specifies the identifier for the failover group.",
+        "Executing this command requires a role with either the OWNERSHIP or MONITOR privilege on the failover group. The command\nreturns results only for a role with the MONITOR privilege on a database.",
+        "To retrieve the list of failover groups in your organization, use SHOW FAILOVER GROUPS.",
+        "List the databases in the failover group myfg:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

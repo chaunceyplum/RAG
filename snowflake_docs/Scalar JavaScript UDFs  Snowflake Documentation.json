@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/udf/javascript/udf-javascript-scalar-functions",
+    "title": "Scalar JavaScript UDFs | Snowflake Documentation",
+    "paragraphs": [
+        "This topic covers Scalar JavaScript UDFs (user-defined function).",
+        "A scalar JavaScript UDF returns one output row for each input row. The output row must contain only one column/value.",
+        "A basic example is in Introduction to JavaScript UDFs. Additional examples are below.",
+        "Note",
+        "Scalar functions (UDFs) have a limit of 500 input arguments.",
+        "This section contains examples of scalar JavaScript UDFs.",
+        "The following example shows that a JavaScript UDF can call itself (i.e. it can use recursion).",
+        "Create a recursive UDF:",
+        "Call the recursive UDF:",
+        "The following example shows a JavaScript UDF that throws a custom exception.",
+        "Create the function:",
+        "Create a table with valid and invalid values:",
+        "Call the function:",
+        "See Troubleshooting JavaScript UDFs.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

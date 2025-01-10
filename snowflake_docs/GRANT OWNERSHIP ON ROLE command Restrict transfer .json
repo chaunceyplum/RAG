@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/un-bundled/bcr-1781",
+    "title": "GRANT OWNERSHIP ON ROLE command: Restrict transfer of role ownership to itself (Canceled) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This BCR is canceled and removed from the 2024_08 Bundle (Disabled by Default).",
+        "When this behavior change bundle is enabled, the transfer of role ownership will be restricted as follows:",
+        "Users can grant ownership of a role to the role itself. For example, the following GRANT statement is allowed:",
+        "Users can no longer grant ownership of a role to the role itself. For example, the following GRANT statement returns an error:",
+        "Ref: 1781",
+        "Was this page helpful?"
+    ]
+}

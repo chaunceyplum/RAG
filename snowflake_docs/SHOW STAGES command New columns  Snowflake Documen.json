@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1131",
+    "title": "SHOW STAGES command: New columns | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the current Snowflake release, the following columns will be included in the output of the SHOW STAGES command:",
+        "Column Name",
+        "Data Type",
+        "Description",
+        "ENDPOINT",
+        "String",
+        "The S3-compatible API endpoint associated with the stage. The value is always NULL for stages that are not S3-compatible.",
+        "DIRECTORY_ENABLED",
+        "String",
+        "Indicates whether the stage has a directory table enabled. Values include Y (directory table is enabled) or N (not enabled).",
+        "These columns have been added to identify which external stages are configured for S3-compatible storage,\nand which stages have directory tables.",
+        "Ref: 1131",
+        "Was this page helpful?"
+    ]
+}

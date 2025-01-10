@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-05-06-vector-data-type",
+    "title": "May 06, 2024 \u2014 Vector data type and Vector similarity functions \u2014 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the preview of VECTOR data type, Vector Similarity Functions,\nand the Vector Embedding Function. These features enable important applications that require semantic\nvector search and retrieval.",
+        "For more information, see Vector Embeddings.",
+        "The following data type was introduced in recent releases:",
+        "Category",
+        "New data type",
+        "Description",
+        "Vector",
+        "VECTOR",
+        "With the VECTOR data type, Snowflake encodes and processes vectors efficiently. This data type supports\nsemantic vector search and retrieval applications, such as RAG-based applications, and common operations on\nvectors in vector-processing applications.",
+        "The following functions were introduced in recent releases:",
+        "Function Category",
+        "New Function",
+        "Description",
+        "Vector Similarity Function",
+        "VECTOR_INNER_PRODUCT",
+        "Returns the inner product of two vectors. The inner product (also known as the dot or scalar product) multiplies two vectors",
+        "Vector Similarity Function",
+        "VECTOR_L2_DISTANCE",
+        "Measures the L2 distance between two vectors.",
+        "Vector Similarity Function",
+        "VECTOR_COSINE_SIMILARITY",
+        "Measures the cosine similarity between two vectors,  which is the angular distance between the vectors in a\nmulti-dimensional space.",
+        "LLM Function",
+        "EMBED_TEXT_768 (SNOWFLAKE.CORTEX)",
+        "Creates a vector embedding for a given string of text in English.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

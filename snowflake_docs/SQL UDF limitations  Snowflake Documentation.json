@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/udf/sql/udf-sql-limitations",
+    "title": "SQL UDF limitations | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes the limitations for handlers written in SQL.",
+        "Certain type characteristics declared for an argument or return value will be ignored when the UDF is called. In these cases, the\nreceived value may be used as received whether or not it conforms to constraints specified in the declaration.",
+        "The following are ignored for UDFs whose logic is written in SQL:",
+        "Precision and scale for arguments and return values of type NUMBER",
+        "Length for arguments and return values of type VARCHAR",
+        "Code in the following example declares that the arg1 argument and the return value must be a VARCHAR no more than one character\nlong. However, calling this function with an arg1 whose value is longer than one character will succeed as if the constraint were\nnot specified.",
+        "Referring to database objects using dynamic SQL will produce an error that includes text such as the following:",
+        "If you need to construct dynamic SQL statements that use different database objects, consider writing a stored procedure instead.\nYou can write stored procedures in one of the following languages:",
+        "Java",
+        "JavaScript",
+        "Python",
+        "Scala",
+        "Snowflake Scripting",
+        "Code in the following example will fail because it uses the IDENTIFIER function to refer to a table whose name is dynamically specified\nwith the table_name_parameter variable.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

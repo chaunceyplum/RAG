@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/date_from_parts",
+    "title": "DATE_FROM_PARTS | Snowflake Documentation",
+    "paragraphs": [
+        "Date & time functions",
+        "Creates a date from individual numeric components that represent the year,\nmonth, and day of the month.",
+        "DATEFROMPARTS",
+        "The integer expression to use as a year for building a date.",
+        "The integer expression to use as a month for building a date, with\nJanuary represented as 1, and December as 12.",
+        "The integer expression to use as a day for building a date, usually in\nthe 1-31 range.",
+        "DATE_FROM_PARTS is typically used to handle values in \u201cnormal\u201d ranges\n(e.g. months 1-12, days 1-31), but it also handles values from outside these\nranges. This allows, for example, choosing the N-th day in a year, which can\nbe used to simplify some computations.",
+        "Year, month, and day values can be negative (e.g. to calculate a date N months\nprior to a specific date). The behavior of negative numbers is not entirely\nintuitive; see the Examples section for details.",
+        "Components in normal ranges:",
+        "Components outside normal ranges:",
+        "100th day (from January 1, 2010)",
+        "24 months (from January 1, 2010)",
+        "Components with zero or negative numbers:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

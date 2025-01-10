@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/8_08",
+    "title": "February 26-28, 2024 \u2014 8.8 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "The release has completed.",
+        "For differences between the in-advance and final versions of these release notes, see Release Notes Change Log.",
+        "With this release, we are pleased to announce Secure Data Sharing support for Apache Iceberg\u2122 tables using shares. Before this release, only\nsecure views on Iceberg tables could be shared. You can now directly share an Iceberg table without having to create a secure view.",
+        "For more information, see:",
+        "Secure Data Sharing",
+        "Apache Iceberg\u2122 tables",
+        "With this release, we are pleased to announce that a role can now query an Apache Iceberg\u2122 table in Snowflake\nwithout being granted or inheriting the USAGE privilege on the external volume or catalog integration associated with the table.",
+        "For more information, see Apache Iceberg\u2122 tables.",
+        "With this release, we are pleased to announce the general availability of external network access, with which you can access network\nlocations external to Snowflake from within procedure and UDF handler code. This GA release is available on Google Cloud. External\nnetwork access was already generally available for accounts using AWS and Azure (except in the Gov region).",
+        "When setting up external network access, you create a network rule that represents the external network location. If your handler code\nwill need to authenticate with the external location, you create a secret containing the credentials needed. In handler code, you can\nuse APIs to retrieve credential values from the secret.",
+        "For more information, see External network access overview.",
+        "Announcement",
+        "Update",
+        "Date",
+        "Release notes",
+        "Initial publication (preview)",
+        "27-Feb-24",
+        "Query an |iceberg-tm| table without granting the USAGE privilege on related objects",
+        "Added to Data Lake Updates",
+        "29-Feb-24",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

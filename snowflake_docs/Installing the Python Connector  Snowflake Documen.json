@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/python-connector/python-connector-install",
+    "title": "Installing the Python Connector | Snowflake Documentation",
+    "paragraphs": [
+        "To install the latest Python Connector for Snowflake, use:",
+        "The source code for the Python driver is available on GitHub.",
+        "Requires Python version 3.8 or later.",
+        "For a list of the operating systems supported by Snowflake clients, see Operating system support.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content",
+        "Related info",
+        "Python Connector Release Notes (GitHub)"
+    ]
+}

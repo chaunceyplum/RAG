@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_geomfromgeohash",
+    "title": "ST_GEOMFROMGEOHASH | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns a GEOMETRY object for the polygon that represents the boundaries of a\ngeohash.",
+        "The number of characters in a geohash determines precision. Removing characters\nfrom the end of a geohash results in a geohash that is less precise and that identifies a\nlarger rectangular area.",
+        "The optional precision argument specifies the precision to use for the input geohash. For example, passing 5\nfor precision specifies that the function uses the first 5 characters of the input geohash.",
+        "ST_GEOHASH, ST_GEOMPOINTFROMGEOHASH",
+        "Required:",
+        "The argument must be a geohash.",
+        "Optional:",
+        "The number of characters to use in the geohash. You can specify a value from 1 to 20.",
+        "By default, precision is 20, which produces a geohash that is 20 characters long.",
+        "Returns a value of type GEOMETRY.",
+        "The following example returns the GEOMETRY object for a geohash:",
+        "The following example returns the GEOMETRY object for a less precise geohash. The function uses the first 6 characters from the input geohash:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Column.within_group",
+    "title": "snowflake.snowpark.Column.within_group | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a Column expression that adds a WITHIN GROUP clause\nto sort the rows by the specified columns.",
+        "This method is supported on Column expressions returned by some\nof the aggregate functions, including functions.array_agg(),\nfunctions.listagg(), PERCENTILE_CONT(), and PERCENTILE_DISC().\nFor details, see the Snowflake documentation for the aggregate function\nthat you are using (e.g. ARRAY_AGG).",
+        "Examples:",
+        "Was this page helpful?"
+    ]
+}

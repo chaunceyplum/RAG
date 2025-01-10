@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.network_policy.NetworkPolicy",
+    "title": "snowflake.core.network_policy.NetworkPolicy | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: BaseModel",
+        "A model object representing the NetworkPolicy resource.",
+        "Constructs an object of type NetworkPolicy with the provided properties.",
+        "name (str) \u2013 Name of the network policy",
+        "allowed_network_rule_list (List[str], optional) \u2013 List of names of allowed network rules in a network policy",
+        "blocked_network_rule_list (List[str], optional) \u2013 List of names of blocked network rules in a network policy",
+        "allowed_ip_list (List[str], optional) \u2013 List of allowed IPs in a network policy",
+        "blocked_ip_list (List[str], optional) \u2013 List of blocked IPs in a network policy",
+        "comment (str, optional) \u2013 user comment associated to an object in the dictionary",
+        "created_on (datetime, optional) \u2013 Date and time when the network policy was created.",
+        "owner (str, optional) \u2013 Role that owns the network policy",
+        "owner_role_type (str, optional) \u2013 The type of role that owns the network policy",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of NetworkPolicy from a dict.",
+        "Create an instance of NetworkPolicy from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

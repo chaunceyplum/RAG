@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_08/bcr-1412",
+    "title": "Tasks: Automatically suspend failed task runs | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of the parameter SUSPEND_TASK_AFTER_NUM_FAILURES is as follows:",
+        "The parameter SUSPEND_TASK_AFTER_NUM_FAILURES is set to 0 by default. That is, the failed task runs are not suspended by default. To automatically suspend failed task runs, you need to set up the parameter to a value greater than 0.",
+        "The parameter SUSPEND_TASK_AFTER_NUM_FAILURES is set to 10 by default. That is, the task runs are automatically suspended after 10 consecutive task runs either fail or time out. You can resume the failed tasks at any time after the suspension. This change applies to all new and existing tasks. You can override the setting to 0 or another number of failures by setting the parameter at the account, database, schema, or task level.",
+        "To view the tasks that are automatically suspended, check the STATE column for FAILED_AND_AUTO_SUSPENDED tasks in the TASK_HISTORY TASK_HISTORY table function (Information Schema) or TASK_HISTORY view TASK_HISTORY view (Account_Usage).",
+        "It\u2019s recommended that you fix the failed task runs before resuming them.",
+        "Ref: 1412",
+        "Was this page helpful?"
+    ]
+}

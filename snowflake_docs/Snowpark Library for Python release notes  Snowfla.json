@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/clients-drivers/snowpark-python",
+    "title": "Snowpark Library for Python release notes | Snowflake Documentation",
+    "paragraphs": [
+        "The Snowpark Library for Python release notes provide details for each release, including the following when applicable:",
+        "Behavior changes",
+        "New features",
+        "Customer-facing bug fixes",
+        "Note",
+        "For release note information for versions released prior to January 2022, see the Client Release History.",
+        "You can browse the release notes for the following years:",
+        "2024 releases",
+        "2023 releases",
+        "2022 releases",
+        "See Snowpark Developer Guide for Python for documentation.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.values",
+    "title": "modin.pandas.DataFrame.values | Snowflake Documentation",
+    "paragraphs": [
+        "Return a NumPy representation of the dataset.",
+        "np.ndarray",
+        "Was this page helpful?"
+    ]
+}

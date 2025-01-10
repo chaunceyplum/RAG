@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_02/bcr-965",
+    "title": "USAGE_IN_CURRENCY_DAILY View (Org Usage): New Usage Types | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_02 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The following new usage types are now possible values in the USAGE_TYPE column in the\nUSAGE_IN_CURRENCY_DAILY view in the ORGANIZATION_USAGE schema:",
+        "priority support: Indicates how much was charged for priority support services in a given month. This charge is associated with a\nstipulation in a contract, not with an account.",
+        "support credit: Indicates that Snowflake Support credited the account to reverse charges attributed to an issue in Snowflake.\nRepresents credits applied to the account for a given month.",
+        "Ref: 965",
+        "Was this page helpful?"
+    ]
+}

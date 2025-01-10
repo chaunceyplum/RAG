@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.dt.is_month_start",
+    "title": "modin.pandas.Series.dt.is_month_start | Snowflake Documentation",
+    "paragraphs": [
+        "Indicates whether the date is the first day of the month.",
+        "For Series, returns a Series with boolean values. For DatetimeIndex, returns a boolean array.",
+        "Series or array",
+        "See also",
+        "Return a boolean indicating whether the date is the first day of the month.",
+        "Return a boolean indicating whether the date is the last day of the month.",
+        "Examples",
+        "This method is available on Series with datetime values under the .dt accessor, and directly on DatetimeIndex.",
+        "Was this page helpful?"
+    ]
+}

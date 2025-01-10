@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/as_binary",
+    "title": "AS_BINARY | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Cast)",
+        "Casts a VARIANT value to a BINARY value.",
+        "AS_<object_type>",
+        "An expression that evaluates to a value of type VARIANT.",
+        "The function returns a value of type BINARY or NULL:",
+        "If the type of the value in the variant_expr argument is BINARY, the function returns a value of type BINARY.",
+        "If the type of the value in the variant_expr argument doesn\u2019t match the type of the output\nvalue, the function returns NULL.",
+        "If the variant_expr argument is NULL, the function returns NULL.",
+        "Create a table and load data into it:",
+        "Use the AS_BINARY function in a query to cast a VARIANT value to a BINARY value:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

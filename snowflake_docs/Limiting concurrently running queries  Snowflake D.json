@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/performance-query-warehouse-max-concurrency",
+    "title": "Limiting concurrently running queries | Snowflake Documentation",
+    "paragraphs": [
+        "This topic discusses how a warehouse owner or administrator can reduce the number of queries that are running concurrently on a warehouse\nin order to improve the performance of those queries.",
+        "Queries running concurrently in a warehouse must share the warehouse\u2019s resources, meaning each query might be granted fewer\nresources. You can use the MAX_CONCURRENCY_LEVEL parameter to limit the number of concurrent queries\nrunning in a warehouse. Because fewer queries are competing for the warehouse\u2019s resources, a query can potentially be given more resources.",
+        "Lowering the concurrency level may boost performance for individual queries, especially large, complex, or multi-statement queries, but\nthese adjustments should be thoroughly tested to ensure they have the desired effect.",
+        "Be aware that lowering the MAX_CONCURRENCY_LEVEL for a warehouse can lead to more queries being placed in a queue, which has a performance\nimplication for those queries. Other strategies such as using a dedicated warehouse or using the\nQuery Acceleration Service can boost the performance of a large or complex query without impacting\nthe rest of the workload.",
+        "For more information, see MAX_CONCURRENCY_LEVEL.",
+        "Note",
+        "Adjusting the STATEMENT_QUEUED_TIMEOUT_IN_SECONDS parameter can cancel queries rather than let them remain in the queue for an extended period of time.",
+        "The default maximum concurrency level is 8. To lower the level, use the ALTER WAREHOUSE command to specify a\nlower number. For example:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/invoker_share",
+    "title": "INVOKER_SHARE | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (Session Object)",
+        "Returns the name of the share that directly accessed the table or view where the INVOKER_SHARE function is invoked, otherwise the function returns NULL.",
+        "None.",
+        "If using the INVOKER_SHARE function with masking policy, verify that your Snowflake account is Enterprise Edition or higher.",
+        "Use the INVOKER_SHARE function in a policy that is attached to a table or view that is directly invoked by a share.",
+        "If the INVOKER_SHARE function is used inside a User-defined functions overview within a masking policy directly attached to a table or view, INVOKER_SHARE returns NULL because the context of the INVOKER_SHARE function is the UDF owner, not the share.",
+        "To help determine if a table or view was directly or indirectly invoked by a share, consider using the CURRENT_ACCOUNT function in a masking policy. This function returns the Snowflake account for the user\u2019s current session, which can help determine if the table or view is invoked from a data sharing consumer account.",
+        "Consider a data sharing provider account that has a masking policy set on a column of a secure view. There are two different shares that\ncan access the secure view to support two different data sharing consumers.",
+        "The data sharing provider creates the following policy to use UDFs to identify which share is being accessed. If a user in the data sharing\nconsumer account attempts to query the data through either share, they see data based on how the UDFs are written, otherwise a fixed masked\nvalue is seen.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

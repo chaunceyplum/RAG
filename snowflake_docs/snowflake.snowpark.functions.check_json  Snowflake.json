@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.check_json",
+    "title": "snowflake.snowpark.functions.check_json | Snowflake Documentation",
+    "paragraphs": [
+        "Checks the validity of a JSON document.\nIf the input string is a valid JSON document or a NULL (i.e. no error would occur when\nparsing the input string), the function returns NULL.\nIn case of a JSON parsing error, the function returns a string that contains the error\nmessage.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

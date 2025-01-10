@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/grant-database-role",
+    "title": "GRANT DATABASE ROLE | Snowflake Documentation",
+    "paragraphs": [
+        "Assigns a database role to an account role or another database role.",
+        "This action creates a \u201cparent-child\u201d relationship between the database role and the role it is granted to (also referred to as a\nrole hierarchy).",
+        "Database roles cannot be granted directly to users.",
+        "For more details, see Overview of Access Control.",
+        "REVOKE DATABASE ROLE",
+        "GRANT ROLE , REVOKE ROLE",
+        "GRANT <privileges>",
+        "Specifies the identifier (name) for the database role; must be unique in the database in which the database role is created.",
+        "If the identifier contains spaces or special characters, the entire string must be enclosed in double quotes.\nIdentifiers enclosed in double quotes are also case-sensitive.",
+        "For more information, see Identifier requirements.",
+        "If the identifier is not fully qualified in the form of db_name.database_role_name, the command looks for the database role\nin the current database for the session.",
+        "Grants the database role to the specified account role or database role.",
+        "A database role can be granted to either an account role or another database role in the same database. If the parent role is a database\nrole and the identifier is not fully qualified in the form of db_name.database_role_name, the command looks for the\ndatabase role in the current database for the session.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege or role",
+        "Object",
+        "Notes",
+        "OWNERSHIP",
+        "Database role",
+        "OWNERSHIP is a special privilege on an object that is automatically granted to the role that created the object, but can also be transferred using the GRANT OWNERSHIP command to a different role by the owning role (or any role with the MANAGE GRANTS privilege).",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

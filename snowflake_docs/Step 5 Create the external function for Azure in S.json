@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/external-functions-creating-azure-common-ext-function",
+    "title": "Step 5: Create the external function for Azure in Snowflake | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides instructions for creating an external function object in Snowflake. This object stores information about the remote\nservice, such as the parameters that the remote service accepts. The instructions are the same regardless of whether you are using the\nAzure Portal or ARM template.",
+        "Note",
+        "External functions in Snowflake are database objects, meaning they must be created in a schema in a database. To create an external\nfunction, you must have the appropriate privileges on the database and schema where you are creating the function.",
+        "For more details, see Access control privileges.",
+        "Step 4: Link the API integration for Azure to the proxy service in the Portal",
+        "This task assumes you are in the Worksheets  page in the Classic Console:",
+        "Enter a CREATE EXTERNAL FUNCTION statement. The statement should look similar to the following:",
+        "Replace <external_function_name> with a unique function name (e.g. echo).  This name must follow the rules for\nObject identifiers.",
+        "In addition, record the function name in the External Function Name field in your tracking worksheet.",
+        "Replace <parameters> with the names and SQL data types of the parameters for the function, if any.",
+        "The parameters must correspond to the parameters expected by the remote service. The parameter names do not need to match, but the\ndata types need to be compatible.",
+        "If your Azure Function uses the sample JavaScript code provided in Step 1, then the parameters are an INTEGER and a VARCHAR. For\nexample:",
+        "In addition, record the parameter names and data types in the External Function Name field in your tracking worksheet.",
+        "Replace <api_integration_name> with the value from the API Integration Name field in your tracking worksheet.",
+        "Replace <invocation_url> with the appropriate URL. This is the URL to which Snowflake sends the HTTP POST command in order to\ncall the remote service and has the following format:",
+        "The URL you use depends on whether you are using the Azure Portal or ARM template to create your external function:",
+        "Use the values from the API Management service name, API Management API URL suffix, and\nHTTP-Triggered Function name fields in your tracking worksheet. For example, your URL should look similar to:",
+        "Use the value from the Azure Function HTTP Trigger URL field in your tracking worksheet.",
+        "If you haven\u2019t already, execute the CREATE EXTERNAL FUNCTION command that you entered.",
+        "You should now be able to call your external function to verify that it works correctly.",
+        "For details, see Calling an external function for Azure.",
+        "Step 6: Create the Azure security policy for the proxy service in the Portal",
+        "Step 6: Update the Azure security policy for the proxy service in the Portal",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

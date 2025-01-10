@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-10-18-snowflake-open-catalog-ga",
+    "title": "October 18, 2024 \u2014Apache Iceberg\u2122 tables: Support for Snowflake Open Catalog \u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, Snowflake is pleased to announce the general availability of support for integrating Apache Iceberg\u2122 tables in Snowflake\nwith Snowflake Open Catalog, which was previously named Polaris Catalog. With general availability, we\u2019ve made the following updates:",
+        "When syncing a Snowflake-managed table with Snowflake Open Catalog, Snowflake performs validation when you attempt to create the following objects:",
+        "A catalog integration",
+        "An Iceberg table that you\u2019re syncing to Open Catalog",
+        "This validation checks whether the configuration for the catalog integration or table will successfully sync the Iceberg table to\nOpen Catalog.",
+        "When you modify the properties for an existing Apache Iceberg\u2122 table by specifying the name of a catalog integration for Open Catalog,\nvalidation now checks whether the configuration for the table will successfully sync the Iceberg table to Open Catalog.",
+        "For more information about the updates available with Snowflake Open Catalog general availability in Open Catalog, see the\nSnowflake Open Catalog release notes",
+        "Was this page helpful?"
+    ]
+}

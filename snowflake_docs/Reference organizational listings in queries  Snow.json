@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/collaboration/listings/organizational/org-listing-query",
+    "title": "Reference organizational listings in queries | Snowflake Documentation",
+    "paragraphs": [
+        "Note",
+        "Organizational listings can be queried without mounting.",
+        "To reference an organizational listing\u2019s datasets in a SQL query, use the Uniform Listing Locator (ULL).\nThe ULL serves as a unique identifier that points to a listing in the Internal Marketplace, making it\neasy to query its datasets directly.",
+        "The ULL appears to be a fully qualified name that includes the database, schema, and object names\n(database_name.schema_name.table_name), but uses dollar signs ($) instead of periods (.).\nHowever, this is not the case.",
+        "Sign in to Snowsight.",
+        "Select Data Products \u00bb Marketplace in the left-side navigation menu.",
+        "Select the Internal Marketplace tab.",
+        "Browse or search for a data product.",
+        "Select a listing and select Copy ULL.",
+        "Select Projects.",
+        "Select one of the project tools, for example Worksheets or Notebooks.",
+        "Write a SQL query, using the ULL in place of the database name.",
+        "To query an organizational listing, use the following syntax:",
+        "Example queries:",
+        "The following query example uses the ULL as a replacement for the database name. Replace <object_within_listing> with the name of a table or view that\u2019s part of the listing:",
+        "If you prefer a more convenient name, consider creating a view:",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

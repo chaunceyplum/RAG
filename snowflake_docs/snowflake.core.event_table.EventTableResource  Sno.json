@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.event_table.EventTableResource",
+    "title": "snowflake.core.event_table.EventTableResource | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SchemaObjectReferenceMixin[EventTableCollection]",
+        "Represents a reference to a Snowflake event table.",
+        "With this event table reference, you can create, update, and fetch information about event tables, as well\nas perform certain actions on them.",
+        "Attributes",
+        "Methods",
+        "Drop this event table.",
+        "if_exists (bool, optional) \u2013 Check the existance of event_table before drop.\nThe default value is None, which is equivalent to False.",
+        "Examples",
+        "Deleting this event table using its reference:",
+        "Deleting this event table if it exists:",
+        "Fetch the details of an event table.",
+        "Examples",
+        "Fetching an event table reference to print its time of creation:",
+        "Rename this event table.",
+        "target_name (str) \u2013 The new name of the event table",
+        "if_exists (bool, optional) \u2013 Check the existence of event table before rename",
+        "Examples",
+        "Renaming this event table using its reference:",
+        "Renaming this event table if it exists:",
+        "Was this page helpful?"
+    ]
+}

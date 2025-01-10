@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.try_cast",
+    "title": "snowflake.snowpark.functions.try_cast | Snowflake Documentation",
+    "paragraphs": [
+        "A special version of CAST for a subset of data type conversions.\nIt performs the same operation (i.e. converts a value of one data type into another data type),\nbut returns a NULL value instead of raising an error when the conversion can not be performed.",
+        "The column argument must be a string column in Snowflake.",
+        "Example:",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_finish_oauth_flow",
+    "title": "SYSTEM$FINISH_OAUTH_FLOW | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Sets the OAUTH_REFRESH_TOKEN parameter value of the secret passed as an argument in the SYSTEM$START_OAUTH_FLOW\ncall that began the OAuth flow.",
+        "This function completes the OAuth client flow begun with SYSTEM$START_OAUTH_FLOW.",
+        "Query string from the URL in the browser after completing user authentication and providing OAuth consent.",
+        "Use this function to set the refresh token of an OAuth2 secret you\u2019re using to authenticate with a service provider. This function finishes an\nOAuth flow that must begin with your call to SYSTEM$START_OAUTH_FLOW.",
+        "You must execute this function immediately after \u2013 and in the same session as \u2013 SYSTEM$START_OAUTH_FLOW. This ensures that the user who is\nfinishing the flow is the same as the user who started it.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

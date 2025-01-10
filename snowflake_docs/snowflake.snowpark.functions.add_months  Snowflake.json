@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.add_months",
+    "title": "snowflake.snowpark.functions.add_months | Snowflake Documentation",
+    "paragraphs": [
+        "Adds or subtracts a specified number of months to a date or timestamp, preserving the end-of-month information.",
+        "Example",
+        "Was this page helpful?"
+    ]
+}

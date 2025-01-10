@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_centroid",
+    "title": "ST_CENTROID | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns the Point representing the geometric center of a GEOGRAPHY or\nGEOMETRY object.",
+        "The argument must be an expression of type GEOGRAPHY or GEOMETRY.",
+        "Returns a GEOGRAPHY or GEOMETRY object for the Point that represents geometric center of the input object.",
+        "Returns NULL if the input is NULL.",
+        "If the input object is a GeometryCollection that contains different types of objects (Polygons, LineStrings, and Points),\nST_CENTROID uses the type with the highest dimension to determine the geometric\ncenter. For example:",
+        "If the GeometryCollection contains Polygons, LineStrings, and Points, ST_CENTROID uses the Polygons and ignores the\nLineStrings and Points in the collection.",
+        "If the GeometryCollection contains LineStrings and Points, ST_CENTROID uses the LineStrings and ignores the Points in the\ncollection.",
+        "For GEOMETRY objects, the returned GEOMETRY object has the same SRID as the input.",
+        "The following example returns the Point that represents the geometric center of a LineString.",
+        "The following example returns the Point that represents the geometric center of a Polygon.",
+        "The following example returns the Point that represents the geometric center of a GeometryCollection. This collection contains a\nPolygon, LineString, and Point. ST_CENTROID only uses the Polygon (and ignores the LineString and Point) when determining the\ngeometric center.",
+        "The following example computes the centroid of a simple rectangular Polygon. Note how the result differs from the result when\nusing ST_CENTROID with a GEOGRAPHY object",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

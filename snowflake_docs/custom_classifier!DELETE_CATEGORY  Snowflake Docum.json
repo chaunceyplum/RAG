@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/custom_classifier/methods/delete_category",
+    "title": "custom_classifier!DELETE_CATEGORY | Snowflake Documentation",
+    "paragraphs": [
+        "Enterprise Edition Feature",
+        "Custom Classification requires Enterprise Edition (or higher). To inquire about upgrading, please contact Snowflake Support.",
+        "Using custom classifiers for sensitive data classification",
+        "Deletes the specified semantic category with its associated privacy category, regular expression, and comment from the instance.",
+        "Specifies the identifier (name) for the semantic category that you added to the instance when calling the\ncustom_classifier!ADD_REGEX method.",
+        "Returns a status message indicating the deletion of the specified semantic category.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Instance role",
+        "Object",
+        "Notes",
+        "custom_classifier!PRIVACY_USER",
+        "The custom classification instance.",
+        "The account role that calls this method must be granted this instance role on the custom classifier.",
+        "By default, the account role used to create the instance can call this method.",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "Call the method in a separate SQL statement (no method chaining).",
+        "Delete a category from the medical_codes instance:",
+        "Returns:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

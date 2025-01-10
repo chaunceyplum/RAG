@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Row",
+    "title": "snowflake.snowpark.Row | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: tuple",
+        "Represents a row in DataFrame.",
+        "It is immutable and works like a tuple or a named tuple.",
+        "A Row object is callable. You can use it to create other Row objects:",
+        "Methods",
+        "asDict([recursive])",
+        "Convert to a dict if this row object has both keys and values.",
+        "as_dict([recursive])",
+        "Convert to a dict if this row object has both keys and values.",
+        "Was this page helpful?"
+    ]
+}

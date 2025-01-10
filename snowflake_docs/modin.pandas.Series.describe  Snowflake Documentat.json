@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.describe",
+    "title": "modin.pandas.Series.describe | Snowflake Documentation",
+    "paragraphs": [
+        "Generate descriptive statistics.",
+        "For non-numeric datasets, computes count (# of non-null items), unique (# of unique items),\ntop (the mode; the element at the lowest position if multiple), and freq (# of times the mode appears).",
+        "For numeric datasets, computes count (# of non-null items), mean, std, min,\nthe specified percentiles, and max.",
+        "percentiles (Optional[ListLike], default None) \u2013 The percentiles to compute for numeric columns. If unspecified, defaults to [0.25, 0.5, 0.75],\nwhich returns the 25th, 50th, and 75th percentiles. All values should fall between 0 and 1.\nThe median (0.5) will always be added to the displayed percentile if not already included;\nthe min and max are always displayed in addition to the percentiles.",
+        "include (Optional[List[str, ExtensionDtype | np.dtype]] | \"all\", default None) \u2013 Ignored for Series.",
+        "exclude (Optional[List[str, ExtensionDtype | np.dtype]], default None) \u2013 Ignored for Series.",
+        "A series containing statistics for the dataset.",
+        "Series",
+        "Examples",
+        "Describing numeric data:",
+        "Describing non-numeric data:",
+        "Was this page helpful?"
+    ]
+}

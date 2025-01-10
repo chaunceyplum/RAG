@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_04/bcr-1614",
+    "title": "Dynamic tables: Updates to dynamic table default refresh mode | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "A dynamic table\u2019s actual refresh mode is\ndetermined at creation time and is immutable afterward. If not specified explicitly, the\nrefresh mode defaults to AUTO. When the 2024_04 behavior change bundle is enabled,\nSnowflake chooses the refresh mode that\u2019s likely to perform best depending on your query\ndefinition.",
+        "To determine the best mode for your use case, experiment with refresh modes and automatic\nrecommendations. For consistent behavior across Snowflake releases, Snowflake recommends that\nyou explicitly set the refresh mode on all production dynamic tables.",
+        "For more information, see best practices and\nlimitations around using incremental refresh.",
+        "Snowflake chooses an incremental refresh of the dynamic table by default. If the dynamic\ntable\u2019s definition doesn\u2019t support the incremental refresh mode, the dynamic table is\nautomatically created with the full refresh mode.",
+        "Snowflake chooses the refresh mode that is likely to perform best depending on your query\ndefinition.",
+        "For consistent behavior across Snowflake releases, you should explicitly set the refresh mode\non all production dynamic tables.",
+        "Ref: 1614",
+        "Was this page helpful?"
+    ]
+}

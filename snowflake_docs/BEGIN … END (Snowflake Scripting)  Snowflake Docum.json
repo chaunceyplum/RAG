@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/snowflake-scripting/begin",
+    "title": "BEGIN \u2026 END (Snowflake Scripting) | Snowflake Documentation",
+    "paragraphs": [
+        "BEGIN and END define a Snowflake Scripting block.",
+        "For more information on blocks, see Understanding blocks in Snowflake Scripting.",
+        "Where:",
+        "A statement can be any of the following:",
+        "A single SQL statement (including CALL).",
+        "A control-flow statement (for example, a looping or\nbranching statement).",
+        "A nested block.",
+        "Specifies how exceptions should be handled. Refer to Handling exceptions and\nEXCEPTION (Snowflake Scripting).",
+        "The keyword END must be followed immediately by a semicolon, or followed immediately by a label that is\nimmediately followed by a semicolon.",
+        "The keyword BEGIN must not be followed immediately by a semicolon.",
+        "BEGIN and END are usually used inside another language construct, such as a looping or branching construct,\nor inside a stored procedure. However, this is not required. A BEGIN/END block can be the top-level construct inside\nan anonymous block.",
+        "Blocks can be nested.",
+        "This is a simple example of using BEGIN and END to group related statements. This example creates two\nrelated tables.",
+        "The next example is similar; the statements are grouped into a block and are also inside a transaction within\nthat block:",
+        "In this example, the statements are inside a branching construct.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

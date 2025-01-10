@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/h3_grid_distance",
+    "title": "H3_GRID_DISTANCE | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns the distance between two H3 cells specified by their IDs.",
+        "An INTEGER that represents the H3 cell ID (index), or a VARCHAR that represents the cell ID in hexadecimal format.",
+        "An INTEGER that represents the H3 cell ID (index), or a VARCHAR that represents the cell ID in hexadecimal format.",
+        "Returns the INTEGER value that represents the distance in grid cells between the two H3 cells.",
+        "The two input cell IDs must use the same resolution.",
+        "The following example returns the distance (in terms of the number of grid cells) between two H3 cells. The example specifies the\nH3 cell IDs as INTEGER values.",
+        "The following example specifies the hexadecimal values of the H3 cell IDs as VARCHAR values:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

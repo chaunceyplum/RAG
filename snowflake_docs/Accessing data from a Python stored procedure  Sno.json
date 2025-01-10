@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/stored-procedure/python/procedure-python-access-data",
+    "title": "Accessing data from a Python stored procedure | Snowflake Documentation",
+    "paragraphs": [
+        "You can access data from a stored procedure by using the Snowpark library APIs.",
+        "You can use the Session object that Snowflake creates for your stored procedure to access data by calling APIs in the\nSnowpark library.\nFor example, you can create a DataFrame for a table or execute a SQL statement.",
+        "The context for the session (including the privileges, current database and schema, and so on) is determined by whether the stored\nprocedure runs with caller\u2019s rights or owner\u2019s rights. For details,\nsee Accessing and setting the session state.",
+        "See the Snowpark Developer Guide for more information.",
+        "In the following example, a Python method copies a specified number of rows from one table to another table. The method takes the\nfollowing arguments:",
+        "A Snowpark Session object",
+        "The name of the table to copy the rows from",
+        "The name of the table to save the rows to",
+        "The number of rows to copy",
+        "The method in this example returns a string. If you run this example in a\nPython worksheet,\nchange the return type for the worksheet to a String",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

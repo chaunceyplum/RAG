@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/as_object",
+    "title": "AS_OBJECT | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Cast)",
+        "Casts a VARIANT value to an OBJECT value.",
+        "AS_<object_type> , AS_ARRAY",
+        "An expression that evaluates to a value of type VARIANT.",
+        "The function returns a value of type OBJECT or NULL:",
+        "If the type of the value in the variant_expr argument is OBJECT, the function returns a value of type OBJECT.",
+        "If the type of the value in the variant_expr argument doesn\u2019t match the type of the output\nvalue, the function returns NULL.",
+        "If the variant_expr argument is NULL, the function returns NULL.",
+        "This function doesn\u2019t support a structured type as an input argument.",
+        "Create a table and load data into it:",
+        "Use the AS_OBJECT function in a query to cast a VARIANT value to an OBJECT value:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

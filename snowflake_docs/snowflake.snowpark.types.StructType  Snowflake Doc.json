@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.types.StructType",
+    "title": "snowflake.snowpark.types.StructType | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: DataType",
+        "Represents a table schema or structured column. Contains StructField for each field.",
+        "Methods",
+        "add(field[,\u00a0datatype,\u00a0nullable])",
+        "",
+        "fromJson(json_dict)",
+        "",
+        "from_json(json_dict)",
+        "",
+        "jsonValue()",
+        "",
+        "json_value()",
+        "",
+        "simpleString()",
+        "",
+        "simple_string()",
+        "",
+        "Attributes",
+        "fieldNames",
+        "Returns the list of names of the StructField",
+        "names",
+        "Returns the list of names of the StructField",
+        "Was this page helpful?"
+    ]
+}

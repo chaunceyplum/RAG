@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2023/7_25",
+    "title": "July 25-26, 2023 \u2014 7.25 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "The following new features and updates (enhancements, fixes, etc.) have been introduced in this release. If you have any\nquestions, please contact Snowflake Support.",
+        "Important",
+        "Each release may include updates that require the web interface to be refreshed.",
+        "As a general practice, to ensure these updates do not impact your usage, we recommend refreshing the web interface after each Snowflake\nrelease has been deployed.",
+        "With this release, we are pleased to announce the QUERY_ACCELERATION_HISTORY view in the Organization Usage schema of the shared SNOWFLAKE\ndatabase. This view returns the query acceleration usage for warehouses across the accounts in your organization.",
+        "For more information, see QUERY_ACCELERATION_HISTORY view.",
+        "With this release, Snowflake alerts now support future grants and object tagging.",
+        "You can use the FUTURE keyword in the GRANT <privileges> \u2026 TO ROLE command to\ndefine an initial set of privileges that should be granted\non new alerts created in a specified database or schema.",
+        "You can use the CREATE ALERT and ALTER ALERT commands to\nassign tags to Snowflake alerts.",
+        "In the CREATE ALERT command, you can use WITH TAG or TAG to assign a tag to a newly created alert.",
+        "In the ALTER ALERT command, you can use SET TAG or UNSET TAG to assign or remove a tag from an existing alert.",
+        "With this release, we are pleased to announce the preview of Search Optimization support\nfor substring and regular expression search in semi-structured data, including ARRAY,\nOBJECT, and VARIANT columns. Previously, only equality searches on such columns could be optimized.",
+        "Substring queries include predicates that use the following keywords:",
+        "LIKE, ILIKE, LIKE ANY, LIKE ALL, ILIKE ANY",
+        "STARTSWITH, ENDSWITH, CONTAINS",
+        "RLIKE, REGEXP, REXEP_LIKE",
+        "SPLIT_PART (in equality predicates)",
+        "To enable search optimization of substring searches on semi-structured columns, use an\nALTER TABLE \u2026 ADD SEARCH OPTIMIZATION command like one of those below.",
+        "The second and third commands illustrate enabling search optimization for a field within a column. Field names must be separated from the\ncolumn name with a colon. Nested fields may be specified by including additional field names separated by periods, as shown in the third\nexample.",
+        "For more information on this search optimization improvement, including its capabilities and limitations, see Search Optimization -\nSubstring Search in VARIANT Types.",
+        "With this release, we are pleased to announce the general availability of the policies_referenced column in the Account Usage\nACCESS_HISTORY view. This column allows for the monitoring of queries on a table or view protected by a row access policy and a column\nprotected by a masking policy and the enforced masking and row access policies. The column includes support for intermediate objects and\ncolumns that are policy protected. Audits on policy protected objects and columns are easier because auditors have a more unified view of\nhow protected data is referenced without having to do complex joins on multiple Account Usage views. This column was introduced in preview\nin February 2023.",
+        "For details, see Access History and the ACCESS_HISTORY view.",
+        "With this release, we are pleased to announce the general availability of creating and editing named stages using Snowsight without writing\nSQL.",
+        "To create or edit named stages, you can enter details into Snowsight including information about authentication or encryption for the stage.",
+        "For more information, see Staging files using Snowsight.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

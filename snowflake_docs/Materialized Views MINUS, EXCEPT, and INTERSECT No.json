@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-757",
+    "title": "Materialized Views: MINUS, EXCEPT, and INTERSECT No Longer Allowed | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the current release, you are not allowed to use the MINUS (or EXCEPT) and INTERSECT set operators in a materialized view.",
+        "You could create, alter, or query a materialized view that uses the MINUS, EXCEPT, or INTERSECT operator.",
+        "Creating, altering, or querying a materialized view that uses the MINUS, EXCEPT, or INTERSECT operator results in one of the following\nerror messages:",
+        "Invalid materialized view definition. Join types [MINUS] not allowed in view definition.",
+        "Invalid materialized view definition. Join types [INTERSECT] not allowed in view definition.",
+        "If you previously had a materialized view that used the MINUS, EXCEPT, or INTERSECT operator, recreate that materialized view so that it no longer\nuses the MINUS, EXCEPT, or INTERSECT operator.",
+        "Ref: 215, 757",
+        "Was this page helpful?"
+    ]
+}

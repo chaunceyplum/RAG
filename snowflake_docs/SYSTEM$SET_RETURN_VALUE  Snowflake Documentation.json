@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_set_return_value",
+    "title": "SYSTEM$SET_RETURN_VALUE | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Explicitly sets the return value for a task.",
+        "In a task graph, a task can call this function to set a return value.\nAnother task that identifies this task as the predecessor task (using the AFTER keyword in the task definition)\ncan retrieve the return value set by the predecessor task using SYSTEM$GET_PREDECESSOR_RETURN_VALUE.",
+        "The string to set as the return value. The string size must be <= 10 kB (when encoded in UTF8).",
+        "Create a task that sets a return value. Create a second, child task that runs after the predecessor task has completed.\nThe child task retrieves the return value set by the predecessor task (by calling SYSTEM$GET_PREDECESSOR_RETURN_VALUE) and inserts it into a table row:",
+        "Similar to the first example, but set the return value for the task and retrieve it by calling separate stored procedures:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/python/python-snowpark-training-ml",
+    "title": "Training Machine Learning Models with Snowpark Python | Snowflake Documentation",
+    "paragraphs": [
+        "This topic explains how to train machine learning (ML) models with Snowpark.",
+        "Note",
+        "Snowpark ML is a companion to Snowpark Python built specifically for\nmachine learning in Snowflake. This topic still contains useful general information about machine learning with\nSnowpark Python, particularly if you prefer to write your own stored procedures for machine learning.",
+        "Training machine learning (ML) models can sometimes be very resource intensive.\nSnowpark-optimized warehouses are a type of Snowflake virtual warehouse that can be used for workloads\nthat require a large amount of memory and compute resources. For example, you can use them to train\nan ML model using custom code on a single node.",
+        "These optimized warehouses can also benefit some UDF and UDTF scenarios.",
+        "For more information about how to create a Snowpark-optimized warehouse, see Snowpark-optimized warehouses.",
+        "Snowpark Python stored procedures can be used to run custom code using a Snowflake warehouse.\nSnowpark-optimized warehouses make it possible to use Snowpark stored procedures to run\nsingle-node ML training workloads directly in Snowflake.",
+        "A Python stored procedure can run nested queries, using the Snowpark API for Python, to load and\ntransform the dataset, which is then loaded into the stored procedure memory to perform\npre-processing and ML training.\nThe trained model can be uploaded into a Snowflake stage, and can be used to create UDFs to perform inference.",
+        "While Snowpark-optimized warehouses can be used to execute pre-processing and training logic, it\nmay be necessary to execute nested queries in a separate warehouse to achieve better performance\nand resource utilization. A separate query warehouse can be tuned and scaled independently based\non the dataset size.",
+        "Follow these guidelines to perform single-node ML training workloads:",
+        "Set WAREHOUSE_SIZE = MEDIUM to ensure that the Snowpark-optimized warehouse consists of 1 Snowpark-optimized node.",
+        "Consider setting up the warehouse as multi-cluster warehouse to support the desired concurrency\nif needed.",
+        "Consider using a separate warehouse for executing nested queries from the stored procedure:",
+        "Use the session.use_warehouse()  API\nto select the warehouse for the query inside the stored procedure.",
+        "Don\u2019t mix other workloads on the Snowpark-optimized warehouse that is used to run ML training stored procedures.",
+        "The following example creates and uses a Snowpark-optimized warehouse. The example then creates a stored procedure that trains a linear regression model.\nThe stored procedure uses data in a table named MARKETING_BUDGETS_FEATURES (not shown here).",
+        "To call the stored procedure, execute the following command:",
+        "Note",
+        "Various other Snowpark Python demos are available in the\nSnowflake-Labs GitHub repository.\nThe Advertising Spend and ROI Prediction\nexample demonstrates how to create a stored procedure that trains a linear regression model.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

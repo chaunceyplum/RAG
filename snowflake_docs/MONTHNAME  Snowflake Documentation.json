@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/monthname",
+    "title": "MONTHNAME | Snowflake Documentation",
+    "paragraphs": [
+        "Date & time functions",
+        "Extracts the three-letter month name from the specified date or timestamp.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

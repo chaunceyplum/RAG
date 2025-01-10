@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-11-04-data-lineage",
+    "title": "November 04, 2024 \u2014 Data Lineage \u2014 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake is pleased to announce the preview of Data Lineage, a feature that automatically tracks the flow of data\nbetween Snowflake objects in real-time, for example from a table to a view. Relationships among table-like objects,\ncolumns, and stages are supported, as well as between data objects and machine learning objects including datasets,\nfeature views, and models. You can use lineage information to assist in impact analysis, monitoring, troubleshooting,\nand compliance efforts. Lineage can also help you propagate knowledge of sensitive data elements using tags.",
+        "Lineage information is available through Snowsight, SQL, and Python. For more information, see:",
+        "Data Lineage in Snowsight",
+        "GET_LINEAGE SQL function",
+        "Snowflake ML Lineage API",
+        "Was this page helpful?"
+    ]
+}

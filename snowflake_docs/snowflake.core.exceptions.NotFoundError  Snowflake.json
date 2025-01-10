@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.exceptions.NotFoundError",
+    "title": "snowflake.core.exceptions.NotFoundError | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: APIError",
+        "Raised when we encounter an HTTP error code of 404.",
+        "Was this page helpful?"
+    ]
+}

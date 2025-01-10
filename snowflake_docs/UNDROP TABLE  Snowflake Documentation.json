@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/undrop-table",
+    "title": "UNDROP TABLE | Snowflake Documentation",
+    "paragraphs": [
+        "Restores the most recent version of a dropped table.",
+        "CREATE TABLE , ALTER TABLE , DROP TABLE , SHOW TABLES , DESCRIBE TABLE",
+        "Specifies the identifier for the table to restore. If the identifier contains spaces or special characters, the entire string must\nbe enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Tables can only be restored to the database and schema that contained the table at the time of deletion. For example, if you\ncreate and drop table t1 in schema s1, then change the current schema to s2 and attempt to restore table t1\nby ID (or qualified name, s1.t1), table t1 is restored in schema s1 rather than in the current schema, s2.",
+        "If a table with the same name already exists, an error is returned.",
+        "If you have multiple dropped tables with the same name, you can use the IDENTIFIER keyword\nwith the system-generated identifier (from the TABLES view) to specify which table to restore.\nThe name of the restored table remains the same. See Examples.",
+        "Note",
+        "You can only use the system-generated identifier with the IDENTIFIER() keyword when executing the UNDROP command for tables,\nschemas, and databases.",
+        "UNDROP relies on the Snowflake Time Travel feature. An object can be restored only if\nthe object was deleted within the Data retention period. The default value is 24 hours.",
+        "You cannot undrop a hybrid table.",
+        "Restore the most recent version of a dropped table (this example builds on the examples provided for DROP TABLE):",
+        "Restore a dropped table by ID using IDENTIFIER(). You can find the table ID of the specific table to undrop using the table_id\ncolumn in the TABLES view. For example, if you have multiple dropped tables named my_table, and\nyou want to restore the second-to-last dropped table my_table, follow these steps:",
+        "Find the table ID of the dropped table in the Account Usage TABLES view:",
+        "Undrop my_table by table ID. To restore the second-to-last deleted table, use table ID 408578 from the output of the previous\nstatement. After you execute the following statement, the table is restored with its original name, my_table:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

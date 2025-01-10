@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.itertuples",
+    "title": "modin.pandas.DataFrame.itertuples | Snowflake Documentation",
+    "paragraphs": [
+        "Iterate over DataFrame rows as namedtuples.",
+        "index (bool, default True) \u2013 If True, return the index as the first element of the tuple.",
+        "name (str or None, default \"Pandas\") \u2013 The name of the returned namedtuples or None to return regular tuples.",
+        "An object to iterate over namedtuples for each row in the DataFrame with the first field possibly being the\nindex and following fields being the column values.",
+        "iterator",
+        "See also",
+        "Iterate over DataFrame rows as (index, Series) pairs.",
+        "Iterate over (column name, Series) pairs.",
+        "Notes",
+        "Iterating over rows is an antipattern in Snowpark pandas and pandas. Use df.apply() or other aggregation\nmethods when possible instead of iterating over a DataFrame. Iterators and for loops do not scale well.",
+        "The column names will be renamed to positional names if they are invalid Python identifiers, repeated, or\nstart with an underscore (follows namedtuple rules).",
+        "Examples",
+        "By setting the index parameter to False we can remove the index as the first element of the tuple:\n>>> for row in df.itertuples(index=False):\n\u2026     print(row)\n\u2026\nPandas(num_legs=4, num_wings=0)\nPandas(num_legs=2, num_wings=2)",
+        "Rename the namedtuple and create it without the index values.\n>>> for row in df.itertuples(name=\u201dNewName\u201d, index=False):\n\u2026     print(row)\n\u2026\nNewName(max_speed=1, shield=2)\nNewName(max_speed=4, shield=5)\nNewName(max_speed=7, shield=8)",
+        "When name is None, return a regular tuple.\n>>> for row in df.itertuples(name=None):\n\u2026     print(row)\n\u2026\n(\u2018cobra\u2019, 1, 2)\n(\u2018viper\u2019, 4, 5)\n(\u2018sidewinder\u2019, 7, 8)",
+        "Was this page helpful?"
+    ]
+}

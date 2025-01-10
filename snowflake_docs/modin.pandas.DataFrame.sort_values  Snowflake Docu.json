@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.DataFrame.sort_values",
+    "title": "modin.pandas.DataFrame.sort_values | Snowflake Documentation",
+    "paragraphs": [
+        "Sort by the values along either axis.",
+        "by (str or list of str) \u2013 Name or list of names to sort by.\n- if axis is 0 or \u2018index\u2019 then by may contain index levels and/or column labels.\n- if axis is 1 or \u2018columns\u2019 then by may contain column levels and/or index labels.",
+        "axis ({0 or \u2018index\u2019, 1 or \u2018columns\u2019}, default 0) \u2013 Axis to be sorted.",
+        "ascending (bool or list of bool, default True) \u2013 Sort ascending vs. descending. Specify list for multiple sort\norders.  If this is a list of bools, must match the length of\nthe by.",
+        "inplace (bool, default False) \u2013 If True, perform operation in-place.",
+        "kind ({'quicksort', 'mergesort', 'heapsort', 'stable'} default 'None') \u2013 Choice of sorting algorithm. By default, Snowpark Pandaas performs\nunstable sort. Please use \u2018stable\u2019 to perform stable sort. Other choices\n\u2018quicksort\u2019, \u2018mergesort\u2019 and \u2018heapsort\u2019 are ignored.",
+        "na_position ({'first', 'last'}, default 'last') \u2013 Puts NaNs at the beginning if first; last puts NaNs at the\nend.",
+        "ignore_index (bool, default False) \u2013 If True, the resulting axis will be labeled 0, 1, \u2026, n - 1.",
+        "key (callable, optional) \u2013 Apply the key function to the values\nbefore sorting. This is similar to the key argument in the\nbuiltin sorted() function, with the notable difference that\nthis key function should be vectorized. It should expect a\nSeries and return a Series with the same shape as the input.\nIt will be applied to each column in by independently.",
+        "DataFrame with sorted values or None if inplace=True.",
+        "DataFrame or None",
+        "Notes",
+        "Snowpark pandas API doesn\u2019t currently support distributed computation of\nsort_values when \u2018key\u2019 argument is provided or frame is sorted on \u2018columns\u2019 axis.",
+        "See also",
+        "Sort a DataFrame by the index.",
+        "Similar method for a Series.",
+        "Examples",
+        "Sort by col1",
+        "Sort by multiple columns",
+        "Sort Descending",
+        "Putting NAs first",
+        "Was this page helpful?"
+    ]
+}

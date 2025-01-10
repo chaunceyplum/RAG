@@ -1,0 +1,28 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-1080",
+    "title": "Tasks: New Column in Views and SQL Command Output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The CONFIG column were added to the following views in the ACCOUNT_USAGE and INFORMATION_SCHEMA schemas and the\noutput of the following SQL commands:",
+        "ACCOUNT_USAGE",
+        "COMPLETE_TASK_GRAPHS",
+        "TASK_HISTORY",
+        "INFORMATION_SCHEMA",
+        "CURRENT_TASK_GRAPHS",
+        "COMPLETE_TASK_GRAPHS",
+        "TASK_HISTORY",
+        "DESCRIBE TASK",
+        "SHOW TASKS",
+        "Added column:",
+        "Column Name",
+        "Data Type",
+        "Description",
+        "CONFIG",
+        "TEXT",
+        "JSON string representing the configuration for the task.",
+        "Ref: 1080",
+        "Was this page helpful?"
+    ]
+}

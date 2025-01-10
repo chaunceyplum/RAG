@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-09-12-classify-text-function",
+    "title": "September 12, 2024 \u2014 New Cortex LLM Function - CLASSIFY_TEXT \u2014 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the preview of a new Snowflake Cortex LLM function, CLASSIFY_TEXT. This new Cortex LLM\ntask-specific function gives you an easy way to label text records into categories that are relevant for your business.",
+        "The new CLASSIFY_TEXT function is managed by the Snowflake AI team to deliver state-of-the art text\nclassification accuracy comparable to the most powerful models currently in the market. You can use CLASSIFY_TEXT to easily label\ntext records such as emails, call transcripts, and product reviews for different categories that are relevant for your business.\nFor example, you can label support tickets to automatically assign the support team based on the issue category. To easily\nintegrate the results of CLASSIFY_TEXT into your data pipeline, the outputs generated are structured in JSON, without any additional\npost processing needed.",
+        "With the CLASSIFY_TEXT function, you can quickly and accurately label text records without the need for any prompt\nengineering, post processing or providing any examples.",
+        "For more information, see CLASSIFY_TEXT (SNOWFLAKE.CORTEX).",
+        "Was this page helpful?"
+    ]
+}

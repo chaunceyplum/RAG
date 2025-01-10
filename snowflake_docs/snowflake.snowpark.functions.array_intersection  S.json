@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.array_intersection",
+    "title": "snowflake.snowpark.functions.array_intersection | Snowflake Documentation",
+    "paragraphs": [
+        "Returns an array that contains the matching elements in the two input arrays.",
+        "The function is NULL-safe, meaning it treats NULLs as known values for comparing equality.",
+        "array1 \u2013 An ARRAY that contains elements to be compared.",
+        "array2 \u2013 An ARRAY that contains elements to be compared.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/cleanrooms/connector-clean-room",
+    "title": "Snowflake Data Clean Rooms: Clean room connectors | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Note",
+        "Snowflake Data Clean Rooms do not currently support data subject consent management. Customers are responsible for ensuring they have\nobtained all necessary rights and consents to use the data linked in their clean rooms. Customers must also ensure compliance with all\napplicable laws and regulations when using Data Clean Rooms, including in connection with third-party connectors.",
+        "You can use connectors to integrate your clean room environment with your ecosystem partners. This topic describes how the clean room admin\ncan configure a connector so Snowflake Data Clean Rooms can interact with third-party clean rooms.",
+        "Important",
+        "Third-party connectors are not offered by Snowflake and may be subject to additional terms.  These integrations are made available for\nyour convenience, but you are responsible for any content sent to or received from the integrations.",
+        "Customers are responsible for obtaining any necessary consents in connection with their use of Snowflake Data Clean Rooms. Please ensure\nthat you are complying with applicable laws and regulations when using Snowflake Data Clean Rooms, including in connection with\nthird-party connectors for activation purposes.",
+        "Amazon Marketing Cloud (AMC) is a cloud-based clean room solution in which advertisers can perform analytics across pseudonymized signals,\nincluding Amazon ads signals and their own inputs.",
+        "To configure the connector so your clean environment is integrated with the AMC:",
+        "Sign in to Amazon Ads Account.",
+        "Select Account & Advertiser Instances.",
+        "Select Save.",
+        "Ads Data Hub helps advertisers, agencies, and measurement partners do customized analysis of campaigns while protecting user privacy.",
+        "To configure the connector so your clean environment is integrated with Ads Data Hub:",
+        "Upload Service Account Credentials.",
+        "Enter the Developer / API Key.",
+        "Select Authenticate.",
+        "Select the Parent Account.",
+        "Enter the Default Destination Dataset.",
+        "Select Child Account.",
+        "Enter the Clean Room Name.",
+        "Select Save.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

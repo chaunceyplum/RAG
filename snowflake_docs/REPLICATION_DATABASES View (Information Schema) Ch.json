@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_01/bcr-892",
+    "title": "REPLICATION_DATABASES View (Information Schema): Changes to Column Values | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The following columns in the Information Schema REPLICATION_DATABASES view\nuse the legacy account identifier format:",
+        "PRIMARY",
+        "REPLICATION_ALLOWED_TO_ACCOUNTS",
+        "FAILOVER_ALLOWED_TO_ACCOUNTS",
+        "ACCOUNT_NAME",
+        "The column values have changed as follows:",
+        "For the following columns:",
+        "PRIMARY",
+        "REPLICATION_ALLOWED_TO_ACCOUNTS",
+        "FAILOVER_ALLOWED_TO_ACCOUNTS",
+        "The account identifier used the format:",
+        "<region_group>.<snowflake_ region>.<account_locator>",
+        "The ACCOUNT_NAME column displayed <account_locator>.",
+        "For the following columns:",
+        "PRIMARY",
+        "REPLICATION_ALLOWED_TO_ACCOUNTS",
+        "FAILOVER_ALLOWED_TO_ACCOUNTS",
+        "The account identifier uses the format:",
+        "<organization_name>.<account_name>",
+        "The ACCOUNT_NAME column displays <account_name>.",
+        "Ref: 892",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/external-functions-creating-azure-common-api-integration",
+    "title": "Step 3: Create the API integration for Azure in Snowflake | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides instructions for creating an API integration object in Snowflake to work with your proxy service (i.e. Azure API\nManagement service). The instructions are the same regardless of whether you are using the Azure Portal or ARM template.",
+        "Step 2: Create the proxy service (Azure API Management service) in the Portal",
+        "Step 2: Use the template to create the remote service (Azure function) and proxy service (API Management service)",
+        "You need the following information to create the API integration for Azure in Snowflake:",
+        "Azure Function App AD Application ID (from your tracking worksheet)",
+        "Azure AD Tenant ID (as described in the Prerequisites section for planning an external\nfunction)",
+        "Use the CREATE API INTEGRATION command to create the API integration object:",
+        "Open a Snowflake session, typically a Snowflake web interface session.",
+        "Execute the USE ROLE command to use the ACCOUNTADMIN role or a role with the CREATE INTEGRATION privilege. For example:",
+        "Enter a CREATE API INTEGRATION statement. The statement should look similar to the following:",
+        "In the statement:",
+        "Replace <integration_name> with a unique integration name (e.g. my_api_integration_name). The name must follow the rules for\nObject identifiers.",
+        "In addition, record the integration name in the API Integration Name field in your tracking worksheet. You will need the name when\nyou execute the CREATE EXTERNAL FUNCTION command later in the creation process.",
+        "Replace <tenant_id> with your Azure AD Tenant ID.",
+        "As an alternative, you can use your domain (e.g. my_company.onmicrosoft.com).",
+        "Replace <azure_application_id> with the value from the Azure Function App AD Application ID field in your tracking worksheet.",
+        "For api_allowed_prefixes, replace <url> with the appropriate URL.",
+        "Usually, this is the URL of the proxy service (i.e. Azure API Management service), in the following format:",
+        "However, you can restrict the URLs to which this API integration can be applied by appending an appropriate suffix, in which case\nthe URL has the following format:",
+        "The URL you enter depends on whether you are using the Azure Portal or ARM template to create your external function:",
+        "Use the values from the API Management service name and API Management API URL suffix fields in your\ntracking worksheet. For example, your URL should look similar to:",
+        "This should match the base URL and suffix from the API Management service Settings tab for your imported API. If\nconvenient, you can copy the value from the tab instead.",
+        "Use the value from the API Management URL field in your tracking worksheet.",
+        "If you haven\u2019t already, execute the CREATE API INTEGRATION statement you entered.",
+        "Step 4: Link the API integration for Azure to the proxy service in the Portal",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

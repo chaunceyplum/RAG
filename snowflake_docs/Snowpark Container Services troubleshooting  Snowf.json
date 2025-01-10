@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark-container-services/troubleshooting",
+    "title": "Snowpark Container Services troubleshooting | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Available to accounts in AWS and Microsoft Azure commercial regions, with some exceptions. For more information, see Available regions.",
+        "This topic discusses common issues and how you might resolve them.",
+        "\u201cinvalid consent request\u201d error received when accessing a public service endpoint.",
+        "In the current implementation, Snowflake authenticates the current user using their default role. This error is probably\nbecause the user is using one of the privileged roles, such as ACCOUNTADMIN, SECURITYADMIN, or ORGADMIN, as their default role\n(see Blocking specific roles from using the integration). Use the\nALTER USER command to change the default role for the user, and try again.",
+        "docker login authentication failure.",
+        "Do not use an uppercase hostname in the docker login command and then use a lowercase hostname in the\ndocker push, docker pull command. Docker CLI stores credentials with cased keys. Related Docker CLI\nissue.",
+        "docker push error: no Host in request URL.",
+        "When interacting with Docker CLI, always replace the underscores in your account name in a URL with hyphens. Docker CLI will\nreturn an error if hostnames have underscores in them (even though cURL works). For example, the following Docker push\nspecifies \u201cmy_acct\u201d as the account name:",
+        "Docker returns this error:",
+        "You can also use the SHOW IMAGE REPOSITORIES command to get a valid repository URL.",
+        "Suspended compute pool stuck in STOPPING state.",
+        "Running services will prevent the compute pool from stopping. Suspend all remaining active services in the compute pool using\nthe ALTER COMPUTE POOL command:",
+        "A running service is no longer responding to requests (from a service function or a public endpoint). The service status\nchanged from running to pending.",
+        "This could be an indication of resource starvation on compute pool nodes. If your containers are resource-intensive\n(CPU/memory), you should explicitly specify resource requests in the service specification to prevent too many\nservices (including job services) being placed on a single node.",
+        "In the current implementation, you can only specify memory requests.",
+        "For example, if a node in the compute pool has 64 GB of RAM, requesting more than 32 GB for your service (or job service) would guarantee\nthat only one service or job service can be running on a node at a time. For more information about the capability of each instance\ntype, see CREATE COMPUTE POOL.",
+        "If you are submitting a request to the public endpoint for the service, do not use double quotes in the HTTP authentication\nheader.",
+        "Service function timeout and duplicate execution issues.",
+        "If a single service function invocation takes longer than 30 seconds, Snowflake retries the function, and after a few retries,\nthe function fails with a timeout error. You might get unexpected results if the function implementation in the container is\nnot idempotent. Consider using asynchronous execution by returning a different HTTP code (202), which allows a longer timeout.\nFor more information, see Asynchronous remote service.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

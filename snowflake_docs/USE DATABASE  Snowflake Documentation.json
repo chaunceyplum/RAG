@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/use-database",
+    "title": "USE DATABASE | Snowflake Documentation",
+    "paragraphs": [
+        "Specifies the active/current database for the session:",
+        "If a database is not specified for a session, any objects referenced in queries and other SQL statements executed in\nthe session must be fully qualified with the database and schema, also known as the namespace, for the object\n(in the form of db_name.schema_name.object_name). For more information about fully-qualified object names,\nsee Object name resolution.",
+        "If a database is specified for a session but the schema is not specified for a session, any objects referenced in queries\nand other SQL statements executed in the session must be qualified with the schema for the object (in the form of\nschema_name.object_name).",
+        "If the database and schema are specified for a user session, unqualified object names are allowed in SQL statements and\nqueries.",
+        "CREATE DATABASE , ALTER DATABASE , DROP DATABASE , SHOW DATABASES",
+        "Specifies the identifier for the database to use for the session. If the identifier contains spaces or special characters, the\nentire string must be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "The DATABASE keyword does not need to be specified.",
+        "USE DATABASE automatically specifies PUBLIC as the current schema, unless the PUBLIC schema doesn\u2019t exist (e.g. it has been dropped).\nTo specify a different schema for a session, use the USE SCHEMA command.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

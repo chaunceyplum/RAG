@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/grant-role",
+    "title": "GRANT ROLE | Snowflake Documentation",
+    "paragraphs": [
+        "Assigns a role to a user or another role:",
+        "Granting a role to another role creates a \u201cparent-child\u201d relationship between the roles (also referred to as a role hierarchy).",
+        "Granting a role to a user enables the user to perform all operations allowed by the role (through the access privileges granted to the role).",
+        "For more details, see Overview of Access Control.",
+        "REVOKE ROLE",
+        "GRANT DATABASE ROLE , REVOKE DATABASE ROLE",
+        "GRANT <privileges>",
+        "Specifies the identifier for the role to grant. If the identifier contains spaces or special characters, the entire string must be\nenclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Grants the role to the specified role.",
+        "Grants the role to the specified user.",
+        "A role used to execute this SQL command must have the following\nprivileges at a minimum:",
+        "Privilege",
+        "Object",
+        "Notes",
+        "OWNERSHIP",
+        "Role",
+        "Role that is granted to a user or another role.",
+        "Alternatively, use a role with the global MANAGE GRANTS privilege. Only the SECURITYADMIN role, or a higher role, has this privilege by default. The privilege can be granted to additional roles as needed.",
+        "The USAGE privilege on the parent database and schema are required to perform operations on any object in a schema.",
+        "For instructions on creating a custom role with a specified set of privileges, see Creating custom roles.",
+        "For general information about roles and privilege grants for performing SQL actions on\nsecurable objects, see Overview of Access Control.",
+        "The system-defined roles, including PUBLIC, do not need to be granted to other roles because the role hierarchy for these roles is\ndefined and maintained by Snowflake.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

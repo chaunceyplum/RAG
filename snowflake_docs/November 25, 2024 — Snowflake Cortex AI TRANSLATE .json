@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-11-25-cortex-translate-update",
+    "title": "November 25, 2024 \u2014 Snowflake Cortex AI TRANSLATE \u2014 Updates | Snowflake Documentation",
+    "paragraphs": [
+        "We are pleased to announce the availability of the following new features and enhancements in this update to the\nSnowflake Cortex TRANSLATE function. The TRANSLATE function provides high-quality, reliable translations for call\ntranscripts, product reviews, social media comments, and other text.",
+        "Improved translation quality. Translation quality is now on par wit the most powerful models in the market,\nwith no need to optimize a prompt or train a model.",
+        "Improved translation reliability. The new version of TRANSLATE never refuses to complete translations.",
+        "Longer context length. The supported length of text to be translated has been increased from 1,024 to 4,096\ntokens. (A token is approximately four characters.)",
+        "Additional languages. The TRANSLATE function now supports Dutch, Chinese, and Hindi. See the complete\nlist of supported languages.",
+        "Mixed language support. Text written in a mixture of two languages can now be translated to a single language.\nFor example, the TRANSLATE function can now translate \u201cSpanglish\u201d (an informal mix of English and Spanish used in\nparts of the United States) to just English.",
+        "For more information, see TRANSLATE (SNOWFLAKE.CORTEX).",
+        "Was this page helpful?"
+    ]
+}

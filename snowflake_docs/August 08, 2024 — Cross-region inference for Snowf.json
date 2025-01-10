@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-08-08-cross-region-llm",
+    "title": "August 08, 2024 \u2014 Cross-region inference for Snowflake AI & ML features \u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the availability of cross-region inferencing for Snowflake AI & ML features. A new\nparameter enables processing inference requests in a different region if the request cannot be processed in the region where the inference\nis originally requested.",
+        "The parameter is used to determine the inference behavior for any Snowflake feature supported by cross-region inference, including\nCortex LLM Functions.",
+        "To learn more about the parameter, see Cross-region inference.",
+        "Was this page helpful?"
+    ]
+}

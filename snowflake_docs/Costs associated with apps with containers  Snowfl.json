@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/native-apps/container-cost-governance",
+    "title": "Costs associated with apps with containers | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "The Snowflake Native App Framework is generally available on supported cloud platforms. For additional information, see\nSupport for private connectivity, VPS, and government regions.",
+        "This topic describes the costs associated with developing, publishing and using a\nSnowflake Native App with Snowpark Container Services. It contains information for both providers and consumers.",
+        "A Snowflake Native App may incur costs in the consumer account. The total cost of running\na Snowflake Native App with Snowpark Container Services is determined by the following:",
+        "Costs determined by the provider",
+        "Infrastructure costs",
+        "A provider may monetize a Snowflake Native App using any of the\npaid listing pricing models\nthat are available in the Snowflake Marketplace. These models include subscription based and usage based plans.",
+        "This cost to the consumer is determined by the provider. Consumers pay for provider software via the Snowflake Marketplace in addition to costs associated with running Snowflake\ninfrastructure, including warehouses and compute pools.",
+        "All infrastructure costs, including those related to compute pools, warehouse compute, storage, and\ndata transfer are the responsibility of the consumer of a Snowflake Native App.",
+        "A consumer can use the IN ACCOUNT clause of the\nSHOW COMPUTE POOLS command to see all compute pools in their account\nand the current state of the compute pool. Costs are not incurred when a compute pool is suspended.",
+        "A Snowflake Native App with Snowpark Container Services requires at least one compute pool and might require multiple compute pools to run as\nintended. A consumer has full control over the compute resources that the app requires, and may suspend a\ncompute pool or drop an application at any time.",
+        "Separate charges for compute pool compute related to the Snowflake Native App with Snowpark Container Services appear on the customer billing\nstatement. A consumer can determine the compute pool billing charges for a Snowflake Native App with Snowpark Container Services using the\nACCOUNT USAGE views provided by\nSnowpark Container Services.",
+        "For more details, such as the consumption table for compute pools, contact your account representative.",
+        "Providers can also incur costs when developing and maintaining a Snowflake Native App with Snowpark Container Services, including the\nfollowing:",
+        "Providers incur Snowpark Container Services compute costs associated with both initial development and\nongoing testing and support for their Snowflake Native App. The compute cost may be controlled through\norchestration of compute pools during provider-side development and testing.",
+        "The storage of container images can incur costs when a provider creates a new version or patch of\na Snowflake Native App with Snowpark Container Services. In this context, the Docker images that the app requires are copied into an image\nrepository that is not directly accessible or observable by the provider or the consumer.",
+        "Services in the consumer account are created from the versioned images that are stored in this\nrepository. Providers are responsible for the storage costs for the images in this stage, which\nappear on their Snowflake bill. These costs are aggregated with other storage costs that their account incurs.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

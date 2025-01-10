@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/to_geography",
+    "title": "TO_GEOGRAPHY | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions, Conversion functions",
+        "Parses an input and returns a value of type GEOGRAPHY.",
+        "TRY_TO_GEOGRAPHY , ST_GEOGRAPHYFROMWKB , ST_GEOGRAPHYFROMWKT",
+        "Use one of the following:",
+        "Required:",
+        "The argument must be a string expression that represents a valid geometric object in one of the following formats:",
+        "WKT (well-known text).",
+        "WKB (well-known binary) in hexadecimal format (without a leading 0x).",
+        "EWKT (extended well-known text).",
+        "EWKB (extended well-known binary) in hexadecimal format (without a leading 0x).",
+        "GeoJSON.",
+        "The argument must be a binary expression in WKB or EWKB format.",
+        "The argument must be an OBJECT in GeoJSON format.",
+        "The argument must be an expression of type GEOMETRY with the SRID 4326.",
+        "Optional:",
+        "If TRUE, specifies that the function should return a GEOGRAPHY or GEOMETRY object, even when the input shape is invalid and\ncannot be repaired. For details, refer to Specifying how invalid geospatial shapes are handled.",
+        "The function returns a value of type GEOGRAPHY.",
+        "Issues an error if the input cannot be parsed as one of the supported formats (WKT, WKB, EWKT, EWKB, GeoJSON).",
+        "Issues an error if the input format is EWKT or EWKB and the SRID is not 4326.\nSee the note on EWKT and EWKB handling.",
+        "To construct a GEOGRAPHY object from WKT or EWKT input, you can also use ST_GEOGRAPHYFROMWKT.",
+        "To construct a GEOGRAPHY object from WKB or EWKB input, you can also use ST_GEOGRAPHYFROMWKB.",
+        "For the coordinates in WKT, EWKT, and GeoJSON, longitude appears before latitude (for example, POINT(lon lat)).",
+        "This shows a simple use of the TO_GEOGRAPHY function with VARCHAR data:",
+        "The following example returns the GEOGRAPHY object for a geospatial object with a Z coordinate described in WKT format:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

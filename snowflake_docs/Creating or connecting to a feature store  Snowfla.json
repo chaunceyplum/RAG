@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-ml/feature-store/create",
+    "title": "Creating or connecting to a feature store | Snowflake Documentation",
+    "paragraphs": [
+        "Enterprise Edition Feature",
+        "The Snowflake Feature Store requires Enterprise Edition. To inquire about upgrading, please contact\nSnowflake Support.",
+        "Note",
+        "The Snowflake Feature Store API is available in the Snowpark ML Python package (snowflake-ml-python) v1.5.0 and later.",
+        "Create a feature store or connect to an existing feature store by using the FeatureStore constructor, providing a\nSnowpark session, database name, feature store name, and default warehouse name. The mode parameter determines\nwhether the feature store is created if it does not already exist.",
+        "Mode",
+        "Description",
+        "CreationMode.FAIL_IF_NOT_EXIST",
+        "Throws an exception if the specified feature store does not exist. Default.",
+        "CreationMode.CREATE_IF_NOT_EXIST",
+        "Creates the feature store if it does not exist.",
+        "To create a feature store, use the CreationMode.CREATE_IF_NOT_EXIST mode when instantiating FeatureStore.\nCreating a feature store creates a schema in the specified database with the specified feature store name. Generally,\nan administrator role will create the feature store schema and corresponding roles.",
+        "You can subsequently connect to the existing feature store by using the default mode, CreationMode.FAIL_IF_NOT_EXIST.",
+        "The following Python code creates a feature store:",
+        "Tip",
+        "Storing your feature stores in a dedicated database will make it simpler to replicate them.",
+        "After you have created a feature store, use code like the following to access it:",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

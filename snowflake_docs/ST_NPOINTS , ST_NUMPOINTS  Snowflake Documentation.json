@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_npoints",
+    "title": "ST_NPOINTS , ST_NUMPOINTS | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns the number of points in a GEOGRAPHY or GEOGRAPHY\nobject.",
+        "The argument must be an expression of type GEOGRAPHY or GEOMETRY.",
+        "Returns a value of type INTEGER.",
+        "Each Polygon loop lists the starting point twice (once as the start, once as the end). ST_NPOINTS\ncounts both occurrences. For example, given a triangular Polygon, ST_NPOINTS returns 4, not 3.",
+        "ST_NUMPOINTS is an alias for ST_NPOINTS.",
+        "Note",
+        "In some other systems, ST_NUMPOINTS behaves differently from ST_NPOINTS and returns the number of points for\nLineString / MultiLineString objects only.",
+        "This shows the number of points in a simple Polygon.",
+        "The following example demonstrates how to use the ST_NPOINTS function.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

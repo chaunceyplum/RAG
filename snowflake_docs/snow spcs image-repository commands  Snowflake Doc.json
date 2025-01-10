@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/spcs-commands/image-repository-commands/overview",
+    "title": "snow spcs image-repository commands | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Note",
+        "You can use Snowpark Container Services from Snowflake CLI only if you have the necessary permissions to use Snowpark Container Services.",
+        "Snowflake CLI provides the following commands to manage image repositories:",
+        "snow spcs image-repository create",
+        "snow spcs image-repository drop",
+        "snow spcs image-repository list",
+        "snow spcs image-repository list-images",
+        "snow spcs image-repository list-tags",
+        "snow spcs image-repository url",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.lit",
+    "title": "snowflake.snowpark.functions.lit | Snowflake Documentation",
+    "paragraphs": [
+        "Creates a Column expression for a literal value.\nIt supports basic Python data types, including int, float, str,\nbool, bytes, bytearray, datetime.time, datetime.date,\ndatetime.datetime and decimal.Decimal. Also, it supports Python structured data types,\nincluding list, tuple and dict, but this container must\nbe JSON serializable.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

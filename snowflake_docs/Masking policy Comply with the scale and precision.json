@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_04/bcr-1355",
+    "title": "Masking policy: Comply with the scale and precision of a column | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The runtime behavior of a masking policy and the masked output in terms of the scale and\nprecision of a column is as follows:",
+        "The masked value as specified in the body of the masking policy does not respect the precision and scale of a column.",
+        "If you create a new masking policy after enabling the 2024_04 behavior change bundle, set the masking policy on a column, and\nquery the protected column, the following occurs:",
+        "The query fails when the masked value is greater than the precision of the column.",
+        "The masked value is truncated to the scale of the column when the scale of the masked value is greater than the scale of the column.",
+        "Note",
+        "To identify which masking policies are affected by this change, see Mitigating masking policy return value updates.",
+        "Ref: 1355",
+        "Was this page helpful?"
+    ]
+}

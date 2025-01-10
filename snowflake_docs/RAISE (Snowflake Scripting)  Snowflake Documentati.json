@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/snowflake-scripting/raise",
+    "title": "RAISE (Snowflake Scripting) | Snowflake Documentation",
+    "paragraphs": [
+        "Raises an exception.",
+        "For more information about exceptions, see Handling exceptions.",
+        "Note",
+        "This Snowflake Scripting construct is valid only within a\nSnowflake Scripting block.",
+        "EXCEPTION",
+        "Where:",
+        "The name of the exception to raise.",
+        "If you are handling an exception in an exception handler and you want to raise the same exception again, omit this\nargument. See Raising the same exception again in an exception handler.",
+        "This creates and raises (but does not catch) a simple exception:",
+        "Here is the call to the stored procedure that raises the exception:",
+        "Here is the output of executing the stored procedure that raises the exception:",
+        "The next example is similar to the preceding example, but uses an exception for which the user defined a custom\nexception number and exception message:",
+        "Here is the output of executing the stored procedure that raises the exception:",
+        "For more examples, see the examples for\nhandling an exception.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

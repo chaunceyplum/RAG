@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/8_26",
+    "title": "July 15-17, 2024 \u2014 8.26 Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "The release has completed.",
+        "For differences between the in-advance and final versions of these release notes, see Release notes change log.",
+        "With this release, we are pleased to announce a new system function, SYSTEM$ESTIMATE_AUTOMATIC_CLUSTERING_COSTS, that estimates\nthe cost of enabling Automatic Clustering for a table and maintaining the table in a well-clustered state. It can also estimate\nthe cost of changing the clustering key for a clustered table.",
+        "For more information, see SYSTEM$ESTIMATE_AUTOMATIC_CLUSTERING_COSTS.",
+        "With this release, we are pleased to announce the new TYPE property for USER. The TYPE property lets you differentiate between\nservice and human users.",
+        "For more information, see CREATE USER.",
+        "With this release, Snowflake is pleased to announce the general availability of access to external network locations from function\nand procedure handlers for code deployed in the AWS Gov region. External network access in the Azure Gov region is not supported.",
+        "When setting up external network access, you create a network rule that represents the external network location. If your handler\ncode will need to authenticate with the external location, you create a secret containing the credentials needed. In handler code,\nyou can use APIs to retrieve credential values from the secret.",
+        "For more information, see External network access overview.",
+        "With this release, we are pleased to announce that custom budgets can now be used to monitor the cost of\ncompute pools associated with Snowpark Container Services.",
+        "Announcement",
+        "Update",
+        "Date",
+        "Release notes",
+        "Initial publication (preview)",
+        "Note that, at the time of publication, the 8.25 release was still in progress.",
+        "12-Jul-24",
+        "Support for Snowpark Container Services in custom budgets \u2014 General availability",
+        "Added to Cost Management Updates section",
+        "16-Jul-24",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

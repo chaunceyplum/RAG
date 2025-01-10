@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.regexp_replace",
+    "title": "snowflake.snowpark.functions.regexp_replace | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the subject with the specified pattern (or all occurrences of the pattern) either removed or replaced by a replacement string.\nIf no matches are found, returns the original subject.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/last_query_id",
+    "title": "LAST_QUERY_ID | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (Session)",
+        "Returns the ID of a specified query in the current session. If no query is specified, the most recently-executed query is returned.",
+        "RESULT_SCAN",
+        "Specifies the query to return, based on the position of the query (within the session).",
+        "Default: -1",
+        "Positive numbers start with the first query executed in the session. For example:",
+        "LAST_QUERY_ID(1) returns the first query.",
+        "LAST_QUERY_ID(2) returns the second query.",
+        "LAST_QUERY_ID(6) returns the sixth query.",
+        "Etc.",
+        "Negative numbers start with the most recently-executed query in the session. For example:",
+        "LAST_QUERY_ID(-1) returns the most recently-executed query (equivalent to LAST_QUERY_ID()).",
+        "LAST_QUERY_ID(-2) returns the second most recently-executed query.",
+        "Etc.",
+        "Return the ID for the most recently-executed query:",
+        "Return the ID for the first query executed in the session:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

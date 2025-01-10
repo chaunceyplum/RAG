@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.WhenMatchedClause.update",
+    "title": "snowflake.snowpark.WhenMatchedClause.update | Snowflake Documentation",
+    "paragraphs": [
+        "Defines an update action for the matched clause and\nreturns an updated WhenMatchedClause with the new\nupdate action added.",
+        "assignments \u2013 A list of values or a dict that associates\nthe names of columns with the values that should be updated.\nThe value of assignments can either be a literal value or\na Column object.",
+        "Example:",
+        "Note",
+        "An exception will be raised if this method or WhenMatchedClause.delete()\nis called more than once on the same WhenMatchedClause object.",
+        "Was this page helpful?"
+    ]
+}

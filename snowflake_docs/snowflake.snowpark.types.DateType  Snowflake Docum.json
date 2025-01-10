@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.types.DateType",
+    "title": "snowflake.snowpark.types.DateType | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: _AtomicType",
+        "Date data type. This maps to the DATE data type in Snowflake.",
+        "Methods",
+        "Was this page helpful?"
+    ]
+}

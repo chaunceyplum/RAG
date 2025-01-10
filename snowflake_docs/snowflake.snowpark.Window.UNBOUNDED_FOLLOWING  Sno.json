@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.Window.UNBOUNDED_FOLLOWING",
+    "title": "snowflake.snowpark.Window.UNBOUNDED_FOLLOWING | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a value representing unbounded following.",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.task",
+    "title": "snowflake.core.task | Snowflake Documentation",
+    "paragraphs": [
+        "Manages Snowflake Tasks.",
+        "Example",
+        "Refer to snowflake.core.Root to create the root.",
+        "Classes",
+        "Cron(expr,\u00a0timezone)",
+        "Specifies a cron expression and time zone for periodically running the task.",
+        "StoredProcedureCall(func,\u00a0*[,\u00a0args,\u00a0...])",
+        "Represents a procedure call used as a task's definition.",
+        "Task(name,\u00a0definition,\u00a0*[,\u00a0warehouse,\u00a0...])",
+        "Represents a Snowflake Task.",
+        "TaskCollection(schema)",
+        "Represents the collection operations of the Snowflake Task resource.",
+        "TaskResource(name,\u00a0collection)",
+        "Represents a reference to a Snowflake Task resource.",
+        "TaskRun(*,\u00a0root_task_name,\u00a0database_name,\u00a0...)",
+        "A model object representing the TaskRun resource.",
+        "Was this page helpful?"
+    ]
+}

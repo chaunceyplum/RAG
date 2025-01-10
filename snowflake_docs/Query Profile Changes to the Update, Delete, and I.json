@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_03/bcr-978",
+    "title": "Query Profile: Changes to the Update, Delete, and Insert Operators | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "This behavior is as follows:",
+        "Using Query Profile:",
+        "The Insert operator displays the Table names attribute for single target tables.",
+        "The Update and Delete operators display the Table name attribute.",
+        "The Insert operator displays the Full table name attribute for a single table target, and the Full table names attribute for multiple target tables.",
+        "The Update and Delete operators display the Full table name attribute.",
+        "Ref: 978",
+        "Was this page helpful?"
+    ]
+}

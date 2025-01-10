@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/guides-overview-unloading-data",
+    "title": "Unload Data from Snowflake | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake supports bulk unloading of data from a database table into flat, delimited text files.\nThe following topics detail the processes and procedures associated with unloading data.",
+        "Introduction and overview of unloading data.",
+        "Reference of the supported features for using the COPY INTO <location> command to unload data from Snowflake tables into flat files.",
+        "Best practices, general guidelines, and important considerations for unloading data.",
+        "Supported data file formats for unloading data.",
+        "Instructions on using the COPY command to unload data from a table into an internal (i.e. Snowflake) stage.",
+        "Instructions on using the COPY command to unload data from a table into an Amazon S3 bucket.",
+        "Instructions on using the COPY command to unload data from a table into an Google Cloud Storage bucket.",
+        "Instructions on using the COPY command to unload data from a table into an Azure container.",
+        "Was this page helpful?"
+    ]
+}

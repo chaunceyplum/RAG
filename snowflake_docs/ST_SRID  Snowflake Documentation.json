@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_srid",
+    "title": "ST_SRID | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns the SRID (spatial reference system identifier) of a GEOGRAPHY or\nGEOMETRY object.",
+        "Currently, for any value of the GEOGRAPHY type, only SRID 4326 is supported and is returned.",
+        "The argument must be an expression of type GEOGRAPHY or GEOMETRY.",
+        "Returns a value of type NUMBER(4,0).",
+        "Returns NULL if the input is NULL.",
+        "This shows a simple use of the ST_SRID function:",
+        "This shows use of the ST_SRID function with NULL values:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

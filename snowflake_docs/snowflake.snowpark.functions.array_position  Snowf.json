@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.array_position",
+    "title": "snowflake.snowpark.functions.array_position | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the index of the first occurrence of an element in an ARRAY.",
+        "variant \u2013 Column containing the VARIANT value that you want to find. The function\nsearches for the first occurrence of this value in the array.",
+        "array \u2013 Column containing the ARRAY to be searched.",
+        "Was this page helpful?"
+    ]
+}

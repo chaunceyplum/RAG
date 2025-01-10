@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_07/bcr-1566",
+    "title": "LISTING_EVENTS_DAILY: new columns in output | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_07 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, two new columns appear in\nLISTING_EVENTS_DAILY view in the\nData Sharing Usage schema.",
+        "Column name",
+        "Data type",
+        "Description",
+        "ACCESS_TYPE",
+        "VARCHAR",
+        "The access type of the listing. The access type is also called the monetization type.",
+        "EVENT_TIMESTAMP",
+        "DATETIME",
+        "The date and time that a listing-related event occurred.",
+        "Ref: 1566",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1181",
+    "title": "GRANT OWNERSHIP command: Ownership transfer not allowed for shared databases | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The GRANT OWNERSHIP and DROP ROLE commands behave as follows:",
+        "When you grant the USAGE privilege on a database to a share, you can execute the GRANT OWNERSHIP command to transfer the OWNERSHIP\nprivilege on the database to a different role. For example:",
+        "Additionally, you can drop the role that has the OWNERSHIP privilege on the shared database:",
+        "You can transfer ownership of the shared database to a different role and use the COPY CURRENT GRANTS clause, however you cannot transfer\nownership on the shared database to a different role and use the REVOKE CURRENT GRANTS clause. If you try to do this, Snowflake returns\nthe following error message:",
+        "To avoid this error message and transfer the OWNERSHIP privilege to a different role, revoke the USAGE privilege on the database from the\nshare, transfer the OWNERSHIP privilege on the database to a different role, and grant the USAGE privilege on the database to the share.\nFor example:",
+        "Additionally, if you try to drop the role that has the OWNERSHIP privilege on the shared database, Snowflake returns the following error\nmessage with instructions on the actions to take:",
+        "Ref: 1181",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/stored-procedures/system_send_email",
+    "title": "SYSTEM$SEND_EMAIL | Snowflake Documentation",
+    "paragraphs": [
+        "Sends an email notification to the specified recipients from\nno-reply@snowflake.net.",
+        "Note",
+        "All Snowflake customers can send email messages using this feature. Email messages sent from the Notifications System Stored\nProcedure are processed through Snowflake\u2019s Amazon Web Services (AWS) deployments, using AWS Simple Email Service (SES). The\ncontent of an email message sent using AWS may be retained by Snowflake for up to thirty days to manage the delivery of the\nmessage. After this period, the message content is deleted.",
+        "Name of the notification integration that you want to use to send the\nemail message.",
+        "List of email addresses that should receive the email notification.",
+        "Specify one or more unquoted email addresses in a comma-separated string.",
+        "If the ALLOWED_RECIPIENTS property of the\nnotification integration is set and any of the email addresses is\nnot in that list, no email notifications are sent.",
+        "Subject line of the email notification. You cannot specify an empty string.",
+        "Body of the email. You cannot specify an empty string.",
+        "The MIME type of the email_content value, the email\u2019s content. Default is text/plain.",
+        "The following types are supported:",
+        "text/plain \u2013 Specify this when email_content is plain text. This is the default value.",
+        "text/html \u2013 Specify this when email_content is HTML.",
+        "Note that the content of a message of the text/html type is not validated as well-formed HTML.",
+        "Returns TRUE if the stored procedure executes successfully.",
+        "See Using SYSTEM$SEND_EMAIL to send email notifications.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

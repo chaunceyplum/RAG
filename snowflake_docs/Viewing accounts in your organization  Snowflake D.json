@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/organizations-manage-accounts-view",
+    "title": "Viewing accounts in your organization | Snowflake Documentation",
+    "paragraphs": [
+        "An organization administrator (i.e. user with the ORGADMIN role) can view a list of all accounts created in your organization through the\nweb interface or using SQL:",
+        "Select Admin \u00bb Accounts.\nYou can search and filter active and dropped accounts in your organization.",
+        "Execute a SHOW ACCOUNTS command.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

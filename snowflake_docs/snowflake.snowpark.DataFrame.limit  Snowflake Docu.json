@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.limit",
+    "title": "snowflake.snowpark.DataFrame.limit | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a new DataFrame that contains at most n rows from the current\nDataFrame, skipping offset rows from the beginning (similar to LIMIT and OFFSET in SQL).",
+        "Note that this is a transformation method and not an action method.",
+        "n \u2013 Number of rows to return.",
+        "offset \u2013 Number of rows to skip before the start of the result set. The default value is 0.",
+        "_ast_stmt \u2013 Overridding AST statement. Used in cases where this function is invoked internally.",
+        "_emit_ast \u2013 Whether to emit AST statements.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

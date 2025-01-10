@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.union_all_by_name",
+    "title": "snowflake.snowpark.DataFrame.union_all_by_name | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a new DataFrame that contains all the rows in the current DataFrame\nand another DataFrame (other), including any duplicate rows.",
+        "This method matches the columns in the two DataFrames by their names, not by\ntheir positions. The columns in the other DataFrame are rearranged to match\nthe order of columns in the current DataFrame.",
+        "Example:",
+        "other \u2013 the other DataFrame that contains the rows to include.",
+        "Was this page helpful?"
+    ]
+}

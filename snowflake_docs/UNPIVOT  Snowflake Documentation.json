@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/constructs/unpivot",
+    "title": "UNPIVOT | Snowflake Documentation",
+    "paragraphs": [
+        "Query syntax",
+        "Rotates a table by transforming columns into rows. UNPIVOT is a relational operator that accepts\ntwo columns (from a table or subquery), along with a list of columns, and generates a row for\neach column specified in the list. In a query, it is specified in the FROM clause after\nthe table name or subquery.",
+        "UNPIVOT is not exactly the reverse of PIVOT because it cannot undo aggregations made by PIVOT.",
+        "This operator can be used to transform a wide table (e.g. empid, jan_sales,\nfeb_sales, mar_sales) into a narrower table (e.g. empid, month,\nsales).",
+        "PIVOT",
+        "Specifies whether to include or exclude rows with NULLs in the name_column:",
+        "INCLUDE NULLS includes rows with NULLs.",
+        "EXCLUDE NULLS excludes rows with NULLs.",
+        "Default: EXCLUDE NULLS",
+        "The name to assign to the generated column that will be populated with the values from the columns in the column list.",
+        "The name to assign to the generated column that will be populated with the names of the columns in the column list.",
+        "The names of the columns in the source table or subquery that will be rotated into a single pivot column.\nThe column names will populate name_column, and the column values will populate value_column.",
+        "The column_list can only contain literal column names, not a subquery.",
+        "The columns in column_list must have exactly the same data type, with the following exceptions:",
+        "The data types for text strings can be different lengths.",
+        "If the columns contain text strings, different columns can use different data types for text. For example,\nthe list can include a VARCHAR column and a CHAR column.",
+        "Create a table, monthly_sales, with the following structure and data:",
+        "Unpivot the individual month columns to return a single sales value by month for each employee.",
+        "The previous SELECT statement excludes NULLs by default. So, it does not include a row for appliances in February\nin the results. To include NULLs in the results, run the following SQL statement:",
+        "This output includes a row for appliances in February.",
+        "Instead of selecting all columns with *, you can include specific columns in the SELECT list and reference\nthe UNPIVOT value_column and name_column. The following example is similar to the previous\nexample, but it specifies the value_column sales and the name_column month in the\nSELECT list. The query excludes the empid column:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

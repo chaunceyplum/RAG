@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/ui/2024-02-07",
+    "title": "February 07-08, 2024 \u2014 Snowsight Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "This document provides an overview of the new features, enhancements, and other important changes introduced in this update to\nSnowsight.",
+        "If you have additional questions, please feel free to contact Snowflake Support.",
+        "With this release, we are pleased to announce the general availability of Python worksheets in Snowsight. Python worksheets let\nyou write and run Snowpark Python code in a worksheet in Snowsight. You can now use Python version 3.11 or another\nsupported version.",
+        "In a Python worksheet, you can do the following:",
+        "Write a Python script to read data from a stage, transform it, and save it to a table, all without leaving Snowsight.",
+        "Use included packages from Anaconda or import packages from a stage to write code more easily.",
+        "Automate your Python code by deploying it as a stored procedure and scheduling it as a task.",
+        "For more information, see Writing Snowpark Code in Python Worksheets.",
+        "With this release, we are pleased to announce the general availability of recovering Snowsight worksheets for users that have\nbeen dropped from Snowflake. You can recover up to 500 worksheets for each dropped user.",
+        "For more details, see Recover worksheets owned by a dropped user.",
+        "With this release, the Get Started page that was available to some trial and Snowflake On Demand accounts has been removed.",
+        "Announcement",
+        "Update",
+        "Date",
+        "New navigation menu (Preview)",
+        "Removed",
+        "02-08-24",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

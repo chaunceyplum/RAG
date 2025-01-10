@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/truncate-materialized-view",
+    "title": "TRUNCATE MATERIALIZED VIEW | Snowflake Documentation",
+    "paragraphs": [
+        "Obsolete Feature",
+        "Snowflake no longer supports truncation of materialized views.",
+        "If you have an existing materialized view that you want to truncate, but not drop, the closest alternative is:",
+        "CREATE OR REPLACE\nMATERIALIZED VIEW <name>\nCOPY GRANTS ...",
+        "The CREATE OR REPLACE MATERIALIZED VIEW command executes as a foreground statement and requires a warehouse.",
+        "Enterprise Edition Feature",
+        "Materialized views require Enterprise Edition. To inquire about upgrading, please contact Snowflake Support.",
+        "Removes all rows from a materialized view, but leaves the view intact (including all privileges and constraints on the materialized view).",
+        "Note that this is different from DROP MATERIALIZED VIEW, which removes the materialized view from the system.",
+        "ALTER MATERIALIZED VIEW , CREATE MATERIALIZED VIEW",
+        "Specifies the identifier for the materialized view to truncate. If the identifier contains spaces or special characters, the entire\nstring must be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive (e.g. \"My Object\").",
+        "If the materialized view identifier is not fully-qualified (in the form of db_name.schema_name.materialized_view_name\nor schema_name.materialized_view_name), then the command looks for the materialized view in the current schema for the\nsession.",
+        "Snowflake no longer supports truncation of materialized views.",
+        "If you truncate a materialized view, the background maintenance service automatically updates the materialized view. If\nany queries are executed on the view while it is in the process of being updated, Snowflake ensures consistent results\nby retrieving any rows, as needed, from the base table.",
+        "However, the maintenance service uses computing resources to update the materialized view and it is usually more efficient\n(i.e. less costly) to let an out-of-date materialized view \u201ccatch up\u201d naturally over time than to truncate the view. As such,\nwe do not generally recommend truncating a materialized view.",
+        "Although each query on the view will still show up-to-date results, the query might run more slowly as Snowflake\nupdates the materialized view or looks up data in the base table.",
+        "This feature has been obsoleted.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

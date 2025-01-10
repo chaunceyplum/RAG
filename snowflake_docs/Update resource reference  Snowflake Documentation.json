@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/native-apps/connector-sdk/reference/update_resource_reference",
+    "title": "Update resource reference | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to accounts in all regions in all cloud providers (including government regions). For details, contact your Snowflake representative.",
+        "The following database objects are created when the file ingestion/resource_management.sql is executed.",
+        "Entry point procedure available to the ADMIN role. This procedure invokes the Java function UpdateResourceHandler.updateResource.",
+        "Procedure used for connector specific validation of update process. By default, it returns 'response_code': 'OK'.\nIt is invoked by DefaultUpdateResourceValidator. Can be overwritten both in SQL and Java.",
+        "Procedure used for adding connector specific logic which is invoked before a resource is updated.\nBy default, it returns 'response_code': 'OK'.\nIt is invoked by DefaultPreUpdateResourceCallback. Can be overwritten both in SQL and Java.",
+        "Procedure used for adding connector specific logic which is invoked after a resource is updated.\nBy default, it returns 'response_code': 'OK'.\nIt is invoked by DefaultPostUpdateResourceCallback. Can be overwritten both in SQL and Java.",
+        "The following Java objects from the com.snowflake.connectors.application.ingestion.update package and some common components are tightly connected with the above procedures:",
+        "UpdateResourceHandler",
+        "UpdateResourceHandlerBuilder",
+        "UpdateResourceValidator",
+        "PreUpdateResourceCallback",
+        "PostUpdateResourceCallback",
+        "ConnectorErrorHelper",
+        "The handler and its internals can be customized using the following approaches.",
+        "The following components can be replaced using SQL.",
+        "To provide whole custom implementation of UpdateResourceHandler, the PUBLIC.UPDATE_RESOURCE procedure must be replaced. For example:",
+        "Internal procedures UPDATE_RESOURCE_VALIDATE, PRE_UPDATE_RESOURCE and POST_UPDATE_RESOURCE can be also customized through the SQL. These procedures can also invoke other Java handlers:",
+        "UpdateResourceHandler can be customized using UpdateResourceHandlerBuilder. This builder allows user to provide custom implementations of the following interfaces:",
+        "UpdateResourceValidator",
+        "PreUpdateResourceCallback",
+        "PostUpdateResourceCallback",
+        "ConnectorErrorHelper",
+        "In case a function is not provided the default implementation provided by the SDK will be used.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.duplicated",
+    "title": "modin.pandas.Series.duplicated | Snowflake Documentation",
+    "paragraphs": [
+        "Indicate duplicate Series values.",
+        "Duplicated values are indicated as True values in the resulting\nSeries. Either all duplicates, all except the first or all except the\nlast occurrence of duplicates can be indicated.",
+        "keep ({'first', 'last', False}, default 'first') \u2013",
+        "Method to handle dropping duplicates:",
+        "\u2019first\u2019 : Mark duplicates as True except for the first\noccurrence.",
+        "\u2019last\u2019 : Mark duplicates as True except for the last\noccurrence.",
+        "False : Mark all duplicates as True.",
+        "",
+        "Snowpark pandas Series indicating whether each value has occurred\nin the preceding values.",
+        "Snowpark pandas Series[bool]",
+        "See also",
+        "Equivalent method on pandas.Index.",
+        "Equivalent method on pandas.DataFrame.",
+        "Remove duplicate values from Series.",
+        "Examples",
+        "By default, for each set of duplicated values, the first occurrence is\nset on False and all others on True:",
+        "which is equivalent to",
+        "By using \u2018last\u2019, the last occurrence of each set of duplicated values\nis set on False and all others on True:",
+        "By setting keep on False, all duplicates are True:",
+        "Was this page helpful?"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_01/bcr-1475",
+    "title": "SHOW commands: Update OWNER column for objects owned by Snowflake | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_01 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of the owner column is as follows:",
+        "The owner column does not return a value for the following commands:",
+        "SHOW APPLICATION ROLES IN APPLICATION SNOWFLAKE",
+        "SHOW SCHEMAS IN APPLICATION SNOWFLAKE",
+        "SHOW SCHEMAS IN DATABASE SNOWFLAKE.",
+        "The owner column returns a value for the following commands as follows:",
+        "Command",
+        "owner column value",
+        "SHOW APPLICATION ROLE IN APPLICATION SNOWFLAKE",
+        "SNOWFLAKE",
+        "SHOW SCHEMAS IN APPLICATION SNOWFLAKE",
+        "SHOW SCHEMAS IN DATABASE SNOWFLAKE",
+        "SNOWFLAKE for the schema named LOCAL.",
+        "This output applies to both commands.",
+        "Note",
+        "Disabling the 2024_01 behavior change bundle does not\ndisable the changes described in this topic.",
+        "Ref: 1475",
+        "Was this page helpful?"
+    ]
+}

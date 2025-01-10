@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/external-functions-creating-gcp-troubleshooting",
+    "title": "Troubleshooting external functions for GCP | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides troubleshooting information for external functions for GCP.",
+        "When passing arguments to or from an external function, ensure that the data types are appropriate. If the value\nsent can\u2019t fit into the data type being received, the value might be truncated or corrupted in some other way.",
+        "For more details, see Ensure that arguments to the external function correspond to arguments parsed by the remote service.",
+        "The row numbers you return within each batch should be monotonically ascending integers starting at 0. The input row numbers must also\nfollow this rule, and each output row should match the corresponding input row. For example, the output in output row 0 should\ncorrespond to the input in input row 0.",
+        "Ensure that the row numbers you return are the same as the row numbers you received, and that each output value uses the row number of\nthe corresponding input. If this doesn\u2019t work, then the input row numbers may not be correct or you did not return the rows in the\ncorrect order.",
+        "Next, ensure that the output row numbers start from 0, increase by 1, and are in order.",
+        "For more information about data input and output formats, see Remote service input and output data formats.",
+        "The most likely cause is that the JSON returned by the remote service (e.g. AWS Lambda function) is not constructed correctly.",
+        "Ensure that the external function returns an array of arrays, with one inner array returned for each input row received. Review the\ndescription of the output format at Data format received by Snowflake.",
+        "Your return value includes double quotes inside the value.",
+        "Although JSON strings are delimited by double quotes, the string itself should not start and end with a quotation mark in most cases.\nIf the embedded double quotes are incorrect, remove them.",
+        "The remote service tried to return more or fewer rows than it received. Even though the function is nominally scalar, it might receive\nmultiple rows in the body field of the event parameter, and should return exactly as many rows as it received.",
+        "Ensure that the remote service returns one row for each row that it receives.",
+        "The value in the API integration\u2019s google_audience field is not allowed.",
+        "Verify that the API Integration\u2019s google_audience value matches the managed service name of your API, which should be\nrecorded in the Managed Service Identifier field in your tracking worksheet.",
+        "If you added an x-google-audiences field to the securityDefinitions section of your API config file, make sure that\nthe value in x-google-audiences matches the value in the google_audience field of the API integration.",
+        "For more information about authenticating with Google, see the Google service account\nauthentication documentation.",
+        "The value of the x-google-issuer field in the securityDefinitions field in the configuration file\nmight not match the value of the API_GCP_SERVICE_ACCOUNT for the API integration, as recorded in your tracking worksheet.",
+        "The value in x-google-issuer might contain extra whitespace.",
+        "Update the x-google-issuer to match the API_GCP_SERVICE_ACCOUNT.",
+        "Remove unneeded whitespace.",
+        "The service account using the config does not have the appropriate permissions on the backend.",
+        "Update the service account\u2019s permissions.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

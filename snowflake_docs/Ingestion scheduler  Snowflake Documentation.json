@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/native-apps/connector-sdk/using/scheduler",
+    "title": "Ingestion scheduler | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to accounts in all regions in all cloud providers (including government regions). For details, contact your Snowflake representative.",
+        "Library which provides common elements and features that are used in all Snowflake connectors.",
+        "Default implementation of the scheduler requires the following files to be executed during the connector installation:",
+        "core.sql (See: Core SQL reference)",
+        "configuration/app_config.sql (See: App config SQL reference)",
+        "configuration/connector_configuration.sql (See: Connector configuration reference)",
+        "scheduler/scheduler.sql (See: Ingestion scheduler reference)",
+        "The scheduler task takes care of triggering the ingestion of resources at appropriate times according to their configuration.\nThis task is not started by the SDK itself and needs to be created and resumed, for example, during finalize configuration step.\nThere are two ways of achieving this: using the procedure called PUBLIC.CREATE_SCHEDULER() from SQL\nor by calling SchedulerCreator#createScheduler() directly from the Java code.",
+        "The default implementation will create the scheduler task using the expression provided in connector_configuration, under the\nglobal_schedule key. When the default scheduler task is executed it searches for all the enabled resource ingestion definitions that\nhave their ScheduleType in configuration set to GLOBAL and their corresponding ingestion processes.\nEach of the processes is then updated to IN_PROGRESS status. This status will be updated again to SCHEDULED after ingestion iteration is finished.\nThen for each of them OnIngestionScheduledCallback is executed.\nThis callback can be completely custom and can be implemented using SQL or Java. The default implementation of this callback does nothing,\nhowever the SDK also provides an implementation of this callback using the Task reactor module. This implementation retrieves\nthe data about resources from the database and puts a work item containing this data in the Task Reactor queue.",
+        "When the work item is finished another callback called OnIngestionFinishedCallback is executed.\nThis callback changes the process state back to SCHEDULED once the ingestion is done.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

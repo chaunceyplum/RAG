@@ -1,0 +1,21 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_global_account_set_parameter",
+    "title": "SYSTEM$GLOBAL_ACCOUNT_SET_PARAMETER | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Enables replication and failover features for a specified account in an organization.",
+        "Once an organization administrator (a user with the ORGADMIN role) has called this function, the following features are enabled for the\naccount:",
+        "Replication",
+        "Client Redirect",
+        "Call the SQL function once for each account in your organization for which you are enabling replication and failover features. This\nincludes each account that you intend to contain a primary or secondary\nreplication or failover group, database, or\nconnection.",
+        "Identifier of an account for which you are enabling replication. The preferred format for the identifier is\norganization_name.account_name. Though the legacy account_locator format is also supported, its use is discouraged as it\ncan cause unexpected results when an organization has multiple accounts with the same locator (in different regions).",
+        "Retrieve the set of accounts in your organization using the SHOW ACCOUNTS command, which returns\ndetails about each account, including the organization name, account name, and account locator.",
+        "Only organization administrators (i.e. users with the ORGADMIN role) can call this SQL function.",
+        "Multiple accounts can be enabled for replication from the same organization administrator account.",
+        "When replication is enabled for an account using this SQL function,\nthe SHOW REPLICATION ACCOUNTS output includes the account.",
+        "If you have more than one account with the same account locator in different regions, to enable replication, you must use\norganization_name.account_name as the account identifier.",
+        "The following example enables replication for the account1 and account2 accounts in the myorg organization:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

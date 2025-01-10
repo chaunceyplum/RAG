@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_02/bcr-1549",
+    "title": "CREATE and ALTER DATABASE commands: Database names starting with \u201cdatacloud$\u201d no longer allowed | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_02 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The CREATE DATABASE and ALTER DATABASE commands are changing as follows:",
+        "You can use the CREATE DATABASE command to create a database with a name that starts with datacloud$.",
+        "You can also use the ALTER DATABASE command to change the name of a database to a name that starts with datacloud$.",
+        "If you execute the CREATE DATABASE command to create a database with a name that starts with datacloud$, the following\nerror occurs:",
+        "The same error occurs if you use the ALTER DATABASE command to change the name of a database to a name that starts with\ndatacloud$.",
+        "Note that the case of datacloud$ does not matter. The error occurs if this prefix is in uppercase, lowercase, or mixed\ncase.",
+        "Ref: 1549",
+        "Was this page helpful?"
+    ]
+}

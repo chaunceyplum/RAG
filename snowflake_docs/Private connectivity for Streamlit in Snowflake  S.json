@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/streamlit/privatelink",
+    "title": "Private connectivity for Streamlit in Snowflake | Snowflake Documentation",
+    "paragraphs": [
+        "This topic describes using private connectivity when accessing Streamlit in Snowflake.",
+        "Note",
+        "Google Cloud Private Service Connect is currently not supported for use with Streamlit in Snowflake.",
+        "To access Streamlit in Snowflake with either AWS PrivateLink or Azure Private Link:",
+        "Set up private connectivity for your Snowflake account.",
+        "Set up private connectivity for Snowsight.",
+        "To determine the hostname, call SYSTEM$GET_PRIVATELINK_CONFIG in your Snowflake account.\nThe Streamlit hostname is displayed under the app-service-privatelink-url key, which is the wildcard URL required for\nrouting Streamlit application traffic through AWS PrivateLink and Azure Private Link.",
+        "Note",
+        "You can set up a new VPC endpoint for Streamlit or create a DNS record to the same VPC endpoint of your Snowflake account, as shown in the following example:",
+        "Record name: *.<identifier>.privatelink.snowflake.app",
+        "Type: CNAME",
+        "Route traffic to: same VPC as your Snowflake traffic.",
+        "Hostname routing at an account level is currently not supported.",
+        "Streamlit in Snowflake apps serve both HTTPS-encrypted traffic and WebSocket-encrypted traffic. The Streamlit browser client application is mounted in a third-party, cross-origin\niframe within Snowsight. This enables strict cross-site browser isolation control.",
+        "Streamlit in Snowflake uses a separate URL scheme for specific security requirements. Streamlit URLs have their own top-level domain with no shared elements\nwith Snowsight. Each Streamlit app has a unique origin.",
+        "Note",
+        "When using AWS PrivateLink or Azure Private Link, you control the DNS resolution; there are no PrivateLink DNS records controlled by Snowflake.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.unpivot",
+    "title": "snowflake.snowpark.DataFrame.unpivot | Snowflake Documentation",
+    "paragraphs": [
+        "Rotates a table by transforming columns into rows.\nUNPIVOT is a relational operator that accepts two columns (from a table or subquery), along with a list of columns, and generates a row for each column specified in the list. In a query, it is specified in the FROM clause after the table name or subquery.\nNote that UNPIVOT is not exactly the reverse of PIVOT as it cannot undo aggregations made by PIVOT.",
+        "value_column \u2013 The name to assign to the generated column that will be populated with the values from the columns in the column list.",
+        "name_column \u2013 The name to assign to the generated column that will be populated with the names of the columns in the column list.",
+        "column_list \u2013 The names of the columns in the source table or subequery that will be narrowed into a single pivot column. The column names will populate name_column, and the column values will populate value_column.",
+        "include_nulls \u2013 If True, include rows with NULL values in name_column. The default value is False.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

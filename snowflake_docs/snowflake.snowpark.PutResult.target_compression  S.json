@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.PutResult.target_compression",
+    "title": "snowflake.snowpark.PutResult.target_compression | Snowflake Documentation",
+    "paragraphs": [
+        "The target file compression format.",
+        "Was this page helpful?"
+    ]
+}

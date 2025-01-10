@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.concat",
+    "title": "snowflake.snowpark.functions.concat | Snowflake Documentation",
+    "paragraphs": [
+        "Concatenates one or more strings, or concatenates one or more binary values. If any of the values is null, the result is also null.",
+        "Was this page helpful?"
+    ]
+}

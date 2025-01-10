@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-rest-api/stream/stream-introduction",
+    "title": "Manage streams | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "The Snowflake REST Stream API provides the following endpoints to access, update, and perform certain actions on Stream resources.",
+        "Endpoint",
+        "Description",
+        "GET /api/v2/databases/database/schemas/.schema/streams",
+        "Lists available streams.",
+        "POST /api/v2/databases/database/schemas/.schema/streams",
+        "Creates a stream.",
+        "GET /api/v2/databases/database/schemas/.schema/streams/name",
+        "Fetches a stream.",
+        "DELETE /api/v2/databases/database/schemas/.schema/streams/name",
+        "Deletes a stream.",
+        "POST /api/v2/databases/database/schemas/.schema/streams/name:clone",
+        "Clones a stream.",
+        "For reference documentation, see Snowflake Stream API reference.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

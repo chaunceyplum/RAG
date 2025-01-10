@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.view.ViewResource",
+    "title": "snowflake.core.view.ViewResource | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SchemaObjectReferenceMixin[ViewCollection]",
+        "Represents a reference to a Snowflake view.",
+        "With this view reference, you can drop and fetch information about views.",
+        "Attributes",
+        "Methods",
+        "Drop this view.",
+        "if_exists (bool, optional) \u2013 Check the existence of this view before dropping it.\nDefault is None, which is equivalent to False.",
+        "Examples",
+        "Deleting a view using its reference:",
+        "Deleting a view using its reference if it exists:",
+        "Fetch the details of a view.",
+        "Examples",
+        "Fetching a reference to a view to print its name and query properties:",
+        "Was this page helpful?"
+    ]
+}

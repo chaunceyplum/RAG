@@ -1,0 +1,32 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.external_volume.ExternalVolumeCollection",
+    "title": "snowflake.core.external_volume.ExternalVolumeCollection | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: AccountObjectCollectionParent[ExternalVolumeResource]",
+        "Represents the collection operations of the Snowflake External Volume resource.",
+        "With this collection, you can create, iterate through, and search for external volume that you have access to\nin the current context.",
+        "Examples",
+        "Creating an external volume instance:",
+        "Attributes",
+        "Methods",
+        "Create an external volume in Snowflake.",
+        "external_volume (ExternalVolume)",
+        "mode (CreateMode, optional) \u2013",
+        "One of the following strings.",
+        "CreateMode.error_if_exists: Throw an snowflake.core.exceptions.ConflictError\nif the external volume already exists in Snowflake. Equivalent to SQL create external volume <name> ....",
+        "CreateMode.or_replace: Replace if the external volume already exists in Snowflake. Equivalent to SQL\ncreate or replace external volume <name> ....",
+        "CreateMode.if_not_exists: Do nothing if the external volume already exists in Snowflake.\nEquivalent to SQL create external volume <name> if not exists...",
+        "Default value is CreateMode.error_if_exists.",
+        "",
+        "Examples",
+        "Creating an external volume in Snowflake and getting a reference to it:",
+        "Iterate through ExternalVolume objects in Snowflake, filtering on any optional like pattern.",
+        "like (str, optional) \u2013 A case-insensitive string functioning as a filter, with support for SQL\nwildcard characters (% and _).",
+        "Examples",
+        "Showing all external volumes you have access to see:",
+        "Showing information of the exact external volume you want to see:",
+        "Showing external volumes starting with \u2018your-external-volume-name\u2019:",
+        "Using a for loop to retrieve information from iterator:",
+        "Was this page helpful?"
+    ]
+}

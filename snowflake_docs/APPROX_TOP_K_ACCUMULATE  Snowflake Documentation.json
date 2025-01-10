@@ -1,0 +1,31 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/approx_top_k_accumulate",
+    "title": "APPROX_TOP_K_ACCUMULATE | Snowflake Documentation",
+    "paragraphs": [
+        "Aggregate functions (Frequency Estimation) , Window function syntax and usage",
+        "Returns the Space-Saving summary at the end of aggregation. (For more\ninformation about the Space-Saving summary, see\nEstimating Frequent Values.)",
+        "The function APPROX_TOP_K discards its internal, intermediate state\nwhen the final cardinality estimate is returned. However, in certain advanced\nuse cases, such as estimating incremental frequent values during bulk loading,\nyou might want to keep the intermediate state, in which case you would use\nAPPROX_TOP_K_ACCUMULATE instead of APPROX_TOP_K.",
+        "In contrast to APPROX_TOP_K, APPROX_TOP_K_ACCUMULATE does not return a frequency estimate of items. Instead,\nit returns the algorithm state itself. The intermediate state can later be:",
+        "Combined (that is, merged) with intermediate states from separate but related\nbatches of data.",
+        "Processed by other functions that operate directly on the intermediate state,\nfor example, APPROX_TOP_K_ESTIMATE. (For an example, see the\nExamples section below.)",
+        "Exported to external tools.",
+        "APPROX_TOP_K_COMBINE, APPROX_TOP_K_ESTIMATE",
+        "The expression (e.g. column name) for which you want to find the most common values.",
+        "This is the maximum number of distinct values that can be tracked at a time during the estimation process.",
+        "For example, if counters is set to 100000, then the algorithm tracks 100,000 distinct values, attempting to keep the\n100,000 most frequent values.",
+        "The maximum number of counters is 100000 (100,000).",
+        "This example shows how to use the three related functions\nAPPROX_TOP_K_ACCUMULATE, APPROX_TOP_K_ESTIMATE, and APPROX_TOP_K_COMBINE.",
+        "Note",
+        "This example uses more counters than distinct data values in order to get\nconsistent results. In real-world applications, the number of distinct\nvalues is usually larger than the number of counters, so approximations can vary.",
+        "This example generates one table with 8 rows that have values 1 - 8, and a\nsecond table with 8 rows that have values 5 - 12. Thus the most frequent\nvalues in the union of the two tables are the values 5-8, each of which has a\ncount of 2.",
+        "Create a simple table and data:",
+        "Create a table that contains the \u201cstate\u201d that represents the current\napproximate Top K information for the table named sequence_demo:",
+        "Now create a second table and add data.  (In a more realistic situation, the user could have\nloaded more data into the first table and divided the data into non-overlapping sets based\non the time that the data was loaded.)",
+        "Get the \u201cstate\u201d information for just the new data.",
+        "Combine the \u201cstate\u201d information for the two batches of rows:",
+        "Get the approximate Top K value of the combined set of rows:",
+        "Output:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

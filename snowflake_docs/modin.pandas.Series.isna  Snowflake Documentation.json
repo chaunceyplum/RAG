@@ -1,0 +1,12 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.isna",
+    "title": "modin.pandas.Series.isna | Snowflake Documentation",
+    "paragraphs": [
+        "Detect missing values.",
+        "Return a boolean same-sized object indicating if the values are NA. NA values, such as None\nor numpy.NaN, gets mapped to True values. Everything else gets mapped to False values.\nCharacters such as empty strings \u2018\u2019 or numpy.inf are not considered NA values.",
+        "Mask of bool values for each element in Series that indicates whether an element is an NA value.",
+        "Series",
+        "Examples",
+        "Was this page helpful?"
+    ]
+}

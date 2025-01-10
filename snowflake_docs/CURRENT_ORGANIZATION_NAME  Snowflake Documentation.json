@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/current_organization_name",
+    "title": "CURRENT_ORGANIZATION_NAME | Snowflake Documentation",
+    "paragraphs": [
+        "Context functions (Session)",
+        "Returns the name of the organization to which the current account belongs.",
+        "None.",
+        "The data type of the returned value is VARCHAR.",
+        "This shows how to call the CURRENT_ORGANIZATION_NAME function:",
+        "Output:",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

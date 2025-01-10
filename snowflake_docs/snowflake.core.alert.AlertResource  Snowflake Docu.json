@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.alert.AlertResource",
+    "title": "snowflake.core.alert.AlertResource | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SchemaObjectReferenceMixin[AlertCollection]",
+        "Represents a reference to a Snowflake Alert resource.",
+        "With this alert reference, you can create, update, delete, and fetch information about alerts, as well\nas perform certain actions on them.",
+        "Attributes",
+        "Methods",
+        "Drop this alert.",
+        "if_exists (bool, optional) \u2013 Check the existence of this alert before drop.\nThe default value is False.",
+        "Examples",
+        "Deleting an alert using its reference, erroring if it doesn\u2019t exist:",
+        "Deleting an alert using its reference if it exists:",
+        "Execute an alert.",
+        "Examples",
+        "Use an alert reference to execute it:",
+        "Fetch the details of an alert.",
+        "Examples",
+        "Fetching an alert reference to print its name and query properties:",
+        "Was this page helpful?"
+    ]
+}

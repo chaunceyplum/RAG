@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/show-telemetry-event-definitions",
+    "title": "SHOW TELEMETRY EVENT DEFINITIONS | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "The Snowflake Native App Framework is generally available on supported cloud platforms. For additional information, see\nSupport for private connectivity, VPS, and government regions.",
+        "Lists the event definitions for the specified app.",
+        "Specifies the identifier for the app. If the identifier contains\nspaces, special characters, or mixed-case characters, the entire string must be enclosed\nin double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Shows information about the event definitions for an app.",
+        "Column",
+        "Description",
+        "name",
+        "The name of the event definition. Event definition names begin with the\nSNOWFLAKE$ prefix.",
+        "type",
+        "The type of event definition. See Define event definitions in the manifest file of an app for more\ninformation.",
+        "sharing",
+        "Specifies if the event definition is MANDATORY or OPTIONAL.",
+        "status",
+        "Specifies if the event definition is enabled in the consumer account.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

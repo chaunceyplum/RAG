@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_04/bcr-1620",
+    "title": "SHOW VERSIONS IN MODEL command: New column aliases | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, the output of the SHOW VERSIONS IN MODEL command\nchanges to include a new column named aliases.",
+        "Column Name",
+        "Data Type",
+        "Description",
+        "aliases",
+        "ARRAY of VARCHAR",
+        "Aliases of the model version, if any. If a model version has no aliases, this column contains an empty ARRAY ([]) rather than NULL.",
+        "aliases is added as the third column of the output, immediately following name.",
+        "Ref: 1620",
+        "Was this page helpful?"
+    ]
+}

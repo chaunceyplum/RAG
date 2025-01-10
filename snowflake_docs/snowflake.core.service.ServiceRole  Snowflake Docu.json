@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.service.ServiceRole",
+    "title": "snowflake.core.service.ServiceRole | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: BaseModel",
+        "A model object representing the ServiceRole resource.",
+        "Constructs an object of type ServiceRole with the provided properties.",
+        "created_on (datetime, optional) \u2013 Date and time when the service role was created",
+        "name (str, optional) \u2013 Service role name",
+        "comment (str, optional) \u2013 Comment, if any, for the service role",
+        "Create a new model by parsing and validating input data from keyword arguments.",
+        "Raises [ValidationError][pydantic_core.ValidationError] if the input data cannot be\nvalidated to form a valid model.",
+        "self is explicitly positional-only to allow self as a field name.",
+        "Methods",
+        "Create an instance of ServiceRole from a dict.",
+        "Create an instance of ServiceRole from a JSON string.",
+        "Returns the dictionary representation of the model using alias.",
+        "Return the dictionary representation of the model without readonly properties.",
+        "Returns the JSON representation of the model using alias.",
+        "Returns the string representation of the model using alias.",
+        "Was this page helpful?"
+    ]
+}

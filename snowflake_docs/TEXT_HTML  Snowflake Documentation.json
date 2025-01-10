@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/text_html",
+    "title": "TEXT_HTML | Snowflake Documentation",
+    "paragraphs": [
+        "Notification functions (Message Construction)",
+        "Returns a JSON object that specifies the HTML message to use for a notification. This is a helper function that you use to\nconstruct a message object for the SYSTEM$SEND_SNOWFLAKE_NOTIFICATION stored procedure.",
+        "Using SYSTEM$SEND_SNOWFLAKE_NOTIFICATION to send notifications ,\nSYSTEM$SEND_SNOWFLAKE_NOTIFICATION ,\nTEXT_PLAIN ,\nAPPLICATION_JSON",
+        "Content of the message to send.",
+        "A JSON-formatted string that specifies a message for the\nSYSTEM$SEND_SNOWFLAKE_NOTIFICATION stored procedure to send.",
+        "For example:",
+        "See Using SYSTEM$SEND_SNOWFLAKE_NOTIFICATION to send notifications.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

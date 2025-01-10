@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/st_distance",
+    "title": "ST_DISTANCE | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns the minimum geodesic distance between two GEOGRAPHY or the minimum Euclidean distance\nbetween two GEOMETRY objects.",
+        "The argument must be of type GEOGRAPHY or GEOMETRY.",
+        "The argument must be of type GEOGRAPHY or GEOMETRY.",
+        "Returns a FLOAT value, which represents the distance, or NULL:",
+        "For GEOGRAPHY input values, the distance is in meters.",
+        "For GEOMETRY input values, the distance is computed with the same units used to define the input coordinates.",
+        "Returns NULL if one or more input points are NULL.",
+        "For GEOMETRY objects, the function reports an error if the two input GEOMETRY objects have different SRIDs.",
+        "The following examples use the ST_DISTANCE function.",
+        "Show the distance in meters between two points 1 degree apart along the equator (approximately 111 kilometers or\n69 miles).",
+        "Show the output of the ST_DISTANCE function when one or more input values are NULL:",
+        "The following example compares the distance calculated for GEOGRAPHY and GEOMETRY input objects.",
+        "For additional examples, see Examples comparing the GEOGRAPHY and GEOMETRY data types.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/is-null",
+    "title": "IS [ NOT ] NULL | Snowflake Documentation",
+    "paragraphs": [
+        "Conditional expression functions",
+        "Determines whether an expression is NULL or is not NULL.",
+        "Returns a BOOLEAN.",
+        "When IS NULL is specified, the value is TRUE if the expression is NULL. Otherwise, returns FALSE.",
+        "When IS NOT NULL is specified, the value is TRUE if the expression is not NULL. Otherwise, returns FALSE.",
+        "Create the test_is_not_null table and load the data:",
+        "Show the data in the test_is_not_null table:",
+        "Use IS NOT NULL to return the rows for which the values in col1 are not NULL:",
+        "Use IS NULL to return the rows for which the values in col2 are NULL:",
+        "Use a combination of IS NOT NULL and IS NULL to return the rows for which either of\nthe following conditions is met:",
+        "The values in col1 are not NULL.",
+        "The values in col2 are NULL.",
+        "Use a combination of IS NOT NULL and IS NULL to return the rows for which both of\nthe following conditions are met:",
+        "The values in col1 are not NULL.",
+        "The values in col2 are NULL.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

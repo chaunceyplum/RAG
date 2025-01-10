@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/document-ai/working-with-document-ai",
+    "title": "Working with Document AI | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Available to accounts in AWS and Microsoft Azure commercial regions, with some exceptions. For more information, see Document AI availability.",
+        "This topic provides an overview of working with Document AI.",
+        "Note",
+        "Before you begin working with Document AI, confirm that a warehouse, database, and schema are prepared\nand that the required roles and privileges are granted to the users.",
+        "For more information, see Setting up Document AI.",
+        "Working with Document AI consists of the following steps:",
+        "Prepare your documents.",
+        "The documents you process with Document AI must meet certain requirements.\nFor more information, see Prepare your documents for Document AI.",
+        "Prepare a Document AI model build in Snowsight.",
+        "Document AI consists of model builds, which include the model, the documents uploaded to test the model, and the data values to be extracted.",
+        "To prepare a Document AI model build:",
+        "Upload the documents that will be used to test the model.",
+        "Define the data values to be extracted by asking questions using natural language.",
+        "Review the results provided by the model.",
+        "Decide to either publish the model or fine-tune the model to improve the results.",
+        "For more information about working with model builds, see Prepare a Document AI model build.",
+        "Extract information in worksheets by using the extracting query.",
+        "Use the extracting query to extract information from staged documents. For more information, see Extract information with Document AI.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

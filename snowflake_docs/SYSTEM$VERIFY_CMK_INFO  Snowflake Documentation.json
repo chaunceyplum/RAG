@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_verify_cmk_info",
+    "title": "SYSTEM$VERIFY_CMK_INFO | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Verifies your customer-managed key (CMK) configuration and returns a message about the registered CMK.",
+        "Self-registration overview",
+        "Returns a successful status message or information about the unsuccessful verification:",
+        "Amazon Web Services:",
+        "Microsoft Azure:",
+        "Google Cloud Platform",
+        "Only account administrators (users with the ACCOUNTADMIN role) can call this function.",
+        "Obtain the status of the CMK for your Snowflake account:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

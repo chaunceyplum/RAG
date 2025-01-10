@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.array_cat",
+    "title": "snowflake.snowpark.functions.array_cat | Snowflake Documentation",
+    "paragraphs": [
+        "Returns the concatenation of two ARRAYs.",
+        "array1 \u2013 Column containing the source ARRAY.",
+        "array2 \u2013 Column containing the ARRAY to be appended to array1.",
+        "Was this page helpful?"
+    ]
+}

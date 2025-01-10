@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/use-schema",
+    "title": "USE SCHEMA | Snowflake Documentation",
+    "paragraphs": [
+        "Specifies the active/current schema for the session:",
+        "If a database is not specified for a session, any objects referenced in queries and other SQL statements executed in\nthe session must be fully qualified with the database and schema, also known as the namespace, for the object\n(in the form of db_name.schema_name.object_name). For more information about fully-qualified object names,\nsee Object name resolution.",
+        "If a database is specified for a session but the schema is not specified for a session, any objects referenced in queries\nand other SQL statements executed in the session must be qualified with the schema for the object (in the form of\nschema_name.object_name).",
+        "If the database and schema are specified for a user session, unqualified object names are allowed in SQL statements and\nqueries.",
+        "CREATE SCHEMA , ALTER SCHEMA , DROP SCHEMA , SHOW SCHEMAS",
+        "Specifies the identifier for the schema to use for the session. If the identifier contains spaces or special characters, the entire\nstring must be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "The SCHEMA keyword is optional if the schema name is fully qualified (in the form of db_name.schema_name).",
+        "The database name (db_name) is optional if the database is specified in the user session and the SCHEMA keyword\nis included.",
+        "Use the myschema schema with the database specified in the user session:",
+        "Use the myschema schema in the mydb database:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

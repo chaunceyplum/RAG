@@ -1,0 +1,19 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_06/bcr-1665",
+    "title": "SHOW commands: Privilege updates | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The behavior of the SHOW <objects> command is as follows:",
+        "The role used to execute the command requires the USAGE privilege on the object to see the objects.",
+        "For example, the SHOW SCHEMAS command requires the USAGE privilege on the schema.",
+        "Other privileges on the schema, such as MODIFY, are not sufficient to see the table objects in the schema.",
+        "The role used to execute the command can be granted any privilege on the object to see the objects in the output.",
+        "For example, if the role used to execute the SHOW SCHEMAS command is granted the MODIFY privilege on the schema, the role can see those\nschemas in the output.",
+        "Consequently, the output of the SHOW command might return more objects than before the change depending on the grants to the role that\nexecutes the command.",
+        "These changes apply to all SHOW commands.",
+        "Ref: 1665",
+        "Was this page helpful?"
+    ]
+}

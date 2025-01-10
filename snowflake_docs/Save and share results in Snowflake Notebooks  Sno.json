@@ -1,0 +1,27 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/ui-snowsight/notebooks-save-share",
+    "title": "Save and share results in Snowflake Notebooks | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Generally available in Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP) commercial regions.",
+        "You can collaborate on data analysis with others using Snowflake Notebooks.",
+        "Each Snowflake Notebook is owned by a role, so other users that are granted or inherit the owner role can open, run, and edit notebooks\nowned by that role. You cannot share the notebook with other roles.",
+        "Caution",
+        "Notebooks are saved every three seconds. If other users have the notebook open and run it, you might overwrite each other\u2019s work.",
+        "To share your notebook externally, you can export it as an .ipynb file. The exported notebook can be shared with others who may not\nuse Snowflake Notebooks. They can open the notebooks with other solutions that are compatible with the .ipynb format.",
+        "Sign in to Snowsight.",
+        "Select Projects \u00bb Notebooks.",
+        "Open the notebook to export.",
+        "Select the vertical ellipsis  menu, and then select Export.",
+        "Acknowledge that some commands might not be supported in other notebook tools, and select Export.",
+        "A file named notebook_app is downloaded. You can then\nimport the exported notebook into another Snowflake account or another tool that supports\n.ipynb files.",
+        "Note",
+        "Only the cell content \u2014 not the cell outputs \u2014 is included as part of the export.",
+        "The role used to create the notebook owns the notebook. For details on privileges required for notebooks, see Set up Snowflake Notebooks.",
+        "Any user with that role, or whose role inherits that role, can access, edit, run, and manage the notebook.",
+        "To share and collaborate on a notebook with another user, that user must either have the owner role or be granted a role that\ninherits the owner role of the notebook.",
+        "You cannot share a notebook with other roles.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

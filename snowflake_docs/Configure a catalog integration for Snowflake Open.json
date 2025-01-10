@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/tables-iceberg-configure-catalog-integration-open-catalog",
+    "title": "Configure a catalog integration for Snowflake Open Catalog | Snowflake Documentation",
+    "paragraphs": [
+        "Create a catalog integration for Snowflake Open Catalog, which you can use to query a\ntable in Snowflake Open Catalog using Snowflake or sync a Snowflake-managed table with Open Catalog.\nFor more information, see Use Apache Iceberg\u2122 tables with Snowflake Open Catalog in Snowflake.",
+        "A catalog integration for Open Catalog is associated with a specific catalog and service connection in your Open Catalog account.",
+        "To create a catalog integration for Open Catalog, use the CREATE CATALOG INTEGRATION command.",
+        "To find your Snowflake organization name (<orgname>), follow the steps in Finding the organization and account name for an account.",
+        "To find <my-snowflake-open-catalog-account-name,\nsee Find the account name for a Snowflake Open Catalog account in\nthe Snowflake Open Catalog documentation.",
+        "If you\u2019re syncing a Snowflake-managed table with Open Catalog, specify CATALOG_NAMESPACE = 'default'.",
+        "Note",
+        "To check your authentication configuration, see Check a configuration for OAuth.",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

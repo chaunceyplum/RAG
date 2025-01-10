@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.as_timestamp_tz",
+    "title": "snowflake.snowpark.functions.as_timestamp_tz | Snowflake Documentation",
+    "paragraphs": [
+        "Casts a VARIANT value to a TIMESTAMP with a timezone.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

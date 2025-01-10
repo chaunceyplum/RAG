@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_05/bcr-1045",
+    "title": "Reader Accounts: ORGADMIN Role Removed from Accounts | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_05 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In the current release, no reader accounts have the ORGADMIN role enabled. Reader accounts are used by consumers, not providers.\nThere is no reason to allow the consumer to have an organization administrator who can work with other accounts.",
+        "Some reader accounts have the ORGADMIN role enabled, but administrators are blocked from enabling the role in new reader accounts.",
+        "The ORGADMIN role will be removed from all reader accounts, ensuring that no reader accounts have the ORGADMIN role enabled.",
+        "Ref: 1045",
+        "Was this page helpful?"
+    ]
+}

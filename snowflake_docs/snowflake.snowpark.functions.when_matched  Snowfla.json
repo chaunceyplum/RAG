@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.when_matched",
+    "title": "snowflake.snowpark.functions.when_matched | Snowflake Documentation",
+    "paragraphs": [
+        "Specifies a matched clause for the Table.merge action.\nSee WhenMatchedClause for details.",
+        "Convenience function to create a new WhenMatchedClause instance which is required together with an action when merging\na Snowpark table with a Snowpark DataFrame (see snowflake.snowpark.Table.merge for more details).",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

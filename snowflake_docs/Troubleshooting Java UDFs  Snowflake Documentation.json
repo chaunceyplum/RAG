@@ -1,0 +1,11 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/udf/java/udf-java-troubleshooting",
+    "title": "Troubleshooting Java UDFs | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides troubleshooting information about Java UDFs (user-defined functions).",
+        "If using a Java UDF in a masking policy, ensure the data type of the column, UDF, and\nmasking policy match.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

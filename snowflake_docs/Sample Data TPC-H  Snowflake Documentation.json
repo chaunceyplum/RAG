@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/sample-data-tpch",
+    "title": "Sample Data: TPC-H | Snowflake Documentation",
+    "paragraphs": [
+        "As described in the TPC Benchmark\u2122 H (TPC-H) specification:",
+        "\u201cTPC-H is a decision support benchmark. It consists of a suite of business-oriented ad hoc queries and concurrent data modifications. The queries and the data populating the database have been chosen\nto have broad industry-wide relevance. This benchmark illustrates  decision support systems that examine large volumes of data, execute queries with a high degree of complexity, and give answers to\ncritical business questions.\u201d",
+        "TPC-H comes with various data set sizes to test different scaling factors. For demonstration purposes, we\u2019ve shared four versions of the TPC-H data. The data is provided in the following schemas in the\nSNOWFLAKE_SAMPLE_DATA shared database:",
+        "TPCH_SF1: Consists of the base row size (several million elements).",
+        "TPCH_SF10: Consists of the base row size x 10.",
+        "TPCH_SF100: Consists of the base row size x 100 (several hundred million elements).",
+        "TPCH_SF1000: Consists of the base row size x 1000 (several billion elements).",
+        "The components of TPC-H consist of eight separate and individual tables (the Base Tables). The relationships between columns in these tables are illustrated in the following ER diagram:",
+        "(source: TPC Benchmark H Standard Specification)",
+        "Each TPC-H query asks a business question and includes the corresponding query to answer the question. Some of the TPC-H queries are included in Snowflake\u2019s Getting Started tutorials.",
+        "This section describes one of the queries. More information about TPC-H and all the queries involved can be found in the official\nTPC Benchmark H Standard Specification.",
+        "This query reports the amount of business that was billed, shipped, and returned.",
+        "The Pricing Summary Report Query provides a summary pricing report for all line items shipped as of a given date. The date is within 60-120 days of the greatest ship date contained in the database.",
+        "The query lists totals for extended price, discounted extended price, discounted extended price plus tax, average quantity, average extended price, and average discount. These aggregates are grouped by\nRETURNFLAG and LINESTATUS, and listed in ascending order of RETURNFLAG and LINESTATUS. A count of the number of line items in each group is included:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

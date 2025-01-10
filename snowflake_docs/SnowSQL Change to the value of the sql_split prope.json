@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/un-bundled/bcr-792",
+    "title": "SnowSQL: Change to the value of the sql_split property (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "In September 2022, the SQL splitter used by the sql_split property will change. In January 2023, the sql_split property will be removed and the new value will be the only option.\nYou should test your implementation by setting the value of sql_split to the new value described below to determine if you encounter any compatibility issues.",
+        "",
+        "You can set sql_split in the SnowSQL configuration file:",
+        "Or from the command line:",
+        "",
+        "You can set sql_split in the SnowSQL configuration file:",
+        "Or from the command line:",
+        "Ref: 792",
+        "Was this page helpful?"
+    ]
+}

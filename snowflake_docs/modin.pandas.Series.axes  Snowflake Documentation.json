@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.axes",
+    "title": "modin.pandas.Series.axes | Snowflake Documentation",
+    "paragraphs": [
+        "Return a list of the row axis labels.",
+        "Was this page helpful?"
+    ]
+}

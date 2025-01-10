@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/external-network-access/external-network-access-best-practices",
+    "title": "External network access best practices | Snowflake Documentation",
+    "paragraphs": [
+        "This topic provides best practices for accessing external network locations from user-defined functions and procedures.",
+        "Follow best practices described for external functions, including the following:",
+        "Use a remote service\u2019s batch API if available",
+        "Do not assume that the remote service is passed each row exactly once",
+        "Note that, unlike external functions, you are responsible in your handler code for performing retries, sending batch requests from\nvectorized UDFs, and managing exceptions.",
+        "When your vectorized UDF or UDTF handler code makes requests of an external network, you should process each row independently to\navoid non-deterministic results.",
+        "To minimize networking overhead, Snowflake typically batches rows to send to remote services. The number of batches\nand the size of each batch can vary.",
+        "In addition, the order of batches can vary, and the order of rows within a batch can vary. Even if the query contains\nan ORDER BY clause, the ORDER BY is usually applied after the request to the external network location.",
+        "Because batch size and row order are not guaranteed, writing a handler code that returns a value for a row\nthat depends on any other row in this batch or previous batches can produce non-deterministic results.",
+        "Snowflake strongly recommends that the your code process each row independently.",
+        "The return value for each input row should depend on only that input row, not on other input rows. (Currently,\nhandlers performing external network access do not support window functions, for example.)",
+        "Note also that because batch size is not guaranteed, counting batches is not meaningful.",
+        "Snowflake limits the total number of connections that can be made from a UDF. When this limit is reached, you might see the following\nerror message:",
+        "To avoid running into resource exhaustion issues, you should try to reuse connections as much as possible. You can achieve this by creating\nthe TCP client or session once during the UDF initialization, then using it in the UDF handler for the rest of the query. For example, for\ncode written in Python, you can reuse the Session object (available from the Python requests library) for multiple HTTP\ncalls.",
+        "For more information and an example, refer to Using the external access integration in a function or procedure.",
+        "When you have a long-running query that calls the remote service multiple times, it\u2019s possible for one of the calls to fail with a\ntransient error. To avoid query failures, your code should execute retries and handle failures on the assumption that failures may\noccur.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_enable_preview_access",
+    "title": "SYSTEM$ENABLE_PREVIEW_ACCESS | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Control)",
+        "Enables access to open preview features.",
+        "See also:",
+        "SYSTEM$GET_PREVIEW_ACCESS_STATUS, SYSTEM$DISABLE_PREVIEW_ACCESS",
+        "None.",
+        "Returns a VARCHAR status message that open preview features have been enabled:",
+        "Only account administrators (users with the ACCOUNTADMIN role) can execute this function.",
+        "This is an all-or-nothing setting that affects all users and all previews within an account.",
+        "SYSTEM$ENABLE_PREVIEW_ACCESS only can enable open preview features.",
+        "Contact Snowflake Support to enable or re-enable private preview features.",
+        "Snowflake Marketplace products, which are managed separately through IMPORTED PRIVILEGES,\nare not covered as part of this capability.",
+        "Client-side libraries (such as Snowpark API) are not covered as part of this capability.",
+        "For customers who have not agreed to the Snowflake Preview Terms of Service (\u201cPreview Terms\u201d),\nenabling preview features may not be possible.",
+        "To agree to Preview Terms, contact your account representative or Snowflake Support for assistance.",
+        "Enable preview features:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_08/bcr-1770",
+    "title": "WAREHOUSE_EVENTS_HISTORY view: New columns in output (Pending) | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_08 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "When this behavior change bundle is enabled, the Account Usage\nWAREHOUSE_EVENTS_HISTORY view includes the following new column:",
+        "Column name",
+        "Data type",
+        "Description",
+        "WAREHOUSE_TYPE",
+        "TEXT",
+        "One of STANDARD or SNOWPARK-OPTIMIZED.",
+        "RESOURCE_CONSTRAINT",
+        "TEXT",
+        "One of:",
+        "MEMORY_1X",
+        "MEMORY_1X_x86",
+        "MEMORY_16X",
+        "MEMORY_16X_x86",
+        "MEMORY_64X",
+        "MEMORY_64X_x86",
+        "Note",
+        "WAREHOUSE_TYPE and RESOURCE_CONSTRAINT are only populated for EVENTNAME=WAREHOUSE_CONSISTENT events, otherwise NULL is displayed.",
+        "Ref: 1770",
+        "Was this page helpful?"
+    ]
+}

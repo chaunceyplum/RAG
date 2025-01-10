@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/user-guide/tables-hybrid-monitor-transactions",
+    "title": "Monitor transactions for hybrid tables | Snowflake Documentation",
+    "paragraphs": [
+        "Hybrid tables support Snowflake transaction monitoring features, including SHOW TRANSACTIONS, DESCRIBE TRANSACTION, SHOW LOCKS, and LOCK WAIT HISTORY.",
+        "The behavior of these commands and views for hybrid tables is consistent with the behavior for standard Snowflake tables, except for the following changes:",
+        "A new ROW lock type is introduced in the SHOW LOCKS command to represent row locks against hybrid tables. The locks are summarized to show one transaction holding (one or multiple) row locks and another transaction waiting for these locks.",
+        "LOCK_WAIT_HISTORY does not show SCHEMA-related information.",
+        "LOCK_WAIT_HISTORY does not summarize BLOCKER_QUERIES. If a query is blocked by multiple blockers, then they will appear as multiple records in the view rather than as multiple entries in the BLOCKER_QUERIES JSON array for the single waiter record.",
+        "For the result of SHOW LOCKS, and the LOCK_WAIT_HISTORY view:",
+        "As the row locks are summarized, the lock-holding transaction is assumed to acquire the lock when it starts.",
+        "Due to the potential high volume of Unistore transactions, only locks that have blocked other transaction(s) for an extended period (approximately 5 seconds) are shown.",
+        "The lock-waiting transaction might still appear to be waiting for the locks even if it has acquired them (for no more than 1 minute). The accuracy of lock reporting will improve in future releases.",
+        "If a statement that blocked a waiting query has completed and was a short running query against hybrid tables, then the following information for the blocker query is not shown in the BLOCKER_QUERY field of the waiting query record:",
+        "Query UUID of the blocker query",
+        "Session ID of the blocker query",
+        "User name of the blocker query",
+        "Database ID of the blocker query",
+        "Database name of the blocker query",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

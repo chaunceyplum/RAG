@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_06/bcr-1275",
+    "title": "UDTFs: Default column names updated for Python vectorized UDTFs | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_06 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "This change only affects users of Vectorized Python UDTFs (user-defined table functions).",
+        "",
+        "The default column names for the input DataFrame to a vectorized UDTF are the indices, such as 0,1,2, \u2026 etc.",
+        "",
+        "The default column names for the input DataFrame to a vectorized UDTF match the signature of the SQL function.\nUsing numeric indices by default will no longer work and you will get a \u201cKey Error\u201d.",
+        "The column names will follow the SQL identifier requirements.\nNamely, if an identifier is unquoted it will be capitalized, and if it\u2019s double quoted it will be preserved as it is.",
+        "For details, see Vectorized Python UDTFs.",
+        "Ref: 1275",
+        "Was this page helpful?"
+    ]
+}

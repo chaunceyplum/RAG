@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/array_remove",
+    "title": "ARRAY_REMOVE | Snowflake Documentation",
+    "paragraphs": [
+        "Semi-structured and structured data functions (Array/Object)",
+        "Given a source ARRAY, returns an ARRAY with elements of the specified value removed.",
+        "For example, ARRAY_REMOVE([2, 5, 7, 5, 1], 5) returns an ARRAY with the elements equal to 5 removed ([2, 7, 1]).",
+        "The source array.",
+        "The VARIANT value of the elements to be removed. The function removes elements equal to this value.",
+        "If you specify a VARCHAR value, you must first cast the value to VARIANT.",
+        "An ARRAY with all elements equal to the specified value removed.",
+        "If value_of_elements_to_remove is NULL, the function returns NULL.",
+        "If all of the elements in array are equal to value_of_elements_to_remove, the function returns an empty\nARRAY.",
+        "The following example returns an ARRAY with elements with the value 5 removed.",
+        "The following example removes the elements with the value 5 from an ARRAY that contains only elements with the value 5. The\nfunction returns an empty ARRAY:",
+        "The following example removes elements with the value 'a' from an ARRAY. As shown in the example, you must cast the value\nas VARIANT.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

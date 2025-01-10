@@ -1,0 +1,25 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/classes/classification_profile",
+    "title": "CLASSIFICATION_PROFILE (SNOWFLAKE.DATA_PRIVACY) | Snowflake Documentation",
+    "paragraphs": [
+        "Preview Feature \u2014 Open",
+        "Available to all accounts that are Enterprise Edition (or higher).",
+        "To inquire about upgrading, please contact Snowflake Support.",
+        "Allows you to set up sensitive data classification so the tables in a schema are automatically classified.",
+        "CREATE CLASSIFICATION_PROFILE",
+        "DROP CLASSIFICATION_PROFILE",
+        "SHOW CLASSIFICATION_PROFILE",
+        "<classification_profile_name>!DESCRIBE",
+        "<classification_profile_name>!SET_AUTO_TAG",
+        "<classification_profile_name>!SET_CUSTOM_CLASSIFIERS",
+        "<classification_profile_name>!SET_MAXIMUM_CLASSIFICATION_VALIDITY_DAYS",
+        "<classification_profile_name>!SET_MINIMUM_OBJECT_AGE_FOR_CLASSIFICATION_DAYS",
+        "<classification_profile_name>!SET_TAG_MAP",
+        "<classification_profile_name>!UNSET_CUSTOM_CLASSIFIERS",
+        "<classification_profile_name>!UNSET_MAXIMUM_CLASSIFICATION_VALIDITY_DAYS",
+        "<classification_profile_name>!UNSET_TAG_MAP",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

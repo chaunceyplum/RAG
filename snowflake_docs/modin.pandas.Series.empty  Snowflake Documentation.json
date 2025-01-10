@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.empty",
+    "title": "modin.pandas.Series.empty | Snowflake Documentation",
+    "paragraphs": [
+        "Indicator whether the Series is empty.",
+        "True if the Series is entirely empty (no items), meaning it is of length 0.",
+        "Was this page helpful?"
+    ]
+}

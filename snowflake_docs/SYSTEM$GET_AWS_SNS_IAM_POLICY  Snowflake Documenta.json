@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/system_get_aws_sns_iam_policy",
+    "title": "SYSTEM$GET_AWS_SNS_IAM_POLICY | Snowflake Documentation",
+    "paragraphs": [
+        "System functions (System Information)",
+        "Returns an AWS IAM policy statement that must be added to the Amazon SNS topic policy in order to grant the Amazon SQS messaging queue created by Snowflake to subscribe to the topic.",
+        "This function is used when automating Snowpipe using SQS notifications for S3 events. To avoid conflicts with existing SQS queues for the same endpoint (i.e. S3 bucket), creating an SNS topic for the bucket and subscribing all SQS queues to this topic enables SNS to publish event notifications for the bucket to multiple subscribers.",
+        "Amazon Resource Name (ARN) of the SNS topic for your S3 bucket. The function returns an IAM policy for Snowflake\u2019s SQS queue to subscribe to this topic.",
+        "All arguments are strings (i.e. they must be enclosed in single quotes).",
+        "Return an IAM policy for a specified SNS topic ARN:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

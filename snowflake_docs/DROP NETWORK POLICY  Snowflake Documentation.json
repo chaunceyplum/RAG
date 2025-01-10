@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/drop-network-policy",
+    "title": "DROP NETWORK POLICY | Snowflake Documentation",
+    "paragraphs": [
+        "Removes the specified network policy from the system.",
+        "Note",
+        "Only security administrators (i.e. users with the SECURITYADMIN role) can drop network policies.",
+        "CREATE NETWORK POLICY , ALTER NETWORK POLICY , SHOW NETWORK POLICIES , DESCRIBE NETWORK POLICY",
+        "ALTER ACCOUNT",
+        "Specifies the identifier for the network policy to drop. If the identifier contains spaces or special characters, the entire\nstring must be enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Only the network policy owner (i.e. role with the OWNERSHIP privilege on the network policy) or higher can execute this command.",
+        "Dropped network policies cannot be recovered; they must be recreated.",
+        "A network policy cannot be dropped if it is currently assigned to an account, security integration, or user.",
+        "Drop a network policy named mypolicy:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrameAnalyticsFunctions.compute_lead",
+    "title": "snowflake.snowpark.DataFrameAnalyticsFunctions.compute_lead | Snowflake Documentation",
+    "paragraphs": [
+        "Creates lead columns to the specified columns of the DataFrame by grouping and ordering criteria.",
+        "cols \u2013 List of column names or Column objects to calculate lead features.",
+        "leads \u2013 List of positive integers specifying periods to lead by.",
+        "order_by \u2013 A list of column names that specify the order in which rows are processed.",
+        "group_by \u2013 A list of column names on which the DataFrame is partitioned for separate window calculations.",
+        "col_formatter \u2013 An optional function for formatting output column names, defaulting to the format \u2018<input_col>LEAD<lead>\u2019.\nThis function takes three arguments: \u2018input_col\u2019 (str) for the column name, \u2018operation\u2019 (str) for the applied operation,\nand \u2018value\u2019 (int) for the lead value, and returns a formatted string for the column name.",
+        "A Snowflake DataFrame with additional columns corresponding to each specified lead period.",
+        "Example",
+        "Was this page helpful?"
+    ]
+}

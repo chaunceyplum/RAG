@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.exp",
+    "title": "snowflake.snowpark.functions.exp | Snowflake Documentation",
+    "paragraphs": [
+        "Computes Euler\u2019s number e raised to a floating-point value.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

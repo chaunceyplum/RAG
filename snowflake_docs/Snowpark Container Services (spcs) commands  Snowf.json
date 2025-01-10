@@ -1,0 +1,17 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-cli/command-reference/spcs-commands/overview",
+    "title": "Snowpark Container Services (spcs) commands | Snowflake Documentation",
+    "paragraphs": [
+        "Feature \u2014 Generally Available",
+        "Not available in government regions.",
+        "Note",
+        "You can use Snowpark Container Services from Snowflake CLI only if you have the necessary permissions to use Snowpark Container Services.",
+        "Snowflake CLI supports the following commands to support Snowpark Container Services:",
+        "snow spcs image-registry commands",
+        "snow spcs image-repository commands",
+        "snow spcs compute-pool commands",
+        "snow spcs service commands",
+        "Was this page helpful?",
+        "Related content"
+    ]
+}

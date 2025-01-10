@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.stage",
+    "title": "snowflake.core.stage | Snowflake Documentation",
+    "paragraphs": [
+        "Manages Snowflake Stages.",
+        "Example",
+        "Refer to snowflake.core.Root to create the root.",
+        "Classes",
+        "Stage(*,\u00a0name[,\u00a0kind,\u00a0url,\u00a0endpoint,\u00a0...])",
+        "A model object representing the Stage resource.",
+        "StageResource(name,\u00a0collection)",
+        "Represents a reference to a Snowflake stage.",
+        "StageCollection(schema)",
+        "Represents the collection operations on the Snowflake Stage resource.",
+        "AwsCredentials(*[,\u00a0aws_key_id,\u00a0...])",
+        "A model object representing the AwsCredentials resource.",
+        "AzureCredentials(*[,\u00a0azure_sas_token])",
+        "A model object representing the AzureCredentials resource.",
+        "Credentials()",
+        "A model object representing the Credentials resource.",
+        "FileTransferMaterial(*[,\u00a0presigned_url])",
+        "A model object representing the FileTransferMaterial resource.",
+        "PresignedUrlRequest(*[,\u00a0mode,\u00a0expiration_time])",
+        "A model object representing the PresignedUrlRequest resource.",
+        "StageDirectoryTable(*[,\u00a0enable,\u00a0...])",
+        "A model object representing the StageDirectoryTable resource.",
+        "StageEncryption(*[,\u00a0type,\u00a0master_key,\u00a0...])",
+        "A model object representing the StageEncryption resource.",
+        "StageFile(*[,\u00a0name,\u00a0size,\u00a0md5,\u00a0last_modified])",
+        "A model object representing the StageFile resource.",
+        "Was this page helpful?"
+    ]
+}

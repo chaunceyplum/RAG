@@ -1,0 +1,33 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_03/bcr-949",
+    "title": "Account Usage: Changes to Columns in DATABASES View | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_03 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "In a future release, the RETENTION_TIME column in the DATABASES view will change. In addition, a new RESOURCE_GROUP column will be added to the view.",
+        "The data retention period for a database is determined by the retention time parameter settings set on the database and account. These parameters are DATA_RETENTION_TIME _IN_DAYS and MIN_DATA_RETENTION_TIME_IN_DAYS.",
+        "If the retention time is not explicitly set for a database, it inherits the setting for the account.",
+        "If there is no retention time set at the account level, the default retention time for a database is 1 day.",
+        "The maximum retention time for a transient database is 1 day, regardless of the account-level setting.",
+        "If there is a minimum retention time set for the account, and a retention time explicitly set on a database, the effective retention time for the database is the greater of the two: MAX(DATA_RETENTION_TIME_IN_DAYS, MIN_DATA_RETENTION_TIME_IN_DAYS).",
+        "The RETENTION_TIME column in the Account Usage DATABASES View might display the incorrect value in the following scenarios:",
+        "If there is no explicit retention time set for transient databases, and the retention time for the account is set to 7 days, the RETENTION_TIME column value is 7 days. This is incorrect. The maximum data retention time for a transient database is 1 day.",
+        "If the minimum retention time for an account is 7 days, and the retention time setting for a database is 4 days, the RETENTION_TIME column value is 4 days. This is incorrect. The minimum account retention time is longer and therefore overrides the retention time explicitly set for the database.",
+        "If the retention time is set to 10 days for a database, then unset, the RETENTION_TIME column value is the unset value (in this case 10). This might be incorrect.",
+        "The RETENTION_TIME column value  behaves as follows:",
+        "In some cases, the RETENTION_TIME column displays an incorrect data retention time for databases.",
+        "The RETENTION_TIME column will display the correct data retention time for databases.",
+        "For more information about setting the data retention period, refer to Specifying the Data Retention Period for an Object.",
+        "In a future release, the Account Usage DATABASES view will include the following new column:",
+        "Column Name",
+        "Data Type",
+        "Description",
+        "RESOURCE_GROUP",
+        "TEXT",
+        "Reserved for future use.",
+        "Ref: 949",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

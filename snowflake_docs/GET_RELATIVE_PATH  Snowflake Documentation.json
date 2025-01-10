@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/get_relative_path",
+    "title": "GET_RELATIVE_PATH | Snowflake Documentation",
+    "paragraphs": [
+        "File functions",
+        "Extracts the path of a staged file relative to its location in the stage using the stage name and absolute file path in cloud storage as inputs.",
+        "Name of the internal or external stage where the file is stored.",
+        "Note",
+        "If the stage name includes spaces or special characters, it must be enclosed in single quotes (e.g. '@\"my stage\"' for a stage\nnamed \"my stage\").",
+        "Stage location, including the path and filename, of the file in cloud storage.",
+        "Path of the file relative to the stage location.",
+        "This SQL function returns a value for any role that has the following privilege on the stage:",
+        "USAGE",
+        "READ",
+        "If files downloaded from an internal stage are corrupted, verify with the stage creator that ENCRYPTION = (TYPE = 'SNOWFLAKE_SSE') is set for the stage.",
+        "Retrieve the relative path of a bitmap format image file in an external stage, where the @images_stage stage references the\ns3://photos/national_parks/ bucket and path:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

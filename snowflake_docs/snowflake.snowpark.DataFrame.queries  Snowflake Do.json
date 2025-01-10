@@ -1,0 +1,8 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.DataFrame.queries",
+    "title": "snowflake.snowpark.DataFrame.queries | Snowflake Documentation",
+    "paragraphs": [
+        "Returns a dict that contains a list of queries that will be executed to\nevaluate this DataFrame with the key queries, and a list of post-execution\nactions (e.g., queries to clean up temporary objects) with the key post_actions.",
+        "Was this page helpful?"
+    ]
+}

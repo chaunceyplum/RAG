@@ -1,0 +1,30 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-09-26-dcr",
+    "title": "September 26, 2024 \u2014 Snowflake Data Clean Rooms Release Notes | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, we are pleased to announce the availability of the following new features and enhancements in this update to Snowflake\nData Clean Rooms.",
+        "Providers can now brand their clean rooms with a logo and company name by configuring the profile of their clean room environment. After the\nprofile is updated, collaborators see the provider\u2019s logo and name on clean room tiles on the Joined and Invited tabs.",
+        "For more information, see Brand your clean rooms.",
+        "Consumers can now push results from an analysis directly to their Snowflake account, allowing them to access row-level data after running\ntemplates for overlap and data enrichment use cases. A provider can configure their clean room environment to prevent this consumer direct\nactivation.",
+        "For more information, see Consumer activation in the web app.",
+        "Users can now specify which columns should be used as ID columns for their activation, which might be different from the join columns used\nwhile running an analysis.",
+        "Consumers can configure an analysis to run on an hourly, daily, weekly, or monthly schedule, which lets them keep their data up-to-date\nwithout manually rerunning an analysis. Scheduled analyses run as a background process. The ability to schedule an analysis is available for\nthe Audience Overlap & Segmentation template, SQL Query template, and custom templates created with the developer APIs.",
+        "For more information, see Scheduling a repeating analysis in the web app.",
+        "Users can view data stats for their own tables within the clean room. These stats provide distinct counts for their join policy columns\nacross the top five values for all other columns. In cases where non-join columns have more than 20 distinct values, no distinct counts are\nshown.",
+        "For more information, see View details about a clean room.",
+        "Consumers can now activate their respective RampID back to their LiveRamp account using Snowflake shares or SFTP upload. Users can then\nleverage their LiveRamp Connect account to push these segments downstream to additional destinations supported by LiveRamp.",
+        "For more information, see one of the following:",
+        "If you are an administrator who needs to configure the LiveRamp connector, see LiveRamp connector.",
+        "If you are a clean room user who wants to activate data to LiveRamp, see Activation with LiveRamp.",
+        "Users can now activate first-party PII information back to their The Trade Desk account. This allows users to integrate their CRM data to\ncreate data segments for audience targeting and conversion measurement on The Trade Desk.",
+        "For more information, see one of the following:",
+        "If you are an administrator who needs to configure the The Trade Desk connector, see The Trade Desk - CRM connector.",
+        "If you are a clean room user who wants to activate data to The Trade Desk, see Activation with The Trade Desk - CRM.",
+        "Collaborators who are using a clean room managed account can now set a monthly limit on how many Snowflake credits can be consumed by clean\nroom activity. Users cannot use the web app to access the clean room environment when credit consumption is within 10 credits of the limit.\nAdministrators can also monitor how many credits have been consumed for the month.",
+        "Snowflake does not start tracking credit consumption until a user logs into this release of the web app.",
+        "For more information, see Monitor and manage the cost of your managed account.",
+        "When a user runs an analysis using an Audience Overlap, SQL Query, or custom template, they are prompted to save the analysis and given the\noption to schedule future runs of the analysis. Users can continue to use the application because the analysis runs in the background.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

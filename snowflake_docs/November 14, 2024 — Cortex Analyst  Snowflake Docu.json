@@ -1,0 +1,13 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-11-14-cortex-analyst",
+    "title": "November 14, 2024 \u2014 Cortex Analyst | Snowflake Documentation",
+    "paragraphs": [
+        "Snowflake is pleased to announce the following Cortex Analyst features.",
+        "Cortex Analyst now supports multi-turn conversations for data-related questions. This feature enables asking\nfollow-up questions that build on previous queries, creating a more dynamic and interactive data exploration\nexperience. For example, the user asks: \u201cWhat is the month-over-month revenue growth for 2021 in Asia?\u201d,\nand then follows up with: \u201cWhat about North America?\u201d",
+        "For more information, see Multi-turn conversation in Cortex Analyst.",
+        "Cortex Analyst now supports SQL joins, enabling more advanced data analysis across multiple tables, especially\nin star schema structures. This feature allows you to query data from fact tables and associated dimension\ntables with ease.",
+        "For more information, see Defining joins.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

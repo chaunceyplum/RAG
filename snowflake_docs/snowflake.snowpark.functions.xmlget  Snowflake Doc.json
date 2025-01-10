@@ -1,0 +1,14 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.functions.xmlget",
+    "title": "snowflake.snowpark.functions.xmlget | Snowflake Documentation",
+    "paragraphs": [
+        "Extracts an XML element object (often referred to as simply a tag) from a content of outer\nXML element object by the name of the tag and its instance number (counting from 0).",
+        "The following example returns the first inner level (level2) from the XML object created via parse_xml.",
+        "Example:",
+        "When multiple tags exist at a level, instance_num can be used to distinguish which element to return.",
+        "Example:",
+        "In order to get the tagname, the value of an attribute or the content within a tag the get function can be used.",
+        "Example:",
+        "Was this page helpful?"
+    ]
+}

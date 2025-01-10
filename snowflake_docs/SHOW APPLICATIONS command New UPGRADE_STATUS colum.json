@@ -1,0 +1,29 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2024_02/bcr-1521",
+    "title": "SHOW APPLICATIONS command: New UPGRADE_STATUS column | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2024_02 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "During installation and upgrade of a Snowflake Native App, a consumer may need to monitor the current status of\nthe installation or upgrade.",
+        "The SHOW APPLICATIONS command did not include the upgrade_status column.",
+        "The SHOW APPLICATIONS command includes the upgrade_status column, which is defined as follows:",
+        "Column name",
+        "Data type",
+        "Description",
+        "UPGRADE_STATUS",
+        "String",
+        "Lists the current status of the installation or upgrade.",
+        "Possible values for this column are:",
+        "INSTALLING: The application object is in the process of being created.",
+        "INSTALL_FAILED: The creation of the application object failed. The application object\nremains in the INSTALL_FAILED state until it is dropped. See the UPGRADE_FAILURE_REASON\ncolumn of the DESCRIBE APPLICATION command for information about why the\ninstallation or upgrade failed.",
+        "COMPLETE: The setup script successfully completed and the application object was created\nor upgraded.",
+        "QUEUED: The application object is queued for upgrade.",
+        "UPGRADING: The application object is in the process of being upgraded.",
+        "FAILED: All upgrade attempts failed. The reason for the failure is listed in the\nUPGRADE_FAILURE_REASON column, if present. The instance remains in the FAILED state until\na release directive is updated to point to a different version than the one that the upgrade was\ntargeting, as defined in the TARGET_UPGRADE_VERSION column.",
+        "QUEUED_RETRY: The instance failed one or more upgrade attempts. The reason for the failure\nis indicated in UPGRADE_FAILURE_REASON: The instance is queued to perform another upgrade attempt.",
+        "DISABLED: The application object and its upgrades were disabled. In this state the instance will be\ninaccessible for consumers, it will not be considered for upgrades and will not block application package\nversion drop. The reason for the failure is listed in the UPGRADE_FAILURE_REASON column, if present.",
+        "Ref: 1521",
+        "Was this page helpful?"
+    ]
+}

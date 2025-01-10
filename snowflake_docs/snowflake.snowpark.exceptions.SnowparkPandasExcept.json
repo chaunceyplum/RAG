@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/snowpark/api/snowflake.snowpark.exceptions.SnowparkPandasException",
+    "title": "snowflake.snowpark.exceptions.SnowparkPandasException | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: SnowparkDataframeException",
+        "Exception for pandas related errors.",
+        "Includes error codes: 1106.",
+        "Was this page helpful?"
+    ]
+}

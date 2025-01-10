@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/h3_point_to_cell",
+    "title": "H3_POINT_TO_CELL | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns the INTEGER value of an H3 cell ID for a Point (specified by a\nGEOGRAPHY object) at a given resolution.",
+        "H3_POINT_TO_CELL_STRING , H3_CELL_TO_POINT",
+        "A GEOGRAPHY object that represents a Point.",
+        "An INTEGER between 0 and 15 (inclusive) that specifies the H3 resolution that you want to use for the returned H3 cell.",
+        "Specifying any other INTEGER value results in an error.",
+        "Returns an INTEGER value that corresponds to the H3 cell ID for the given location and resolution.",
+        "The following example returns the H3 cell ID for the Brandenburg Gate at resolution 8.",
+        "The following example demonstrates that you cannot specify a resolution outside of 0 through 15.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

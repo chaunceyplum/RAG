@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/sql/desc-function",
+    "title": "DESCRIBE FUNCTION | Snowflake Documentation",
+    "paragraphs": [
+        "Describes the specified user-defined function (UDF) or external function, including the signature (i.e. arguments),\nreturn value, language, and body (i.e. definition).",
+        "DESCRIBE can be abbreviated to DESC.",
+        "DROP FUNCTION , ALTER FUNCTION , CREATE FUNCTION , SHOW USER FUNCTIONS , SHOW EXTERNAL FUNCTIONS",
+        "Specifies the identifier for the function to describe. If the identifier contains spaces or special characters, the entire string must\nbe enclosed in double quotes. Identifiers enclosed in double quotes are also case-sensitive.",
+        "Specifies the data type of the argument(s), if any, for the function. The argument data types are necessary because functions support\nname overloading (i.e. two functions in the same schema can have the same name) and the argument data types are used to identify the\nfunction.",
+        "To post-process the output of this command, you can use the RESULT_SCAN function, which treats the output as a table that can be queried.",
+        "This demonstrates the DESCRIBE FUNCTION command:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

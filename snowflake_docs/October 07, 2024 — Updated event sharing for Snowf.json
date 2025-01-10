@@ -1,0 +1,9 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-10-07-na-event-sharing",
+    "title": "October 07, 2024 \u2014 Updated event sharing for Snowflake Native Apps \u2014 General Availability | Snowflake Documentation",
+    "paragraphs": [
+        "We are pleased to announce updated event sharing functionality for the Snowflake Native App Framework. This update\nallows providers and consumers more granular control over the log messages and trace events that\nare shared with providers.",
+        "For information on how providers can configure log messages, event traces, and event sharing for an app, see\nConfigure logging and event tracing for an app. For information on how consumers can specify the\nlog messages and trace events they want to share with providers, see\nSet up event tracing for an app.",
+        "Was this page helpful?"
+    ]
+}

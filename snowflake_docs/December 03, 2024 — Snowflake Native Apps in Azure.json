@@ -1,0 +1,10 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/2024/other/2024-12-03-na-ga-gov-azure",
+    "title": "December 03, 2024 \u2014 Snowflake Native Apps in Azure Government regions \u2014 Preview | Snowflake Documentation",
+    "paragraphs": [
+        "With this release, Snowflake is pleased to announce the general availability of Snowflake Native App\nFramework support for Azure Government regions.",
+        "Providers publishing apps from government regions can only share listings within the same organization,\nwhile consumers in government regions can install apps from the public marketplace.",
+        "For more information see Understand limitations in the Snowflake Native App Framework.",
+        "Was this page helpful?"
+    ]
+}

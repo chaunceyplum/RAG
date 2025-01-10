@@ -1,0 +1,20 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/h3_coverage",
+    "title": "H3_COVERAGE | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Returns an array of IDs (as INTEGER values) identifying the minimal set of\nH3 cells that completely cover a shape (specified by a\nGEOGRAPHY object).",
+        "H3_COVERAGE_STRINGS , H3_POLYGON_TO_CELLS",
+        "A GEOGRAPHY object.",
+        "An INTEGER between 0 and 15 (inclusive) specifying the H3 resolution that you want to use for the returned H3 cells.",
+        "Specifying any other INTEGER value results in an error.",
+        "Returns an ARRAY of INTEGER values for the IDs of the minimal set of H3 cells that have completely cover the specified input\nshape.",
+        "The function uses spherical approximation, which treats points on the Earth\u2019s surface as if they were connected by arcs, rather\nthan straight lines. If you need a planar approximation, use H3_POLYGON_TO_CELLS instead.",
+        "A cell is included in the result set if its boundary intersects the input shape.",
+        "When you apply FLATTEN to the ARRAY returned by the function,\ncast each value explicitly to an integer.",
+        "The following example returns an ARRAY of the IDs that identify the minimal set of H3 cells that completely cover the specified\nPolygon.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

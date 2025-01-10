@@ -1,0 +1,23 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/bcr-bundles/2023_04/bcr-1094",
+    "title": "PACKAGES View (Information Schema): New RUNTIME_VERSION Column in View | Snowflake Documentation",
+    "paragraphs": [
+        "Attention",
+        "This behavior change is in the 2023_04 bundle.",
+        "For the current status of the bundle, refer to Bundle History.",
+        "The following column was added to the PACKAGE view in the INFORMATION_SCHEMA schema:",
+        "Column Name",
+        "Data Type",
+        "Description",
+        "RUNTIME_VERSION",
+        "VARCHAR",
+        "The supported language runtime version that the package can run with.",
+        "Previously the column only applies for Python packages:",
+        "Python packages: The value of the column is of the form <major>.<minor> reflecting the Python version (e.g. 3.9). If a package\ncan run with multiple Python versions, there will be a row for each version.",
+        "Non-Python packages: The value is NULL.",
+        "For example, the following query will return all of the available packages that can run with Python 3.9 on the Snowpark platform:",
+        "Where <db_name> is the name of any existing database.",
+        "Ref: 1094",
+        "Was this page helpful?"
+    ]
+}

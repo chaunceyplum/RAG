@@ -1,0 +1,24 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-python-api/reference/latest/_autosummary/snowflake.core.task.dagv1.DAGTask",
+    "title": "snowflake.core.task.dagv1.DAGTask | Snowflake Documentation",
+    "paragraphs": [
+        "Bases: object",
+        "Represents a child Task of a task graph.",
+        "A child task has a subset of properties of snowflake.core.task.Task. For instance, it doesn\u2019t\nhave schedule because it\u2019s triggered after the prececessors are finished.",
+        "Refer to snowflake.core.task.Task for the details of each property.",
+        "Attributes",
+        "Return the DAG of this task.",
+        "The full name of the child task.",
+        "Return the predecessors of the Task.",
+        "Methods",
+        "Add a task or a task list to the direct predecessors of the current task.",
+        "other (Union[DAGTask, Iterable[DAGTask], Callable[[\"Session\"], Optional[str]]]) \u2013 The task or task list to be added as the direct predecessors of the current task.",
+        "Examples",
+        "Add a task to the predecessors of the current task:",
+        "Add a task or a task list to be the direct successor of the current task.",
+        "other (Union[DAGTask, Iterable[DAGTask], Callable[[\"Session\"], Optional[str]]]) \u2013 The task or task list to be added as the direct successors of the current task.",
+        "Examples",
+        "Add a task to the successors of the current task:",
+        "Was this page helpful?"
+    ]
+}

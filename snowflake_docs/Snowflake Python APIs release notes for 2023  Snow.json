@@ -1,0 +1,22 @@
+{
+    "url": "https://docs.snowflake.com/en/release-notes/clients-drivers/snowapi-python-2023",
+    "title": "Snowflake Python APIs release notes for 2023 | Snowflake Documentation",
+    "paragraphs": [
+        "This article contains the release notes for the Snowflake Python APIs, including the following when applicable:",
+        "Behavior changes",
+        "New features",
+        "Customer-facing bug fixes",
+        "See Snowflake Python APIs: Managing Snowflake objects with Python for documentation.",
+        "Removed the experimental tags on all entities.",
+        "Fixed a bug that raised an exception when listing databases and schemas.",
+        "Initial public preview release.",
+        "Added support for Python 3.11.",
+        "Updated the dependency on snowflake-snowpark-python to 1.5.0.",
+        "Removed the Pydantic types from the model class.",
+        "Renamed exception class names in snowflake.core.exceptions.",
+        "Fixed a bug that raised an exception when listing some entities that have non-alphanumeric characters in the names.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

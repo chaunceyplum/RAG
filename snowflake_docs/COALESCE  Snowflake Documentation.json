@@ -1,0 +1,16 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/coalesce",
+    "title": "COALESCE | Snowflake Documentation",
+    "paragraphs": [
+        "Conditional expression functions",
+        "Returns the first non-NULL expression among its arguments, or NULL if\nall its arguments are NULL.",
+        "If possible, pass in arguments of the same type. Avoid passing in arguments of different types.",
+        "If one of the arguments is a number, the function coerces non-numeric string arguments\n(for example, 'a string') and string arguments that aren\u2019t constants to the type NUMBER(18,5).",
+        "For numeric string arguments that aren\u2019t constants, if NUMBER(18,5) isn\u2019t sufficient to represent the numeric value, then\ncast the argument to a type that can represent the value.",
+        "The collation specifications of all input arguments must be compatible.",
+        "The comparisons follow the collation based on the input arguments\u2019 collations and precedences.",
+        "The collation of the result of the function is the highest-precedence collation of the inputs.",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

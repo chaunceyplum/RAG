@@ -1,0 +1,26 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowflake-scripting/running-examples",
+    "title": "Using Snowflake Scripting in SnowSQL, the Classic Console, and Python Connector | Snowflake Documentation",
+    "paragraphs": [
+        "This topic explains how to run the Snowflake Scripting examples in SnowSQL,\nthe Classic Console, and the Python Connector.",
+        "Note",
+        "If you are using other clients and interfaces (e.g. Snowsight or the\nJDBC driver), you can skip this topic and refer to\nSnowflake Scripting blocks.",
+        "Currently, the following interfaces do not correctly parse Snowflake Scripting blocks:",
+        "SnowSQL",
+        "Classic Console",
+        "The execute_stream() and execute_string() methods in\nPython Connector code",
+        "Note",
+        "The other Python Connector methods parse Snowflake Scripting blocks correctly.",
+        "Entering and running a Snowflake Scripting block can result in the following error:",
+        "To work around this, use delimiters around the start and end of a Snowflake Scripting block if you are using\nthese interfaces.",
+        "The following sections explain how to do this:",
+        "Using string constant delimiters around a block in a stored procedure",
+        "Passing a block as a string literal to EXECUTE IMMEDIATE",
+        "If you are creating a stored procedure, enclose the Snowflake Scripting block in\nsingle quotes or double dollar signs. For example:",
+        "If you are writing an anonymous block, pass the block as a string literal to the\nEXECUTE IMMEDIATE command. To delimit the string literal, use\nsingle quotes or double dollar signs.",
+        "For example:",
+        "As an alternative, you can define a session variable that is a string literal\ncontaining the block, and you can pass that session variable to the EXECUTE IMMEDIATE command. For example:",
+        "Was this page helpful?",
+        "On this page"
+    ]
+}

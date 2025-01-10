@@ -1,0 +1,15 @@
+{
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/h3_string_to_int",
+    "title": "H3_STRING_TO_INT | Snowflake Documentation",
+    "paragraphs": [
+        "Geospatial functions",
+        "Converts an H3 cell ID in hexadecimal format to an INTEGER value.",
+        "H3_INT_TO_STRING",
+        "A VARCHAR that represents the cell ID (index) in hexadecimal format.",
+        "Returns an INTEGER value that represents the H3 cell ID.",
+        "The following example converts an H3 cell ID from hexadecimal format to an INTEGER value.",
+        "Was this page helpful?",
+        "On this page",
+        "Related content"
+    ]
+}

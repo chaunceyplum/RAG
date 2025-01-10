@@ -1,0 +1,18 @@
+{
+    "url": "https://docs.snowflake.com/en/developer-guide/snowpark/reference/python/1.26.0/modin/pandas_api/modin.pandas.Series.drop_duplicates",
+    "title": "modin.pandas.Series.drop_duplicates | Snowflake Documentation",
+    "paragraphs": [
+        "Return Series with duplicate values removed.",
+        "keep ({'first', 'last', False}, default 'first') \u2013 Method to handle dropping duplicates:\n\u2018first\u2019 : Drop duplicates except for the first occurrence.\n\u2018last\u2019 : Drop duplicates except for the last occurrence.\nFalse : Drop all duplicates.",
+        "inplace (bool, default False) \u2013 If True, performs operation inplace and returns None.",
+        "ignore_index (bool, default False) \u2013 If True, the resulting axis will be labeled 0, 1, \u2026, n - 1.",
+        "Series with duplicates dropped or None if inplace=True.",
+        "Series or None",
+        "Examples",
+        "Generate a Series with duplicated entries.",
+        "With the \u2018keep\u2019 parameter, the selection behaviour of duplicated values can be changed. The value \u2018first\u2019 keeps the first occurrence for each set of duplicated entries. The default value of keep is \u2018first\u2019.",
+        "The value \u2018last\u2019 for parameter \u2018keep\u2019 keeps the last occurrence for each set of duplicated entries.",
+        "The value False for parameter \u2018keep\u2019 discards all sets of duplicated entries.",
+        "Was this page helpful?"
+    ]
+}
